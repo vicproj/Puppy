@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: 2.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-07-19 14:23-0300\n"
-"PO-Revision-Date: 2013-07-22 21:36+0100\n"
+"PO-Revision-Date: 2013-07-22 22:59+0100\n"
 "Last-Translator: dekani\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -341,7 +341,7 @@ msgstr ""
 #: PupClockset-bin.sh:382
 #: Tint2Clockset.sh:103
 msgid "bold"
-msgstr "gras"
+msgstr ""
 
 #: PupClockset-bin.sh:207
 #: PupClockset-bin.sh:248
@@ -350,7 +350,7 @@ msgstr "gras"
 #: PupClockset-bin.sh:385
 #: Tint2Clockset.sh:106
 msgid "italic"
-msgstr "italique"
+msgstr ""
 
 #: PupClockset-bin.sh:214
 #: PupClockset-bin.sh:276
