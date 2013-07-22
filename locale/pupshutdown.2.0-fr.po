@@ -1,0 +1,635 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-22 18:51+0800\n"
+"PO-Revision-Date: 2013-07-23 00:13+0100\n"
+"Last-Translator: dekani\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: PSD-bin:89
+msgid "170"
+msgstr ""
+
+#: PSD-bin:90
+msgid "215"
+msgstr ""
+
+#: PSD-bin:91
+msgid "210"
+msgstr ""
+
+#: PSD-bin:92
+msgid "205"
+msgstr ""
+
+#: PSD-bin:93
+msgid "200"
+msgstr ""
+
+#: PSD-bin:94
+msgid "195"
+msgstr ""
+
+#: PSD-bin:95
+msgid "190"
+msgstr ""
+
+#: PSD-bin:96
+msgid "185"
+msgstr ""
+
+#: PSD-bin:97
+msgid "180"
+msgstr ""
+
+#: PSD-bin:103
+msgid "Go to suspend dialog"
+msgstr "Aller à la boîte de dialogue de suspension"
+
+#: PSD-bin:114
+msgid "Select alternate window manager"
+msgstr "Choisir le gestionnaire de fenêtre alternatif"
+
+#: PSD-bin:122
+msgid "View system information"
+msgstr "Afficher informations systèmes"
+
+#: PSD-bin:130
+msgid "Return to PupMenu"
+msgstr "Retourner vers PupMenu"
+
+#: PSD-bin:132
+msgid "Close PupShutdown"
+msgstr "Fermer PupShutdown"
+
+#: PSD-bin:138
+#: PSD-bin:146
+msgid "_Power-Off"
+msgstr "_Eteindre"
+
+#: PSD-bin:139
+#: PSD-bin:147
+msgid "_Reboot"
+msgstr "_Redémarrer"
+
+#: PSD-bin:140
+#: PSD-bin:148
+msgid "_Log-Out"
+msgstr "_Déconnecter"
+
+#: PSD-bin:141
+#: PSD-bin:149
+msgid "Lock _Screen"
+msgstr "_Ecran Verrouillage"
+
+#: PSD-bin:142
+#: PSD-bin:150
+msgid "Restart _X"
+msgstr "Redémarrer _X"
+
+#: PSD-bin:143
+#: PSD-bin:151
+msgid "Restart _WM"
+msgstr "Redémarrer _WM"
+
+#: PSD-bin:144
+#: PSD-bin:152
+msgid "Manage _Task"
+msgstr "Gestionnaire _Tâche"
+
+#: PSD-bin:145
+#: PSD-bin:153
+msgid "Backup _Files"
+msgstr "Archiver _Fichiers"
+
+#: PSD-bin:165
+msgid "PupShutdown"
+msgstr ""
+
+#: PSD-bin:167
+msgid "Install"
+msgstr "Installer"
+
+#: PSD-bin:168
+msgid "Install PupControl Panel"
+msgstr "Installer le panneau PupControl"
+
+#: PSD-bin:170
+msgid ""
+"The PupControl Panel is an add-on module. Please  \n"
+"  install for seamless integration with PupShutdown."
+msgstr ""
+"Le panneau PupControl est une extension. Veuillez \n"
+"  l'installer pour une intégration avec PupShutdown."
+
+#: PSD-bin:175
+msgid ""
+"Go to download site \n"
+"   in default browser"
+msgstr ""
+"Aller vers le site de téléchargement \n"
+"  dans le navigateur par défaut"
+
+#: PSD-bin:177
+msgid "Download"
+msgstr "Télécharger"
+
+#: PSD-bin:183
+msgid "Exit without installing"
+msgstr "Quitter sans installer"
+
+#: PSD-bin:184
+#: PSD-bin:307
+#: PSD-bin:342
+msgid "Cancel"
+msgstr "Annuler"
+
+#: PSD-bin:203
+#: PSD-bin:628
+#: PSD-pref:86
+msgid "Preferences"
+msgstr "Préférences"
+
+#: PSD-bin:205
+msgid "Create a New Logo"
+msgstr "Crééer un Nouveau Logo"
+
+#: PSD-bin:207
+msgid ""
+"Any bitmap editor can be used to format a new logo graphic, but mtPaint is easy to use and is included with most Puppy derivatives. The Template.png image included with PSD (PupShutdown) has a 72-pixel vertical dimension and will easily accommodate standard 64-pixel graphics.\n"
+"\n"
+"Note: All PSD graphics are in /usr/local/PupShutdown/logos/\n"
+"\n"
+"<b>mtPaint Instructions:</b>\n"
+"\n"
+"1 - File->Open -- select a 64-pixel graphic for the logo\n"
+"2 - Selection->Select All -- places focus on the graphic\n"
+"3 - Edit->Copy -- copies graphic to the mtPaint clipboard\n"
+"4 - File->Open -- select the PupShutdown Template.png\n"
+"5 - Edit->Paste to centre -- centers graphic in the template\n"
+"6 - With your mouse -- right-click the pasted center graphic\n"
+"7 - Selection->Select All -- places focus on the new logo\n"
+"8 - File->Save As -- name the new logo.png and save"
+msgstr ""
+"Tout éditeur de dessin peut être utilisé pour formater un nouveau logo graphique, mais mtPaint est facile à utiliser et est inclus dans la plupart des dérivés Puppy. L'image Template.png inclue avec PSD (PupShutdown) a comme dimension verticale 72 pixels et peut être facilement être étendue vers un graphique de 64 pixels. \n"
+"\n"
+"Note: Tous les graphiques PSD sont dans /usr/local/PupShutdown/logos/\n"
+"\n"
+"<b>Instructions mtPaint :</b>\n"
+"\n"
+"1 - Fichier->Ouvrir -- choisir un graphique 64 pixels pour le logo\n"
+"2 - Sélection->Tout Sélectionner -- place le focus sur le graphique\n"
+"3 - Editer->Copier -- copie le graphique vers le presse-papier mtPaint \n"
+"4 - Fichier->Ouvrir -- choisir le modèle PupShutdown Template.png\n"
+"5 - Editer->Coller vers le centre -- centre le graphique dans le modèle\n"
+"6 - Avec votre souris -- clic droit pour coller le graphique centré \n"
+"7 - Sélection->Tout Sélectionner -- place le focus sur le nouveau logo\n"
+"8 - Fichier->Sauvegarder Sous -- Nommer le nouveau logo.png et sauvegarder le"
+
+#: PSD-bin:223
+msgid "Return to main Preferences dialog"
+msgstr "Retourner à la boîte de dialogue de préférences principale"
+
+#: PSD-bin:224
+#: PSD-bin:273
+#: PSD-bin:384
+#: PSD-bin:444
+msgid "Exit"
+msgstr "Quitter"
+
+#: PSD-bin:250
+msgid ""
+"PupShutdown permits menu-like access to   \n"
+"   sixteen functions and utilities that one may   \n"
+"   find helpful when closing the Puppy session.  \n"
+"   Backup and task manager selections in the   \n"
+"   main menu now offer alternative programs,   \n"
+"   for greater versatility at shutdown, and the\n"
+"   appearance of the PSD GUI can be changed   \n"
+"   quickly to match a favorite Puppy theme.   \n"
+"\n"
+"    Quick program access is by Ctrl+Shift+X.   \n"
+"\n"
+"       Roger D. Grider, Copyright 2013 GPL3"
+msgstr ""
+"PupShutdown permet, sous la forme d'un \n"
+"   menu d'accèder à seize fonctionnalités et \n"
+"   utilitaires que tout le monde peut trouver \n"
+"   utile pour fermer une session Puppy.  \n"
+"   Sélectionner l'archivage ou le gestionnaire \n"
+"   de tâches dans le menu principal offre \n"
+"   maintenant des programmes alternatifs \n"
+"   pour une meilleure polyvalence lors de l'arrêt, \n"
+"   et  l'apparence de la GUI de PSD peut être \n"
+"   modifiée rapidement pour mieux correspondre \n"
+"   à votre thème favori Puppy. \n"
+"\n"
+"    Accès rapide au programme: Ctrl+Shift+X. \n"
+"\n"
+"       Roger D. Grider, Copyright 2013 GPL3"
+
+#: PSD-bin:265
+msgid "Open help file in default browser"
+msgstr "Ouvrir le fichier d'aide dans le navigateur par défaut"
+
+#: PSD-bin:266
+#: PSD-bin:362
+#: PSD-bin:379
+#: PSD-bin:439
+msgid "Help"
+msgstr "Aide"
+
+#: PSD-bin:272
+#: PSD-bin:383
+msgid "Close help dialog"
+msgstr "Fermer la boîte de dialogue Aide"
+
+#: PSD-bin:294
+#: PSD-bin:300
+msgid "Power-Off"
+msgstr "Eteindre"
+
+#: PSD-bin:295
+msgid ""
+"If you remove CD/DVD media from an optical drive,\n"
+"please do so before selecting the Power-Off option."
+msgstr ""
+"Si vous retirez un média CD/DVD du lecteur optique, \n"
+"veuillez le faire avant d'avoir choisi l'option Arrêter."
+
+#: PSD-bin:299
+#: PSD-bin:469
+msgid "Turn off PC"
+msgstr "Eteindre le PC"
+
+#: PSD-bin:306
+#: PSD-bin:341
+msgid "Return to Main menu"
+msgstr "Retourner au menu principal"
+
+#: PSD-bin:329
+#: PSD-bin:335
+msgid "Reboot"
+msgstr "Redémarrer"
+
+#: PSD-bin:330
+msgid ""
+"If you remove CD/DVD media from an optical drive,\n"
+"please do so before selecting the Reboot option."
+msgstr ""
+"Si vous retirez un média CD/DVD du lecteur optique, \n"
+"veuillez le faire avant d'avoir choisi l'option Redémarrer."
+
+#: PSD-bin:334
+#: PSD-bin:500
+msgid "Restart PC"
+msgstr "Redémarrer le PC"
+
+#: PSD-bin:364
+msgid "Acpitool Options"
+msgstr "Options Acpitool"
+
+#: PSD-bin:365
+msgid ""
+"In PupShutdown the acpitool utility mediates the options for  \n"
+"  suspend-to-ram (standby) and suspend-to-disk (hibernation). \n"
+"  Both options entail ACPI compliant notebooks, and a Puppy  \n"
+"  Linux kernel compiled with essential support. <i>Caveat emptor:</i>\n"
+"  Kernel support for hibernation is not yet the Puppy standard.\n"
+"  If unsupported, PupShutdown will hide the Hibernate option.\n"
+"\n"
+"  Please select the <i>Standby</i> option to suspend-to-ram, or the  \n"
+"  <i>Hibernate</i> option to suspend-to-disk, or <i>Status</i> to view stats  \n"
+"  of the battery, CPU, fan and thermal state of the notebook."
+msgstr ""
+"Dans PupShutdown, l'utilitaire acpitool sert d'intermédiaire pour \n"
+"  la supsension en ram (en attente) et la suspension sur disque \n"
+"  (hibernation)  Les deux options se doivent d'être conforme ACPI \n"
+"  pour les netbooks, et avec une version du noyau Linux Puppy \n"
+"  compilée avec le support essentiel.<i>Avertissement à l'acheteur:</i> \n"
+"  Le support de l'hibernation par le noyau n'est pas encore le standard \n"
+"  puppy. Si non supporté PupShutdown cachera l'option Hiberner.\n"
+"\n"
+"  Veuillez choisir l'option <i>En attente</i> pour suspendre en ram, ou \n"
+"  l'option <i>Hiberner</i> pour suspendre vers le disque, ou <i>Status</i> pour \n"
+"  voir les statistiques de la batterie, CPU, ventilateur et sonde thermique \n"
+"  du netbook."
+
+#: PSD-bin:378
+msgid "View Acpitool help in default browser"
+msgstr "Afficher l'aide Acpitool dans le navigateur par défaut"
+
+#: PSD-bin:406
+msgid "Suspend to Disk"
+msgstr "Suspendre vers le disque"
+
+#: PSD-bin:407
+msgid "Hibernate"
+msgstr "Hiberner"
+
+#: PSD-bin:419
+msgid "Suspend to RAM"
+msgstr "Suspendre en RAM"
+
+#: PSD-bin:420
+msgid "Standby"
+msgstr "En attente"
+
+#: PSD-bin:429
+msgid "View Acpitool system information"
+msgstr "Voir les informations systèmes Acpitool "
+
+#: PSD-bin:430
+msgid "Status"
+msgstr "Statut"
+
+#: PSD-bin:432
+msgid "Acpitool-System-Information"
+msgstr "Voir les informations systèmes Acpitool "
+
+#: PSD-bin:438
+msgid "Acpitool suspend options"
+msgstr "Options de supsension Acpitool"
+
+#: PSD-bin:443
+msgid "Return to PupShutdown"
+msgstr "Retourner vers PupShutdown"
+
+#: PSD-bin:463
+#: PSD-apps:91
+msgid "Options"
+msgstr "Options"
+
+#: PSD-bin:485
+msgid "Restart X-server"
+msgstr "Redémarrer le serveur X"
+
+#: PSD-bin:516
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: PSD-bin:531
+msgid "Exit to command prompt"
+msgstr "Quitter vers la ligne de commande"
+
+#: PSD-bin:547
+msgid "Manage system task with"
+msgstr "Gèrer les tâches systèmes avec"
+
+#: PSD-bin:562
+msgid "Lock PC screen with password"
+msgstr "Verrouiller l'écran du PC par mot de passe"
+
+#: PSD-bin:577
+msgid "Backup files with"
+msgstr "Archiver les fichiers avec"
+
+#: PSD-bin:591
+msgid "Mount/Unmount drives"
+msgstr "Monter/Démonter disques"
+
+#: PSD-bin:596
+msgid "Resize personal storage file"
+msgstr "Redimensionner le fichier de stockage personnel"
+
+#: PSD-bin:601
+msgid "Copy drive, partition or image-file"
+msgstr "Copier disque, partition ou fichier image"
+
+#: PSD-bin:606
+msgid "Manage drive partitions"
+msgstr "Gérer partitions disques"
+
+#: PSD-bin:611
+msgid "Manage system events"
+msgstr "Gérer évènements systèmes"
+
+#: PSD-bin:616
+msgid "Manage boot configuration"
+msgstr "Gérer la configuration de démarrage"
+
+#: PSD-bin:623
+msgid "Control Panel"
+msgstr "Panneau de Configuration"
+
+#: PSD-pref:50
+#: PSD-pref:53
+msgid "normal"
+msgstr ""
+
+#: PSD-pref:50
+msgid "bold"
+msgstr ""
+
+#: PSD-pref:53
+msgid "italic"
+msgstr ""
+
+#: PSD-pref:72
+msgid "Click the color selector button"
+msgstr "Cliquer sur le bouton sélecteur de couleurs"
+
+#: PSD-pref:77
+msgid "PupShutdown Color Selector"
+msgstr "Sélecteur de couleurs PupShutdown"
+
+#: PSD-pref:77
+msgid "Color selector"
+msgstr "Sélecteur de couleurs"
+
+#: PSD-pref:89
+msgid "Label"
+msgstr "Libellé"
+
+#: PSD-pref:92
+#: PSD-pref:113
+msgid "Name:"
+msgstr "Nom:"
+
+#: PSD-pref:101
+msgid "Graphic:"
+msgstr "Graphique:"
+
+#: PSD-pref:111
+msgid "Font"
+msgstr "Police"
+
+#: PSD-pref:122
+msgid "Size:"
+msgstr "Taille:"
+
+#: PSD-pref:131
+msgid "Weight:"
+msgstr "Epaisseur:"
+
+#: PSD-pref:140
+msgid "Style:"
+msgstr "Style:"
+
+#: PSD-pref:154
+msgid "PupShutdown Help"
+msgstr "Aide PupShutdown"
+
+#: PSD-pref:159
+msgid "Preview fonts"
+msgstr "Prévisualisation polices"
+
+#: PSD-pref:164
+msgid "View logo graphics"
+msgstr "Afficher logos graphiques"
+
+#: PSD-pref:169
+msgid "Create a new logo"
+msgstr "Crééer un nouveau logo"
+
+#: PSD-pref:176
+msgid "Configuration options"
+msgstr "Options de la configuration"
+
+#: PSD-pref:182
+msgid "Save changes and exit"
+msgstr "Sauvegarder les modifications et quitter"
+
+#: PSD-pref:188
+#: PSD-apps:171
+msgid "Exit without saving"
+msgstr "Quitter sans sauvegarder"
+
+#: PupShutdown:32
+msgid ""
+"Another instance of PupShutdown will not  \\n"
+"  run when the Preferences dialog is active."
+msgstr "Une autre instance de PupShutdown ne sera pas \\ lancée si la boîte de dialogue Préférences est active."
+
+#: PupShutdown:37
+msgid "PupShutdown is already active."
+msgstr "PupShutdown est déjà actif."
+
+#: PSD-apps:73
+msgid "yes"
+msgstr "oui"
+
+#: PSD-apps:73
+msgid "no"
+msgstr "no"
+
+#: PSD-apps:80
+msgid "Set Ctrl+Shift+X hotkey"
+msgstr "Activer raccourci Ctrl+Shift+X"
+
+#: PSD-apps:81
+msgid "_H-key"
+msgstr "_Raccourci"
+
+#: PSD-apps:89
+msgid "Configuration"
+msgstr ""
+
+#: PSD-apps:92
+msgid "Label | Logo | Font Attributes | Save/Exit"
+msgstr "Libellé | Logo | Attributs Police | Sauvegarder/Quitter"
+
+#: PSD-apps:95
+msgid ""
+"Valid names should be selected for the label with no  \n"
+"  blank, incomplete or misspelled items. One or more  \n"
+"  appropriate names (descriptors and a base name),  \n"
+"  and the version number, can be entered to further  \n"
+"  personalize each of your Puppy Linux derivatives."
+msgstr ""
+"Les noms valides doivent être choisis pour le label sans \n"
+"  vide, caractères incomplets ou mal orthographiés. Un \n"
+"  nom ou plus, approprié, (descripteur et base de nom), \n"
+"  et le numéro de version, peuvent être saisis pour \n"
+"  personnaliser un peu plus chacune de vos dérivés \n"
+"  de Puppy Linux."
+
+#: PSD-apps:105
+msgid ""
+"The default Shutdown.png graphic can be replaced  \n"
+"  by optional 64-pixel graphics which are available in  \n"
+"  the accessory Logo-addon.pet. You may also add  \n"
+"  diversity to PupShutdown by placing any graphics  \n"
+"  of proper size in /usr/local/PupShutdown/logos/."
+msgstr ""
+"Le graphique Shutdown.png, par défaut, peut être \n"
+"  remplacé par un graphique optionnel de 64 px. qui \n"
+"  est disponible dans l'accessoire Logo-addon.pet. \n"
+"  Vous pouvez ajouter de la diversité à PSD en plaçant \n"
+"  tout graphique dans /usr/local/PupShutdown/logos/."
+
+#: PSD-apps:115
+msgid ""
+"Change title text attributes by selecting new values  \n"
+"  for the font name, size, weight, style and color. The  \n"
+"  font name list updates whenever the Preferences  \n"
+"  menu is opened. The font color selector provides  \n"
+"  access to unlimited colors in hexadecimal format."
+msgstr ""
+"Modifier les attributs texte du titre par de nouvelles \n"
+"  valeurs pour le nom, taille, épaisseur, style et couleur \n"
+"  de la fonte. La liste des noms de police se met à jour \n"
+"  même si le menu préférences est ouvert. Le sélecteur \n"
+"  de couleur pour la fonte fournit un accès à un \n"
+"  nombre illimité de couleurs au format hexadécimal. "
+
+#: PSD-apps:125
+msgid ""
+"The Save/Exit option closes the Preferences menu  \n"
+"  and applies the new configuration selections to the  \n"
+"  PSD interface. If an entry box is blank when closing  \n"
+"  the Preferences menu, an alert will prompt you for  \n"
+"  the information, then return you back to the menu."
+msgstr ""
+"L'option Sauvegarder/Quitter ferme le menu Préférences \n"
+"  et applique la nouvelle configuration à l'interface PSD. \n"
+"  Si une boîte de saisie est vide lors de la fermeture \n"
+"  du menu Préférences, une alerte sera affichée pour \n"
+"  information, puis vous renverra au menu."
+
+#: PSD-apps:135
+msgid "Default Options"
+msgstr "Options par défaut"
+
+#: PSD-apps:137
+msgid "Backup Files:"
+msgstr "Archiver fichiers:"
+
+#: PSD-apps:145
+msgid "Manage Task:"
+msgstr "Gérer tâches:"
+
+#: PSD-apps:146
+msgid "Process/Task Manager"
+msgstr "Gestionnaire Processus/Tâche"
+
+#: PSD-apps:153
+msgid "Shutdown Dialog:"
+msgstr "Boîte de dialogue Arrêt:"
+
+#: PSD-apps:154
+msgid "Show the Remove-CD dialog at shutdown"
+msgstr "Afficher la boîte de dialogue Retirer le CD lors de l'arrêt"
+
+#: PSD-apps:165
+msgid "Save default options"
+msgstr "Sauvegarder les options par défaut"
+
+#: PSD-apps:166
+msgid "_Save"
+msgstr "_Sauver"
+
+#: PSD-apps:172
+msgid "_Exit"
+msgstr "_Quitter"
+
