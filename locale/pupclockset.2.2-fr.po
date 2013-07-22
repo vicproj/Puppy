@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 2.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-19 14:23-0300\n"
+"PO-Revision-Date: 2013-07-22 21:36+0100\n"
+"Last-Translator: dekani\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: func.sh:272
+msgid ""
+"PupClockset does not support this \\n"
+" clock and/or desktop environment."
+msgstr ""
+"PupClockset ne supporte pas cette \\n"
+" horloge et/ou l'environnement du bureau."
+
+#: func.sh:297
+msgid "Psync is not available."
+msgstr "Psync n'est pas disponible."
+
+#: PupClockset-bin.sh:88
+msgid "75"
+msgstr ""
+
+#: PupClockset-bin.sh:88
+msgid "142"
+msgstr ""
+
+#: PupClockset-bin.sh:88
+#: Tint2Clockset.sh:75
+msgid "305"
+msgstr ""
+
+#: PupClockset-bin.sh:89
+msgid "71"
+msgstr ""
+
+#: PupClockset-bin.sh:89
+msgid "132"
+msgstr ""
+
+#: PupClockset-bin.sh:89
+#: Tint2Clockset.sh:76
+msgid "285"
+msgstr ""
+
+#: PupClockset-bin.sh:90
+#: PupClockset-bin.sh:92
+msgid "67"
+msgstr ""
+
+#: PupClockset-bin.sh:90
+#: PupClockset-bin.sh:92
+msgid "126"
+msgstr ""
+
+#: PupClockset-bin.sh:90
+#: PupClockset-bin.sh:92
+msgid "273"
+msgstr ""
+
+#: PupClockset-bin.sh:91
+#: PupClockset-bin.sh:103
+#: PupClockset-bin.sh:115
+#: Tint2Clockset.sh:68
+msgid "64"
+msgstr ""
+
+#: PupClockset-bin.sh:91
+msgid "121"
+msgstr ""
+
+#: PupClockset-bin.sh:91
+#: PupClockset-bin.sh:104
+#: PupClockset-bin.sh:116
+msgid "263"
+msgstr ""
+
+#: PupClockset-bin.sh:95
+#: Tint2Clockset.sh:60
+msgid "84"
+msgstr ""
+
+#: PupClockset-bin.sh:95
+#: PupClockset-bin.sh:111
+msgid "170"
+msgstr ""
+
+#: PupClockset-bin.sh:95
+msgid "363"
+msgstr ""
+
+#: PupClockset-bin.sh:96
+#: Tint2Clockset.sh:62
+msgid "78"
+msgstr ""
+
+#: PupClockset-bin.sh:96
+msgid "155"
+msgstr ""
+
+#: PupClockset-bin.sh:96
+msgid "333"
+msgstr ""
+
+#: PupClockset-bin.sh:97
+#: PupClockset-bin.sh:98
+#: PupClockset-bin.sh:111
+#: Tint2Clockset.sh:64
+msgid "74"
+msgstr ""
+
+#: PupClockset-bin.sh:97
+#: PupClockset-bin.sh:98
+msgid "145"
+msgstr ""
+
+#: PupClockset-bin.sh:97
+#: PupClockset-bin.sh:98
+msgid "313"
+msgstr ""
+
+#: PupClockset-bin.sh:102
+#: PupClockset-bin.sh:114
+#: Tint2Clockset.sh:67
+msgid "66"
+msgstr ""
+
+#: PupClockset-bin.sh:102
+#: PupClockset-bin.sh:114
+msgid "140"
+msgstr ""
+
+#: PupClockset-bin.sh:102
+#: PupClockset-bin.sh:114
+msgid "303"
+msgstr ""
+
+#: PupClockset-bin.sh:103
+#: PupClockset-bin.sh:115
+msgid "129"
+msgstr ""
+
+#: PupClockset-bin.sh:103
+#: PupClockset-bin.sh:115
+msgid "281"
+msgstr ""
+
+#: PupClockset-bin.sh:104
+#: PupClockset-bin.sh:116
+#: Tint2Clockset.sh:69
+msgid "62"
+msgstr ""
+
+#: PupClockset-bin.sh:104
+#: PupClockset-bin.sh:116
+msgid "120"
+msgstr ""
+
+#: PupClockset-bin.sh:105
+#: PupClockset-bin.sh:117
+#: Tint2Clockset.sh:70
+msgid "60"
+msgstr ""
+
+#: PupClockset-bin.sh:105
+#: PupClockset-bin.sh:117
+msgid "117"
+msgstr ""
+
+#: PupClockset-bin.sh:105
+#: PupClockset-bin.sh:117
+msgid "256"
+msgstr ""
+
+#: PupClockset-bin.sh:106
+msgid "58"
+msgstr ""
+
+#: PupClockset-bin.sh:106
+msgid "114"
+msgstr ""
+
+#: PupClockset-bin.sh:106
+msgid "252"
+msgstr ""
+
+#: PupClockset-bin.sh:107
+msgid "57"
+msgstr ""
+
+#: PupClockset-bin.sh:107
+msgid "113"
+msgstr ""
+
+#: PupClockset-bin.sh:107
+msgid "248"
+msgstr ""
+
+#: PupClockset-bin.sh:108
+msgid "54"
+msgstr ""
+
+#: PupClockset-bin.sh:108
+msgid "110"
+msgstr ""
+
+#: PupClockset-bin.sh:108
+msgid "243"
+msgstr ""
+
+#: PupClockset-bin.sh:111
+msgid "364"
+msgstr ""
+
+#: PupClockset-bin.sh:112
+#: Tint2Clockset.sh:65
+msgid "70"
+msgstr ""
+
+#: PupClockset-bin.sh:112
+msgid "161"
+msgstr ""
+
+#: PupClockset-bin.sh:112
+msgid "345"
+msgstr ""
+
+#: PupClockset-bin.sh:113
+#: Tint2Clockset.sh:66
+msgid "68"
+msgstr ""
+
+#: PupClockset-bin.sh:113
+msgid "147"
+msgstr ""
+
+#: PupClockset-bin.sh:113
+msgid "316"
+msgstr ""
+
+#: PupClockset-bin.sh:125
+msgid ""
+"PupClockset does not \\n"
+" support the Mate clock."
+msgstr ""
+"PupClockset ne supporte \\n"
+" pas l'horloge Mate."
+
+#: PupClockset-bin.sh:126
+msgid ""
+"PupClockset does not \\n"
+" support the Cinnamon clock."
+msgstr ""
+"PupClockset ne supporte \\n"
+" pas l'horloge Cinnamon."
+
+#: PupClockset-bin.sh:127
+msgid ""
+"PupClockset does not \\n"
+" support the Kde clock."
+msgstr ""
+"PupClockset ne supporte \\n"
+" pas l'horloge Kde."
+
+#: PupClockset-bin.sh:128
+msgid ""
+"PupClockset does not support \\n"
+" the Enlightenment desktop clock."
+msgstr ""
+"PupClockset ne supporte \\n"
+" pas l'horloge Enlightenment."
+
+#: PupClockset-bin.sh:129
+msgid ""
+"PupClockset does not support \\n"
+" the desktop clock of Lxpanelx."
+msgstr ""
+"PupClockset ne supporte \\n"
+" pas l'horloge des bureaux Lxpanelx."
+
+#: PupClockset-bin.sh:130
+msgid ""
+"PupClockset is not recommended \\n"
+" for DuDE (Stardust environment)."
+msgstr ""
+"PupClockset n'est pas recommandé \\n"
+" pour DuDE (Environnement Stardust)."
+
+#: PupClockset-bin.sh:201
+msgid "xx-small"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+msgid "x-small"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+msgid "small"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+#: PupClockset-bin.sh:245
+#: PupClockset-bin.sh:266
+msgid "medium"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+msgid "large"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+msgid "x-large"
+msgstr ""
+
+#: PupClockset-bin.sh:201
+msgid "xx-large"
+msgstr ""
+
+#: PupClockset-bin.sh:204
+#: PupClockset-bin.sh:207
+#: PupClockset-bin.sh:307
+#: PupClockset-bin.sh:310
+#: PupClockset-bin.sh:344
+#: PupClockset-bin.sh:382
+#: PupClockset-bin.sh:385
+#: Tint2Clockset.sh:103
+#: Tint2Clockset.sh:106
+msgid "normal"
+msgstr ""
+
+#: PupClockset-bin.sh:204
+#: PupClockset-bin.sh:245
+#: PupClockset-bin.sh:266
+#: PupClockset-bin.sh:307
+#: PupClockset-bin.sh:344
+#: PupClockset-bin.sh:382
+#: Tint2Clockset.sh:103
+msgid "bold"
+msgstr "gras"
+
+#: PupClockset-bin.sh:207
+#: PupClockset-bin.sh:248
+#: PupClockset-bin.sh:269
+#: PupClockset-bin.sh:310
+#: PupClockset-bin.sh:385
+#: Tint2Clockset.sh:106
+msgid "italic"
+msgstr "italique"
+
+#: PupClockset-bin.sh:214
+#: PupClockset-bin.sh:276
+#: PupClockset-bin.sh:317
+#: PupClockset-bin.sh:351
+msgid ""
+"By default, a mouse-click of the tray clock will open \n"
+" PupClockset. If you prefer a small pop-up calendar, \n"
+" select Yes and click the Set button to use minixcal."
+msgstr ""
+"Par défaut, un clic de souris sur la barre de notification \n"
+" de l'horloge ouvrira PupClockset. Si vous préferez avoir \n"
+" un petit calendrier pop-up, sélectionner Oui et cliquer \n"
+" sur le bouton Ok pour utiliser minixcal."
+
+#: PupClockset-bin.sh:217
+#: PupClockset-bin.sh:279
+#: PupClockset-bin.sh:320
+#: PupClockset-bin.sh:354
+msgid "Yes"
+msgstr "Oui"
+
+#: PupClockset-bin.sh:248
+#: PupClockset-bin.sh:269
+msgid "roman"
+msgstr ""
+
+#: PupClockset-bin.sh:393
+#: PupClockset-bin.sh:408
+#: PupClockset-bin.sh:423
+#: PupClockset-bin.sh:438
+#: Tint2Clockset.sh:151
+msgid "Click the color selector button"
+msgstr "Cliquer sur le bouton sélecteur de couleurs"
+
+#: PupClockset-bin.sh:398
+#: PupClockset-bin.sh:413
+#: PupClockset-bin.sh:428
+#: PupClockset-bin.sh:443
+#: Tint2Clockset.sh:156
+msgid "PupClockset Color Selector"
+msgstr "Sélecteur de Couleurs PupClockset "
+
+#: PupClockset-bin.sh:398
+#: PupClockset-bin.sh:413
+#: PupClockset-bin.sh:428
+#: PupClockset-bin.sh:443
+#: Tint2Clockset.sh:156
+msgid "Color selector"
+msgstr "Sélecteur de couleurs"
+
+#: PupClockset-bin.sh:468
+#: PupClockset-bin.sh:598
+#: PupClockset-bin.sh:722
+#: PupClockset-bin.sh:847
+#: PupClockset-bin.sh:977
+#: PupClockset-bin.sh:1085
+msgid "Format"
+msgstr "Format"
+
+#: PupClockset-bin.sh:522
+#: PupClockset-bin.sh:652
+#: PupClockset-bin.sh:776
+#: PupClockset-bin.sh:901
+#: PupClockset-bin.sh:1031
+#: PupClockset-bin.sh:1139
+msgid "Custom Format"
+msgstr "Format personnalisé"
+
+#: PupClockset-bin.sh:524
+#: PupClockset-bin.sh:654
+#: PupClockset-bin.sh:778
+#: PupClockset-bin.sh:903
+#: PupClockset-bin.sh:1033
+#: PupClockset-bin.sh:1141
+msgid ""
+"Enter a valid personal strftime format. \n"
+" This will override the standard format \n"
+" selected in the preceding tab. Please \n"
+" note – this entry must remain blank if \n"
+" you prefer a format from the first tab."
+msgstr ""
+"Entrer un format perso  strftime valide. \n"
+" Celui-ci  écrasera  le  format  standard \n"
+" choisi dans l'onglet précédent. Veuillez \n"
+" noter - cette entrée doit rester vide si \n"
+" vous  préférez un  format  du  premier \n"
+" onglet."
+
+#: PupClockset-bin.sh:528
+#: PupClockset-bin.sh:658
+#: PupClockset-bin.sh:782
+#: PupClockset-bin.sh:907
+#: PupClockset-bin.sh:1037
+#: PupClockset-bin.sh:1145
+#: Tint2Clockset.sh:335
+msgid "Open strftime manual in default browser"
+msgstr "Ouvrir le manuel strftime dans le navigateur par défaut"
+
+#: PupClockset-bin.sh:538
+#: PupClockset-bin.sh:667
+#: PupClockset-bin.sh:792
+#: PupClockset-bin.sh:917
+#: PupClockset-bin.sh:1047
+#: PupClockset-bin.sh:1154
+msgid "Font"
+msgstr "Police"
+
+#: PupClockset-bin.sh:542
+#: PupClockset-bin.sh:671
+#: PupClockset-bin.sh:796
+#: PupClockset-bin.sh:921
+#: PupClockset-bin.sh:1158
+msgid "Name"
+msgstr "Nom"
+
+#: PupClockset-bin.sh:551
+#: PupClockset-bin.sh:680
+#: PupClockset-bin.sh:805
+#: PupClockset-bin.sh:930
+#: PupClockset-bin.sh:1050
+#: PupClockset-bin.sh:1167
+msgid "Size"
+msgstr "Taille"
+
+#: PupClockset-bin.sh:562
+#: PupClockset-bin.sh:691
+#: PupClockset-bin.sh:816
+#: PupClockset-bin.sh:941
+#: PupClockset-bin.sh:1059
+#: PupClockset-bin.sh:1178
+msgid "Weight"
+msgstr "Epaisseur"
+
+#: PupClockset-bin.sh:571
+#: PupClockset-bin.sh:700
+#: PupClockset-bin.sh:825
+#: PupClockset-bin.sh:950
+#: PupClockset-bin.sh:1187
+msgid "Style"
+msgstr "Style"
+
+#: PupClockset-bin.sh:581
+#: PupClockset-bin.sh:960
+#: PupClockset-bin.sh:1068
+#: PupClockset-bin.sh:1197
+msgid "Color"
+msgstr "Couleur"
+
+#: PupClockset-bin.sh:1213
+msgid "Clock | Options | Help"
+msgstr "Horloge | Options | Aide"
+
+#: PupClockset-bin.sh:1233
+#: Tint2Clockset.sh:350
+msgid "Ver. 2.2"
+msgstr ""
+
+#: PupClockset-bin.sh:1234
+msgid ""
+"A digital-tray clock will display the  \n"
+"  time and date in multiple formats  \n"
+"  based on standard, locale-specific  \n"
+"  strftime conversion specifications.  \n"
+"  PupClockset enables quick access  \n"
+"  to eight common displays of time  \n"
+"  and date in 12 and 24 hr formats."
+msgstr ""
+"Une horloge numérique de la zone \n"
+"  de notification affichera  heure et \n"
+"  date dans plusieurs formats basés \n"
+"  sur  les  spécifications  locales  de \n"
+"  conversion  strftime. PupClockset \n"
+"  fournit un accès rapide à 8 types\n"
+"  d'affichage  d'heure  et de date \n"
+"  aux formats 12 et 24hr."
+
+#: PupClockset-bin.sh:1245
+#: Tint2Clockset.sh:366
+msgid "Open help file in default browser"
+msgstr "Ouvrir le fichier d'aide dans le navigateur par défaut"
+
+#: PupClockset-bin.sh:1246
+msgid "_Help"
+msgstr "_Aide"
+
+#: PupClockset-bin.sh:1256
+msgid "Personal Organizer"
+msgstr "Organisateur Personnel"
+
+#: PupClockset-bin.sh:1257
+msgid "_Calendar"
+msgstr "_Calendrier"
+
+#: PupClockset-bin.sh:1265
+#: Tint2Clockset.sh:376
+msgid "Apply selected format"
+msgstr "Appliquer le format sélectionné"
+
+#: PupClockset-bin.sh:1266
+msgid "_Set"
+msgstr "_Ok"
+
+#: PupClockset-bin.sh:1272
+msgid "Set date and time"
+msgstr "Préciser date et heure"
+
+#: PupClockset-bin.sh:1273
+msgid "_Time"
+msgstr "_Heure"
+
+#: PupClockset-bin.sh:1277
+#: Tint2Clockset.sh:394
+msgid "Sync clock with time servers"
+msgstr "Sync. de l'horloge avec les serveurs de temps"
+
+#: PupClockset-bin.sh:1278
+msgid "Sy_nc"
+msgstr "Sy_nc"
+
+#: PupClockset-bin.sh:1282
+#: Tint2Clockset.sh:399
+msgid "Close PupClockset"
+msgstr "Fermer PupClockset"
+
+#: PupClockset-bin.sh:1283
+msgid "_Exit"
+msgstr "_Quitte"
+
+#: PupClockset.sh:21
+#: PupClockset.sh:36
+msgid "PupClockset is already active."
+msgstr "PupClockset est déjà actif."
+
+#: Tint2Clockset.sh:57
+msgid "90"
+msgstr ""
+
+#: Tint2Clockset.sh:58
+msgid "88"
+msgstr ""
+
+#: Tint2Clockset.sh:59
+msgid "86"
+msgstr ""
+
+#: Tint2Clockset.sh:61
+msgid "82"
+msgstr ""
+
+#: Tint2Clockset.sh:63
+msgid "76"
+msgstr ""
+
+#: Tint2Clockset.sh:74
+msgid "315"
+msgstr ""
+
+#: Tint2Clockset.sh:77
+msgid "280"
+msgstr ""
+
+#: Tint2Clockset.sh:78
+msgid "265"
+msgstr ""
+
+#: Tint2Clockset.sh:79
+msgid "245"
+msgstr ""
+
+#: Tint2Clockset.sh:80
+msgid "240"
+msgstr ""
+
+#: Tint2Clockset.sh:167
+msgid "Tint2 Clock Display | Tint2 Clock Settings | Help"
+msgstr "Affichage Horlorge Tint2 | Paramètres Horloge Tint2 | Aide"
+
+#: Tint2Clockset.sh:170
+msgid "Clock 1"
+msgstr "Horloge 1"
+
+#: Tint2Clockset.sh:172
+#: Tint2Clockset.sh:219
+msgid "Time Format:"
+msgstr "Format Heure:"
+
+#: Tint2Clockset.sh:173
+msgid "Time/Date format of upper clock"
+msgstr "Format d'heure/date de l'horloge supérieure"
+
+#: Tint2Clockset.sh:181
+#: Tint2Clockset.sh:228
+msgid "Font Name:"
+msgstr "Nom Police :"
+
+#: Tint2Clockset.sh:182
+msgid "Font of upper clock"
+msgstr "Police de l'horloge supérieure"
+
+#: Tint2Clockset.sh:190
+#: Tint2Clockset.sh:237
+msgid "Font Size:"
+msgstr "Taille Police:"
+
+#: Tint2Clockset.sh:191
+msgid "Font size of upper clock"
+msgstr "Taille de la police de l'horloge supérieure"
+
+#: Tint2Clockset.sh:199
+msgid "Font Weight:"
+msgstr "Epaisseur Police:"
+
+#: Tint2Clockset.sh:200
+msgid "Font weight of upper clock"
+msgstr "Epaisseur de la police de l'horloge supérieure"
+
+#: Tint2Clockset.sh:208
+msgid "Font Style:"
+msgstr "Style Police:"
+
+#: Tint2Clockset.sh:209
+msgid "Font style of upper clock"
+msgstr "Style de la police de l'horloge supérieure"
+
+#: Tint2Clockset.sh:217
+msgid "Clock 2"
+msgstr "Horloge 2"
+
+#: Tint2Clockset.sh:220
+msgid "Time/Date format of lower clock"
+msgstr "Format d'heure/date de l'horloge inférieure"
+
+#: Tint2Clockset.sh:229
+msgid "Font of lower clock"
+msgstr "Police de l'horloge inférieure"
+
+#: Tint2Clockset.sh:238
+msgid "Font size of lower clock"
+msgstr "Taille de la police de l'horloge supérieure"
+
+#: Tint2Clockset.sh:246
+msgid "Font Color & Opacity"
+msgstr "Couleur & Opacité Police"
+
+#: Tint2Clockset.sh:250
+msgid "Font opacity"
+msgstr "Opacité Police"
+
+#: Tint2Clockset.sh:262
+msgid "Settings"
+msgstr "Paramètres"
+
+#: Tint2Clockset.sh:265
+msgid "Date Tooltip:"
+msgstr "Bulle d'Aide Date:"
+
+#: Tint2Clockset.sh:266
+msgid ""
+"Date format of clock tooltip \n"
+" (see the Tint2 Wiki for help)"
+msgstr ""
+"Format de la date pour la bulle d'aide horloge \n"
+" (voir le Wiki Tint2 pour l'aide)"
+
+#: Tint2Clockset.sh:275
+msgid "Padding (x):"
+msgstr "Marges (x):"
+
+#: Tint2Clockset.sh:276
+msgid "Pad free space of right and left clock borders"
+msgstr "Marge (espace libre) pour les bords droit et gauche de l'horloge"
+
+#: Tint2Clockset.sh:284
+msgid "Padding (y):"
+msgstr "Marges (y):"
+
+#: Tint2Clockset.sh:285
+msgid "Pad free space of upper and lower clock borders"
+msgstr "Marge (espace libre) pour les bords haut et bas de l'horloge"
+
+#: Tint2Clockset.sh:293
+msgid "Background:"
+msgstr "Fond d'écran:"
+
+#: Tint2Clockset.sh:294
+msgid ""
+"The clock_background_id values are unique to \n"
+" the tint2rc file of the active Tint2 panel theme."
+msgstr ""
+"Les valeurs clock_background_id sont uniques \n"
+" au fichier  tint2rc  pour le panneau du thème \n"
+" Tint2 actif."
+
+#: Tint2Clockset.sh:303
+msgid "TZ (Clock 1):"
+msgstr "FH (Horloge 1):"
+
+#: Tint2Clockset.sh:304
+msgid "Select timezone for Clock 1"
+msgstr "Choisir le fuseau horaire pour l'Horloge 1"
+
+#: Tint2Clockset.sh:311
+msgid "TZ (Clock 2):"
+msgstr "FH (Horloge 2):"
+
+#: Tint2Clockset.sh:312
+msgid "Select timezone for Clock 2"
+msgstr "Choisir le fuseau horaire pour l'Horloge 2"
+
+#: Tint2Clockset.sh:319
+msgid "Lt-Click Cmd:"
+msgstr "Clic Gauche Cmd:"
+
+#: Tint2Clockset.sh:320
+msgid "Left-click the clock to launch this program"
+msgstr "Clic gauche sur l'horloge pour lancer ce programme"
+
+#: Tint2Clockset.sh:327
+msgid "Rt-Click Cmd:"
+msgstr "Clic Droit Cmd:"
+
+#: Tint2Clockset.sh:328
+msgid "Right-click the clock to launch this program"
+msgstr "Clic droit sur l'horloge pour lancer ce programme"
+
+#: Tint2Clockset.sh:339
+msgid "Open Tint2 Wiki in default browser"
+msgstr "Ouvrir Tint2 dans le navigateur par défaut"
+
+#: Tint2Clockset.sh:340
+msgid "Wiki"
+msgstr "Wiki"
+
+#: Tint2Clockset.sh:354
+msgid ""
+"A digital-tray clock will display the \n"
+"  time and date in multiple formats \n"
+"  based on standard, locale-specific \n"
+"  strftime conversion specifications. \n"
+"  PupClockset enables quick access \n"
+"  to eight common displays of time \n"
+"  and date in 12 and 24 hr formats. \n"
+"  See the help file for strftime data.\n"
+"\n"
+"       Roger D. Grider, 2013 GPL3"
+msgstr ""
+"Une horloge numérique de la  zone de \n"
+"  notification affichera heure et date \n"
+"  dans plusieurs  formats basés sur \n"
+"  les  spécifications  de  conversion \n"
+"  locales   strftime.   PupClockset \n"
+"  fournit un accès rapide à 8 types\n"
+"  d'affichage  d'heure  et  de date \n"
+"  aux formats  12 et 24 hr. Voir le \n"
+"  fichier d'aide concernant strftime. \n"
+"\n"
+"       Roger D. Grider, 2013 GPL3"
+
+#: Tint2Clockset.sh:367
+msgid "Help"
+msgstr "Aide"
+
+#: Tint2Clockset.sh:377
+msgid "Set"
+msgstr "Ok"
+
+#: Tint2Clockset.sh:383
+msgid "Calendar and Organizer"
+msgstr "Calendrier et Organisateur"
+
+#: Tint2Clockset.sh:389
+msgid "Set time and date"
+msgstr "Indiquer l'heure et la date"
+
+#: Tint2Clockset.sh:390
+msgid "Time"
+msgstr "Heure"
+
+#: Tint2Clockset.sh:400
+msgid "Exit"
+msgstr "Quitter"
+
