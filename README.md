@@ -1,4 +1,4 @@
 Puppy
 =====
 
-Puppy Linux
+Puppy Linux Resources
