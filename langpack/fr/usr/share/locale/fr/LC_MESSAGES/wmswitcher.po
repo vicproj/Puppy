@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wmswitcher 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2014-02-27 04:06+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: wmswitcher-bin.sh:36
+msgid "WM switcher"
+msgstr "WM switcher"
+
+#: wmswitcher-bin.sh:37
+msgid "(switch windows manager)"
+msgstr "(sélecteur de gestionnaire de fenêtres)"
+
+#: wmswitcher-bin.sh:75
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"Version used: $AppVersion by $AuthorActualVersion.\n"
+"Previous versions: by $AuthorPreviousVersions.\n"
+"Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"Versions précédentes : par $AuthorPreviousVersions.\n"
+"Version originale : par $AuthorOriginalVersion."
+
+#: wmswitcher-bin.sh:302
+msgid "JWM"
+msgstr "JWM"
+
+#: wmswitcher-bin.sh:311
+msgid "IceWM"
+msgstr "IceWM"
+
+#: wmswitcher-bin.sh:320
+msgid "Xfce4"
+msgstr "Xfce4"
+
+#: wmswitcher-bin.sh:329
+msgid "Openbox"
+msgstr "Openbox"
+
+#: wmswitcher-bin.sh:338
+msgid "Fluxbox"
+msgstr "Fluxbox"
+
+#: wmswitcher-bin.sh:347
+msgid "Kde"
+msgstr "Kde"
+
+#: wmswitcher-bin.sh:356
+msgid "Emerald-compiz"
+msgstr "Emerald-compiz"
+
+#: wmswitcher-bin.sh:365
+msgid "Lxde"
+msgstr "Lxde"
+
+#: wmswitcher-bin.sh:374
+msgid "Openbox-Lxde"
+msgstr "Openbox-Lxde"
+
+#: wmswitcher-bin.sh:402
+msgid "Choose the window manager to use"
+msgstr "Choisissez le gestionnaire de fenêtres à utiliser"
+
+#: wmswitcher-bin.sh:418
+msgid "Information"
+msgstr "Information"
+
+#: wmswitcher-bin.sh:419
+msgid ""
+"Switch windows manager (WM) need to restart X and kill all open "
+"applications.\n"
+"<b>Save your work</b>, then click on switch button."
+msgstr ""
+"Le changement de gestionnaire de fenêtres (WM) nécessite le redémarrage du "
+"serveur X et l'arrêt des applications ouvertes. <b>Sauvegarder votre travail "
+"en cours</b> avant de cliquer sur le bouton Changer."
+
+#: wmswitcher-bin.sh:427
+#, sh-format
+msgid "Switch WM by selected and restart X."
+msgstr "Changer le WM par celui sélectionné, puis redémarrez X."
+
+#: wmswitcher-bin.sh:434
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: wmswitcher-bin.sh:439
+#, sh-format
+msgid "Do nothing and quit $AppTitle01."
+msgstr "Ne rien faire et quitter $AppTitle01."
+
+#: wmswitcher.sh:20
+msgid "Infos"
+msgstr "Infos"
+
+#: wmswitcher.sh:20
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà actif. Par conséquent, votre demande ne peut pas être "
+"acceptée."

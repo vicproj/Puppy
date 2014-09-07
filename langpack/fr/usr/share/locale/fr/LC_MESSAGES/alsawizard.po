@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: alsawizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2012-02-15 21:01+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: alsawizard.sh:15
+msgid "Sound Wizard"
+msgstr "Assistant audio"
+
+#: alsawizard.sh:17
+#, fuzzy
+msgid "Sound wizard"
+msgstr "Assistant audio"
+
+#: alsawizard.sh:18
+#, fuzzy
+msgid ""
+"Presumably you are here because sound does not work? If so, here are steps "
+"to follow, to hopefully fix sound"
+msgstr ""
+"On suppose que vous êtes ici parce que votre son ne fonctionne pas. Voici "
+"quelques étapes à suivre pour espérer réparer ça ..."
+
+#: alsawizard.sh:27
+#, fuzzy
+msgid ""
+"<b>Adjust levels</b>\n"
+"Often non-working sound is just a matter of unmuting (tick a checkbox) and/"
+"or bring up a level in the audio mixer. Click this button to run the mixer."
+msgstr ""
+"Souvent le (non) fonctionnement du son est le simple fait de décocher "
+"l'option 'muet' et/ou définir un niveau dans le mixeur audio. Cliquez sur ce "
+"bouton pour lancer la console de mixage :"
+
+#: alsawizard.sh:45
+#, fuzzy
+msgid ""
+"<b>Play test sound</b>\n"
+"Having adjusted the levels, click this button to play a test sound."
+msgstr "Après avoir réglé le niveau, cliquez ici pour lancer le test audio :"
+
+#: alsawizard.sh:57
+#, fuzzy
+msgid ""
+"On some hardware (very rare fortunately) sound plays but does not always "
+"stop! If your Puppy will not stop barking, click this button."
+msgstr ""
+"Sur certains matériels (très rares), le son marche mais n'arrête pas! Si le "
+"Toutou n'arrète pas d'aboyer, cliquez ici :"
+
+#: alsawizard.sh:74
+#, fuzzy
+msgid ""
+"<b>Multiple cards</b>\n"
+"Linux may have detected more than one audio interface or 'card', and has set "
+"the wrong one as default. Run Kirk's Multiple Sound Card Wizard to "
+"investigate this (note, a reboot is required for change to take effect)."
+msgstr ""
+"Linux a pu détecter plus d'une interface audio et avoir choisi la mauvaise "
+"par défaut. Lancez l'Assistant cartes audio multiples de Kirk, pour voir "
+"(redémarrez pour activer le changement):"
+
+#: alsawizard.sh:89
+msgid "Quit"
+msgstr ""
+
+#~ msgid "ALSA Wizard"
+#~ msgstr "Assistant ALSA"
+
+#~ msgid "EXIT"
+#~ msgstr "QUITTER"
+
+#~ msgid ""
+#~ "FOUR: After trying ONE, TWO, THREE above, sound still not working, click "
+#~ "'ALSA Wizard' button:"
+#~ msgstr ""
+#~ "QUATRE: Après avoir essayé UN, DEUX et TROIS, si ça ne marche toujours "
+#~ "pas, cliquez sur le bouton 'Assistant ALSA' :"
+
+#~ msgid "ONE: Adjust levels"
+#~ msgstr "UN : Ajuster le niveau"
+
+#~ msgid "THREE: Multiple cards"
+#~ msgstr "TROIS: cartes multiples"
+
+#~ msgid "TWO: Play test sound"
+#~ msgstr "DEUX: Lancer le test audio"
+
+#~ msgid "Welcome to the Sound Wizard"
+#~ msgstr "Bienvenue dans l'Assistant audio"

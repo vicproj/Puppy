@@ -1,0 +1,196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pschedule VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:50+0200\n"
+"PO-Revision-Date: 2013-02-15 10:18+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pschedule.sh:64
+msgid "Cron deamon is not running. You need root-access to start cron"
+msgstr ""
+"Cron n'est pas actif. Vous avez besoin d'un accès 'root' pour lancer cron"
+
+#: pschedule.sh:69 pschedule.sh:75 pschedule.sh:81 pschedule.sh:87
+#: pschedule.sh:96
+msgid "any"
+msgstr "chaque"
+
+#: pschedule.sh:88
+msgid "Mondays"
+msgstr "Lundi"
+
+#: pschedule.sh:89
+msgid "Tuesdays"
+msgstr "Mardi"
+
+#: pschedule.sh:90
+msgid "Wednesdays"
+msgstr "Mercredi"
+
+#: pschedule.sh:91
+msgid "Thursdays"
+msgstr "Jeudi"
+
+#: pschedule.sh:92
+msgid "Fridays"
+msgstr "Vendredi"
+
+#: pschedule.sh:93
+msgid "Saturdays"
+msgstr "Samedi"
+
+#: pschedule.sh:94
+msgid "Sundays"
+msgstr "Dimanche"
+
+#: pschedule.sh:97
+msgid "January"
+msgstr "Janvier"
+
+#: pschedule.sh:98
+msgid "February"
+msgstr "Février"
+
+#: pschedule.sh:99
+msgid "March"
+msgstr "Mars"
+
+#: pschedule.sh:100
+msgid "April"
+msgstr "Avril"
+
+#: pschedule.sh:101
+msgid "May"
+msgstr "Mai"
+
+#: pschedule.sh:102
+msgid "June"
+msgstr "Juin"
+
+#: pschedule.sh:103
+msgid "July"
+msgstr "Juillet"
+
+#: pschedule.sh:104
+msgid "August"
+msgstr "Août"
+
+#: pschedule.sh:105
+msgid "September"
+msgstr "Septembre"
+
+#: pschedule.sh:106
+msgid "October"
+msgstr "Octobre"
+
+#: pschedule.sh:107
+msgid "November"
+msgstr "Novembre"
+
+#: pschedule.sh:108
+msgid "December"
+msgstr "décembre"
+
+#: pschedule.sh:145
+msgid "Task on time"
+msgstr "Du temps pour tout"
+
+#: pschedule.sh:150
+msgid "Schedule new task"
+msgstr "Nouvelle tâche"
+
+#: pschedule.sh:160
+msgid "Edit"
+msgstr "Modifier"
+
+#: pschedule.sh:169
+msgid "Delete"
+msgstr "Supprimer"
+
+#: pschedule.sh:178
+msgid "Execute now"
+msgstr "Exécuter maintenant"
+
+#: pschedule.sh:187
+msgid "Task"
+msgstr "Tâche"
+
+#: pschedule.sh:187
+msgid "Schedule"
+msgstr "Programmation"
+
+#: pschedule.sh:187
+msgid "Cron command"
+msgstr "Commande Cron"
+
+#: pschedule.sh:195
+msgid "About"
+msgstr "A propos"
+
+#: pschedule.sh:199
+msgid "Quit"
+msgstr "Quitter"
+
+#~ msgid "Add"
+#~ msgstr "Ajouter"
+
+#~ msgid "Command"
+#~ msgstr "Commande"
+
+#~ msgid "Day"
+#~ msgstr "Jour"
+
+#~ msgid "Delete selected task?"
+#~ msgstr "Supprimer la tâche sélectionnée?"
+
+#~ msgid "Every hour at"
+#~ msgstr "Chaque heure à"
+
+#~ msgid "Every minute"
+#~ msgstr "Chaque minute"
+
+#~ msgid "Every minute during the hour"
+#~ msgstr "Chaque heure pendant une heure"
+
+#~ msgid "Hour"
+#~ msgstr "Heure"
+
+#~ msgid "Minute"
+#~ msgstr "Minute"
+
+#~ msgid "Month"
+#~ msgstr "Mois"
+
+#~ msgid "Next run"
+#~ msgstr "Prochain lancement "
+
+#~ msgid "Show all tasks"
+#~ msgstr "Afficher toutes les tâches"
+
+#~ msgid "Task name (optional)"
+#~ msgstr "Nom de tâche (optionnel) "
+
+#~ msgid "any day"
+#~ msgstr "chaque jour"
+
+#~ msgid "any month"
+#~ msgstr "chaque mois"
+
+#~ msgid "if its on"
+#~ msgstr "si inclu"
+
+#~ msgid "in"
+#~ msgstr "de"
+
+#~ msgid "of"
+#~ msgstr "de"
+
+#~ msgid "the"
+#~ msgstr "le"

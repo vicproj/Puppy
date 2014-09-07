@@ -124,8 +124,8 @@ update_mo() {
   fi
   
   APODIR="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/"
-  mkdir -p "${REPOSITORY}${APODIR}"
-  cp -f "${ATEXTDOMAIN}.po" "${REPOSITORY}${APODIR}"
+  mkdir -p "${REPODIR}${APODIR}"
+  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
 
   export LANG=$ORIGLANG
 }
@@ -183,8 +183,8 @@ create_mo() {
   sync
   
   APODIR="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/"
-  mkdir -p "${REPOSITORY}$APODIR"
-  cp -f "${ATEXTDOMAIN}.po" "${REPOSITORY}${APODIR}"
+  mkdir -p "${REPODIR}$APODIR"
+  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
 
   export LANG=$ORIGLANG
 }
@@ -392,8 +392,8 @@ generate_bin() {
   sync
 
   APODIR="${PREFIXLOCALEDIR}/${ATRANSLANG}/LC_MESSAGES/"
-  mkdir -p "${REPOSITORY}$APODIR"
-  cp -f "${ATEXTDOMAIN}.po" "${REPOSITORY}${APODIR}"
+  mkdir -p "${REPODIR}$APODIR"
+  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
 
   export LANG=$ORIGLANG
 }

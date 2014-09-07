@@ -1,0 +1,56 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2014-01-21 19:53+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: run-pureftpd.sh:12 run-pureftpd.sh:35
+msgid "Start/Stop PureFTPD"
+msgstr "Démarrer/Arrêter PureFTPD"
+
+#: run-pureftpd.sh:12
+msgid "Stop Server"
+msgstr "Arrêter le serveur"
+
+#: run-pureftpd.sh:12
+msgid "Cancel"
+msgstr "Annuler"
+
+#: run-pureftpd.sh:12
+msgid "Pure-FTPD is running. \\n Would you like to stop the server?"
+msgstr "Pure-FTPD est en cours d'exécution. \\n Voulez-vous arrêter le serveur"
+
+#: run-pureftpd.sh:23
+msgid "Pure-ftpd is currently not Running."
+msgstr "Pure-ftpd n'est actuellement pas en fonctionnement."
+
+#: run-pureftpd.sh:25
+msgid "Start Pure-ftpd"
+msgstr "Démarrer Pure-ftpd"
+
+#: run-pureftpd.sh:28
+msgid "Prevent user root connections."
+msgstr "Empêcher les connexions \"root\" de l'utilisateur."
+
+#: run-pureftpd.sh:29
+msgid "Prevent anonymous connections."
+msgstr "Empêcher les connexions anonymes."
+
+#: run-pureftpd.sh:35
+msgid "OK"
+msgstr "Valider"
+
+#: run-pureftpd.sh:35
+msgid ""
+"Pure-ftpd is started. \\n If you allowed anonymous connections, web browsers "
+"will connect as user ftp. \\n User ftps"
+msgstr ""
+"Pure-ftpd est lancé. \\n Si vous avez autorisé les connexions anonymes, le "
+"navigateur Web se connectera comme utilisateur ftp. \\n Utilisateur ftps"

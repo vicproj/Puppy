@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-23 00:11-0500\n"
+"PO-Revision-Date: 2013-02-14 13:18+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pdiag:9
+msgid "Pdiag Diagnostic Information Capture"
+msgstr "Capture d'informations de diagnostic Pdiag"
+
+#: pdiag:13
+#, sh-format
+msgid ""
+"\\nUsage:  pdiag [option]\\n\\n  --help                   This small usage "
+"guide\\n  --wpa                    Include WPA encryption data if user allows"
+"\\n\\nDefault action is to collect configuration, status and log files into a"
+"\\ncompressed archive (tarball) named such as $ARCHIVE_FILE_NAME\\nin your "
+"root or home directory.\\nThat file can be submitted to Puppy developers for "
+"analysis and possible problem\\nresolution."
+msgstr ""
+"\\nUtilisation:  pdiag [option]\\n\\n  --help                   Ce petit "
+"guide\\n  --wpa                    Inclut les données WPA si l'utilisateur "
+"permet\\n\\npar défaut de collecter les fichiers de configuration, d'état et "
+"de rapport dans\\nune archive compressée (tarball) nommée $ARCHIVE_FILE_NAME"
+"\\ndans le réperoire root ou home.\\nCe fichier peut être soumis à des "
+"développeurs de Puppy pour analyse et résolution\\nde problèmes possible."
+
+#: pdiag:14
+#, sh-format
+msgid ""
+"Additional diagnostic data can be collected by a script segment (no #!/bin/"
+"sh)\\nnamed beginning with \"pdiag-\" in /usr/lib/pdiag/, using $DIAGSUBDIR "
+"as the\\noutput directory.\\nTo facilitate debugging and troubleshooting, "
+"anything logged to /tmp/debug.log\\nwill be included in the tarball."
+msgstr ""
+"D'autres données de diagnostic peuvent être collectées par un segment de "
+"script (no #!/bin/sh)\\ndont le nom commence par \"pdiag-\" dans /usr/lib/"
+"pdiag/, utilisant $DIAGSUBDIR comme\\nrépertoire de sortie.\\nPour faciliter "
+"le débogage et le dépannage, tout ce qui est connecté dans /tmp/debug.log"
+"\\nsera inclu dans le tarball."
+
+#: pdiag:20
+msgid ""
+"System status, configuration, log and some generated files will now be "
+"collected into a compressed archive (tarball) file in your home directory.  "
+"That file can be submitted to Puppy developers for  analysis and possible "
+"problem resolution."
+msgstr ""
+"L'état du système, la configuration, le rapport et quelques fichiers générés "
+"seront désormais rassemblés dans un fichier archive compressé (tarball) dans "
+"votre répertoire personnel. Ce fichier peut être soumis à des développeurs "
+"de Puppy pour l'analyse et la résolution de problèmes possible."
+
+#: pdiag:22
+#, sh-format
+msgid ""
+"The proposed archive file, $ARCHIVE_FILE_NAME, already exists in your home "
+"directory.\\n\\nPlease modify the archive name unless you want to replace "
+"that archive file.  Click OK to continue."
+msgstr ""
+"Le fichier d'archive proposé, $ARCHIVE_FILE_NAME, existe déjà dans votre "
+"répertoire home.\\n\\nVeuillez modifier le nom de l'archive, sauf si vous "
+"souhaitez le remplacer. Cliquez sur OK pour continuer."
+
+#: pdiag:24
+#, sh-format
+msgid ""
+"The archive file will be named $ARCHIVE_FILE_NAME unless you change it.\\n"
+"\\nPlease modify the archive name now or keep the proposed name.  Click OK "
+"to continue."
+msgstr ""
+"Le fichier d'archive sera nommé $ARCHIVE_FILE_NAME à moins que vous le "
+"modifiez.\\n\\nVeuillez modifier le nom de l'archive maintenant ou conserver "
+"le nom proposé. Cliquez sur OK pour continuer."
+
+#: pdiag:32
+msgid ""
+"The WPA configuration and log files might contain passkeys or passwords.\\n"
+"\\nIf the WPA... files are not necessary to troubleshoot your problem, click "
+"\"Yes\", to omit them.  Do you want to EXCLUDE those WPA files from the "
+"archive file?"
+msgstr ""
+"Les fichiers de configuration WPA et le rapport peuvent contenir des clés "
+"d'accès ou des mots de passe.\\n\\nSi les fichiers WPA ... ne sont pas "
+"nécessaires pour résoudre votre problème, cliquez sur \"Oui\", pour les "
+"retirer. Voulez-vous EXCLURE ces fichiers WPA du fichier d'archive?"
+
+#: pdiag:38
+#, sh-format
+msgid "Collecting files into archive file:  $ARCHIVE_FILE_NAME."
+msgstr "Collecte des fichiers dans le fichier archive :  $ARCHIVE_FILE_NAME."
+
+#: pdiag:108
+#, sh-format
+msgid ""
+"Diagnostic files are now copied into an archive file:\\n  $ARCHIVE_FILE_NAME"
+"\\n\\nDialup logon IDs and passwords are replaced by '********'.\\n\\nThe "
+"file, in your home directory, can be attached to a posting or personal "
+"message (PM) in the Puppy forum for analysis of dialup-modem, broadband "
+"networking or other issues.\\n\\nThe content can be viewed in directory:\\n  "
+"$DIAGDIR."
+msgstr ""
+"Les fichiers de diagnostic sont maintenant copiés dans le fichier d'archive:"
+"\\n  $ARCHIVE_FILE_NAME\\n\\nID de connexion à numérotation et mots de passe "
+"sont remplacés par '********'.\\n\\nLe fichier, dans votre répertoire home, "
+"peut être attaché à un message de forum ou un message personnel (PM) dans le "
+"forum de Puppy pour l'analyse de modem à numérotation, réseau à large bande "
+"ou d'autres questions.\\n\\nLe contenu peut être consulté dans le "
+"répertoire :\\n  $DIAGDIR."

@@ -1,0 +1,214 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jwmthememaker VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2013-04-08 07:42+0200\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: jwmthememaker.sh:10 jwmthememaker.sh:305 jwmthememaker.sh:316
+#: jwmthememaker.sh:329 jwmthememaker.sh:340 jwmthememaker.sh:353
+#: jwmthememaker.sh:364 jwmthememaker.sh:377 jwmthememaker.sh:388
+#: jwmthememaker.sh:423 jwmthememaker.sh:434 jwmthememaker.sh:520
+#: jwmthememaker.sh:531 jwmthememaker.sh:544 jwmthememaker.sh:555
+#: jwmthememaker.sh:568 jwmthememaker.sh:579 jwmthememaker.sh:592
+#: jwmthememaker.sh:603 jwmthememaker.sh:636 jwmthememaker.sh:647
+msgid "Please_choose_a_color"
+msgstr "Choisissez une couleur"
+
+#: jwmthememaker.sh:11
+msgid "Please fill in all color boxes"
+msgstr "Remplissez toutes les cases des couleurs"
+
+#: jwmthememaker.sh:49
+msgid "JWM Maker Splash"
+msgstr ""
+
+#: jwmthememaker.sh:205 jwmthememaker.sh:221 jwmthememaker.sh:472
+#: jwmthememaker.sh:685
+msgid "Delete a theme"
+msgstr "Supprimer un thème"
+
+#: jwmthememaker.sh:206
+msgid "Warning: Permanently delete"
+msgstr "Attention : Suppression définitive"
+
+#: jwmthememaker.sh:208
+msgid "chosen theme"
+msgstr "Thème choisi"
+
+#: jwmthememaker.sh:217 jwmthememaker.sh:252 jwmthememaker.sh:463
+#: jwmthememaker.sh:676
+msgid "Quit"
+msgstr "Quitter"
+
+#: jwmthememaker.sh:241 jwmthememaker.sh:477 jwmthememaker.sh:690
+msgid "Edit a theme"
+msgstr "Modifier un thème"
+
+#: jwmthememaker.sh:242
+msgid "Choose a theme to edit"
+msgstr "Choisir un thème à modifier"
+
+#: jwmthememaker.sh:256
+msgid "Load theme"
+msgstr "Charger un thème"
+
+#: jwmthememaker.sh:291 jwmthememaker.sh:506
+msgid "JWM Theme Maker"
+msgstr "Créateur de thème pour JWM"
+
+#: jwmthememaker.sh:293 jwmthememaker.sh:508
+msgid "Make your own JWM theme"
+msgstr "Créez votre propre thème de JWM"
+
+#: jwmthememaker.sh:296 jwmthememaker.sh:511
+msgid "Window - Taskbar - Menu"
+msgstr "Fenêtre - Barre des tâches - Menu"
+
+#: jwmthememaker.sh:298 jwmthememaker.sh:513
+msgid "Active"
+msgstr "Actif"
+
+#: jwmthememaker.sh:298 jwmthememaker.sh:322 jwmthememaker.sh:513
+#: jwmthememaker.sh:537
+msgid "fr"
+msgstr "de"
+
+#: jwmthememaker.sh:299 jwmthememaker.sh:514
+msgid "Opened window color gradient start"
+msgstr "Début du dégradé de couleur de fenêtre ouverte"
+
+#: jwmthememaker.sh:309 jwmthememaker.sh:333 jwmthememaker.sh:524
+#: jwmthememaker.sh:548
+msgid "to"
+msgstr "à"
+
+#: jwmthememaker.sh:322 jwmthememaker.sh:537
+msgid "Inactive"
+msgstr "Inactif"
+
+#: jwmthememaker.sh:323 jwmthememaker.sh:538
+msgid "Closed window color gradient start"
+msgstr "Début du dégradé de couleur de fenêtre fermée"
+
+#: jwmthememaker.sh:334 jwmthememaker.sh:549
+msgid "Closed window color gradient end"
+msgstr "Fin du dégradé de couleur de fenêtre fermée"
+
+#: jwmthememaker.sh:346 jwmthememaker.sh:561
+msgid "Active text"
+msgstr "Texte actif"
+
+#: jwmthememaker.sh:347 jwmthememaker.sh:562
+msgid "Text for opened windows & cursor passed menu entry"
+msgstr "Texte des fenêtres ouvertes & entrées du menu par le curseur"
+
+#: jwmthememaker.sh:357 jwmthememaker.sh:572
+msgid "Inactive text"
+msgstr "Texte inactif"
+
+#: jwmthememaker.sh:358 jwmthememaker.sh:573
+msgid "Text for closed windows & menu entry"
+msgstr "Texte des fenêtres fermées & entrées du menu"
+
+#: jwmthememaker.sh:370 jwmthememaker.sh:585
+msgid "Base background"
+msgstr "Arrière plan de base"
+
+#: jwmthememaker.sh:371 jwmthememaker.sh:586
+msgid "Background of taskbar & menu"
+msgstr "Arrière plan de la Barre des tâches et du Menu"
+
+#: jwmthememaker.sh:381 jwmthememaker.sh:596
+msgid "Border Outline"
+msgstr "Bordure"
+
+#: jwmthememaker.sh:382 jwmthememaker.sh:597
+msgid "Borders of windows and pop-up"
+msgstr "Bordures des fenêtres et pop-up"
+
+#: jwmthememaker.sh:394 jwmthememaker.sh:609
+msgid "Font Name"
+msgstr "Police"
+
+#: jwmthememaker.sh:395 jwmthememaker.sh:401 jwmthememaker.sh:610
+#: jwmthememaker.sh:615
+msgid "Applied to all windows, taskbar and menu"
+msgstr "Appliqué à toutes les fenêtres, à la barre des tâches et au menu"
+
+#: jwmthememaker.sh:400 jwmthememaker.sh:614
+msgid "                           Font Size "
+msgstr "                           Taille de la Police "
+
+#: jwmthememaker.sh:414 jwmthememaker.sh:627
+msgid "Pop-Up Box"
+msgstr "Fenêtres Pop-Up"
+
+#: jwmthememaker.sh:416 jwmthememaker.sh:629
+msgid "Background"
+msgstr "Arrière plan"
+
+#: jwmthememaker.sh:417 jwmthememaker.sh:428 jwmthememaker.sh:630
+#: jwmthememaker.sh:641
+msgid "Applied only for pop-up info when cursor over pager on taskbar"
+msgstr ""
+"Appliqué seulement aux infos pop-up quand le curseur est sur le 'pager' dans "
+"la barre des tâches"
+
+#: jwmthememaker.sh:427 jwmthememaker.sh:640
+msgid "Text"
+msgstr "Texte"
+
+#: jwmthememaker.sh:440 jwmthememaker.sh:653
+msgid "Save & Instant Apply"
+msgstr "Enregistrer et appliquer immédiatement"
+
+#: jwmthememaker.sh:442 jwmthememaker.sh:655
+msgid "Name"
+msgstr "Nom"
+
+#: jwmthememaker.sh:443 jwmthememaker.sh:656
+msgid "No_empty_space_in_name, ex: Blue-Nice"
+msgstr "Pas_de_vide_dans_les_noms, ex : Blue-Nice"
+
+#: jwmthememaker.sh:447 jwmthememaker.sh:660
+msgid "Save current theme name typed in Name Box"
+msgstr "Enregistrer le thème sous le nom inscrit dans la case 'Nom'"
+
+#: jwmthememaker.sh:449 jwmthememaker.sh:662
+msgid "Save Theme"
+msgstr "Enregistrer le thème"
+
+#: jwmthememaker.sh:452 jwmthememaker.sh:665
+msgid "Instant view of current theme name typed in Name Box"
+msgstr "Aperçu instantané du thème dont le nom est inscrit dans la case 'Nom'"
+
+#: jwmthememaker.sh:455 jwmthememaker.sh:668
+msgid "Instant Apply"
+msgstr "Application immédiate"
+
+#: jwmthememaker.sh:467 jwmthememaker.sh:680
+msgid "JWM Config"
+msgstr "Configurer JWM"
+
+#: jwmthememaker.sh:475 jwmthememaker.sh:688
+msgid "Only for themes made by this tool"
+msgstr "Seulement pour les thèmes réalisés par cet outil"
+
+#: jwmthememaker.sh:525
+msgid "Opened window color gradient end"
+msgstr "Fin du dégradé de couleur de fenêtre ouverte"
+
+#: jwmthememaker.sh:658
+msgid "Type_in_new_theme_name_(no_spaces)"
+msgstr "Tapez_le_nouveau_nom_du_thème_(sans_espace)"
+
+#~ msgid "has not been saved"
+#~ msgstr "n'a pas été enregistré"

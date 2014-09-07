@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: video_upgrade_wizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:51+0200\n"
+"PO-Revision-Date: 2013-01-07 20:09+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: video_upgrade_wizard.sh:27
+#, sh-format
+msgid ""
+"Xorg server version '${XORGVER}' is currently running, so it seems that you "
+"have already upgraded Xorg."
+msgstr ""
+"Le serveur Xorg, version '${XORGVER}', est actuellement actif, il semble "
+"donc que vous avez déjà mis à jour Xorg."
+
+#: video_upgrade_wizard.sh:32
+msgid ""
+"Currently not connected to the Internet. If you wish to connect later, you "
+"can run this Video Upgrade Wizard again via the 'setup' icon on the desktop "
+"or the 'Setup' category in the menu. Note, to connect to the Internet, click "
+"'connect' icon on left of desktop."
+msgstr ""
+"Actuellement non connecté à Internet. Si vous souhaitez vous connecter "
+"ultérieurement, vous pourrez exécuter, à nouveau, cet Assistant de mise à "
+"jour vidéo via l'icône 'Configuration' du Bureau ou par le menu "
+"'Configuration'. Remarque, pour se connecter à Internet, cliquez sur l'icône "
+"'Connexion' sur la gauche du bureau."
+
+#: video_upgrade_wizard.sh:34
+msgid "Xorg 7.6 Mega Package"
+msgstr "Mega Paquet Xorg 7.6"
+
+#: video_upgrade_wizard.sh:36
+msgid ""
+"Wary can be upgraded from Xorg 7.3 to Xorg 7.6. The PET is large, 21MB. "
+"Click button to download and install it:"
+msgstr ""
+"Wary peut mettre à jour Xorg 7.3 en version Xorg 7.6. Le paquet est assez "
+"gros, 21Mo. Cliquez sur le bouton pour le télécharger et l'installer :"
+
+#: video_upgrade_wizard.sh:45
+msgid "To decline upgrade, click 'OK' button:"
+msgstr "Pour NE PAS mettre à jour, cliquez sur 'Valider' :"
+
+#: video_upgrade_wizard.sh:49
+#, sh-format
+msgid "Xorg server version '${XORGVER}' is currently running."
+msgstr "Le serveur Xorg version '${XORGVER}' est en cours d'exécution."
+
+#: video_upgrade_wizard.sh:50
+msgid "This Wizard is not offering any upgrades."
+msgstr "Cet assistant n'offre aucune mise à jour."
+
+#: video_upgrade_wizard.sh:54
+msgid "Video Driver Upgrade Wizard"
+msgstr "Assistant de mise à jour du pilote vidéo"
+
+#: video_upgrade_wizard.sh:76
+msgid "Sorry, download failed"
+msgstr "Désolé, le téléchargement a échoué"
+
+#: video_upgrade_wizard.sh:82
+msgid "Sorry, something went wrong, package downloaded but is not installed"
+msgstr ""
+"Désolé, il y a eu un incident, le paquet est téléchargé, mais n'est pas "
+"installé"

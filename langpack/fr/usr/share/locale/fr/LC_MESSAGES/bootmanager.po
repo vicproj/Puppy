@@ -1,0 +1,449 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Bootmanager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: bootmanager.sh:88
+msgid "BootManager error"
+msgstr "BootManager erreur"
+
+#: bootmanager.sh:88
+msgid "You must shutdown and create a personal save file first."
+msgstr "Vous devez arréter le PC et créer un fichier de sauvegarde personnel."
+
+#: bootmanager.sh:95
+#, sh-format
+msgid "Note2: These files are at '/' (in $PDEV1 partition)"
+msgstr "Note2 : Ces fichiers sont dans '/' (dans la partition $PDEV1)"
+
+#: bootmanager.sh:112
+#, sh-format
+msgid "Note2: These files are at ${MSGz} (in ${xHOMEPART} partition)"
+msgstr ""
+"Note2 : Ces fichiers sont dans ${MSGz} (dans la partition ${xHOMEPART})"
+
+#: bootmanager.sh:120
+msgid "Note2: All SFS files have to get loaded into RAM from CD"
+msgstr ""
+"Note2 : Tous les fichiers SFS doivent être chargés dans la RAM à partir du CD"
+
+#: bootmanager.sh:177
+#, sh-format
+msgid ""
+"NOTICE: The following SFS files located in directory ${MSGz}\n"
+"are the wrong version for the current Linux kernel:"
+msgstr ""
+"REMARQUE: La version des fichiers SFS suivants localisés dans le répertoire "
+"${MSGz}\n"
+"ne coïncident pas avec le noyau Linux actuel:"
+
+#: bootmanager.sh:182
+#, sh-format
+msgid ""
+"The above files will be ignored.\n"
+"The kernel requires ${SFSSTR}, SFS files.\n"
+"Note, there is an SFS-version-converter in the Utility menu."
+msgstr ""
+"Les fichiers ci-dessus seront ignorés.\n"
+"Le noyau requiert des fichiers SFS ${SFSSTR}.\n"
+"Il y a un convertisseur de fichiers SFS accessible via le Menu Utilitaires."
+
+#: bootmanager.sh:189
+#, fuzzy, sh-format
+msgid ""
+"Sorry, there are no SFS files in directory $MSGz\n"
+"You will need to download and place one there first."
+msgstr ""
+"Mille excuses, aucun fichier sfs dans le dossier $MSGz\n"
+"(ou alors il a un mauvais numéro de version '*_nnn.sfs')\n"
+"Vous devez d'abord en télécharger un et le copier dans ce dossier."
+
+#: bootmanager.sh:195
+msgid ""
+"Choose which SFS files are to be loaded at bootup.\\n(top entry will be on "
+"top Unionfs layer)"
+msgstr ""
+"Choisir les fichiers SFS à charger au démarrage.\\n(La plus haute entrée "
+"sera sur la couche Unionfs la plus élevée)"
+
+#: bootmanager.sh:195
+msgid "BootManager: SFS files"
+msgstr "Gestionnaire de démarrage: fichiers SFS"
+
+#: bootmanager.sh:195
+#, sh-format
+msgid ""
+"Please click the 'install' icon on the desktop for information about SFS "
+"files.\\nYou will find an introduction, plus links to SFS files that can be "
+"downloaded.\\n\\nNote, the BootManager performs some filtering of the "
+"available SFS files,\\nscreening out some that might have incorrect version "
+"number -- files of the\\nformat '*_nnn.sfs' should be '*_${DISTRO_VERSION}."
+"sfs' to pass the filter."
+msgstr ""
+"Cliquez sur l'icône 'Installer' sur le bureau pour des infos sur les "
+"fichiers SFS.\\nVous y trouverez une introduction, ainsi que des liens vers "
+"des fichiers SFS qui peuvent être téléchargés.\\n\\nRemarque, le "
+"Gestionnaire de démarrage effectue un filtrage des fichiers SFS disponibles,"
+"\\nfiltrant ceux qui pourraient avoir un numéro de version incorrecte -- les "
+"fichiers de\\nformat '*_nnn.sfs' devront être '*_${DISTRO_VERSION}.sfs' pour "
+"passer le filtre."
+
+#: bootmanager.sh:195
+msgid "Note1: No more than 6 SFS files in right-pane!"
+msgstr "Note1 : Pas plus de 6 fichiers sfs dans le panneau de droite!"
+
+#: bootmanager.sh:229
+msgid "BootManager: Module blacklist manager"
+msgstr "BootManager: Mettre des modules en liste noire"
+
+#: bootmanager.sh:229
+msgid ""
+"On the left pane are modules that are currently loaded.\\n\n"
+"On the right pane is the complete list of blacklisted modules.\\n\n"
+"If you want to prevent a module from loading, move it to the right\\n\n"
+"side, click OK, then reboot.\\n\n"
+"Note, if you want to find out further information about any module,\\n\n"
+"run PupScan (look in the System menu)\\n\n"
+"Note, you need to reboot for any change to take effect."
+msgstr ""
+"Le panneau gauche affiche les modules actuellement chargés.\\n\n"
+"Le panneau de droite affiche la liste complète des modules en\n"
+"liste noire.\\n\n"
+"Si vous voulez empécher un module de se charger, déplacez-le\n"
+"à droite cliquez OK, et redémarrez.\\n\n"
+"Note : pour de plus amples informations sur un module,\\n\n"
+"lancez PupScan (voir dans le Menu Système)\\n\n"
+"Remarque, vous devez redémarrer pour que toute modification\n"
+"prenne effet."
+
+#: bootmanager.sh:246
+msgid "Please wait, processing..."
+msgstr "Patientez, recherche en cours..."
+
+#: bootmanager.sh:295
+msgid "BootManager: Module add-list manager"
+msgstr "BootManager: Liste ajout de modules"
+
+#: bootmanager.sh:295
+msgid ""
+"On the left pane is the complete list of modules available to be\\nused by "
+"Puppy (and not currently loaded).\\nOn the right pane are modules that you "
+"have explicitly chosen to\\nbe loaded at bootup (not auto-loaded by default)."
+"\\nIf you want to force a module to load, move it to the right pane,\\nclick "
+"OK button, then reboot Puppy.\\nNote, if you want to find out further "
+"information about any module,\\nrun PupScan (look in the System menu)"
+msgstr ""
+"Dans la fenêtre de gauche la liste complète des modules\\nsusceptibles "
+"d'être utilisés par Toutou (non encore chargés).\\nDans la fenêtre de droite "
+"les modules que vous avez décidé\\nde charger au démarrage (et non pas "
+"automatiquement\\npar défaut).\\nSi vous voulez forcer un module à se "
+"charger, déplacez-le \\nvers la fenêtre de droite, cliquez sur le bouton OK, "
+"puis\\nredémarrez le PC.\\nRemarque, si vous voulez plus d'information sur "
+"un module,\\nlancez PupScan par le Menu Système."
+
+#: bootmanager.sh:300
+msgid ""
+"If you wish, add any required parameters to these modules\\nExample: "
+"mmc_block major=179\\nIf you don't know what this means, just click 'OK' "
+"button"
+msgstr ""
+"Si vous voulez, ajoutez n'importe quel paramètre requis à ces modules"
+"\\nExemple: mmc_block major=179\\nSi vous en ignorez la signification, "
+"cliquez juste sur 'OK'"
+
+#: bootmanager.sh:300
+msgid "BootManager: Edit module addlist"
+msgstr "BootManager: Modifier la liste Ajout de modules"
+
+#: bootmanager.sh:316
+msgid ""
+"Sometimes two modules are eligible for the same hardware,\\n\n"
+"and you need to choose one of them. Create a line here,\\nof format module1:"
+"module2, where you want module2 to\\nhave preference over module1."
+msgstr ""
+"Parfois, deux modules sont éligibles pour le même\\n\n"
+"matériel, et vous devez choisir l'un d'eux. Créez ici une\\nligne de format "
+"module1:module2, dans laquelle vous voulez\\nque le module2 soit prioritaire "
+"sur le module1."
+
+#: bootmanager.sh:317
+msgid "BootManager: Module preference-list manager"
+msgstr "BootManager: Liste de préférences de module"
+
+#: bootmanager.sh:317
+msgid ""
+"Sometimes two modules are eligible for the same hardware, and you need to "
+"choose\\none of them. An example is the rt2500usb and rt73usb wireless "
+"networking modules\\n-- with some hardware these are both eligible however "
+"our experience has been that\\nthe rt73usb works better. For such a "
+"situation, create a line here, of format\\nmodule1:module2, where you want "
+"module2 to have preference over module1.\\nNote: an alternative approach is "
+"to blacklist the rt2500usb module (see main menu)\\nhowever that is gross as "
+"it always prevents rt2500usb from loading."
+msgstr ""
+"Parfois, deux modules sont éligibles pour le même matériel, et vous devez "
+"choisir\\nl'un d'entre eux. Un exemple les modules rt2500usb et rt73usb de "
+"réseau sans fil\\n - avec certains matériels ces deux sont éligibles, "
+"toutefois par expérience le\\nmodule rt73usb fonctionne mieux. Dans cette "
+"situation, créez une ligne ici, de format\\nmodule1:module2, où vous voulez "
+"le module2 prioritaire sur le module1. \\nNote: une autre approche c'est "
+"retirer de la liste noire le module rt2500usb (voir menu\\nprincipal). C'est "
+"un peu brutal car cela empêchera à jamais le chargement de rt2500usb."
+
+#: bootmanager.sh:339
+msgid "ALSA sound server, required to play audio"
+msgstr "ALSA serveur audio, requis pour lire des fichiers audio"
+
+#: bootmanager.sh:340
+msgid "CUPS printing, required to print"
+msgstr "CUPS printing, requis pour imprimer"
+
+#: bootmanager.sh:341
+msgid "DBUS interprocess messaging, required by some apps"
+msgstr "DBUS interprocess messaging, requis pour certaines applications"
+
+#: bootmanager.sh:342
+msgid "ACPI management, not essential"
+msgstr "gestionnaire ACPI, non essentiel"
+
+#: bootmanager.sh:343
+msgid "Only needed for certain Internet dialup modems"
+msgstr "Seulement pour certains modems analogiques"
+
+#: bootmanager.sh:344
+msgid "Logs kernel & app. info. & error messages, not essential"
+msgstr ""
+"Journaux du noyau & infos des applis & messages des erreurs, non essentiel"
+
+#: bootmanager.sh:345
+msgid "only needed for quick mounting Samba shares in lameSMBxplorer"
+msgstr "seulement pour le montage rapide de partage Samba dans lameSMBxplorer"
+
+#: bootmanager.sh:354
+msgid "Firewall important security on Internet"
+msgstr "Pare-feu de sécurité important sur Internet"
+
+#: bootmanager.sh:361
+#, fuzzy
+msgid "Hardware hotplug detection -- see 'Help'"
+msgstr "Détection à chaud des matériels -- voir 'AIDE'"
+
+#: bootmanager.sh:365
+#, fuzzy
+msgid "BootManager - System services"
+msgstr "BootManager: Gérer les services système"
+
+#: bootmanager.sh:367
+#, fuzzy
+msgid "System services"
+msgstr "Gérer les services du système"
+
+#: bootmanager.sh:368
+msgid "Untick a checkbox to prevent service from running at startup"
+msgstr "Décochez une case pour empêcher le service de se lancer au démarrage"
+
+#: bootmanager.sh:378
+msgid "Help"
+msgstr ""
+
+#: bootmanager.sh:379
+msgid "Startup services"
+msgstr ""
+
+#: bootmanager.sh:383
+msgid "Cancel"
+msgstr ""
+
+#: bootmanager.sh:388
+msgid "Ok"
+msgstr ""
+
+#: bootmanager.sh:405
+msgid ""
+"The EventManager will now be run, so that you can enable 'udev'.\n"
+"You will need to tick the 'hotplug module/firmware loading' checkbox..."
+msgstr ""
+"EventManager va maintenant être exécuté, de sorte que vous pouvez activer "
+"'udev'.\n"
+"Vous aurez besoin de cocher la case 'hotplug module/firmware loading' ..."
+
+#: bootmanager.sh:411
+msgid ""
+"The EventManager will now be run, so that you can disable 'udev'.\n"
+"You will need to untick the 'hotplug module/firmware loading' checkbox..."
+msgstr ""
+"EventManager va maintenant être exécuté, de sorte que vous pouvez désactiver "
+"'udev'.\n"
+"Vous aurez besoin de décocher la case 'hotplug module/firmware loading' ..."
+
+#: bootmanager.sh:453
+msgid ""
+"ALTERNATIVE: Shinobar's SFS_Load application will enable you to install SFS "
+"files on-the-fly, that is, load and unload them without having to reboot -- "
+"see the 'Setup' menu."
+msgstr ""
+
+#: bootmanager.sh:457 bootmanager.sh:482
+msgid "Load SFS files"
+msgstr "Charger les fichiers SFS"
+
+#: bootmanager.sh:459
+msgid "Puppy has a file named"
+msgstr ""
+
+#: bootmanager.sh:459
+#, fuzzy
+msgid ""
+"that is always loaded. However, extra SFS files can be loaded at bootup, for "
+"example 'kde.sfs' to provide KDE applications, and 'devx.sfs' to provide "
+"everything for compiling C/C++ source. These can be thought of as 'combo "
+"packs' of many packages in one file."
+msgstr ""
+"Toutou possède un fichier '${DISTRO_PUPPYSFS}' toujours chargé. Mais "
+"d'autres fichiers sfs peuvent être chargés au démarrage, par exemple 'kde."
+"sfs' afin de fournir des applications KDE, et 'devx.sfs' pour permettre de "
+"compiler des sources C/C++. Ils peuvent être considérés comme des ensembles "
+"de plusieurs paquets dans un seul fichier."
+
+#: bootmanager.sh:463
+#, fuzzy
+msgid "Choose which extra SFS files to load at bootup"
+msgstr "Quel fichier SFS supplémentaire charger au démarrage :"
+
+#: bootmanager.sh:475
+msgid ""
+"Shinobar's SFS_Load application will enable you to install SFS files -- see "
+"the 'Setup' menu."
+msgstr ""
+
+#: bootmanager.sh:478
+msgid ""
+"TECHNICAL: Clicking on an SFS file will open it, and it's contents can then "
+"be copied to /. It is recommended to use the '-a -f --remove-destination' "
+"parameters for the 'cp' command."
+msgstr ""
+
+#: bootmanager.sh:484
+msgid ""
+"NOTICE: As this is a full installation of Puppy without an initrd, SFS files "
+"cannot be loaded/unloaded at bootup. However, they can be permanently "
+"installed."
+msgstr ""
+
+#: bootmanager.sh:492
+msgid "Startup  Manager"
+msgstr ""
+
+#: bootmanager.sh:494
+msgid "Startup Apps"
+msgstr ""
+
+#: bootmanager.sh:494
+msgid "SFS-packages"
+msgstr ""
+
+#: bootmanager.sh:494
+msgid "Modules"
+msgstr ""
+
+#: bootmanager.sh:494
+msgid "Services"
+msgstr ""
+
+#: bootmanager.sh:496 bootmanager.sh:502
+msgid "Manage startup apps"
+msgstr ""
+
+#: bootmanager.sh:498
+msgid ""
+"Manage what apps are set to start when the graphical server (X) starts on "
+"your system. These apps include the notification icons in the system tray "
+"and some other hidden services that need the graphical server to be running."
+msgstr ""
+
+#: bootmanager.sh:515
+msgid "Load kernel modules"
+msgstr "Charger les modules du noyau"
+
+#: bootmanager.sh:517
+msgid ""
+"If a driver module did not get loaded, or the wrong one got loaded, or you "
+"want to 'blacklist' a module, this is the place. A common scenario is a "
+"driver got auto-loaded, for say your wireless network card, but you cannot "
+"or do not want to use it, and want some other module or want to use "
+"Ndiswrapper (to use the Windows driver)."
+msgstr ""
+"Si un pilote ne s'est pas chargé, ou n'est pas le bon, ou si vous voulez "
+"mettre un module en liste noire, c'est ici. Le plus commun est le cas d'un "
+"pilote monté automatiquement, la carte réseau wifi, mais vous ne pouvez ou "
+"ne voulez pas l'utiliser, ou vous voulez d'autres modules ou même utiliser "
+"Ndiswrapper (pour utiliser le pilote Windows)."
+
+#: bootmanager.sh:521
+#, fuzzy
+msgid "'Blacklist' module"
+msgstr "Cliquer ici pour mettre un module en liste noire :"
+
+#: bootmanager.sh:528
+#, fuzzy
+msgid "Add new module"
+msgstr "Charger les modules du noyau"
+
+#: bootmanager.sh:535
+#, fuzzy
+msgid "Give preference to one module over another"
+msgstr "Donner la préférence à un module sur un autre :"
+
+#: bootmanager.sh:546
+msgid "Manage system services"
+msgstr "Gérer les services du système"
+
+#: bootmanager.sh:548
+msgid ""
+"These are processes (applications) that are started at bootup and run "
+"continuously in the background. On slow PCs it may help to not run some of "
+"these."
+msgstr ""
+"Ici se trouvent les processus (applications) lancés au démarrage et "
+"fonctionnant continuellement en arrière plan. Sur des PC lents, il peut être "
+"utile de ne pas les lancer tous."
+
+#: bootmanager.sh:552
+#, fuzzy
+msgid "Choose which system services to run at startup"
+msgstr "Quels services du système à lancer au démarrage :"
+
+#: bootmanager.sh:565
+msgid "Quit"
+msgstr ""
+
+#~ msgid "BootManager"
+#~ msgstr "Gestionnaire d'initialisation"
+
+#~ msgid "Click here to add a new module:"
+#~ msgstr "Cliquer ici pour ajouter un nouveau module :"
+
+#~ msgid "ERROR. Must shutdown and create a personal save file first."
+#~ msgstr ""
+#~ "ERREUR. D'abord redémarrez votre PC et créez un fichier personnel  de "
+#~ "sauvegarde."
+
+#~ msgid "HELP"
+#~ msgstr "AIDE"
+
+#~ msgid "Puppy Boot Configuration"
+#~ msgstr "Configuration de démarrage"
+
+#~ msgid "QUIT"
+#~ msgstr "QUITTER"

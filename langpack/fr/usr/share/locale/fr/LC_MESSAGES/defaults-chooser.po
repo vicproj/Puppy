@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: defaults-chooser VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2013-11-11 18:24+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: defaults-chooser.sh:22
+msgid "Default Applications Chooser"
+msgstr "Choix des applications par défaut"
+
+#: defaults-chooser.sh:23
+msgid "Choose your preferred default programs and applications."
+msgstr "Choisissez les applications utilisées par défaut."
+
+#: defaults-chooser.sh:24
+msgid "Choose your preferred default program, or type command."
+msgstr "Choisissez le programme utilisé par défaut, ou tapez une commande."
+
+#: defaults-chooser.sh:25
+msgid "Your default apps have been updated."
+msgstr "Vos applications par défaut ont été mises à jour."
+
+#: defaults-chooser.sh:26
+msgid "Helpful Tips"
+msgstr "Conseils utiles"
+
+#: defaults-chooser.sh:27
+msgid ""
+"You can add custom commands, parameters and options by typing the desired "
+"command in the chosen field and clicking the apply button."
+msgstr ""
+"Vous pouvez ajouter des commandes, des options et des paramètres en tapant "
+"la commande voulue dans le champs puis cliquez sur le bouton Actualiser."
+
+#: defaults-chooser.sh:28
+msgid ""
+"To load apps through the terminal, simply add \"rxvt -e \" before the "
+"command you wish to execute in the terminal."
+msgstr ""
+"Pour charger des applications dans le terminal, il suffit de rajouter \"rxvt "
+"-e \" avant la commande que vous souhaitez exécuter dans le terminal."
+
+#: defaults-chooser.sh:29
+msgid ""
+"Example: \"rxvt -e mp\" will load the terminal based editor, called \"MP\"."
+msgstr ""
+"Exemple: \"rxvt -e mp\" chargera notre éditeur terminal basique \"MP\"."
+
+#: defaults-chooser.sh:30
+msgid "by sc0ttman"
+msgstr "par sc0ttman"
+
+#: defaults-chooser.sh:31
+msgid "Apply"
+msgstr "Appliquer"
+
+#: defaults-chooser.sh:32
+msgid "Help"
+msgstr "Aide"
+
+#: defaults-chooser.sh:33
+msgid "Cancel"
+msgstr "Annuler"
+
+#: defaults-chooser.sh:34
+msgid "Archiver"
+msgstr "Archiveur"
+
+#: defaults-chooser.sh:35
+msgid "Audio Editor"
+msgstr "Editeur Audio"
+
+#: defaults-chooser.sh:36
+msgid "Audio Mixer"
+msgstr "Mixeur Audio"
+
+#: defaults-chooser.sh:37
+msgid "Audio Player"
+msgstr "Lecteur Audio"
+
+#: defaults-chooser.sh:38
+msgid "Bare HTML Viewer"
+msgstr "Afficheur HTML"
+
+#: defaults-chooser.sh:39
+msgid "Browser"
+msgstr "Navigateur"
+
+#: defaults-chooser.sh:40
+msgid "Calculator"
+msgstr "Calculateur"
+
+#: defaults-chooser.sh:41
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: defaults-chooser.sh:42
+msgid "CD Player"
+msgstr "Lecteur CD"
+
+#: defaults-chooser.sh:43
+msgid "Chat"
+msgstr "Clavardage"
+
+#: defaults-chooser.sh:44
+msgid "CHM Viewer"
+msgstr "Afficheur CHM"
+
+#: defaults-chooser.sh:45
+msgid "Connect"
+msgstr "Connexion"
+
+#: defaults-chooser.sh:46
+msgid "Contact"
+msgstr "Contacts"
+
+#: defaults-chooser.sh:47
+msgid "Burner"
+msgstr "Graveur"
+
+#: defaults-chooser.sh:48
+msgid "Drawing"
+msgstr "Dessin"
+
+#: defaults-chooser.sh:49
+msgid "Email"
+msgstr "Courriels"
+
+#: defaults-chooser.sh:50
+msgid "File manager"
+msgstr "Gestionnaire de fichiers"
+
+#: defaults-chooser.sh:51
+msgid "FTP client"
+msgstr "Client FTP"
+
+#: defaults-chooser.sh:52
+msgid "HTML Editor"
+msgstr "Editeur HTML"
+
+#: defaults-chooser.sh:53
+msgid "HTML Viewer"
+msgstr "Afficheur HTML"
+
+#: defaults-chooser.sh:54
+msgid "Image Editor"
+msgstr "Editeur d'images"
+
+#: defaults-chooser.sh:55
+msgid "Image Viewer"
+msgstr "Afficheur d'images"
+
+#: defaults-chooser.sh:56
+msgid "Media Player"
+msgstr "Lecteur multimédia"
+
+#: defaults-chooser.sh:57
+msgid "Music Player"
+msgstr "Lecteur Audio"
+
+#: defaults-chooser.sh:58
+msgid "Office suite"
+msgstr "Suite bureautique"
+
+#: defaults-chooser.sh:59
+msgid "PDF"
+msgstr "Lecteur PDF"
+
+#: defaults-chooser.sh:60
+msgid "Screenshot"
+msgstr "Copie d'écran"
+
+#: defaults-chooser.sh:61
+msgid "Search"
+msgstr "Rechercher"
+
+#: defaults-chooser.sh:62
+msgid "Spreadsheet"
+msgstr "Tableur"
+
+#: defaults-chooser.sh:63
+msgid "Terminal"
+msgstr "Terminal"
+
+#: defaults-chooser.sh:64
+msgid "Text Editor"
+msgstr "Editeur de textes"
+
+#: defaults-chooser.sh:65
+msgid "Text Viewer"
+msgstr "Afficheur de Textes"
+
+#: defaults-chooser.sh:66
+msgid "Torrent"
+msgstr "Torrent"
+
+#: defaults-chooser.sh:67
+msgid "Word Processor"
+msgstr "Traitement de textes"

@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Input_wizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: input-wizard.sh:30 input-wizard.sh:119
+msgid "Input Wizard"
+msgstr "Assistant des périphériques d'entrée"
+
+#: input-wizard.sh:32
+#, fuzzy
+msgid "Configure your input devices"
+msgstr "Configurer le pavé tactile..."
+
+#: input-wizard.sh:34
+#, fuzzy
+msgid "Keyboard"
+msgstr "Assistant clavier"
+
+#: input-wizard.sh:40
+#, fuzzy
+msgid "Layout for your country"
+msgstr "Choix du type de clavier par pays..."
+
+#: input-wizard.sh:48
+msgid "Keyboard interface"
+msgstr "Interface clavier"
+
+#: input-wizard.sh:56
+#, fuzzy
+msgid "Advanced configuration"
+msgstr "Configuration avancée du clavier..."
+
+#: input-wizard.sh:61
+msgid "Pointer"
+msgstr ""
+
+#: input-wizard.sh:63
+#, fuzzy
+msgid "Type of mouse"
+msgstr "Choisir le type de souris..."
+
+#: input-wizard.sh:70
+msgid "Adjust mouse sensitivity"
+msgstr ""
+
+#: input-wizard.sh:77
+msgid "Touchpad"
+msgstr ""
+
+#: input-wizard.sh:89
+msgid "Quit"
+msgstr ""
+
+#: input-wizard.sh:121
+#, fuzzy
+msgid "Set interface for your keyboard"
+msgstr "Choisissez votre clavier en fonction du pays :"
+
+#: input-wizard.sh:121
+msgid "Changing this only takes effect after Puppy is rebooted!"
+msgstr ""
+"Les changements ne prendront effet qu'après le redémarrage de Toutou/Puppy!"
+
+#: input-wizard.sh:123 input-wizard.sh:232
+#, fuzzy
+msgid "Interface"
+msgstr "Interface souris"
+
+#: input-wizard.sh:126
+#, fuzzy
+msgid "Keyboard has USB interface"
+msgstr "Interface clavier"
+
+#: input-wizard.sh:135 input-wizard.sh:308
+msgid "Cancel"
+msgstr "Annuler"
+
+#: input-wizard.sh:140 input-wizard.sh:313
+msgid "Ok"
+msgstr ""
+
+#: input-wizard.sh:218
+msgid "Enable touchpad tapping for mouse button clicks"
+msgstr "Activer le tapotement du pavé tactile en clic de souris"
+
+#: input-wizard.sh:226
+msgid "Mouse Wizard"
+msgstr "Assistant souris"
+
+#: input-wizard.sh:228
+#, fuzzy
+msgid "Configure your mouse."
+msgstr "Configurer le pavé tactile..."
+
+#: input-wizard.sh:228
+msgid "If you got a touchpad, choose USB interface."
+msgstr ""
+
+#: input-wizard.sh:237
+msgid "USB"
+msgstr ""
+
+#: input-wizard.sh:243
+msgid "PS/2"
+msgstr ""
+
+#: input-wizard.sh:249
+#, fuzzy
+msgid "Serial"
+msgstr "Souris série"
+
+#: input-wizard.sh:265
+msgid "Port"
+msgstr ""
+
+#: input-wizard.sh:279
+#, fuzzy
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: input-wizard.sh:282
+msgid "Mouse has a scroll wheel"
+msgstr "La souris possède une molette de défilement"
+
+#: input-wizard.sh:287
+msgid "Middle button emulated on a 2-button mouse"
+msgstr "Bouton central émulé sur une souris 2 boutons"
+
+#: input-wizard.sh:292
+msgid "Auto-hide mouse cursor when not moving"
+msgstr "Masquer automatiquement la souris lorsque le curseur est immobile"
+
+#: input-wizard.sh:297
+msgid "Left-handed mouse (requires Xorg driver)"
+msgstr "Souris pour gaucher (pilote Xorg requis)"
+
+#~ msgid "Choose keyboard interface..."
+#~ msgstr "Choix de l'interface clavier..."
+
+#~ msgid "Keyboard Wizard: ERROR"
+#~ msgstr "Assistant clavier : ERREUR"
+
+#~ msgid "PS/2 mouse (most common)"
+#~ msgstr "Souris PS/2 (le plus courant)"
+
+#~ msgid "Serial port:"
+#~ msgstr "Port série:"
+
+#~ msgid ""
+#~ "There is a problem. \n"
+#~ "You have chosen $KMAP console keyboard map, however Xorg\n"
+#~ "cannot find a matching layout. Note, available Xorg layouts\n"
+#~ "are in /etc/X11/xkb/symbols/pc.\n"
+#~ "Would you kindly contact BarryK at http://bkhome.org/blog and\n"
+#~ "report this. If you can suggest a correct match for $KMAP\n"
+#~ "in /etc/X11/xkb/symbols/pc, that will be very helpful.\n"
+#~ "\n"
+#~ "For now, setting Xorg to use us layout."
+#~ msgstr ""
+#~ "Il y a un problème. \n"
+#~ "Vous avez sélectionné la carte clavier $KMAP de la console, mais Xorg\n"
+#~ "ne trouve pas de modèle correspondant. Les dispositions de Xorg "
+#~ "utilisables\n"
+#~ "sont dans /etc/X11/xkb/symbols/pc.\n"
+#~ "Souhaitez-vous contacter BarryK sur http://bkhome.org/blog et rapporter\n"
+#~ "cela? Si vous pouvez suggérer une correspondance correcte pour $KMAP\n"
+#~ " dans /etc/X11/xkb/symbols/pc, ce sera très utile.\n"
+#~ "\n"
+#~ "Maintenant, paramétrage de Xorg pour utiliser la disposition us"
+
+#~ msgid "USB or PS/2 mouse (also touchpad)"
+#~ msgstr "Souris USB ou PS/2 (et pavé tactile)"
+
+#~ msgid ""
+#~ "You have chosen $KMAP keyboard map.\n"
+#~ "Note, this information is saved in file /etc/keymap\n"
+#~ "\n"
+#~ "YOU WILL NEED TO RESTART X FOR THIS TO TAKE EFFECT\n"
+#~ "\n"
+#~ "Press OK button to continue Wizard..."
+#~ msgstr ""
+#~ "Vous avez choisi la carte clavier $KMAP.\n"
+#~ "Cette information est enregistrée dans le fichier /etc/keymap\n"
+#~ "\n"
+#~ "VOUS DEVREZ REDEMARRER X POUR QUE CELA PRENNE EFFET\n"
+#~ "\n"
+#~ "Pressez OK pour continuer avec l'Assistant..."

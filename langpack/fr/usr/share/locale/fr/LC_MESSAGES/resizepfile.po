@@ -1,0 +1,203 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: resizepfile 0.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2013-06-30 01:01+0800\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French (ASRI)\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: resizepfile-bin.sh:28
+msgid "ResizePfile"
+msgstr "ResizePfile"
+
+#: resizepfile-bin.sh:29
+msgid "(increase size of personal storage file)"
+msgstr "(augmenter la taille du fichier personnel de stockage)"
+
+#: resizepfile-bin.sh:79
+msgid ""
+"Sorry, you are not currently using a personal persistent storage file.\n"
+"\n"
+"If this is the first time that you booted, say from a live-CD, you are "
+"currently running totally in RAM and you will be asked to create a personal "
+"storage file when you end the session (shutdown the PC or reboot). Note, the "
+"file will be named pup_save.2fs and will be created in a place that you "
+"designate.\n"
+"\n"
+"If you have done a full install to a partition, or installed such that "
+"personal storage is an entire partition, then you will not have a "
+"pup_save.2fs file either.\n"
+"\n"
+"Press OK to exit..."
+msgstr ""
+"Désolé, actuellement vous n'utilisez pas de fichier personnel de stockage.\n"
+"\n"
+"Si c'est la première fois que vous démarrez à partir du liveCD/USB, l'OS "
+"n'utilise actuellement que la mémoire RAM. il vous sera proposé de créer un "
+"fichier personnel de stockage quand vous arrêterez/redémarrerez l'OS.\n"
+"\n"
+"Si vous avez effectué une installation complète, ou si vous êtes en "
+"utilisation 'frugale' et que vous n'avez pas créé un fichier personnel de "
+"stockage, vous ne pouvez pas augmenter la taille du fichier pupsave.\n"
+"\n"
+"Cliquez sur OK pour quitter..."
+
+#: resizepfile-bin.sh:116
+msgid ""
+"If your personal storage file (pupsave) lack of free space, you can increase "
+"its size.\n"
+"\n"
+"Notes:\n"
+"- The resizing will happen at reboot. The requested size increase will be "
+"written to file pupsaveresize.txt (in host partition). The file "
+"pupsaveresize.txt will be read at bootup and the resizing performed ; then "
+"pupsaveresize.txt will be deleted.\n"
+"- This is one-way, you can not make pupsave smaller.\n"
+"- Obviously, the host device must have enough free space.\n"
+"- If you have multiple pupsave files, be sure to select the correct file at "
+"reboot."
+msgstr ""
+"Si votre fichier personnel de stockage (pupsave) manque d'espace libre, vous "
+"pouvez augmenter sa taille.\n"
+"\n"
+"Remarques :\n"
+"- Le redimmensionnement aura lieu lors du redémarrage de l'OS. La taille "
+"d'augmentation demandée sera enregistrée dans le fichier pupsaveresize.txt "
+"(placé sur la partition d'accueil). Le fichier pupsaveresize.txt sera lu au "
+"redémarrage afin d'activer le redimensionnement ; le fichier pupsaveresize."
+"txt sera ensuite supprimé.\n"
+"- C'est en sens unique, vous ne pourrez pas diminuer la taille du fichier "
+"pupsave.\n"
+"- Evidemment, la partition d'accueil doit disposer de suffisament d'espace "
+"libre.\n"
+"- Si vous utilisez plusieurs fichiers de sauvegarde, sélectionnez le bon "
+"fichier lors du redémarrage de l'OS."
+
+#: resizepfile-bin.sh:124
+msgid "Free space:"
+msgstr "Espace libre :"
+
+#: resizepfile-bin.sh:125 resizepfile-bin.sh:196
+msgid "Free space in current pupsave file"
+msgstr "Espace libre dans le fichier pupsave actuel"
+
+#: resizepfile-bin.sh:125 resizepfile-bin.sh:126 resizepfile-bin.sh:196
+#: resizepfile-bin.sh:197 resizepfile-bin.sh:198 resizepfile-bin.sh:199
+#: resizepfile-bin.sh:200 resizepfile-bin.sh:201 resizepfile-bin.sh:202
+#: resizepfile-bin.sh:203 resizepfile-bin.sh:204 resizepfile-bin.sh:205
+#: resizepfile-bin.sh:206 resizepfile-bin.sh:207 resizepfile-bin.sh:257
+#: resizepfile-bin.sh:258
+msgid "MB"
+msgstr "Mo"
+
+#: resizepfile-bin.sh:125 resizepfile-bin.sh:126 resizepfile-bin.sh:196
+#: resizepfile-bin.sh:197 resizepfile-bin.sh:198 resizepfile-bin.sh:199
+#: resizepfile-bin.sh:200 resizepfile-bin.sh:201 resizepfile-bin.sh:202
+#: resizepfile-bin.sh:203 resizepfile-bin.sh:204 resizepfile-bin.sh:205
+#: resizepfile-bin.sh:206 resizepfile-bin.sh:207 resizepfile-bin.sh:257
+#: resizepfile-bin.sh:258
+msgid "GB"
+msgstr "Go"
+
+#: resizepfile-bin.sh:125 resizepfile-bin.sh:126
+msgid "out of a total size of"
+msgstr "sur une taille totale de"
+
+#: resizepfile-bin.sh:126
+msgid "Free space in current host partition"
+msgstr "Espace libre sur la partition d'accueil actuelle"
+
+#: resizepfile-bin.sh:129
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: resizepfile-bin.sh:138
+msgid "= size is compatible"
+msgstr "= taille compatible"
+
+#: resizepfile-bin.sh:139
+msgid "= size is not compatible"
+msgstr "= taille non compatible"
+
+#: resizepfile-bin.sh:195
+msgid ""
+"Choose a size, then click the OK button to increase the capacity of your "
+"personal storage file (pupsave)."
+msgstr ""
+"Choisissez une taille, puis cliquez sur le bouton OK pour augmenter la "
+"capacité de votre fichier personnel de stockage (pupsave)."
+
+#: resizepfile-bin.sh:197
+msgid "Free space left in current host partition"
+msgstr "Espace libre disponible sur la partition d'accueil actuelle"
+
+#: resizepfile-bin.sh:244
+msgid ""
+"The requested size increase has been written to file pupsaveresize.txt, in "
+"host partition"
+msgstr ""
+"La taille d'augmentation demandée a été enregistrée dans le fichier "
+"pupsaveresize.txt, placé sur la partition d'accueil"
+
+#: resizepfile-bin.sh:244
+msgid "(currently mounted on /mnt/home)."
+msgstr "(actuellement montée sur /mnt/home)."
+
+#: resizepfile-bin.sh:245
+msgid "The change will happen at reboot."
+msgstr "La modification aura lieu lors du redémarrage de l'OS."
+
+#: resizepfile-bin.sh:247
+msgid "WARNING: If you have multiple save files"
+msgstr "Important : si vous utilisez plusieurs fichiers de sauvegarde"
+
+#: resizepfile-bin.sh:247
+msgid "be sure to select the same one"
+msgstr "sélectionnez le bon fichier"
+
+#: resizepfile-bin.sh:247
+msgid "when you reboot OS."
+msgstr "lors du redémarrage de l'OS."
+
+#: resizepfile-bin.sh:256
+#, sh-format
+msgid ""
+"The host partition does not have enough free space for the requested "
+"increase.\n"
+"- Requested size increase ="
+msgstr ""
+"La partition d'accueil ne dispose pas de suffisamment d'espace libre pour "
+"accepter la taille d'augmentation demandée.\n"
+"- Taille d'augmentation demandée ="
+
+#: resizepfile-bin.sh:258
+msgid "Free space avaible on host partition ="
+msgstr "Espace libre disponible sur la partition d'accueil ="
+
+#: resizepfile-bin.sh:260
+#, sh-format
+msgid ""
+"$AppTitle utility will be restarted to allow you to select a different size."
+msgstr ""
+"L'utilitaire $AppTitle va redémarrer pour vous permettre de choisir une "
+"taille différente."
+
+#: resizepfile.sh:22
+#, sh-format
+msgid "$AppTitle is already running."
+msgstr "$AppTitle est déjà en cours de fonctionnement."

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: set-time-for-puppy VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2012-02-16 17:53+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: set-time-for-puppy.sh:20
+msgid "Set time tool"
+msgstr "Régler la date et l'heure "
+
+#: set-time-for-puppy.sh:23
+msgid "Please set the date..."
+msgstr "Définissez d'abord la date ..."
+
+#: set-time-for-puppy.sh:32
+msgid "Please set the time..."
+msgstr "Puis régler l'heure ..."
+
+#: set-time-for-puppy.sh:34
+msgid "Aborted."
+msgstr "Abandon."
+
+#: set-time-for-puppy.sh:53 set-time-for-puppy.sh:58
+msgid "info"
+msgstr "Infos"
+
+#: set-time-for-puppy.sh:53
+msgid "Your screen might turn black now for some seconds, just wait..."
+msgstr "Votre écran va devenir noir pendant quelques secondes, patientez ..."
+
+#: set-time-for-puppy.sh:58
+msgid "Finished. Time was set to"
+msgstr "Actualisation de la date et de l'heure terminée  :"

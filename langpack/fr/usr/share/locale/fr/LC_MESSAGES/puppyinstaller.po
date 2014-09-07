@@ -1,0 +1,2030 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Puppyinstaller\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: puppyinstaller.sh:66
+msgid "Yes"
+msgstr ""
+
+#: puppyinstaller.sh:67
+msgid "No"
+msgstr ""
+
+#: puppyinstaller.sh:151 puppyinstaller.sh:247 puppyinstaller.sh:311
+#: puppyinstaller.sh:363 puppyinstaller.sh:369 puppyinstaller.sh:400
+#: puppyinstaller.sh:405 puppyinstaller.sh:555 puppyinstaller.sh:608
+#: puppyinstaller.sh:645 puppyinstaller.sh:658 puppyinstaller.sh:713
+#: puppyinstaller.sh:724 puppyinstaller.sh:772 puppyinstaller.sh:774
+#: puppyinstaller.sh:789 puppyinstaller.sh:804 puppyinstaller.sh:961
+#: puppyinstaller.sh:1134 puppyinstaller.sh:1170 puppyinstaller.sh:1223
+#: puppyinstaller.sh:1241 puppyinstaller.sh:1283 puppyinstaller.sh:1334
+#: puppyinstaller.sh:1351 puppyinstaller.sh:1355 puppyinstaller.sh:1364
+#: puppyinstaller.sh:1374 puppyinstaller.sh:1468 puppyinstaller.sh:1540
+#: puppyinstaller.sh:1555 puppyinstaller.sh:1592 puppyinstaller.sh:1598
+#: puppyinstaller.sh:1623 puppyinstaller.sh:1686 puppyinstaller.sh:1703
+msgid "Puppy Universal Installer"
+msgstr "Installateur Universel "
+
+#: puppyinstaller.sh:151
+msgid ""
+"GParted is a partition manager, available in Puppy, a very simple tool\n"
+"for deleting, creating and resizing partitions."
+msgstr ""
+"GParted est un gestionnaire de partition, disponible dans Toutou, un outil\n"
+"très simple pour effacer, créer et redimmensionner les partitions."
+
+#: puppyinstaller.sh:154
+#, sh-format
+msgid ""
+"Regarding 'ntfs' or 'vfat', of course do not change these to ext2 or ext3 if "
+"the\n"
+"partition has Windows or DOS installed on it! In the case of USB Flash "
+"drives,\n"
+"these normally come with a 'fat16' partition which is okay, but you will be\n"
+"restricted to saving to a '${DISTRO_FILE_PREFIX}save' file. This is fine and "
+"most people opt for\n"
+"this, particularly as the drive can be used also to save and transfer files "
+"with\n"
+"Windows. However, a Flash drive can be changed to ext2/3 and still boots "
+"fine,\n"
+"with the advantage that the entire partition can be used to save to, rather "
+"than\n"
+"a '${DISTRO_FILE_PREFIX}save' file. If in doubt, stay with 'vfat'."
+msgstr ""
+"Bien sûr, pour les partitions 'ntfs' ou 'vfat', ne les changez pas, en ext2 "
+"ou ext3 si\n"
+" Windows ou DOS est installé! Dans le cas de support USB Flash, normalement "
+"fournis\n"
+" avec une partition 'fat16' ça ira, mais vous serez restreint de sauver dans "
+"un fichier \n"
+"'${DISTRO_FILE_PREFIX}save'. C'est très bien et la plupart des gens optent "
+"pour ça,\n"
+" surtout que la clé peut être aussi utilisée pour enregistrer et transférer "
+"des fichiers\n"
+" avec Windows. Une clé USB peut être formatée en ext2/3 et démarrer aussi "
+"très bien,\n"
+" avec l'avantage d'avoir la partition entière à utiliser pour sauver au lieu "
+"d'un fichier\n"
+" '${DISTRO_FILE_PREFIX}save'.Dans le doute, gardez 'vfat'."
+
+#: puppyinstaller.sh:163
+msgid "WARNING: changing the filesystem will wipe everything in the partition!"
+msgstr ""
+"ATTENTION: Changer de système de fichiers effacera tout le contenu de la "
+"partition!"
+
+#: puppyinstaller.sh:165
+msgid ""
+"One more thing. When you run GParted, right-click on the partition and you "
+"will\n"
+"see a menu option to 'Manage flags'. Make sure the 'boot' flag is set -- "
+"don't\n"
+"forget that!"
+msgstr ""
+"Encore autre chose : Quand vous serez dans Gparted, clic droit sur la "
+"partition et vous\n"
+"verrez une option  'Manage flags' (ou 'Gérer les drapeaux'). Assurez-vous "
+"que le\n"
+"drapeau 'boot' est affiché -- n'oubliez pas ça!"
+
+#: puppyinstaller.sh:169
+msgid ""
+"If you have a USB Flash 'key' drive that you have installed Puppy to but it "
+"will\n"
+"not boot, it may be that the partition(s) is confusing the PC's BIOS.\n"
+"Personally, I was able to fix such a USB drive by wiping the existing "
+"partition\n"
+"and then create it again using GParted.\n"
+"The steps to do this are very simple: when GParted is running,\n"
+" 1. delete all partitions on the USB device. \n"
+" 2. Create a new primary FAT16 partition, to fill the entire drive.\n"
+" 3. Click the 'Apply' button to write changes to the USB drive.\n"
+" 4. Set the 'boot' configuration flag (right-click on partition, \n"
+"    choose 'manage flags')."
+msgstr ""
+"Si Toutou est sur un support USB qui ne boote pas, il se peut que la\n"
+" partition trompe le BIOS ou Syslinux. Il est possible de trouver une\n"
+" parade en effaçant la partition existante, puis vous la recréer en\n"
+" utilisant GParted.\n"
+"C'est tout simple, vous lancez GParted puis vous,\n"
+" 1. supprimez toutes les partitions sur la clé USB.\n"
+" 2. créez une partition primaire FAT16 de la taille du support.\n"
+" 3. cliquez sur 'Appliquer' pour enregistrer les changements.\n"
+" 4. configurez le 'drapeau' sur boot (clic droit sur la partition \n"
+" et choisissez 'Manage flags' (ou 'Gérer les drapeaux'). "
+
+#: puppyinstaller.sh:180
+msgid ""
+"If GParted is installed, it is now running and you can do the above.\n"
+"Quiting GParted will return you to the Puppy Universal Installer..."
+msgstr ""
+"Si GParted est installé, il se lancera. Faites ce qui est dit plus haut.\n"
+"En quittant GParted, vous retournerez vers Puppy Universal Installer..."
+
+#: puppyinstaller.sh:183
+msgid ""
+"One final note for USB: after exiting GParted, do a mouse-over the desktop "
+"drive\n"
+"icon(s) -- if it(they) has not updated, unplug then replug the USB drive."
+msgstr ""
+"Dernière précision pour l'USB: après avoir quitté GParted, passez la souris "
+"sur l'icône\n"
+" du bureau. Si elle n'a pas été actualisée, débranchez puis rebranchez l'USB."
+
+#: puppyinstaller.sh:202
+msgid "This little section of the Puppy Universal Installer is currently only"
+msgstr "Cette section de Universal Installer sert seulement pour corriger"
+
+#: puppyinstaller.sh:203
+msgid ""
+"for fixing USB Flash or CF-card-in-IDE-adaptor, after you have gone thru"
+msgstr "les supports flash USB ou les cartes CF sur adaptateur IDE qui,"
+
+#: puppyinstaller.sh:204
+msgid "all the steps but it still will not boot."
+msgstr "une fois franchi toutes les etapes, ne se lancent toujours pas."
+
+#: puppyinstaller.sh:206
+msgid "You are trying to install to"
+msgstr "Vous essayez une installation sur"
+
+#: puppyinstaller.sh:206
+msgid "but it is not booting..."
+msgstr "mais ça ne se lance pas..."
+
+#: puppyinstaller.sh:207
+msgid "Well, I am assuming that the BIOS in your PC is able to boot from USB."
+msgstr ""
+"Je pars du principe que le BIOS de votre PC est capable de booter sur USB."
+
+#: puppyinstaller.sh:208
+msgid ""
+"-- for CF-IDE the drive looks like an ordinary hard drive, so that should"
+msgstr ""
+"-- pour CF-IDE le lecteur est comme un disque dur ordinaire, cela devrait"
+
+#: puppyinstaller.sh:209
+msgid "be okay for any BIOS."
+msgstr "donc être bon pour tous les BIOS."
+
+#: puppyinstaller.sh:211
+msgid "This is the first release of this script, and it is a bit limited..."
+msgstr "Voici la 1ere version de ce script. Il est un peu restrictif... et"
+
+#: puppyinstaller.sh:212
+msgid "and only handles a partition with a msdos/vfat filesystem."
+msgstr "traite uniquement les partitions avec syst. de fichiers msdos/vfat."
+
+#: puppyinstaller.sh:214
+msgid "...which is okay,"
+msgstr "...ce qui est valable,"
+
+#: puppyinstaller.sh:214
+msgid "does have a"
+msgstr "doit avoir un syst. de fichiers"
+
+#: puppyinstaller.sh:214 puppyinstaller.sh:217
+msgid "filesystem."
+msgstr "."
+
+#: puppyinstaller.sh:215
+msgid "But, we will now wipe it and recreate it."
+msgstr "Mais, nous allons maintenant la supprimer et la refaire."
+
+#: puppyinstaller.sh:217
+msgid "...currently"
+msgstr "...actuellement"
+
+#: puppyinstaller.sh:217
+msgid "has a"
+msgstr "a un syst. de fichiers"
+
+#: puppyinstaller.sh:218
+msgid "This script is not yet designed for that, so cannot continue."
+msgstr "Ce script ne fait pas encore cela, et ne peut donc pas continuer."
+
+#: puppyinstaller.sh:220
+msgid "Press ENTER key to exit:"
+msgstr "Pressez ENTREE pour quitter :"
+
+#: puppyinstaller.sh:225
+msgid "Please be sure that you are wiping the right partition!!!"
+msgstr "Assurez vous que vous supprimez la bonne partition!!!"
+
+#: puppyinstaller.sh:226
+msgid "Everything in"
+msgstr "Tout le contenu de"
+
+#: puppyinstaller.sh:226
+msgid "is going to be wiped. If you do not want that,"
+msgstr "sera supprime. Si vous ne le voulez pas,"
+
+#: puppyinstaller.sh:227
+msgid "press any letter on the keyboard then ENTER key, or"
+msgstr "pressez une touche des lettres du clavier puis ENTREE, ou"
+
+#: puppyinstaller.sh:228
+msgid "Press ENTER key only to continue script:"
+msgstr "Pressez ENTREE seulement pour continuer ce script :"
+
+#: puppyinstaller.sh:231
+msgid "Recreating msdos filesystem on"
+msgstr "Re-creation du syst. de fichiers msdos sur"
+
+#: puppyinstaller.sh:234
+msgid "Fixing the Master Boot Record (MBR)..."
+msgstr "Correction du Master Boot Record (MBR)..."
+
+#: puppyinstaller.sh:239
+msgid "...done"
+msgstr "...fait"
+
+#: puppyinstaller.sh:241
+msgid "Okay, we can now go back to the main part of the Puppy Universal"
+msgstr "Bon, revenons vers la partie principale de l'Installateur"
+
+#: puppyinstaller.sh:242
+msgid "Installer and install Puppy to the"
+msgstr "Universel pour installer Toutou sur la partition"
+
+#: puppyinstaller.sh:242
+msgid "partition."
+msgstr "."
+
+#: puppyinstaller.sh:243 puppyinstaller.sh:642
+msgid "Press ENTER key to continue:"
+msgstr "Pressez ENTREE pour continuer :"
+
+#: puppyinstaller.sh:281 puppyinstaller.sh:287 puppyinstaller.sh:298
+msgid "Puppy universal installer"
+msgstr "Installateur Universel"
+
+#: puppyinstaller.sh:281
+msgid "DIRECTORY"
+msgstr "REPERTOIRE"
+
+#: puppyinstaller.sh:281
+#, fuzzy, sh-format
+msgid ""
+"Puppy consists of 2 to 6 files:\\nvmlinuz      The Linux kernel\\ninitrd."
+"gz    The initial ramdisk.\\n${DISTRO_PUPPYSFS}  This has all the Puppy "
+"files (sometimes inside initrd.gz).\\n             (if built inside initrd."
+"gz then only initrd.gz is required)\\n${DISTRO_ADRVSFS} and "
+"${DISTRO_YDRVSFS} if a modular main SFS is used (optional).\\n"
+"${DISTRO_ZDRVSFS} Extra kernel drivers and firmware (optional)."
+"\\n             (most builds have a usable selection of drivers in "
+"${DISTRO_PUPPYSFS})\\nIf you booted Puppy from a live-CD, those files will "
+"be on it.\\nOtherwise, they are in the .iso file and can be extracted -- in "
+"that\\ncase, just click on the .iso file and it will be mounted (opened) in"
+"\\na directory (do not forget to click on the file later to unmount it!)\\n"
+"\\nWhere are the Puppy files?..."
+msgstr ""
+"Toutou contient de 2 à 4 fichiers:\\nvmlinuz      Le noyau Linux\\ninitrd."
+"gz   Le ramdisk initial.\\n${DISTRO_PUPPYSFS}, il contient tous les fichiers "
+"de Toutou (quelquefois\\n              dans initrd.gz). (dans ce cas, seul "
+"initrd.gz est alors nécessaire)\\n${DISTRO_ZDRVSFS}, complément en pilotes "
+"et firmware du noyau (optionnel).\\n             (certaines versions ont des "
+"pilotes utiles dans ${DISTRO_PUPPYSFS})\\nSi vous avez booté d'un live-CD, "
+"ces fichiers y sont. Autrement, ils sont dans\\nle fichier .iso et peuvent "
+"être extraits  -- dans ce cas, cliquez juste sur le fichier\\n.iso et il se "
+"montera (ouvrira) dans un répertoire (n'oubliez pas de cliquez à\\nnouveau "
+"sur ce fichier ultérieurement pour le démonter!)\\n\\nOù sont les fichiers "
+"de Toutou?..."
+
+#: puppyinstaller.sh:287
+#, sh-format
+msgid ""
+"Please insert the Puppy live-CD (if not already) into the drive.\\nNote, in "
+"case your PC has two CD/DVD drives, Puppy is expecting\\nthe live-CD to be "
+"inserted into $CDDRIVE, which is described as:\\n $CDDRVINFO \\n\\nAfter "
+"inserting live-CD, click OK button..."
+msgstr ""
+"Insérez le Live-CD de Toutou dans le lecteur/graveur.\\nSi vous avez deux "
+"lecteurs de CD/DVD, l'installeur s'attend\\nà ce que le live-CD soit "
+"introduit dans $CDDRIVE, désigné ici:\\n $CDDRVINFO \\n\\nAprès l'insertion "
+"du CD/DVD, cliquez sur OK..."
+
+#: puppyinstaller.sh:293 puppyinstaller.sh:305
+msgid "Puppy universal installer: ERROR"
+msgstr "Puppy universal installer: ERREUR"
+
+#: puppyinstaller.sh:293
+msgid ""
+"Sorry, Puppy is not on the CD.\\nPlease mount the CD using one of the mount "
+"programs\\n(see File Managers menu) then click OK button..."
+msgstr ""
+"Désolé, Toutou/Puppy n'est pas sur le CD.\\nMontez le CD avec un des outils "
+"de montage\\n(menu Fichiers) et cliquez sur OK ..."
+
+#: puppyinstaller.sh:298
+#, sh-format
+msgid ""
+"Please find the latest Puppy files\\nvmlinuz, initrd.gz and "
+"${DISTRO_PUPPYSFS},\\nTHEN HIGHLIGHT ANY ONE OF THEM\\nand click the OK "
+"button"
+msgstr ""
+"Cherchez les derniers fichiers de Toutou\\nvmlinuz, initrd.gz et "
+"${DISTRO_PUPPYSFS},\\nPUIS METTEZ-LES EN SURBRILLANCE\\net cliquez sur OK"
+
+#: puppyinstaller.sh:305
+#, sh-format
+msgid ""
+"Oh dear, a 'sanity check' has failed.\\nThis file: $SRCPATH/"
+"${DISTRO_PUPPYSFS}\\ndoes not exist.\\nThe above is supposed to be path-to-"
+"where-puppy-files-are/${DISTRO_PUPPYSFS}\\nClick OK button to quit..."
+msgstr ""
+"Le 'contrôle élémentaire' a échoué.\\nLe fichier: $SRCPATH/"
+"${DISTRO_PUPPYSFS}\\nn'existe pas.\\nCe qui précède est supposé être le "
+"chemin-des-fichiers-de-Toutou/${DISTRO_PUPPYSFS}\\nCliquez sur OK pour "
+"quitter..."
+
+#: puppyinstaller.sh:311
+msgid ""
+"Welcome to the Puppy Universal Installer!\\nIf you wish to install Puppy to "
+"a removable media, such as a USB Flash\\nor hard drive, CD/DVD disc, Zip "
+"disk or LS-120 disk, please insert it\\nright now, before proceeding.\\n"
+"\\nINSERT MEDIA NOW\\nThen, choose the media that you want to install Puppy "
+"to:"
+msgstr ""
+"Bienvenue dans P.U.I. Installeur universel de Toutou!\\nPour installer "
+"Toutou sur un média amovible: USB ou\\ndisque dur, CD/DVD, disquette, Zip, "
+"LS-120, insérez\\nle support avant de poursuivre.\\n\\nINSEREZ LE MEDIA "
+"IMMEDIATEMENT.\\nPuis choisissez où vous souhaitez installer Toutou:"
+
+#: puppyinstaller.sh:311
+msgid "USB Flash drive"
+msgstr "Clé flash USB"
+
+#: puppyinstaller.sh:311
+msgid "USB hard drive"
+msgstr "Disque dur USB"
+
+#: puppyinstaller.sh:311
+msgid "USB CF Flash drive, later move CF card to IDE/SATA internal adaptor"
+msgstr "Support CF flash USB, puis CF vers adap. IDE/SATA"
+
+#: puppyinstaller.sh:311
+msgid "Internal USB Flash drive (ex: uDiskOnChip)"
+msgstr "Disque flash interne USB (ex: uDiskOnChip)"
+
+#: puppyinstaller.sh:311
+msgid "Internal IDE/SATA Flash drive (exs: CF card, SD memory card)"
+msgstr "Disque flash interne IDE/SATA (ex: carte CF, carte mémoire SD)"
+
+#: puppyinstaller.sh:311
+msgid "Internal ZIP or LS120 drive"
+msgstr "Disquette interne ZIP ou LS120"
+
+#: puppyinstaller.sh:311
+msgid "Internal (IDE or SATA) hard drive"
+msgstr "Disque dur interne (IDE ou SATA)"
+
+#: puppyinstaller.sh:311
+msgid "Ancient true-SCSI hard drive"
+msgstr "Ancien disque dur, vrai SCSI"
+
+#: puppyinstaller.sh:311
+msgid "CD drive"
+msgstr "Lecteur/Graveur CD"
+
+#: puppyinstaller.sh:363 puppyinstaller.sh:369 puppyinstaller.sh:400
+#: puppyinstaller.sh:597
+msgid "QUIT"
+msgstr "QUITTER"
+
+#: puppyinstaller.sh:363
+#, sh-format
+msgid ""
+"Your computer has these CD/DVD drives:\\n$SELECTIONS \\n\\nHowever, you "
+"cannot install Puppy to a CD/DVD in the same way as a\\nhard drive, USB "
+"Flash drive or Zip drive, as the CD/DVD is not\\ndirectly writable. For the "
+"CD/DVD, you need to do what is called\\n'remastering' and Puppy has a "
+"program for this, called 'Remaster\\nPuppy live-CD', found in the Setup "
+"menu. This program enables\\nyou to create your own custom live-CD/DVD."
+"\\nNote, you will need a new blank CD-R or DVD-R (not +R).\\n\\nClick button "
+"to quit..."
+msgstr ""
+"Votre PC contient ces lect/grav. de CD/DVD:\\n$SELECTIONS \\n\\nMais, vous "
+"ne pouvez pas installer Toutou sur un CD/DVD comme\\nsur des disques dur, "
+"clé USB ou Zip, parce que les CD/DVD ne sont\\npas inscriptibles "
+"directement. Pour cela, vous devez utiliser une\\n'remasterisation', et "
+"Toutou possède un programme pour ça :\\n'Remasteriser Toutou', dans le menu "
+"Paramètres. Ce programme\\nvous permet de créer votre propre live-CD/DVD."
+"\\nNote, vous devez utiliser un CD-R ou DVD-R neuf ou vide (pas +R).\\n"
+"\\nCliquez sur le bouton pour quitter..."
+
+#: puppyinstaller.sh:369
+msgid ""
+"Booting Puppy off a LS120 or Zip drive is such an incredibly slow experience,"
+"\\nyou are being saved the pain of finding this out for yourself. For "
+"example,\\nbooting from a Zip disk is typically 20 minutes!\\nThis option "
+"has been removed from the Universal Installer. If you want to boot\\nfrom a "
+"plug-in media, it is far far better to boot from CD/DVD, USB Flash or\\nhard "
+"drive, or other solid-state memory card media.\\n\\n\\nClick button to "
+"quit..."
+msgstr ""
+"Démarrer Toutou d'une disquette LS120 ou d'un lecteur Zip est une expérience"
+"\\ntellemment incroyablement lente, qu'il vaut mieux se l'éviter. Par "
+"exemple,\\ndémarrer sur une disquette Zip prend généralement 20 minutes!"
+"\\nCette option a été supprimée. Si vous souhaitez démarrer à partir d'un"
+"\\nsupport amovible, il est vaut mieux démarrer d'un CD/DVD, un support USB"
+"\\nou d'un disque dur, ou d'autres cartes mémoires modernes.\\n\\n\\nCliquez "
+"sur le bouton pour quitter ..."
+
+#: puppyinstaller.sh:394
+msgid "Not yet implemented"
+msgstr "Pas encore activé"
+
+#: puppyinstaller.sh:400
+msgid "Nothing to choose. If a plugin device, did you plug it in?"
+msgstr ""
+"Aucun choix possible. Si c'est un appareil à brancher, l'avez vous branché?"
+
+#: puppyinstaller.sh:405
+msgid "Choose which drive to install to:"
+msgstr "Choix du disque de l'installation :"
+
+#: puppyinstaller.sh:481
+msgid "Install Puppy to"
+msgstr "Installer dans"
+
+#: puppyinstaller.sh:490
+msgid ""
+"IMPORTANT: If you use GParted, after creating the partition be sure to set "
+"the 'boot' flag (right-click: Manage flags). Also, for a USB Flash drive "
+"choose fat16 filesystem as easier to boot from (than fat32) -- however a "
+"ext2 or ext3 partition will also work."
+msgstr ""
+"IMPORTANT: Avec GParted, après la création de la partition assurez-vous de "
+"régler le 'boot' flag (clic droit: Gérer drapeaux ou Manage flags). Pour les "
+"clé USB, choisissez une fat16 plus facile à amorcer (que fat32) -- Mais les "
+"partitions ext2 ou ext3 marchent aussi."
+
+#: puppyinstaller.sh:491 puppyinstaller.sh:494
+msgid ""
+"Extra note: Gparted may show invalid partitions on the drive, marked with a "
+"'!' icon -- delete it/them and recreate a partition (and make it bootable)"
+msgstr ""
+"Extra note: Gparted peut afficher des partitions non valables, marquées avec "
+"ça '!' -- effacez-les et recréez une partition (et rendez-la bootable)"
+
+#: puppyinstaller.sh:493
+msgid ""
+"IMPORTANT: If you use GParted, after creating the partition be sure to set "
+"the 'boot' flag (right-click: Manage flags)."
+msgstr ""
+"IMPORTANT: Si vous utilisez GParted, après la création de la partition "
+"assurez-vous de régler le 'boot' flag (clic droit: Gérer drapeaux ou Manage "
+"flags)."
+
+#: puppyinstaller.sh:498
+#, sh-format
+msgid ""
+"No partitions on drive ${DRVSEL}! It is recommended that you run GParted now "
+"to create a partition:"
+msgstr ""
+"Aucune partitions sur ${DRVSEL}! Il est recommandé de lancer GParted pour "
+"créer une partition maintenant:"
+
+#: puppyinstaller.sh:515
+msgid "Filesystem in partition"
+msgstr "Système de fichiers dans la partition"
+
+#: puppyinstaller.sh:517
+#, sh-format
+msgid ""
+"WARNING: Notice the filesystem in the intended destination, is that what you "
+"want? In particular, if the f.s. is 'vfat' or 'ntfs' you might want to "
+"replace these with a Linux ext2 or ext3 f.s. if the partition can be taken "
+"over totally for Puppy's use. If you are installing to an internal drive of "
+"a PC, it is highly recommended that the f.s. be a Linux ext2 or ext3. Puppy "
+"can install to vfat/ntfs but limited to 'frugal' with '${DISTRO_FILE_PREFIX}"
+"save' only. Ntfs is particularly limited, slow and also has severe bootup "
+"options, so get rid of it if at all possible. Click the button to run "
+"GParted, which will enable you to examine and modify the partitions."
+msgstr ""
+"ATTENTION: Observez le système de fichiers de destination souhaitée, est-ce "
+"bien ce que vous voulez? Particulièrement, si le Syst. de Fich. est 'vfat' "
+"ou 'ntfs' vous devriez les remplacer par un système Linux ext2 ou ext3, si "
+"la partition peut être utilisée totalement pour Toutou. Pour une "
+"installation sur un disque interne de votre PC, il est fortement recommandé "
+"que le syst.fich. soit un système Linux ext2 ou ext3. Toutou peut être "
+"installé sur vfat/ntfs mais seulement en 'frugal' avec '${DISTRO_FILE_PREFIX}"
+"save' seulement. Ntfs est particulièrement limité, (lenteur et options de "
+"démarrage ardues), débarrassez-vous de ça dès que possible. Cliquez sur le "
+"bouton pour lancer GParted, qui vous permettra d'examiner et de modifier les "
+"partitions."
+
+#: puppyinstaller.sh:528
+#, sh-format
+msgid ""
+"WARNING: NOT NORMALLY RECOMMENDED. Do you want to install Puppy in "
+"Superfloppy mode, that is, no MBR and no partitions? ...in that case, the "
+"drive will be accessed as /dev/$DRVSEL, without a partition number. This may "
+"be a good choice for booting USB Flash drive from PC with a quirky BIOS. "
+"Click button if yes:"
+msgstr ""
+"ATTENTION: PAS TRES RECOMMANDE. Voulez-vous installer en mode "
+"Superdisquette? c'est à dire ni MBR ni partition... Dans ce cas le support "
+"sera accessible en /dev/$DRVSEL, sans numéro de partition. C'est un bon "
+"choix pour booter sur une clé USB à partir d'un BIOS bizarre. Cliquez sur le "
+"bouton si c'est OUI :"
+
+#: puppyinstaller.sh:542
+#, sh-format
+msgid ""
+"The drive is currently in Superfloppy mode and has no MBR and no partitions. "
+"It is accessed as /dev/$DRVSEL, without a partition number (this may be a "
+"good choice for booting USB Flash drive from PC with a quirky BIOS). Do you "
+"want to partition the drive so that it has a /dev/${DRVSEL}1 partition, in "
+"which Puppy can be installed? If so, click button:"
+msgstr ""
+"Vous êtes actuellement en mode Superdisquette, pas de MBR ni partition. "
+"Accessible comme /dev/$DRVSEL, sans numéro de partition (C'est un bon choix "
+"pour booter sur une clé USB à partir d'un BIOS bizarre). Voulez-vous "
+"partitionner pour qu'il y ait une partition /dev/${DRVSEL}1, pour installer? "
+"Dans ce cas, cliquez sur le bouton :"
+
+#: puppyinstaller.sh:557
+msgid "Here is what Puppy has found out about the chosen drive:"
+msgstr "Voici ce que Toutou a trouvé selon votre sélection :"
+
+#: puppyinstaller.sh:563
+msgid "Go back and choose a different drive"
+msgstr "Revenir en arrière et choisir un disque différent"
+
+#: puppyinstaller.sh:590
+msgid "currently mounted, need to unmount it!!!"
+msgstr "actuellement montée, doit être démontée!!!"
+
+#: puppyinstaller.sh:591
+msgid "currently mounted read-write."
+msgstr "actuellement montée en lecture-écriture."
+
+#: puppyinstaller.sh:592
+#, sh-format
+msgid "$SANITYPART does not have ${DISTRO_FILE_PREFIX}save.3fs file in it."
+msgstr "$SANITYPART ne contient pas de fichier ${DISTRO_FILE_PREFIX}save.3fs."
+
+#: puppyinstaller.sh:594
+msgid "cannot be unmounted!"
+msgstr "ne peut être démontée!"
+
+#: puppyinstaller.sh:595
+msgid "is mounted read-only!"
+msgstr "est montée en lecture seule!"
+
+#: puppyinstaller.sh:596
+#, sh-format
+msgid "$SANITYPART has personal file ${DISTRO_FILE_PREFIX}save.3fs in it!"
+msgstr ""
+"$SANITYPART contient le fichier personnel ${DISTRO_FILE_PREFIX}save.3fs!"
+
+#: puppyinstaller.sh:597
+msgid "Puppy universal installer: SANITY CHECK"
+msgstr "Installateur Universel : VERIFICATION ELEMENTAIRE"
+
+#: puppyinstaller.sh:597
+msgid "CONTINUE"
+msgstr "CONTINUER"
+
+#: puppyinstaller.sh:597
+#, sh-format
+msgid ""
+"A partition sanity check before continuing:\\n$SANITYMSG1 \\n$SANITYMSG2 \\n"
+"$SANITYMSG3 \\n\\nIf the above report is that the partition is mounted, you "
+"need to unmount it\\nright now, but if report is it cannot be unmounted, "
+"then there may be install\\ndifficulties -- certainly, in the case of "
+"install to hard drive you will only\\nbe able to do an 'option1' install "
+"(explained further on).\\nIf the partition has ${DISTRO_FILE_PREFIX}save.3fs "
+"in it, that is the reason it cannot be\\nunmounted -- it is currently in use "
+"by Puppy. If booting Puppy from live-CD,\\nif ${DISTRO_FILE_PREFIX}save.3fs "
+"does not exist then Puppy will run totally in RAM, which will\\nsolve the "
+"problem -- but you should not delete or rename ${DISTRO_FILE_PREFIX}save.3fs "
+"right\\nnow as it is in use. Instead, boot some other OS then rename the "
+"file, then\\nboot Puppy live-CD.\\n\\nBottom-line, unmount the partition "
+"now, if you can, otherwise CONTINUE script\\nwith the restricted install "
+"choice, or QUIT script now and try to fix the\\nproblem of the partition "
+"getting mounted..."
+msgstr ""
+"Un contrôle des partitions avant de continuer:\\n$SANITYMSG1 \\n$SANITYMSG2 "
+"\\n$SANITYMSG3\\n\\nSi le rapport plus haut signale que la partition est "
+"montée, vous devez la\\ndémonter aussitôt, mais si elle ne peut être "
+"demontée, il risque d'y avoir\\ndes problèmes d'installation -- dans le cas "
+"d'une installation sur disque\\ndur, vous pourrez faire une installation "
+"\"option1\" (explications plus loin).\\nSi la partition contient "
+"${DISTRO_FILE_PREFIX}save.3fs, c'est la raison de l'impossibilité du"
+"\\ndémontage -- C'est courant. Lorsque vous bootez d'un Live-CD, si\\n"
+"${DISTRO_FILE_PREFIX}save.3fs n'existe pas, Toutou fonctionne totalement en "
+"RAM, ce qui\\nrésout le problème -- mais vous ne devrez pas effacer ou "
+"renommer \\n${DISTRO_FILE_PREFIX}save.3fs quand il est utilisé. A la place, "
+"démarrez à partir d'un autre\\nOS et ensuite renommez le fichier, puis "
+"relancez le Live-CD.\\n\\nPour finir, démontez la partition si vous pouvez, "
+"autrement CONTINUEZ\\nle script avec le choix d'installation restreint, ou "
+"QUITTEZ maintenant et\\nessayez de régler le problème de la partition "
+"montée..."
+
+#: puppyinstaller.sh:610
+#, sh-format
+msgid ""
+"You have chosen to format /dev/${DESTPART} as a Superfloppy. You now need to "
+"choose whether to create a vfat or a ext3 filesystem on the drive. Ext3 is "
+"the most flexible (and recommended) choice, however if you need to be able "
+"to read the drive from Windows then choose vfat. Note, however, there are "
+"tools for accessing ext2/3 drives in Windows."
+msgstr ""
+"Vous avez choisi de formater /dev/${DESTPART} comme Superdisquette. Vous "
+"devez décider maintenant de créer soit un système vfat soit ext3 sur le "
+"support. Ext3 est plus flexible et recommandè. Mais si vous voulez pouvoir "
+"le lire sous Windows, choisissez vfat. Bien qu'il y ait maintenant des "
+"outils pour accéder aux supports ext2/3 dans Windows."
+
+#: puppyinstaller.sh:611
+#, sh-format
+msgid ""
+"A further clarification: if you choose ext3, then the entire drive will be "
+"immediately available for personal data storage, whereas if you choose vfat "
+"this installer will have to create a file with a ext3 filesystem inside it "
+"(${DISTRO_FILE_PREFIX}save.3fs) -- that file will contain all your personal "
+"files. Press FORMAT_ext3 or FORMAT_vfat button to commence formatting..."
+msgstr ""
+"Autre chose: si vous prenez ext3, le disque entier sera immédiatement "
+"disponible pour le stockage des données personnelles, considérant que si "
+"vous choisissez vfat cet installateur devra créer un fichier avec un système "
+"ext3 dans (${DISTRO_FILE_PREFIX}save.3fs) -- ce fichier contiendra tous vos "
+"dossiers personnels. Pressez FORMATER_ext3 ou FORMATER_vfat pour commencer "
+"le formatage..."
+
+#: puppyinstaller.sh:614
+msgid "FORMAT_ext3"
+msgstr "FORMATER_ext3"
+
+#: puppyinstaller.sh:618
+msgid "FORMAT_vfat"
+msgstr "FORMATER_vfat"
+
+#: puppyinstaller.sh:630
+msgid "SANITY CHECK: formatting /dev/"
+msgstr "VERIFICATION ELEMENTAIRE: formatage de /dev/"
+
+#: puppyinstaller.sh:630
+msgid "ENTER to continue or CTRL-C to quit:"
+msgstr "ENTREE pour continuer ou Ctrl-c pour quitter:"
+
+#: puppyinstaller.sh:635
+msgid "Creating an ext3 filesystem on the drive..."
+msgstr "Création du système de fichiers ext3..."
+
+#: puppyinstaller.sh:638
+msgid "Creating a vfat filesystem on the drive..."
+msgstr "Création du système de fichiers vfat..."
+
+#: puppyinstaller.sh:660
+#, sh-format
+msgid ""
+"You have chosen to format /dev/${DRVSEL} with a MBR and a partition. You now "
+"need to choose whether to create a vfat or a ext3 filesystem on the "
+"partition. Ext3 is the most flexible (and recommended) choice, however if "
+"you need to be able to read the drive from Windows then choose vfat. Note, "
+"however, there are tools for accessing ext2/3 drives in Windows."
+msgstr ""
+"Vous avez choisi de formater /dev/${DRVSEL} avec un MBR et une partition. "
+"Vous devez maintenant choisir soit un système vfat soit ext3 sur la "
+"partition. Ext3 est le choix le plus flexible (et recommandé), cependant si "
+"vous voulez pouvoir lire à partir de Windows, choisissez alors vfat. "
+"Cependant, maintenant il y a des outils pour accéder aux supports ext2/3 "
+"dans Windows."
+
+#: puppyinstaller.sh:661
+#, sh-format
+msgid ""
+"A further clarification: if you choose ext3, then the entire partition will "
+"be immediately available for personal data storage, whereas if you choose "
+"vfat then Puppy will have to create a file with a ext2 filesystem inside it "
+"(${DISTRO_FILE_PREFIX}save.2fs) -- that file will contain all your personal "
+"files."
+msgstr ""
+"Autre chose: si vous prenez ext3, le disque entier sera immédiatement "
+"disponible pour le stockage des données personnelles, considérant que si "
+"vous choisissez vfat cet installateur devra créer un fichier avec un système "
+"ext2 dans (${DISTRO_FILE_PREFIX}save.2fs) -- ce fichier contiendra tous vos "
+"dossiers personnels."
+
+#: puppyinstaller.sh:662
+msgid ""
+"USB Flash drives: it is most common to create a vfat (fat16) partition on "
+"these, for Windows interchangeability and some older BIOSes boot only if see "
+"a fat16 f.s."
+msgstr ""
+"Support Flash USB: Il est courant de créer une partition vfat (fat16) sur "
+"ces média, pour les échanges avec Windows et quelques très vieux BIOS qui ne "
+"voient que fat16."
+
+#: puppyinstaller.sh:664
+msgid "Click button to run GParted..."
+msgstr "Cliquez pour lancer GParted..."
+
+#: puppyinstaller.sh:667
+msgid "Run GParted"
+msgstr "Lancer GParted"
+
+#: puppyinstaller.sh:715
+msgid ""
+"You have chosen to install Puppy to the entire drive, which is what we call "
+"Superfloppy mode, in which there is no MBR (Master Boot Record) and no "
+"partitions. This may be a good choice for Flash memory, especially USB "
+"Flash, that the PC BIOS has trouble booting from."
+msgstr ""
+"Vous avez choisi l'installation sur le support entier, c'est le mode de "
+"Superdisquette, dans lequel il n'y a aucun MBR (disque principal "
+"d'initialisation) et aucune partition. Ceci peut être un bon choix pour la "
+"mémoire Flash, particulièrement USB, sur laquelle le BIOS a parfois de la "
+"peine à booter."
+
+#: puppyinstaller.sh:716
+#, sh-format
+msgid ""
+"The target drive is ${DESTPART}, which has a ${DESTFS}, of size ${DESTSIZM}"
+"M. Press OK button to install Puppy to the drive..."
+msgstr ""
+"Le support de destination est ${DESTPART}, système ${DESTFS}, taille "
+"${DESTSIZM}Mo. Pressez OK pour installer Toutou sur ce support..."
+
+#: puppyinstaller.sh:727
+#, sh-format
+msgid ""
+"You have chosen to install Puppy to partition /dev/${DESTPART}, which has a "
+"${DESTFS} filesystem and the size is ${DESTSIZM}M."
+msgstr ""
+"Vous avez choisi une installation sur la partition : /dev/${DESTPART}, "
+"système de fichiers ${DESTFS} et taille ${DESTSIZM} Mo."
+
+#: puppyinstaller.sh:728
+msgid ""
+"Press OK button to install Puppy (note, there will be one or two more dialog "
+"windows before you have to commit to the actual install)..."
+msgstr ""
+"Pressez OK pour lancer l'installation. (Il y aura encore une ou deux "
+"fenêtres de dialogue avant de commencer l'installation proprement dite)..."
+
+#: puppyinstaller.sh:772
+msgid ""
+"The bootstrap loader code is missing from the MBR (Master Boot Record),"
+"\\nmeaning that the drive will not boot. Please choose one of the"
+"\\nfollowing to fix this. Personally, I have had success with mbr.bin."
+msgstr ""
+"Le code du chargeur de boot est absent du MBR (Master Boot Record),"
+"\\nsignifiant que le support USB ne demarrera pas. Choisissez\\nen un parmi "
+"ces trois. Pour moi mbr.bin fonctionne."
+
+#: puppyinstaller.sh:772 puppyinstaller.sh:774
+msgid "Bootstrap loader code, created by JustGreg"
+msgstr "Bootstrap loader code, de JustGreg"
+
+#: puppyinstaller.sh:772 puppyinstaller.sh:774
+msgid "From the Syslinux package"
+msgstr "Du paquet Syslinux"
+
+#: puppyinstaller.sh:772 puppyinstaller.sh:774
+msgid "From the makebootfat package"
+msgstr "Du paquet makebootfat"
+
+#: puppyinstaller.sh:772 puppyinstaller.sh:774
+msgid "From spblinux, created by Christian Ostheimer"
+msgstr "De spblinux, de Christian Ostheimer"
+
+#: puppyinstaller.sh:774
+#, sh-format
+msgid ""
+"The MBR (Master Boot Record) in the USB drive is probably okay as-is, so "
+"choose\\nthe first option. However, if you cannot get the drive to boot, and "
+"you are\\nsure that the BIOS settings are not to blame and the PC is capable "
+"of booting\\nfrom USB, then try one of these alternative MBRs.\\nNote, if "
+"you choose to change the MBR, the old first 446 bytes (the\\nbootstrap "
+"loader part) of the MBR will be backed up to /tmp/oldmbr.bin\\nNote, you can "
+"install these MBRs directly, without running this\\nInstaller program again: "
+"they are located in /usr/lib/syslinux,\\nand you can use the dd program to "
+"copy them.\\nExample: dd if=spb2_mbr.bin of=/dev/${DESTDRV}\\nNote, "
+"personally I have had success with mbr.bin."
+msgstr ""
+"Le MBR (Master Boot Record) du support USB est probablement OK.\\nChoisissez "
+"la première option.\\nMais si vous ne pouvez pas booter, que les paramètres "
+"du BIOS sont\\nbons et que le PC peut démarrer sur un support USB, alors "
+"essayez\\nun de ces autres MBR.\\nN.B. Si vous changez le MBR, les 446 "
+"anciens premiers octets\\n(la partie du chargeur de boot) du MBR seront "
+"sauvés sur /tmp/oldmbr.bin.\\nVous pouvez installer ces MBR directement, "
+"sans re-passer par\\nun installeur de programmes. Ils sont dans /usr/lib/"
+"syslinux,\\net vous pouvez utiliser le dd program pour les copier."
+"\\nExemple: dd if=spb2_mbr.bin of=/dev/${DESTDRV}\\nN.B. pour moi, mbr.bin a "
+"marché."
+
+#: puppyinstaller.sh:774
+msgid "DO NOTHING, leave current MBR alone"
+msgstr "NE RIEN FAIRE, laissez le MBR qctuel seul"
+
+#: puppyinstaller.sh:789
+msgid "bypass"
+msgstr "Passer"
+
+#: puppyinstaller.sh:789
+#, sh-format
+msgid ""
+"Slight problem. It seems that partition ${DESTPART} does not have it's 'boot'"
+msgstr ""
+"Léger problème, le drapeau 'boot' de la partition ${DESTPART} n'est pas "
+"paramétré"
+
+#: puppyinstaller.sh:790
+msgid ""
+"flag set, which is required to make it bootable. Recommended to click the"
+msgstr ""
+"ce qui ne la rend pas 'bootable'. Cliquez sur le bouton Gparted pour le "
+"lancer,"
+
+#: puppyinstaller.sh:791
+msgid ""
+"'GParted' button now to run GParted, then right-click on the partition and"
+msgstr ""
+"puis, clic droit sur la partition, puis choisissez 'Gérer les "
+"drapeaux' (Manage flags) "
+
+#: puppyinstaller.sh:792
+msgid "choose 'Manage flags' then set 'boot' flag."
+msgstr "puis paramétrez le drapeau sur 'boot'."
+
+#: puppyinstaller.sh:793
+msgid ""
+"After exiting from GParted, this Puppy Universal Installer will continue."
+msgstr "Après avoir quitté Gparted, l'installation continuera."
+
+#: puppyinstaller.sh:795
+msgid "Click 'GParted' (recommended) to run GParted..."
+msgstr "Cliquez sur 'GParted' (recommandé) pour lancer GParted... "
+
+#: puppyinstaller.sh:796
+msgid "Click 'bypass' to bypass GParted..."
+msgstr "Cliquez sur 'Passer' pour éviter GParted..."
+
+#: puppyinstaller.sh:804
+msgid ""
+"Please just accept the default here, 'JUST KEEP GOING'.\\nPLEASE MAKE SURE "
+"TOP ENTRY HIGHLIGHTED THEN CLICK OK BUTTON\\n\\nHowever, if you have tried "
+"this Puppy Universal Installer\\nbut Puppy will not boot, you can try one of "
+"the other choices here.\\n\\nPersonally, I have had success with using "
+"GParted to wipe and\\nrecreate the partition..."
+msgstr ""
+"Acceptez par défaut, 'JUSTE CONTINUER'.\\nASSUREZ-VOUS QUE LE CHOIX DU HAUT "
+"EST EN SURBRILLANCE,\\nET CLIQUEZ SUR OK.\\n\\nMais si vous avez essayé ceci "
+"avec Puppy Universal Installer\\net que ça ne boote pas, essayez un des "
+"autres choix ici.\\n\\nPour moi, cela a marché avec GParted pour effacer et "
+"recréer une partition..."
+
+#: puppyinstaller.sh:804
+msgid "JUST KEEP GOING"
+msgstr "JUSTE CONTINUER"
+
+#: puppyinstaller.sh:804
+msgid "Wipe and recreate USB/IDE-CF partition using GParted"
+msgstr "Supprimer et recréer une partition USB/IDE-CF avec GParted"
+
+#: puppyinstaller.sh:804
+msgid "Make USB or IDE-CF msdos/vfat partition bootable"
+msgstr "Créer une partition bootable USB ou IDE-CF msdos/vfat"
+
+#: puppyinstaller.sh:820 puppyinstaller.sh:977
+msgid "ABSOLUTE FINAL SANITY CHECK!"
+msgstr "ULTIME VERIFICATION ABSOLUE!"
+
+#: puppyinstaller.sh:821 puppyinstaller.sh:978
+msgid "You are about to install Puppy to /dev/"
+msgstr "Vous allez installer sur /dev/"
+
+#: puppyinstaller.sh:821 puppyinstaller.sh:978
+msgid "with boot parameter"
+msgstr "avec les parametres de boot"
+
+#: puppyinstaller.sh:822 puppyinstaller.sh:979
+msgid "The files vmlinuz, initrd.gz,"
+msgstr "Les fichiers vmlinuz, initrd.gz,"
+
+#: puppyinstaller.sh:823
+msgid "and maybe the"
+msgstr "et peut-etre"
+
+#: puppyinstaller.sh:823 puppyinstaller.sh:980
+msgid "and"
+msgstr ""
+
+#: puppyinstaller.sh:823 puppyinstaller.sh:980
+#, fuzzy
+msgid "if they exist."
+msgstr "si present."
+
+#: puppyinstaller.sh:823
+msgid "may be inside"
+msgstr "peut se trouver dans"
+
+#: puppyinstaller.sh:824 puppyinstaller.sh:981
+msgid "will be written to /dev/"
+msgstr "seront inscrits dans /dev/"
+
+#: puppyinstaller.sh:824
+msgid "and Syslinux will be used to make it bootable."
+msgstr "et Syslinux le rendra bootable."
+
+#: puppyinstaller.sh:826 puppyinstaller.sh:983
+msgid "Press ENTER key to continue, CTRL-C to abort:"
+msgstr "Pressez ENTREE pour continuer, Ctrl-c pour abandonner :"
+
+#: puppyinstaller.sh:832 puppyinstaller.sh:1013
+msgid "Do you want to wipe all files in /dev/"
+msgstr "Voulez-vous effacer tous les fichiers dans /dev/"
+
+#: puppyinstaller.sh:832 puppyinstaller.sh:1013
+msgid "This is currently mounted"
+msgstr "Actuellement monte dans"
+
+#: puppyinstaller.sh:833 puppyinstaller.sh:1014
+msgid ""
+"on /mnt/data so you can look at what is there before answering. You would"
+msgstr "/mnt/data pour que vous puissiez y regarder avant de repondre. "
+
+#: puppyinstaller.sh:834 puppyinstaller.sh:1015
+msgid "normally answer no if upgrading Puppy, or yes for a fresh install and"
+msgstr ""
+"Vous devrez normalement repondre Non en cas de mise a jour, ou Oui pour une"
+
+#: puppyinstaller.sh:835 puppyinstaller.sh:1016
+msgid "you want to get rid of old files that are just taking up space."
+msgstr ""
+"nouvelle installation et vous debarrasser des vieux dossiers qui prennent"
+
+#: puppyinstaller.sh:836 puppyinstaller.sh:1017
+msgid ""
+"Note, you can also manually prune files in /mnt/data then choose no here."
+msgstr ""
+"trop de place. Vous pouvez aussi enlever les fichiers dans /mnt/data et"
+
+#: puppyinstaller.sh:837 puppyinstaller.sh:1018
+msgid ""
+"Note, if you choose no here, this script will still do some basic deleting"
+msgstr ""
+"choisir Non ici. Si vous choisissez Non ici, ce script va encore supprimer"
+
+#: puppyinstaller.sh:838 puppyinstaller.sh:1019
+msgid "of any files of an earlier Puppy installation"
+msgstr "tous les fichiers de la precedente installation"
+
+#: puppyinstaller.sh:838 puppyinstaller.sh:1019
+msgid "not the"
+msgstr "mais pas"
+
+#: puppyinstaller.sh:838 puppyinstaller.sh:1019
+msgid "though!"
+msgstr "!"
+
+#: puppyinstaller.sh:840 puppyinstaller.sh:1021
+msgid "No, press ENTER only to not wipe all files, or"
+msgstr "Non, appuyez sur ENTREE pour ne pas effacer tous les fichiers, ou"
+
+#: puppyinstaller.sh:841 puppyinstaller.sh:1022
+msgid "Yes, press any alpha or numeric char then ENTER to wipe all files:"
+msgstr ""
+"Oui, une touche quelquonque puis ENTREE pour effacer tous les fichiers :"
+
+#: puppyinstaller.sh:845 puppyinstaller.sh:1026
+msgid "Deleting everything in /mnt/data..."
+msgstr "Effacement complet en cours dans /mnt/data..."
+
+#: puppyinstaller.sh:866 puppyinstaller.sh:1044
+msgid "Making"
+msgstr "Rend"
+
+#: puppyinstaller.sh:866 puppyinstaller.sh:1044
+msgid "bootable..."
+msgstr "initialisable..."
+
+#: puppyinstaller.sh:872 puppyinstaller.sh:1051
+msgid "Copying vmlinuz..."
+msgstr "Copie de vmlinuz..."
+
+#: puppyinstaller.sh:875
+msgid "Creating syslinux.cfg..."
+msgstr "Creation de syslinux.cfg"
+
+#: puppyinstaller.sh:877
+msgid "Would you like syslinux.cfg to have"
+msgstr "Voulez-vous le parametre de boot"
+
+#: puppyinstaller.sh:877 puppyinstaller.sh:1056
+msgid "boot parameter?"
+msgstr "dans extlinux.cfg?"
+
+#: puppyinstaller.sh:878 puppyinstaller.sh:1057
+msgid "this will cause"
+msgstr "ceci entrainera la copie de"
+
+#: puppyinstaller.sh:878 puppyinstaller.sh:1057
+msgid "to be copied into RAM at bootup, which slows"
+msgstr "en RAM lors du boot, cela"
+
+#: puppyinstaller.sh:879 puppyinstaller.sh:1058
+msgid "bootup but speeds application startup slightly."
+msgstr "ralentit le boot, mais accelere le lancement des applications."
+
+#: puppyinstaller.sh:880 puppyinstaller.sh:1059
+msgid "Probably good to answer yes here if PC has 256MB or more RAM."
+msgstr "Repondre Oui pour les PC avec 256 Mo ou plus de RAM."
+
+#: puppyinstaller.sh:881
+msgid "(you can edit syslinux.cfg later to change the choice made here)"
+msgstr "(vous pourrez editer syslinux.cfg plus tard pour changer vos choix)"
+
+#: puppyinstaller.sh:882 puppyinstaller.sh:1061
+msgid ""
+"note, Puppy will override this and not copy if there is insufficient RAM"
+msgstr "(note, Toutou ignorera et ne copiera pas en cas de RAM insuffisante)"
+
+#: puppyinstaller.sh:883 puppyinstaller.sh:1062
+msgid "ENTER key only for no, else any char then ENTER for yes:"
+msgstr "ENTREE pour Non, ou touche quelquonque, puis ENTREE pour Oui :"
+
+#: puppyinstaller.sh:936
+msgid "Creating marker file for wakepup boot floppy..."
+msgstr "Creation du fichier marqueur pour disquette de boot..."
+
+#: puppyinstaller.sh:942
+msgid "Copying initrd.gz..."
+msgstr "Copie de initrd.gz..."
+
+#: puppyinstaller.sh:945
+msgid "Copying .sfs files..."
+msgstr "Copie des fichiers .sfs..."
+
+#: puppyinstaller.sh:957 puppyinstaller.sh:1130
+msgid "Finished, press ENTER key to continue:"
+msgstr "Fini, pressez ENTREE pour continuer :"
+
+#: puppyinstaller.sh:980
+msgid "and maybe"
+msgstr "et peut-etre"
+
+#: puppyinstaller.sh:980
+msgid "may be inside initrd.gz"
+msgstr "peut etre dans initrd.gz"
+
+#: puppyinstaller.sh:981
+msgid "and Extlinux will be used to make it bootable."
+msgstr "et Extlinux sera utilise pour le rendre initialisable."
+
+#: puppyinstaller.sh:990
+msgid "failed to mount on /mnt/data ...nothing else mounted on"
+msgstr "Echec de montage sur /mnt/data ... aucun montage sur"
+
+#: puppyinstaller.sh:991
+msgid "One known case for this failure is when installing to the"
+msgstr "Un cas connu de cet echec : installation sur la Carte Flash"
+
+#: puppyinstaller.sh:992
+msgid "internal Flash drive of a Intel Classmate laptop. Well, you can attempt"
+msgstr "interne du portable Intel Classmate. Essayez de resoudre ce probleme"
+
+#: puppyinstaller.sh:993
+msgid "to fix this problem by creating a new"
+msgstr "en creant un nouveau syst. de fichiers"
+
+#: puppyinstaller.sh:993
+msgid "filesystem in"
+msgstr "dans"
+
+#: puppyinstaller.sh:993
+msgid "which"
+msgstr "qui"
+
+#: puppyinstaller.sh:994
+msgid "will of course wipe anything previously there -- which will not matter"
+msgstr "effacera tout ce qui etait la auparavant - sans se soucier de savoir"
+
+#: puppyinstaller.sh:995
+msgid "if you have already backed up the previous operating system"
+msgstr "si vous avez deja sauvegarde le precedent O.S"
+
+#: puppyinstaller.sh:996
+msgid "Press ENTER only to abort installation, or"
+msgstr "Pressez ENTREE pour stopper cette installation, ou"
+
+#: puppyinstaller.sh:997
+msgid ""
+"press any char then ENTER to create a new f.s. then proceed with install:"
+msgstr ""
+"une touche quelquonque puis ENTREE pour un nouveau S.F. et poursuivre :"
+
+#: puppyinstaller.sh:1006
+msgid "Sorry, still cannot mount"
+msgstr "Navre, toujours impossible de monter la partition"
+
+#: puppyinstaller.sh:1006
+msgid "partition. Press ENTER to quit:"
+msgstr "Cliquez sur ENTREE pour quitter :"
+
+#: puppyinstaller.sh:1054
+msgid "Creating extlinux.conf..."
+msgstr "Creation de extlinux.conf..."
+
+#: puppyinstaller.sh:1056
+msgid "Would you like extlinux.cfg to have"
+msgstr "Dans extlinux.cfg, voulez-vous le parametre de boot"
+
+#: puppyinstaller.sh:1060
+msgid "you can edit extlinux.conf later to change the choice made here"
+msgstr "vous pourrez editer syslinux.cfg plus tard pour changer vos choix"
+
+#: puppyinstaller.sh:1137
+#, sh-format
+msgid ""
+"Your $DESTPART has a $DESTFS filesystem. Currently only install\n"
+"to external vfat (FAT16/32) or ext2/ext3 filesystems is supported.\n"
+"Click OK to quit..."
+msgstr ""
+"Votre $DESTPART a un système de fichiers $DESTFS. Actuellement, seulel\n"
+" l'installation sur système externe vfat (FAT16/32) ou ext2/ext3, est "
+"prisel\n"
+"en charge. Cliquez OK pour quitter..."
+
+#: puppyinstaller.sh:1163
+msgid "It appears that this is a new installation."
+msgstr "Il semble qu'il s'agit d'une nouvelle installation."
+
+#: puppyinstaller.sh:1165
+#, sh-format
+msgid ""
+"There appears to be an existing installation of Puppy, version $PUPVEROLD,\n"
+"and you may choose to upgrade or totally replace."
+msgstr ""
+"Il semble qu'il y a déjà une installation, version $PUPVEROLD.\n"
+"Vous pouvez la mettre à niveau ou la remplacer complètement."
+
+#: puppyinstaller.sh:1170
+msgid "FRUGAL"
+msgstr "FRUGALE"
+
+#: puppyinstaller.sh:1170
+msgid "FULL"
+msgstr "COMPLETE"
+
+#: puppyinstaller.sh:1170
+#, sh-format
+msgid ""
+"You have chosen to install to /dev/$DESTPART, which appears to be an "
+"internal\n"
+"hard drive"
+msgstr ""
+"Vous avez choisi l'installation sur /dev/$DESTPART, qui semble être un "
+"disque  dur interne\n"
+":"
+
+#: puppyinstaller.sh:1174
+msgid "There are two ways to install Puppy to the partition:"
+msgstr "Il y a deux manières pour installer Toutou sur une partition :"
+
+#: puppyinstaller.sh:1176
+msgid "1. FRUGAL (recommended)"
+msgstr "1. FRUGALE (recommandé)"
+
+#: puppyinstaller.sh:1177
+#, fuzzy, sh-format
+msgid ""
+"Copies the files vmlinuz, initrd.gz, ${DISTRO_PUPPYSFS}, ${DISTRO_ADRVSFS}, "
+"${DISTRO_YDRVSFS} and ${DISTRO_ZDRVSFS} to the"
+msgstr ""
+"Copie des fichiers vmlinuz, initrd.gz, ${DISTRO_PUPPYSFS} et "
+"${DISTRO_ZDRVSFS}"
+
+#: puppyinstaller.sh:1178
+#, sh-format
+msgid ""
+"partition, saving your personal settings inside a ${DISTRO_FILE_PREFIX}save "
+"file (like when"
+msgstr ""
+"sur la partition, en sauvegardant vos paramètres personnels dans un fichier "
+"${DISTRO_FILE_PREFIX}save"
+
+#: puppyinstaller.sh:1179
+msgid "running from CD) and leaving the previous contents of the partition"
+msgstr "(comme avec le CD) sans toucher au contenu antérieur de la partition."
+
+#: puppyinstaller.sh:1180
+msgid "untouched. PROS:"
+msgstr "PROS :"
+
+#: puppyinstaller.sh:1181
+msgid "Can coexist with another distro installed to the same partition."
+msgstr "Coexiste sans problème avec une autre distribution déja installée."
+
+#: puppyinstaller.sh:1182
+msgid "Can install to a non-Linux FAT or NTFS partition (former preferred)."
+msgstr ""
+"Installation possible sur partition non Linux FAT ou NTFS (FAT de préférence)"
+
+#: puppyinstaller.sh:1183
+msgid ""
+"Easier to upgrade: just download the new .iso file and replace the above"
+msgstr ""
+"Mise à jour facile : télécharger la nouvelle iso et remplacer les fichiers"
+
+#: puppyinstaller.sh:1184
+msgid "files with their newer versions (mount the .iso to access the files)."
+msgstr "par les nouveaux (monter l'iso pour accèder aux fichiers)."
+
+#: puppyinstaller.sh:1185
+msgid "(Note: A .iso can easily be mounted in puppy just by clicking on it)"
+msgstr ""
+"(Conseil: Une iso se monte aisément dans Toutou en cliquant seulement dessus)"
+
+#: puppyinstaller.sh:1186
+msgid "Enables the use of .sfs addons (application combo-packs)"
+msgstr "Permet l'utilisation des additifs .sfs (application combo-packs)."
+
+#: puppyinstaller.sh:1187
+msgid "Can save to entire partition if Linux f.s. and no need to coexist."
+msgstr ""
+"Sauvegarde possible sur la partition entière si S.F. Linux, sans coexistance."
+
+#: puppyinstaller.sh:1189
+msgid "2. FULL"
+msgstr "2. COMPLETE"
+
+#: puppyinstaller.sh:1190
+msgid ""
+"A \"normal\" Linux installation, requiring usage of the entire partition by "
+"Puppy."
+msgstr ""
+"Une installation normale requiert l'utilisation de la partition entière par "
+"Toutou."
+
+#: puppyinstaller.sh:1192
+msgid "Note: FRUGAL option, if install to a FAT or NTFS partition, there is an"
+msgstr ""
+"Note : Option FRUGALE, si elle a eu lieu sur une partition FAT ou NTFS, il y "
+"a une"
+
+#: puppyinstaller.sh:1193
+msgid ""
+"extra boot option: \"WakePup2\", using a floppy disk. Otherwise, GRUB is"
+msgstr ""
+"option de boot supplémentaire : WakePup2 sur disquette. Ou bien GRUB, la "
+
+#: puppyinstaller.sh:1194
+msgid "the normal method, booting from floppy, USB or internal hard drive."
+msgstr ""
+"méthode normale pour démarrer à partir de disquette, USB ou disque dur "
+"interne."
+
+#: puppyinstaller.sh:1196
+msgid "Click FRUGAL for coexist install (recommended)..."
+msgstr ""
+"Cliquez sur FRUGALE pour une installation de coexistance (recommandé)..."
+
+#: puppyinstaller.sh:1197
+msgid "Click FULL for conventional install..."
+msgstr "Cliquez sur COMPLETE pour une installation conventionnelle..."
+
+#: puppyinstaller.sh:1198
+msgid "Click window close box to quit..."
+msgstr "Cliquez sur la boite de fermeture de la fenêtre pour quitter..."
+
+#: puppyinstaller.sh:1223
+msgid "You have chosen a frugal installation. As you are installing Puppy to a"
+msgstr ""
+"Vous avez choisi une installation frugale. Comme vous installez Toutou sur "
+"une"
+
+#: puppyinstaller.sh:1224
+#, sh-format
+msgid ""
+"partition with a Linux filesystem (${DESTFS}), the first time that you run"
+msgstr ""
+"partition avec un système de fichiers Linux (${DESTFS}), la première fois "
+"que vous "
+
+#: puppyinstaller.sh:1225
+msgid ""
+"Puppy and shutdown you will be offered to save the session to either a single"
+msgstr ""
+"lancerez Toutou puis fermerez la session, il vous sera proposé de "
+"l'enregistrer"
+
+#: puppyinstaller.sh:1226
+msgid "file or to the entire partition."
+msgstr "soit dans un seul fichier soit dans la partition entière."
+
+#: puppyinstaller.sh:1228
+msgid ""
+"A single file has convenience for backup and there can be multiple session"
+msgstr ""
+"Un seul fichier est plus pratique pour la sauvegarde et vous pouvez avoir "
+"plusieurs "
+
+#: puppyinstaller.sh:1229
+msgid ""
+"files, both for this installation of Puppy and for other installations of"
+msgstr ""
+"fichiers de sessions, tant pour cette installation que pour d'autres "
+"ultérieurement."
+
+#: puppyinstaller.sh:1230
+msgid ""
+"Puppy. Saving the session to the entire partition has the advantage of all"
+msgstr ""
+"L'enregistrement de la session dans la partition entière a l'avantage "
+"d'avoir tout "
+
+#: puppyinstaller.sh:1231
+msgid ""
+"the space available in that partition, however this is a warning for the"
+msgstr ""
+"l'espace de la partition disponible, mais c'est un avertissement pour la "
+"boîte de "
+
+#: puppyinstaller.sh:1232
+msgid "next dialog in this Puppy Universal Installer..."
+msgstr "dialogue suivante de l'Installateur Universel ..."
+
+#: puppyinstaller.sh:1234
+msgid ""
+"The next dialog will ask if you want to install Puppy into a sub-directory."
+msgstr ""
+"La boîte de dialogue suivante vous demandera si vous souhaitez installer "
+"Toutou"
+
+#: puppyinstaller.sh:1235
+msgid ""
+"If you intend to, or might want to, save the session to entire partition, do"
+msgstr ""
+"dans un sous-répertoire. Si vous avez l'intention de sauvegarder la session "
+"dans "
+
+#: puppyinstaller.sh:1236
+msgid "NOT install to a sub-directory, leave the folder field empty..."
+msgstr ""
+"une partition entière, n'installez PAS dans un sous-répertoire, laissez le "
+"champ vide...."
+
+#: puppyinstaller.sh:1241
+#, sh-format
+msgid ""
+"Puppy is going to be installed to partition ${DESTPART}, which is currently"
+msgstr ""
+"Vous allez lancer l'installation dans la partition ${DESTPART}, actuellement "
+"montée"
+
+#: puppyinstaller.sh:1242
+#, sh-format
+msgid "mounted on path ${DESTMNTPT}. As this will be a frugal install, you can"
+msgstr ""
+"sur ${DESTMNTPT}. Comme il s'agit d'une installation Frugale, vous pouvez"
+
+#: puppyinstaller.sh:1243
+msgid ""
+"choose to place the Puppy files in a folder. This is very convenient if you"
+msgstr ""
+"mettre les fichiers dans un dossier. C'est très pratique si vous envisagez"
+
+#: puppyinstaller.sh:1244
+msgid ""
+"want to have more than one installation of Puppy. Even if you only have one"
+msgstr ""
+"plusieurs installations. Même si vous n'en avez qu'une, il est toujours bon"
+
+#: puppyinstaller.sh:1245
+msgid ""
+"installation, it may be good to have all the Puppy files in their own folder"
+msgstr ""
+"d'avoir tous les fichiers dans leur propre répertoire, afin de ne causer "
+"aucun "
+
+#: puppyinstaller.sh:1246
+msgid "and so not causing any potential conflicts with other files at the top"
+msgstr ""
+"éventuel conflit avec les autres fichiers au niveau le plus haut de la "
+"racine."
+
+#: puppyinstaller.sh:1247
+msgid ""
+"level (ex: a pre-existing full Linux install may have 'initrd.gz' at '/')"
+msgstr ""
+"Par ex. une install normale de Linux doit avoir 'initrd.gz' dans la racine."
+
+#: puppyinstaller.sh:1249
+msgid ""
+"Enter a unique name for the folder. Note, Puppy will search 2-deep, so this"
+msgstr ""
+"Donnez un nom simple au dossier. Note, Toutou va chercher sur 2 niveaux,"
+
+#: puppyinstaller.sh:1250
+#, sh-format
+msgid ""
+"(for example) 'puppyfiles/pup${NEWVER}' is okay. Or, a folder at the top"
+msgstr ""
+"(par exemple) 'puppyfiles/pup${NEWVER}' sera correct. Ou, un dossier au "
+"niveau"
+
+#: puppyinstaller.sh:1251
+#, sh-format
+msgid ""
+"level, 'pup${NEWVER}' is okay (of course, do not type the '). Type a string"
+msgstr ""
+"le plus haut 'pup${NEWVER}' sera aussi correct (sans taper l'apostrophe). "
+"Tapez"
+
+#: puppyinstaller.sh:1252
+msgid "without any spaces, or leave blank if you want to install Puppy at '/'."
+msgstr ""
+"une chaine sans espace ou laissez vide pour installer dans la racine '/'."
+
+#: puppyinstaller.sh:1253
+msgid "The folders will be created if don't exist..."
+msgstr "Les dossiers seront créés s'ils n'existent pas encore ..."
+
+#: puppyinstaller.sh:1259
+#, sh-format
+msgid "Please wait, copying files to $DESTPART, in folder $NEWPSUBDIR..."
+msgstr ""
+"Patientez, copie des fichiers dans $DESTPART, dans le dossier $NEWPSUBDIR..."
+
+#: puppyinstaller.sh:1283
+msgid "CREATE_BOOT_DISK"
+msgstr "CREER_DISQUE_DE_BOOT"
+
+#: puppyinstaller.sh:1283
+msgid "NO_BOOT_DISK"
+msgstr "PAS_DE_DISQUE_DE_BOOT"
+
+#: puppyinstaller.sh:1284
+msgid "A floppy disk can be used to boot Puppy."
+msgstr "Vous pouvez démarrer à partir d'une disquette."
+
+#: puppyinstaller.sh:1285
+msgid "Currently we are offering WakePup2, a generic boot floppy"
+msgstr "Actuellement on vous propose WakePup2, une disquette de boot"
+
+#: puppyinstaller.sh:1286
+msgid "that scans the PC and finds where Puppy is installed."
+msgstr "générique qui scanne le PC et cherche où est l'installation."
+
+#: puppyinstaller.sh:1288
+msgid "Note, after this, you will be informed how to configure the"
+msgstr "Après cela il vous sera dit comment configuer le chargeur de"
+
+#: puppyinstaller.sh:1289
+msgid "Grub bootloader."
+msgstr "boot (ou d'initialisation) Grub."
+
+#: puppyinstaller.sh:1305
+#, sh-format
+msgid ""
+"WARNING: If your PC has a mix of IDE and SATA hard drives, then (hd"
+"${GRUB_DRVN}${GRUB_PARTN})"
+msgstr ""
+"ATTENTION: Si votre PC possède à la fois des disques SATA et IDE, alors (hd"
+"${GRUB_DRVN}${GRUB_PARTN}) "
+
+#: puppyinstaller.sh:1306 puppyinstaller.sh:1664
+msgid "may be wrong. GRUB numbers drives as hd<drive>,<partition> where"
+msgstr "sera peut-être faux. Les numéros de disques par Grub sont :"
+
+#: puppyinstaller.sh:1307 puppyinstaller.sh:1665
+msgid "<drive> and <partition> numbering starts from zero. The problem is"
+msgstr "hd<disque>,<partition> où la numérotation de <disque> et <partition>"
+
+#: puppyinstaller.sh:1308 puppyinstaller.sh:1666
+msgid "that GRUB sees IDE drives first (hd0,), whereas if you look at Pmount"
+msgstr ""
+"commence à zéro. Le hic c'est que Grub voit les disques IDE en premier "
+"(hd0,), "
+
+#: puppyinstaller.sh:1309 puppyinstaller.sh:1667
+msgid "you may see it listed second (hd1,). The Uni. Installer uses the"
+msgstr "tandis que dans Pmount vous les verrez listés en second (hd1,)."
+
+#: puppyinstaller.sh:1310 puppyinstaller.sh:1668
+msgid "ordering as reported by Pmount, which may be wrong for GRUB!"
+msgstr ""
+"L'Installateur utilise l'ordre de Pmount, qui sera erroné pour Grub! (ex: Si "
+"un "
+
+#: puppyinstaller.sh:1311
+msgid "(EX: if an IDE drive is hd1,0 (sdb1), may need to be changed to hd0,0)"
+msgstr "disque IDE est reconnu en hd1,0 (sdb1), il devra être changé en hd0,0)"
+
+#: puppyinstaller.sh:1315
+msgid ""
+"If you have GRUB installed, find the 'menu.lst' file (usually in /boot\n"
+"in the partition in which GRUB is installed) and insert this:"
+msgstr ""
+"Si GRUB est installé, cherchez le fichier 'menu.lst' (en principe\n"
+" dans /boot dans la partition où GRUB est installé) et insérez ça:"
+
+#: puppyinstaller.sh:1323
+msgid ""
+"If you have GRUB4DOS installed, find the 'menu.lst' file (usually in /\n"
+"in the partition in which GRUB4DOS is installed) and insert this:"
+msgstr ""
+"Si GRUB4DOS est installé, cherchez le fichier 'menu.lst' (en principe\n"
+"dans  /, dans la partition où GRUB4DOS est installé) et insérez ça:"
+
+#: puppyinstaller.sh:1334
+msgid ""
+"Now you can manually setup your GRUB, GRUB4DOS, LILO or other boot system."
+msgstr ""
+"Maintenant, vous pouvez paramétrer manuellement GRUB, GRUB4DOS, LILO..."
+
+#: puppyinstaller.sh:1336
+#, sh-format
+msgid ""
+"Partition $DESTPART has the files vmlinuz, initrd.gz and ${DISTRO_PUPPYSFS}"
+msgstr ""
+"La partition $DESTPART contient les fichiers vmlinuz, initrd.gz et "
+"${DISTRO_PUPPYSFS}."
+
+#: puppyinstaller.sh:1337
+msgid ""
+"on it, where vmlinuz is the kernel, initrd.gz is the initial ramdisk and"
+msgstr "vmlinuz est le noyau, initrd.gz le ramdisk initial et"
+
+#: puppyinstaller.sh:1338
+msgid "is all the Puppy-files."
+msgstr "contient tous les fichiers de la distribution."
+
+#: puppyinstaller.sh:1340
+msgid "If you already have GRUB or GRUB4DOS installed, see the text editor"
+msgstr ""
+"Si GRUB ou GRUB4DOS est déjà installé, consultez dans la fenêtre de l'éditeur"
+
+#: puppyinstaller.sh:1341
+msgid "window for text that can be inserted into"
+msgstr "de texte, le texte qui peut être inséré dans"
+
+#: puppyinstaller.sh:1343
+msgid ""
+"If you do NOT have GRUB or GRUB4DOS (or any other boot manager) installed,"
+msgstr ""
+"Si NI GRUB NI GRUB4DOS (ou autre gestionnaire de démarrage) n'est installé,"
+
+#: puppyinstaller.sh:1344
+msgid "just click the 'OK' button to finish the installation, then go to the"
+msgstr ""
+"cliquez simplement sur 'OK' pour terminer l'installation, puis rendez-vous "
+"dans "
+
+#: puppyinstaller.sh:1345
+msgid "'System' menu and run the GRUB or GRUB4DOS installer (you probably will"
+msgstr ""
+"'Assistant Général' et lancez GRUB ou GRUB4DOS (vous n'aurez probablement "
+
+#: puppyinstaller.sh:1346
+msgid ""
+"not need the text in the text editor window, as the installers will probe"
+msgstr ""
+"pas besoin du texte de l'éditeur de texte, parce que l'installeur cherchera"
+
+#: puppyinstaller.sh:1347
+msgid "your PC for all installations of Puppy and other operating systems)"
+msgstr "dans votre PC toutes les installations de Toutou/Puppy et autres OS)."
+
+#: puppyinstaller.sh:1351
+msgid "Okay, all done!"
+msgstr "Parfait, tout est terminé!"
+
+#: puppyinstaller.sh:1355
+msgid "UPGRADE"
+msgstr "ACTUALISER"
+
+#: puppyinstaller.sh:1355
+msgid "WIPE"
+msgstr "SUPPRIMER"
+
+#: puppyinstaller.sh:1355
+#, sh-format
+msgid "There is already a version of Puppy installed in ${DESTPART}."
+msgstr ""
+
+#: puppyinstaller.sh:1355
+msgid "Do you want to upgrade, or totally wipe the partition?"
+msgstr ""
+
+#: puppyinstaller.sh:1355
+#, sh-format
+msgid "FINAL SANITY CHECK: ARE YOU SURE ${DESTPART} IS THE RIGHT PARTITION?"
+msgstr ""
+
+#: puppyinstaller.sh:1355
+#, sh-format
+msgid "(note, ${DESTPART} is currently mounted on ${DESTMNTPT} -- okay?)"
+msgstr ""
+
+#: puppyinstaller.sh:1355
+msgid "Select UPGRADE button to upgrade..."
+msgstr ""
+
+#: puppyinstaller.sh:1355
+#, fuzzy
+msgid "Select WIPE button to wipe partition..."
+msgstr "soit dans un seul fichier soit dans la partition entière."
+
+#: puppyinstaller.sh:1355
+#, fuzzy
+msgid "Click window Close box to quit..."
+msgstr "Cliquez sur la boite de fermeture de la fenêtre pour quitter..."
+
+#: puppyinstaller.sh:1364
+msgid "Please wait, wiping all files in"
+msgstr "Patientez, suppression de tous les fichiers sur "
+
+#: puppyinstaller.sh:1374
+msgid "Please wait, copying Puppy files to"
+msgstr "Patientez, copie des fichiers de Toutou sur"
+
+#: puppyinstaller.sh:1468
+msgid "Please wait, executing rc.update script..."
+msgstr "Patientez, exécution du script rc.update..."
+
+#: puppyinstaller.sh:1520
+msgid ""
+"If you have GRUB installed, find the 'menu.lst' file (usually in /boot\n"
+"in the partition in which GRUB is installed) and insert the text,\n"
+"or, if you have GRUB4DOS installed, find the 'menu.lst' file (usually\n"
+"in / in the partition in which GRUB4DOS is installed) and insert this:"
+msgstr ""
+"Si GRUB est installé, cherchez le fichier 'menu.lst' (en principe dans\n"
+" /boot dans la partition où GRUB est installé) et insérez le texte, ou\n"
+"si GRUB4DOS est installé, cherchez le fichier 'menu.lst' (en principe\n"
+"dans /, dans la partition où GRUB4DOS est installé) et insérez ça:"
+
+#: puppyinstaller.sh:1529
+#, sh-format
+msgid ""
+"WARNING: If your PC has a mix of IDE and SATA hard drives, then (hd"
+"${GRUB_DRVN}${GRUB_PARTN})\n"
+"may be wrong. GRUB numbers drives as hd<drive>,<partition> where\n"
+"<drive> and <partition> numbering starts from zero. The problem is\n"
+"that GRUB sees IDE drives first (hd0,), whereas if you look at Pmount\n"
+"you may see it listed second (hd1,). The Uni. Installer uses the\n"
+"ordering as reported by Pmount, which may be wrong for GRUB!\n"
+"(EX: if an IDE drive is hd1,0 (sdb1), may need to be changed to hd0,0)"
+msgstr ""
+"ATTENTION: Si votre PC possède à la fois des disques SATA et IDE, alors \n"
+"(hd${GRUB_DRVN}${GRUB_PARTN}) sera peut-être faux. Les numéros de disques de "
+"Grub\n"
+" sont : hd<disque>,<partition> où la numérotation de <disque> et "
+"<partition>\n"
+" commence à zéro. Le 'hic' c'est que Grub voit les disques IDE en premier "
+"(hd0,),\n"
+" tandis que dans Pmount vous les verrez listés en second (hd1,).\n"
+" L'Installateur utilise l'ordre de Pmount, qui sera erroné pour Grub! (ex: "
+"Si un disque\n"
+"IDE est reconnu hd1,0 (sdb1), il devra être changé en hd0,0)"
+
+#: puppyinstaller.sh:1540 puppyinstaller.sh:1555
+msgid "If all went well, Puppy has been installed to"
+msgstr "Si tout s'est bien passé, Toutou a été installé dans"
+
+#: puppyinstaller.sh:1541
+msgid "The text-editor window shows text that you can insert into the menu.lst"
+msgstr ""
+"La fenêtre de l'éditeur affiche le texte à insérer dans le fichier menu.lst"
+
+#: puppyinstaller.sh:1542
+msgid "file if you have GRUB or GRUB4DOS inststalled."
+msgstr "si GRUB ou GRUB4DOS est installé."
+
+#: puppyinstaller.sh:1544
+msgid "If your PC does not have GRUB, GRUB4DOS, LILO or any other boot manager"
+msgstr ""
+"Si votre PC n'a ni GRUB, GRUB4DOS, LILO ou autre gestionnaire de démarrage"
+
+#: puppyinstaller.sh:1545
+msgid "installed, or you want to do a reinstallation, just click the "
+msgstr ""
+"installé, ou si vous voulez faire une réinstallation, cliquez juste sur"
+
+#: puppyinstaller.sh:1546
+msgid "button to finish the Universal Installer, then go to the 'System' menu"
+msgstr ""
+"'OK' pour terminer avec l'Universal Installer, puis allez dans l'Assistant"
+
+#: puppyinstaller.sh:1547
+msgid "and run the GRUB or GRUB4DOS installer -- this will probe your PC, so"
+msgstr ""
+"Général et lancez l'installeur GRUB ou GRUB4DOS -- Il examinera votre PC,"
+
+#: puppyinstaller.sh:1548
+msgid "you probably won't need the contents of the text-editor..."
+msgstr ""
+"et vous n'aurez probablement pas besoin du contenu de l'éditeur de texte..."
+
+#: puppyinstaller.sh:1555
+msgid "Boot from USB"
+msgstr "Démarrer sur USB"
+
+#: puppyinstaller.sh:1555
+msgid "Install/update GRUB"
+msgstr "Installer/actualiser GRUB"
+
+#: puppyinstaller.sh:1556
+msgid ""
+"But, now we have the sometimes-difficult part, how to make Puppy bootable."
+msgstr "Mais voici la partie délicate, comment rendre la partition bootable."
+
+#: puppyinstaller.sh:1557
+msgid "You can do one, or both, of these:"
+msgstr "Vous pouvez utiliser ou l'une ou les deux options suivantes :"
+
+#: puppyinstaller.sh:1559
+msgid "Boot disk: Use a floppy disk or USB pen drive to boot Puppy."
+msgstr "Disque de démarrage : utiliser une disquette ou clé USB pour démarrer."
+
+#: puppyinstaller.sh:1560
+msgid "Install GRUB in the hard drive (or update existing GRUB)"
+msgstr "Installer GRUB sur le disque dur (ou mettre à jour un GRUB existant)."
+
+#: puppyinstaller.sh:1562
+msgid ""
+"Click 'Boot from USB' if you want to sacrifice a usb Flash pen drive as a"
+msgstr ""
+"Cliquez sur 'Démarrer sur USB' si vous voulez sacrifier une clé USB comme"
+
+#: puppyinstaller.sh:1563
+msgid "'boot disk'. This Universal Installer script will return to this dialog"
+msgstr ""
+"'disque de démarrage'. Ce script d'installation vous ramènera sur cette"
+
+#: puppyinstaller.sh:1564
+msgid "window after creating the USB 'boot disk'."
+msgstr "fenêtre de dialoque après avoir créé la clé USB 'bootable'."
+
+#: puppyinstaller.sh:1565
+msgid ""
+"Note, you would probably only choose this if your PC does not have a floppy"
+msgstr ""
+"N.B. Vous devriez choisir ceci seulement si votre PC n'a pas de lecteur"
+
+#: puppyinstaller.sh:1566
+msgid "drive and you do not want to install GRUB to the hard drive."
+msgstr ""
+"de disquette et que vous ne voulez pas installer GRUB sur le disque dur."
+
+#: puppyinstaller.sh:1568
+msgid ""
+"Click 'Install/update GRUB' to install (or update) the GRUB boot manager."
+msgstr ""
+"Cliquez sur 'Installer/actualiser GRUB' pour installer (ou mettre à jour) le"
+
+#: puppyinstaller.sh:1569
+msgid ""
+"You will be given the opportunity to create a floppy 'boot disk' as well"
+msgstr ""
+"gestionnaire de démarrage GRUB. Il vous sera proposé de créer une 'disquette"
+
+#: puppyinstaller.sh:1570
+msgid "as install GRUB to the hard drive."
+msgstr "d'amorçage' comme d'installer GRUB sur le disque dur."
+
+#: puppyinstaller.sh:1572
+msgid "FOR USB BOOT DISK CHOICE, PLEASE INSERT IT RIGHT NOW BEFORE PROCEEDING!"
+msgstr "POUR LA CLE USB DE BOOT, INSEREZ-LA TOUT DE SUITE AVANT DE POURSUIVRE!"
+
+#: puppyinstaller.sh:1573
+msgid "must have FAT16 f.s., and any files in it will be deleted"
+msgstr ""
+"(ATTENTION : vous devez avoir un S.F. fat 16. Tous les fichiers seront "
+"effacés)"
+
+#: puppyinstaller.sh:1574
+msgid "IT MUST ALSO BE UNMOUNTED -- BE SURE BEFORE PROCEEDING"
+msgstr "ELLE DOIT AUSSI ETRE DEMONTEE -- VERIFIEZ AVANT DE POURSUIVRE"
+
+#: puppyinstaller.sh:1592
+#, sh-format
+msgid ""
+"Please confirm that you want to make '$BOOTPART' into a boot disk for Puppy."
+"\\nIf Puppy has mis-identified the device, then answer 'No' here...\\n"
+"\\nClick 'Yes' button if correct device..."
+msgstr ""
+"Confirmez si vous voulez transformer '$BOOTPART' en disque d'amorçage.\\nSi "
+"elle a été mal identifiée, répondez 'Non'...\\n\\nCliquez sur 'Oui' si tout "
+"est correct..."
+
+#: puppyinstaller.sh:1598
+#, sh-format
+msgid "Creating $BOOTPART boot disk..."
+msgstr "Création de $BOOTPART en disque d'amorçage..."
+
+#: puppyinstaller.sh:1609
+msgid "Creating syslinux.cfg on /dev/"
+msgstr "Creation de syslinux.cfg sur /dev/"
+
+#: puppyinstaller.sh:1611
+msgid "Writing the Linux kernel, vmlinuz, to"
+msgstr "Ecriture du noyau Linux, vmlinuz, sur "
+
+#: puppyinstaller.sh:1616
+msgid "Making the"
+msgstr "Rend"
+
+#: puppyinstaller.sh:1616
+msgid "bootable using Syslinux..."
+msgstr "amorçable avec Syslinux..."
+
+#: puppyinstaller.sh:1619
+msgid "Done. Press ENTER key:"
+msgstr "Fait. Pressez ENTREE :"
+
+#: puppyinstaller.sh:1637 puppyinstaller.sh:1663
+msgid "WARNING: If your PC has a mix of IDE and SATA hard drives, then"
+msgstr ""
+"ATTENTION: Si votre PC possède des disques durs IDE et SATA, alors GRUB"
+
+#: puppyinstaller.sh:1638
+msgid "GRUB may get the drive numbering wrong. In which case, you may"
+msgstr "risque de mal les numéroter. Dans ce cas, vous devrez éditer à la main"
+
+#: puppyinstaller.sh:1639
+msgid "have to manually edit the entry or entries in /boot/grub/menu.lst"
+msgstr "l'entrée ou les entrées dans /boot/grub/menu.lst dans la partition où"
+
+#: puppyinstaller.sh:1640
+msgid "in the partition where GRUB is installed. This problem has come"
+msgstr "GRUB est installé. Cela vient des noyaux Linux récents où"
+
+#: puppyinstaller.sh:1641
+msgid "with recent Linux kernels where IDE drives are now /dev/sd*, the"
+msgstr "les disques IDE sont maintenant /dev/sd*, avec les mêmes"
+
+#: puppyinstaller.sh:1642
+msgid "same letters as SATA drives, whereas before they were /dev/hd*."
+msgstr ""
+" lettres que les disques SATA, alors qu'auparavant ils étaient /dev/hd*."
+
+#: puppyinstaller.sh:1643
+msgid "GRUB uses \"hd\" notation for both IDE and SATA drives, and numbers"
+msgstr ""
+"GRUB utilise la notation \"hd\" à la fois pour IDE et SATA, et les numéros "
+
+#: puppyinstaller.sh:1644
+msgid "drives as hd<drive>,<partition> where <drive> and <partition> numbering"
+msgstr ""
+"des lecteurs de hd <lecteur>, <partition> où lq numérotation <lecteur> et "
+"<partition> "
+
+#: puppyinstaller.sh:1645
+msgid "starts from zero (again different, as Linux numbers partitions from 1)."
+msgstr ""
+"part de zéro (encore différemment des partitions Linux aui commence à partir "
+"de 1)."
+
+#: puppyinstaller.sh:1646
+msgid "The problem is that GRUB sees IDE drives first (hd0,), whereas if you"
+msgstr ""
+"Le problème vient de GRUB  qui voit les disques IDE en premier (hd0,), alors "
+
+#: puppyinstaller.sh:1647
+msgid "look at Pmount you may see it listed second (hd1,). The Uni. Installer"
+msgstr "qu'avec pmount vous pouvez le voir en second (hd1,). L'Uni. Installer"
+
+#: puppyinstaller.sh:1648
+msgid "uses the ordering as reported by Pmount, which may be wrong for GRUB!"
+msgstr "utilise la numérotation de Pmount, qui sera fausse pour GRUB!"
+
+#: puppyinstaller.sh:1649 puppyinstaller.sh:1669
+msgid "EX: if an IDE drive is hd1,0 (sdb1), may need to be changed to hd0,0"
+msgstr ""
+"(Ex: un disque IDE est hd1,0 (sdb1) doit être modifié en hd0,0 pour Grub)"
+
+#: puppyinstaller.sh:1651 puppyinstaller.sh:1672 puppyinstaller.sh:1690
+msgid "Universal Installer"
+msgstr "Installateur Universel "
+
+#: puppyinstaller.sh:1651
+msgid "UPDATE"
+msgstr "ACTUALISER"
+
+#: puppyinstaller.sh:1651
+msgid "INSTALL"
+msgstr "INSTALLER"
+
+#: puppyinstaller.sh:1651
+msgid "Click UPDATE button if you want to update an existing installation"
+msgstr ""
+"Cliquez sur ACTUALISER si vous voulez mettre à jour une installation "
+"existante"
+
+#: puppyinstaller.sh:1652
+msgid "of GRUB, or click INSTALL to install or reinstall GRUB..."
+msgstr ""
+"de Grub, ou cliquez sur INSTALLER pour installer ou réinstaller GRUB..."
+
+#: puppyinstaller.sh:1659 puppyinstaller.sh:1661
+msgid "...for your convenience, this text has been written to"
+msgstr "...pour plus de commodité, ce texte a été sauvé temporairement dans"
+
+#: puppyinstaller.sh:1672
+msgid "You have chosen to update an existing GRUB installation."
+msgstr "Vous avez choisi de mettre à jour une installation existante de Grub."
+
+#: puppyinstaller.sh:1673
+msgid "This requires a final manual step..."
+msgstr "Ceci demande une touche finale à la main..."
+
+#: puppyinstaller.sh:1674
+msgid "Find the \"menu.lst\" file (usually in /boot/grub in the"
+msgstr "Cherchez le fichier \"menu.lst\" (normalement dans /boot/grub"
+
+#: puppyinstaller.sh:1675
+msgid "partition in which GRUB is installed) and insert this:"
+msgstr "dans la partition où GRUB est installé) et insérez ceci:"
+
+#: puppyinstaller.sh:1683
+msgid "After you click the OK button, the Uni. Installer will exit."
+msgstr "Après avoir cliqué sur OK, L'Inst. Univ. se fermera."
+
+#: puppyinstaller.sh:1686
+msgid ""
+"The \"grubconfig\" script is about to be executed.\\nJust accept the "
+"defaults. The very first question will ask if you\\nwant to do a simple "
+"installation, and you accept that option, which\\nis the default. The only "
+"place where I suggest you deviate from the\\ndefault, is when it asks where "
+"to install Grub, choose \"MBR\""
+msgstr ""
+"Le script \"grubconfig\"  va s'exécuter?\\nAcceptez les options par défaut. "
+"La toute première question sera\\nsi vous voulez une installation simple, "
+"acceptez. \\nLe seul moment où je suggère de changer c'est pour l'endroit de"
+"\\nl'installation de Grub, choisissez \"MBR\"."
+
+#: puppyinstaller.sh:1690
+msgid "If you have already run grubconfig to create a boot floppy or installed"
+msgstr ""
+"Si vous avez déjà lancé grubconfig pour créer une disquette de boot ou  "
+"installer"
+
+#: puppyinstaller.sh:1691
+msgid "to h.d., click 'Yes' button to rerun grubconfig script to either create"
+msgstr ""
+"sur un h.d., cliquez sur 'Oui' pour relancer le script de grubconfig pour "
+"soit créer "
+
+#: puppyinstaller.sh:1692
+msgid "another boot floppy or install or reinstall GRUB to the hard drive."
+msgstr ""
+"une autre disquette de boot, soit installer ou ré-installer GRUB sur le "
+"disque dur. "
+
+#: puppyinstaller.sh:1693
+msgid "If choose 'Yes', just accept all the defaults as before."
+msgstr "Pour 'Oui', acceptez toutes les options par défaut comme précédemment."
+
+#: puppyinstaller.sh:1695
+msgid "Click 'Yes' to rerun grubconfig..."
+msgstr "Cliquez sur 'Oui' pour re-lancer grubconfig..."
+
+#: puppyinstaller.sh:1696
+msgid "Click 'No' if installation finished..."
+msgstr "Cliquez sur 'Non' si l'installation est terminée..."
+
+#: puppyinstaller.sh:1703
+msgid "Do you want to go back and create another boot disk or Grub boot?..."
+msgstr ""
+"Voulez-vous revenir en arrière et créer un autre disque de boot ou un autre "
+"boot à partir de GRUB?"
+
+#: puppyinstaller.sh:1710
+msgid "not yet implemented"
+msgstr "pas encore activé"
+
+#~ msgid ""
+#~ "There is already a version of Puppy installed in $DESTPART.\\nDo you want "
+#~ "to upgrade, or totally wipe the partition?\\n\\nFINAL SANITY CHECK: ARE "
+#~ "YOU SURE $DESTPART IS THE RIGHT PARTITION?\\n(note, $DESTPART is "
+#~ "currently mounted on $DESTMNTPT -- okay?)\\n\\nSelect UPGRADE button to "
+#~ "upgrade...\\nSelect WIPE button to wipe partition...\\nClick window Close "
+#~ "box to quit..."
+#~ msgstr ""
+#~ "l y a déjà une version précédente installée dans $DESTPART.\\nVoulez-vous "
+#~ "la mettre à niveau, ou supprimer la partition?\\nULTIME VERIFICATION : "
+#~ "EST-CE QUE $DESTPART EST LA BONNE PARTITION?\\n(N.B. $DESTPART est "
+#~ "actuellement montée sur $DESTMNTPT -- OK?)\\n\\nChoisissez ACTUALISER "
+#~ "pour la mise à niveau...\\nChoisissez SUPPRIMER pour effacer la "
+#~ "partition...\\nCliquez sur la boite de fermeture de la fenêtre pour "
+#~ "quitter..."

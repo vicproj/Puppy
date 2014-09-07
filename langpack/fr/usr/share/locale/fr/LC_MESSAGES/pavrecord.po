@@ -1,0 +1,839 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pavrecord VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2012-11-16 09:43+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pavrecord.sh:48
+msgid ""
+"Section A: Commandline usage\n"
+"\n"
+"In a console enter command: \n"
+"pavrecord --help\n"
+"for brief commandline usage.\n"
+msgstr ""
+"Section A : utilisation de la ligne de commande \n"
+"\n"
+"Dans une console, entrez la commande : \n"
+"pavrecord --help\n"
+"pour une leçon sur l'usage de la ligne de commande. \n"
+
+#: pavrecord.sh:53
+msgid ""
+"\n"
+"-----\n"
+"Section B: Setting up pAVrecord Example:\n"
+"\n"
+"Select Advanced (big) User Interface.\n"
+"\n"
+"Select Target Directory: /root\n"
+"\n"
+"Select Record Duration: 0 for unlimited.\n"
+"Also set Play Duration to 0.\n"
+"\n"
+"Enter Audio sync offset (seconds): 1.2\n"
+"\n"
+"In AUDIO RECORD CONFIGURATION:\n"
+"\n"
+"Select: mp3, cbr, bitrate 32k\n"
+"\n"
+"In VIDEO RECORD CONFIGURATION:\n"
+"\n"
+"Select video encoder: MPEG-4/10\n"
+"\n"
+msgstr ""
+"\n"
+"-----\n"
+"Section B : Pour installer pAVrecord Exemple : \n"
+"\n"
+"Sélectionner l'interface avancée.\n"
+"\n"
+"Sélectionner le dossier cible : /root\n"
+"\n"
+"Sélectionner la durée d'enregistrement : 0 équivaut à illimité.\n"
+"Régler aussi la durée du jeu à 0.\n"
+"\n"
+"Entrer la compensation de synchronisation Audio (en secondes) : 1.2\n"
+"\n"
+"Dans CONFIGURATION ENREGISTEMENT AUDIO:\n"
+"\n"
+"Sélectionner : mp3, cbr, bitrate 32k\n"
+"\n"
+"Dans CONFIGURATION ENREGISTREMENT VIDÉO :\n"
+"\n"
+"Sélectionner l'encodeur vidéo : MPEG-4/10\n"
+"\n"
+
+#: pavrecord.sh:74
+msgid ""
+"\n"
+"Enter:\n"
+"inRate(fps) 30, \n"
+"vINPUTFORMAT video4linux2,\n"
+"vDEVICE /dev/video0 (if that is your video device),\n"
+"vWidth 320, vHEIGHT 240.\n"
+"Leave ffmpeg extra v o/p options blank\n"
+"       \n"
+"Select container for combined A and V track: avi\n"
+"\n"
+"For Combine AV auto, select as true. \n"
+"For Combine AV del, select as false. \n"
+"Note that the alternative true for checkbox del causes the separate A and V "
+"tracks to be automatically deleted after the final combined AV is produced.\n"
+"\n"
+"Press Record button to record the A and V tracks (which, with above setting, "
+"are auto-combined into final avi container once Record Stop button is "
+"pressed). \n"
+"\n"
+"Three files are saved: the date-stamped video track, the date-stamped audio "
+"track and the combined AV video whose name begins pAV followed by date "
+"stamp.\n"
+"\n"
+msgstr ""
+"\n"
+"Entrer :\n"
+"inRate(fps) 30, \n"
+"vINPUTFORMAT video4linux2,\n"
+"vDEVICE /dev/video0 (si c'est votre périphérique vidéo),\n"
+"vWidth 320, vHEIGHT 240.\n"
+"Laisser vides les options ffmpeg extra v o/p \n"
+"       \n"
+"Sélectionner le conteneur des pistes combinées audio et vidéo : avi\n"
+"\n"
+"Cochez comme 'vrai' le choix d'une combinaison audio-vidéo automatique. \n"
+"Cochez comme 'faux' le choix de la combinaison audio-vidéo supprimée,  \n"
+"Notez que le choix 'vrai' pour la case 'combinaison supprimée' cause la "
+"suppression des pistes séparées audio et vidéo dès que que la piste finale "
+"combinée audio-vidéo est produite.\n"
+"\n"
+"Pressez le bouton 'Enregistrement' pour lancer la constitution des pistes "
+"audio et vidéo (qui seront, au regard des réglages spécifiés ci-dessus, auto-"
+"combinées dans un conteneur final de format avi dès que sera activé le "
+"bouton 'Arrêt d'enregistrement'. \n"
+"\n"
+"Trois fichiers sont sauvés : la piste vidéo datée, la piste audio datée, et "
+"la combinaison audio-vidéo dont le nom commence par 'pAV' suivi de la date.\n"
+"\n"
+
+#: pavrecord.sh:92
+msgid ""
+"\n"
+"-----\n"
+"To view/hear result:\n"
+"\n"
+"Method 1: Use button -> to transfer the file name to the play side and press "
+"Play button. This method plays the individual video and audio tracks in "
+"parallel (allowing you to adjust the Audio sync offset).\n"
+"\n"
+"Method 2: If audio sync offset set up is already fine, you can simply press "
+"the AV Play button (next to Combine AV area) to play final combined AV video "
+"in your system video player (assuming Combine AV auto was selected).\n"
+msgstr ""
+"\n"
+"-----\n"
+"Pour voir ou entendre le résultat :\n"
+"\n"
+"Méthode 1: Utilisez le bouton -> pour transférer le nom du fichier vers la "
+"colonne 'lecture' et pressez le bouton 'Lecture'. Cette méthode lance la "
+"lecture parallèle des pistes individuelles audio et vidéo (vous autorisant à "
+"ajuster la synchronisation audio).\n"
+"\n"
+"Méthode 2: Si le réglage de la synchronisation audio est correct, pressez "
+"simplement le bouton 'Lecture AV' pour lire la piste combinée audio-vidéo "
+"finale dans votre lecteur vidéo (à condition que l'option Combinaison audio-"
+"vidéo automatique ait été sélectionnée).\n"
+
+#: pavrecord.sh:99
+msgid ""
+"\n"
+"-----\n"
+"Section C: Pscheduler:\n"
+"\n"
+"If Pscheduler is available, you can Add (or Edit) Task(s) of the form \n"
+"\n"
+"  pavrecord rec outfile.avi [duration]\n"
+"\n"
+"to schedule when a recording session should start.\n"
+"\n"
+"You can schedule any of the commands described by: pavrecord --help\n"
+msgstr ""
+"\n"
+"-----\n"
+"Section C: Pscheduler:\n"
+"\n"
+"Si Pscheduler est disponible, vous pouvez ajouter (ou modifier) des tâches, "
+"sous la forme \n"
+"\n"
+"  pavrecord rec fichier_de_sortie.avi [durée]\n"
+"\n"
+"pour programmer le début d'une session d'enregistrement.\n"
+"\n"
+"Vous pouvez programmer toutes les commandes listées par : pavrecord --help\n"
+
+#: pavrecord.sh:110
+#, fuzzy
+msgid ""
+"\n"
+"-----\n"
+"Section D: Alsa setup\n"
+"\n"
+"Recording:\n"
+"\n"
+"1. For louder microphone recordings: \n"
+"\n"
+"   Press MIXER button to bring up audio mixer and the VU meter. Activate Mic "
+"boost. Using it greatly boosts your microphone sound recording level.\n"
+"   \n"
+"   If using alsamixer to do this, use the cursor keys, move far over to the "
+"right hand side of the alsamixer window, and keep going right (often off the "
+"edge of the window). Around that location you may (or should?) find the 'Mic "
+"Boost' control (keyboard key 'M' toggles its activation).\n"
+"\n"
+msgstr ""
+"\n"
+"-----\n"
+"Section D: Installation d'Alsa\n"
+"\n"
+"Enregistrement :\n"
+"\n"
+"1. Pour un enregistrement plus fort au microphone: \n"
+"\n"
+"   Pressez le bouton MIXEUR pour révéler le mixeur audio  et le modulomètre "
+"(VU-mètre). Activez le renforcement du micro : utilisez-le au mieux pour "
+"relever le niveau d'enregistrement sonore du micro.\n"
+"   \n"
+"   Si vous employez alsamixer pour réaliser ça, utilisez les flèches du "
+"clavier, allez à droite jusqu'au bord droit de la fenêtre du mixeur, et "
+"continuez vers la droite (souvent hors de la fenêtre) ; à cet endroit, vous "
+"devriez trouver le contrôle de renforcement du micro 'Mic Boost' (la touche "
+"'M' bascule cette activation).\n"
+"\n"
+
+#: pavrecord.sh:122
+msgid ""
+"\n"
+"\n"
+"2. For Microphone recording, you should also activate 'Mic' as the capture "
+"device (if using alsamixer use space bar to activate).\n"
+"\n"
+"3. You should turn up the amplitude setting of the 'Capture' (to around "
+"maximum), but be careful you do not unwittingly turn up the Playback Mic "
+"volume (which you should inactivate) rather than the Capture one, or you may "
+"end up recording sound fed back to your mic from your blaring speakers! If "
+"using alsamixer, pressing the Tab key such that you come to the alsamixer "
+"Capture window, before setting capture devices, may help you to avoid "
+"unnecessarily increasing the playback amplitude controls rather than the "
+"record ones.\n"
+msgstr ""
+"\n"
+"\n"
+"2. Pour un enregistrement au micro, vous devriez aussi définir 'Mic' comme "
+"périphérique de capture (dans Alsamixer, c'est la barre d'espace qui active "
+"l'option).\n"
+"\n"
+"3. Augmentez le réglage d'amplitude de la capture (ves le maximum), mais "
+"prenez soin de ne pas augmenter par inadvertance le volume de micro Playback "
+"(que vous devriez rendre inactif) à la place ; sinon, vous risquez d'annuler "
+"l'enregistrement des sons qui alimentent le micro tout en ayant des "
+"stridences dans les hauts-parleurs !!!  Dans Alsamixer, lorsque vous venez "
+"sur la fenêtre de capture, avant de régler les périphériques de capture, "
+"presser la touche 'Tab' permet d'éviter de relever involontairement "
+"l'amplitude de lecture plutôt que celle de l'enregistrement.\n"
+
+#: pavrecord.sh:127
+msgid ""
+"\n"
+"\n"
+"4. As an alternative to recording from the microphone, you could select some "
+"other device to capture from (e.g. Line in). If you select 'Mix' (or perhaps "
+"'Mono Mix' as the capture device; depending on what your sound card "
+"provides) you can record most anything passing through your sound card (for "
+"example: streaming radio as in 01micko pupRadio program).\n"
+"\n"
+"5. For playback to work you need to activate and turn up PCM and your Master "
+"volume control.\n"
+"\n"
+"6. You will be able to see from the running VU display window if, and when, "
+"you have your sound controls correctly set up (but turn off the VU display "
+"before actually recording or you will end up with a blank recording!).\n"
+msgstr ""
+"\n"
+"\n"
+"4. Autre solution pour enregistrer au micro, vous pouvez sélectionner "
+"d'autres périphériques de capture (par exemple Line in). En sélectionnant "
+"'Mix' (ou 'Mono Mix' selon ce que permet votre carte son) vous pouvez "
+"enregistrer tout ce qui passe par votre carte son (notamment les flux audio "
+"de radio en streaming, comme dans le programme pupRadio fourni par "
+"01micko).\n"
+"\n"
+"5. Pour que la lecture fonctionne, vous devez activer PCM et augmenter votre "
+"contrôle de volume général.\n"
+"\n"
+"6. Vous pourrez voir, dans la fenêtre VU en fonctionnement, si et quand vos "
+"réglages audio seront corrects (fermez cependant l'affichage du modulomètre "
+"(VU-mètre) avant d'enregistrer ou vous aurez avec un enregistrement vide!).\n"
+
+#: pavrecord.sh:134
+msgid ""
+"\n"
+"\n"
+"Playback: \n"
+"\n"
+"1. For Playback, you need to turn up the PCM device volume and at least the "
+"Master device volume. Note that key 'M' is also used to Mute devices.\n"
+"-----\n"
+"Tips:\n"
+"\n"
+"To keep pAVrecord as the top window, right-click on its window bar, and "
+"select \n"
+"Layer -> Top"
+msgstr ""
+"\n"
+"\n"
+"Playback: \n"
+"\n"
+"1. Pour le playback, vous devez relever le volume du périphérique PCM et au "
+"moins le volume du périphérique principal. Vous pouvez utiliser la touche "
+"'M' pour les périphériques muets.\n"
+"-----\n"
+"Astuces:\n"
+"\n"
+"Pour garder pAVrecord comme une fenêtre toujours au-dessus des autres, un "
+"clic droit sur la barre de titre et sélectionner \n"
+"Couche -> Dessus"
+
+#: pavrecord.sh:233
+msgid "preview"
+msgstr "prévisu."
+
+#: pavrecord.sh:616 pavrecord.sh:748
+msgid "Audio/Video recorder and player"
+msgstr "Enregistreur et lecteur Audio/Vidéo"
+
+#: pavrecord.sh:618 pavrecord.sh:799
+msgid "RECORD A and V tracks"
+msgstr "ENREGISTRER les pistes audio et vidéo"
+
+#: pavrecord.sh:628 pavrecord.sh:770
+msgid "PAUSE record"
+msgstr "Mettre en PAUSE l'enregistrement"
+
+#: pavrecord.sh:634 pavrecord.sh:777
+msgid "STOP record. If no record in process, pop up MIXER and VU display"
+msgstr ""
+"TERMINER à l'enregistrement. Sans enregistrement en cours, afficher le "
+"mixeur et le VU-mètre."
+
+#: pavrecord.sh:641 pavrecord.sh:865
+msgid "PLAY A and V tracks"
+msgstr "LIRE les pistes audio et vidéo"
+
+#: pavrecord.sh:649
+msgid "PAUSE A and V track play"
+msgstr "Mettre en PAUSE la lecture des pistes audio et vidéo"
+
+#: pavrecord.sh:655
+msgid "STOP A and V track play"
+msgstr "TERMINER à la lecture des pistes audio et vidro"
+
+#: pavrecord.sh:661 pavrecord.sh:1288
+msgid "PLAY combined AV file"
+msgstr "LIRE le fichier combiné audio/vidéo"
+
+#: pavrecord.sh:666 pavrecord.sh:795
+msgid "Opens Rox filemanager at target directory of recording"
+msgstr "Ouvrir le gestionnaire de fichiers vers le dossier d'enregistrement"
+
+#: pavrecord.sh:670
+msgid "Advanced User Interface and pAVrecord configuration"
+msgstr "Interface utilisateur avancée et configuration de pAVrecord"
+
+#: pavrecord.sh:678
+msgid "Browse and select the target directory for the file to record or play"
+msgstr ""
+"Rechercher et choisir le dossier cible du fichier à enregistrer ou à lire"
+
+#: pavrecord.sh:683
+msgid ""
+"Browse, drag and drop, copy and paste, or type the target directory for the "
+"file to record or play"
+msgstr ""
+"Rechercher, tirer/déposer, copier/coller ou taper le dossier cible du "
+"fichier à lire ou enregistrer"
+
+#: pavrecord.sh:688
+msgid ""
+"Drag and drop, copy and paste, or type the name of the file to record or play"
+msgstr ""
+"Tirer/déposer, copier/coller ou taper le nom du fichier à enregistrer ou à "
+"lire"
+
+#: pavrecord.sh:693
+msgid ""
+"select for automatically encapsulate audio and video tracks in single AV "
+"container when record stop is pressed"
+msgstr ""
+"Choisir des pistes automatiquement encapsulées dans un conteneur audio/vidéo "
+"quand l'arrêt d'enregistrement est demandé"
+
+#: pavrecord.sh:695 pavrecord.sh:1271
+msgid "auto"
+msgstr "auto"
+
+#: pavrecord.sh:700
+msgid "Encapsulate audio and video tracks in single AV container"
+msgstr ""
+"Encapsuler les pistes audio et vidéo dans un conteneur unique Audio/Vidéo"
+
+#: pavrecord.sh:705 pavrecord.sh:1281
+msgid ""
+"select for automatically delete the separate audio and video tracks once the "
+"combined AV file is created"
+msgstr ""
+"Choisir pour supprimer automatiquement les pistes séparées audio et vidéo "
+"dès que le fichier combiné audio/vidéo est créé"
+
+#: pavrecord.sh:707 pavrecord.sh:1283
+msgid "del"
+msgstr "supp."
+
+#: pavrecord.sh:710 pavrecord.sh:1358
+msgid "QUIT"
+msgstr "QUITTER"
+
+#: pavrecord.sh:732
+msgid "Setup Help"
+msgstr "AIDE A L'INSTALLATION"
+
+#: pavrecord.sh:752
+msgid "Record A and V tracks"
+msgstr "Enregistrement des pistes audio et vidéo"
+
+#: pavrecord.sh:753
+msgid "Target Directory"
+msgstr "Dossier cible"
+
+#: pavrecord.sh:753
+msgid "Duration(seconds)"
+msgstr "Durée (en secondes)"
+
+#: pavrecord.sh:755
+msgid "Browse and select the target directory for the file to record"
+msgstr "Rechercher et choisir le dossier cible du fichier à enregistrer"
+
+#: pavrecord.sh:760
+msgid ""
+"Browse, drag and drop, copy and paste, or type the target directory for the "
+"file to record"
+msgstr ""
+"Rechercher, tirer/déposer, copier/coller ou taper le dossier cible du "
+"fichier à enregistrer"
+
+#: pavrecord.sh:765
+msgid "Recording length. 0 = no time limit"
+msgstr "Temps d'enregistrement. 0 signifie sans limite"
+
+#: pavrecord.sh:790
+msgid "File:"
+msgstr "Fichier :"
+
+#: pavrecord.sh:791
+msgid ""
+"Drag and drop, copy and paste, or type name of the video file to record. "
+"Note that a separate sound track will also be recorded in the background"
+msgstr ""
+"Tirer/déposer, copier/coller ou taper le nom du fichier vidéo à enregistrer. "
+"A signaler qu'une piste sonore séparée sera aussi enregistrée en arrière-"
+"plan."
+
+#: pavrecord.sh:811
+msgid "Copy Record entry to Play entry1"
+msgstr "Copier l'entrée enregistrée pour Lecture de l'entrée1"
+
+#: pavrecord.sh:821
+msgid "Play A and V tracks"
+msgstr "Lecture des pistes audio et vidéo"
+
+#: pavrecord.sh:822
+msgid "Audio sync offset and play duration"
+msgstr "Compenser la synchro, durée de lecture"
+
+#: pavrecord.sh:824
+msgid "offset:"
+msgstr "Compensation"
+
+#: pavrecord.sh:826
+msgid "Offset audio track by this amount. For example: 1.2 (in seconds)"
+msgstr ""
+"Régler la piste audio selon cette grandeur. Par exemple : 1.2 (en secondes)."
+
+#: pavrecord.sh:831
+msgid "Duration:"
+msgstr "Durée"
+
+#: pavrecord.sh:833
+msgid "Playback length. 0 = no time limit"
+msgstr "Longueur du playback. 0 signifie une durée illimitée."
+
+#: pavrecord.sh:838
+msgid "PAUSE play"
+msgstr "Mettre en PAUSE la lecture"
+
+#: pavrecord.sh:845
+msgid "STOP play"
+msgstr "TERMINER à la lecture"
+
+#: pavrecord.sh:856
+msgid "Browse for SOURCE File to play"
+msgstr "Rechercher le fichier source à lire"
+
+#: pavrecord.sh:861
+msgid ""
+"Browse, drag and drop, copy and paste, or type name (including path) of the "
+"video file to play. Note that, if available, the associated sound track will "
+"also be played"
+msgstr ""
+"Rechercher, tirer/déposer, copier/coller ou taper le nom (chemin compris) du "
+"fichier vidéo à lire. Si déjà associé et disponible, le morceau audio sera "
+"aussi lu."
+
+#: pavrecord.sh:880
+msgid "AUDIO RECORD CONFIGURATION:"
+msgstr "CONFIGURATION DE L'ENREGISTREMENT AUDIO :"
+
+#: pavrecord.sh:884
+msgid "select audio format"
+msgstr "Format audio"
+
+#: pavrecord.sh:886
+msgid "use mp3 encoder type"
+msgstr "Utilise le type d'encodage mp3"
+
+#: pavrecord.sh:891
+msgid "use wav encoder type"
+msgstr "Utilise le type d'encodage wav"
+
+#: pavrecord.sh:896
+msgid "use ogg managed maximum encoder type"
+msgstr "Utilise le type d'encodage maximum permis par ogg"
+
+#: pavrecord.sh:901
+msgid "use ogg unmanaged quality encoder type"
+msgstr "Utilise un type d'encodage de qualité pour ogg"
+
+#: pavrecord.sh:906
+msgid "use aac bitrate mode encoder type"
+msgstr "Utilise le type d'encodage aac en mode bitrate (échantillonnage fixe)"
+
+#: pavrecord.sh:911
+msgid "use aac quality mode encoder type"
+msgstr "Utilise le type d'encodage aac en mode qualité"
+
+#: pavrecord.sh:916
+msgid "use flac lossless encoder type"
+msgstr "Utilise le type d'encodage flac sans perte"
+
+#: pavrecord.sh:925
+msgid "select mp3 mode"
+msgstr "Mode mp3"
+
+#: pavrecord.sh:927
+msgid "use Constant Bit Rate mode when mp3 encoding"
+msgstr "Utilise un taux d'échantillonnage fixe (CBR) lors de l'encodage mp3"
+
+#: pavrecord.sh:932
+msgid "use Average Bit Rate mode when mp3 encoding"
+msgstr "Utilise un taux d'échantillonnage moyen (ABR) lors de l'encodage mp3"
+
+#: pavrecord.sh:937
+msgid "use Variable Bit Rate mode when mp3 encoding"
+msgstr ""
+"Utilise un taux d'échantillonnage variable (VBR) lors de l'encodage mp3"
+
+#: pavrecord.sh:947
+msgid "sample rate for wav; bitrate for mp3, aac or ogg_mm"
+msgstr ""
+"Taux d'échantillonnage pour encodage wav ; débit d'échantillonnage pour "
+"encodages mp3, aac et ogg_mm"
+
+#: pavrecord.sh:1008
+msgid ""
+"audio quality for: mp3 vbr, aac_q or ogg_q; compression_level for flac "
+"(N1=12)"
+msgstr ""
+"Qualité audio pour: mp3 vbr, aac_q ou ogg_q\tNiveau de compression pour flac "
+"(N1=12)"
+
+#: pavrecord.sh:1078
+msgid "VIDEO RECORD CONFIGURATION:"
+msgstr "CONFIGURATION DE L'ENREGISTREMENT VIDÉO"
+
+#: pavrecord.sh:1081
+msgid ""
+"select video encoder. (Note: video track is first recorded alone into an avi "
+"container)"
+msgstr ""
+"Choisir un encodeur vidéo (la piste vidéo est enregistrée en premier dans un "
+"conteneur avi)."
+
+#: pavrecord.sh:1108
+msgid "jpeg sequence for output"
+msgstr "Séquence jpeg pour la sortie"
+
+#: pavrecord.sh:1118
+msgid ""
+"InputFormat          Extra I/P options              vDEVICE            W x "
+"H             Extra O/P options"
+msgstr ""
+"Format d'entrée      Options SUPP I/P       Matériel vidéo Larg. x Haut.     "
+"Options annexes O/P"
+
+#: pavrecord.sh:1121
+msgid "For example: video4linux2 for webcam"
+msgstr "Par exemple : video4linux2 for webcam"
+
+#: pavrecord.sh:1127
+msgid "leave blank or add additional ffmpeg input options"
+msgstr "Laisser blanc ou ajouter d'autres options d'entrée ffmpeg"
+
+#: pavrecord.sh:1133
+msgid "For example: /dev/video0 if input format video4linux2"
+msgstr "Par exemple : /dev/video0 if input format video4linux2"
+
+#: pavrecord.sh:1139
+msgid "For example 320"
+msgstr "Par exemple 320"
+
+#: pavrecord.sh:1145
+msgid "For example 240"
+msgstr "Par exemple 240"
+
+#: pavrecord.sh:1151
+msgid "leave blank or, for example: -b 200k -bt 240k"
+msgstr "Laisser blanc ou, par exemple : -b 200k -bt 240k"
+
+#: pavrecord.sh:1160
+msgid "Output frame rate(fps)"
+msgstr "Taux de sortie (Ips)"
+
+#: pavrecord.sh:1162
+msgid "video:"
+msgstr "vidéo :"
+
+#: pavrecord.sh:1164
+msgid "For example 26"
+msgstr "Par exemple 26"
+
+#: pavrecord.sh:1169
+msgid "JPEGS:"
+msgstr "JPEGS :"
+
+#: pavrecord.sh:1171
+msgid "For example 0.2"
+msgstr "Par exemple 0.2"
+
+#: pavrecord.sh:1176
+msgid "x11grab:"
+msgstr "xllgrab :"
+
+#: pavrecord.sh:1178
+msgid "For example 25"
+msgstr "Par exemple 25"
+
+#: pavrecord.sh:1186
+msgid "X11GRAB: WxH and DISPLAY+Xoffset,Yoffset"
+msgstr "X11GRAB: LxH et AFFICHAGE+compensX, compensY"
+
+#: pavrecord.sh:1188
+msgid "select for screencast"
+msgstr "Choisir les screencast"
+
+#: pavrecord.sh:1190
+msgid "x11grab"
+msgstr "x11grab"
+
+#: pavrecord.sh:1194
+msgid "Window capture width. For example 1024"
+msgstr "Largeur de fenêtre de capture : par exemple 1024"
+
+#: pavrecord.sh:1201
+msgid "Window capture height. For example 768"
+msgstr "Hauteur de fenêtre de capture : par exemple 768"
+
+#: pavrecord.sh:1206
+msgid "and"
+msgstr "et"
+
+#: pavrecord.sh:1208
+msgid "X11 Display. For example :0.0"
+msgstr "Affichage X11 : par exemple 0.0"
+
+#: pavrecord.sh:1215
+msgid "Window capture position Xoffset. For example 0"
+msgstr ""
+"Compensation horizontale pour la position de la fenêtre de capture : par "
+"exemple 0"
+
+#: pavrecord.sh:1222
+msgid "Window capture position Yoffset. For example 0"
+msgstr ""
+"Compensation verticale pour la position de la fenêtre de capture : par "
+"exemple 0"
+
+#: pavrecord.sh:1233
+msgid "select container for combined audio and video track"
+msgstr "Choisir le conteneur pour un combiné audio/vidéo"
+
+#: pavrecord.sh:1268
+msgid "Combine AV"
+msgstr "Combinaison A/V"
+
+#: pavrecord.sh:1269
+msgid ""
+"select for automatically encapsulate audio and video tracks in selected "
+"container when record stop is pressed"
+msgstr ""
+"Choisir pour obtenir des pistes audio et vidéo automatiquement encapsulées "
+"dans un conteneur choisi, dès que la lecture est arrêtée."
+
+#: pavrecord.sh:1276
+msgid "Encapsulate audio and video tracks in selected single AV container"
+msgstr ""
+"Encapsuler les pistes audio et vidéo dans le conteneur Audio/Vidéo choisi"
+
+#: pavrecord.sh:1287
+msgid "AV"
+msgstr "Audio/Vidéo"
+
+#: pavrecord.sh:1301
+msgid "General Configuration"
+msgstr "Configuration générale"
+
+#: pavrecord.sh:1304
+msgid "channel"
+msgstr "Canal"
+
+#: pavrecord.sh:1305
+msgid "select for stereo recording"
+msgstr "Choisir un enregistrement stéréo"
+
+#: pavrecord.sh:1307
+msgid "stereo"
+msgstr "stéréo"
+
+#: pavrecord.sh:1314
+msgid "select soundcard"
+msgstr "Choisir la carte son"
+
+#: pavrecord.sh:1316
+msgid "If you soundcard is not card 0 click checkbox"
+msgstr "Si votre carte son n'est pas la carte 0, cochez la case"
+
+#: pavrecord.sh:1318
+msgid "card"
+msgstr "carte"
+
+#: pavrecord.sh:1321
+msgid "If you soundcard is not subdevice 0 click checkbox"
+msgstr "Si votre carte son n'est pas le sous-périphérique 0, cochez la case"
+
+#: pavrecord.sh:1323
+msgid "device"
+msgstr "Périph."
+
+#: pavrecord.sh:1331
+msgid "Return to Small GUI"
+msgstr "Retourner à l'interface réduite"
+
+#: pavrecord.sh:1337
+msgid "Help"
+msgstr "AIDE"
+
+#: pavrecord.sh:1346
+msgid "Run Pschedule task on time"
+msgstr "lancer Pschedule"
+
+#: pavrecord.sh:1354
+msgid "Pop up MIXER and VU display"
+msgstr "Afficher le MIXEUR et VU-mètre"
+
+#: pavrecord.sh:1442
+msgid ""
+"After you have configure pavrecord \n"
+"via the GUI, you can also control it\n"
+"from the commandline using:\n"
+"\n"
+"pavrecord [option] [path to file] [file] [duration]\n"
+"\n"
+"where [duration] is a time limit for the record\n"
+"capture or play process:\n"
+" \n"
+"0 means no time limit;\n"
+"entering no duration results in use of\n"
+"duration pre-configured for record.\n"
+msgstr ""
+"Après avoir configuré pavrecord \n"
+"par l'interface, vous pouvez garder la main\n"
+"à travers la ligne de commande:\n"
+"\n"
+"pavrecord [option] [chemin vers le fichier] [fichier] [durée]\n"
+"\n"
+"dans laquelle [durée] est ue limite de temps pour \n"
+"l'enregistrement ou la lecture:\n"
+" \n"
+"0 signifie sans limite\n"
+"l'absence d'entrée d'une durée revient à utiliser\n"
+"la durée pré-configurée pour l'enregistrement.\n"
+
+#: pavrecord.sh:1454
+msgid ""
+"\n"
+"\n"
+"Commandline Arguments:\n"
+"\n"
+"rec target_directory outfile [duration] : record to outfile.\n"
+"pauserec : pause/continue recording (toggle).  \n"
+"stoprec target_directory outfile : stop recording.\n"
+"play target_directory infile [duration] : play infile.\n"
+"pauseplay : pause/continue playback (toggle).\n"
+"stopplay : stop playback.\n"
+"quit : clean up all and quit program.\n"
+"--help : this brief usage help.\n"
+"-? : this brief usage help.\n"
+"- : read arguments from stdin (e.g. pipe)\n"
+"\n"
+"Note that pavrecord automatically keeps\n"
+"track of the running process IDs.\n"
+"\n"
+"If no options are entered the pAVrecord GUI\n"
+"will start.\\n"
+msgstr ""
+"\n"
+"\n"
+"Arguments de la ligne de commande :\n"
+"\n"
+"rec dossier_cible fichier_de_sortie [durée] : enregistre vers le fichier de "
+"sortie.\n"
+"pauserec : interrompt ou poursuit l'enregistement (bascule).  \n"
+"stoprec dossier_cible fichier_de_sortie : met fin à l'enregistement.\n"
+"play dossier_cible fichier d'entrée [durée] : lit le fichier d'entrée.\n"
+"pauseplay : interrompt ou poursuit le playback (bascule).\n"
+"stopplay : met fin au playback.\n"
+"quit : nettoie tout et quitte le programme.\n"
+"--help : appel à l'aide.\n"
+"-? : autre appel à l'aide.\n"
+"- : lit les arguments de stdin (par exemple : pipe)\n"
+"\n"
+"pavrecord conserve automatiquement\n"
+"trace des identifiants de processus à l'oeuvre.\n"
+"\n"
+"En l'absence d'options, l'interface\n"
+"pAVrecord se lance.\\n"

@@ -1,0 +1,1165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pou-bin 0.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2014-01-05 16:18+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pou-bin.sh:31 pou-consultconfig.sh:24 pou-consulthistory.sh:24
+#: pou-tray.sh:27
+msgid "POU"
+msgstr "POU"
+
+#: pou-bin.sh:32 pou-tray.sh:28
+msgid "(Puppy Online Updater)"
+msgstr "(Puppy Online Updater)"
+
+#: pou-bin.sh:34
+msgid "Update operating system"
+msgstr "Mise à jour du système d'exploitation"
+
+#: pou-bin.sh:141
+#, sh-format
+msgid "Note: downloaded files will be save in the folder $DOWNLOAD_DIRECTORY."
+msgstr ""
+"Les mises à jour téléchargées seront sauvegardées dans le dossier "
+"$DOWNLOAD_DIRECTORY."
+
+#: pou-bin.sh:142
+msgid "Show informations for the selected updates."
+msgstr "Montrer les informations pour les mises à jour sélectionnées."
+
+#: pou-bin.sh:143
+msgid "Information"
+msgstr "Information"
+
+#: pou-bin.sh:144
+msgid "Select updates in the list, then click an button Actions."
+msgstr ""
+"Sélectionnez des mises à jour dans la liste, plus cliquez sur un des boutons "
+"Actions."
+
+#: pou-bin.sh:145
+msgid "Click here to sort items of the list"
+msgstr "Cliquez ici pour classer les éléments de la liste"
+
+#: pou-bin.sh:308 pou-bin.sh:353 pou-tray.sh:117
+#, sh-format
+msgid ""
+"No server available or connection is not ok. Search for new updates exited! "
+"\\n\\nCheck $AppTitle01 configuration and Internet connection, then restart "
+"$AppTitle01."
+msgstr ""
+"Aucun serveur n'est disponible ou la connexion internet n'est pas ok. La "
+"recherche des mises à jour a été abandonnée ! \\n\\nVérifiez la "
+"configuration de $AppTitle01 et la connexion internet, puis réactivez "
+"$AppTitle01."
+
+#: pou-bin.sh:388
+#, sh-format
+msgid "Currently, no updates available for $OSCOMPATIBILITY."
+msgstr ""
+"Actuellement, aucune mise à jour n'est disponible pour $OSCOMPATIBILITY."
+
+#: pou-bin.sh:418
+msgid "All available updates are already installed, your system is updated!"
+msgstr ""
+"Toutes les mises à jour disponibles ont déjà été instalées, votre système "
+"d'exploitation est à jour !"
+
+#: pou-bin.sh:486
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: pou-bin.sh:554 pou-bin.sh:583 pou-bin.sh:636
+#, sh-format
+msgid "Downloading $GETPET..."
+msgstr "Téléchargement de $GETPET..."
+
+#: pou-bin.sh:569 pou-bin.sh:601
+#, sh-format
+msgid "Downloaded files have been saved in folder $DOWNLOAD_DIRECTORY."
+msgstr ""
+"Les fichiers téléchargés ont été sauvegardés dans le dossier "
+"$DOWNLOAD_DIRECTORY."
+
+#: pou-bin.sh:571 pou-bin.sh:731 pou-bin.sh:828 pou-bin.sh:851 pou-bin.sh:869
+#: pou-bin.sh:886 pou-bin.sh:919 pou-bin.sh:954 pou-bin.sh:978 pou-bin.sh:998
+#: pou-bin.sh:1022 pou-bin.sh:1042
+#, sh-format
+msgid "Please select an update in the list!"
+msgstr "Veuillez sélectionner une mise à jour dans la liste !"
+
+#: pou-bin.sh:613 pou-bin.sh:744
+msgid "Click OK button to confirm that you want install all available updates."
+msgstr ""
+"Cliquez sur le boutton OK pour confirmer l'installation de toutes les mises "
+"à jour disponibles."
+
+#: pou-bin.sh:653
+#, sh-format
+msgid "Downloaded files have been saved in folder $DLallDir."
+msgstr ""
+"Les fichiers téléchargés ont été sauvegardés dans le dossier $DLallDir."
+
+#: pou-bin.sh:660
+#, sh-format
+msgid "Finalizing the installation..."
+msgstr "Finalisation de l'installation..."
+
+#: pou-bin.sh:696 pou-bin.sh:762
+#, sh-format
+msgid "Downloading/Installing $GETPET..."
+msgstr "Téléchargement/Installation de $GETPET..."
+
+#: pou-bin.sh:800
+#, sh-format
+msgid "New updates have been downloaded and installed!"
+msgstr "Les nouvelles mises à jour ont été téléchargées et installées !"
+
+#: pou-bin.sh:899
+#, sh-format
+msgid "Downloading screenshot..."
+msgstr "Téléchargement de la copie d'écran..."
+
+#: pou-bin.sh:916
+#, sh-format
+msgid ""
+"No screenshot available.\\nFor more information, visit the forum or the "
+"website of $OSCOMPATIBILITY."
+msgstr ""
+"Aucune copie d'écran n'est disponible.\\nPour obtenir des informations, "
+"visitez le forum ou le site web de $OSCOMPATIBILITY."
+
+#: pou-bin.sh:932
+#, sh-format
+msgid "Downloading information file..."
+msgstr "Téléchargement du fichier information..."
+
+#: pou-bin.sh:950 pou-bin.sh:974 pou-bin.sh:1018
+#, sh-format
+msgid ""
+"No information available.\\nFor more information, visit the forum or the "
+"website of $OSCOMPATIBILITY."
+msgstr ""
+"Aucune informaton n'est disponible.\\nPour obtenir des informations, visitez "
+"le forum ou le site web de $OSCOMPATIBILITY."
+
+#: pou-bin.sh:995 pou-bin.sh:1039
+#, sh-format
+msgid ""
+"No screenshot available. \\nFor more information, visit the forum or the "
+"website of $OSCOMPATIBILITY."
+msgstr ""
+"Aucune copie d'écran n'est disponible.\\nPour obtenir des informations, "
+"visitez le forum ou le site web de $OSCOMPATIBILITY."
+
+#: pou-bin.sh:1054
+#, sh-format
+msgid ""
+"$AppTitle01 is set to update OS (operating system): $OSCOMPATIBILITY\n"
+"Your current OS is: $DISTRO_NAME $DISTRO_VERSION"
+msgstr ""
+"$AppTitle01 est configuré pour mettre à jour l'OS (système d'exploitation) : "
+"$OSCOMPATIBILITY\n"
+"Votre OS actuel est : $DISTRO_NAME $DISTRO_VERSION"
+
+#: pou-bin.sh:1057
+#, sh-format
+msgid "Therefore, available updates are compatible with your OS!"
+msgstr ""
+"Par conséquent, les mises à jour disponibles sont compatibles avec votre OS !"
+
+#: pou-bin.sh:1062
+#, sh-format
+msgid ""
+"Therefore, setting of $AppTitle01 does not seem appropriate to update your "
+"OS!\n"
+"\n"
+"If you want to download updates for another OS, then everything is ok. \n"
+"If you want to use $AppTitle01 to update your current OS, you must first "
+"install a config package (pou-config_*.pet) appropriate for your OS, or "
+"change the content of settings file (for experimented users)."
+msgstr ""
+"Par conséquent, la configuration de $AppTitle01 ne semble pas appropriée "
+"pour mettre à jour votre OS !\n"
+"\n"
+"Si vous souhaitez télécharger des mises à jour pour un autre OS, alors tout "
+"est ok. \n"
+"Si vous souhaitez utiliser $AppTitle01 pour mettre à jour votre OS actuel, "
+"vous devez tout d'abord installer un paquet de configuration (pou-config_*."
+"pet) approprié à votre OS, ou modifier le contenu du fichier settings (pour "
+"les utilisateurs expérimentés)."
+
+#: pou-bin.sh:1071
+#, sh-format
+msgid "Compatibility $AppTitle01/OS"
+msgstr "Compatibilité $AppTitle01/OS"
+
+#: pou-bin.sh:1075
+#, sh-format
+msgid ""
+"$InfoComp01\n"
+"\n"
+"$InfoComp02"
+msgstr ""
+"$InfoComp01\n"
+"\n"
+"$InfoComp02"
+
+#: pou-bin.sh:1085
+msgid "Ok, thank for information."
+msgstr "Ok, merci pour l'information."
+
+#: pou-bin.sh:1086
+msgid " Ok "
+msgstr " Ok "
+
+#: pou-bin.sh:1090
+#, sh-format
+msgid "Do not show this message again."
+msgstr "Ne plus montrer ce message."
+
+#: pou-bin.sh:1091
+msgid " Stop message "
+msgstr " Arrêter ce message "
+
+#: pou-bin.sh:1155
+msgid "full"
+msgstr "complète"
+
+#: pou-bin.sh:1157
+msgid "simplified"
+msgstr "simplifiée"
+
+#: pou-bin.sh:1181
+msgid "Preferences"
+msgstr "Préférences"
+
+#: pou-bin.sh:1186
+msgid "Search for updates at startup"
+msgstr "Recherche des mises à jour au démarrage"
+
+#: pou-bin.sh:1190
+#, sh-format
+msgid ""
+"Allows $AppTitle01 to automatically search available updates at session "
+"startup."
+msgstr ""
+"Autoriser $AppTitle01 à rechercher automatiquement les mises à jour "
+"diponibles lors du démarrage d'une session."
+
+#: pou-bin.sh:1191
+msgid "Automatic search at startup"
+msgstr "Recherche automatique au démarrage"
+
+#: pou-bin.sh:1205
+#, sh-format
+msgid ""
+"Show $AppTitle01 in the system tray of $DISTRO_NAME $DISTRO_VERSION.\n"
+"Note: $AppTitle01 will appear in the system tray only if updates are "
+"available at session startup."
+msgstr ""
+"Afficher $AppTitle01 dans la barre des tâches de $DISTRO_NAME "
+"$DISTRO_VERSION.\n"
+"Remarque : $AppTitle01 ne sera affiché dans la barre des tâches que si des "
+"mises à jour sont disponibles."
+
+#: pou-bin.sh:1207
+#, sh-format
+msgid "Show in system tray"
+msgstr "Afficher dans la barre des tâches"
+
+#: pou-bin.sh:1218
+msgid "Delay (in seconds) before startup of automatic search:"
+msgstr "Délai (en secondes) avant le démarrage de la recherche automatique :"
+
+#: pou-bin.sh:1223
+#, sh-format
+msgid ""
+"Define the delay (in seconds) before startup of automatic search (at startup "
+"of the session)."
+msgstr ""
+"Définit le délai (en secondes) avant le démarrage de la recherche "
+"automatique (au démarrage de la session)."
+
+#: pou-bin.sh:1238 pou-bin.sh:1739
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: pou-bin.sh:1242
+msgid "Current download folder:"
+msgstr "Dossier actuel de téléchargement :"
+
+#: pou-bin.sh:1246
+#, sh-format
+msgid "Folder used to host downloaded files."
+msgstr "Dossier utilisé pour accueillir les fichiers téléchargés."
+
+#: pou-bin.sh:1253
+msgid "Select/Change folder used to host downloaded files."
+msgstr ""
+"Sélectionner/Changer le dossier utilisé pour accueillir les fichiers "
+"téléchargés."
+
+#: pou-bin.sh:1273
+#, sh-format
+msgid "Use terminal to show informations during downloads."
+msgstr ""
+"Utiliser un terminal pour afficher des informations durant les "
+"téléchargements."
+
+#: pou-bin.sh:1274
+msgid "Use terminal during downloads"
+msgstr "Utiliser un terminal durant les téléchargements"
+
+#: pou-bin.sh:1284
+#, sh-format
+msgid "Show content of host folder after downloads."
+msgstr "Afficher le contenu du dossier d'accueil après les téléchargements."
+
+#: pou-bin.sh:1285
+msgid "Show content after dowloads"
+msgstr "Afficher le contenu après les téléchargements"
+
+#: pou-bin.sh:1296
+msgid "Save values."
+msgstr "Sauvegarder les valeurs."
+
+#: pou-bin.sh:1362 pou-bin.sh:1558
+msgid "Available"
+msgstr "Disponibles"
+
+#: pou-bin.sh:1362
+msgid "Installed"
+msgstr "Installées"
+
+#: pou-bin.sh:1362
+msgid "Discarted"
+msgstr "Rejetées"
+
+#: pou-bin.sh:1362 pou-bin.sh:1558
+msgid "Options"
+msgstr "Options"
+
+#: pou-bin.sh:1367
+msgid ""
+"Remove the selected updates from Available list and move it in Discarted "
+"list. Useful if you do not want install the selected updates."
+msgstr ""
+"Retirer les mises à jour sélectionnées de la liste Disponible et les "
+"déplacer dans la liste Rejetées. Pratique si vous souhaiter installerles "
+"mises à jour sélectionnées."
+
+#: pou-bin.sh:1368
+msgid "Discard"
+msgstr "Rejeter"
+
+#: pou-bin.sh:1379
+#, sh-format
+msgid ""
+"Download the selected updates.\n"
+"\n"
+"$Tooltip01"
+msgstr ""
+"Télécharger les mises à jour sélectionnées.\n"
+"\n"
+"$Tooltip01"
+
+#: pou-bin.sh:1382 pou-bin.sh:1518
+msgid "Download"
+msgstr "Télécharger"
+
+#: pou-bin.sh:1390
+#, sh-format
+msgid ""
+"Download all available updates.\n"
+"\n"
+"$Tooltip01"
+msgstr ""
+"Télecharger toutes les mises à jour disponibles.\n"
+"\n"
+"$Tooltip01"
+
+#: pou-bin.sh:1393
+msgid "Download all"
+msgstr "Tout télécharger"
+
+#: pou-bin.sh:1405
+msgid "Installed updates list"
+msgstr "Liste des mises à jour installées"
+
+#: pou-bin.sh:1418 pou-bin.sh:1467 pou-bin.sh:1654
+msgid "Actions"
+msgstr "Actions"
+
+#: pou-bin.sh:1430
+msgid ""
+"Uninstall the selected updates.\n"
+"\n"
+"Important: beware because removing an update can make the system unstable. "
+"At worst, you will reinstall suppressed update."
+msgstr ""
+"Désinstaller les mises à jour sélectionnées.\n"
+"\n"
+"Important : soyez prudent, la désinstallation d'une mise à jour peut rendre "
+"le système instable. Au pire, vous réinstallerez la mise à jour précédemment "
+"désinstallée."
+
+#: pou-bin.sh:1433
+msgid "Uninstall"
+msgstr "Désinstaller"
+
+#: pou-bin.sh:1455
+msgid "Discarted updates list"
+msgstr "Liste des mises à jour rejetées"
+
+#: pou-bin.sh:1479
+msgid ""
+"Remove the selected updates from the Discarted list and move it in the "
+"Available list. Useful if you want install the updates discarted."
+msgstr ""
+"Retirer les mises à jour sélectionnées de la liste Rejetées etles déplacer "
+"dans la liste Disponibles. Utile si vous souhaitez installer les mises à "
+"jour sélectionnées."
+
+#: pou-bin.sh:1480
+msgid "Make available"
+msgstr "Rendre disponible"
+
+#: pou-bin.sh:1497
+msgid "Repository"
+msgstr "Dépôt"
+
+#: pou-bin.sh:1501
+#, sh-format
+msgid ""
+"View the content of the updates repository. You will have access to all "
+"updates for $OSCOMPATIBILITY."
+msgstr ""
+"Consulter le contenu du dépôt des mises à jour. Vous aurez accès à toutes "
+"les mises à jour destinées à $OSCOMPATIBILITY."
+
+#: pou-bin.sh:1502 pou-bin.sh:1744 pou-consultconfig.sh:389
+#: pou-consulthistory.sh:747
+#, sh-format
+msgid "Consult"
+msgstr "Consulter"
+
+#: pou-bin.sh:1509
+#, sh-format
+msgid "Access the forum of $OSCOMPATIBILITY and offer/request updates."
+msgstr ""
+"Accéder au forum de $OSCOMPATIBILITY et proposer/demandez des mises à jour."
+
+#: pou-bin.sh:1510
+msgid "Propose"
+msgstr "Proposer"
+
+#: pou-bin.sh:1517
+#, sh-format
+msgid ""
+"Immediatly download all updates of the repository (files will be save in the "
+"folder $DOWNLOAD_DIRECTORY)."
+msgstr ""
+"Télécharger immédiatement tous les fichiers du dépôt des mises à jour (les "
+"fichiers seront sauvegardés dans le dossier $DOWNLOAD_DIRECTORY)."
+
+#: pou-bin.sh:1530
+#, sh-format
+msgid "Manage history and config of $AppTitle01 (for expert users)"
+msgstr ""
+"Gérer l'historique et la configuration de $AppTitle01 (pour les utilisateurs "
+"experts)"
+
+#: pou-bin.sh:1534
+#, sh-format
+msgid ""
+"Consult/Edit/Reset/Save history of $AppTitle01 (for advanced users): files "
+"available, installed, discarted, uninstalled, downloaded."
+msgstr ""
+"Consulter/Editer/Effacer/Sauvegarder l'historique de $AppTitle01 (pour les "
+"utilisateurs experts) : fichiers disponibles, installés, rejetés, "
+"désinstallés, téléchargés."
+
+#: pou-bin.sh:1535
+msgid "History"
+msgstr "Historique"
+
+#: pou-bin.sh:1543
+#, sh-format
+msgid ""
+"Consult/Edit/Save config of $AppTitle01 (for advanced users): compatibility, "
+"settings, preferences."
+msgstr ""
+"Consulter/Editer/Effacer/Sauvegarder la configuration de $AppTitle01 (pour "
+"les utilisateurs experts) : compatibilité, paramètres, préférences."
+
+#: pou-bin.sh:1544
+msgid "Config"
+msgstr "Configuration"
+
+#: pou-bin.sh:1641
+#, sh-format
+msgid "Available updates list"
+msgstr "Liste des mises à jour disponibles"
+
+#: pou-bin.sh:1669
+#, sh-format
+msgid ""
+"Download and install the selected updates.\n"
+"\n"
+"Important: available updates must be installed from older to newer."
+msgstr ""
+"Télécharger et installer les mises à jour sélectionnées.\n"
+"\n"
+"Important : les mises à jours disponibles doivent être installées de la plus "
+"ancienne à la plus récente."
+
+#: pou-bin.sh:1672
+msgid "Install"
+msgstr "Installer"
+
+#: pou-bin.sh:1682
+#, sh-format
+msgid "Download and install all available updates."
+msgstr "Télecharger et installer toutes les mises à jour disponibles"
+
+#: pou-bin.sh:1683
+msgid "Install all"
+msgstr "Tout installer"
+
+#: pou-bin.sh:1719
+msgid "System tray"
+msgstr "Barre des tâches"
+
+#: pou-bin.sh:1723
+#, sh-format
+msgid ""
+"This option allows you to punctually activate $AppTitle01 in the system tray "
+"of $DISTRO_NAME $DISTRO_VERSION.\n"
+"Notes:\n"
+"- This function can be use even if the tray option is unchecked.\n"
+"- $AppTitle01 can not be activate in the system tray if all updates are "
+"already installed."
+msgstr ""
+"Cette option vous permet d'afficher ponctuellement $AppTitle01 dans la barre "
+"des tâches de $DISTRO_NAME $DISTRO_VERSION.\n"
+"Remarques :\n"
+"- Cette option est utilisable même si la recherche automatique n'est pas "
+"activée.\n"
+"- $AppTitle01 ne sera affiché dans la barre des tâches que si des mises à "
+"jour sont disponibles."
+
+#: pou-bin.sh:1727
+msgid "Activate tray"
+msgstr "Afficher la barre"
+
+#: pou-bin.sh:1743
+#, sh-format
+msgid "Consult download folder: $DOWNLOAD_DIRECTORY"
+msgstr "Consulter le dossier de téléchargement : $DOWNLOAD_DIRECTORY"
+
+#: pou-bin.sh:1770
+#, sh-format
+msgid ""
+"Change interface of $AppTitle01: simplified or full (current interface = "
+"$MsgInterfaceStatus)."
+msgstr ""
+"Changer l'interface de $AppTitle01 : simplifiée ou complète (interface "
+"actuelle = $MsgInterfaceStatus)."
+
+#: pou-bin.sh:1777
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: pou-bin.sh:1782
+#, sh-format
+msgid "Preferences of $AppTitle01."
+msgstr "Préférences de $AppTitle01."
+
+#: pou-bin.sh:1788
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: pou-bin.sh:1793
+#, sh-format
+msgid "Refresh lists of $AppTitle01."
+msgstr "Rafraîchir les listes de $AppTitle01."
+
+#: pou-bin.sh:1799
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01"
+
+#: pou-bin.sh:1828
+#, sh-format
+msgid "Note: $AppTitle01 system tray is already running."
+msgstr ""
+"Remarque : l'appliquette de $AppTitle01 est déjà en cours de fonctionnement."
+
+#: pou-consultconfig.sh:100 pou-consulthistory.sh:102
+#, sh-format
+msgid "Save files has been created in folder $MainBackFolder."
+msgstr ""
+"Les fichiers sauvegardés ont été créés dans le dossier $MainBackFolder."
+
+#: pou-consultconfig.sh:106 pou-consulthistory.sh:114
+#, sh-format
+msgid "Files has been deleted."
+msgstr "Les fichiers ont été supprimés."
+
+#: pou-consultconfig.sh:116 pou-consultconfig.sh:133
+#, sh-format
+msgid "Create save files for $Name..."
+msgstr "Création d'un fichier de sauvegarde pour $Name..."
+
+#: pou-consultconfig.sh:154
+#, sh-format
+msgid "Reset save files..."
+msgstr "Effacement des fichiers de sauvegarde..."
+
+#: pou-consultconfig.sh:166 pou-consulthistory.sh:377
+#, sh-format
+msgid "Creation of report file..."
+msgstr "Création d'un fichier rapport..."
+
+#: pou-consultconfig.sh:192
+#, sh-format
+msgid "Config report file $ReportName has been saved in folder $ReportDir."
+msgstr ""
+"Le fichier rapport de configuration $ReportName a été enregistré dans le "
+"dossier $ReportDir."
+
+#: pou-consultconfig.sh:215
+#, sh-format
+msgid "Manage config"
+msgstr "Gérer la configuration"
+
+#: pou-consultconfig.sh:218
+#, sh-format
+msgid " Compatibility | Settings | Preferences | Options "
+msgstr " Compatibilité | Paramètres | Préférences | Options "
+
+#: pou-consultconfig.sh:254 pou-consulthistory.sh:490
+#, sh-format
+msgid ""
+"<span color='#3272C0'><b>Important</b></span>: options are for experimented "
+"users!"
+msgstr ""
+"<span color='#3272C0'><b>Important</b></span> : les options sont réservées "
+"aux utilisateurs expérimentés !"
+
+#: pou-consultconfig.sh:261
+msgid "Manage current config"
+msgstr "Gérer la configuration actuelle"
+
+#: pou-consultconfig.sh:266
+#, sh-format
+msgid "Settings:"
+msgstr "Paramètres :"
+
+#: pou-consultconfig.sh:270 pou-consultconfig.sh:307 pou-consultconfig.sh:345
+#: pou-consultconfig.sh:384 pou-consulthistory.sh:742
+#, sh-format
+msgid " "
+msgstr " "
+
+#: pou-consultconfig.sh:274
+#, sh-format
+msgid "Edit current settings of $AppTitle01."
+msgstr "Editer les paramètres actuels de $AppTitle01."
+
+#: pou-consultconfig.sh:275 pou-consultconfig.sh:312 pou-consulthistory.sh:507
+#: pou-consulthistory.sh:555 pou-consulthistory.sh:603
+#: pou-consulthistory.sh:649
+#, sh-format
+msgid "Edit"
+msgstr "Editer"
+
+#: pou-consultconfig.sh:285
+#, sh-format
+msgid ""
+"Save current $AppTitle01 settings.\n"
+"\n"
+"Note: a save file of $SETTINGS will be create in folder $MainBackFolder."
+msgstr ""
+"Sauvegarder les paramètres actuels de $AppTitle01.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de $SETTINGS sera créé dans le dossier "
+"$MainBackFolder."
+
+#: pou-consultconfig.sh:288 pou-consultconfig.sh:325 pou-consulthistory.sh:520
+#: pou-consulthistory.sh:568 pou-consulthistory.sh:616
+#: pou-consulthistory.sh:662
+#, sh-format
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: pou-consultconfig.sh:303
+#, sh-format
+msgid "Preferences:"
+msgstr "Préférences"
+
+#: pou-consultconfig.sh:311
+#, sh-format
+msgid "Edit current preferences of $AppTitle01."
+msgstr "Editer les préférences actuelles de $AppTitle01."
+
+#: pou-consultconfig.sh:322
+#, sh-format
+msgid ""
+"Save current $AppTitle01 preferences.\n"
+"\n"
+"Note: a save file of $PREFERENCES will be create in folder $MainBackFolder."
+msgstr ""
+"Sauvegarder les préférences actuelles de $AppTitle01.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de $PREFERENCES sera créé dans le "
+"dossier $MainBackFolder."
+
+#: pou-consultconfig.sh:341 pou-consulthistory.sh:690
+#, sh-format
+msgid "History:"
+msgstr "Historique :"
+
+#: pou-consultconfig.sh:349
+#, sh-format
+msgid ""
+"Create a report of current config (compatibility, settings, preferences) in "
+"a text file.\n"
+"\n"
+"Note: text file $ReportName will be save in the folder $ReportDir."
+msgstr ""
+"Créer un rapport de la configuration actuelle (compatibilité, paramètres, "
+"préférences) dans un fichier texte.\n"
+"\n"
+"Remarque : le fichier texte $ReportName sera sauvegardé dans le dossier "
+"$ReportDir."
+
+#: pou-consultconfig.sh:352 pou-consulthistory.sh:697
+#, sh-format
+msgid "Report"
+msgstr "Rapport"
+
+#: pou-consultconfig.sh:359
+#, sh-format
+msgid ""
+"Save all current config files: settings, preferences.\n"
+"\n"
+"Note: save files will be create in folder $MainBackFolder."
+msgstr ""
+"Sauvegarder tous les fichiers actuels de configuration : paramètres, "
+"préférences.\n"
+"\n"
+"Remarque : les fichiers de sauvegarde seront créés dans dossier "
+"$MainBackFolder."
+
+#: pou-consultconfig.sh:362 pou-consulthistory.sh:707
+#, sh-format
+msgid "Save All"
+msgstr "Tout sauvegarder"
+
+#: pou-consultconfig.sh:376 pou-consulthistory.sh:734
+msgid "Other"
+msgstr "Autre"
+
+#: pou-consultconfig.sh:380 pou-consulthistory.sh:738
+#, sh-format
+msgid "Save files:"
+msgstr "Fichiers sauvegardés"
+
+#: pou-consultconfig.sh:388 pou-consulthistory.sh:746
+#, sh-format
+msgid "Consult save files created in folder $MainBackFolder."
+msgstr "Consulter les fichiers sauvegardés dans le dossier $MainBackFolder."
+
+#: pou-consultconfig.sh:396
+#, sh-format
+msgid ""
+"Immediately erase all save files (created in folder $MainBackFolder): "
+"settings, preferences."
+msgstr ""
+"Supprimer immédiatement tous les fichiers sauvegardés (créés dans le dossier "
+"$MainBackFolder): paramètres, préférences."
+
+#: pou-consultconfig.sh:397 pou-consulthistory.sh:755
+#, sh-format
+msgid "Erase all"
+msgstr "Tout supprimer"
+
+#: pou-consultconfig.sh:416 pou-consulthistory.sh:776
+msgid "Refresh this GUI (if you want update informations)."
+msgstr ""
+"Rafraîchir cette interface (si vous souhaitez mettre à jour les informations "
+"proposées)."
+
+#: pou-consultconfig.sh:422 pou-consulthistory.sh:782
+#, sh-format
+msgid "Exit this GUI and restart $AppTitle01."
+msgstr "Quitter cette interface et redémarrer $AppTitle01."
+
+#: pou-consulthistory.sh:108
+#, sh-format
+msgid "Files has been reset."
+msgstr "Les fichiers ont été effacés."
+
+#: pou-consulthistory.sh:126 pou-consulthistory.sh:145
+#: pou-consulthistory.sh:201 pou-consulthistory.sh:256
+#: pou-consulthistory.sh:310
+#, sh-format
+msgid "Create save files for $Name updates..."
+msgstr "Créer un fichier de sauvegarde pour les mises à jour $Name..."
+
+#: pou-consulthistory.sh:176 pou-consulthistory.sh:231
+#: pou-consulthistory.sh:286 pou-consulthistory.sh:328
+#, sh-format
+msgid "Reset informations for $Name updates..."
+msgstr "Effacer les informations pour les mises à jour $Name..."
+
+#: pou-consulthistory.sh:365
+#, sh-format
+msgid "Delete save files..."
+msgstr "Suppression des fichiers de sauvegarde..."
+
+#: pou-consulthistory.sh:413
+#, sh-format
+msgid "History report file $ReportName has been saved in folder $ReportDir."
+msgstr ""
+"Le fichier rapport de l'historique $ReportName a été sauvegardé dans le "
+"dossier $ReportDir."
+
+#: pou-consulthistory.sh:436
+#, sh-format
+msgid "Manage updates history"
+msgstr "Gérer l'historique des mises à jour"
+
+#: pou-consulthistory.sh:439
+msgid ""
+" Available | Installed | Discarted | Uninstalled | Downloaded | Options "
+msgstr ""
+" Disponibles | Installées | Rejetées | Désinstallées | Téléchargées | "
+"Options "
+
+#: pou-consulthistory.sh:497
+msgid "Manage current lists"
+msgstr "Gérer les listes actuelles"
+
+#: pou-consulthistory.sh:502
+#, sh-format
+msgid "Installed:"
+msgstr "Installées :"
+
+#: pou-consulthistory.sh:506
+#, sh-format
+msgid "Edit list of current installed updates ($INSTALLED)."
+msgstr "Editer la liste des paquets actuellement installés ($INSTALLED)."
+
+#: pou-consulthistory.sh:517
+#, sh-format
+msgid ""
+"Save the list (history) of current installed updates.\n"
+"\n"
+"Note: a save file of $INSTALLED will be create in folder $MainBackFolder."
+msgstr ""
+"Sauvegarder la liste (l'historique) des mises à jour actuellement "
+"installées.\n"
+"\n"
+"Remarque : une sauvegarde de $INSTALLED sera créée dans le dossier "
+"$MainBackFolder."
+
+#: pou-consulthistory.sh:528
+#, sh-format
+msgid ""
+"Immediately reset the history of current installed updates.\n"
+"\n"
+"Notes: \n"
+"- The reset does not uninstall the updates already installed, it just reset "
+"the list of installed updates.\n"
+"- After the reset, $AppTitle01 will give you access to all available updates "
+"(even if they have previously been installed).\n"
+"- A save file of current $UNINSTALLED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Effacer immédiatement l'historique des mises à jour actuellement "
+"installées.\n"
+"\n"
+"Remarques : \n"
+"- L'effacement ne désinstalle pas les mises à jour actuellement installées, "
+"cela efface juste la liste des mises à jour installées.\n"
+"- Après l'effacement, $AppTitle01 vous donnera accès à toutes les mises à "
+"jour disponibles (même si elles ont été précédemment installées).\n"
+"- Un fichier de sauvegarde de l'actuel $UNINSTALLED être créé dans le "
+"dossier $MainBackFolder."
+
+#: pou-consulthistory.sh:534 pou-consulthistory.sh:581
+#: pou-consulthistory.sh:627 pou-consulthistory.sh:675
+msgid "Reset"
+msgstr "Effacer"
+
+#: pou-consulthistory.sh:550
+msgid "Discarted:"
+msgstr "Rejetées :"
+
+#: pou-consulthistory.sh:554
+#, sh-format
+msgid "Edit list of current discarted updates ($REFUSED)."
+msgstr "Editer la liste des mises à jour actuellement rejetées ($REFUSED)."
+
+#: pou-consulthistory.sh:565
+#, sh-format
+msgid ""
+"Save the list (history) of current discarted updates.\n"
+"\n"
+"Note: a save file of current $REFUSED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Sauvegarder la liste (l'historique) des mises à jour actuellement rejetées.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de l'actuel $REFUSED sera créé dans le "
+"dossier $MainBackFolder."
+
+#: pou-consulthistory.sh:576
+#, sh-format
+msgid ""
+"Immediately reset the history of current discarted updates.\n"
+"\n"
+"Notes:\n"
+"- After the reset, $AppTitle01 will give you access to all available updates "
+"(even if they have previously been discarted).\n"
+"- A save file of current $REFUSED will be create in folder $MainBackFolder."
+msgstr ""
+"Immédiatement effacer l'historique des mises à jour rejetées.\n"
+"\n"
+"Remarques :\n"
+"- Après l'effacement, $AppTitle01 vous donnera accès à toutes les mises à "
+"jour disponibles (même si elles ont été précédemment rejetées).\n"
+"- Un fichier de sauvegarde de l'actuel $REFUSED sera créé dans le dossier "
+"$MainBackFolder."
+
+#: pou-consulthistory.sh:598
+msgid "Uninstalled:"
+msgstr "Désinstallées :"
+
+#: pou-consulthistory.sh:602
+#, sh-format
+msgid "Edit list of current uninstalled updates ($UNINSTALLED)."
+msgstr ""
+"Editer la liste des mises à jour actuellement désinstallées ($UNINSTALLED)."
+
+#: pou-consulthistory.sh:613
+#, sh-format
+msgid ""
+"Save the list (history) of current uninstalled updates.\n"
+"\n"
+"Note: a save file of current $UNINSTALLED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Sauvegarder la liste (l'historique) des mises à jour actuellement "
+"désinstallées.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de l'actuel $UNINSTALLED sera créé dans "
+"le dossier $MainBackFolder."
+
+#: pou-consulthistory.sh:624
+#, sh-format
+msgid ""
+"Immediately reset the history of current uninstalled updates.\n"
+"\n"
+"Note: a save file of current $UNINSTALLED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Immédiatement effacer l'historique des mises à jour actuellement "
+"désinstallées.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de l'actuel $UNINSTALLED sera créé dans "
+"le dossier $MainBackFolder."
+
+#: pou-consulthistory.sh:644
+msgid "Downloaded:"
+msgstr "Téléchargées :"
+
+#: pou-consulthistory.sh:648
+#, sh-format
+msgid "Edit list of current downloaded updates ($DOWNLOADED)."
+msgstr ""
+"Editer la liste des mises à jour actuellement téléchargées ($DOWNLOADED)."
+
+#: pou-consulthistory.sh:659
+#, sh-format
+msgid ""
+"Save the list (history) of current downloaded updates.\n"
+"\n"
+"Note: a save file of current $DOWNLOADED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Sauvegarder la liste (l'historique) des mises actuellement téléchargées.\n"
+"\n"
+"Remarque : un fichier de sauvegarde de l'actuel $DOWNLOADED sera créé dans "
+"le dossier $MainBackFolder."
+
+#: pou-consulthistory.sh:670
+#, sh-format
+msgid ""
+"Immediately reset the history of current downloaded updates.\n"
+"\n"
+"Notes: \n"
+"- The reset does not erase the updates already downloaded, it just reset the "
+"list of downloaded updates.\n"
+"- A save file of current $DOWNLOADED will be create in folder "
+"$MainBackFolder."
+msgstr ""
+"Immédiatement effacer l'historique des mises à jour actuellement "
+"téléchargées.\n"
+"\n"
+"Remarques : \n"
+"- L'effacement ne supprimera pas les mises à jour actuellement téléchargées, "
+"cela effacera juste le contenu de la liste des fichiers téléchargés.\n"
+"- Un fichier de sauvegarde de l'actuel $DOWNLOADED sera créé dans le dossier "
+"$MainBackFolder."
+
+#: pou-consulthistory.sh:694
+#, sh-format
+msgid ""
+"Create a report of current updates lists (available, installed, discarted, "
+"uninstalled, downloaded) in a text file.\n"
+"\n"
+"Note: text file $ReportName will be save in the folder $ReportDir."
+msgstr ""
+"Créer un rapport des listes des mises à jour (disponibles, installées, "
+"rejetées, désinstallées, téléchargées) dans un fichier texte.\n"
+"\n"
+"Remarque : le rapport $ReportName sera sauvegardé dans le dossier $ReportDir."
+
+#: pou-consulthistory.sh:704
+#, sh-format
+msgid ""
+"Save all list (history) of current updates: available, installed, discarted, "
+"uninstalled, downloaded.\n"
+"\n"
+"Note: save files will be create in folder $MainBackFolder."
+msgstr ""
+"Sauvegarder toutes les listes (l'historique) des mises à jour actuelles : "
+"disponibles, installées, rejetées, désinstallées, téléchargées.\n"
+"\n"
+"Remarque : les fichiers sauvegardés seont créés dans le dossier "
+"$MainBackFolder."
+
+#: pou-consulthistory.sh:715
+#, sh-format
+msgid ""
+"Immediately reset all current updates list: installed, discarted, "
+"uninstalled, downloaded.\n"
+"\n"
+"Note: save files will be create in folder $MainBackFolder."
+msgstr ""
+"Immédiatement sauvegarder toutes les listes (l'historique) des mises à jour "
+"actuelles : disponibles, installées, rejetées, désinstallées, téléchargées.\n"
+"\n"
+"Remarque : les fichiers sauvegardés seont créés dans le dossier "
+"$MainBackFolder."
+
+#: pou-consulthistory.sh:718
+msgid "Reset all"
+msgstr "Tout effacer"
+
+#: pou-consulthistory.sh:754
+#, sh-format
+msgid ""
+"Immediately erase all save files (created in folder $MainBackFolder): "
+"installed, downloaded, discarted, uninstalled."
+msgstr ""
+"Immédiatement effacer tous les fichiers de sauvegarde (créés dans le dossier "
+"$MainBackFolder) : mises à jour installées, rejetées, désinstallées, "
+"téléchargées."
+
+#: pou-tray.sh:154
+#, sh-format
+msgid ""
+"The application $DEP01 is missing. \\nYou must install $DEP01 before using "
+"$AppTitle."
+msgstr ""
+"L'application $DEP01 est absente. \\nVous devez installer $DEP01 before "
+"d'utiliser $AppTitle."
+
+#: pou-tray.sh:198
+#, sh-format
+msgid "new available update(s)"
+msgstr "nouvelle(s) mise(s) à jour disponible(s)"
+
+#: pou-tray.sh:200
+#, sh-format
+msgid ""
+"Left click: <i>$AppTitle01 GUI</i>\n"
+"Right click: <i>tray menu</i>"
+msgstr ""
+"Clic gauche : <i>afficher $AppTitle01</i>\n"
+"Clic droit : <i>menu contextuel</i>"
+
+#: pou-tray.sh:202
+#, sh-format
+msgid "Open $AppTitle01 main GUI"
+msgstr "Afficher l'interface principale de $AppTitle01"
+
+#: pou-tray.sh:205
+msgid "Download all available updates"
+msgstr "Télecharger toutes les mises à jour disponibles"
+
+#: pou-tray.sh:207
+msgid "Download and install all available updates"
+msgstr "Télecharger et installer toutes les mises à jour disponibles"
+
+#: pou-tray.sh:209
+#, sh-format
+msgid "Refresh $AppTitle01 tray"
+msgstr "Rafraîchir la barre $AppTitle01"
+
+#: pou-tray.sh:211
+#, sh-format
+msgid "Exit $AppTitle01 tray"
+msgstr "Fermer la barre $AppTitle01"
+
+#: pou-tray.sh:235
+msgid "Downloading updates..."
+msgstr "Téléchargement des mises à jour..."
+
+#: pou-tray.sh:252
+#, sh-format
+msgid ""
+"The downloaded updates were saved in the folder \\n $DOWNLOAD_DIRECTORY."
+msgstr ""
+"Les mises à jour téléchargées ont été sauvegardées dans le dossier \\n "
+"$DOWNLOAD_DIRECTORY."
+
+#: pou-tray.sh:260
+msgid "Installing update..."
+msgstr "Installation de la mise à jour..."
+
+#: pou-tray.sh:282
+msgid "The available updates are installed correctly."
+msgstr "Les mises à jour disponibles ont été correctement installées."
+
+#: pou.sh:23
+#, sh-format
+msgid "$ANL01 is already running."
+msgstr "$ANL01 est déjà actif."

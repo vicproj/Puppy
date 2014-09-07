@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: box_ok VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:50+0200\n"
+"PO-Revision-Date: 2012-11-16 09:49+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: box_ok.sh:8
+msgid "Error"
+msgstr "Erreur"
+
+#: func.sh:10
+msgid "No action defined"
+msgstr "Aucune action définie"
+
+#: func.sh:14 pprocess.sh:82
+msgid "End process (kill)"
+msgstr "Terminer le processus (tuer)"
+
+#: func.sh:15 func.sh:16 func.sh:17 pprocess.sh:84 pprocess.sh:85
+#: pprocess.sh:86
+msgid "CPU priority"
+msgstr "Priorité du CPU"
+
+#: func.sh:15 pprocess.sh:84
+msgid "High"
+msgstr "Haute"
+
+#: func.sh:16 pprocess.sh:85
+msgid "Normal"
+msgstr "Normale"
+
+#: func.sh:17 pprocess.sh:86
+msgid "Low"
+msgstr "Basse"
+
+#: func.sh:35 pprocess.sh:123
+msgid "Running processes"
+msgstr "Processus en cours"
+
+#: func.sh:37
+msgid "Cancel"
+msgstr "Annuler"
+
+#: pprocess.sh:46
+msgid "Process manager"
+msgstr "Gestionnaire des processus"
+
+#: pprocess.sh:56
+msgid "Processes"
+msgstr "Processus"
+
+#: pprocess.sh:56
+msgid "Messages"
+msgstr "Messages"
+
+#: pprocess.sh:58
+msgid ""
+"Use filter to show only wanted processes.\n"
+"Keep field blank to show all processes."
+msgstr ""
+"Utilisez un filtre pour afficher uniquement les processus voulus.\n"
+"Garder le champ vide pour afficher tous les processus."
+
+#: pprocess.sh:62
+msgid "Search text"
+msgstr "Texte de recherche"
+
+#: pprocess.sh:77
+msgid ""
+"What should happen to the process\n"
+"when click on it."
+msgstr ""
+"Ce qu'il adviendrait au processus\n"
+"en cliquant dessus."
+
+#: pprocess.sh:88 pprocess.sh:89 pprocess.sh:90 pprocess.sh:91 pprocess.sh:92
+#: pprocess.sh:93 pprocess.sh:94 pprocess.sh:95
+msgid "Send signal"
+msgstr "Envoyer le signal"
+
+#: pprocess.sh:102
+msgid "Restart system"
+msgstr "Relancer le système"
+
+#: pprocess.sh:110
+msgid "Power off"
+msgstr "Eteindre"
+
+#: pprocess.sh:118
+msgid "Double-click to watch messages"
+msgstr "Double-clic pour voir les messages"
+
+#: pprocess.sh:124
+msgid "Kernel messages"
+msgstr "Messages du noyau"
+
+#: pprocess.sh:125
+msgid "Graphic server"
+msgstr "Serveur graphiqu"
+
+#: pprocess.sh:126
+msgid "Kernel boot"
+msgstr "Démarrage du noyau"
+
+#: pprocess.sh:127
+msgid "Puppy boot"
+msgstr "Démarrage de Puppy/Toutou"

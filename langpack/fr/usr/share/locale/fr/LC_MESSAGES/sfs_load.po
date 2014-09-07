@@ -1,0 +1,635 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sfs_load VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2013-05-05 09:22+0200\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: extrasfsfind.sh:249
+msgid "Do you want to load/install these packages?"
+msgstr "Voulez-vous télécharger/installer ces paquets"
+
+#: sfs_load.sh:90
+msgid "on-the-fly"
+msgstr "à-la-volée"
+
+#: sfs_load.sh:95
+msgid "Load or unload extra sfs files on-the-fly."
+msgstr "Monter ou démonter des fichiers SFS supplémentaires à la volée"
+
+#: sfs_load.sh:204
+msgid "Wait a moment ..."
+msgstr "Veuillez patienter ..."
+
+#: sfs_load.sh:217
+msgid "Processing..."
+msgstr "Traitement en cours ..."
+
+#: sfs_load.sh:263
+msgid "An error occured"
+msgstr "Une erreur est survenue"
+
+#: sfs_load.sh:399
+msgid "Depmod..."
+msgstr ""
+
+#: sfs_load.sh:401
+msgid "Updating font cache..."
+msgstr "Mise à jour du cache de la police ..."
+
+#: sfs_load.sh:425
+msgid "Updating menu..."
+msgstr "Mise à jour du menu ..."
+
+#: sfs_load.sh:455
+msgid "Running script background..."
+msgstr "Exécution du script en arrière-plan ..."
+
+#: sfs_load.sh:561
+#, sh-format
+msgid ""
+"Required squashfs version ${SFSVER}, but '$FILENAME' seems squashfs version "
+"${EXTRASFSVER}."
+msgstr ""
+"Une version de squashfs ${SFSVER} est requise, mais '$FILENAME' semble être "
+"en version de squashfs ${EXTRASFSVER}."
+
+#: sfs_load.sh:564
+msgid "You can convert the version with the 'SFScovert'."
+msgstr "Vous pouvez convertir la version avec 'SFSconvert'."
+
+#: sfs_load.sh:572
+msgid "queue"
+msgstr "file d'attente"
+
+#: sfs_load.sh:739
+msgid "Probing..."
+msgstr "Recherche en cours ..."
+
+#: sfs_load.sh:750
+msgid ""
+"Choose from the pulldown or drag a sfs file here. Or, you can copy and paste "
+"a weblink here."
+msgstr ""
+"Choisissez dans la liste déroulante ou faites glisser un fichier sfs ici. Ou "
+"copiez et collez un lien Internet ici."
+
+#: sfs_load.sh:753
+msgid ""
+"Type the path or drag a sfs file here. Or, you can copy and paste a weblink "
+"here."
+msgstr ""
+"Tapez le chemin ou faites glisser un fichier sfs ici. Ou copiez et collez un "
+"lien Internet ici."
+
+#: sfs_load.sh:755
+msgid "Browse and select a sfs file."
+msgstr "Rechercher et sélectionner un fichier sfs."
+
+#: sfs_load.sh:767
+msgid "The followings are the different version"
+msgstr "A suivre, les différentes versions"
+
+#: sfs_load.sh:772
+msgid "Select the sfs file you want to unload."
+msgstr "Sélectionnez les fichiers sfs que vous voulez démonter."
+
+#: sfs_load.sh:775
+msgid "Some are not loaded but in the queue."
+msgstr "Certain ne sont pas montés, mais dans la file d'attente"
+
+#: sfs_load.sh:778
+msgid "Nothing loaded."
+msgstr "Rien n'a été monté."
+
+#: sfs_load.sh:783
+msgid "You can load or unload extra SFS files on-the-fly."
+msgstr ""
+"Vous pouvez monter ou démonter des fichiers SFS supplémentaires à la volée. "
+"NE PAS MONTER le fichier SFS principal d'une version différente."
+
+#: sfs_load.sh:785
+msgid "Load SFS"
+msgstr "Monter le SFS"
+
+#: sfs_load.sh:790
+msgid "Which SFS do you want to load?"
+msgstr "Quel SFS voulez-vous monter?"
+
+#: sfs_load.sh:790 sfs_load.sh:798
+msgid "Click here after you choose the extra sfs file."
+msgstr "Cliquez ici après avoir choisi le fichier sfs supplémentaire."
+
+#: sfs_load.sh:791
+msgid "Load"
+msgstr "Monter"
+
+#: sfs_load.sh:794
+msgid "Unload SFS"
+msgstr "Démonter le SFS"
+
+#: sfs_load.sh:798
+msgid "Which SFS do you want to unload?"
+msgstr "Quel SFS voulez-vous démonter?"
+
+#: sfs_load.sh:799
+msgid "Unload"
+msgstr "Démonter"
+
+#: sfs_load.sh:804 sfs_load.sh:987
+msgid "Quit"
+msgstr "Quitter"
+
+#: sfs_load.sh:829
+msgid "CD"
+msgstr "CD"
+
+#: sfs_load.sh:830
+msgid "internet"
+msgstr "Internet"
+
+#: sfs_load.sh:831
+msgid "network"
+msgstr "Réseau"
+
+#: sfs_load.sh:832
+msgid "RAM"
+msgstr "RAM"
+
+#: sfs_load.sh:833
+msgid "Puppy space(RAM but need to copy)"
+msgstr "Espace Toutou (RAM mais il faut copier)"
+
+#: sfs_load.sh:834
+msgid "loop device"
+msgstr "en boucle"
+
+#: sfs_load.sh:839
+msgid "external storage"
+msgstr "Stockage externe"
+
+#: sfs_load.sh:840
+msgid ""
+"Select the partition to save the SFS file, preferably to be the same place "
+"you will save your session as a 'pupsave'."
+msgstr ""
+"Sélectionnez la partition dans laquelle sauvegarder le fichier SFS, de "
+"préférence où vous avez déjà enregistré votre session en tant que 'pupsave'."
+
+#: sfs_load.sh:841
+msgid "The SFS file is now at %s."
+msgstr "Le fichier SFS est maintenant dans %s."
+
+#: sfs_load.sh:842
+msgid ""
+"You can select 'RAM' if you don't like to touch your Hard Disk, only if you "
+"have enough RAM(+swap)."
+msgstr ""
+"Vous pouvez sélectionner 'RAM' si vous ne voulez pas toucher à votre disque "
+"dur, et seulement si vous avez suffisament d'espace disponible"
+
+#: sfs_load.sh:843
+msgid "Or, select 'NOCOPY' if you do not like to make a copy of the SFS file."
+msgstr ""
+"Ou alors sélectionnez 'SANSCOPIE' si vous ne voulez pas faire une copie du "
+"fichier sfs."
+
+#: sfs_load.sh:844
+msgid "Select 'CD' if you are going to save the session back to the live CD."
+msgstr ""
+"Sélectionnez 'CD' si vous voulez enregistrer la session sur le live CD."
+
+#: sfs_load.sh:850
+msgid "Available"
+msgstr "Disponible"
+
+#: sfs_load.sh:865
+msgid "multisession"
+msgstr "multisession"
+
+#: sfs_load.sh:881
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: sfs_load.sh:887
+msgid "Where to save?"
+msgstr "Où enregistrer?"
+
+#: sfs_load.sh:964 sfs_load.sh:981
+msgid "Downloading..."
+msgstr "Téléchargement en cours ..."
+
+#: sfs_load.sh:977
+msgid "There is not enough space to download."
+msgstr "Espace disponible insuffisant pour télécharger."
+
+#: sfs_load.sh:977 sfs_load.sh:2442 sfs_load.sh:2518 sfs_load.sh:2588
+msgid "Source"
+msgstr "Source"
+
+#: sfs_load.sh:977 sfs_load.sh:2588
+msgid "Free"
+msgstr "Libre"
+
+#: sfs_load.sh:986 sfs_load.sh:992
+msgid "Back to SFS_Load"
+msgstr "Retourner à SFS_Load"
+
+#: sfs_load.sh:986
+msgid "Continue"
+msgstr "Continuer"
+
+#: sfs_load.sh:992
+msgid "Skip"
+msgstr "Passer"
+
+#: sfs_load.sh:1062
+msgid "Do you want to run the application right now?"
+msgstr "Voulez-vous lancer l'application maintenant?"
+
+#: sfs_load.sh:1066
+msgid "Run"
+msgstr "Lancer"
+
+#: sfs_load.sh:1205
+msgid "Failed to unmount '/mnt/tmp'."
+msgstr "Echec de montage de '/mnt/tmp'."
+
+#: sfs_load.sh:1211
+msgid "Failed to create tmpfs '/mnt/tmp'."
+msgstr "Echec de création de tmpfs '/mnt/tmp'."
+
+#: sfs_load.sh:1308
+msgid "Mount points prepared by Puppy for extra sfs layers seem filled up."
+msgstr ""
+"Les points de montage préparés pour les couches de SFS supplémentaires "
+"semblent pleins."
+
+#: sfs_load.sh:1309
+msgid "%s extra sfs files are already loaded or in the queue."
+msgstr ""
+"Les %s fichiers SFS supplémentaires sont déjà montés ou dans la file "
+"d'attente."
+
+#: sfs_load.sh:1313 sfs_load.sh:1316
+msgid "Excessive sfs files may be unloaded at next boot."
+msgstr "Les fichiers SFS en trop peuvent être démontés au prochain démarrage."
+
+#: sfs_load.sh:1313
+msgid "And may be re-loaded by the boot-up script '/etc/init.d/sfs_load'."
+msgstr ""
+"Et peuvent être remontés par le script de démarrage '/etc/init.d/sfs_load'."
+
+#: sfs_load.sh:1313
+msgid "Note that the re-loading function is EXPERIMENTAL."
+msgstr "Notez que la fonction de remontage est EXPERIMENTALE."
+
+#: sfs_load.sh:1316
+msgid ""
+"Note: It is unknown which file will be loaded or unloaded at next boot, "
+"depending on the Puppy version."
+msgstr ""
+"Note: selon la version de la distribution, on ne sait pas quel fichier sera "
+"chargé ou déchargé au prochain démarrage."
+
+#: sfs_load.sh:1319
+msgid ""
+"But you can add new mount point '%s'(not recommended). Do you want to "
+"proceed?"
+msgstr ""
+"Mais vous pouvez ajouter un nouveau point de montage '%s' (non recommandé). "
+"Voulez-vous procéder?"
+
+#: sfs_load.sh:1373
+#, sh-format
+msgid "'$EXTRASFS' has the wrong permissions."
+msgstr "'$EXTRASFS' n'a pas les bonnes permissions."
+
+#: sfs_load.sh:1382
+#, sh-format
+msgid "Failed to mount '$EXTRASFS' on '$MNTPNT'."
+msgstr "Echec de montage de '$EXTRASFS' sur '$MNTPNT'."
+
+#: sfs_load.sh:1414
+msgid "Failed to append '%s' to unionfs."
+msgstr "Impossible de joindre '%s' à unionfs"
+
+#: sfs_load.sh:1598
+msgid "Could not find the loaded point."
+msgstr "Impossible de trouver le point de montage."
+
+#: sfs_load.sh:1598
+msgid "Maybe already unloaded."
+msgstr "Peut-être déjà démonté."
+
+#: sfs_load.sh:1650
+msgid "Failed to unload '%s'."
+msgstr "Echec de démontage de '%s'."
+
+#: sfs_load.sh:1651
+msgid ""
+"Some files may be in use. You can try this again after you restart X (From "
+"the main menu> Shutdown> Restart X). Click 'No' here."
+msgstr ""
+"Certains fichiers peuvent être en cours d'utilisation. Vous pourrez essayer "
+"à nouveau après le redémarrage de X (menu principal> SESSION> RELANCER X). "
+"Cliquez sur 'Non' ici."
+
+#: sfs_load.sh:1652
+msgid "Or, do you want to remove it from the queue list right now?"
+msgstr "Ou alors, voulez-vous les retirer de la file d'attente maintenant?"
+
+#: sfs_load.sh:1653
+msgid "Then it will be unloaded at next boot."
+msgstr "Ils seront démontés au prochain démarrage."
+
+#: sfs_load.sh:1681
+msgid "The temporary file '%s' is deleted."
+msgstr "Le fichier temporaire '%s' est supprimé."
+
+#: sfs_load.sh:1687
+msgid "You can also delete '%s' if you want to."
+msgstr "Vous pouvez aussi supprimer '%s' si vous voulez."
+
+#: sfs_load.sh:2139
+msgid "WARNING: Using this under 'PUPMODE=%s' is EXPERIMENTAL."
+msgstr "ATTENTION: L'utilisation sous 'PUPMODE=%s' est EXPERIMENTALE."
+
+#: sfs_load.sh:2142
+msgid ""
+"Your Puppy is running under the mode without extra SFS support. But this "
+"program can install them using pseudo-PET. It is not exactly the same as "
+"loading SFS but may work well in most of case."
+msgstr ""
+"Vous êtes actuellement en mode sans prise en charge de SFS supplémentaire. "
+"Mais ce programme peut les installer en utilisant pseudo-PET. Ce n'est pas "
+"tout à fait la même chose que le montage de SFS, mais cela peut très bien "
+"fonctionner dans la plupart des cas."
+
+#: sfs_load.sh:2146
+msgid "Sorry, but this %s with the kernel version %s is not supported."
+msgstr "Désolé, mais %s avec le noyau de version %s n'est pas pris en charge."
+
+#: sfs_load.sh:2148
+msgid "DANGER: Your PC may freeze if you proceed."
+msgstr "DANGER : Votre ordinateur peut se bloquer si vous continuez."
+
+#: sfs_load.sh:2150
+msgid ""
+"You seem running Puppy without 'pupsave'. Recommended to click 'Cancel' here "
+"and reboot PC after making 'pupsave'."
+msgstr ""
+"Il semble que vous êtes en session sans fichier de sauvegarde. Il est "
+"recommandé d''Annuler', puis de redémarrer le PC après avoir créé un fichier "
+"de sauvegarde."
+
+#: sfs_load.sh:2152
+msgid ""
+"Or, you need not reboot PC if you use this program after setting it up using "
+"the 'pupsaveconfig'. Follow MENU >> Utility >> PupSaveConfig"
+msgstr ""
+"Ou bien, vous n'avez pas besoin de redémarrer votre PC si vous utilisez ce "
+"programme après sa configuration en utilisant 'pupsaveconfig'. Voir MENU >> "
+"Utilitaires >> PupSaveConfig"
+
+#: sfs_load.sh:2153
+msgid ""
+"But you can load extra SFS files for temporary use(may disappear at the next "
+"boot). Click 'OK' if you want to continue."
+msgstr ""
+"Mais vous pouvez monter des fichiers SFS supplémentaires pour une "
+"utilisation temporaire (disparition probable au prochain démarrage). Cliquez "
+"sur 'Valider' pour continuer."
+
+#: sfs_load.sh:2154
+msgid "You can load extra SFS files for temporary use."
+msgstr ""
+"Vous pouvez monter des fichiers SFS supplémentaires pour une utilisation "
+"temporaire."
+
+#: sfs_load.sh:2157
+msgid ""
+"You seem going to save the session back to the live CD. You can place the "
+"extra SFS at '%s' if you want the SFS to persist even after the next boot. "
+"Note that the RAM should be large enough."
+msgstr ""
+"Vous semblez vouloir enregistrer la session sur le live CD. Vous pouvez "
+"placer les SFS supplémentaires dans '%s' si vous voulez les retrouver "
+"montés, même après le prochain démarrage. Notez que la RAM devra être "
+"suffisamment grande."
+
+#: sfs_load.sh:2160
+msgid ""
+"Your Puppy is running without a 'pupsave' file but with saving the session "
+"to the entire partition."
+msgstr ""
+"Vous êtes actuellement en utilisation sans fichier de sauvegarde, mais la "
+"session est sauvegardée dans la totalité de la partition."
+
+#: sfs_load.sh:2160
+msgid "The extra SFS support under this mode may be buggy."
+msgstr ""
+"La prise en charge des SF supplémentaires dans ce mode peut entrainer des "
+"problèmes."
+
+#: sfs_load.sh:2164
+msgid "You may need to restart X to reflect changes."
+msgstr "Vous devrez peut-être redémarrer X pour voir les changements."
+
+#: sfs_load.sh:2189 sfs_load.sh:2201
+msgid "'%s' is the system file and cannot be removed."
+msgstr "'%s' est le système de fichiers et ne peut être supprimé."
+
+#: sfs_load.sh:2207
+msgid "'%s' seems not currently loaded but in the queue."
+msgstr ""
+"'%s' ne semble pas être actuellement monté mais dans la file d'attente."
+
+#: sfs_load.sh:2208
+msgid "Do you want to remove it from the queue list?"
+msgstr "Voulez-vous le supprimer de la liste de la file d'attente?"
+
+#: sfs_load.sh:2210
+msgid "'%s' seems already loaded."
+msgstr "'%s' semble déjà monté."
+
+#: sfs_load.sh:2211
+msgid "Do you want to unload?"
+msgstr "Voulez-vous le démonter?"
+
+#: sfs_load.sh:2215
+msgid "'%s' seems already installed."
+msgstr "'%s' semble déjà  installé."
+
+#: sfs_load.sh:2216
+msgid "Do you want to uninstall?"
+msgstr "Voulez-vous le désinstaller?"
+
+#: sfs_load.sh:2231 sfs_load.sh:2319 sfs_load.sh:2397
+msgid "'%s' not found."
+msgstr "'%s' n'a pas été trouvé."
+
+#: sfs_load.sh:2245
+msgid "'%s' does not seem loaded or installed."
+msgstr "'%s' ne semble être ni monté ni installé."
+
+#: sfs_load.sh:2257
+msgid "'%s' is unloaded."
+msgstr "'%s' est démonté."
+
+#: sfs_load.sh:2277
+msgid "'%s' does not seem sfs files."
+msgstr "'%s' ne paraît pas être un fichier sfs."
+
+#: sfs_load.sh:2334
+msgid "filesize"
+msgstr "Taille du fichier "
+
+#: sfs_load.sh:2334
+msgid "needs download"
+msgstr "nécessite un téléchargement"
+
+#: sfs_load.sh:2335
+msgid "Do you want to load '%s'?"
+msgstr "Voulez-vous monter '%s'?"
+
+#: sfs_load.sh:2369
+msgid "Failed to mount '/dev/%s'."
+msgstr "Echec de montage de '/dev/%s'."
+
+#: sfs_load.sh:2387
+#, sh-format
+msgid "Failed to download '$EXTRASFS' to '$DESTDIR'."
+msgstr "Echec du téléchargement de '$EXTRASFS' vers '$DESTDIR'."
+
+#: sfs_load.sh:2427
+msgid "%s is found. Do you use it?"
+msgstr "%s a été trouvé. Voulez-vous l'utiliser?"
+
+#: sfs_load.sh:2442 sfs_load.sh:2518
+msgid "Could not copy or move. Maybe there is not enough space at '%s'."
+msgstr ""
+"Impossible de copier ou déplacer. Il n'y a peut-être pas assez d'espace sur "
+"'%s'."
+
+#: sfs_load.sh:2442 sfs_load.sh:2518
+msgid "Availble"
+msgstr "Disponible"
+
+#: sfs_load.sh:2446 sfs_load.sh:2500
+#, sh-format
+msgid "Failed to copy '$EXTRASFS' to '$DESTDIR'."
+msgstr "Echec de copie de '$EXTRASFS' vers '$DESTDIR'."
+
+#: sfs_load.sh:2448 sfs_load.sh:2502
+#, sh-format
+msgid "'$EXTRASFS' is copied to '$DESTDIR'."
+msgstr "'$EXTRASFS' a été copié vers '$DESTDIR'."
+
+#: sfs_load.sh:2455
+msgid ""
+"The SFS file is preferably to be at the same place you will save your "
+"session as a 'pupsave'."
+msgstr ""
+"Il est préférable que le fichier SFS soit au même emplacement où vous allez "
+"sauver votre session en 'pupsave'."
+
+#: sfs_load.sh:2459
+#, sh-format
+msgid "Do you want to move '$EXTRASFS' to '$DESTDIR'(recommended)?"
+msgstr "Voulez-vous déplacer '$EXTRASFS' vers '$DESTDIR'(recommandé)"
+
+#: sfs_load.sh:2460
+msgid "Move"
+msgstr "Déplacer"
+
+#: sfs_load.sh:2461 sfs_load.sh:2472
+msgid "Copy"
+msgstr "Copier"
+
+#: sfs_load.sh:2462
+msgid "No Copy"
+msgstr "Sans Copie"
+
+#: sfs_load.sh:2468
+#, sh-format
+msgid "Do you want to copy '$EXTRASFS' to '$DESTDIR'?"
+msgstr "Voulez-vous copier '$EXTRASFS' vers '$DESTDIR'?"
+
+#: sfs_load.sh:2468
+msgid ""
+"You need not copy if the SFS file is on the live CD(from which you booted "
+"off your Puppy)"
+msgstr ""
+"Inutile de copier si le fichier SFS est sur ​​le live CD (à partir du quel "
+"vous avez démarré)"
+
+#: sfs_load.sh:2470
+#, sh-format
+msgid "Do you want to copy '$EXTRASFS' to '$DESTDIR'(recommended)?"
+msgstr "Voulez-vous copier '$EXTRASFS' vers '$DESTDIR'(recommandé)?"
+
+#: sfs_load.sh:2473
+msgid "No"
+msgstr "Non"
+
+#: sfs_load.sh:2489
+#, sh-format
+msgid "Failed to move '$EXTRASFS' to '$DESTDIR'."
+msgstr "Echec du déplacement de '$EXTRASFS' vers '$DESTDIR'."
+
+#: sfs_load.sh:2490
+#, sh-format
+msgid "'$EXTRASFS' is moved to '$DESTDIR'."
+msgstr "'$EXTRASFS' a été déplacé vers '$DESTDIR'."
+
+#: sfs_load.sh:2512
+msgid "Failed to load '%s'."
+msgstr "Echec de montage de '%s'."
+
+#: sfs_load.sh:2536
+msgid ""
+"NOTE: Loading the SFS is temporary. It may be unloaded at the next boot."
+msgstr ""
+"NOTE: Le montage du SFS est temporaire. Il pourra être démonté au prochain "
+"démarrage."
+
+#: sfs_load.sh:2538
+msgid "Do not remove or move the file unless you unload it."
+msgstr "Ne pas supprimer ou déplacer le fichier avant de l'avoir démonté."
+
+#: sfs_load.sh:2539
+msgid "But you can remove or move the original if you want to."
+msgstr ""
+"Mais vous pouvez supprimer ou déplacer l'original si vous le souhaitez."
+
+#: sfs_load.sh:2541
+msgid "'%s' is successfully loaded."
+msgstr "'%s' a été monté avec succès"
+
+#: sfs_load.sh:2588
+msgid "There is not enough space to install."
+msgstr "Il n'y a pas assez d'espace pour l'installer"
+
+#: sfs_load.sh:2614
+msgid "Failed to copy some files to root file system."
+msgstr "Echec de copie de certains fichiers vers le système de fichier racine."
+
+#: sfs_load.sh:2634
+msgid "'%s' is deleted."
+msgstr "'%s' a été supprimé"
+
+#: sfs_load.sh:2639
+msgid "Some files may not be copied. See '%s'."
+msgstr "Certains fichiers peuvent n'avoir pas été copiés. Voir '%s'."
+
+#: sfs_load.sh:2640
+msgid "'%s' is installed."
+msgstr "'%s' a été installé"

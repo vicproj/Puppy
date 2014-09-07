@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pmsd 0.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2013-07-15 12:31+0800\n"
+"Last-Translator: ASRI\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pmsd-bin.sh:20
+msgid "PMSD"
+msgstr "PMSD"
+
+#: pmsd-bin.sh:21
+msgid "(Puppy mount storage devices)"
+msgstr "(montage des périphériques de stockage)"
+
+#: pmsd-bin.sh:62
+msgid "Done ! Selected storage devices are mounted."
+msgstr ""
+"C'est fait ! Les périphériques de stockage sélectionnés ont été montés."
+
+#: pmsd-bin.sh:68
+msgid "Done ! The change will happen at session reboot."
+msgstr ""
+"C'est fait ! Les changements prendront effet au redémarrage de la session."
+
+#: pmsd-bin.sh:74
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: pmsd-bin.sh:84
+msgid "Help"
+msgstr "Aide"
+
+#: pmsd-bin.sh:84
+#, sh-format
+msgid ""
+"$AppTitle01 allows to mount storage devices by formats (automatically at "
+"each startup, or occasionally).\n"
+"\n"
+"Available formats:\n"
+"- ext2, ext3, ext4 = Linux\n"
+"- vfat (fat16, fat32), ntfs = Win\n"
+"- iso9660, udf = CD/DVD\n"
+"- other = msdos, f2fs, reiserfs, minix\n"
+"\n"
+"To suggest improvements or changes, use the forum."
+msgstr ""
+"$AppTitle01 permet de monter les périphériques de stockage par format "
+"(automatiquement à chaque démarrage, ou occasionnellement).\n"
+"\n"
+"Formats disponibles :\n"
+"- ext2, ext3, ext4 = Linux\n"
+"- vfat (fat16, fat32), ntfs = Win\n"
+"- iso9660, udf = CD/DVD\n"
+"- autre = msdos, f2fs, reiserfs, minix\n"
+"\n"
+"Pour suggérer des améliorations ou des changements, utilisez le forum."
+
+#: pmsd-bin.sh:150
+msgid "Select formats of storage devices"
+msgstr "Sélectionnez les formats des périphériques de stockage"
+
+#: pmsd-bin.sh:154
+msgid "ext2"
+msgstr "ext2"
+
+#: pmsd-bin.sh:162
+msgid "ext3"
+msgstr "ext3"
+
+#: pmsd-bin.sh:170
+msgid "ext4"
+msgstr "ext4"
+
+#: pmsd-bin.sh:178
+msgid "vfat"
+msgstr "vfat"
+
+#: pmsd-bin.sh:186
+msgid "ntfs"
+msgstr "ntfs"
+
+#: pmsd-bin.sh:194
+msgid "iso9660"
+msgstr "iso9660"
+
+#: pmsd-bin.sh:202
+msgid "udf"
+msgstr "udf"
+
+#: pmsd-bin.sh:210
+msgid "other"
+msgstr "other"
+
+#: pmsd-bin.sh:222
+msgid "Mount at startup"
+msgstr "Monter au démarrage"
+
+#: pmsd-bin.sh:228
+msgid "Automatic mounting"
+msgstr "Montage automatique"
+
+#: pmsd-bin.sh:257
+msgid "Mount immediately"
+msgstr "Monter immédiatement"
+
+#: pmsd-bin.sh:260
+msgid "Mount selected formats"
+msgstr "Monter les formats sélectionnés"
+
+#: pmsd-bin.sh:261
+msgid "Mount immediately selected formats."
+msgstr "Monter immédiatement les formats sélectionnés."
+
+#: pmsd-bin.sh:274
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: pmsd-bin.sh:279
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: pmsd-bin.sh:284
+#, sh-format
+msgid "Save values and quit $AppTitle01."
+msgstr "Sauvegarder les valeurs et quitter $AppTitle01."
+
+#: pmsd.sh:23
+#, fuzzy, sh-format
+msgid "$ANL01 is already running."
+msgstr "$AppTitle est déjà activé."

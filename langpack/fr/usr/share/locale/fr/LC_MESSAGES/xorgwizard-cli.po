@@ -1,0 +1,412 @@
+# French translations for xorgwizard-cli package.
+# Copyright (C) 2014 THE xorgwizard-cli'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the xorgwizard-cli package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xorgwizard-cli VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2014-09-07 22:58+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: xorgwizard-cli.sh:64
+msgid "Puppy Xorg Video Wizard"
+msgstr ""
+
+#: xorgwizard-cli.sh:92
+msgid "Puppy thinks that you have a serial mouse. However, if your PC has a modern usb or ps/2 mouse, you must choose the <Change mouse> button now."
+msgstr ""
+
+#: xorgwizard-cli.sh:93
+msgid "Puppy thinks that you have a usb or ps/2 mouse. However, for an old PC that has a serial mouse, you must choose the <Change mouse> button now."
+msgstr ""
+
+#: xorgwizard-cli.sh:96
+msgid "TEST X NOW"
+msgstr ""
+
+#: xorgwizard-cli.sh:96
+msgid "Change mouse"
+msgstr ""
+
+#: xorgwizard-cli.sh:96
+msgid "Fallback"
+msgstr ""
+
+#: xorgwizard-cli.sh:96 xorgwizard-cli.sh:117 xorgwizard-cli.sh:600
+#: xorgwizard-cli.sh:610
+msgid "Help"
+msgstr ""
+
+#: xorgwizard-cli.sh:96
+msgid "THE NEXT STEP WILL TEST XORG!"
+msgstr ""
+
+#: xorgwizard-cli.sh:100
+msgid "After choosing <TEST X NOW> button, if the next screen shows a nice dialog box, then X started okay. If the screen is blank or garbage, then failure (In such a case, just press the ENTER key to terminate the test, preferably within the 60 second test timeout)."
+msgstr ""
+
+#: xorgwizard-cli.sh:102
+msgid "IMPORTANT: If the ENTER key does not terminate the test, press the combination CTRL-ALT-BACKSPACE"
+msgstr ""
+
+#: xorgwizard-cli.sh:104
+msgid "EMERGENCY SHUTDOWN: If the test hangs your PC, reboot by pressing the reset button, or hold down the power button for 4 seconds to shutdown."
+msgstr ""
+
+#: xorgwizard-cli.sh:106
+msgid "Press ENTER key now to test X graphics mode (may take a few secs)..."
+msgstr ""
+
+#: xorgwizard-cli.sh:107
+msgid "TAB then ENTER to use an old working xorg.conf, or create new xorg.conf..."
+msgstr ""
+
+#: xorgwizard-cli.sh:108
+msgid "TAB, TAB then ENTER to change the mouse (afterward will return here)..."
+msgstr ""
+
+#: xorgwizard-cli.sh:109
+msgid "Press ESC key to exit Wizard without testing xorg.conf..."
+msgstr ""
+
+#: xorgwizard-cli.sh:117
+msgid "Xorg is the system required for the PC to go into graphical desktop mode."
+msgstr ""
+
+#: xorgwizard-cli.sh:119
+msgid "Mouse:"
+msgstr ""
+
+#: xorgwizard-cli.sh:120
+msgid "Modern PCs have a usb or ps/2 mouse (or touchpad). However, some old PCs have a serial mouse (recognizable by the large rectangular plug), in which case you must choose the <Change mouse> button before continuing with the Wizard."
+msgstr ""
+
+#: xorgwizard-cli.sh:122
+msgid "CTRL-ALT-BACKSPACE:"
+msgstr ""
+
+#: xorgwizard-cli.sh:123
+msgid "This is the standard emergency key combination to terminate Xorg and drop back to the text-mode console. Hold down CTRL and ALT keys then tap the BACKSPACE key. Remember this key combination!"
+msgstr ""
+
+#: xorgwizard-cli.sh:125
+msgid "Fallback:"
+msgstr ""
+
+#: xorgwizard-cli.sh:126
+msgid "The Xorg configuration file is /etc/X11/xorg.conf. Choosing this option will offer a choice of all /etc/X11/xorg.conf* files, so if you have previously created one that you know works, you may choose it. Or, you may choose to abort entirely and create a new xorg.conf."
+msgstr ""
+
+#: xorgwizard-cli.sh:128
+msgid "Press ENTER key to go back to previous window..."
+msgstr ""
+
+#: xorgwizard-cli.sh:146 xorgwizard-cli.sh:651 xorgwizard-cli.sh:664
+msgid "OK"
+msgstr ""
+
+#: xorgwizard-cli.sh:146
+msgid "View"
+msgstr ""
+
+#: xorgwizard-cli.sh:146
+msgid "Cancel"
+msgstr ""
+
+#: xorgwizard-cli.sh:146
+msgid "Press UP/DOWN arrow keys to choose an old xorg.conf, or NONE to probe and create a new xorg.conf."
+msgstr ""
+
+#: xorgwizard-cli.sh:148
+msgid "Note that after highlighting a file, you can select the <View> button to see the content in a text editor, and afterward come back to this window."
+msgstr ""
+
+#: xorgwizard-cli.sh:150
+msgid "After choosing file, press ENTER key to choose <OK> button, or"
+msgstr ""
+
+#: xorgwizard-cli.sh:151
+msgid "press TAB then ENTER to view content of selected file, or"
+msgstr ""
+
+#: xorgwizard-cli.sh:152
+msgid "TAB, TAB then ENTER keys to abort and go back to previous window..."
+msgstr ""
+
+#: xorgwizard-cli.sh:190
+msgid "File:"
+msgstr ""
+
+#: xorgwizard-cli.sh:191
+msgid "Has been copied to:"
+msgstr ""
+
+#: xorgwizard-cli.sh:192
+msgid "Also backed up as:"
+msgstr ""
+
+#: xorgwizard-cli.sh:193
+msgid "Type \"xwin\" (then ENTER key) to start X..."
+msgstr ""
+
+#: xorgwizard-cli.sh:205
+msgid "You have exited from the Xorg Wizard without testing the configuration file /etc/X11/xorg.conf."
+msgstr ""
+
+#: xorgwizard-cli.sh:206
+msgid "Type \"xwin\" (then ENTER key) to start X (the graphical desktop) now, or \"xorgwizard\" to re-run the Xorg Wizard."
+msgstr ""
+
+#: xorgwizard-cli.sh:208 xorgwizard-cli.sh:244
+msgid "Note, type \"xwin jwm\" or \"xwin openbox\" if you have both of these window managers installed and you want to change from the current one. Ditto for any other installed window manager."
+msgstr ""
+
+#: xorgwizard-cli.sh:222
+msgid "FINISHED"
+msgstr ""
+
+#: xorgwizard-cli.sh:222
+msgid "Tweak"
+msgstr ""
+
+#: xorgwizard-cli.sh:222
+msgid "Report on X test:"
+msgstr ""
+
+#: xorgwizard-cli.sh:223
+#, sh-format
+msgid "Resolution:           ${XTEST}x${YTEST} pixels"
+msgstr ""
+
+#: xorgwizard-cli.sh:224
+#, sh-format
+msgid "Horizontal frequency: ${HSTEST} KHz"
+msgstr ""
+
+#: xorgwizard-cli.sh:225
+#, sh-format
+msgid "Refresh frequency:    ${VRTEST} Hz"
+msgstr ""
+
+#: xorgwizard-cli.sh:226
+#, sh-format
+msgid "Video driver:         ${CHOSENDRV}"
+msgstr ""
+
+#: xorgwizard-cli.sh:228
+msgid "If you are reporting success, great, but if the display was not quite right, say displaced or distorted, you now have the option of tweaking various parameters, even choose a different video driver. Ditto if testing X was an abysmal failure."
+msgstr ""
+
+#: xorgwizard-cli.sh:230
+msgid "Press ENTER key if test was okay..."
+msgstr ""
+
+#: xorgwizard-cli.sh:231
+msgid "TAB then ENTER to abort and go back to main window..."
+msgstr ""
+
+#: xorgwizard-cli.sh:232
+msgid "TAB, TAB then ENTER to tweak parameters & retest X..."
+msgstr ""
+
+#: xorgwizard-cli.sh:240
+msgid "The Puppy Xorg Wizard has been run, presumably successfully."
+msgstr ""
+
+#: xorgwizard-cli.sh:241
+msgid "If so, type \"xwin\" (then ENTER key) to start Xorg and the graphical desktop."
+msgstr ""
+
+#: xorgwizard-cli.sh:242
+msgid "Otherwise, you may type \"xorgwizard\" to re-run the Wizard..."
+msgstr ""
+
+#: xorgwizard-cli.sh:251
+msgid "The next step will be to open /etc/X11/xorg.conf in a text editor. Various parameters can be modified, then the file saved, then exit the editor. Please note that this is a text-mode editor that does not work with a mouse."
+msgstr ""
+
+#: xorgwizard-cli.sh:253
+msgid "Displaced:"
+msgstr ""
+
+#: xorgwizard-cli.sh:254
+msgid "The most common problem is the image displaced/squeezed/distorted. Often this is due to a wrong vertical refresh frequency (number of times per second that the screen gets re-drawn). You may experiment with the 'VertRefresh' range. Note, 60Hz is usually OK for LCD screens. Older CRT screens may flicker at 60Hz, usually need at least 70Hz."
+msgstr ""
+
+#: xorgwizard-cli.sh:322
+msgid "Probing video hardware, please wait..."
+msgstr ""
+
+#: xorgwizard-cli.sh:507
+msgid "driver, needs KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:508
+msgid "driver, no KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:509
+msgid "(requires reboot)"
+msgstr ""
+
+#: xorgwizard-cli.sh:510
+msgid "Unaccelerated driver"
+msgstr ""
+
+#: xorgwizard-cli.sh:522
+msgid "Simple NVIDA driver"
+msgstr ""
+
+#: xorgwizard-cli.sh:526
+msgid "NVIDIA proprietary driver"
+msgstr ""
+
+#: xorgwizard-cli.sh:543
+msgid "Old ATI Radeon driver"
+msgstr ""
+
+#: xorgwizard-cli.sh:551
+msgid "ATI proprietary driver"
+msgstr ""
+
+#: xorgwizard-cli.sh:563
+msgid "Accelerated drivers are designed for specific video hardware. Basically, they are much faster than the unaccelerated drivers. They may also offer additional configuration features."
+msgstr ""
+
+#: xorgwizard-cli.sh:570
+msgid "This is the simplest accelerated driver. Works without KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:571
+msgid "Most sophisticated accelerated driver. Requires KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:572
+msgid "If installed, this is the commercial driver. Works without KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:580
+msgid "Intel accelerated driver. Requires KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:581
+msgid "If installed, for some older hardware. Works without KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:589
+msgid "These are accelerated drivers for certain ATI hardware."
+msgstr ""
+
+#: xorgwizard-cli.sh:590
+msgid "Accelerated driver for ATI Radeon hardware. Requires KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:591
+msgid "If installed, older accelerated driver. Without KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:592
+msgid "If installed, accelerated commercial driver. Without KMS"
+msgstr ""
+
+#: xorgwizard-cli.sh:596
+msgid "Please use UP/DOWN arrow keys to choose a Xorg driver, then press ENTER key..."
+msgstr ""
+
+#: xorgwizard-cli.sh:597
+msgid "Or, press TAB (or RIGHT arrow) then ENTER to exit from the Wizard..."
+msgstr ""
+
+#: xorgwizard-cli.sh:598
+msgid "If uncertain, press TAB, TAB then ENTER to choose <Help>..."
+msgstr ""
+
+#: xorgwizard-cli.sh:610
+msgid "The Xorg Wizard has probed the computer and determined that any of these drivers may be suitable. Choose that which seems most appropriate. If a driver does not work, at worst even hangs the PC, you will be able to re-run the Wizard and choose another driver."
+msgstr ""
+
+#: xorgwizard-cli.sh:614
+msgid "Generic"
+msgstr ""
+
+#: xorgwizard-cli.sh:615
+msgid "Fallbacks are the generic unaccelerated drivers 'vesa' and 'modesetting', that should work for all video hardware. They have limitations, such as slowness and no full-screen video. The 'vesa' driver can only use a VESA standard resolution (which may not match your wide-screen monitor), however the 'modesetting' driver can be set to the native resolution of the monitor."
+msgstr ""
+
+#: xorgwizard-cli.sh:644
+msgid "Let Xorg guess it"
+msgstr ""
+
+#: xorgwizard-cli.sh:645
+msgid "Screen resolutions are listed below, in the format horizontal x vertical pixels. One of these will be best suited to your monitor. If the Wizard offers a 'recommended' resolution, choose that."
+msgstr ""
+
+#: xorgwizard-cli.sh:646
+msgid "This option means leave it up to Xorg to try and guess the most appropriate resolution -- this usually works well."
+msgstr ""
+
+#: xorgwizard-cli.sh:648 xorgwizard-cli.sh:662
+msgid "Use the UP/DOWN arrow keys to choose a resolution, then press ENTER key..."
+msgstr ""
+
+#: xorgwizard-cli.sh:649
+msgid "Or, press TAB then ENTER for more resolutions to choose from..."
+msgstr ""
+
+#: xorgwizard-cli.sh:651
+msgid "More"
+msgstr ""
+
+#: xorgwizard-cli.sh:659
+msgid "Hi-res monitor"
+msgstr ""
+
+#: xorgwizard-cli.sh:660
+msgid "Very hi-res monitor"
+msgstr ""
+
+#: xorgwizard-cli.sh:661
+msgid "Non-VESA, widescreen"
+msgstr ""
+
+#: xorgwizard-cli.sh:663
+msgid "Or, press TAB then ENTER to go back to previous window..."
+msgstr ""
+
+#: xorgwizard-cli.sh:664
+msgid "Go back"
+msgstr ""
+
+#: xorgwizard-cli.sh:664
+msgid "Very poor, not usable"
+msgstr ""
+
+#: xorgwizard-cli.sh:664
+msgid "Minimum usable by Puppy"
+msgstr ""
+
+#: xorgwizard-cli.sh:664
+msgid "Good, works with most monitors"
+msgstr ""
+
+#: xorgwizard-cli.sh:798
+msgid "IMPORTANT: At shutdown you will be asked to create a session save-file, please do so."
+msgstr ""
+
+#: xorgwizard-cli.sh:799
+#, sh-format
+msgid "A reboot is required before the '${CHOSENDRV}' driver can be tested."
+msgstr ""
+
+#: xorgwizard-cli.sh:801
+msgid "Click <OK> button to reboot..."
+msgstr ""

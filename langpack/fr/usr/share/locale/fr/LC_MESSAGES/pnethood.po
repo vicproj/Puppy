@@ -1,0 +1,177 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pnethood VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:43+0200\n"
+"PO-Revision-Date: 2012-11-16 09:44+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pnethood.sh:28
+msgid "Pnethood"
+msgstr "Pnethood"
+
+#: pnethood.sh:29
+msgid "Pnethood Scanning"
+msgstr "Recherche de Pnethood"
+
+#: pnethood.sh:30
+msgid "Pnethood scanning network, please wait"
+msgstr "Pnethood examine votre réseau, patientez"
+
+#: pnethood.sh:31
+msgid "Pnethood Error"
+msgstr "Pnethood Erreur"
+
+#: pnethood.sh:32
+msgid ""
+"No active network interface found, there is nothing to scan. Pnethood will "
+"quit. Please setup your network first."
+msgstr ""
+"Aucune interface réseau trouvée, il n'y a rien à scanner. Pnetwood va "
+"s'arréter. Veuillez paramétrer votre réseau d'abord."
+
+#: pnethood.sh:33
+msgid "Scan found ${#SERVERNAMES[@]} servers found."
+msgstr "Pnetwood a trouvé ${#SERVERNAMES[@]} serveurs."
+
+#: pnethood.sh:34
+msgid "Please choose one from the list."
+msgstr " Choisissez-en un dans la liste."
+
+#: pnethood.sh:35
+msgid "open windows shares"
+msgstr "ouvrir les fenêtres de partage"
+
+#: pnethood.sh:37
+msgid "RESCAN NETWORK"
+msgstr "NOUVELLE RECHERCHE"
+
+#: pnethood.sh:38
+msgid "HELP"
+msgstr "AIDE"
+
+#: pnethood.sh:39
+msgid "LOG"
+msgstr "RAPPORT"
+
+#: pnethood.sh:40
+msgid "QUIT"
+msgstr "QUITTER"
+
+#: pnethood.sh:41
+msgid "REFRESH"
+msgstr "RAFRAICHIR"
+
+#: pnethood.sh:42 pnethood.sh:60
+msgid "save passwords"
+msgstr "Enregistrer les mots de passe"
+
+#: pnethood.sh:43 pnethood.sh:56
+msgid "use cifs"
+msgstr "Utiliser CIFS"
+
+#: pnethood.sh:44
+msgid "network scan (seconds)"
+msgstr "Recherche réseau (secondes)"
+
+#: pnethood.sh:45
+msgid "Pnethood probing"
+msgstr "Pnethood examine"
+
+#: pnethood.sh:47
+msgid "username"
+msgstr "nom d'utilisateur"
+
+#: pnethood.sh:48
+msgid "password"
+msgstr "mot de passe"
+
+#: pnethood.sh:49
+msgid "show"
+msgstr "afficher"
+
+#: pnethood.sh:50
+msgid "connect"
+msgstr "connecter"
+
+#: pnethood.sh:51
+msgid "disconnect"
+msgstr "déconnecter"
+
+#: pnethood.sh:54
+msgid "Enter your password"
+msgstr "Entrer votre mot de passe"
+
+#: pnethood.sh:55
+msgid "OPTIONS"
+msgstr "OPTIONS"
+
+#: pnethood.sh:57
+msgid "Domain"
+msgstr "Domaine"
+
+#: pnethood.sh:58
+msgid "no shares"
+msgstr "aucun partage"
+
+#: pnethood.sh:59
+msgid ""
+"The Refresh or Rescan Network buttons must be used, before test any new "
+"configuration change."
+msgstr ""
+"Utilisez d'abord les boutons RAFRAICHIR et NOUVELLE RECHERCHE avant de "
+"tester un nouveau changement de configuration."
+
+#: pnethood.sh:61
+msgid "UTF-8 Charset"
+msgstr "Caractères UTF-8"
+
+#: pnethood.sh:62
+msgid ""
+"UTF-8 Charset will be used to convert local path names to and from Unicode"
+msgstr ""
+"Les caractères UTF-8 seront utilisés pour convertir les noms de chemin "
+"d'accès local de et vers Unicode"
+
+#: pnethood.sh:63
+msgid "Disable Linux Extensions"
+msgstr "Désactiver les extensions de Linux"
+
+#: pnethood.sh:64
+msgid ""
+"Disable symbolic link suppport and UID/GID server maps, could help cifs to "
+"work with buggy samba devices"
+msgstr ""
+"Désactiver la prise en charge des liens symboliques et les cartes des "
+"serveurs UID/GID, pourrait aider cifs à fonctionner avec des périphériques "
+"samba bogués"
+
+#: pnethood.sh:65
+msgid "Number of servers to show list"
+msgstr "Nombre de serveurs à afficher"
+
+#: pnethood.sh:66
+msgid "Change requires a pnethood  restart"
+msgstr "Le changement nécessite un redémarrage de Pnethood"
+
+#: pnethood.sh:67
+msgid "Network Scan (seconds)"
+msgstr "Recherche réseau (secondes) "
+
+#: pnethood.sh:68
+msgid "You can write any integer value"
+msgstr "Vous pouvez écrire n'importe quelle valeur entière"
+
+#: pnethood.sh:69
+msgid "Purge log file (Kilobytes)"
+msgstr "Purger le fichier rapport (ko)   "
+
+#: pnethood.sh:71
+msgid "Apply"
+msgstr "Appliquer"

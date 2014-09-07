@@ -1,0 +1,207 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xwin VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2012-02-11 11:35+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: xwin.sh:126
+msgid ""
+"If initialization freezes here, press ctrl-c and type \"xorgwizard\","
+"\\nselect \"Xorg\", choose monitor type and choose video mode."
+msgstr ""
+"Si le démarrage se fige ici, pressez ctrl-c et tapez \"xorgwizard\",\n"
+"choisissez \"Xorg\", puis choisissez le type de moniteur et le mode vidéo."
+
+#: xwin.sh:315
+msgid "Warning"
+msgstr "Attention"
+
+#: xwin.sh:315
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: xwin.sh:315
+msgid "Commandline"
+msgstr "Ligne de commande"
+
+#: xwin.sh:315
+msgid ""
+"X seems to have exited uncleanly the last time you ran Puppy.  This is "
+"usually because of an improper shutdown (such as a power failure), but may "
+"be because something is broken."
+msgstr ""
+"Il semble que le serveur graphique X ait été mal refermé la dernière fois. "
+"Il s'agit généralement d'un arrêt incorrect du à une panne d'électricité, "
+"mais peut-être aussi parce qu'il y a eu un problème plus grave..."
+
+#: xwin.sh:317
+msgid ""
+"If it was just something like a power failure, wait for 30 seconds or choose "
+"<Ignore> for normal startup of X..."
+msgstr ""
+"Dans le cas d'une panne d'électricité, attendez 30 secondes ou choisissez "
+"<Ignorer> pour un démarrage normal du serveur graphique X..."
+
+#: xwin.sh:319
+msgid ""
+"If there is a problem, such as X not working, choose <Commandline> to drop "
+"out to a commandline. There will then be further advice how to fix X..."
+msgstr ""
+"Dans le cas d'un problème plus grave, et si le serveur graphique X ne "
+"fonctionne pas, choisissez <Ligne_de_commande> pour arriver sur une ligne de "
+"commande. Vous aurez alors plus de conseils pour réparer le serveur "
+"graphique X..."
+
+#: xwin.sh:321
+msgid "If undecided, wait 30 seconds for normal startup of X..."
+msgstr ""
+"Indécis, attendez 30 secondes pour le démarrage normal du serveur graphique "
+"X..."
+
+#: xwin.sh:327
+msgid "It seems that last time X ran, the computer hung and you had to reboot."
+msgstr "Au dernier lancement, le PC a planté et vous avez du le relancer."
+
+#: xwin.sh:328
+msgid "Have now dropped down to the commandline. If you want to run the Xorg"
+msgstr ""
+"On est maintenant en ligne de commande. Si vous voulez exécuter l'assistant"
+
+#: xwin.sh:329
+msgid ""
+"Video Wizard, type \"xorgwizard\", and after configuring /etc/X11/xorg.conf"
+msgstr ""
+"vidéo Xorg, tapez \"xorgwizard\", et après avoir configuré le fichier /etc/"
+"X11/xorg.conf"
+
+#: xwin.sh:330
+msgid "(hopefully correctly this time!) type \"xwin\" to start X."
+msgstr ""
+"(correctement cette fois!), tapez \"xwin\" pour arriver sur le bureau "
+"graphique."
+
+#: xwin.sh:347
+msgid "An attempt has just been made to run X at 800x600x16 but it has"
+msgstr ""
+"Un essai a eu lieu pour lancer le serveur graphique X en 800x600x16, mais"
+
+#: xwin.sh:348
+msgid "not worked (or it did but you did not press the OK button in the"
+msgstr ""
+"n'a pas fonctionné (ou vous n'avez pas pressé le bouton OK dans Assistant"
+
+#: xwin.sh:349
+msgid "Video-wizard). It is not feasible to run Puppy at any lower resolution"
+msgstr ""
+"vidéo). Il n'est pas possible de lancer Toutou sur une résolution ou couleur"
+
+#: xwin.sh:350
+msgid "or color. If you want to try again, type \"xwin\" at the prompt."
+msgstr ""
+"plus faible. Si vous voulez essayer à nouveau, tapez \"xwin\" à l'invite."
+
+#: xwin.sh:351
+msgid "It may be helpful to look in /tmp/xerrs.txt for error messages"
+msgstr ""
+"Il peut être utile de regarder dans /tmp/xerrs.txt pour les messages d'erreur"
+
+#: xwin.sh:423
+msgid "ERROR: Console keyboard"
+msgstr "ERREUR: Le clavier de la console"
+
+#: xwin.sh:423
+msgid "no matching Xorg layout. PLEASE REPORT TO BK"
+msgstr ""
+"ne correspond à aucune configuration Xorg. FAITES UN RAPPORT A BARRY KAULER"
+
+#: xwin.sh:444
+#, sh-format
+msgid "Starting X with video mode $VIDMODE and mouse $MOUSEDEV..."
+msgstr ""
+"Lancement du serveur graphique X en mode video $VIDMODE et souris "
+"$MOUSEDEV..."
+
+#: xwin.sh:465
+msgid "Starting X with Xfbdev Kdrive X server, mouse"
+msgstr ""
+"Lancement du serveur graphique X avec le serveur X Kdrive Xfbdev, souris"
+
+#: xwin.sh:469
+msgid "Starting X with Xi810 Kdrive X server, mouse"
+msgstr ""
+"Lancement du serveur graphique X avec le serveur X Kdrive Xi810, souris"
+
+#: xwin.sh:474
+msgid ""
+"Starting X, specs in /etc/X11/XF86Config, startup apps /root/.xinitrc..."
+msgstr ""
+"Lancement du serveur graphique X, specs dans /etc/X11/XF86Config, lancement "
+"apps /root/.xinitrc..."
+
+#: xwin.sh:478
+msgid "Starting X, specs in /etc/X11/xorg.conf, startup apps /root/.xinitrc..."
+msgstr ""
+"Lancement du serveur graphique X, specs dans /etc/X11/xorg.conf, lancement "
+"apps /root/.xinitrc..."
+
+#: xwin.sh:499
+msgid ""
+"Exited from X. Type \"xwin [fvwm95|jwm]\" to restart X ([ ] mean optional)."
+msgstr ""
+"Sorti de X, Tapez \"xwin [fvwm95|jwm]\" pour relancer le serveur X ([ ] "
+"signifie optionnel)."
+
+#: xwin.sh:500
+msgid "(To shutdown PC type \"poweroff\", to reboot PC type \"reboot\")"
+msgstr ""
+"(Pour fermer le PC tapez \"poweroff\", pour relancer le PC tapez \"reboot\")"
+
+#: xwin.sh:502
+msgid "(To run the Xfbdev Framebuffer Wizard, type \"framebufferwizard\")"
+msgstr ""
+"(Pour lancer votre assistant mémoire des images Xfbdev, tapez "
+"\"framebufferwizard\")"
+
+#: xwin.sh:506
+msgid "If X failed to start, type \"xf86config\" to setup X"
+msgstr "Si X ne se lance pas, tapez \"xf86config\" pour configurer X"
+
+#: xwin.sh:507
+msgid "you will need to know type of mouse, keyboard and video chip"
+msgstr ""
+"vous aurez besoin de connaître le type de souris, le clavier et la puce vidéo"
+
+#: xwin.sh:508
+msgid ""
+"thix X is for pre-2000 video chips, but many recent chips backwards-compat."
+msgstr ""
+"Cet X est pour les puces avant 2000, mais beaucoup sont retro compatibles."
+
+#: xwin.sh:509
+msgid "accept default save /etc/XF86Config, Puppy will move this to /etc/X11"
+msgstr ""
+"Acceptez de sauver par défaut /etc/XF86Config, Toutou le déplacera dans /etc/"
+"X11"
+
+#: xwin.sh:510
+msgid "(XF86Config is the configuration file for X and can be edited manually)"
+msgstr ""
+"(XF86Config est le fichier de config. de X et peut être modifié à la main)"
+
+#: xwin.sh:511
+msgid "LAST RESORT, drop back to Xvesa by typing \"ln -sf Xvesa /usr/bin/X\""
+msgstr "DERNIER RECOURS,revenir à Xvesa en tapant \"ln -sf Xvesa /usr/bin/X\""
+
+#: xwin.sh:516
+msgid "If X failed to start, type \"xorgwizard\" to setup X"
+msgstr ""
+"Si le serveur graphique X ne veut pas se lancer, tapez \"xorgwizard\" pour "
+"le configurer"

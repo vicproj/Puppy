@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pupzip VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:44+0200\n"
+"PO-Revision-Date: 2012-02-11 12:09+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pupzip.sh:25 pupzip.sh:34
+msgid "PupZip: ERROR"
+msgstr "PupZip: ERREUR"
+
+#: pupzip.sh:29
+msgid "Yes"
+msgstr "Oui"
+
+#: pupzip.sh:29
+msgid "No"
+msgstr "Non"
+
+#: pupzip.sh:34
+msgid ""
+"No archive GUI program found.\n"
+"Please install XArchive."
+msgstr ""
+"Pas d'interface graphique d'archivage trouvé.\n"
+"Veuillez installer XArchive."
+
+#: pupzip.sh:45
+msgid "Not an archive file"
+msgstr "Ce n'est pas un fichier archive"
+
+#: pupzip.sh:72
+#, fuzzy
+msgid ""
+"Drag and drop invocation of XArchive is achieved by dragging any file or\n"
+"directory to the \"pupzip\" icon on the desktop. If you drag one of the\n"
+"recognised archived files, such as .tar.gz, .rpm, .deb, .zip, .tar.bz2,\n"
+"it will open in XArchive and you will be given the opportunity to extract\n"
+"it. If you drag an ordinary file to the desktop icon, such as for example\n"
+"\"myfile.txt\", a XArchive will popup a dialog asking if you want to add\n"
+"it to an existing archive or create a new one."
+msgstr ""
+"Faites glisser un fichier ou un répertoire sur l'icône du bureau \"pupzip"
+"\".\n"
+"Dans le cas des fichiers archives reconnus, tels que .tar.gz, .rpm, .deb,\n"
+".zip, .tar.bz2, il s'ouvrira dans Xarchive et vous donnera la possibilité\n"
+"de l'extraire. Si vous faites glisser un fichier ordinaire sur l'icône du\n"
+"bureau \"pupzip\", comme par exemple \"monfichier.txt\", Xarchive ouvrira\n"
+"une boîte de dialogue vous demandant si vous souhaitez ajouter à une "
+"archive\n"
+"existante ou en créer une nouvelle."
+
+#: pupzip.sh:80
+#, fuzzy
+msgid ""
+"There is support for drag-and-drop of archive files to the desktop icon,\n"
+"however not for files and directories -- for that you need to have \n"
+"XArchive installed, the preferred archiver program for Puppy."
+msgstr ""
+"Le glisser-déposer des fichiers d'archives sur l'icône du bureau est pris\n"
+"en charge. Mais pas pour les fichiers et répertoires -- pour cela Xarchiver\n"
+"doit être installé."
+
+#: pupzip.sh:85
+msgid "PupZip: help"
+msgstr "PupZip: aide"
+
+#: pupzip.sh:86
+#, sh-format
+msgid "This is a frontend to $XARCHIVE, which in turn is a frontend to the"
+msgstr ""
+"Ceci est une interface pour $XARCHIVE, qui à son tour est une interface aux"
+
+#: pupzip.sh:87
+msgid "archiver utilities in Puppy (such as gzip, bzip2, dpkg, rpm, zip)."
+msgstr "utilitaires d'archivage de Toutou/Puppy (gzip, bzip2, dpkg, rpm, zip)."
+
+#: pupzip.sh:89
+#, sh-format
+msgid "Note: $XARCHIVE can be started in the conventional way via the menu."
+msgstr "Note: $XARCHIVE peut aussi être lancé via le menu."
+
+#: pupzip.sh:93
+msgid ""
+"PupZip can also be invoked from Rox by the \"Open With...\" menu,\n"
+"by right-clicking on a file or directory."
+msgstr ""
+"PupZip peut également être lancé à partir de Rox par le menu\n"
+"\"Ouvrir avec...\" d'un clic droit sur ​​un fichier ou un répertoire."
+
+#: pupzip.sh:139
+msgid "An error has occurred opening the RPM file."
+msgstr "Une erreur s'est produite en ouvrant le fichier RPM."
+
+#: pupzip.sh:156
+msgid "Is this a Slackware or Arch package, that you want to install?"
+msgstr "Est-ce un paquet Slackware ou Arch, que vous voulez installer?"
+
+#: pupzip.sh:157
+msgid "If you answer Yes, the Package Manager application will run..."
+msgstr "Si vous répondez Oui, le Gestionnaire des paquets se lancera ..."
+
+#: pupzip.sh:158
+#, fuzzy
+msgid "If you answer No, the XArchive application will run..."
+msgstr "Si vous répondez non, l'application Xarchive se lancera ..."
+
+#: pupzip.sh:176
+msgid "Do you want to decompress"
+msgstr "Voulez-vous pour décompresser"
+
+#: pupzip.sh:177
+msgid ""
+"it will decompress in current location\n"
+" and the original file will be deleted"
+msgstr ""
+"La décompression aura lieu dans l'emplacement actuel\n"
+" et le fichier original sera supprimé"
+
+#: pupzip.sh:181
+msgid "Uncompressing, please wait..."
+msgstr "Patientewm décompression en cours ..."
+
+#~ msgid "ERROR: 'xz' utility not installed"
+#~ msgstr "ERREUR: l'utilitaire 'xz' n'est pas installé"
+
+#~ msgid "and the original file will be deleted"
+#~ msgstr "et le fichier original sera supprimé"
+
+#~ msgid "it will decompress in current location"
+#~ msgstr "La décompression aura lieu dans l'emplacement actuel"

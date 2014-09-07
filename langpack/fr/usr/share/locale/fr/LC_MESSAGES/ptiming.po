@@ -1,0 +1,289 @@
+# French translations for ptiming package.
+# Copyright (C) 2014 THE ptiming'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the ptiming package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ptiming VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:51+0200\n"
+"PO-Revision-Date: 2014-09-07 22:51+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: box_ok.sh:7
+msgid "Error"
+msgstr ""
+
+#: box_ok.sh:20
+msgid "Ok"
+msgstr ""
+
+#: box_yesno.sh:6
+msgid "Info"
+msgstr ""
+
+#: box_yesno.sh:18
+msgid "No"
+msgstr ""
+
+#: box_yesno.sh:23
+msgid "Yes"
+msgstr ""
+
+#: competitors.sh:23 competitors.sh:34 competitors.sh:285
+msgid "Save startlist"
+msgstr ""
+
+#: competitors.sh:61 competitors.sh:71 competitors.sh:281
+msgid "Open startlist"
+msgstr ""
+
+#: competitors.sh:97 competitors.sh:176 competitors.sh:273 ptiming.sh:338
+#: ptiming.sh:518 ptiming.sh:537
+msgid "Competitors"
+msgstr ""
+
+#: competitors.sh:111 competitors.sh:245 ptiming.sh:205 ptiming.sh:214
+msgid "Apply changes by pressing ENTER"
+msgstr ""
+
+#: competitors.sh:119
+msgid "Delete competitor"
+msgstr ""
+
+#: competitors.sh:164 competitors.sh:229
+msgid "Shuffle_Competitors"
+msgstr ""
+
+#: competitors.sh:168
+msgid "First Start NR"
+msgstr ""
+
+#: competitors.sh:172
+msgid "Delay between Competitors in class (seconds)"
+msgstr ""
+
+#: competitors.sh:176 competitors.sh:291 competitors.sh:323 ptiming.sh:559
+msgid "Class"
+msgstr ""
+
+#: competitors.sh:176
+msgid "First starttime"
+msgstr ""
+
+#: competitors.sh:187
+msgid "Execute"
+msgstr ""
+
+#: competitors.sh:277
+msgid "New startlist"
+msgstr ""
+
+#: competitors.sh:290
+msgid "Export startlist"
+msgstr ""
+
+#: competitors.sh:291 competitors.sh:323 ptiming.sh:559
+msgid "ID"
+msgstr ""
+
+#: competitors.sh:291 competitors.sh:323
+msgid "StartTime"
+msgstr ""
+
+#: competitors.sh:291 competitors.sh:323 ptiming.sh:296 ptiming.sh:559
+msgid "Name"
+msgstr ""
+
+#: competitors.sh:291 competitors.sh:323 ptiming.sh:296 ptiming.sh:559
+msgid "Organization"
+msgstr ""
+
+#: competitors.sh:295
+msgid "Close"
+msgstr ""
+
+#: competitors.sh:296 ptiming.sh:514
+msgid "File"
+msgstr ""
+
+#: competitors.sh:300
+msgid "Registration"
+msgstr ""
+
+#: competitors.sh:302
+msgid "Delay between Competitors (seconds)"
+msgstr ""
+
+#: competitors.sh:332
+msgid "Shuffle Competitors"
+msgstr ""
+
+#: ptiming.sh:221
+msgid "Delete timestamp"
+msgstr ""
+
+#: ptiming.sh:296
+msgid "Nr"
+msgstr ""
+
+#: ptiming.sh:296 ptiming.sh:559
+msgid "Time"
+msgstr ""
+
+#: ptiming.sh:296
+msgid "Laps"
+msgstr ""
+
+#: ptiming.sh:336 ptiming.sh:511
+msgid "Preferences"
+msgstr ""
+
+#: ptiming.sh:340
+msgid "Default delay between added competitors"
+msgstr ""
+
+#: ptiming.sh:344
+msgid "Default empty startTimes for late registrations"
+msgstr ""
+
+#: ptiming.sh:348
+msgid "Environment"
+msgstr ""
+
+#: ptiming.sh:350
+msgid "Fontsize (this also affects fullscreen)"
+msgstr ""
+
+#: ptiming.sh:354
+msgid "Sound at startTime"
+msgstr ""
+
+#: ptiming.sh:358
+msgid "Sound before startTime"
+msgstr ""
+
+#: ptiming.sh:362
+msgid "Color of entry background"
+msgstr ""
+
+#: ptiming.sh:366
+msgid "Color of timer font"
+msgstr ""
+
+#: ptiming.sh:370
+msgid "Color of entry font"
+msgstr ""
+
+#: ptiming.sh:375
+msgid "Restart pTiming to activate changes"
+msgstr ""
+
+#: ptiming.sh:397 ptiming.sh:517 ptiming.sh:536
+msgid "Set timer"
+msgstr ""
+
+#: ptiming.sh:400
+msgid "Beep at defined Start-time"
+msgstr ""
+
+#: ptiming.sh:402
+msgid "Silence"
+msgstr ""
+
+#: ptiming.sh:403
+msgid "1 Beep"
+msgstr ""
+
+#: ptiming.sh:404
+msgid "5 Beep"
+msgstr ""
+
+#: ptiming.sh:407
+msgid "Options"
+msgstr ""
+
+#: ptiming.sh:408
+msgid "Calculate hundredths"
+msgstr ""
+
+#: ptiming.sh:409
+msgid "You can switch between ordinary clock and builtin timer"
+msgstr ""
+
+#: ptiming.sh:410
+msgid "Use day-time"
+msgstr ""
+
+#: ptiming.sh:435
+msgid "Reset Timer"
+msgstr ""
+
+#: ptiming.sh:437
+msgid "Countdown seconds"
+msgstr ""
+
+#: ptiming.sh:441
+msgid "1 min"
+msgstr ""
+
+#: ptiming.sh:442
+msgid "1 hour"
+msgstr ""
+
+#: ptiming.sh:443
+msgid "1 day"
+msgstr ""
+
+#: ptiming.sh:446
+msgid "Reset timer NOW"
+msgstr ""
+
+#: ptiming.sh:507
+msgid "Export results"
+msgstr ""
+
+#: ptiming.sh:513
+msgid "Quit"
+msgstr ""
+
+#: ptiming.sh:519
+msgid "Fullscreen timer"
+msgstr ""
+
+#: ptiming.sh:520
+msgid "Timing"
+msgstr ""
+
+#: ptiming.sh:523
+msgid "About"
+msgstr ""
+
+#: ptiming.sh:524
+msgid "Online help"
+msgstr ""
+
+#: ptiming.sh:525
+msgid "Help"
+msgstr ""
+
+#: ptiming.sh:543 ptiming.sh:547
+msgid ""
+"Combine next timestamp to a competitor number.\n"
+"You can later edit items in result list by click on it."
+msgstr ""
+
+#: ptiming.sh:559
+msgid "Lap"
+msgstr ""
+
+#: ptiming.sh:559
+msgid "Laptime"
+msgstr ""

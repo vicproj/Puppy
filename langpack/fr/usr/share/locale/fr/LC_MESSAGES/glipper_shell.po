@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: glipper_shell VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:44+0200\n"
+"PO-Revision-Date: 2013-02-13 09:32+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: glipper_shell.sh:9
+msgid "Glipper clipboard manager"
+msgstr "Gestionnaire du presse papier Glipper "
+
+#: glipper_shell.sh:9
+msgid "Enable Glipper"
+msgstr "Activer Glipper"
+
+#: glipper_shell.sh:9
+msgid "Disable Glipper"
+msgstr "Désactiver Glipper"
+
+#: glipper_shell.sh:9
+msgid "Glipper is a great little taskbar applet for managing the clipboard."
+msgstr "Voici un très bel utilitaire pour gérer le presse-papiers."
+
+#: glipper_shell.sh:11
+msgid ""
+"If you click the 'Enable Glipper' button, then Glipper will appear in\n"
+"the tray, and will also start automatically in the future."
+msgstr ""
+"Cliquez sur 'Activer' pour afficher Glipper dans la barre\n"
+"des tâches et le lancer automatiquement par la suite."
+
+#: glipper_shell.sh:13
+msgid ""
+"If you click the 'Disable Glipper' button, then if Glipper is running\n"
+"it will be terminated now and will not be started in the future."
+msgstr ""
+"Si glipper est déjà actif, cliquez sur 'Désactiver', il sera\n"
+"aussitôt arrété et ne sera plus lancé automatiquement."

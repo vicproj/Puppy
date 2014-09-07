@@ -1,0 +1,95 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: check_deps.sh VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: 2012-02-15 16:11+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: check_deps.sh:94
+msgid "Checking"
+msgstr "Vérification de"
+
+#: check_deps.sh:94
+msgid "for missing shared library files..."
+msgstr "en cas de fichiers de bibliothèques partagées manquantes..."
+
+#: check_deps.sh:112
+msgid "File"
+msgstr "Ces fichiers de bibliothèque manquent au fichier"
+
+#: check_deps.sh:112
+msgid "has these missing library files:"
+msgstr " :"
+
+#: check_deps.sh:138
+msgid "Checking all user-installed packages for any missing dependencies..."
+msgstr ""
+"Vérification des paquets, de tous les utilisateurs, installés en cas de "
+"dépendance manquante..."
+
+#: check_deps.sh:155
+msgid "Check dependencies"
+msgstr "Vérifier les dépendances"
+
+#: check_deps.sh:171
+msgid "No packages installed by user, click 'Cancel' button"
+msgstr "Aucun paquet installé par l'utilisateur, cliquez sur 'Annuler'"
+
+#: check_deps.sh:173 check_deps.sh:227
+msgid "Puppy Package Manager"
+msgstr "Gestionnaire des paquets PPM"
+
+#: check_deps.sh:175
+msgid "Please choose what package you would like to check the dependencies of:"
+msgstr "Choisissez le paquet dont vous voulez vérifier les dépendances :"
+
+#: check_deps.sh:176
+msgid "User-installed packages"
+msgstr "Paquets installés par l'utilisateur"
+
+#: check_deps.sh:205
+msgid "No missing shared libraries"
+msgstr "Aucune bibliothèque partagée ne manque"
+
+#: check_deps.sh:207
+msgid "These libraries are missing:"
+msgstr "Ces bibliothèques sont absentes :"
+
+#: check_deps.sh:210
+msgid ""
+"These needed libraries exist but are not in the library search path (it is "
+"assumed that a startup script in the package makes these libraries loadable "
+"by the application):"
+msgstr ""
+"Ces bibliothèques nécessaires existent, mais ne se trouvent pas dans le "
+"chemin de recherche des bibliothèques (il est supposé qu'un script de "
+"démarrage dans le paquet rend ces bibliothèques chargeables par "
+"l'application) :"
+
+#: check_deps.sh:212
+msgid "No missing dependent packages"
+msgstr "Aucun paquet dépendant ne manque"
+
+#: check_deps.sh:220
+msgid "View details"
+msgstr "Voir les détails"
+
+#: check_deps.sh:229
+msgid "Puppy has searched for any missing shared libraries of these packages:"
+msgstr ""
+"On a recherché toutes les bibliothèques partagées manquantes de ces paquets :"
+
+#: check_deps.sh:236
+msgid ""
+"Puppy has examined all user-installed packages and found these missing "
+"dependencies:"
+msgstr ""
+"A l'issue de l'examen de tous les paquets installés par l'utilisateur, ces "
+"dépendances ont été trouvées manquantes :"

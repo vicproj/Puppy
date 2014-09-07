@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mainhelp 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-03-02 02:41+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mainhelp.sh:15
+msgid "Main help"
+msgstr "Aide principale"
+
+#: mainhelp.sh:84
+#, sh-format
+msgid "Available sources"
+msgstr "Sources disponibles"
+
+#: mainhelp.sh:91
+#, sh-format
+msgid "Specific help for $DISTRO_NAME."
+msgstr "Aide spécifique de $DISTRO_NAME."
+
+#: mainhelp.sh:92
+#, sh-format
+msgid "$DISTRO_NAME"
+msgstr "$DISTRO_NAME"
+
+#: mainhelp.sh:99
+msgid "General help for Puppy Linux."
+msgstr "Aide générale de Puppy Linux."
+
+#: mainhelp.sh:100
+msgid "Puppy Linux"
+msgstr "Puppy Linux"
+
+#: mainhelp.sh:116
+#, sh-format
+msgid "Quit $AppTitle."
+msgstr "Quitter $AppTitle."

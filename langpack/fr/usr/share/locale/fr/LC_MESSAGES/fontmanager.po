@@ -1,0 +1,142 @@
+# French translations for fontmanager package.
+# Copyright (C) 2014 THE fontmanager'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the fontmanager package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: fontmanager VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2014-09-07 22:53+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: fontmanager.sh:36
+msgid "No TTF-file to install"
+msgstr ""
+
+#: fontmanager.sh:43
+msgid "Font Manager"
+msgstr ""
+
+#: fontmanager.sh:45
+msgid "Size"
+msgstr ""
+
+#: fontmanager.sh:45
+msgid "Appearance"
+msgstr ""
+
+#: fontmanager.sh:45
+msgid "Install fonts"
+msgstr ""
+
+#: fontmanager.sh:48
+msgid "Global font size"
+msgstr ""
+
+#: fontmanager.sh:49
+msgid "Please choose dpi (dots per inch) for the screen. The larger the value, the bigger that antialiased fonts will render on the screen. Adjust up or down if fonts are rendering too small or too big on screen."
+msgstr ""
+
+#: fontmanager.sh:49 fontmanager.sh:76
+msgid "Note!"
+msgstr ""
+
+#: fontmanager.sh:49
+msgid "Some apps do not use antialiased rendering and will not be affected by this setting."
+msgstr ""
+
+#: fontmanager.sh:49
+msgid "Restart X for changes to take effect"
+msgstr ""
+
+#: fontmanager.sh:54
+msgid "Choose global fontsize"
+msgstr ""
+
+#: fontmanager.sh:75
+msgid "Font appearance"
+msgstr ""
+
+#: fontmanager.sh:76
+msgid "You can change the way fonts appear on your screen: make them either sharper or smoother."
+msgstr ""
+
+#: fontmanager.sh:76
+msgid "For LCD it is recommend to turn everything on. For CRT screens, do the opposite."
+msgstr ""
+
+#: fontmanager.sh:76
+msgid "Restart application for changes to take affect."
+msgstr ""
+
+#: fontmanager.sh:79
+msgid "If checked, fonts will be smoothed with antialiasing."
+msgstr ""
+
+#: fontmanager.sh:80
+msgid "Antialiasing"
+msgstr ""
+
+#: fontmanager.sh:84
+msgid "If checked, fonts will be smoothed with hinting."
+msgstr ""
+
+#: fontmanager.sh:85
+msgid "Hinting"
+msgstr ""
+
+#: fontmanager.sh:91
+msgid "Automatic hinting"
+msgstr ""
+
+#: fontmanager.sh:96
+msgid "Hint style"
+msgstr ""
+
+#: fontmanager.sh:108
+msgid "Install font"
+msgstr ""
+
+#: fontmanager.sh:109
+msgid "Define a *.TTF file by browsing, or just drag it to the field below. Then click install. Windows TTF-files are fine."
+msgstr ""
+
+#: fontmanager.sh:109
+msgid "To install several fonts at once, copy new *.TTF files to the font directory"
+msgstr ""
+
+#: fontmanager.sh:109
+msgid "and click install."
+msgstr ""
+
+#: fontmanager.sh:109
+msgid "You find a lot of free fonts on the web. - ie. at"
+msgstr ""
+
+#: fontmanager.sh:123
+msgid "Open font directory"
+msgstr ""
+
+#: fontmanager.sh:128
+msgid "Install font(s)"
+msgstr ""
+
+#: fontmanager.sh:142
+msgid "View installed fonts"
+msgstr ""
+
+#: fontmanager.sh:147
+msgid "Cancel"
+msgstr ""
+
+#: fontmanager.sh:152
+msgid "Ok"
+msgstr ""

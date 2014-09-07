@@ -1,0 +1,113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Remove_builtin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: remove_builtin.sh:21
+msgid "Yes"
+msgstr "Oui"
+
+#: remove_builtin.sh:22
+msgid "No"
+msgstr "Non"
+
+#: remove_builtin.sh:24
+msgid ""
+"Simple utility to 'delete' packages that are builtin\\nto the read-only .sfs "
+"file (Squashfs filesystem)"
+msgstr ""
+"Utilitaire simplifié pour 'supprimer' les paquets d'origine dans\\nle "
+"fichier .sfs en lecture seule (système de fichiers Squashfs)"
+
+#: remove_builtin.sh:32 remove_builtin.sh:45
+msgid "Remove builtin packages"
+msgstr "Retirer les paquets d'origine"
+
+#: remove_builtin.sh:32
+msgid ""
+"In all modes of running Puppy, other than a full hard-drive installation,"
+"\\n\n"
+"all of the Puppy files are in a compressed read-only file named 'puppy."
+"sfs'\\n\n"
+"or 'wary_500.sfs' (or some similar name). So you can't actually delete these"
+"\\n\n"
+"files. However, if you want to remaster the live-CD to create your own custom"
+"\\n\n"
+"Puppy (see Setup menu), you can use this little program to 'pretend' to "
+"delete\\n\n"
+"them -- and they will really be gone in the remastered CD. So, for example if"
+"\\n\n"
+"you remove SeaMonkey, it will be gone in the remastered CD thus reducing the"
+"\\n\n"
+"size of the .iso live-CD file.\\n\\n\n"
+"Technical note: the lists of builtin files is at /root/.packages/"
+"builtin_files,\\n\n"
+"        the list of builtin pkgs is in /root/.packages/woof-installed-"
+"packages."
+msgstr ""
+"Dans tous les modes d'utilisation de Toutou/Puppy, sauf une installation "
+"complète\\n\n"
+"sur HD, tous les fichiers sont dans un fichier compressé appelé 'puppy.sfs' "
+"ou\\n\n"
+"'wary_500.sfs' (ou similaire). Donc, vous ne pouvez pas réellement supprimer "
+"ces\\n\n"
+"fichiers. Toutefois, si vous voulez remasteriser le live-CD pour créer votre "
+"propre\\n\n"
+"distribution (voir menu configuration), vous pouvez utiliser ce petit "
+"programme  pour\\n\n"
+"'faire semblant' de les supprimer - ils seront vraiment retirés du CD "
+"remasterisé.\\n\n"
+"Ainsi, par exemple, si vous retirez SeaMonkey, il aura disparu du CD "
+"remasterisé\\n\n"
+"réduisant ainsi la taille du fichier .iso.\\n\\n\n"
+"Note technique: les listes de fichiers d'origine sont /root/.packages/"
+"builtin_files,\\n\n"
+"         la liste des paquets d'origine est dans /root/.packages/woof-"
+"installed-packages."
+
+#: remove_builtin.sh:41
+msgid "Select package to remove:"
+msgstr "Choisir le paquet à retirer :"
+
+#: remove_builtin.sh:45
+msgid "Confirm that you want to delete"
+msgstr "Confirmation de la suppression de"
+
+#: remove_builtin.sh:45
+msgid "Description of package:"
+msgstr "Description du paquet :"
+
+#: remove_builtin.sh:47
+msgid "For information only, these are dependencies of"
+msgstr "Pour information seulement, dépendances de"
+
+#: remove_builtin.sh:50
+#, sh-format
+msgid "Warning, removing '${PKG}' _may_ break the following packages:"
+msgstr ""
+"Attention, la suppression de '${PKG}' peut altérer les paquets suivants :"
+
+#: remove_builtin.sh:53
+msgid "Continue?"
+msgstr "Continuer?"
+
+#: remove_builtin.sh:61
+#, sh-format
+msgid "Package '${PKG}' was removed. Choose another..."
+msgstr "Le paquet '${PKG}' a été retiré. Choisissez en un autre ..."
+
+#: remove_builtin.sh:68
+#, sh-format
+msgid "Package '${PKG}' was not removed. Choose another..."
+msgstr "Le paquet '${PKG}' n'a pas été retiré. Choisissez en un autre ..."

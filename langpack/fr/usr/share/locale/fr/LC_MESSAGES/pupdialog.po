@@ -1,0 +1,17 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pupdialog VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2012-02-11 11:30+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pupdialog.sh:183
+msgid "Help"
+msgstr "Aide"

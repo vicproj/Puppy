@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SS-control-bin 1.5.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2014-04-02 16:13+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: SS-control-bin.sh:18 SS-pref.sh:17
+msgid "SS-Control"
+msgstr "SS-Control"
+
+#: SS-control-bin.sh:86
+msgid "Actual status of screensaver:"
+msgstr "Statut actuel de l'économiseur d'écran :"
+
+#: SS-control-bin.sh:95
+msgid "Options"
+msgstr "Options"
+
+#: SS-control-bin.sh:98
+msgid "Enable screen blanking and power save mode."
+msgstr "Activer l'économiseur d'écran et l'économie d'énergie."
+
+#: SS-control-bin.sh:99
+msgid "Enable"
+msgstr "Activer"
+
+#: SS-control-bin.sh:109
+msgid "Disable screen blanking and power save mode."
+msgstr "Désactiver l'économiseur d'écran et l'économie d'énergie."
+
+#: SS-control-bin.sh:110
+msgid "Disable"
+msgstr "Désactiver"
+
+#: SS-control-bin.sh:120
+#, sh-format
+msgid "Set screensaver delay (currently = $DELAY minutes)."
+msgstr "Définir le délai d'activation (actuellement = $DELAY minutes)."
+
+#: SS-control-bin.sh:121 SS-pref.sh:73
+msgid "Preferences"
+msgstr "Préférences"
+
+#: SS-control-bin.sh:131
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: SS-pref.sh:76
+msgid "ScreenSaver and DPMS Activation Delay"
+msgstr "Délai d'activation de l'économiseur d'écran"
+
+#: SS-pref.sh:78
+#, fuzzy, sh-format
+msgid ""
+"$AppTitle01 blanks the screen, and enables DPMS (Power Save Mode) for Energy-"
+"Star displays and video cards. The activation delays below are for screen "
+"blanking and DPMS."
+msgstr "Sélectionnez le délai avant l'activation de l'économiseur d'écran."
+
+#: SS-pref.sh:83
+msgid "Delay (minutes)"
+msgstr "Delai (minutes)"
+
+#: SS-pref.sh:87
+msgid ""
+"Use shorter delays for optimal power management, and long delays for viewing "
+"entertaining videos without screen blanking."
+msgstr ""
+"Les délais courts permettent une gestion optimale de l'alimentation. Les "
+"délais longs évitent l'extinction de l'écran (pratique lorsque vous regardez "
+"un film)."
+
+#: SS-pref.sh:100
+msgid "Apply screensaver activation with delay selected."
+msgstr "Activer l'économiseur d'écran avec le délai sélectionné."
+
+#: SS-control.sh:21
+msgid "Infos"
+msgstr "Infos"
+
+#: SS-control.sh:21
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà actif. Par conséquent, votre demande n'est pas acceptée."

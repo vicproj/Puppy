@@ -1,0 +1,698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: changeKey VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:45+0200\n"
+"PO-Revision-Date: 2013-02-15 18:23+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: changeKey.sh:98
+msgid "Shortcut Details"
+msgstr "Détails des Raccourcis"
+
+#: changeKey.sh:103 panel-buttons.sh:59
+msgid "Delete"
+msgstr "Supprimer"
+
+#: changeKey.sh:107
+msgid "Delete this shortcut?"
+msgstr "Supprimer ce raccourci?"
+
+#: changeKey.sh:117
+msgid "Change Shortcut"
+msgstr "Modifier le raccourci"
+
+#: changeKey.sh:119
+msgid "Enter Mask (optional):"
+msgstr "Saisir le masque (optionel)"
+
+#: changeKey.sh:125
+msgid "Enter Key:"
+msgstr "Saisir la touche:"
+
+#: focusModel.sh:39
+msgid "Focus Model"
+msgstr "Modèle de Focus"
+
+#: focusModel.sh:40
+msgid "Choose between the sloppy and click focus models:"
+msgstr "Choix des modèles de focus"
+
+#: focusModel.sh:41
+msgid "First, a little note on what these focus models are:"
+msgstr "Quelques infos sur ces modèles :"
+
+#: focusModel.sh:42
+msgid "SLOPPY FOCUS"
+msgstr "FOCUS SLOPPY"
+
+#: focusModel.sh:43
+msgid "The window that is under the mouse pointer is the"
+msgstr ""
+
+#: focusModel.sh:44
+msgid "window that has the focus. The focus is changed"
+msgstr ""
+
+#: focusModel.sh:45
+msgid "by pointing at another window, there is no need"
+msgstr ""
+
+#: focusModel.sh:46
+msgid "to click in it as well."
+msgstr ""
+
+#: focusModel.sh:47
+msgid "CLICK TO FOCUS"
+msgstr "FOCUS CLICK"
+
+#: focusModel.sh:48
+#, fuzzy
+msgid "The model used by Microsoft Windows."
+msgstr ""
+"C'est le modèle utilisé par Microsoft Windows. La fenêtre active est "
+"sélectionnée par un clic de souris."
+
+#: focusModel.sh:49
+#, fuzzy
+msgid "The active window is selected by mouse click."
+msgstr ""
+"C'est le modèle utilisé par Microsoft Windows. La fenêtre active est "
+"sélectionnée par un clic de souris."
+
+#: focusModel.sh:50
+msgid "click-to-focus"
+msgstr "focus click"
+
+#: focusModel.sh:51
+msgid "sloppy focus"
+msgstr "focus sloppy"
+
+#: focusModel.sh:90
+msgid "Change_saved"
+msgstr "Changement_s enregistrés"
+
+#: focusModel.sh:90
+#, fuzzy, sh-format
+msgid "Set to $CHOICE focus model"
+msgstr "Réglé sur le modèle de focus :"
+
+#: jwmConfigMgr.sh:22 keyboard.sh:33 taskbar.sh:13
+msgid "JWM Configuration Manager"
+msgstr "Gestionnaire de configuration de JWM"
+
+#: jwmConfigMgr.sh:24
+#, fuzzy
+msgid "JWM|Desktop"
+msgstr "Bureau"
+
+#: jwmConfigMgr.sh:28
+msgid "Choose a JWM theme"
+msgstr "Thèmes de JWM"
+
+#: jwmConfigMgr.sh:37
+msgid "Tray management"
+msgstr "Barre des tâches"
+
+#: jwmConfigMgr.sh:46
+msgid "Window focus Model"
+msgstr "Focus des fenêtres"
+
+#: jwmConfigMgr.sh:55
+msgid "Keyboard Shortcuts"
+msgstr "Raccourcis clavier"
+
+#: jwmConfigMgr.sh:64
+msgid "Application launch buttons in tray"
+msgstr "Boutons des applications"
+
+#: jwmConfigMgr.sh:73
+msgid "Title bar and Clock"
+msgstr ""
+
+#: jwmConfigMgr.sh:84
+msgid "GTK Theme"
+msgstr "Thème des fenêtres"
+
+#: jwmConfigMgr.sh:93
+msgid "Desktop Background"
+msgstr "Arrière-plan du bureau"
+
+#: jwmConfigMgr.sh:102
+msgid "Important!"
+msgstr "Important!"
+
+#: jwmConfigMgr.sh:108
+msgid ""
+"Some of the above actions require JWM to be restarted for changes to take "
+"effect"
+msgstr ""
+"Certaines modifications requièrent de relancer JWM. Cliquez sur ce bouton."
+
+#: jwmConfigMgr.sh:113
+msgid "Restart JWM now?"
+msgstr "Relancer JWM maintenant"
+
+#: jwmConfigMgr.sh:122 jwmConfigMgr.sh:125
+msgid "Exit"
+msgstr "Quitter"
+
+#: jwmConfigMgr.sh:122
+msgid "HELP"
+msgstr "Aide"
+
+#: jwmConfigMgr.sh:122
+msgid ""
+"JWM is a Window Manager. It controls the behaviour and appearance of the "
+"windows and the tray."
+msgstr ""
+"JWM est un gestionnaire des fenêtres. Il contrôle le comportement et "
+"l'apparence des fenêtres et de la barre des tâches."
+
+#: keyboard.sh:35
+msgid "Description"
+msgstr "Description"
+
+#: keyboard.sh:39
+msgid "You can configure your keyboard shortcuts here."
+msgstr "Configuration des raccourcis clavier"
+
+#: keyboard.sh:44
+msgid "Current Shortcuts"
+msgstr "Raccourcis actuels"
+
+#: keyboard.sh:48
+msgid "You can delete or change a shortcut by selecting it below."
+msgstr ""
+"Sélectionnez le raccourci à modifer ou à supprimer dans la liste ci-dessous."
+
+#: keyboard.sh:55
+msgid "Note that changes will appear next time you run this script."
+msgstr ""
+"Les changements apparaîtront la prochaine fois que vous exécuterez ce script"
+
+#: keyboard.sh:60
+msgid "KeyCombo                         |Action"
+msgstr "Combinaison de touches                         |Action"
+
+#: keyboard.sh:68
+msgid "Add Shortcut"
+msgstr "Ajouter un raccourci"
+
+#: keyboard.sh:69
+msgid ""
+"Add a new shortcut by filling in the boxes below. Click the button to add "
+"your shortcut."
+msgstr ""
+"Ajouter un nouveau raccourci en remplissant les cases ci-dessous. Cliquez "
+"sur le bouton pour ajouter votre raccourci."
+
+#: keyboard.sh:87
+msgid "Add"
+msgstr "Ajouter"
+
+#: keyboard.sh:96
+msgid "Quick Info"
+msgstr "Information rapide"
+
+#: panel-buttons.sh:59
+msgid "Yes"
+msgstr ""
+
+#: panel-buttons.sh:59
+msgid "No"
+msgstr ""
+
+#: panel-buttons.sh:60
+#, sh-format
+msgid "Are you sure you want to delete \\n${PROG} launcher?"
+msgstr ""
+
+#: panel-buttons.sh:63
+msgid "you cancelled or selected no"
+msgstr ""
+
+#: panel-buttons.sh:93
+#, fuzzy
+msgid "JWM Panel Button"
+msgstr "Ajouter une barre de boutons"
+
+#: panel-buttons.sh:95
+msgid "Current"
+msgstr ""
+
+#: panel-buttons.sh:96
+#, fuzzy
+msgid "Current Panel Buttons"
+msgstr "Editer la barre de boutons existante"
+
+#: panel-buttons.sh:97
+msgid "<b>Selecting</b> an item in the list <b>deletes</b> that item"
+msgstr ""
+
+#: panel-buttons.sh:98
+msgid "Be sure you want to delete the item when selecting"
+msgstr ""
+
+#: panel-buttons.sh:100
+msgid "Popup|Icon|Exec"
+msgstr ""
+
+#: panel-buttons.sh:107
+msgid "New"
+msgstr ""
+
+#: panel-buttons.sh:108
+#, fuzzy
+msgid "Add New Panel Button"
+msgstr "Ajouter une barre de boutons"
+
+#: panel-buttons.sh:110
+msgid "Popup"
+msgstr ""
+
+#: panel-buttons.sh:111
+msgid "Write your Popup text here"
+msgstr ""
+
+#: panel-buttons.sh:117
+#, fuzzy
+msgid "Icon"
+msgstr "Nom de l'icône"
+
+#: panel-buttons.sh:119
+msgid "Drag or type the path of an icon here or use the file select button"
+msgstr ""
+
+#: panel-buttons.sh:129
+msgid "Exec"
+msgstr ""
+
+#: panel-buttons.sh:130
+msgid "Type the program executable here"
+msgstr ""
+
+#: panel-buttons.sh:137
+msgid "Check for borders"
+msgstr ""
+
+#: panel-buttons.sh:142
+msgid "Restore"
+msgstr ""
+
+#: panel-buttons.sh:143
+#, fuzzy
+msgid "Restore Backup"
+msgstr "Arrière-plan du bureau"
+
+#: panel-buttons.sh:145
+msgid "Restore Previous Backup"
+msgstr ""
+
+#: panel-buttons.sh:146
+msgid "Restores your previous tray buttons"
+msgstr ""
+
+#: panel-buttons.sh:154
+msgid "Restore Master Backup"
+msgstr ""
+
+#: panel-buttons.sh:155
+#, fuzzy
+msgid "Restores the original tray buttons"
+msgstr "Restaurer la configuration originale"
+
+#: taskbar.sh:15
+msgid "Tray Configuration Options"
+msgstr "Options de configuration de la barre des tâches"
+
+#: taskbar.sh:17 virtualDesknew.sh:19
+msgid "Virtual Desktops"
+msgstr "Bureaux virtuels"
+
+#: taskbar.sh:24
+msgid "Tray Autohide Option"
+msgstr "Visualisation"
+
+#: taskbar.sh:31
+msgid "Tray Height Option"
+msgstr "Hauteur"
+
+#: taskbar.sh:38
+msgid "Tray Placement Option"
+msgstr "Position"
+
+#: taskbar.sh:45
+msgid "Program Insertion into Tray"
+msgstr "Insertion des programmes"
+
+#: taskbar.sh:52
+msgid "Iconify or Verbose in Pager"
+msgstr ""
+
+#: taskbar.sh:59
+msgid "Important"
+msgstr "Important"
+
+#: taskbar.sh:62
+msgid "JWM must be restarted for changes to take effect"
+msgstr "Relancez JWM pour activer les changements"
+
+#: taskbarConfig.sh:42 taskbarHeight.sh:74 taskbarPlace.sh:43 trayInsert.sh:56
+msgid "JWM Taskbar Configuration"
+msgstr "Configuration de la barre des tâches"
+
+#: taskbarConfig.sh:43 taskbarHeight.sh:75 taskbarPlace.sh:44
+msgid "Taskbar"
+msgstr "Barre des tâches"
+
+#: taskbarConfig.sh:44
+msgid "Choose a tray autohide option"
+msgstr "Affichage de la barre des tâches"
+
+#: taskbarConfig.sh:45
+msgid "Tray Autohide off."
+msgstr "Afficher en permanence"
+
+#: taskbarConfig.sh:46
+msgid "Tray Autohide on"
+msgstr "Masquer automatiquement"
+
+#: taskbarConfig.sh:87 taskbarHeight.sh:128 taskbarPlace.sh:88
+#: trayInsert.sh:113
+msgid "Change Saved"
+msgstr "Changement enregistré"
+
+#: taskbarConfig.sh:88
+msgid "The tray autohide option is now"
+msgstr "Le masquage de la barre des tâches est"
+
+#: taskbarConfig.sh:91 taskbarHeight.sh:132 taskbarPlace.sh:92
+#: trayInsert.sh:117
+msgid "Change Reversed"
+msgstr "Changement abandonné"
+
+#: taskbarConfig.sh:92 taskbarHeight.sh:133 taskbarPlace.sh:93
+#: trayInsert.sh:118
+msgid "New config corrupt. Keeping original"
+msgstr "Nouvelle configuration corrompue. L'originale a été conservée"
+
+#: taskbarConfig.sh:96 taskbarHeight.sh:137 taskbarPlace.sh:97
+#: trayInsert.sh:122
+msgid "Change Failed"
+msgstr "Echec!"
+
+#: taskbarConfig.sh:97 taskbarHeight.sh:138 taskbarPlace.sh:98
+#: trayInsert.sh:123
+msgid "Configuration has not been altered"
+msgstr "La configuration n'a pas été modifiée"
+
+#: taskbarHeight.sh:76
+msgid "Choose a tray height option"
+msgstr "Modifier la hauteur"
+
+#: taskbarHeight.sh:77
+msgid "About 70% of Normal."
+msgstr "Environ 70% de la normale."
+
+#: taskbarHeight.sh:78
+msgid "The default height"
+msgstr "Hauteur par défaut."
+
+#: taskbarHeight.sh:79
+#, fuzzy
+msgid "About 125% of Normal."
+msgstr "Environ 130% de la normale."
+
+#: taskbarHeight.sh:80
+msgid "About 160% of normal"
+msgstr "Environ 160% de la normale."
+
+#: taskbarHeight.sh:129
+#, fuzzy
+msgid "The tray height is set at"
+msgstr "La hauteur est fixée à"
+
+#: taskbarPlace.sh:45
+msgid "Choose a tray placement option"
+msgstr "Positionnement de la barre des tâches"
+
+#: taskbarPlace.sh:46
+msgid "Tray at Bottom of Screen."
+msgstr "En bas de l'écran."
+
+#: taskbarPlace.sh:47
+msgid "Tray at Top of Screen"
+msgstr "En haut de l'écran."
+
+#: taskbarPlace.sh:89
+#, sh-format
+msgid "The tray is at the $POSN of the screen"
+msgstr "La barre est au $POSN de l'écran"
+
+#: taskbariconify.sh:21
+msgid "Pager Style"
+msgstr ""
+
+#: taskbariconify.sh:24
+msgid "Choose your pager style"
+msgstr ""
+
+#: taskbariconify.sh:27
+msgid "Iconify"
+msgstr ""
+
+#: taskbariconify.sh:31
+msgid "Fixed Width"
+msgstr ""
+
+#: taskbariconify.sh:35
+msgid "Variable Width"
+msgstr ""
+
+#: taskbariconify.sh:45
+msgid "Ok"
+msgstr ""
+
+#: theme_switcher.sh:31
+msgid "Puppy JWM Theme Switcher"
+msgstr ""
+
+#: theme_switcher.sh:33
+msgid ""
+"JWM is the window manager, handling window borders and tray (taskbar) "
+"appearance, whereas the GTK theme is inside each window. Choose a JWM theme "
+"that matches or compliments the current GTK theme"
+msgstr ""
+"JWM est le gestionnaire des fenêtres. Seule l'apparence des bordures des "
+"fenêtres et de la barre des tâches est gérée par les thèmes de JWM. Le thème "
+"GTK gère l'intérieur de chaque fenêtre. Choisissez ici un thème de JWM."
+
+#: title-clock.sh:27
+msgid "Window title bar and Clock"
+msgstr ""
+
+#: title-clock.sh:29
+msgid "Height of Title Bar"
+msgstr ""
+
+#: title-clock.sh:32
+msgid "pixels"
+msgstr ""
+
+#: title-clock.sh:43
+msgid "Clock Format"
+msgstr ""
+
+#: title-clock.sh:46
+msgid "24 hour (default)"
+msgstr ""
+
+#: title-clock.sh:51
+msgid "12 hour"
+msgstr ""
+
+#: title-clock.sh:56
+msgid "seconds"
+msgstr ""
+
+#: title-clock.sh:60
+msgid "am/pm"
+msgstr ""
+
+#: trayInsert.sh:57
+msgid "Tray Insertion Option"
+msgstr "Options d'insertion des tâches"
+
+#: trayInsert.sh:58
+msgid "Choose which side new programs will enter the tray"
+msgstr "Choisissez le côté d'entrée des tâches dans la barre"
+
+#: trayInsert.sh:59
+msgid "New programs enter at left."
+msgstr "Les nouvelles tâches entrent à gauche."
+
+#: trayInsert.sh:60
+msgid "New programs enter at right."
+msgstr "Les nouvelles tâches entrent à droite."
+
+#: trayInsert.sh:114
+msgid "New programs will enter the tray to the"
+msgstr "Les nouvelles tâches entreront à"
+
+#: virtualDesknew.sh:21
+msgid "Maximum of 10 desktops"
+msgstr "Maximum de 10 bureaux"
+
+#: virtualDesknew.sh:23
+msgid "No of Rows"
+msgstr "Nombre de lignes"
+
+#: virtualDesknew.sh:29
+msgid "No of Columns"
+msgstr "Nombre de colonnes"
+
+#~ msgid ""
+#~ "Adding complete.\n"
+#~ "You must restart jwm for\n"
+#~ "changes to take effect."
+#~ msgstr ""
+#~ "Ajout terminé.\n"
+#~ "Vous devez redémarrer jwm pour que\n"
+#~ "les modifications prennent effet."
+
+#~ msgid "Backup your current .jwmrc-tray"
+#~ msgstr "Sauvegarder l'actuelle configuration"
+
+#~ msgid "Button $num Information - edit as you wish"
+#~ msgstr "Informations touche $num - modifier comme vous le souhaitez"
+
+#~ msgid "Button Add"
+#~ msgstr "Bouton Ajouter"
+
+#~ msgid ""
+#~ "Editing complete.\n"
+#~ "You must restart jwm for\n"
+#~ "changes to take effect."
+#~ msgstr ""
+#~ "Modification terminée.\n"
+#~ "Vous devez redémarrer jwm pour que \n"
+#~ "les modifications prennent effet."
+
+#~ msgid "Exit this program"
+#~ msgstr "Quitter ce programme"
+
+#~ msgid "If you would like that button in another"
+#~ msgstr "Si vous souhaitez que le bouton soit dans une"
+
+#~ msgid "JWM"
+#~ msgstr "JWM"
+
+#~ msgid "JWM panel button configuring tool."
+#~ msgstr "Boutons de lancement d'applications."
+
+#~ msgid "Move panel buttons around"
+#~ msgstr "Déplacer la barre de boutons"
+
+#~ msgid ""
+#~ "Moving complete.\n"
+#~ "You must restart jwm for\n"
+#~ "changes to take effect."
+#~ msgstr ""
+#~ "Déplacement terminé.\n"
+#~ "Vous devez redémarrer jwm pour que\n"
+#~ "les modifications prennent effet."
+
+#~ msgid "Popup display"
+#~ msgstr "affichage des Popup"
+
+#~ msgid "Position"
+#~ msgstr "Position"
+
+#~ msgid "QUIT"
+#~ msgstr "QUITTER"
+
+#~ msgid "Remove a panel button"
+#~ msgstr "Supprimer une barre de boutons"
+
+#~ msgid "Remove panel buttons"
+#~ msgstr "Retirer les boutons de la barre"
+
+#~ msgid ""
+#~ "Removing complete.\n"
+#~ "You must restart jwm for\n"
+#~ "changes to take effect."
+#~ msgstr ""
+#~ "Retrait terminé.\n"
+#~ "Vous devez redémarrer jwm pour que\n"
+#~ "les modifications prennent effet."
+
+#~ msgid "Select icon"
+#~ msgstr "Choisir une icône"
+
+#~ msgid ""
+#~ "The window that is under the mouse pointer is the window that has the "
+#~ "focus. The focus is changed by pointing at another window, there is no "
+#~ "need to click in it as well."
+#~ msgstr ""
+#~ "La fenêtre se trouvant sous le curseur de la souris a le focus. Ce "
+#~ "dernier change lorsqu'on survole une autre fenêtre avec le curseur, sans "
+#~ "même avoir à cliquer dessus."
+
+#~ msgid ""
+#~ "This will backup your current\n"
+#~ ".jwmrc-tray and will be the version\n"
+#~ "that gets restored if you choose restore."
+#~ msgstr ""
+#~ "Cela effectuera une sauvegarde de votre actuel\n"
+#~ "fichier .jwmrc-tray. Ce sera la version qui sera\n"
+#~ "restaurée si vous choisissez de restaurer votre barre."
+
+#~ msgid "Would you like to delete"
+#~ msgstr "Voulez-vous supprimer"
+
+#~ msgid ""
+#~ "Your original .jwmrc-tray\n"
+#~ "file has been restored.\n"
+#~ "You must restart jwm for\n"
+#~ "changes to take effect."
+#~ msgstr ""
+#~ "Votre fichier original .jwmrc-tray\n"
+#~ "a été restauré.\n"
+#~ "Vous devez redémarrer jwm pour que\n"
+#~ "les modifications prennent effet."
+
+#~ msgid "executable"
+#~ msgstr "exécutable"
+
+#~ msgid ""
+#~ "from the panel? If you want to delete it\n"
+#~ "choose yes, otherwise choose no."
+#~ msgstr ""
+#~ "de la barre des tâches? Si vous êtes sûr\n"
+#~ "choisissez oui, sinon ne choisissez rien."
+
+#~ msgid ""
+#~ "has already been selected.\n"
+#~ "You must now start over."
+#~ msgstr ""
+#~ "a déjà été sélectionné.\n"
+#~ "Il faut maintenant redémarrer."
+
+#~ msgid "is button $y of your $z buttons."
+#~ msgstr "est le bouton $y de vos boutons $z."
+
+#~ msgid "no do not delete this button"
+#~ msgstr "non ne pas supprimer ce bouton"
+
+#~ msgid "position please enter the number below."
+#~ msgstr "autre position veuillez entrer le numéro ci-dessous."
+
+#~ msgid "yes delete this button"
+#~ msgstr "oui supprimer ce bouton"

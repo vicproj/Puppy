@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mousecheck 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2011-10-22 14:00+0200\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mousecheck.sh:17
+msgid "OK"
+msgstr "Valider"
+
+#: mousecheck.sh:18
+msgid "Cancel"
+msgstr "Annuler"
+
+#: mousecheck.sh:21
+msgid ""
+"Your mouse pointer has not moved, so perhaps it is not working? This dialog "
+"window may be operated by the keyboard. \\ZbUP/DOWN\\ZB arrows then \\ZbENTER"
+"\\ZB key to choose mouse-type, then \\ZbTAB\\ZB key to select the \\ZbOK\\ZB "
+"button, then ENTER -- X will immediately restart. If your mouse is working, "
+"click the \\ZbCancel\\ZB button."
+msgstr ""
+"Votre pointeur de souris n'a pas bougé, peut-être ne fonctionne-t'il pas? "
+"Cette fenêtre de dialogue peut être exploité par le clavier. Flèches \\ZbUP/"
+"DOWN\\ZB puis touche \\ZbENTER\\ZB pour choisir le type de souris, puis la "
+"touche \\ZbTAB\\ZB pour sélectionner le bouton \\ZbOK\\ZB puis Entrée -- X "
+"se relancera immédiatement. Si votre souris fonctionne, cliquez sur le "
+"bouton \\ZbCancel\\ZB."
+
+#: mousecheck.sh:22
+msgid ""
+"NOTICE: If you want, CTRL-ALT-BACKSPACE will terminate X and you can type "
+"'xorgwizard' to run the full Xorg Wizard, to resolve any other problems "
+"(such as screen resolution) as well as fix the mouse."
+msgstr ""
+"AVIS : Si vous voulez, Ctrl-Alt-Retour Arrière fermera X et vous pourrez "
+"taper 'xorgwizard' pour lancer l'assistant Xorg complet, pour résoudre "
+"n'importe quels autres problèmes (résolution de l'écran aussi bien que "
+"régler la souris)."
+
+#: mousecheck.sh:23
+msgid ""
+"Only very old PCs may have a serial mouse. These are recognised by the "
+"fairly large rectangular plug, technically known as a DB9 or the even larger "
+"DB25 (where the 9 or 25 refers to the number of pins in the plug)."
+msgstr ""
+"Seuls les très anciens PC possèdent une souris série : reconnaissables à "
+"leur large prise rectangulaire, connue sous le nom de DB9 ou la, encore plus "
+"grande, DB25 (ou 9 et 25 indiquent le nombre de broches dans la prise)"
+
+#: mousecheck.sh:27 mousecheck.sh:32
+msgid "serial"
+msgstr "série"
+
+#: mousecheck.sh:27 mousecheck.sh:32
+msgid "(mouse in very old computers)"
+msgstr "(souris dans les ordinateurs anciens)"
+
+#: mousecheck.sh:28 mousecheck.sh:31
+msgid "usb/ps-2"
+msgstr "usb/ps-2"
+
+#: mousecheck.sh:28 mousecheck.sh:31
+msgid "(mouse or touchpad in all modern computers)"
+msgstr "(souris ou touchpad dans tous les ordinateurs modernes)"
+
+#: mousecheck.sh:35
+msgid "MouseCheck: choose interface"
+msgstr "MouseCheck: choisissez l'interface"
+
+#: mousecheck.sh:36
+msgid "Please choose mouse type..."
+msgstr ""
+
+#: mousecheck.sh:43
+msgid "MouseCheck: choose serial port"
+msgstr "MouseCheck: choisissez le port série"
+
+#: mousecheck.sh:44
+msgid ""
+"Choose serial port mouse plugged into. \\ZbUP/DOWN\\ZB arrows then \\ZbENTER"
+"\\ZB key to choose interface, then \\ZbTAB\\ZB key to select the \\ZbOK\\ZB "
+"button, then ENTER"
+msgstr ""
+"Choisir port de souris série branchée. \\ZbUP/DOWN\\ZB arrows puis la touche "
+"\\ZbENTER\\ZB pour choisir l'iinterface, puis la touche \\ZbTAB\\ZB pour "
+"délectionner le bouton \\ZbOK\\ZB , puis Entrée"
+
+#: mousecheck.sh:45
+msgid "(most likely)"
+msgstr "(plus probable"
+
+#: mousecheck.sh:74
+msgid ""
+"Your mouse has not moved, does it work? Please move it now. If your mouse "
+"does not work, just wait, in 10 seconds a window (usable by the keyboard) "
+"will pop up and enable you to fix the mouse."
+msgstr ""
+"Votre souris n'a pas bougé, fonctionne-t'elle? Déplacez-la maintenant. Si "
+"votre souris ne fonctionne pas, attendez, dans 10 secondes une fenêtre "
+"(utilisable au clavier) va apparaître pour vous permetttre de régler votre "
+"souris."

@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pupx VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2013-02-14 11:20+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pupx.sh:110
+msgid "pupX: set properties of X"
+msgstr "pupX: Définir les propriétés de X "
+
+#: pupx.sh:112
+msgid "Mouse"
+msgstr "Souris"
+
+#: pupx.sh:112
+msgid "Keyboard"
+msgstr "Clavier"
+
+#: pupx.sh:112
+msgid "Screensaver"
+msgstr "Ecran de veille"
+
+#: pupx.sh:117
+msgid "Acceleration:"
+msgstr "Accélération:"
+
+#: pupx.sh:140
+msgid ""
+"The mouse will accelerate with this factor when moved more than 'threshold' "
+"pixels in a short time"
+msgstr ""
+"La souris accélérera de ce facteur quand elle sera déplacée au-delà du "
+"'seuil' des pixels pendant un court instant"
+
+#: pupx.sh:143
+msgid "Threshold:"
+msgstr "Seuil:"
+
+#: pupx.sh:166
+msgid ""
+"Acceleration will happen when the mouse is moved this many pixels in a short "
+"time"
+msgstr ""
+"L'accélération survient lorsque la souris est déplacée de tous ces pixels en "
+"un court laps de temps"
+
+#: pupx.sh:171
+msgid "Volume:"
+msgstr "Volume:"
+
+#: pupx.sh:188
+msgid "Keyclick volume in percentage (0-100)"
+msgstr "Volume de clics en pourcentage (0-100)"
+
+#: pupx.sh:189
+msgid "Auto-repeat"
+msgstr "Répétition automatique"
+
+#: pupx.sh:191
+msgid "Enable auto-repeat"
+msgstr "Activer la répétition automatique"
+
+#: pupx.sh:201 pupx.sh:236
+msgid "Delay:"
+msgstr "Retard:"
+
+#: pupx.sh:207
+msgid "(milliseconds)       "
+msgstr "(millisecondes)       "
+
+#: pupx.sh:209
+msgid "This is the delay before keys start repeating"
+msgstr ""
+"Délai avant qu'un caractère ne commence à se répéter lorsqu'on garde la "
+"touche enfoncée"
+
+#: pupx.sh:212
+msgid "Rate:"
+msgstr "Fréquence:"
+
+#: pupx.sh:218
+msgid "(repeats per second)       "
+msgstr "(répétition par seconde)       "
+
+#: pupx.sh:220
+msgid "This is the rate at which keys repeat"
+msgstr "Fréquence de répétition du caractère, touche enfoncée"
+
+#: pupx.sh:226
+msgid "Enable screen saver"
+msgstr "Activer l'écran de veille"
+
+#: pupx.sh:242 pupx.sh:253
+msgid "(seconds)       "
+msgstr "(secondes)       "
+
+#: pupx.sh:244
+msgid "This is the delay before screensaver is activated"
+msgstr "Délai avant d'activer l'écran de veille"
+
+#: pupx.sh:247
+msgid "Cycle:"
+msgstr "Cycle:"
+
+#: pupx.sh:255
+msgid "This is the interval for change of background pattern"
+msgstr "Intervalle du changement de l'image de fond"
+
+#: pupx.sh:260
+msgid "Blank the screen rather than display a pattern"
+msgstr "Ecran noir au lieu d'images"
+
+#: pupx.sh:265
+msgid "Allow exposures"
+msgstr "Permettre des poses"
+
+#: pupx.sh:281
+msgid "Apply"
+msgstr "Appliquer"

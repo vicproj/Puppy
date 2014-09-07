@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: hostname-set VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2012-02-16 18:49+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: hostname-set.sh:26 hostname-set.sh:102
+msgid "Set Hostname"
+msgstr "Définir le nom d'hôte"
+
+#: hostname-set.sh:27
+msgid ""
+"Type your computer name to identify in the network. Alpha-numeric without "
+"spaces."
+msgstr ""
+"Tapez le nom de votre ordinateur afin de l'identifier sur le réseau. "
+"Caractères alpha-numériques sans espace."
+
+#: hostname-set.sh:28
+msgid ""
+"Your computer has been assigned a unique name, known as the 'hostname', by "
+"which it identifies itself on a network. However, you might wish to change "
+"that to a name that is more meaningful to yourself, such as 'johnsmithpc'. "
+"The hostname can have letters and numbers, no spaces."
+msgstr ""
+"Votre ordinateur a reçu un nom unique, le 'nom d'hôte', par lequel il "
+"s'identifie sur un réseau. Cependant, vous pouvez le changer pour un nom "
+"plus significatif pour vous, comme 'jeandupontpc'. Le nom d'hôte peut "
+"contenir des lettres et des chiffres, sans espace."
+
+#: hostname-set.sh:37
+msgid "Hostname"
+msgstr "Nom d'hôte"
+
+#: hostname-set.sh:69
+msgid ""
+"However, it will not take full effect until after X (the desktop) has been "
+"restarted -- see the \\ZbShutdown\\ZB entry in the menu."
+msgstr ""
+"Cependant, il ne prendra plein effet qu'après le redémarrage du serveur "
+"graphique X (le bureau). Voir dans le menu l'entrée \\ZbSession\\ZB >> "
+"\\ZbRELANCER X\\ZB."
+
+#: hostname-set.sh:78
+msgid ""
+"\\ZbNOTE:\\ZB There did appear to be an active network connection, that has "
+"now been disconnected. Restart of the network is required for the new "
+"hostname to take effect over the network. After restarting X, there should "
+"be an automatic reconnection -- if not, you can do it manually by clicking "
+"the \\Zbconnect\\ZB icon on the desktop"
+msgstr ""
+"\\ZbNOTE :\\ZB La connexion réseau active a maintenant été déconnectée. Le "
+"redémarrage du réseau est nécessaire pour prendre en compte le nouveau nom "
+"d'hôte sur ​​le réseau. Après le redémarrage du serveur X, il devrait y avoir "
+"une reconnexion automatique - sinon, faites-le manuellement en cliquant sur "
+"l'icône de connexion, soit sur le bureau, soit dans la Barre verticale des "
+"applications àen bas gauche de l'écran"
+
+#: hostname-set.sh:89
+msgid "Set Hostname: done"
+msgstr "Définition du nom d'hôte: effectuée"
+
+#: hostname-set.sh:90
+msgid "New hostname"
+msgstr "Le nouveau nom d'hôte"
+
+#: hostname-set.sh:91
+msgid "has been set."
+msgstr "a été défini."
+
+#: hostname-set.sh:103
+msgid "The hostname is:"
+msgstr "Le nom d'hôte est :"
+
+#: hostname-set.sh:104
+msgid "You have not changed it."
+msgstr "Vous ne l'avez pas changé."

@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: dal 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2014-02-27 01:07+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: dal-bin.sh:19
+msgid "DAL"
+msgstr "DAL"
+
+#: dal-bin.sh:20
+msgid "(default applications launcher)"
+msgstr "(lanceur d'applications par défaut)"
+
+#: dal-bin.sh:82
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle01.\n"
+"\n"
+"Version used: $AppVersion by $AuthorActualVersion.\n"
+"Previous versions: by $AuthorPreviousVersions.\n"
+"Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle01.\n"
+"\n"
+"Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"Version précédentes : par $AuthorPreviousVersions.\n"
+"Version originale : par $AuthorOriginalVersion."
+
+#: dal-bin.sh:134
+msgid "Preferences"
+msgstr "Préférences"
+
+#: dal-bin.sh:140
+#, sh-format
+msgid "Interface: large (check) or small (uncheck)."
+msgstr "Interface : large (cocher) ou réduite (décocher)."
+
+#: dal-bin.sh:141
+msgid "Large interface"
+msgstr "Interface large"
+
+#: dal-bin.sh:150
+#, sh-format
+msgid ""
+"Automatically exit $AppTitle01 after selection of a default application."
+msgstr ""
+"Quitter automatiquement $AppTitle01 après la sélection d'une application par "
+"défaut."
+
+#: dal-bin.sh:151
+msgid "Auto exit"
+msgstr "Quitter automatiquement"
+
+#: dal-bin.sh:160
+#, sh-format
+msgid "Use terminal to run applications."
+msgstr "Utiliser un terminal pour activer les applications."
+
+#: dal-bin.sh:161
+msgid "Run in terminal"
+msgstr "Activer dans un terminal."
+
+#: dal-bin.sh:170
+#, sh-format
+msgid "Save values then exit."
+msgstr "Sauvegarder les valeurs, puis quitter."
+
+#: dal-bin.sh:226
+msgid "Web - Office - Personnal"
+msgstr "Internet - Bureautique - Personnel"
+
+#: dal-bin.sh:226
+msgid "Multimedia - Utility"
+msgstr "Multimédia - Utilitaires"
+
+#: dal-bin.sh:233
+msgid "Web"
+msgstr "Internet"
+
+#: dal-bin.sh:236
+msgid "Web browser"
+msgstr "Navigateur internet"
+
+#: dal-bin.sh:237
+msgid "Launch default web browser."
+msgstr "Activer le navigateur internet par défaut."
+
+#: dal-bin.sh:245
+msgid "HTML viewer"
+msgstr "Lecteur HTML"
+
+#: dal-bin.sh:246
+msgid "Launch default HTML viewer."
+msgstr "Activer le lecteur HTML par défaut."
+
+#: dal-bin.sh:254
+msgid "HTML editor"
+msgstr "Editeur HTML"
+
+#: dal-bin.sh:255
+msgid "Launch default HTML editor."
+msgstr "Activer l'éditeur HTML par défaut."
+
+#: dal-bin.sh:263
+msgid "Email"
+msgstr "Courriel"
+
+#: dal-bin.sh:264
+msgid "Launch default email."
+msgstr "Activer le gestionnaire de courriel par défaut."
+
+#: dal-bin.sh:272
+msgid "Chat"
+msgstr "Clavardage"
+
+#: dal-bin.sh:273
+msgid "Launch default chat."
+msgstr "Activer l'application clavardage par défaut."
+
+#: dal-bin.sh:281
+msgid "FTP client"
+msgstr "Client FTP"
+
+#: dal-bin.sh:282
+msgid "Launch default FTP client."
+msgstr "Activer le client FTP par défaut."
+
+#: dal-bin.sh:291
+msgid "Torrent"
+msgstr "Torrent"
+
+#: dal-bin.sh:292
+msgid "Launch default torrent."
+msgstr "Activer l'application torrent par défaut."
+
+#: dal-bin.sh:308
+msgid "Office"
+msgstr "Bureautique"
+
+#: dal-bin.sh:311
+msgid "Office suite"
+msgstr "Suite bureautique"
+
+#: dal-bin.sh:312
+msgid "Launch default office suite."
+msgstr "Activer la suite bureautique par défaut."
+
+#: dal-bin.sh:320
+msgid "Word processor"
+msgstr "Traitement de textes"
+
+#: dal-bin.sh:321
+msgid "Launch default word processor."
+msgstr "Activer le traitement de textes par défaut."
+
+#: dal-bin.sh:329
+msgid "Text editor"
+msgstr "Editeur de textes"
+
+#: dal-bin.sh:330
+msgid "Launch default text editor."
+msgstr "Activer l'éditeur de textes par défaut."
+
+#: dal-bin.sh:338
+msgid "Text viewer"
+msgstr "Lecteur de textes"
+
+#: dal-bin.sh:339
+msgid "Launch default text viewer."
+msgstr "Activer le lecteur de textes par défaut."
+
+#: dal-bin.sh:347
+msgid "Spreadsheet"
+msgstr "Tableur"
+
+#: dal-bin.sh:348
+msgid "Launch default spreadsheet."
+msgstr "Activer le tableur par défaut."
+
+#: dal-bin.sh:356
+msgid "Calculator"
+msgstr "Calculatrice"
+
+#: dal-bin.sh:357
+msgid "Launch default calculator."
+msgstr "Activer la calculatrice par défaut."
+
+#: dal-bin.sh:365
+msgid "PDF"
+msgstr "PDF"
+
+#: dal-bin.sh:366
+msgid "Launch default PDF."
+msgstr "Activer l'application PDF par défaut."
+
+#: dal-bin.sh:381
+msgid "Personal"
+msgstr "Personnel"
+
+#: dal-bin.sh:384
+msgid "Contact"
+msgstr "Contact"
+
+#: dal-bin.sh:385
+msgid "Launch default contact."
+msgstr "Activer l'application contact par défaut."
+
+#: dal-bin.sh:393
+msgid "Calendar"
+msgstr "Calendrier"
+
+#: dal-bin.sh:394
+msgid "Launch default calendar."
+msgstr "Activer le calendrier par défaut."
+
+#: dal-bin.sh:424
+msgid "Audio/Video"
+msgstr "Audio/Vidéo"
+
+#: dal-bin.sh:427
+msgid "Audio mixer"
+msgstr "Mixer audio"
+
+#: dal-bin.sh:428
+msgid "Launch default audio mixer."
+msgstr "Activer le mixer audio par défaut."
+
+#: dal-bin.sh:436
+msgid "Media player"
+msgstr "Lecteur multimédia"
+
+#: dal-bin.sh:437
+msgid "Launch default media player."
+msgstr "Activer le lecteur multimédia par défaut."
+
+#: dal-bin.sh:445
+msgid "Audio player"
+msgstr "Lecteur audio"
+
+#: dal-bin.sh:446
+msgid "Launch default audio player."
+msgstr "Activer le lecteur audio par défaut."
+
+#: dal-bin.sh:454
+msgid "Audio CD player"
+msgstr "Lecteur CD audio"
+
+#: dal-bin.sh:455
+msgid "Launch default audio CD player."
+msgstr "Activer le lecteur CD audio par défaut."
+
+#: dal-bin.sh:463
+msgid "Audio editor"
+msgstr "Editeur audio"
+
+#: dal-bin.sh:464
+msgid "Launch default audio editor."
+msgstr "Activer l'éditeur audio par défaut."
+
+#: dal-bin.sh:479
+msgid "Graphic"
+msgstr "Graphisme"
+
+#: dal-bin.sh:482
+msgid "Image viewer"
+msgstr "Lecteur d'image"
+
+#: dal-bin.sh:483
+msgid "Launch default image viewer."
+msgstr "Activer le lecteur d'image par défaut."
+
+#: dal-bin.sh:491
+msgid "Image editor"
+msgstr "Editeur d'image"
+
+#: dal-bin.sh:492
+msgid "Launch default image editor."
+msgstr "Activer l'éditeur d'image par défaut."
+
+#: dal-bin.sh:500
+msgid "Drawing"
+msgstr "Dessin"
+
+#: dal-bin.sh:501
+msgid "Launch default drawing."
+msgstr "Activer l'application dessin par défaut."
+
+#: dal-bin.sh:509
+msgid "Screenshot"
+msgstr "Copie d'écran"
+
+#: dal-bin.sh:510
+msgid "Launch default screenshot."
+msgstr "Activer l'application copie d'écran par défaut."
+
+#: dal-bin.sh:523
+msgid "Utility"
+msgstr "Utilitaires"
+
+#: dal-bin.sh:526
+msgid "Terminal"
+msgstr "Terminal"
+
+#: dal-bin.sh:527
+msgid "Launch default terminal."
+msgstr "Activer le terminal par défaut."
+
+#: dal-bin.sh:535
+msgid "File manager"
+msgstr "Gestionnaire de fichiers"
+
+#: dal-bin.sh:536
+msgid "Launch default file manager."
+msgstr "Activer le gestionnaire de fichiers par défaut."
+
+#: dal-bin.sh:544
+msgid "Burner"
+msgstr "Graveur"
+
+#: dal-bin.sh:545
+msgid "Launch default burner."
+msgstr "Activer le graveur par défaut."
+
+#: dal-bin.sh:553
+msgid "Archiver"
+msgstr "Archiveur"
+
+#: dal-bin.sh:554
+msgid "Launch default archiver."
+msgstr "Activer l'archiveur par défaut."
+
+#: dal-bin.sh:562
+msgid "Search"
+msgstr "Rechercher"
+
+#: dal-bin.sh:563
+msgid "Launch default search."
+msgstr "Activer l'application de recherche par défaut."
+
+#: dal-bin.sh:590
+#, sh-format
+msgid "Define preferences of $AppTitle01."
+msgstr "Définir les préférences de $AppTitle01."
+
+#: dal-bin.sh:596
+#, sh-format
+msgid "Define default applications used by $AppTitle01."
+msgstr "Définir les applications par défaut utilisées par $AppTitle01."
+
+#: dal-bin.sh:601
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: dal-bin.sh:606
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Versions et auteurs de $AppTitle01."
+
+#: dal-bin.sh:611
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: dal.sh:20
+msgid "Infos"
+msgstr "Infos"
+
+#: dal.sh:20
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà actif. Par conséquent, votre demande n'est pas acceptée."

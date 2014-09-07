@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ntfsaccess 20140302\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-03-02 16:44+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ntfsaccess-bin.sh:19
+msgid "NTFS access"
+msgstr "Accès NTFS"
+
+#: ntfsaccess-bin.sh:58
+#, sh-format
+msgid ""
+"Read only (ro): you can only read content of NTFS partitions.\n"
+"Read and write (rw): you can read and write content of NTFS partitions."
+msgstr ""
+"Lecture seule (ro) : vous pouvez seulement lire le contenu des partitions "
+"NTFS.\n"
+"Lecture et écriture (rw) : vous pouvez lire et écrire le contenu des "
+"partitions NTFS."
+
+#: ntfsaccess-bin.sh:129
+#, sh-format
+msgid "read-only (ro)"
+msgstr "lecture seule (ro)"
+
+#: ntfsaccess-bin.sh:132
+#, sh-format
+msgid "read and write (rw)"
+msgstr "lecture et écriture (rw)"
+
+#: ntfsaccess-bin.sh:145
+#, sh-format
+msgid "Now, NTFS partitions are $MSG_STATE."
+msgstr ""
+"Actuellement, les partitions NTFS partitions sont accessibles en $MSG_STATE."
+
+#: ntfsaccess-bin.sh:206
+#, sh-format
+msgid "Currently access to NTFS partitions:"
+msgstr "Accès actuel aux partitions NTFS :"
+
+#: ntfsaccess-bin.sh:215
+#, sh-format
+msgid "To use NTFS partitions in read only (ro)."
+msgstr "Pour utiliser les partitions NTFS en lecture seule (ro)."
+
+#: ntfsaccess-bin.sh:216
+#, sh-format
+msgid "Read only"
+msgstr "Lecture seule"
+
+#: ntfsaccess-bin.sh:225
+msgid "To use NTFS partitions in read and write (rw)."
+msgstr "Pour utiliser les partitions NTFS en lecture et écriture (rw)."
+
+#: ntfsaccess-bin.sh:226
+msgid "Read and write"
+msgstr "Lecture et écriture"
+
+#: ntfsaccess-bin.sh:245
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: ntfsaccess-bin.sh:250
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: ntfsaccess.sh:21
+msgid "Infos"
+msgstr "Infos"
+
+#: ntfsaccess.sh:21
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"L'application $ANL01 est déjà active. Par conséquent votre demande n'est pas "
+"acceptée."

@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: mds 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-05-02 18:25+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: mds-bin.sh:19
+msgid "MDS"
+msgstr "MDS"
+
+#: mds-bin.sh:20
+msgid "(manage desktop shortcuts)"
+msgstr "(gérer les raccourcis du bureau)"
+
+#: mds-bin.sh:77
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: mds-bin.sh:100 mds-bin.sh:110
+msgid "Please, select an entry in the list."
+msgstr "Veuillez sélectionner une entrée dans la liste."
+
+#: mds-bin.sh:139
+#, sh-format
+msgid ""
+"To add shortcuts to applications on desktop: drag and drop on desktop, files "
+"from folder $TempFolder."
+msgstr ""
+"Pour ajouter des raccourcis sur le bureau : glissez et déposez sur le "
+"bureau, les fichiers présents dans $TempFolder."
+
+#: mds-bin.sh:155
+#, sh-format
+msgid "Click on the entry you want to add to desktop shortcuts folder."
+msgstr ""
+"Cliquez sur l'entrée que vous voulez ajouter au dossier des raccourcis du "
+"bureau."
+
+#: mds-bin.sh:156
+#, sh-format
+msgid "Click on the entry you want to remove from desktop shortcuts folder."
+msgstr ""
+"Cliquez sur l'entrée que vous voulez supprimer du dossier des raccourcis du "
+"bureau."
+
+#: mds-bin.sh:157
+msgid "Click to sort items of the list"
+msgstr "Cliquez pour classer les éléments de la liste"
+
+#: mds-bin.sh:165
+#, sh-format
+msgid "Manage"
+msgstr "Gérer"
+
+#: mds-bin.sh:165
+#, sh-format
+msgid "desktop shortcuts"
+msgstr "les raccourcis du bureau"
+
+#: mds-bin.sh:171
+msgid "Available entries"
+msgstr "Entrées disponibles"
+
+#: mds-bin.sh:187
+msgid "Desktop shortcuts"
+msgstr "Raccourcis du bureau"
+
+#: mds-bin.sh:206
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: mds-bin.sh:211
+#, sh-format
+msgid "Show content of desktop shortcuts folder ($DESKTOP_DIR_SHORTCUTS)."
+msgstr ""
+"Montrer le contenu du dossier des raccourcis du bureau "
+"($DESKTOP_DIR_SHORTCUTS)."
+
+#: mds-bin.sh:216
+#, sh-format
+msgid "Manually add application shortcuts on deskop."
+msgstr "Ajouter manuellement des raccourcis sur le bureau."
+
+#: mds-bin.sh:221
+#, sh-format
+msgid "Refresh lists."
+msgstr "Rafraîchir les listes."
+
+#: mds-bin.sh:229
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: mds.sh:22
+#, sh-format
+msgid "$AppTitle is already running."
+msgstr "$AppTitle est déjà activé."

@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: service_pack.sh VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:47+0200\n"
+"PO-Revision-Date: 2013-01-01 14:12+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: service_pack.sh:95
+msgid "Puppy Package Manager: Service Pack"
+msgstr "Puppy Package Manager: Service Pack"
+
+#: service_pack.sh:96
+msgid "Service Pack available!"
+msgstr "Service Pack disponible!"
+
+#: service_pack.sh:97
+msgid "The current version of Puppy:"
+msgstr "La version actuelle de Puppy"
+
+#: service_pack.sh:98
+msgid "The highest available upgrade version:"
+msgstr "La dernière version mise à jour disponible:"
+
+#: service_pack.sh:99
+msgid ""
+"A Service Pack is a PET package that will upgrade your Puppy, and it is "
+"highly recommended to do this."
+msgstr ""
+"Un Service Pack est un paquet pour mettre à jour votre Puppy. Il est "
+"fortement recommandé de le faire."
+
+#: service_pack.sh:106
+msgid "The most appropriate Service Pack is already chosen below."
+msgstr "Le Service Pack le plus approprié pour votre version est ci-dessous."
+
+#: service_pack.sh:109
+msgid ""
+"Please click the <b>OK</b> button right now, to download and install the "
+"Service Pack."
+msgstr ""
+"Veuillez cliquer sur le bouton <b>OK</b> pour télécharger et installer le "
+"Service Pack."
+
+#: service_pack.sh:151
+msgid "Download failed"
+msgstr "Echec du téléchargement"
+
+#: service_pack.sh:151
+msgid "Sorry, the PET did not download. Perhaps try later."
+msgstr "Désolé, le Paquet n'a pas été téléchargé. Réessayez plus tard."

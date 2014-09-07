@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Petget VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:47+0200\n"
+"PO-Revision-Date: 2012-02-20 08:35+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ui_Classic.sh:20
+msgid "BuildingBlock"
+msgstr ""
+
+#: ui_Classic.sh:33
+msgid "Puppy Package Manager"
+msgstr "Gestionnaire des paquets PPM"
+
+#: ui_Classic.sh:37
+msgid "Repo:"
+msgstr "Dépot"
+
+#: ui_Classic.sh:49
+msgid "Desktop"
+msgstr "Bureau"
+
+#: ui_Classic.sh:50
+msgid "System"
+msgstr "Système"
+
+#: ui_Classic.sh:51
+msgid "Setup"
+msgstr "Paramètres"
+
+#: ui_Classic.sh:52
+msgid "Utility"
+msgstr "Utilitaires"
+
+#: ui_Classic.sh:53
+msgid "Filesystem"
+msgstr "Syst. Fich."
+
+#: ui_Classic.sh:54
+msgid "Graphic"
+msgstr "Graphisme"
+
+#: ui_Classic.sh:55
+msgid "Document"
+msgstr "Documents"
+
+#: ui_Classic.sh:56
+msgid "Business"
+msgstr "Affaires"
+
+#: ui_Classic.sh:57
+msgid "Personal"
+msgstr "Personnel"
+
+#: ui_Classic.sh:58
+msgid "Network"
+msgstr "Réseau"
+
+#: ui_Classic.sh:59
+msgid "Internet"
+msgstr "Internet"
+
+#: ui_Classic.sh:60
+msgid "Multimedia"
+msgstr "Multimédia"
+
+#: ui_Classic.sh:61
+msgid "Fun"
+msgstr "Loisirs"
+
+#: ui_Classic.sh:68 ui_Classic.sh:142
+msgid "Package|Description"
+msgstr "Paquet|Description"
+
+#: ui_Classic.sh:85
+msgid "Show:"
+msgstr "Voir:"
+
+#: ui_Classic.sh:111
+msgid "Help:"
+msgstr "Aide:"
+
+#: ui_Classic.sh:116
+msgid "Find:"
+msgstr "Rech."
+
+#: ui_Classic.sh:121
+msgid "Go"
+msgstr ""
+
+#: ui_Classic.sh:129
+msgid "Configure package manager"
+msgstr "Configuration  "
+
+#: ui_Classic.sh:136
+msgid "Exit package manager"
+msgstr "QUITTER         "
+
+#: ui_Classic.sh:140
+msgid "Installed packages"
+msgstr "Paquets installés"

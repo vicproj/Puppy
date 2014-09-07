@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Set_hwclock_type\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: set_hwclock_type.sh:19 set_hwclock_type.sh:32 set_hwclock_type.sh:43
+msgid "Set HW-Clock Type"
+msgstr "Type d'horloge matérielle "
+
+#: set_hwclock_type.sh:19
+msgid "What should the hardware clock be interpreted as?"
+msgstr "Choisir le type d'horloge matérielle souhaitée :"
+
+#: set_hwclock_type.sh:32
+msgid "Yes"
+msgstr "Oui"
+
+#: set_hwclock_type.sh:32
+msgid "No"
+msgstr "No"
+
+#: set_hwclock_type.sh:32
+msgid ""
+"Update the software clock or the hardware clock? \\n...if you don't know or "
+"uncertain, that's ok, just click the 'No' button"
+msgstr ""
+"Mettre à jour l'horloge logicielle ou l'horloge matérielle? \\n...Si vous ne "
+"savez pas ou si vous êtes indécis, \\naucune importance, cliquez simplement "
+"sur le bouton 'Non'."
+
+#: set_hwclock_type.sh:43
+msgid "Done"
+msgstr "Terminé"

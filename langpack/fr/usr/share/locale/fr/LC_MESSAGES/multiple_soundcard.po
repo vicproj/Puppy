@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Multiple-Sound-Card-Wizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2013-02-14 11:28+0100\n"
+"Last-Translator: root <jj@moulinier.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: Multiple-Sound-Card-Wizard.sh:22
+msgid "Choose which sound card to make the default."
+msgstr "Définir la carte audio par défaut"
+
+#: Multiple-Sound-Card-Wizard.sh:36
+msgid "Unable to find any sound card.  Please press Cancel."
+msgstr "Impossible de trouver une carte audio. Veuillez presser sur Annuler"
+
+#: Multiple-Sound-Card-Wizard.sh:57
+msgid "Card"
+msgstr "Carte"
+
+#: Multiple-Sound-Card-Wizard.sh:58
+msgid "Device"
+msgstr "Périphérique"
+
+#: Multiple-Sound-Card-Wizard.sh:60
+msgid "You pressed the Cancel button."
+msgstr "Vous avez pressé sur le bouton Annuler"
+
+#: Multiple-Sound-Card-Wizard.sh:80
+msgid "Config file for retrovol"
+msgstr ""
+
+#: Multiple-Sound-Card-Wizard.sh:81
+msgid "This file should reside in the user's home directory and be named:"
+msgstr ""
+
+#: Multiple-Sound-Card-Wizard.sh:87
+msgid "Multiple Sound Card Wizard"
+msgstr ""
+
+#: Multiple-Sound-Card-Wizard.sh:90
+msgid "Sound card now set as default:"
+msgstr ""
+
+#: Multiple-Sound-Card-Wizard.sh:92
+msgid ""
+"The audio mixer <i>Retrovol</i> has been set to use this card. The next "
+"window will be the configuration window for Retrovol -- adjust settings to "
+"suite yourself."
+msgstr ""
+
+#: Multiple-Sound-Card-Wizard.sh:94
+msgid ""
+"<b>Note:</b> The Retrovol settings can be adjusted at any time in the future "
+"by right-clicking on the loadspeaker-icon in the tray."
+msgstr ""
+
+#~ msgid "you need to install gtkdialog"
+#~ msgstr "Vous devez installer gtkdialog "

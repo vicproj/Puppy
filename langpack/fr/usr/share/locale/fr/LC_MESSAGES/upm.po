@@ -1,0 +1,67 @@
+# French translations for upm package.
+# Copyright (C) 2014 THE upm'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the upm package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: upm VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2014-09-07 22:57+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: upm-bin.sh:19
+msgid "UPM"
+msgstr ""
+
+#: upm-bin.sh:20
+msgid "(user profiles manager)"
+msgstr ""
+
+#: upm-bin.sh:85
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+
+#: upm-bin.sh:116 upm.sh:21
+msgid "Infos"
+msgstr ""
+
+#: upm-bin.sh:118
+#, sh-format
+msgid ""
+"Currently, $AppTitle is under development.\n"
+"Use the forum to contribute."
+msgstr ""
+
+#: upm-bin.sh:129
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr ""
+
+#: upm-bin.sh:134
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr ""
+
+#: upm-bin.sh:139
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr ""
+
+#: upm.sh:21
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""

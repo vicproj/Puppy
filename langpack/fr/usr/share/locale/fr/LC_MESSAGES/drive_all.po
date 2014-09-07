@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: drive_all VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:44+0200\n"
+"PO-Revision-Date: 2013-02-15 10:20+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: drive_all.sh:76
+msgid "Puppy drive manager: ERROR"
+msgstr "Gestionnaire des disques: ERREUR"
+
+#: drive_all.sh:76
+msgid ""
+"FAILURE! In the case of removable media, the most\n"
+"common reason is the media is not currently inserted.\n"
+"If so, please remedy."
+msgstr ""
+"ECHEC! Dans le cas des medias amovibles,\n"
+"le plus souvent, il n'est pas inséré.\n"
+"Si c'est le cas, remèdiez-y."
+
+#: drive_all.sh:80
+msgid "Puppy drive manager: FAIL"
+msgstr "Gestionnaire des disques: ECHEC"
+
+#: drive_all.sh:80
+msgid "KILL"
+msgstr "ARRETER"
+
+#: drive_all.sh:80
+msgid "EXIT"
+msgstr "QUITTER"
+
+#: drive_all.sh:80
+msgid "FAILURE!"
+msgstr "ECHEC!"
+
+#: drive_all.sh:81
+msgid ""
+"One or more processes (programs) are currently\n"
+"using the partition. Here they are:"
+msgstr ""
+"Un ou plusieurs processus (programmes)\n"
+"utilisent actuellement la partition. Ce sont :"
+
+#: drive_all.sh:85
+msgid ""
+"If you press the 'KILL' button, Puppy will attempt to\n"
+"kill the offending programs for you. Only do this as a\n"
+"last resort."
+msgstr ""
+"Si vous cliquez sur le bouton 'ARRETER', il sera tenté de\n"
+"fermer le programme designé, pour vous. A n'utiliser\n"
+"qu'en dernier recours."
+
+#: drive_all.sh:88
+msgid ""
+"Firstly you should try to close the programs\n"
+"manually, so do not press 'KILL'."
+msgstr ""
+"Vous devez d'abord tenter de fermer le programme\n"
+"manuellement, donc ne cliquez pas sur 'ARRETER'."
+
+#: drive_all.sh:90
+msgid "PLEASE PRESS THE 'EXIT' BUTTON!"
+msgstr "CLIQUEZ SUR LE BOUTON 'QUITTER'!"
+
+#: drive_all.sh:179
+msgid "Puppy drive manager"
+msgstr "Gestionnaire des disques"
+
+#: drive_all.sh:179
+#, sh-format
+msgid ""
+"/dev/${ONEDRVNAME} mounted on ${MNTPT}\n"
+"is in use by Puppy. You cannot unmount it."
+msgstr ""
+"/dev/${ONEDRVNAME} mounté sur ${MNTPT}\n"
+"est utilisé. Démontage impossible."

@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Petget_downloadpkgs.sh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: downloadpkgs.sh:105
+msgid "Puppy Package Manager: download"
+msgstr "PPM : Téléchargement de paquets"
+
+#: downloadpkgs.sh:107
+msgid "You have chosen to download these packages:"
+msgstr "Vous avez choisi de télécharger ces paquets :"
+
+#: downloadpkgs.sh:111
+msgid ""
+"Please choose which URL you would like to download them from. Choose 'LOCAL "
+"FOLDER' if you have already have them on this computer (on hard drive, USB "
+"drive or CD):"
+msgstr ""
+"Veuillez choisir l'URL de téléchargement. Choisissez un 'REPERTOIRE LOCAL' "
+"si vous en avez déjà un sur cet ordinateur (disque dur, clé USB ou CD):"
+
+#: downloadpkgs.sh:115
+msgid "LOCAL FOLDER"
+msgstr "REPERTOIRE LOCAL"
+
+#: downloadpkgs.sh:120
+msgid "Test URLs"
+msgstr "Tester les adresses"
+
+#: downloadpkgs.sh:124
+msgid "Download packages"
+msgstr "Télécharger"
+
+#: downloadpkgs.sh:168
+#, fuzzy
+msgid "Please wait, testing that packages exist in repository..."
+msgstr "Patientez, dégraissage des paquets en cours ..."
+
+#: downloadpkgs.sh:198
+msgid "ERROR: Packages not available"
+msgstr ""
+
+#: downloadpkgs.sh:199
+msgid "Unfortunately, these packages are not available:"
+msgstr ""
+
+#: downloadpkgs.sh:200
+msgid ""
+"It may be that the local package database needs to be updated. In some "
+"cases, the packages in the online package repository change, so you may be "
+"trying to download a package that no longer exists."
+msgstr ""
+
+#: downloadpkgs.sh:201
+msgid ""
+"SOLUTION: From the main PPM window, click the 'Configure' BUTTON and click "
+"the 'Update' button to update the local package database."
+msgstr ""
+
+#: downloadpkgs.sh:202
+msgid "The installation has been aborted!"
+msgstr ""
+
+#: downloadpkgs.sh:254 downloadpkgs.sh:269 downloadpkgs.sh:290
+#: downloadpkgs.sh:360 downloadpkgs.sh:381
+msgid "Puppy Package Manager"
+msgstr "PPM : Téléchargement de paquets"
+
+#: downloadpkgs.sh:257
+msgid "Error, faulty download of"
+msgstr "Erreur, mauvais téléchargement de"
+
+#: downloadpkgs.sh:272
+msgid "Error, failed to download"
+msgstr "Erreur, échec du téléchargement de"
+
+#: downloadpkgs.sh:293
+msgid "Finished. The packages have been downloaded to"
+msgstr "Terminé. Les paquets ont été téléchargés dans le répertoire"
+
+#: downloadpkgs.sh:293
+msgid "directory."
+msgstr "."
+
+#: downloadpkgs.sh:308
+msgid ""
+"NOTE: If you are concerned about the large size of the installed packages, "
+"Puppy has some clever code to delete files that are not likely to be needed "
+"for the application to actually run. If you would like to try this, click "
+"'Trim the fat' button (otherwise just click 'OK'):"
+msgstr ""
+"AVIS: Si la taille des paquets installés vous préoccupe, Toutou possède un "
+"code astucieux pour supprimer des fichiers susceptibles de ne pas être "
+"indispensables au fonctionnement de l'application. Pour essayer, cliquez sur "
+"'Dégraisser' (sinon, cliquez sur 'OK'):"
+
+#: downloadpkgs.sh:310
+msgid "Trim the fat"
+msgstr "Dégraisser"
+
+#: downloadpkgs.sh:321
+msgid "Desktop"
+msgstr ""
+
+#: downloadpkgs.sh:322
+msgid "System"
+msgstr ""
+
+#: downloadpkgs.sh:323
+msgid "Setup"
+msgstr ""
+
+#: downloadpkgs.sh:324
+msgid "Utility"
+msgstr ""
+
+#: downloadpkgs.sh:325
+msgid "Filesystem"
+msgstr ""
+
+#: downloadpkgs.sh:326
+msgid "Graphic"
+msgstr ""
+
+#: downloadpkgs.sh:327
+#, fuzzy
+msgid "Document"
+msgstr "Documentation"
+
+#: downloadpkgs.sh:328
+msgid "Business"
+msgstr ""
+
+#: downloadpkgs.sh:329
+msgid "Personal"
+msgstr ""
+
+#: downloadpkgs.sh:330
+msgid "Network"
+msgstr ""
+
+#: downloadpkgs.sh:331
+msgid "Internet"
+msgstr ""
+
+#: downloadpkgs.sh:332
+msgid "Multimedia"
+msgstr ""
+
+#: downloadpkgs.sh:333
+msgid "Fun"
+msgstr ""
+
+#: downloadpkgs.sh:334
+msgid "Help"
+msgstr ""
+
+#: downloadpkgs.sh:335
+msgid "none"
+msgstr ""
+
+#: downloadpkgs.sh:352
+msgid "CATEGORY:"
+msgstr ""
+
+#: downloadpkgs.sh:353
+msgid "PACKAGE:"
+msgstr ""
+
+#: downloadpkgs.sh:357
+msgid "Note: the package(s) do not have a menu entry."
+msgstr "Remarque: ces paquets n'ont pas d'entrée dans le menu."
+
+#: downloadpkgs.sh:358
+msgid ""
+"...look in the appropriate category in the menu (bottom-left of screen) to "
+"run the application. Note, some packages do not have a menu entry."
+msgstr ""
+"... regarder dans la catégorie appropriée dans le menu (bas gauche de "
+"l'écran) pour lancer l'application. A noter, certains paquets n'ont pas "
+"d'entrée dans le menu."
+
+#: downloadpkgs.sh:363
+msgid "The following packages have been successfully installed:"
+msgstr "Les paquets suivants ont été correctement installés :"
+
+#: downloadpkgs.sh:384
+msgid "You have chosen to 'trim the fat' of these installed packages:"
+msgstr "Vous avez choisi de 'dégraisser' ces paquets installés: "
+
+#: downloadpkgs.sh:387
+msgid ""
+"Type the 2-letter country designations for the locales that you want to "
+"retain, separated by commas. Leave blank to retain all locale files (see /"
+"usr/share/locale for examples):"
+msgstr ""
+"Tapez les 2 lettres de désignation de votre pays, séparées par une virgule, "
+"pour les locales que vous voulez garder. Laissez vide pour garder tous les "
+"fichiers des locales (voir dans /usr/share/locale par example) :"
+
+#: downloadpkgs.sh:390
+msgid "Documentation"
+msgstr "Documentation"
+
+#: downloadpkgs.sh:391
+msgid "Tick this to delete documentation files"
+msgstr "Cochez ici pour effacer les fichiers de documentation"
+
+#: downloadpkgs.sh:393
+msgid "Development"
+msgstr "Développement"
+
+#: downloadpkgs.sh:394
+msgid "Tick this to delete development files"
+msgstr "Cochez ici pour effacer les fichiers de développement"
+
+#: downloadpkgs.sh:395
+msgid ""
+"(only needed if these packages are required as dependencies when compiling "
+"another package from source code)"
+msgstr ""
+"(nécessaires seulement si ces paquets sont requis comme dépendances lors de "
+"la compilation d'un autre paquet du code source)"
+
+#: downloadpkgs.sh:397
+msgid "Click 'OK', or if you decide to chicken-out click 'Cancel':"
+msgstr "Cliquez sur 'OK', ou si vous vous dégonflez, cliquez sur 'Annuler' :"
+
+#: downloadpkgs.sh:407
+msgid "Please wait, trimming fat from packages..."
+msgstr "Patientez, dégraissage des paquets en cours ..."

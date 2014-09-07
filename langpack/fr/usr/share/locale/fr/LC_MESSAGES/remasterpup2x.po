@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: remasterpup2 VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2013-02-25 02:42+0100\n"
+"Last-Translator: esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: remasterpup2.sh:68
+msgid "Yes"
+msgstr "Oui"
+
+#: remasterpup2.sh:69
+msgid "No"
+msgstr "Non"
+
+#: remasterpup2.sh:70
+msgid "Puppy simple CD remaster"
+msgstr "Reconstruire une ISO"
+
+#: remasterpup2.sh:71
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: remasterpup2.sh:72
+msgid "currently mounted"
+msgstr "actuellement monté"
+
+#: remasterpup2.sh:73
+msgid "not mounted"
+msgstr "non monté"
+
+#: remasterpup2.sh:74
+msgid "Filesystem"
+msgstr "Système de fichiers"
+
+#: remasterpup2.sh:75
+msgid "Size"
+msgstr "Taille"
+
+#: remasterpup2.sh:76
+msgid "Free"
+msgstr "Libre"
+
+#: remasterpup2.sh:83
+msgid "NO CD/DVD drives found."
+msgstr "Aucun lecteur de CD/DVD trouvé."
+
+#: remasterpup2.sh:103
+msgid "Puppy live-CD or virtual CD was not found."
+msgstr ""
+
+#: remasterpup2.sh:109
+msgid "Choose the CD/DVD drive..."
+msgstr "Choisissez le lecteur de CD/DVD ..."
+
+#: remasterpup2.sh:171
+#, sh-format
+msgid ""
+"This program requires a ${PUPPYSFS} file mounted on /initrd${PUP_LAYER}."
+msgstr ""
+"Ce programme a besoin des fichiers ${PUPPYSFS} du live-CD monté dans /initrd"
+"${PUP_LAYER}."
+
+#: remasterpup2.sh:172
+msgid ""
+"Which is not the case here, probably because this is a full hard drive "
+"installation?"
+msgstr ""
+"Ce qui n'est pas le cas ici, parce que vous êtes, probablement, en "
+"installation complète."
+
+#: remasterpup2.sh:173
+msgid ""
+"Whatever, boot Puppy from live-CD and then you will be able to use this "
+"script."
+msgstr ""
+"Quoiqu'il en soit, démarrez depuis un CD et vous pourrez utiliser ce script."
+
+#: remasterpup2.sh:175
+#, sh-format
+msgid ""
+"Note, I have not tried it, but if you setup the situation of ${PUPPYSFS} "
+"mounted on directory /initrd${PUP_LAYER}, that will be acceptable for this "
+"program."
+msgstr ""
+"Je n'ai pas essayé, mais si vous réglez la situation de ${PUPPYSFS} monté "
+"dans le répertoire /initrd${PUP_LAYER}, ce sera acceptable pour ce programme."
+
+#: remasterpup2.sh:176
+msgid "You will also need a current live-CD, as the program gets files off it."
+msgstr ""
+"Vous aurez aussi besoin du CD de la version actuelle, parce que le programme "
+"y récupère les fichiers."
+
+#: remasterpup2.sh:177
+msgid "Anyone want to try it?"
+msgstr "Quelqu'un veut-il essayer?"
+
+#: remasterpup2.sh:179 remasterpup2.sh:834
+msgid "Click 'Ok' button to quit..."
+msgstr "Cliquez 'Ok' pour quitter ..."
+
+#: remasterpup2.sh:188
+msgid ""
+"Welcome! This little program takes a snapshot of your current system and "
+"burns it to CD."
+msgstr ""
+"Bienvenue! Ce programme prend un instantané de votre système actuel et le "
+"grave sur un CD."
+
+#: remasterpup2.sh:190
+#, sh-format
+msgid ""
+"A Puppy live-CD has 4 main files: vmlinuz, isolinux.cfg, initrd.gz and "
+"${PUPPYSFS}. Note, in some builds of Puppy there may also be a 5th file, "
+"${ZDRVSFS}."
+msgstr ""
+"Un live-CD contient 4 fichiers principaux: vmlinuz, isolinux.cfg, initrd.gz "
+"et ${PUPPYSFS}. Dans certaines versions, il peut y avoir un 5ème fichier, "
+"${ZDRVSFS}."
+
+#: remasterpup2.sh:192
+#, sh-format
+msgid ""
+"It is ${PUPPYSFS} that mainly interests us here: it has the entire Puppy "
+"filesystem, everything from '/' down. What this script does is rebuild this "
+"file ${PUPPYSFS}, with everything currently under '/' -- that is, all user-"
+"installed packages, all mounted .sfs extension files, everything, gets "
+"combined into one file, ${PUPPYSFS} and burnt to CD."
+msgstr ""
+"C'est le fichier ${PUPPYSFS} qui nous intéresse. Il contient tout le système "
+"de fichiers depuis '/' jusqu'en bas. Ce script effectue la reconstruction de "
+"${PUPPYSFS}, avec tout ce qui est actuellement sous '/'. -- C'est à dire que "
+"tous les différents paquets installés par l'utilisateur, tous les fichiers ."
+"sfs montés, absolument tout sera intégré dans ce seul fichier ${PUPPYSFS} et "
+"gravé sur un CD."
+
+#: remasterpup2.sh:193
+#, sh-format
+msgid ""
+"Note, if you have an 'underdog Linux' mounted, that too will get combined "
+"into the ${PUPPYSFS} file, so beware, it could get big!"
+msgstr ""
+"Attention : Si vous avez une version 'underdog Linux' montée, qui se combine "
+"dans le fichier ${PUPPYSFS} alors il peut devenir ENORME!"
+
+#: remasterpup2.sh:195
+msgid "Click OK button to continue (or close window to quit)..."
+msgstr "Cliquez sur OK pour continuer (ou fermez la fenêtre pour quitter ..."
+
+#: remasterpup2.sh:201
+msgid "Calculating needed working space."
+msgstr "Calcul de l'espace de travail nécessaire."
+
+#: remasterpup2.sh:202
+msgid "Please wait, this may take awhile..."
+msgstr "Patientez, cela peut durer un moment ..."
+
+#: remasterpup2.sh:272
+msgid ""
+"Note 2: you can use the tmpfs ramdisk, which is in RAM, if it has enough "
+"space."
+msgstr ""
+"Note 2: vous pouvez utiliser le ramdisk tmpfs, situé en RAM, si sa taille "
+"est suffisante."
+
+#: remasterpup2.sh:278
+msgid "A working area is required in which to create the new live-CD iso file."
+msgstr "Un espace de travail est nécessaire pour créer le nouveau fichier iso."
+
+#: remasterpup2.sh:279
+#, sh-format
+msgid ""
+"Here are the available partitions. You must choose one that has at least "
+"${SIZENEEDEDM}M free space on it."
+msgstr ""
+"Voici les partitions disponibles. Vous devez en sélectionner une avec au "
+"moins ${SIZENEEDEDM} Mo d'espace libre."
+
+#: remasterpup2.sh:279
+msgid ""
+"Also, if you choose to create an ISO file rather than burn direct to CD/DVD, "
+"then you will need an extra 100 - 300MB space (whatever the size of ISO file "
+"is going to be)."
+msgstr ""
+"Vous aurez besoin de 100 à 300 Mo d'espace supplémentaire si vous voulez "
+"créer une iso sans la graver (quel que soit la taille future du fichier ISO)."
+
+#: remasterpup2.sh:281
+#, sh-format
+msgid ""
+"If the partition that you would like to use has less than ${SIZENEEDEDM}M "
+"free space on it, you will need to quit this script and delete some files."
+msgstr ""
+"Si la partition que vous voulez utiliser a moins de ${SIZENEEDEDM} Mo "
+"d'espace libre, vous devez quitter ce script et effacer quelques fichiers."
+
+#: remasterpup2.sh:283
+msgid ""
+"Note 1: you can use a usb drive, but it needs to have been plugged in before "
+"running this script, so that it will get detected."
+msgstr ""
+"Note 1: vous pouvez utiliser un support USB, mais vous devez l'avoir branché "
+"avant le lancement de ce script, pour qu'il soit detecté."
+
+#: remasterpup2.sh:285
+msgid "Highlight desired choice then click OK button..."
+msgstr "Mettez votre choix en surbrillance et cliquez sur OK ..."
+
+#: remasterpup2.sh:319
+#, sh-format
+msgid "${SFSPATH} found."
+msgstr "${SFSPATH} trouvé."
+
+#: remasterpup2.sh:320
+msgid "Do you want to reuse it without any change?"
+msgstr "Voulez-vous le réutiliser sans aucun changement?"
+
+#: remasterpup2.sh:321
+msgid "If uncertain, click the 'No' button"
+msgstr "Incertain, cliquez sur 'Non'"
+
+#: remasterpup2.sh:332 remasterpup2.sh:356
+#, sh-format
+msgid "Directory ${WKGMNTPT}/puppylivecdbuild already exists."
+msgstr "Le répertoire ${WKGMNTPT}/puppylivecdbuild existe déjà."
+
+#: remasterpup2.sh:334
+msgid ""
+"Normally, this would be created fresh, empty. However, it exists from a "
+"previous execution of 'remasterpup2' script (this program), with files in "
+"it. You may choose to leave these files in-place, for the current remaster. "
+"If uncertain, click the 'Erase' button."
+msgstr ""
+"Normalement, il aurait du être créé de toute pièce et vide. Mais, il en "
+"existe un avec des fichiers, d'une précédente session de ce programme, "
+"'remasterpup2'. Vous pouvez y laisser ces fichiers pour cette session de "
+"reconstruction. Si vous hésitez, cliquez sur 'Supprimer'."
+
+#: remasterpup2.sh:336
+msgid ""
+"Note, if you choose to retain the files: The next operation is this script "
+"will will read files from a CD, however they will not over-write existing "
+"files. Therefore, any customised files will be retained."
+msgstr ""
+"Remarque, si vous choisissez de garder les fichiers, l'opération suivante de "
+"ce script est de lire les fichiers du CD, mais sans pour cela effacer les "
+"fichiers existants. Par conséquent tous les fichiers personnalisés seront "
+"conservés."
+
+#: remasterpup2.sh:338
+msgid ""
+"WARNING: If the files in 'puppylivecdbuild' are for a different version of "
+"Puppy, click the 'Erase' button."
+msgstr ""
+"ATTENTION : Si les fichiers dans 'puppylivecdbuild', sont destinés à une "
+"version différente, cliquez sur 'Effacer'."
+
+#: remasterpup2.sh:339
+msgid "Again, warning, if at all uncertain, click the 'Erase' button."
+msgstr "Au rique de me répéter, au moindre doute, cliquez sur 'Effacer'."
+
+#: remasterpup2.sh:341
+msgid "Click 'Keep' button to retain the files..."
+msgstr "Cliquez sur 'Garder' pour conserver les fichiers ..."
+
+#: remasterpup2.sh:342
+msgid "Click 'Erase' button to delete the files..."
+msgstr "Cliquez sur 'Supprimer' pour effacer les fichiers ..."
+
+#: remasterpup2.sh:343
+msgid "Keep"
+msgstr "Garder"
+
+#: remasterpup2.sh:344
+msgid "Erase"
+msgstr "Supprimer"
+
+#: remasterpup2.sh:355
+msgid "NOTICE:"
+msgstr "REMARQUE"
+
+#: remasterpup2.sh:357
+msgid ""
+"If you want to re-use the files in it, and not re-read files from the CD (or "
+"virtual-CD), just click the window close-box to bypass this operation."
+msgstr ""
+"Si vous voulez réutiliser les fichiers et non pas les relire à partir du CD "
+"(ou du CD virtuel), cliquez simplement sur la boîte de fermeture de la "
+"fenêtre pour passer cette opération."
+
+#: remasterpup2.sh:358
+msgid ""
+"(You may view the directory contents with a file-manager to satisfy yourself "
+"whether these files should be re-used)"
+msgstr ""
+"(Vous pouvez voir le contenu du répertoire avec un gestionnaire de fichiers "
+"pour vous assurer que ces fichiers peuvent être réutilisés)"
+
+#: remasterpup2.sh:360 remasterpup2.sh:383
+msgid "This remaster program needs to read some files off the current live-CD."
+msgstr "Ce programme a besoin de lire certains fichiers du live-CD."
+
+#: remasterpup2.sh:362
+msgid ""
+"However, if a CD-image file (which has filename extension .iso) is mounted, "
+"the files may be read from that. We refer to this as a 'virtual CD'. To "
+"mount a virtual CD, just click on a .iso file."
+msgstr ""
+"Vous pouvez également utiliser un fichier .iso, s'il est déjà monté en CD "
+"virtuel. Pour monter un CD virtuel, il suffit de cliquer sur un fichier iso."
+
+#: remasterpup2.sh:364
+#, sh-format
+msgid ""
+"WARNING: Be sure that the live-CD or .iso file is the correct one for the "
+"currently running Puppy, which is '${DISTRO_NAME}', version "
+"${DISTRO_VERSION}. As a check, it must have in it the file "
+"'${DISTRO_PUPPYSFS}'"
+msgstr ""
+
+#: remasterpup2.sh:366
+msgid ""
+"If you want to read the files off a .iso file rather than a CD/DVD, please "
+"click on the .iso file right now (before clicking the 'OK' button below)"
+msgstr ""
+"Si vous souhaitez lire les fichiers d'un fichier .iso au lieu d'un CD/DVD, "
+"cliquez sur le fichier .iso dès maintenant (avant de cliquer sur le bouton "
+"'OK' ci-dessous)"
+
+#: remasterpup2.sh:367
+msgid ""
+"Alternatively, if you want to read the files off a Puppy live-CD, insert it "
+"in drive, then click 'OK' button."
+msgstr ""
+"Autrement, si vous voulez lire les fichiers d'un live-CD, insérez-le dans le "
+"lecteur puis cliquez sur 'OK'."
+
+#: remasterpup2.sh:384
+msgid ""
+"You can also use a .iso file if it is already mounted as a virtual CD (you "
+"would need to have previously clicked on a .iso file to mount it)."
+msgstr ""
+"Vous pouvez également utiliser un fichier .iso s'il est déjà monté en CD "
+"virtuel. Mais vous devez avoir préalablement cliqué sur le fichier .iso pour "
+"le monter."
+
+#: remasterpup2.sh:398
+msgid "Mounted CD, get rid of it before running this program!"
+msgstr "CD monté, réglez ça avant de lancer ce programme!"
+
+#: remasterpup2.sh:407
+#, sh-format
+msgid "Please insert the current Puppy live-CD into drive ${BURNERDRV}."
+msgstr "Insérez le live-CD dans le lecteur ${BURNERDRV}."
+
+#: remasterpup2.sh:408
+msgid "Then click OK..."
+msgstr "Puis cliquez sur OK ..."
+
+#: remasterpup2.sh:421
+#, sh-format
+msgid "Copying files from CD to ${WKGMNTPT}/puppylivecdbuild/, please wait..."
+msgstr ""
+"Copie des fichiers du CD vers ${WKGMNTPT}/puppylivecdbuild/, patientez ..."
+
+#: remasterpup2.sh:439
+#, sh-format
+msgid "Do you like to make ${ZDRVSFS}, the separate driver file?"
+msgstr "Voulez-vous faire de ${ZDRVSFS} un fichier de pilotes séparé?"
+
+#: remasterpup2.sh:444
+#, sh-format
+msgid "Creating the ${PUPPYSFS} file in ${WKGMNTPT}/puppylivecdbuild/."
+msgstr ""
+"Création en cours du fichier ${PUPPYSFS} dans ${WKGMNTPT}/puppylivecdbuild/."
+
+#: remasterpup2.sh:445
+msgid "This can take quite a long time, so please wait.... and wait..."
+msgstr "Cela peut prendre un bon moment, alors patientez.... et patientez..."
+
+#: remasterpup2.sh:446
+#, sh-format
+msgid "This window will disappear when ${PUPPYSFS} is finally created."
+msgstr "Cette fenêtre disparaitra lorsque ${PUPPYSFS} sera enfin créé."
+
+#: remasterpup2.sh:447
+msgid "Please wait..."
+msgstr "Patientez ... Vous pouvez même aller boire un café ..."
+
+#: remasterpup2.sh:578
+#, sh-format
+msgid ""
+"This program has created folder /tmp/root, which has everything that is now "
+"going to be added as /root in the ${PUPPYSFS} file."
+msgstr ""
+"Ce programme a créé le répertoire /tmp/root, qui va maintenant être ajouté "
+"en tant que /root dans le fichier ${PUPPYSFS}."
+
+#: remasterpup2.sh:579
+msgid ""
+"This is mostly 'pristine', as obviously you do not want all your cache "
+"files, temp files, email files, and other working/temporary files to be "
+"burnt onto the CD. However, if you are familiar with the workings of Puppy, "
+"you might like to take a look at /tmp/root right now, and possibly add "
+"anything that you want from /root (or remove something!)"
+msgstr ""
+"Il est comme à l'origine, puisqu'évidemment vous ne voulez pas que tous vos "
+"fichiers cachés, temporaires, de courriels et autres fichiers de travail "
+"soient gravés sur le CD. Si vous en connaissez le fonctionnement, vous "
+"pouvez jeter un coup d'oeil dans /tmp/root tout de suite et y changer "
+"éventuellement ce que vous voulez."
+
+#: remasterpup2.sh:580
+msgid ""
+"(if you think that this program has missed out something important that  "
+"should be burnt into /root on the CD, please let me know -- Barry Kauler)"
+msgstr ""
+"(Si vous pensez qu'il a été oublié quelque chose d'important qui aurait pu "
+"être ajouté dans /root, faites un rapport sur le forum)."
+
+#: remasterpup2.sh:582
+#, sh-format
+msgid ""
+"After examining /tmp/root, click 'Ok' to add /root in ${PUPPYSFS} file..."
+msgstr ""
+"Après avoir examiné /tmp/root, cliquez sur 'OK' pour ajouter /root dans le "
+"fichier ${PUPPYSFS} ..."
+
+#: remasterpup2.sh:619
+msgid "Hardware customisation was not chosen."
+msgstr "La personnalisation matérielle n'a pas été choisie."
+
+#: remasterpup2.sh:621
+#, sh-format
+msgid "Have created the /etc directory for the new ${PUPPYSFS} file."
+msgstr "Le répertoire /etc a été créé pour le nouveau fichier ${PUPPYSFS}."
+
+#: remasterpup2.sh:622
+msgid "It is in a 'pristine' state, but you can choose to customise it."
+msgstr "Il est dans son état 'originel', mais vous pouvez le personnaliser."
+
+#: remasterpup2.sh:623
+msgid ""
+"Do you want to add customisations for your hardware? Examples are mouse, "
+"keyboard, video. But, if you answer 'Yes' here, the live-CD will be "
+"preconfigured for your PC only. Therefore, it is best to answer 'No' if you "
+"want to boot the new live-CD on different PCs."
+msgstr ""
+"Voulez-vous personnaliser votre matériel? Par exemple : souris, clavier, "
+"vidéo. Si vous répondez 'Oui', le Live-CD sera préconfiguré pour votre PC "
+"uniquement. Par conséquent, il vaut mieux répondre 'Non' si vous voulez "
+"démarrer le nouveau CD sur différents PC."
+
+#: remasterpup2.sh:625
+msgid "Click 'Yes' button to customise /etc..."
+msgstr "Cliquez sur 'Oui' pour personnaliser le répertoire /etc ..."
+
+#: remasterpup2.sh:626
+msgid "Click 'No' button not to customise (recommended)..."
+msgstr "Cliquez sur 'Non' pour ne pas le personnaliser (recommandé) ..."
+
+#: remasterpup2.sh:654
+msgid "These files were customised in /etc:"
+msgstr "Les fichiers personalisés dans le répertoire /etc :"
+
+#: remasterpup2.sh:656
+msgid "Also these directories:"
+msgstr "Ainsi que ces répertoires :"
+
+#: remasterpup2.sh:672
+msgid ""
+"If you know what you are doing, you can now modify any files in /tmp/etc "
+"folder. This is just about to be added to /etc in the .sfs file."
+msgstr ""
+"Si vous savez ce que vous faites, vous pouvez modifier n'importe quel "
+"fichier dans le répertoire /tmp/etc. Il va être ajouté à /etc dans le "
+"fichier .sfs."
+
+#: remasterpup2.sh:673
+msgid "Do anything you want before clicking 'Ok'."
+msgstr "Faites tout ce que vous voulez avant de cliquer sur 'OK'."
+
+#: remasterpup2.sh:674
+msgid ""
+"(If this program has missed something important, let me know -- Barry Kauler)"
+msgstr ""
+"(Toutefois, si quelque chose d'important a été omis, faites en part à B. "
+"Kauler sur le forum.)"
+
+#: remasterpup2.sh:676
+#, sh-format
+msgid "Click 'Ok' to add /etc in ${PUPPYSFS} file..."
+msgstr "Cliquez sur 'Ok' pour ajouter /etc dans le fichier ${PUPPYSFS} ..."
+
+#: remasterpup2.sh:735 remasterpup2.sh:760
+msgid "Almost ready to burn the CD!"
+msgstr "Presque prêt à graver le CD!"
+
+#: remasterpup2.sh:736 remasterpup2.sh:761
+#, sh-format
+msgid ""
+"All the files that will be burnt to CD are in ${WKGMNTPT}/puppylivecdbuild/."
+msgstr ""
+"Tous les fichiers qui seront gravés sur le CD sont dans ${WKGMNTPT}/"
+"puppylivecdbuild/."
+
+#: remasterpup2.sh:738
+msgid "The thing that you may want to do is edit isolinux.cfg. It has this:"
+msgstr ""
+"La dernière chose à faire c'est de modifier éventuellement isolinux.cfg :"
+
+#: remasterpup2.sh:741
+msgid ""
+"'pmedia' parameter is a hint to Puppy what media you are booting Puppy from."
+msgstr "Le paramètre 'pmedia' déclare les options de démarrage du Live-CD."
+
+#: remasterpup2.sh:742
+msgid "'pmedia=cd' means any CD/DVD drive. Other options are:"
+msgstr ""
+"'pmedia=cd' indique le lecteur CD/DVD interne. Les autres options sont :"
+
+#: remasterpup2.sh:744
+msgid ""
+"(where 'ata' means either IDE or SATA interface, i.e. an internal drive)"
+msgstr ""
+"(où 'ata' désigne une interface IDE ou SATA, c'est à dire un disque interne)"
+
+#: remasterpup2.sh:746
+msgid ""
+"'pkeys' is the default keyboard layout. Example: 'pkeys=us'  Choices are:"
+msgstr ""
+"'pkeys' est le paramètre par défaut du clavier. Exemple : 'pkeys=us' les "
+"choix sont :"
+
+#: remasterpup2.sh:749
+msgid ""
+"You may also add any kernel parameters. Some PCs require 'acpi=off' to boot "
+"properly."
+msgstr ""
+"Vous pouvez aussi ajouter des paramètres du noyau. Certains PC requièrent "
+"'acpi=off' pour se lancer correctement."
+
+#: remasterpup2.sh:751
+msgid ""
+"(If answer 'Yes', an editor will appear, must exit editor before this "
+"program will continue)"
+msgstr ""
+"(Si vous choisissez 'Oui', un éditeur va apparaitre, vous devrez le fermer "
+"pour que le programme puisse continuer)"
+
+#: remasterpup2.sh:752
+msgid "Click 'Yes' button to edit isolinux.cfg..."
+msgstr "Cliquez sur 'Oui' pour éditer isolinux.cfg ..."
+
+#: remasterpup2.sh:763
+msgid ""
+"If you want to add any more files, say extra SFS files, or to edit or modify "
+"the files in any way, do it now. Note, if you add an extra SFS file, say "
+"'devx.sfs' then it will be available for use when you boot the new live-CD."
+msgstr ""
+"Si vous voulez ajouter des fichiers supplémentaires, genre SFS, ou éditer, "
+"modifier des fichiers, faites-le maintenant. Si vous ajoutez un SFS "
+"supplémentaire, par exemple 'devx.sfs', il sera alors disponible lorsque "
+"vous démarrerez du nouveau live-CD."
+
+#: remasterpup2.sh:765
+#, sh-format
+msgid ""
+"If you want to make any changes, use ROX-Filer to open ${WKGMNTPT}/"
+"puppylivecdbuild/ and do so now, before clicking the 'OK' button."
+msgstr ""
+"Pour n'importe quel changement, utilisez ROX-Filer pour ouvrir ${WKGMNTPT}/"
+"puppylivecdbuild/ et faites-le maintenant, avant de cliquer sur OK."
+
+#: remasterpup2.sh:773
+msgid ""
+"No boot loaders found. You need isolinux.bin or grldr to make bootable CD."
+msgstr ""
+"Aucun chargeur de démarrage trouvé. Vous avez besoin de isolinux.bin ou "
+"grldr pour un CD bootable."
+
+#: remasterpup2.sh:774
+msgid "Click 'OK' to quit."
+msgstr "Cliquez sur 'OK' pour quitter"
+
+#: remasterpup2.sh:775
+#, sh-format
+msgid "(leaving ${WKGMNTPT}/puppylivecdbuild/ files in existence)"
+msgstr ""
+"(en laissant tels quels les fichiers dans ${WKGMNTPT}/puppylivecdbuild/)"
+
+#: remasterpup2.sh:806
+#, sh-format
+msgid ""
+"All the files that will be burnt to CD/DVD are in ${WKGMNTPT}/"
+"puppylivecdbuild/."
+msgstr ""
+"Tous les fichiers qui seront gravés sur le CD/DVD sont dans ${WKGMNTPT}/"
+"puppylivecdbuild/"
+
+#: remasterpup2.sh:808
+msgid ""
+"As the working partition may have limited space (for example, you are using "
+"a USB pen drive), these files are burnt direct to CD/DVD, rather than create "
+"an intermediary iso file. If you do need an iso file, you can copy it from "
+"the CD afterward:"
+msgstr ""
+"Si la partition de travail a un espace limité (exemple d'une clé USB), ces "
+"fichiers seront gravés directement sur le CD/DVD, au lieu de créer un "
+"fichier iso intermédiaire. Si vous voulez un fichier iso, vous pourrez le "
+"tirer du CD ultérieurement avec cette commande :"
+
+#: remasterpup2.sh:809
+#, sh-format
+msgid "(dd if=/dev/${BURNERDRV} of=puppy.iso seek=0 bs=32k)"
+msgstr "(dd if=/dev/${BURNERDRV} of=puppy.iso seek=0 bs=32k)"
+
+#: remasterpup2.sh:811
+msgid ""
+"However, if you just want to create an iso file now and not burn to CD/DVD, "
+"click the 'No' button."
+msgstr ""
+"Toutefois, si vous voulez simplement créer un fichier iso, sans gravure sur "
+"un CD/DVD, cliquez sur 'Non'"
+
+#: remasterpup2.sh:813
+#, sh-format
+msgid ""
+"Click 'No' button (or close-box on window) to quit program at this point "
+"(leaving ${WKGMNTPT}/puppylivecdbuild/ files in existence), and further "
+"option to create an iso file..."
+msgstr ""
+"Cliquez sur 'Non' (ou sur la boite de fermeture de la fenêtre) pour quitter "
+"ce programme ici (en laissant les fichiers de ${WKGMNTPT}/puppylivecdbuild/ "
+"dans l'état) et créer un fichier iso à l'option suivante ..."
+
+#: remasterpup2.sh:814
+msgid "Click 'Yes' button to burn to CD/DVD..."
+msgstr "Cliquez sur 'Oui' pour graver le CD/DVD ..."
+
+#: remasterpup2.sh:818
+msgid "ISO file not created."
+msgstr "Le fichier ISO n'a pas été créé."
+
+#: remasterpup2.sh:819
+#, sh-format
+msgid ""
+"Click 'Yes' button to create a 'custom-puppy.iso' in ${WKGMNTPT}/ (assuming "
+"that there is 100MB-300MB free space)..."
+msgstr ""
+"Cliquez sur 'Oui' pour créer une 'version-perso.iso' dans ${WKGMNTPT}/ "
+"(considérant qu'il faut 160 à 300 Mo d'espace disponible) ..."
+
+#: remasterpup2.sh:820
+#, sh-format
+msgid ""
+"Click 'No' button (or close-box on window) to quit program at this point "
+"(leaving  ${WKGMNTPT}/puppylivecdbuild/ files in existence)..."
+msgstr ""
+"Cliquez sur 'Non' (ou sur la boite de fermeture de la fenêtre) pour quitter "
+"ce programme ici (en laissant les fichiers de ${WKGMNTPT}/puppylivecdbuild/ "
+"dans l'état) ..."
+
+#: remasterpup2.sh:824
+msgid ""
+"You can add the CD volume ID, it can be used on Windows and on some Linux "
+"system."
+msgstr ""
+"Vous pouvez ajouter le nom de volume de CD, il peut être utilisé sur Windows "
+"et certains systèmes Linux."
+
+#: remasterpup2.sh:830
+#, sh-format
+msgid "${WKGMNTPT}/custom-puppy.iso created."
+msgstr "${WKGMNTPT}/custom-puppy.iso a été créé."
+
+#: remasterpup2.sh:833
+#, sh-format
+msgid "${WKGMNTPT}/puppylivecdbuild/ files left in existence."
+msgstr "Les fichiers de ${WKGMNTPT}/puppylivecdbuild/ laissés en l'état."
+
+#: remasterpup2.sh:841
+msgid ""
+"You need to choose a burner drive so that the files created by this program "
+"can be burnt to a new CD/DVD."
+msgstr ""
+"Choisissez le graveur sur lequel graver les fichiers créés par ce programme "
+"sur un nouveau CD/DVD."
+
+#: remasterpup2.sh:853
+msgid "Please choose the media to burn to."
+msgstr "Choisissez le média sur lequel graver."
+
+#: remasterpup2.sh:854
+#, sh-format
+msgid ""
+"The burner drive is /dev/${BURNERDRV}, and obviously it must be able to burn "
+"a DVD if you want to burn a DVD!"
+msgstr ""
+"Le graveur est /dev/${BURNERDRV} et il peut aussi graver un DVD si vous le "
+"souhaitez!"
+
+#: remasterpup2.sh:856
+msgid "Note, you can later use the 'dd' program to create an iso file:"
+msgstr ""
+"Vous pourrez utiliser plus tard le programme 'dd' pour créer un fichier iso :"
+
+#: remasterpup2.sh:859
+msgid "PLEASE INSERT THE NEW CD OR DVD RIGHT NOW, THEN CHOOSE FROM MENU..."
+msgstr "INSEREZ LE NOUVEAU CD OU DVD MAINTENANT ET CHOISISSEZ DANS LE MENU ..."
+
+#: remasterpup2.sh:860
+msgid "New blank recordable CD"
+msgstr "Nouveau CD inscriptible vierge"
+
+#: remasterpup2.sh:861
+msgid "New blank DVD-R (not +R, -RW, +RW)"
+msgstr "Nouveau DVD-R vierge (non +R, -RW, +RW)"
+
+#: remasterpup2.sh:871
+msgid "Finished. Press ENTER key to continue"
+msgstr "Terminé. Pressez ENTREE pour continuer"
+
+#: remasterpup2.sh:884
+msgid "You should now have a new custom Puppy live-CD!"
+msgstr "Vous devriez avoir,  maintenant, un nouveau live-CD personnalisé!"
+
+#: remasterpup2.sh:886
+msgid "WARNING:"
+msgstr "ATTENTION :"
+
+#: remasterpup2.sh:887
+msgid ""
+"There is a tricky situation here, as all the installed packages (plus "
+"anything else that you may have installed, such as loaded .sfs extension "
+"files, have all been burnt to CD/DVD)."
+msgstr ""
+"Vous voici à présent, devant une situation délicate où tous les paquets "
+"installés (plus tous ceux que vous avez pu installer, tels les fichiers avec "
+"l'extension .sfs), ont tous été gravés sur le CD/DVD."
+
+#: remasterpup2.sh:888
+#, sh-format
+msgid ""
+"But, they are still installed in the current ${DISTRO_FILE_PREFIX}save.2fs, "
+"the Puppy persistent storage file (where all your stuff gets saved, so it is "
+"there next time Puppy is booted)."
+msgstr ""
+"Mais, ils sont aussi présents dans le fichier actuel ${DISTRO_FILE_PREFIX}"
+"save.2fs, le fichier de stockage permanent (contenant toutes vos données et "
+"paramètres, sur lequel le PC démarrera la prochaine fois)."
+
+#: remasterpup2.sh:889
+msgid ""
+"All those files are duplicated, but will that do any harm if you boot the "
+"new CD? ...should be okay, but I recommend that you uninstall as much as "
+"possible right now, before booting the new CD. Note, do not uninstall them "
+"after booting the new CD as that will also 'delete' the packages burnt onto "
+"the CD."
+msgstr ""
+"Tous ces fichiers sont donc dupliqués. Cela peut-il créer un problème si "
+"vous démarrez du nouveau CD? ... Pas de danger, mais je vous recommande d'en "
+"désinstaller le plus possible maintenant, avant de démarrer du nouveau CD. "
+"Surtout ne désinstallez rien après avoir démarré du nouveau CD, cela "
+"'supprimerait' les paquets gravés sur le CD."
+
+#: remasterpup2.sh:892
+msgid ""
+"In fact, this is the wisest thing to do regardless, as you don't even know "
+"if the custom CD is going to work properly -- so it is best to bootup in ram "
+"only to find out!"
+msgstr ""
+"En fait, c'est la meilleure solution, puisque vous ne savez pas encore si le "
+"CD personnalisé marchera correctement. Il vaut donc mieux démarrer en Ram "
+"pour le vérifier!"

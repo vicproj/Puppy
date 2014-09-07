@@ -1,0 +1,357 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: firewall_install.sh VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2012-11-16 09:51+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: firewall_install.sh:114
+msgid "Configuration terminated.  Goodbye."
+msgstr "Configuration achevée. Au revoir!"
+
+#: firewall_install.sh:267
+msgid "Required program dialog not found."
+msgstr "Le module d'échange du programme requis n'a pas été trouvé."
+
+#: firewall_install.sh:297
+msgid "Linux Firewall Configuration Utility"
+msgstr "Utilitaire de configuration du pare-feu Linux."
+
+#: firewall_install.sh:298
+#, sh-format
+msgid ""
+"Welcome to installer version ${GUI_VERSION} for Linux Firewall version "
+"${FW_VERSION}.  You can abort this installation at any time by pressing the "
+"[ESC] key.  Please select your desired installation type below.  The default "
+"installation will close all ports so that no services will be available to "
+"remote hosts.  A custom installation will allow you to configure remote "
+"access and provide an opportunity to enable Internet connection sharing for "
+"hosts on an attached private network."
+msgstr ""
+"Bienvenue dans l'installeur (version ${GUI_VERSION}) pour le pare-feu Linux "
+"(version ${FW_VERSION}). A tout moment, pressez la touche 'Échap' ou 'Esc' "
+"pour interrompre l'installation. Ci-dessous, choisissez le type "
+"d'installation désiré : par défaut, l'installation fermera tous les ports, "
+"et l'accès à tout service distant ; une installation personnalisée vous "
+"permettra de configurer les accès distants et de garder une connexion "
+"internet avec les hôtes de tout réseau privé attaché."
+
+#: firewall_install.sh:299
+msgid "Default installation without questions"
+msgstr "Installation par défaut, sans question."
+
+#: firewall_install.sh:300
+msgid "Default installation"
+msgstr "Installation par défaut."
+
+#: firewall_install.sh:301
+msgid "Custom installation"
+msgstr "Installation personnalisée."
+
+#: firewall_install.sh:322
+msgid "Open Ports"
+msgstr "Ports ouverts"
+
+#: firewall_install.sh:322
+msgid ""
+"Below is a list of common services available on Linux systems.  Using the "
+"space bar, select the services ** running on this machine ** you wish to "
+"make available to remote hosts.  In the next section you will be given a "
+"chance to specify who is allowed to connect to each service.  Afterwards you "
+"will be given an opportunity to specify hosts and networks allowed to bypass "
+"the firewall altogether."
+msgstr ""
+"Ci-dessous, une liste des services communs disponibles pour toute "
+"distribution Linux : avec la barre d'espace, sélectionnez les services qui "
+"tournent sur cet ordinateur, et que vous souhaitez rendre disponibles aux "
+"hôtes distants. Dans la section suivante, spécifiez qui peut se connecter à "
+"chaque service. Après cela, vous pourrez indiquer les hôtes et réseaux "
+"autorisés à passer votre pare-feu."
+
+#: firewall_install.sh:362
+msgid "Specify Open Ports"
+msgstr "Spécifiez les ports ouverts"
+
+#: firewall_install.sh:362
+msgid ""
+"Numerically list additional ports or port ranges available to other "
+"connecting hosts.  In the next section you will be given a chance to specify "
+"who is allowed to connect to each port or port range.  Protocols tcp and udp "
+"can optionally be specified here.  If no protocol is specified, then "
+"connections to either protocol will be accepted. \n"
+"Format: <port or port-range>[/<protocol>] \n"
+"Example: "
+msgstr ""
+"Listez de façon numérique les ports additionnels ou les plages de ports "
+"disponibles pour les autres hôtes connectés ; dans la prochaine section, "
+"vous pourrez indiquer qui vous autorisez à se connecter à chacun des ports. "
+"Les protocoles TCP et UDP peuvent aussi être spécifiés en option : si aucun "
+"protocole n'est indiqué, tous sont acceptés par convention. \n"
+"Format de déclaration : <port ou rangée de ports>[/<protocole>] \n"
+"Exemple : "
+
+#: firewall_install.sh:365
+msgid ""
+"This will open up TCP port 901, port 92 for both TCP and UDP, and TCP ports "
+"2400 through 2500."
+msgstr ""
+"Cela ouvrira le port TCP 901, le port 92 tant en TCP qu'en UDP, TCP et les "
+"ports 2400 à 2500."
+
+#: firewall_install.sh:388 firewall_install.sh:395
+#, sh-format
+msgid "Port ${curport} of ${portnum} - ${portstr}"
+msgstr "Port ${curport} de ${portnum} - ${portstr}"
+
+#: firewall_install.sh:388 firewall_install.sh:395
+#, sh-format
+msgid "Who can access ${portstr}?"
+msgstr "Qui peut accéder à ${portstr}?"
+
+#: firewall_install.sh:389 firewall_install.sh:396
+msgid "Allow from anywhere"
+msgstr "Autoriser depuis n'importe où."
+
+#: firewall_install.sh:390
+#, sh-format
+msgid "Allow from ${LONG_NETWORK_NAME}"
+msgstr "Autoriser depuis le réseau ${LONG_NETWORK_NAME}."
+
+#: firewall_install.sh:391 firewall_install.sh:397
+msgid "Specify Access"
+msgstr "Spécifiez l'accès."
+
+#: firewall_install.sh:415
+#, sh-format
+msgid "Specify access to ${portstr}"
+msgstr "Spécifiez l'accès au port ${portstr}."
+
+#: firewall_install.sh:415
+#, sh-format
+msgid ""
+"Please specify which hosts and/or networks may connect to ${portstr} by "
+"entering a space-delimited list of hosts and/or networks.\n"
+"Format: <host or network address>[/<netmask>]\n"
+"Example: \"207.198.61.33 198.82.0.0/16\""
+msgstr ""
+"Veuillez spécifier quels hôtes et/ou réseaux pourraient se connecter à "
+"${portstr} en entrant les noms d'hôtes et de réseaux séparés par des "
+"espaces. \n"
+"Format de déclaration : <adresse de l'hôte ou du réseau>[/<masque réseau>]\n"
+"Exemple : \"207.198.61.33 198.82.0.0/16\""
+
+#: firewall_install.sh:432 firewall_install.sh:519
+msgid "Invalid Bitmask"
+msgstr "Masque binaire ('bitmask') invalide !"
+
+#: firewall_install.sh:432
+#, sh-format
+msgid ""
+"The host/netmask you specified (${host}/${mask}) was invalid.  Re-enter the "
+"full list of hosts and/or networks for port ${portstr}."
+msgstr ""
+"L'hôte ou le masque réseau spécifié (${host}/${mask}) n'est pas valable. "
+"Saisissez à nouveau la liste complète des hôtes et réseaux pour le port "
+"${portstr}."
+
+#: firewall_install.sh:457
+msgid "Internet Connection Sharing"
+msgstr "Partage de connexion Internet"
+
+#: firewall_install.sh:457
+msgid ""
+"Do you wish to share your Internet connection with a private internal "
+"network?"
+msgstr ""
+"Souhaitez-vous partager votre conexion Internet avec un réseau interne "
+"privé ?"
+
+#: firewall_install.sh:463
+msgid "List Internal Interfaces"
+msgstr "Liste des interfaces internes"
+
+#: firewall_install.sh:463
+msgid ""
+"Enter one or more ethernet interfaces connected to private internal networks "
+"in a space delimited list.\n"
+"Example: \"eth1 eth2\""
+msgstr ""
+"Entrez une ou plusieurs interfaces ethernet connectées aux réseaux internes "
+"privés, et séparez-les par de simples espaces.\n"
+"Exemple : \"eth1 eth2\""
+
+#: firewall_install.sh:473
+msgid "Dial-up Information"
+msgstr "Information de connexion"
+
+#: firewall_install.sh:473
+msgid ""
+"Does this system access the Internet through a telephone dial-up modem?  "
+"This information is required in order to configure Internet connection "
+"sharing and will not effect your Internet access in any way."
+msgstr ""
+"Est-ce que ce système accède à Internet par modem commuté (modem à "
+"numérotation)? Cette information est requise pour configurer le partage de "
+"connexion Internet, mais n'affectera aucunement votre accès à Internet."
+
+#: firewall_install.sh:496
+msgid " (besides existing private internal networks)"
+msgstr " (en plus des réseaux internes et privés existants)"
+
+#: firewall_install.sh:501
+msgid "Trusted Networks"
+msgstr "Réseaux fiables"
+
+#: firewall_install.sh:501
+#, sh-format
+msgid ""
+"If there are any hosts or networks${xtratxt} that should be able to bypass "
+"the firewall altogether and connect to any services running on this system, "
+"please list them here.  This might include hosts allowed to connect here for "
+"administrative purposes. \n"
+"Format: <host or network address>[/<netmask>] \n"
+"Example: \"207.198.61.33 128.173.0.0/16\""
+msgstr ""
+"S'il y a des hôtes ou réseaux${xtratxt} capables de passer le pare-feu et de "
+"se connecter à quelque service tournant sur cet ordinateur, listez-les ici. "
+"Ceci inclut les hôtes autorisés à se connecter ici pour des raisons "
+"administratives. \n"
+"Format : <adresse de l'hôte ou du réseau>[/<masque réseau>] \n"
+"Exemple : \"207.198.61.33 128.173.0.0/16\""
+
+#: firewall_install.sh:519
+#, sh-format
+msgid ""
+"The host/netmask you specified (${host}/${mask}) was invalid.  Re-enter the "
+"complete full-access list."
+msgstr ""
+"L'hôte ou le masque de réseau spécifié (${host}/${mask}) n'est pas valable. "
+"Saisissez à nouveau la liste complète pour les accès sans restriction."
+
+#: firewall_install.sh:548
+msgid "System configuration tests..."
+msgstr "Tests de configuration du système..."
+
+#: firewall_install.sh:551
+msgid "System Configuration Testing"
+msgstr "Test de la configuration du système en cours."
+
+#: firewall_install.sh:551
+msgid ""
+"Your firewall is now ready to be installed.  Would you like to verify your "
+"system configuration first?  This is a recommended step if this is the first "
+"time you are installing a firewall on this host.  The testing procedure will "
+"not modify your current firewall configuration.  Note that this opperation "
+"may take some time depending on the speed of your computer and the "
+"complexity of your firewall configuration."
+msgstr ""
+"Votre pare-feu est désormais prêt à être installé. Voulez-vous auparavant "
+"vérifier votre configuration de système? Cette étape est recommandée pour "
+"une première installation de pare-feu sur cet hôte. Cela ne modifiera en "
+"rien votre configuration courante de pare-feu. Cette opération prendra un "
+"peu de temps en fonction de la rapidité de votre ordinateur et de la "
+"complexité de la configuration du pare-feu."
+
+#: firewall_install.sh:558
+msgid "Running ./rc.firewall"
+msgstr "Exécution de ./rc.firewall"
+
+#: firewall_install.sh:573
+msgid ""
+"Errors were detected in your system configuration.\n"
+"See the output above for specific details."
+msgstr ""
+"Des erreurs ont été détectées sur la configuration du système. \n"
+"Vérifiez la sortie ci-dessous pour les détails."
+
+#: firewall_install.sh:576
+#, sh-format
+msgid ""
+"A copy of the Linux Firewall initialization script preconfigured by this "
+"program is located in ${FW_TMPFILE}\n"
+msgstr ""
+"Une copie du script d'initialisation du pare-feu Linux, préconfiguré par ce "
+"programme se trouve en ${FW_TMPFILE}\n"
+
+#: firewall_install.sh:585
+msgid "Done."
+msgstr "Terminé !"
+
+#: firewall_install.sh:587
+msgid "Press any key to continue ... "
+msgstr "Pressez une touche pour continuer..."
+
+#: firewall_install.sh:597
+msgid "Firewall installation..."
+msgstr "Installation du pare-feu..."
+
+#: firewall_install.sh:600
+msgid "Firewall Installation"
+msgstr "Installation du pare-feu"
+
+#: firewall_install.sh:600
+#, sh-format
+msgid ""
+"The firewall is now ready to be enabled.  Your system configuration will "
+"also be modified so that the firewall will be started each time your "
+"computer is booted.  If you choose not to continue, a copy of the Linux "
+"Firewall initialization script, preconfigured by this program, can be found "
+"here: \"${FW_TMPFILE}\".  Would you like to continue?"
+msgstr ""
+"Le pare-feu peut être activé. Votre configuration de système sera modifiée "
+"pour que le pare-feu soit lancé à chaque démarrage de votre ordinateur. Si "
+"vous choisissez de ne pas continuer, une copie du script d'initialisation du "
+"pare-feu Linux, préconfiguré par ce programme, sera placée ici : "
+"\"${FW_TMPFILE}\".  Voulez-vous continuer?"
+
+#: firewall_install.sh:614 firewall_install.sh:653
+msgid "INSTALLATION FAILED with the following message:"
+msgstr "ECHEC DE L'INSTALLATION, avec le message suivant :"
+
+#: firewall_install.sh:617 firewall_install.sh:659
+#, sh-format
+msgid ""
+"A copy of the Linux Firewall initialization script preconfigured by this "
+"program is located in ${FW_TMPFILE}."
+msgstr ""
+"Une copie du script d'initialisation du pare-feu Linux, préconfiguré par ce "
+"programme, se trouve dans ${FW_TMPFILE}."
+
+#: firewall_install.sh:641
+msgid "Installation Complete"
+msgstr "Installation terminée."
+
+#: firewall_install.sh:643
+#, sh-format
+msgid ""
+"The firewall is now RUNNING on your system.  \n"
+"The firewall initialization script has been installed here: ${FW_INSTALL} \n"
+"and will run each time you boot your system."
+msgstr ""
+"Le pare-feu tourne maintenant sur votre système. \n"
+"Le script d'initialisation du pare-feu a été installé ici : ${FW_INSTALL} \n"
+"et sera activé à chaque démarrage de l'ordinateur."
+
+#: firewall_install.sh:646
+msgid ""
+"Advanced users can modify their firewall configuration by configuring the "
+"above file with any text editor. After making changes you will need to run "
+"the rc.firewall script again for changes to take effect."
+msgstr ""
+"Les utilisateurs avancés peuvent changer la configuration du pare-feu en "
+"modifiant le fichier ci-dessous dans un éditeurt de texte quelconque. Après "
+"toute modification, vous devrez relancer le script rc.firewall pour que les "
+"changements soient pris en compte."
+
+#: firewall_install.sh:648
+msgid "For more information, please visit:   http://projectfiles.com/firewall/"
+msgstr ""
+"Pour plus d'information, visitez s'il vous plaît le site : http://"
+"projectfiles.com/firewall/"

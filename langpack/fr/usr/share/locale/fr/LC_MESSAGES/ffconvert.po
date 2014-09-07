@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ffconvert VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-25 16:29+0900\n"
+"PO-Revision-Date: 2013-10-25 16:20+0900\n"
+"Last-Translator: shinobar <shino@pos.to>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /root/my-applications/bin/ffconvert:28
+msgid "Multimedia converter"
+msgstr "Convertisseur Multimédia"
+
+#: /root/my-applications/bin/ffconvert:62
+msgid "Wait a moment ..."
+msgstr "Veuillez patienter ..."
+
+#: /root/my-applications/bin/ffconvert:75
+msgid "Launching %s"
+msgstr "Lancement de %s"
+
+#: /root/my-applications/bin/ffconvert:168
+msgid "Yes"
+msgstr "Oui"
+
+#: /root/my-applications/bin/ffconvert:169
+msgid "No"
+msgstr "Non"
+
+#: /root/my-applications/bin/ffconvert:190
+msgid "An error occured"
+msgstr "Une erreur s'est produite"
+
+#: /root/my-applications/bin/ffconvert:276
+msgid ""
+"Somewhat fault with the ffmpeg. Ensure the ffmpeg is properly installed."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:298
+msgid "Custom"
+msgstr "Personnel"
+
+#: /root/my-applications/bin/ffconvert:299
+msgid "Copy"
+msgstr "Copier"
+
+#: /root/my-applications/bin/ffconvert:300
+msgid "None"
+msgstr "Aucun"
+
+#: /root/my-applications/bin/ffconvert:301
+msgid "Same as source"
+msgstr "Identique à la source"
+
+#: /root/my-applications/bin/ffconvert:302
+msgid "Not specify"
+msgstr "Non précisé"
+
+#: /root/my-applications/bin/ffconvert:303
+msgid "mono"
+msgstr "mono"
+
+#: /root/my-applications/bin/ffconvert:304
+msgid "stereo"
+msgstr "stéréo"
+
+#: /root/my-applications/bin/ffconvert:369
+msgid "Show all"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:371
+msgid "User defined"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:442
+msgid "Type or drag here the source media file."
+msgstr "Saisissez ou faites glisser le fichier multimédia  source ici."
+
+#: /root/my-applications/bin/ffconvert:443
+#, fuzzy
+msgid ""
+"Optionally, type or drag here the 2nd source media file for the audio track "
+"if you want."
+msgstr "Saisissez ou faites glisser le fichier multimédia  source ici."
+
+#: /root/my-applications/bin/ffconvert:450
+msgid "Tick on here to rip a DVD-video"
+msgstr "Cochez ici pour extraire un DVD vidéo"
+
+#: /root/my-applications/bin/ffconvert:452
+msgid "DVD riping disabled beacause 'vobcopy' not installed."
+msgstr "Extraction de DVD désactivée parce que 'vobcopy' n'est pas installé."
+
+#: /root/my-applications/bin/ffconvert:454
+msgid "Optical drives not found."
+msgstr "Lecteur optique non trouvé."
+
+#: /root/my-applications/bin/ffconvert:458
+msgid "Recoding screen not supported."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:461
+#, fuzzy
+msgid "Tick on here to record screen."
+msgstr "Cochez ici pour extraire un DVD vidéo"
+
+#: /root/my-applications/bin/ffconvert:463
+msgid "Record screen"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:470
+msgid "In"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:470
+msgid "Out"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:470
+#: /root/my-applications/bin/ffconvert:672
+#: /root/my-applications/bin/ffconvert:697
+msgid "Preset"
+msgstr "Pré-réglages"
+
+#: /root/my-applications/bin/ffconvert:470
+msgid "Detail"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:474
+#: /root/my-applications/bin/ffconvert:1334
+#: /root/my-applications/bin/ffconvert:1914
+msgid "Source"
+msgstr "Source"
+
+#: /root/my-applications/bin/ffconvert:475
+#, fuzzy
+msgid "Tick on here to convert audio/video files in your storage."
+msgstr "Cochez pour écraser les fichiers de destination s'ils existent déjà."
+
+#: /root/my-applications/bin/ffconvert:475
+msgid "File"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:496
+msgid "Souce file"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:504
+#: /root/my-applications/bin/ffconvert:551
+msgid "Browse and select the source media file."
+msgstr "Parcourir et sélectionner le fichier multimédia source."
+
+#: /root/my-applications/bin/ffconvert:510
+#: /root/my-applications/bin/ffconvert:557
+#, fuzzy
+msgid "Clear the source file entry."
+msgstr "Lire le fichier multimédia source."
+
+#: /root/my-applications/bin/ffconvert:519
+msgid ""
+"Tick on if you want to convert all files with same extention in the same "
+"directory."
+msgstr ""
+"Cochez si vous voulez convertir tous les fichiers de même extention du même "
+"répertoire."
+
+#: /root/my-applications/bin/ffconvert:521
+msgid "All files in the same directory"
+msgstr "Tous les fichiers du même répertoire"
+
+#: /root/my-applications/bin/ffconvert:530
+#: /root/my-applications/bin/ffconvert:566
+msgid "Property of the source media file."
+msgstr "Propriété du fichier multimédia source."
+
+#: /root/my-applications/bin/ffconvert:531
+#: /root/my-applications/bin/ffconvert:567
+msgid "Info."
+msgstr "Infos"
+
+#: /root/my-applications/bin/ffconvert:535
+#: /root/my-applications/bin/ffconvert:571
+msgid "Play back the source media file."
+msgstr "Lire le fichier multimédia source."
+
+#: /root/my-applications/bin/ffconvert:536
+#: /root/my-applications/bin/ffconvert:572
+#: /root/my-applications/bin/ffconvert:2201
+msgid "Play"
+msgstr "Lire"
+
+#: /root/my-applications/bin/ffconvert:543
+msgid "Souce 2nd"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:579
+msgid "DVD ripping"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:588
+#, fuzzy
+msgid "Screen capture"
+msgstr "Taille de l'écran"
+
+#: /root/my-applications/bin/ffconvert:610
+msgid "Which scope do you want to capture?"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:610
+msgid "Capture scope"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:611
+msgid "Capture one window you will choose after."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:611
+#, fuzzy
+msgid "One window"
+msgstr "Ouvrir un terminal pour voir le journal."
+
+#: /root/my-applications/bin/ffconvert:612
+msgid "Capture whole the screen."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:612
+msgid "Full screen"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:614
+msgid "Trim"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:615
+msgid "Trimming size both top and bottom, in pixel."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:621
+msgid "Duration(min)"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:622
+msgid "Choose recording duration in minutes."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:630
+msgid "Tick on to make '%s' playlist."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:631
+msgid "Destination"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:633
+#: /root/my-applications/bin/ffconvert:1334
+#: /root/my-applications/bin/ffconvert:1341
+#: /root/my-applications/bin/ffconvert:1914
+msgid "Dest. dir."
+msgstr "Répertoire de destination"
+
+#: /root/my-applications/bin/ffconvert:634
+#: /root/my-applications/bin/ffconvert:1342
+msgid "Type or select the destination directory here."
+msgstr "Saisissez ou sélectionnez le répertoire de destination ici."
+
+#: /root/my-applications/bin/ffconvert:638
+#: /root/my-applications/bin/ffconvert:1346
+msgid "Browse and select the destination directory."
+msgstr "Parcourir et sélectionner le répertoire de destination."
+
+#: /root/my-applications/bin/ffconvert:645
+msgid "Tick on to overwrite the destination files if they are exist."
+msgstr "Cochez pour écraser les fichiers de destination s'ils existent déjà."
+
+#: /root/my-applications/bin/ffconvert:647
+msgid "Overwrite files"
+msgstr "Remplacer les fichiers"
+
+#: /root/my-applications/bin/ffconvert:651
+#, fuzzy
+msgid "Playlist"
+msgstr "Lire"
+
+#: /root/my-applications/bin/ffconvert:675
+msgid "Choose from the bellow and click 'Apply'."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:677
+msgid "Load preset options."
+msgstr "Charger les options prédéfinies."
+
+#: /root/my-applications/bin/ffconvert:679
+msgid "Apply"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:686
+msgid "Select preset group."
+msgstr "Sélectionner le groupe prédéfinies."
+
+#: /root/my-applications/bin/ffconvert:689
+msgid "Group"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:695
+msgid "Select preset options."
+msgstr "Sélectionner les options prédéfinies."
+
+#: /root/my-applications/bin/ffconvert:709
+#: /root/my-applications/bin/ffconvert:910
+msgid "Preset name"
+msgstr "Nom du préréglage"
+
+#: /root/my-applications/bin/ffconvert:710
+msgid "Select at the preset tab and click 'Apply'."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:712
+msgid "Save preset options."
+msgstr "Sauvegarder les options prédéfinies."
+
+#: /root/my-applications/bin/ffconvert:714
+msgid "Save"
+msgstr "Sauver"
+
+#: /root/my-applications/bin/ffconvert:721
+msgid "Revert all settings to the default."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:723
+msgid "Default"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:731
+msgid "Video"
+msgstr "Vidéo"
+
+#: /root/my-applications/bin/ffconvert:733
+#: /root/my-applications/bin/ffconvert:794
+msgid "Codec"
+msgstr "Codec"
+
+#: /root/my-applications/bin/ffconvert:741
+msgid "Used only with libx264"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:741
+msgid "X264 ffpreset"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:745
+msgid "Quality"
+msgstr "Qualité"
+
+#: /root/my-applications/bin/ffconvert:752
+#: /root/my-applications/bin/ffconvert:802
+msgid "Bitrate"
+msgstr "Débit moyen"
+
+#: /root/my-applications/bin/ffconvert:759
+msgid "Screen size"
+msgstr "Taille de l'écran"
+
+#: /root/my-applications/bin/ffconvert:766
+msgid "Aspect"
+msgstr "Aspect"
+
+#: /root/my-applications/bin/ffconvert:773
+msgid "Frame rate"
+msgstr "Taux de trame"
+
+#: /root/my-applications/bin/ffconvert:780
+#: /root/my-applications/bin/ffconvert:823
+msgid "Adv. options"
+msgstr "Options avancées"
+
+#: /root/my-applications/bin/ffconvert:781
+msgid "Type additional options for video codec here."
+msgstr "Saisissez ici des options supplémentaires pour le codec vidéo."
+
+#: /root/my-applications/bin/ffconvert:791
+msgid "Audio"
+msgstr "Audio"
+
+#: /root/my-applications/bin/ffconvert:809
+msgid "Sampling"
+msgstr "Echantillonnage"
+
+#: /root/my-applications/bin/ffconvert:816
+msgid "Channels"
+msgstr "Canaux"
+
+#: /root/my-applications/bin/ffconvert:817
+msgid "Select the number of audio channel."
+msgstr "Sélectionnez le nombre de canaux audio"
+
+#: /root/my-applications/bin/ffconvert:824
+msgid "Type additional options for audio codec here."
+msgstr "Saisissez ici des options supplémentaires pour le codec audio"
+
+#: /root/my-applications/bin/ffconvert:834
+msgid "File format"
+msgstr "Format de fichier"
+
+#: /root/my-applications/bin/ffconvert:835
+msgid "Select the target file format."
+msgstr "Sélectionnez le format de fichier cible"
+
+#: /root/my-applications/bin/ffconvert:841
+msgid "Processing"
+msgstr "Traitement"
+
+#: /root/my-applications/bin/ffconvert:842
+msgid "1-pass for quick, 2-pass for slow but high quality."
+msgstr ""
+"1-pass pour rapide, qualité standard. 2-pass pour lent, meilleure qualité."
+
+#: /root/my-applications/bin/ffconvert:855
+msgid "Convert"
+msgstr "Convertir"
+
+#: /root/my-applications/bin/ffconvert:859
+msgid "Browse the local document on FFConvert."
+msgstr "Parcourir le document local sur FFConvert."
+
+#: /root/my-applications/bin/ffconvert:863
+msgid "Browse the ffmpeg document on the internet."
+msgstr "Parcourir le document ffmpeg sur Internet."
+
+#: /root/my-applications/bin/ffconvert:867
+#: /root/my-applications/bin/ffconvert:1976
+#: /root/my-applications/bin/ffconvert:2126
+msgid "Quit"
+msgstr "Quitter"
+
+#: /root/my-applications/bin/ffconvert:895
+msgid "No preset found."
+msgstr "Aucune présélection trouvée."
+
+#: /root/my-applications/bin/ffconvert:906
+msgid "Save as the new preset?"
+msgstr "Enregistrer en tant que nouveau préréglage?"
+
+#: /root/my-applications/bin/ffconvert:907
+msgid "Same name already exists.\\nReplace the preset?"
+msgstr "Un nom identique existe déjà.\\nRemplacer le préréglage?"
+
+#: /root/my-applications/bin/ffconvert:911
+msgid "Type new preset name to save."
+msgstr "Saisissez le nom nouveau du préréglage pour enregistrer."
+
+#: /root/my-applications/bin/ffconvert:946
+msgid "No video nor audio stream in %s."
+msgstr "Aucun flux vidéo ou audio dans %s."
+
+#: /root/my-applications/bin/ffconvert:1113
+msgid "The source screen size not available"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1282
+#, fuzzy
+msgid "Destination directory not specified."
+msgstr "Le répertoire de destination n'est pas spécifiée. Utilise '%s'"
+
+#: /root/my-applications/bin/ffconvert:1282
+#, fuzzy
+msgid "Using '%s'."
+msgstr "Traitement %s ..."
+
+#: /root/my-applications/bin/ffconvert:1310
+msgid "%s shold be a mount point, but no drives mounted."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1315
+msgid "Create new directory?"
+msgstr "Créer un nouveau répertoire?"
+
+#: /root/my-applications/bin/ffconvert:1333
+msgid ""
+"The free space of the destination seems small. But it depends on the "
+"bitrates of the source and the converted. You can change the destination "
+"directory, or go on without change."
+msgstr ""
+"L'espace disponible de destination parait petit. Mais cela dépend des débits "
+"de la source et du converti. Vous pouvez changer le répertoire de "
+"destination, ou continuer sans changer."
+
+#: /root/my-applications/bin/ffconvert:1334
+msgid "free"
+msgstr "libre"
+
+#: /root/my-applications/bin/ffconvert:1376
+msgid "1. Move the crosshair cursor over a window and click there to select"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1377
+msgid "2. Click the record button coming at the bottom-right corner."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1394
+msgid "Click the record button at the bottom-right corner."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1414
+msgid "Start recording"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1419
+msgid "Stop recording"
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1540
+msgid "Insert a DVD-video and click 'OK'."
+msgstr "Insérez un DVD-vidéo et cliquez sur 'OK'."
+
+#: /root/my-applications/bin/ffconvert:1555
+msgid "Detecting DVD."
+msgstr "Détection de DVD."
+
+#: /root/my-applications/bin/ffconvert:1572
+msgid "The disk on '/dev/%s' seems not a DVD-video."
+msgstr "Le disque sur '/dev/%s' ne semble pas un DVD-vidéo."
+
+#: /root/my-applications/bin/ffconvert:1575
+msgid "Failed to mount '/dev/%s'."
+msgstr "Impossible de monter '/dev/%s'."
+
+#: /root/my-applications/bin/ffconvert:1606
+msgid "Rip a DVD"
+msgstr "Extraire un DVD"
+
+#: /root/my-applications/bin/ffconvert:1676
+msgid "Your FFmpeg seems not supporting the codec:"
+msgstr "Votre FFmpeg ne semble pas supporter le codec :"
+
+#: /root/my-applications/bin/ffconvert:1677
+msgid "But anyway, you can proceed."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1718
+msgid "Your FFmpeg seems not supporting the format:"
+msgstr "Votre FFmpeg ne semble pas supporter le format :"
+
+#: /root/my-applications/bin/ffconvert:1765
+msgid "%s is a directory."
+msgstr "%s est un répertoire."
+
+#: /root/my-applications/bin/ffconvert:1766
+msgid "Convert all files in this directory?"
+msgstr "Convertir tous les fichiers dans ce répertoire?"
+
+#: /root/my-applications/bin/ffconvert:1793
+#: /root/my-applications/bin/ffconvert:1801
+msgid "%s not found."
+msgstr "%s introuvable."
+
+#: /root/my-applications/bin/ffconvert:1795
+msgid "Souce file not specified."
+msgstr "Le fichier source n'est pas spécifié."
+
+#: /root/my-applications/bin/ffconvert:1914
+msgid "Converting..."
+msgstr "Conversion en cours ..."
+
+#: /root/my-applications/bin/ffconvert:1917
+msgid "Open a terminal to see the log."
+msgstr ""
+
+#: /root/my-applications/bin/ffconvert:1917
+msgid "Open log window"
+msgstr "Ouvrir un terminal pour voir le journal."
+
+#: /root/my-applications/bin/ffconvert:1952
+msgid "'%s' skipped."
+msgstr "'%s' passé."
+
+#: /root/my-applications/bin/ffconvert:1968
+msgid "'%s' already exists. Skipped."
+msgstr "%s existe déjà. Passé."
+
+#: /root/my-applications/bin/ffconvert:1973
+msgid "%s already exists."
+msgstr "%s existe déjà."
+
+#: /root/my-applications/bin/ffconvert:1974
+msgid "Replace it?"
+msgstr "Le remplacer?"
+
+#: /root/my-applications/bin/ffconvert:1975
+msgid "Replace"
+msgstr "Remplacer"
+
+#: /root/my-applications/bin/ffconvert:1985
+msgid "Processing '%s'..."
+msgstr "Traitement %s ..."
+
+#: /root/my-applications/bin/ffconvert:2091
+msgid "The job is canceled."
+msgstr "La tâche est annulée."
+
+#: /root/my-applications/bin/ffconvert:2091
+msgid "Waiting the last process finishes..."
+msgstr "Attente de la fin des derniers processus ..."
+
+#: /root/my-applications/bin/ffconvert:2091
+msgid "Click 'Cancel' to quit now."
+msgstr "Cliquez sur 'Annuler' pour quitter maintenant."
+
+#: /root/my-applications/bin/ffconvert:2120
+msgid "An error occured."
+msgstr "Une erreur est survenue."
+
+#: /root/my-applications/bin/ffconvert:2121
+msgid "You can check the log at %s."
+msgstr "Vous pouvez consulter le journal à %s."
+
+#: /root/my-applications/bin/ffconvert:2122
+msgid "Look up log"
+msgstr "Consulter journal"
+
+#: /root/my-applications/bin/ffconvert:2124
+msgid "Skip this file and continue?"
+msgstr "Passer ce fichier et continuer?"
+
+#: /root/my-applications/bin/ffconvert:2125
+msgid "Skip"
+msgstr "Passer"
+
+#: /root/my-applications/bin/ffconvert:2153
+msgid "The Job is aborted."
+msgstr "La tâche est interrompue."
+
+#: /root/my-applications/bin/ffconvert:2156
+msgid "No files converted."
+msgstr "Aucun fichier converti."
+
+#: /root/my-applications/bin/ffconvert:2180
+msgid "Successfully converted into %s."
+msgstr "Convertis avec succès dans %s."
+
+#: /root/my-applications/bin/ffconvert:2184
+msgid "%s files successfully converted in %s."
+msgstr "%s fichiers convertis avec succès dans %s."
+
+#: /root/my-applications/bin/ffconvert:2200
+msgid "Browse"
+msgstr ""

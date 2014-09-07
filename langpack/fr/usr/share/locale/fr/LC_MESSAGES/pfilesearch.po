@@ -1,0 +1,394 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: box_ok VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:47+0200\n"
+"PO-Revision-Date: 2012-11-16 09:47+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: box_ok.sh:5
+msgid "Error"
+msgstr "Erreur"
+
+#: box_ok.sh:8
+msgid ""
+"If wanted, there can be several searchpaths.\n"
+"\n"
+"Separate paths with <b>[OR]</b>: '/mnt/ [OR] /root/'.\n"
+"'./' is used to specify current path."
+msgstr ""
+"Si vous voulez, il peut y avoir plusieurs chemins de recherches.\n"
+"\n"
+"Chemins séparés avec <b>[OR]</b>: '/mnt/ [OR] /root/'.\n"
+"'./' est utilisé pour spécifier le chemin actuel."
+
+#: box_ok.sh:13
+msgid ""
+"Searching for 'text in file' is MUCH slower than 'filename'.\n"
+"\n"
+"Regular expressions works only when searching for filenames (not Text in "
+"file).\n"
+"\n"
+"If having problems with local chars, use ? instead of char."
+msgstr ""
+"La recherche de 'texte dans les fichiers' est BEAUCOUP plus lente que par le "
+"'nom de fichier'.\n"
+"\n"
+"Expressions régulières ne fonctionne que dans les cas de recherche par nom "
+"de fichier (pas pour texte dans un fichier).\n"
+"\n"
+"Si vous rencontrez des problèmes en utilisant un signe local, utilisez "
+"alors ? à la place."
+
+#: box_ok.sh:19
+msgid ""
+"To define an exact search, you can use the terms:\n"
+"\n"
+"<b>[OR]</b> Filename/content must contain either 'this [OR] that'. This will "
+"give more results.\n"
+"\n"
+"<b>[AND]</b> Filename/content must contain both 'this [AND] that'. This will "
+"give less results.\n"
+"\n"
+"<b>*</b> Means anything. 'pup*back' finds both 'PuppyBackup' and 'Puppies "
+"are back'.\n"
+"\n"
+"<b>?</b> Means any char. 'pup??back' finds only 'PuppyBackup'. '??' "
+"represent only two chars."
+msgstr ""
+"Pour définir une recherche précise vous pouvez utiliser ces termes :\n"
+"\n"
+"<b>[OR]</b> Nom de fichier/contenu doit avoir 'ceci [OU] cela'. Affiche plus "
+"de résultats.\n"
+"\n"
+"<b>[AND]</b> Nom de fichier/contenu doit avoir à la fois 'ceci [ET] cela'. "
+"Affiche moins de résultats.\n"
+"\n"
+"<b>*</b> Signifie n'importe quoi. 'pup*back' trouvera à la fois "
+"'PuppyBackup' et 'Puppies are back'.\n"
+"\n"
+"<b>?</b> Signifie n'importe quel caractère. 'pup??back' ne trouvera que "
+"'PuppyBackup'. '??' représente seulement 2 caractères."
+
+#: box_ok.sh:29
+msgid ""
+"format: MM/DD/YYYY. \n"
+"<b>atime</b> - day file was accessed.\n"
+"<b>ctime</b> - day file changed \n"
+"(The actual content of file has changed).\n"
+"<b>mtime</b> - day inode was modified\n"
+"  (The attributes or status of file has changed - date, permissions...)."
+msgstr ""
+"format: MM/JJ/AAAA \n"
+"<b>atime</b> - Accès aux fichiers du jour.\n"
+"<b>ctime</b> - Fichiers du jour mofifiés \n"
+"(Le contenu actuel du fichier a changé).\n"
+"<b>mtime</b> -  L'inode du jour a été modifié\n"
+"  (les attributs ou états du fichiers ont changé - date, permissions...)."
+
+#: box_ok.sh:36
+msgid ""
+"<b>1k</b> = 1 kilobyte (small k).\n"
+"<b>1M</b> = 1 megabyte (big M).\n"
+"<b>1G</b> = 1 gigabyte (big G)."
+msgstr ""
+"<b>1k</b> = 1 kilooctets (k minuscule).\n"
+"<b>1M</b> = 1 megaoctets (M majuscule).\n"
+"<b>1G</b> = 1 gigaoctets (G majuscule)."
+
+#: box_ok.sh:40 box_ok.sh:46
+msgid ""
+"Define a directory, and it will NOT be in the searchpath. Setting works "
+"recursively."
+msgstr ""
+"Définir un répertoire, et il ne sera pas dans le chemin de recherche. "
+"Paramètres récursifs."
+
+#: box_ok.sh:42
+#, fuzzy
+msgid ""
+"If wanted, there can be several searchpaths.\n"
+"Separate paths with <b>[OR]</b>: '/mnt/ [OR] /root/'.\n"
+"You can use './' to specify current path."
+msgstr ""
+"Si vous voulez, il peut y avoir plusieurs chemins de recherches.\n"
+"\n"
+"Chemins séparés avec <b>[OR]</b>: '/mnt/ [OR] /root/'.\n"
+"'./' est utilisé pour spécifier le chemin actuel."
+
+#: box_ok.sh:62
+msgid "Ok"
+msgstr "Valider"
+
+#: func.sh:15 func.sh:16 pfilesearch.sh:120
+msgid "All files"
+msgstr "Tous les fichiers"
+
+#: func.sh:19
+msgid "Searching"
+msgstr "Recherche en cours de"
+
+#: func.sh:19
+msgid "in"
+msgstr "dans"
+
+#: func.sh:19
+msgid "Note! The first search will be much slower than the next"
+msgstr "Remarque! La première recherche sera plus lente que les suivantes"
+
+#: func.sh:28
+msgid "Date can not be earlier than 1/1 1970."
+msgstr "La date ne doit pas être antérieure au 1/1 1970."
+
+#: func.sh:241
+msgid "No files found!"
+msgstr "Aucun fichier trouvé!"
+
+#: func.sh:279 pfilesearch.sh:386
+msgid "Preferences"
+msgstr "Préférences"
+
+#: func.sh:281 pfilesearch.sh:391
+msgid "Search"
+msgstr "Recherche en cours"
+
+#: func.sh:281 func.sh:330
+msgid "MIME"
+msgstr "MIME"
+
+#: func.sh:283
+msgid "Searchpath"
+msgstr "Chemin de recherche"
+
+#: func.sh:292 pfilesearch.sh:192
+msgid "Exclude"
+msgstr "Exclure"
+
+#: func.sh:301 pfilesearch.sh:27 pfilesearch.sh:207
+msgid "Options"
+msgstr "Options"
+
+#: func.sh:303 pfilesearch.sh:208
+msgid "Search also subdirectories"
+msgstr "Rechercher aussi les sous-dossiers"
+
+#: func.sh:308 pfilesearch.sh:209
+msgid "Search only current filesystem"
+msgstr "Rechercher seulement dans le système de fichiers actuel"
+
+#: func.sh:313 pfilesearch.sh:210
+msgid "Match only exact filename"
+msgstr "Correspondre au nom de fichier exact"
+
+#: func.sh:318 pfilesearch.sh:211
+msgid "Case sensitive"
+msgstr "Sensible à la casse"
+
+#: func.sh:323 pfilesearch.sh:212
+msgid "Follow symlinks"
+msgstr "Suivre les liens symboliques"
+
+#: func.sh:356
+msgid "Info"
+msgstr "Infos"
+
+#: pfilesearch.sh:28
+msgid "use as backend. Do not show searchresult"
+msgstr "utilisé en 'backend'. Ne pas afficher le résultat de la recherche"
+
+#: pfilesearch.sh:29
+msgid "Do not show 'No Files found' box"
+msgstr "Ne pas afficher la fenêtre 'aucun fichier trouvé'"
+
+#: pfilesearch.sh:30
+msgid "Do not show 'Searching...' box"
+msgstr "Ne pas afficher la fenêtre 'Recherche en cours...'"
+
+#: pfilesearch.sh:31
+msgid "search quiet. No gui"
+msgstr "recherche silencieuse. Aucune interface"
+
+#: pfilesearch.sh:32
+msgid "Search in a specific directory"
+msgstr "Rechercher dans un dossier spécifique"
+
+#: pfilesearch.sh:33
+msgid "Run embedded - gtkdialog code is pointed to stdout"
+msgstr ""
+
+#: pfilesearch.sh:34
+msgid "Run embedded - skip standalone options"
+msgstr ""
+
+#: pfilesearch.sh:35
+msgid "Search for only groups of files:"
+msgstr "Rechercher seulement les groupes de fichiers :"
+
+#: pfilesearch.sh:36
+msgid "documents"
+msgstr "documents"
+
+#: pfilesearch.sh:37
+msgid "pictures"
+msgstr "Images"
+
+#: pfilesearch.sh:38
+msgid "music"
+msgstr "audios"
+
+#: pfilesearch.sh:39
+msgid "videos"
+msgstr "vidéos"
+
+#: pfilesearch.sh:40
+msgid "compressed_files"
+msgstr "fichiers compressés"
+
+#: pfilesearch.sh:41
+msgid "code_files"
+msgstr "fichiers codes"
+
+#: pfilesearch.sh:42
+msgid "install config files and exit"
+msgstr "installer les fichier de configuration et quitter"
+
+#: pfilesearch.sh:43
+msgid "show this help message"
+msgstr "Afficher ce message d'aide"
+
+#: pfilesearch.sh:44
+msgid "show preferences gui at startup"
+msgstr "afficher l'interface des préférences au démarrage"
+
+#: pfilesearch.sh:45
+msgid "Define default search text"
+msgstr "Définir le texte de recherche par défaut"
+
+#: pfilesearch.sh:46
+msgid "show Pfilesearch version"
+msgstr "Afficher la version de Pfilesearch"
+
+#: pfilesearch.sh:145
+msgid "Search for"
+msgstr "Rechercher"
+
+#: pfilesearch.sh:161
+msgid "Filename"
+msgstr "Nom de fichier"
+
+#: pfilesearch.sh:162
+msgid "Text in file (slow)"
+msgstr "Texte dans un fichier (lent)"
+
+#: pfilesearch.sh:174
+msgid "Search in"
+msgstr "Rechercher dans"
+
+#: pfilesearch.sh:216
+msgid "Match only"
+msgstr "Correspondances seules"
+
+#: pfilesearch.sh:220
+msgid "File"
+msgstr "Fichier"
+
+#: pfilesearch.sh:230
+msgid "Symlink"
+msgstr "Lien symbolique"
+
+#: pfilesearch.sh:240
+msgid "Directory"
+msgstr "Répertoire"
+
+#: pfilesearch.sh:251
+msgid "Documents"
+msgstr "Documents"
+
+#: pfilesearch.sh:252
+msgid "Pictures"
+msgstr "Images"
+
+#: pfilesearch.sh:253
+msgid "Soundfiles"
+msgstr "Fichiers audio"
+
+#: pfilesearch.sh:254
+msgid "Videos"
+msgstr "Vidéos"
+
+#: pfilesearch.sh:255
+msgid "Compressed files"
+msgstr "Fichiers compressés"
+
+#: pfilesearch.sh:256
+msgid "Codefiles files"
+msgstr "Fichiers de code"
+
+#: pfilesearch.sh:261
+msgid "Match date"
+msgstr "Par date"
+
+#: pfilesearch.sh:285
+msgid "from"
+msgstr "de"
+
+#: pfilesearch.sh:301
+msgid "to"
+msgstr "à"
+
+#: pfilesearch.sh:313
+msgid "Match size"
+msgstr "Par taille"
+
+#: pfilesearch.sh:316
+msgid "Greater than"
+msgstr "Plus de"
+
+#: pfilesearch.sh:331
+msgid "Less than"
+msgstr "moins de"
+
+#: pfilesearch.sh:342
+msgid "Match user"
+msgstr "Utilisateur"
+
+#: pfilesearch.sh:344
+msgid "Name or ID"
+msgstr "Nom ou ID"
+
+#: pfilesearch.sh:350
+msgid "Match mode"
+msgstr "Par mode"
+
+#: pfilesearch.sh:353
+msgid "Read"
+msgstr "Lire"
+
+#: pfilesearch.sh:359
+msgid "Write"
+msgstr "Ecrire"
+
+#: pfilesearch.sh:366
+msgid "exec"
+msgstr "Exécuter"
+
+#: pfilesearch.sh:369
+msgid "User"
+msgstr "Utilisateur"
+
+#: pfilesearch.sh:370
+msgid "Group"
+msgstr "Groupe"
+
+#: pfilesearch.sh:371
+msgid "Other"
+msgstr "Autre"
+
+#~ msgid "emails"
+#~ msgstr "courriels"

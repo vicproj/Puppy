@@ -1,0 +1,1547 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: box VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: 2013-01-09 19:16+0800\n"
+"Last-Translator: FR_PUPPY_LINUX <fr_puppy_linux@tradux.org>\n"
+"Language-Team: FR_PUPPY_LINUX <fr_puppy_linux@tradux.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Language: French\n"
+
+#: box.sh:9 func.sh:146 func.sh:1426 func.sh:1429 func.sh:1466
+#: func_burn_options.sh:592 func_burn_options.sh:595 func_gui_options.sh:95
+#: func_gui_options.sh:108 func_gui_options.sh:111 func_gui_options.sh:234
+#: func_gui_options.sh:237 func_gui_options.sh:285 func_gui_options.sh:288
+#: func_gui_options.sh:347 func_gui_options.sh:350 func_gui_options.sh:402
+#: func_gui_options.sh:405 func_gui_options.sh:488 func_gui_options.sh:491
+#: func_gui_options.sh:575 func_gui_options.sh:578 func_gui_options.sh:671
+#: func_gui_options.sh:674 func_gui_options.sh:707 func_gui_options.sh:710
+msgid "Information"
+msgstr "Informations"
+
+#: box.sh:17
+msgid "Apply"
+msgstr "Appliquer"
+
+#: box.sh:23 box.sh:42 func_burn_options.sh:491 func_gui.sh:163
+msgid "Blank (Erase) disc"
+msgstr "Vider (effacer) le disque"
+
+#: box.sh:25
+msgid ""
+"<b>Inserted disc is not blank or writable</b>\n"
+"\n"
+"- Burning <b>Audio/Video</b> requires a blank disc.\n"
+"- Burning <b>Data</b> requires a writeable or blank disc."
+msgstr ""
+"<b>Le disque inséré n'est ni vierge/vide ni inscriptible</b>\n"
+"\n"
+"- Le gravage <b>Audio/Vidéo</b> requiert un disque vierge/vide.\n"
+"- Le gravage de <b>Données</b> requiert un disque inscriptible ou vierge."
+
+#: box.sh:29
+msgid ""
+"Burning <b>Image (iso/nrg)</b> may require a blank disc. You can mix data "
+"from the chosen image with the content on the disc, but if burning a "
+"bootable disc it might be corupted. An exception is when updating the LIVE-"
+"disc to a newer version. Files in the new image will replace similar files "
+"on the disc. Press 'Continue' to add more data from the image to the disc."
+msgstr ""
+"Le gravage d'une <b>image iso/nrg</b> peut nécessiter un disque vierge/vide. "
+"Vous pouvez fusionner les données de l'image choisie avec le contenu du "
+"disque, mais dans le cas du gravage d'un disque amorçable il pourrait être "
+"corrompu. Exception: lors de la mise à jour du live-disque vers une version "
+"plus récente. Les fichiers de la nouvelle image remplaceront les fichiers "
+"similaires sur le disque. Cliquez sur 'Continuer' pour ajouter plus de "
+"données à partir de l'image vers le disque."
+
+#: box.sh:31 box.sh:50
+#, fuzzy
+msgid "Blank DVD/Blu-ray (Overwrite existing data)"
+msgstr "Écraser les données existantes"
+
+#: box.sh:33 box.sh:52
+#, fuzzy
+msgid "Blank (Erase) CD"
+msgstr "Vider (effacer) le disque"
+
+#: box.sh:36
+msgid "Continue with valid disc"
+msgstr "Continuer avec un disque valable"
+
+#: box.sh:38 box.sh:57 func.sh:566 func.sh:567 func_gui.sh:171
+msgid "Disc info"
+msgstr "Infos disque"
+
+#: box.sh:44
+msgid "<b>Inserted disc contains data, and is not initialized by pBurn.</b>"
+msgstr ""
+
+#: box.sh:45
+msgid ""
+"Adding data to an already used disc, recommends that the burn-options are "
+"equal to the first session. pBurn can't determine the settings of this disc, "
+"and further burning is risky. \n"
+"\n"
+"Please use a pBurn-initialized or blank disc"
+msgstr ""
+
+#: box.sh:55
+#, fuzzy
+msgid "Continue anyway"
+msgstr "Continuer?"
+
+#: box.sh:61 func_burn_options.sh:424 func_burn_options.sh:446
+#: func_exec.sh:294 func_gui.sh:146 func_gui.sh:151
+msgid "image"
+msgstr "image"
+
+#: box.sh:63
+msgid ""
+"<b>You have chosen to burn a filesystem image (*.iso or *.nrg).\n"
+"\n"
+"Normally the filesystem should be unpacked onto the disc</b>, unless for "
+"some reason you want to put the image on the disc as a single file.\n"
+"\n"
+"What would you like to do?"
+msgstr ""
+"<b>Vous avez choisi de graver une image de système de fichiers (*.iso ou *."
+"nrg).\n"
+"\n"
+"En principe, le système de fichiers devrait être décompressé sur le disque,</"
+"b>, à moins que vous souhaitiez mettre l'image en tant que simple fichier.\n"
+"\n"
+"Que voulez-vous faire?"
+
+#: box.sh:68
+msgid "Unpack filesystem"
+msgstr "Décompressez le système de fichiers"
+
+#: box.sh:69
+msgid "Single file"
+msgstr "Simple fichier"
+
+#: box.sh:74
+msgid "Export iso"
+msgstr ""
+
+#: box.sh:76
+msgid ""
+"The file list contains only movie/image files, and are valid for Video-DVD"
+msgstr ""
+
+#: box.sh:77
+msgid ""
+"Building an iso image for video-DVD requires some extra preparations, - "
+"compared to an ordinary iso for optical pc-drives.\n"
+"Please choose your target."
+msgstr ""
+
+#: box.sh:79
+#, fuzzy
+msgid "Export as-is to iso-image"
+msgstr "Exporter vers une image ISO"
+
+#: box.sh:80
+msgid "Build iso for video-DVD"
+msgstr ""
+
+#: box.sh:86 func.sh:93 func_burn_options.sh:192 func_exec.sh:61
+msgid "Error"
+msgstr "Erreur"
+
+#: box_chooser.sh:14 box_save.sh:24 func.sh:1446
+msgid "Cancel"
+msgstr "Annuler"
+
+#: box_chooser.sh:19 func.sh:341 func.sh:356 func.sh:372 func_gui_options.sh:9
+msgid "Ok"
+msgstr "Valider"
+
+#: box_save.sh:7 box_save.sh:9 box_save.sh:11 box_save.sh:28 func.sh:1450
+msgid "Save"
+msgstr "Enregistrer"
+
+#: box_save.sh:49 func_burn_options.sh:329
+msgid "File already exists."
+msgstr "Le fichier existe déjà."
+
+#: box_save.sh:50 func_burn_options.sh:329
+msgid "Do you want to overwrite existing file?"
+msgstr "Voulez-vous écraser le fichier existant?"
+
+#: func.sh:125 func_gui.sh:191
+msgid "Dependency check"
+msgstr "Vérification des dépendances"
+
+#: func.sh:131 func_gui.sh:176
+msgid "Convert NRG-image (Nero) to ISO-image"
+msgstr "Convertir une image NRG (Nero) en image ISO"
+
+#: func.sh:136 func.sh:634 func.sh:733 func.sh:1002 func_burn_options.sh:24
+msgid "File not found."
+msgstr "Fichier introuvable"
+
+#: func.sh:147
+msgid "Success! New file is"
+msgstr "Succès! Le nouveau fichier est"
+
+#: func.sh:150
+msgid "Operation failed"
+msgstr "L'opération a échoué"
+
+#: func.sh:162
+msgid "Scanning disc ... Please wait"
+msgstr "Examen du disque... Veuillez patienter"
+
+#: func.sh:168 func.sh:214 func.sh:251 func_exec.sh:34
+msgid "No disc inserted"
+msgstr "Aucun disque inséré"
+
+#: func.sh:173
+#, fuzzy
+msgid "Drive not found"
+msgstr "Fichier introuvable"
+
+#: func.sh:214 func.sh:219 func.sh:224 func.sh:233 func.sh:236 func.sh:251
+#: func.sh:255 func.sh:260 func.sh:267
+msgid "Added"
+msgstr "Ajouté"
+
+#: func.sh:214 func.sh:219 func.sh:224 func.sh:233 func.sh:236
+msgid "Min"
+msgstr "Min"
+
+#: func.sh:224 func.sh:260 func.sh:1153 func.sh:1364 func_burn_options.sh:350
+#: func_gui.sh:141
+msgid "Audio CD"
+msgstr "CD Audio"
+
+#: func.sh:229
+msgid "No CD"
+msgstr "Aucun CD"
+
+#: func.sh:255 func.sh:260
+msgid "read only"
+msgstr "lecture seule"
+
+#: func.sh:287
+msgid "Free"
+msgstr "Libre"
+
+#: func.sh:304 func_burn_options.sh:361 func_burn_options.sh:402
+#: func_burn_options.sh:424 func_gui_options.sh:589
+msgid "Slideshow"
+msgstr "Diaporama"
+
+#: func.sh:304
+msgid "images"
+msgstr "images"
+
+#: func.sh:304 func.sh:311 func.sh:313
+msgid "seconds"
+msgstr "secondes"
+
+#: func.sh:311 func.sh:313 func_gui_options.sh:642
+msgid "Background music"
+msgstr "Musique de fond"
+
+#: func.sh:320 func.sh:341 func_gui.sh:175
+msgid "Verify CD quality"
+msgstr "Vérifier la qualité du CD"
+
+#: func.sh:321
+msgid ""
+"This scans the disc for C2 errors. The reader tries to interpolate these "
+"gaps in data, but if there are too many errors, it could give a reading "
+"failure. C2 errors can occur because the disc is physically out-of-balance "
+"(like a wheel which is out-of-round, or heavier on one side), in which case "
+"they may be avoided by reducing the burning speed.\n"
+"\n"
+"<b>Start scanning disc and evaluate output.</b>"
+msgstr ""
+"Recherche des erreurs C2 sur le disque. Le lecteur tente d'interpoler des "
+"lacunes dans les données, mais peut afficher un échec de lecture s'il y a "
+"trop d'erreurs. Les erreurs C2 peuvent se produire lorsque le disque est "
+"physiquement déséquilibré (comme une roue décentrée ou plus lourde d'un "
+"côté): ce genre de problème peut être évité en réduisant la vitesse de "
+"gravage.\n"
+"\n"
+"<b>Examiner le disque et évaluer la sortie.</b>"
+
+#: func.sh:324 func.sh:365
+msgid "Missing dependency"
+msgstr "Dépendance manquante"
+
+#: func.sh:331 func_burn_options.sh:238
+msgid "It's not a valid CD in tray."
+msgstr "Le CD dans le tiroir n'est pas valable."
+
+#: func.sh:332 func.sh:397 func.sh:1142 func_burn_options.sh:125
+#: func_burn_options.sh:239 func_exec.sh:65 func_gui_options.sh:318
+#: pburn.sh:175
+msgid "Device"
+msgstr "Périphérique"
+
+#: func.sh:346 func.sh:356 func.sh:361 func.sh:372 func_gui.sh:173
+#: func_gui.sh:174
+msgid "Fixate"
+msgstr "Fixer"
+
+#: func.sh:347 func.sh:362
+msgid ""
+"It could happend that the burning process burns fine, but halts at the final "
+"fixating. The disc is like this not usable. Fixating disc builds data "
+"coordinates, so the disc will be readable.\n"
+"\n"
+"<b>Start fixating disc.</b>"
+msgstr ""
+"Il peut arriver que le processus de gravage se déroule correctement, mais "
+"bloque lors de la fixation finale. Le disque n'est alors pas utilisable en "
+"l'état. La fixation du disque coordonne la structure des données, rendant le "
+"disque lisible.\n"
+"\n"
+"<b>Démarrer la fixation du disque.</b>"
+
+#: func.sh:378 func_gui_options.sh:478
+msgid "Retrieve CD-text from disc or internet"
+msgstr "Récupérer le CD-text à partir du disque ou Internet"
+
+#: func.sh:396
+msgid "No valid audio-CD inserted."
+msgstr "Aucun CD Audio valable inséré."
+
+#: func.sh:428 func.sh:894 func.sh:938
+msgid "Nothing is selected."
+msgstr "Aucune sélection."
+
+#: func.sh:466 func.sh:494
+msgid "Burning progress"
+msgstr "Progression du gravage"
+
+#: func.sh:466 func.sh:494
+msgid "Emergency STOP"
+msgstr "ARRÊT d'Urgence"
+
+#: func.sh:512 func.sh:710
+msgid "Adding content..."
+msgstr "Ajout du contenu..."
+
+#: func.sh:532
+msgid "Reading disc info from"
+msgstr ""
+
+#: func.sh:546
+msgid "No info"
+msgstr "Aucune information"
+
+#: func.sh:551
+msgid "Blank disc "
+msgstr "Disque vierge"
+
+#: func.sh:553 func_burn_options.sh:124
+msgid "No writable media"
+msgstr "Média non inscriptible"
+
+#: func.sh:569 func_burn_options.sh:479 func_gui_options.sh:75
+#: func_gui_options.sh:150 func_gui_options.sh:520
+msgid "Mediatype"
+msgstr "Type de média"
+
+#: func.sh:570
+msgid "Media size"
+msgstr "Taille du média"
+
+#: func.sh:571
+msgid "Free space"
+msgstr "Espace libre"
+
+#: func.sh:573
+msgid "Md5sum"
+msgstr "Md5sum"
+
+#: func.sh:575
+#, fuzzy
+msgid "Volume label"
+msgstr "Volume"
+
+#: func.sh:576 func_gui_options.sh:697
+msgid "Publisher"
+msgstr "Éditeur"
+
+#: func.sh:577
+msgid "Preparer"
+msgstr "Préparateur"
+
+#: func.sh:579
+msgid "Content of disc"
+msgstr "Contenu du disque"
+
+#: func.sh:592
+msgid "Imports session(s) from"
+msgstr "Importe la ou les session(s) de"
+
+#: func.sh:596 func_exec.sh:37
+msgid "<b>Can't detect burner.</b>"
+msgstr "<b>Détection du graveur impossible.</b>"
+
+#: func.sh:602 func_burn_options.sh:106 func_burn_options.sh:453
+#: func_exec.sh:40
+msgid "Disc is mounted."
+msgstr "Disque monté."
+
+#: func.sh:625
+msgid "Another ISO-image is already imported."
+msgstr "Une autre image ISO est déjà importée."
+
+#: func.sh:629 func_gui.sh:78
+msgid "Import ISO-image"
+msgstr "Importer une image ISO"
+
+#: func.sh:648
+msgid ""
+"A data-disc contains files (and directories) for\n"
+"PCs, mp3-players, Divx-players...\n"
+"Add from the browser/search to the burn list."
+msgstr ""
+"Un disque de données contient des fichiers (et des dossiers)\n"
+"destinés aux PC, lecteurs mp3, lecteurs Divx...\n"
+"Ajouter les éléments à la liste de lecture par navigation ou avec l'outil de "
+"recherche."
+
+#: func.sh:651
+msgid ""
+"An Audio CD can be used in ordinary CD-players.\n"
+"Supported formats are: *.mp3 *.ogg *.wav *.wma ..."
+msgstr ""
+"Un CD Audio est utilisé sur les lecteurs de CD.\n"
+"Formats supportés: *.mp3 *.ogg *.wav *.wma ..."
+
+#: func.sh:653
+msgid ""
+"1. Burn your movies and images, and play it on your TV.\n"
+"    Formats: *.avi *.flv *.mpg *.wmv ... *.gif *.jpg *.png ...\n"
+"2. Make an image slideshow with background music.\n"
+"3. Burn a predefined DVD-video filesystem (video_ts)."
+msgstr ""
+"1. Graver films et images lisibles sur votre TV.\n"
+"    Formats: *.avi *.flv *.mpg *.wmv... *.gif *.jpg *.png...\n"
+"2. Créer un diaporama avec une musique de fond.\n"
+"3. Graver un système de fichiers DVD-vidéo prédéfini (video_ts)."
+
+#: func.sh:680 func.sh:683 func_gui.sh:97 func_gui.sh:98 func_gui.sh:299
+#: func_gui.sh:325
+msgid "Add selection"
+msgstr "Ajouter la sélection"
+
+#: func.sh:680 func.sh:683 func_gui.sh:98 func_gui.sh:299 func_gui.sh:325
+msgid "right click"
+msgstr "clic droit"
+
+#: func.sh:685 func_gui.sh:114 func_gui.sh:115
+msgid "Add audio files"
+msgstr "Ajouter des fichiers audio"
+
+#: func.sh:686 func_gui.sh:118 func_gui.sh:119
+msgid "Add videos"
+msgstr "Ajouter des vidéos"
+
+#: func.sh:687 func_gui.sh:122 func_gui.sh:123
+msgid "Add images"
+msgstr "Ajouter des images"
+
+#: func.sh:688 func_gui.sh:126 func_gui.sh:127
+msgid "Add all"
+msgstr "Tout ajouter"
+
+#: func.sh:690
+#, fuzzy
+msgid ""
+"<b>Nothing to add.</b> Select item in the left pane.\n"
+"\n"
+"Note! You can also add by mouse right click on item."
+msgstr ""
+"<b>Rien à ajouter.</b> Sélectionnez un élément dans le panneau de gauche.\n"
+"Note: Ajout également possible d'un clic droit sur l'élément."
+
+#: func.sh:698 func.sh:704
+msgid "<b>Not valid file format.</b> Operation failed."
+msgstr "<b>Format de fichier incorrect.</b> L'opération a échoué."
+
+#: func.sh:717 func.sh:911
+msgid "Already in burn list"
+msgstr "Déjà dans la liste de gravage"
+
+#: func.sh:729 func.sh:998
+msgid "Open"
+msgstr "Ouvrir"
+
+#: func.sh:743
+msgid "No (play)list is selected."
+msgstr "Aucune liste (de lecture) sélectionnée."
+
+#: func.sh:750
+#, fuzzy
+msgid ""
+"The list seems to be a music playlist. Should pBurn prepare it for burning "
+"an Audio-CD?"
+msgstr ""
+"La liste semble être une liste de lecture Audio. Pburn doit-il numéroter les "
+"pistes pour les garder dans l'ordre?"
+
+#: func.sh:756
+msgid ""
+"The content of the list is valid for a Video-DVD. Should pBurn prepare it "
+"for burning a Video-DVD?"
+msgstr ""
+
+#: func.sh:761
+msgid "Imports external data"
+msgstr "Importe des données externes"
+
+#: func.sh:800
+msgid "Pfilesearch is not installed. Search will not work."
+msgstr "Pfilesearch n'est pas installé. La recherche ne fonctionnera pas."
+
+#: func.sh:830 func.sh:844 func_gui.sh:109
+msgid "Remove"
+msgstr "Retirer"
+
+#: func.sh:831 func.sh:842 func.sh:870 func_gui.sh:101
+msgid "New directory"
+msgstr "Nouveau dossier"
+
+#: func.sh:832 func.sh:843 func.sh:899 func_gui.sh:105
+msgid "Rename"
+msgstr "Renommer"
+
+#: func.sh:853
+msgid "Pburn can't open files from imported sessions."
+msgstr "Pburn ne peut ouvrir des fichiers de sessions importées."
+
+#: func.sh:870
+msgid "Create new directory"
+msgstr "Créer un nouveau dossier"
+
+#: func.sh:888
+msgid "Pburn can't rename files from imported sessions."
+msgstr "Pburn ne peut renommer des fichiers de sessions importées."
+
+#: func.sh:932
+msgid "Pburn can't remove files from imported sessions."
+msgstr "Pburn ne peut retirer des fichiers de sessions importées."
+
+#: func.sh:993 pburn.sh:274
+msgid "CD/DVD/Blu-ray Burner"
+msgstr "Graveur CD/DVD/Blu-ray"
+
+#: func.sh:1022
+msgid "Unable to open file."
+msgstr "Impossible d'ouvrir le fichier"
+
+#: func.sh:1140
+msgid ""
+"Please insert disc.\n"
+"If disc is already in tray, - Please reload it."
+msgstr ""
+"Veuillez insérer le disque.\n"
+"S'il est déjà dans le tiroir - rechargez-le."
+
+#: func.sh:1154 func.sh:1157
+msgid "Closed disc"
+msgstr "Disque clôt en écriture"
+
+#: func.sh:1326
+msgid ""
+"Temporary storage should not be located inside\n"
+"../pburn_symlink_tree/"
+msgstr ""
+"Le stockage temporaire ne devrait pas se trouver dans\n"
+"../pburn_symlink_tree/"
+
+#: func.sh:1345 pburn.sh:203
+msgid "Temporary storage"
+msgstr "Stockage temporaire"
+
+#: func.sh:1345
+msgid "free"
+msgstr "libre"
+
+#: func.sh:1364 func.sh:1366 func_gui_options.sh:517
+msgid "General"
+msgstr "Général"
+
+#: func.sh:1364 func_burn_options.sh:343 func_burn_options.sh:606
+#: func_gui.sh:168
+msgid "Burn"
+msgstr "Gravage"
+
+#: func.sh:1364 func_burn_options.sh:343 func_burn_options.sh:402
+#: func_burn_options.sh:446 func_gui.sh:276 func_gui_options.sh:246
+msgid "Filesystem"
+msgstr "Système de fichiers"
+
+#: func.sh:1364 func_burn_options.sh:300 func_burn_options.sh:316
+#: func_burn_options.sh:338 func_burn_options.sh:343 func_burn_options.sh:350
+#: func_burn_options.sh:361 func_burn_options.sh:366 func_burn_options.sh:380
+#: func_burn_options.sh:491 func_gui_options.sh:301 pburn.sh:167
+msgid "Burner device"
+msgstr "Périphérique de gravage"
+
+#: func.sh:1364 func_burn_options.sh:338 func_burn_options.sh:361
+#: func_gui.sh:142
+msgid "Video DVD/CD"
+msgstr "DVD/CD Vidéo"
+
+#: func.sh:1364 func_burn_options.sh:343 func_burn_options.sh:446
+#: func_gui_options.sh:683
+msgid "Publish"
+msgstr "Édition"
+
+#: func.sh:1367
+msgid "Show hidden files in browser"
+msgstr "Afficher les fichiers cachés dans le navigateur"
+
+#: func.sh:1372
+msgid "Show tooltips (restart required)"
+msgstr "Afficher les info-bulles (redémarrage requis)"
+
+#: func.sh:1377
+msgid "Language"
+msgstr "Langue"
+
+#: func.sh:1387
+msgid "Theme"
+msgstr "Thème"
+
+#: func.sh:1397
+msgid "Sound when burn succeeds"
+msgstr "Son lors de la réussite du gravage"
+
+#: func.sh:1405
+msgid "Sound when burn fails"
+msgstr "Son lors de l'échec du gravage"
+
+#: func.sh:1413 func_gui.sh:50
+msgid "Search"
+msgstr "Rechercher"
+
+#: func.sh:1415
+msgid "Search options / MIME settings"
+msgstr "Options de recherche / paramètres MIME"
+
+#: func.sh:1418
+msgid "Search paths"
+msgstr "Chemins de recherche"
+
+#: func_build_command.sh:30 func_build_command.sh:58
+msgid "Please insert the disk you want to copy in"
+msgstr "Insérez le disque que vous voulez copier"
+
+#: func_build_command.sh:30 func_build_command.sh:58
+msgid ""
+"Since you are using the same drive for both read and write this will be done "
+"in two stages."
+msgstr ""
+"Puisque vous utilisez le même périphérique pour lire et graver, l'opération "
+"sera effectuée en deux temps."
+
+#: func_build_command.sh:30 func_build_command.sh:33 func_build_command.sh:58
+#: func_build_command.sh:66 func_gui.sh:160 func_gui.sh:204
+msgid "Copy data disc"
+msgstr "Copier un disque de données"
+
+#: func_build_command.sh:33 func_build_command.sh:66 func_build_command.sh:113
+msgid "Insert a blank disc in"
+msgstr "Insérez un disque vierge"
+
+#: func_build_command.sh:76 func_build_command.sh:202
+#: func_build_command.sh:211 func_build_command.sh:322
+msgid "<b>dvdauthor</b> must be installed to support Video DVD."
+msgstr ""
+"<b>dvdauthor</b> doit être installé pour prendre en charge les DVD vidéo."
+
+#: func_build_command.sh:80
+msgid "<b>vobcopy</b> must be installed to copy Video DVD."
+msgstr "<b>vobcopy</b> doit être installé pour copier les DVD vidéo."
+
+#: func_build_command.sh:83 func_build_command.sh:89
+msgid "<b>vamps</b> must be installed to shrink Video DVD."
+msgstr "<b>vamps</b> doit être installé pour ajuster les DVD vidéo."
+
+#: func_build_command.sh:113 func_burn_options.sh:338 func_gui.sh:162
+#: func_gui.sh:206 func_gui_options.sh:171
+msgid "Copy/shrink video DVD"
+msgstr "Copier/Ajuster un DVD vidéo"
+
+#: func_build_command.sh:143 func_build_command.sh:212
+msgid "<b>ffmpeg</b> must be installed to burn Audio and convert Video."
+msgstr ""
+"<b>ffmpeg</b> doit être installé pour graver l'Audio et convertir la Vidéo."
+
+#: func_build_command.sh:302
+msgid "<b>vcdimager</b> must be installed to support Video CD (VCD/SVCD)."
+msgstr ""
+"<b>vcdimager</b> doit être installé pour prendre en charge les CD Vidéo (VCD/"
+"SVCD)."
+
+#: func_build_command.sh:345
+msgid "Specify only one iso-file."
+msgstr "Spécifier un seul fichier ISO"
+
+#: func_build_command.sh:395 func_burn_options.sh:162
+#, fuzzy
+msgid "Blanking disc, please wait"
+msgstr "Examen du disque... Veuillez patienter"
+
+#: func_build_command.sh:397 func_burn_options.sh:164
+#, fuzzy
+msgid ""
+"This operation runs a fast blank. If it for some reason fails to blank your "
+"disc, please use the 'blank complete' function from menu 'Burn'."
+msgstr ""
+"Effaçage en cours, veuillez patienter...\n"
+"\n"
+"Cette opération exécute un effaçage rapide. Si pour quelque raison cela ne "
+"fonctionnait pas, veuillez exécuter un effaçage complet à partir du menu "
+"'Gravage'."
+
+#: func_burn_options.sh:19 func_burn_options.sh:380
+msgid "Burn image"
+msgstr "Graver une image"
+
+#: func_burn_options.sh:72
+#, fuzzy
+msgid ""
+"<b>No valid Video-DVD.</b>\n"
+"Please wait for the disc to spin up before trying again."
+msgstr ""
+"<b>Impossible de trouver un DVD vidéo valable.</b>\n"
+"Attendez que le disque s'immobilise avant de réessayer."
+
+#: func_burn_options.sh:80
+msgid ""
+"This is a reminder that your temporary storage is less than 9Gb. If you "
+"intend to shrink the video-DVD you might need more."
+msgstr ""
+"Votre stockage temporaire est inférieur à 9 Go. Si vous souhaitez ajuster un "
+"DVD vidéo, vous devez disposer de plus d'espace."
+
+#: func_burn_options.sh:88
+msgid "No files added."
+msgstr ""
+
+#: func_burn_options.sh:99
+msgid "Can't detect burner."
+msgstr "Impossible de détecter le graveur"
+
+#: func_burn_options.sh:106 func_burn_options.sh:453
+msgid "Do you want to unmount it and continue?"
+msgstr "Voulez-vous le démonter et continuer?"
+
+#: func_burn_options.sh:116 func_burn_options.sh:462
+msgid ""
+"Checking media...\n"
+"Building command"
+msgstr ""
+"Vérification du média...\n"
+"Construction de la commande"
+
+#: func_burn_options.sh:192
+msgid "File(s) to be burnt, does not exist"
+msgstr "Le(s) fichier(s) à graver n'existent pas"
+
+#: func_burn_options.sh:214 func_gui_options.sh:63
+msgid "Overburn"
+msgstr "Gravage en surcapacité"
+
+#: func_burn_options.sh:214
+msgid "The size of burn content is more than the official media size."
+msgstr ""
+"La taille du contenu à graver est supérieure à la taille officielle des "
+"médias."
+
+#: func_burn_options.sh:216
+msgid "Minimum size"
+msgstr "Taille minimum"
+
+#: func_burn_options.sh:217
+msgid "Do you want to activate Overburning?"
+msgstr "Voulez-vous activer le gravage en surcapacité?"
+
+#: func_burn_options.sh:300 func_burn_options.sh:316 func_gui_options.sh:125
+msgid "Copy"
+msgstr "Copier"
+
+#: func_burn_options.sh:300 func_burn_options.sh:316 func_burn_options.sh:338
+#: func_gui_options.sh:360
+msgid "Input device"
+msgstr "Périphérique d'entrée"
+
+#: func_burn_options.sh:300 func_burn_options.sh:316 func_burn_options.sh:338
+#: func_burn_options.sh:343 func_burn_options.sh:350 func_burn_options.sh:361
+#: func_burn_options.sh:366 func_burn_options.sh:380 func_burn_options.sh:402
+#: func_burn_options.sh:424 func_burn_options.sh:446 func_burn_options.sh:491
+msgid "Advanced"
+msgstr "Avancé"
+
+#: func_burn_options.sh:316 func_burn_options.sh:350 func_gui_options.sh:441
+msgid "CD-text"
+msgstr "CD-text"
+
+#: func_burn_options.sh:373
+msgid ""
+"File is not recognized as a filesystem image (*.iso or *.nrg).\n"
+"It could still be valid."
+msgstr ""
+"Le fichier n'est pas reconnu comme image de système de fichiers (*.iso ou *."
+"nrg).\n"
+"Il peut cependant être valable."
+
+#: func_burn_options.sh:388 func_burn_options.sh:391
+#, fuzzy
+msgid "Export to Video-DVD filesystem"
+msgstr "Système de fichiers étendu"
+
+#: func_burn_options.sh:389
+#, fuzzy
+msgid "Where should the new files/folders be saved?"
+msgstr "Où enregistrer la nouvelle image ISO?"
+
+#: func_burn_options.sh:402 func_burn_options.sh:424
+#, fuzzy
+msgid "Video"
+msgstr " Vidéo"
+
+#: func_burn_options.sh:410 func_burn_options.sh:413 func_burn_options.sh:432
+#: func_burn_options.sh:435 func_gui.sh:82
+msgid "Export to ISO-image"
+msgstr "Exporter vers une image ISO"
+
+#: func_burn_options.sh:411 func_burn_options.sh:433
+msgid "Where should the new ISO-image be saved?"
+msgstr "Où enregistrer la nouvelle image ISO?"
+
+#: func_burn_options.sh:467
+msgid ""
+"NOTE!\n"
+"Blanking a DVD or Blu-ray should not be necessarry. The quick way (and "
+"sometimes the only way) is to <b>overwrite existing data on the disc</b>. "
+"This is set in the burn-option dialog."
+msgstr ""
+"NOTE!\n"
+"Effacer un DVD ou un Blu-ray n'est pas forcément nécessaire. La solution "
+"rapide (et parfois la seule) consiste à <b>écraser les données existantes "
+"sur le disque</b>. A configurer dans les options de gravage."
+
+#: func_burn_options.sh:474
+msgid "Type"
+msgstr "Type"
+
+#: func_burn_options.sh:475
+msgid "Fast blank - Erase table of context"
+msgstr "Effaçage rapide - Supprime la table de contexte"
+
+#: func_burn_options.sh:476
+msgid "Blank complete - Erase all datas on disc"
+msgstr "Effaçage complet - Supprime toutes les données sur le disque"
+
+#: func_burn_options.sh:516
+#, fuzzy
+msgid " Burn options"
+msgstr "Options de gravage"
+
+#: func_burn_options.sh:521
+#, fuzzy
+msgid ""
+"Too many options?\n"
+"The default settings are probably ok"
+msgstr ""
+"Trop d'options?\n"
+"Les paramètres par défaut conviennent le plus souvent."
+
+#: func_burn_options.sh:543
+msgid "Edit burn-command (below) and pre-operations"
+msgstr ""
+"Modifier la commande de gravage (ci-dessous) et les opérations préliminaires"
+
+#: func_burn_options.sh:545
+msgid "Dummy burn"
+msgstr ""
+
+#: func_burn_options.sh:550
+msgid "Allow manual edit"
+msgstr "Permettre la modification manuelle"
+
+#: func_burn_options.sh:590
+#, fuzzy
+msgid "CPU-priority"
+msgstr "Définir la priorité du CPU"
+
+#: func_burn_options.sh:634
+msgid ""
+"<b>Burning on-the-fly requires 2 devices.</b>\n"
+"\tPlease specify the correct input drive."
+msgstr ""
+
+#: func_exec.sh:9
+msgid "Reading content of disc ... Please wait ..."
+msgstr "Lecture du contenu du disque. Veuillez patienter..."
+
+#: func_exec.sh:32
+msgid "Unknown error."
+msgstr "Erreur inconnue."
+
+#: func_exec.sh:35
+msgid "<b>No blank disk detected, or no valid multisession disk.</b>"
+msgstr "<b>Aucun disque vierge détecté, ou disque multisessions incorrect.</b>"
+
+#: func_exec.sh:36
+msgid "<b>Joliet error.</b> Consider to deactivate the joliet filesystem."
+msgstr ""
+"<b>Erreur Joliet.</b> Veuillez désactiver le système de fichiers Joliet."
+
+#: func_exec.sh:38
+msgid "<b>Too much data for chosen burn-media.</b>"
+msgstr "Trop de données pour le média choisi."
+
+#: func_exec.sh:39 func_exec.sh:50
+#, fuzzy
+msgid ""
+"<b>This is probably NOT critical</b>. pBurn reports problem with closing "
+"session, but if media is a new Blu-ray disc, please reload and you will most "
+"likely find everything ok."
+msgstr ""
+"<b>Ce n'est probablement PAS critique</b>. Pburn rapporte un problème avec "
+"la fermeture de session: s'il s'agit d'un disque Blu-ray, rechargez-le et "
+"tout devrait rentrer dans l'ordre."
+
+#: func_exec.sh:41
+msgid ""
+"<b>Not enough space in temporary storage.</b> Free up some space, or change "
+"the temporary storage location from menu 'File-Preferences-Burn'."
+msgstr ""
+"<b>Espace de stockage temporaire insuffisant.</b> Libérez de l'espace ou "
+"modifiez l'emplacement de stockage temporaire à partir du menu 'Fichier-"
+"Préférences-Gravage'."
+
+#: func_exec.sh:42
+msgid "<b>Can't blank this media.</b> Be sure to use a complete blank."
+msgstr ""
+"<b>Vidage du média impossible.</b> Assurez-vous d'utiliser l'effaçage "
+"complet."
+
+#: func_exec.sh:43
+msgid "<b>Media seems to be closed for more data.</b>"
+msgstr "<b>Le média semble clos en écriture.</b>"
+
+#: func_exec.sh:44
+#, fuzzy
+msgid "Problem reading content of disc. Please try to"
+msgstr "Lecture du contenu du disque. Veuillez patienter..."
+
+#: func_exec.sh:45
+msgid "Eject disc and reinsert, and 'Start all over again'"
+msgstr ""
+
+#: func_exec.sh:46
+msgid ""
+"Inserted disc is not writeable\n"
+"\n"
+"It could be that the disc is spinning up.\n"
+"If so, please wait and try to burn again."
+msgstr ""
+"Le disque inséré n'est pas inscriptible\n"
+"\n"
+"Il se peut que le disque soit en rotation.\n"
+"Dans ce cas, veuillez attendre et réessayez."
+
+#: func_exec.sh:55 func_exec.sh:123
+msgid "Save ripped movie"
+msgstr ""
+
+#: func_exec.sh:64
+msgid "See log for more information."
+msgstr "Voir le journal pour de plus amples informations."
+
+#: func_exec.sh:68 func_exec.sh:168
+msgid "Save log"
+msgstr "Enregistrer le journal"
+
+#: func_exec.sh:70
+msgid "Start burning once more"
+msgstr "Recommencer un gravage"
+
+#: func_exec.sh:71
+msgid "Start all over again"
+msgstr "Tout reprendre à zéro"
+
+#: func_exec.sh:115
+msgid "Save ISO"
+msgstr "Enregistrer l'ISO"
+
+#: func_exec.sh:119
+msgid "Save Slideshow file"
+msgstr "Enregistrer le fichier de diaporama"
+
+#: func_exec.sh:129 func_exec.sh:135 func_exec.sh:140
+msgid "Note! <b>Verify may take time.</b> Depending on burnt complexity."
+msgstr ""
+"Note: La <b>vérification peut prendre du temps!</b>selon la complexité du "
+"contenu gravé."
+
+#: func_exec.sh:130 func_exec.sh:136 func_exec.sh:141 func_exec.sh:243
+#: func_exec.sh:273
+msgid "Verify burn"
+msgstr "Vérifier le gravage"
+
+#: func_exec.sh:147 func_exec.sh:321
+msgid "Burn another copy"
+msgstr "Graver une autre copie"
+
+#: func_exec.sh:153
+#, fuzzy
+msgid "Eject disc when finished"
+msgstr "Éjecter le disque à la fin du gravage"
+
+#: func_exec.sh:160 func_exec.sh:173
+msgid "Finished"
+msgstr "Terminé"
+
+#: func_exec.sh:163
+msgid "Operation finished!"
+msgstr "Opération terminée!"
+
+#: func_exec.sh:233 func_exec.sh:248 func_exec.sh:260 func_exec.sh:278
+#: func_exec.sh:295
+msgid "Verifying disc"
+msgstr "Vérification du disque"
+
+#: func_exec.sh:233 func_exec.sh:260
+msgid "Please wait..."
+msgstr "Veuillez patienter..."
+
+#: func_exec.sh:233 func_exec.sh:260
+msgid "NB! Do not use disc while verifying..."
+msgstr "N'utilisez surtout pas le disque pendant la vérification..."
+
+#: func_exec.sh:240 func_exec.sh:269
+msgid "Verifying finished"
+msgstr "Vérification terminée"
+
+#: func_exec.sh:243 func_exec.sh:273
+#, fuzzy
+msgid "Errors found! Check the pBurn log"
+msgstr "Des erreurs ont été trouvées! Voir le journal du gravage."
+
+#: func_exec.sh:244 func_exec.sh:274 func_exec.sh:296
+msgid ""
+"<b>Note!</b>\n"
+"Depending on the linux kernel, you might need to reload disc to verify it "
+"correct. Please reload (eject and insert) disc and try again."
+msgstr ""
+"<b>Note!</b>\n"
+"Selon le noyau Linux, vous devez recharger le disque pour vérifier qu'il est "
+"correct. Veuillez recharger (éjection-insertion) le disque et réessayer."
+
+#: func_exec.sh:249 func_exec.sh:279
+msgid "No errors returned"
+msgstr "Aucune erreur renvoyée"
+
+#: func_exec.sh:286
+#, fuzzy
+msgid "Calculating md5sum, please wait"
+msgstr "Examen du disque... Veuillez patienter"
+
+#: func_exec.sh:321
+msgid "Insert new disc, WAIT FOR MEDIA TO SPIN UP, and press OK."
+msgstr ""
+"Insérez un nouveau disque, ATTENDEZ L'IMMPBILISATION DU MÉDIA puis validez."
+
+#: func_gui.sh:70
+msgid "Import session(s) from disc"
+msgstr "Importer la ou les session(s) du disque"
+
+#: func_gui.sh:74
+msgid "Import (play)list"
+msgstr "Importer la liste (de lecture)"
+
+#: func_gui.sh:87
+msgid "Preferences"
+msgstr "Préférences"
+
+#: func_gui.sh:93
+msgid "File"
+msgstr "Fichier"
+
+#: func_gui.sh:133
+msgid "Add content of (play)list"
+msgstr "Ajouter le contenu de la liste (de lecture)"
+
+#: func_gui.sh:137
+msgid "Edit"
+msgstr "Édition"
+
+#: func_gui.sh:140
+msgid "Data CD/DVD/Blu-ray"
+msgstr "CD/DVD/Blu-ray de données"
+
+#: func_gui.sh:161 func_gui.sh:205
+msgid "Copy audio CD"
+msgstr "Copier un CD Audio"
+
+#: func_gui.sh:166 func_toc_cue.sh:19 func_toc_cue.sh:20
+msgid "Audio from TOC file"
+msgstr "Audio à partir d'un fichier TOC"
+
+#: func_gui.sh:167 func_toc_cue.sh:51
+msgid "Audio from CUE file"
+msgstr "Audio à partir d'un fichier CUE"
+
+#: func_gui.sh:180
+msgid "Author files in list to Video-DVD filesystem"
+msgstr ""
+
+#: func_gui.sh:181
+msgid "Author files in list to Video-DVD ISO-image"
+msgstr ""
+
+#: func_gui.sh:183
+msgid "Eject disc"
+msgstr "Éjecter le disque"
+
+#: func_gui.sh:184
+msgid "Load tray"
+msgstr "Charger le tiroir"
+
+#: func_gui.sh:185
+msgid "Tools"
+msgstr "Outils"
+
+#: func_gui.sh:192
+msgid "Help"
+msgstr "Aide"
+
+#: func_gui.sh:198
+msgid "Burn ISO-image"
+msgstr "Graver une image ISO"
+
+#: func_gui.sh:203
+msgid "Blank disc"
+msgstr "Effacer le disque"
+
+#: func_gui.sh:210 func_gui_options.sh:375
+msgid "Burn mode"
+msgstr "Mode de gravage"
+
+#: func_gui.sh:213
+msgid "Burn Data"
+msgstr " Données"
+
+#: func_gui.sh:223
+msgid "Burn Audio"
+msgstr " Audio"
+
+#: func_gui.sh:233
+msgid "Burn Video"
+msgstr " Vidéo"
+
+#: func_gui.sh:252
+msgid "Go to burn options"
+msgstr "Options de gravage"
+
+#: func_gui.sh:262
+msgid "Add data from here... (mouse-click-right)"
+msgstr "Ajouter des données à partir de ce panneau... (clic droit)"
+
+#: func_gui.sh:266
+msgid "Home"
+msgstr "Home"
+
+#: func_gui.sh:271
+msgid "Desktop"
+msgstr "Bureau"
+
+#: func_gui.sh:287
+msgid "Search for filename"
+msgstr "Rechercher des noms de fichiers"
+
+#: func_gui.sh:311
+msgid "...burn content of this list"
+msgstr "... graver le contenu de cette liste"
+
+#: func_gui.sh:313
+msgid "name"
+msgstr "nom"
+
+#: func_gui.sh:313
+msgid "size"
+msgstr "taille"
+
+#: func_gui.sh:323
+msgid "Add item to burn-list. (mouse-click-right)"
+msgstr "Ajouter un élément à la liste de gravage. (clic droit)"
+
+#: func_gui.sh:328
+msgid ""
+"Remove item from burn list.\n"
+"This will NOT delete source file."
+msgstr ""
+"Retirer un élément de la liste de gravage.\n"
+"Cela n'affecte PAS le fichier source."
+
+#: func_gui.sh:336
+msgid "Create new directory on the burn disc."
+msgstr "Créer un nouveau dossier sur le disque à graver"
+
+#: func_gui.sh:343
+msgid ""
+"Rename item on the burn disc. \n"
+"This will NOT change source file."
+msgstr ""
+"Renommer un élément dans le disque à graver. \n"
+"Cela n'affecte PAS le fichier source."
+
+#: func_gui.sh:351
+msgid "Move item UP"
+msgstr "Déplacer vers le BAS"
+
+#: func_gui.sh:358
+msgid "Move item DOWN"
+msgstr "Déplacer vers le HAUT"
+
+#: func_gui_options.sh:36
+msgid "Disc options"
+msgstr "Options du disque"
+
+#: func_gui_options.sh:39
+msgid "Overwrite existing data on disc"
+msgstr "Écraser les données existantes"
+
+#: func_gui_options.sh:54
+msgid "Close disc - Make disc unwritable after this burn"
+msgstr ""
+"Clore le disque en écriture - Ne permet aucune écriture sur le disque après "
+"gravage"
+
+#: func_gui_options.sh:70
+msgid "On-the-fly (No local buffer)"
+msgstr ""
+
+#: func_gui_options.sh:88
+#, fuzzy
+msgid "More options"
+msgstr "Options du disque"
+
+#: func_gui_options.sh:100
+msgid "About burning a Puppy iso-image"
+msgstr "A propos du gravage d'une image ISO de Puppy/ToOpPy"
+
+#: func_gui_options.sh:101
+#, fuzzy
+msgid ""
+"Puppy Linux supports writing user-data back to the Live-CD/DVD during "
+"shutdown - no harddrive is needed. To do this, the disc must be open for "
+"more burning. You should not close disc if you intend to use the CD/DVD as "
+"your personal storage."
+msgstr ""
+"Puppy/ToOpPy prend en charge l'écriture des données personnelles de "
+"l'utilisateur sur les Live-CD/DVD à la fermeture de session. Aucun disque "
+"dur n'est requis. Pour ce faire, le disque doit être ouvert en écriture. "
+"Choisissez le gravage en multisessions pour utiliser les CD/DVD comme "
+"supports de stockage personnel."
+
+#: func_gui_options.sh:128
+msgid "On-the-fly - No temporary storage (MUST BE 2 different drives)"
+msgstr ""
+"A la volée - Pas de stockage temporaire (2 périphériques distincts REQUIS)"
+
+#: func_gui_options.sh:136
+msgid "Use temporary storage (Can copy with only 1 drive)"
+msgstr ""
+"Utiliser le stockage temporaire (copie possible avec 1 seul périphérique)"
+
+#: func_gui_options.sh:174
+msgid "Copy the complete DVD - (requires most often to burn a dual layer DVD)"
+msgstr ""
+"Copier l’intégralité du DVD - (requiert le plus souvent un DVD double couche)"
+
+#: func_gui_options.sh:184
+msgid "Copy only movie - shrink to fit on a common (single-layer) DVD"
+msgstr "Copier le film uniquement - ajuster pour un DVD simple couche"
+
+#: func_gui_options.sh:196
+msgid "Title (Field shows title with most chapters):"
+msgstr "Titre (les champs affichent les titres avec la plupart des chapitres):"
+
+#: func_gui_options.sh:209
+msgid "Subtitle channel (your language):"
+msgstr "Canal de sous-titrage (votre langue):"
+
+#: func_gui_options.sh:222
+msgid "Audiostream (for dubbed movie):"
+msgstr "Flux Audio (pour les films doublés):"
+
+#: func_gui_options.sh:250
+msgid "Recent Linux, Mac, Windows... "
+msgstr ""
+
+#: func_gui_options.sh:257
+msgid "Others (Standalone players, Windows 95/98...)"
+msgstr ""
+
+#: func_gui_options.sh:264
+msgid "Old standard (8.3 naming)"
+msgstr ""
+
+#: func_gui_options.sh:273
+msgid ""
+"pBurn has detected the filesystem on the disc.\n"
+"Please keep this to avoid burn error."
+msgstr ""
+
+#: func_gui_options.sh:281
+msgid ""
+"Follow symlink - (When off, 'size' will probably show more than you actually "
+"need)"
+msgstr ""
+"Suivre les liens symboliques - (si décoché, 'taille' affichera probablement "
+"plus que nécessaire)"
+
+#: func_gui_options.sh:306
+#, fuzzy
+msgid "My burner device"
+msgstr "Périphérique de gravage"
+
+#: func_gui_options.sh:318 pburn.sh:175
+msgid "Media"
+msgstr "Média"
+
+#: func_gui_options.sh:328
+#, fuzzy
+msgid "CD burn speed"
+msgstr "Vitesse de gravage du CD"
+
+#: func_gui_options.sh:337
+#, fuzzy
+msgid "DVD/Blu-ray burn speed"
+msgstr "Graveur CD/DVD/Blu-ray"
+
+#: func_gui_options.sh:367
+msgid "The device you want to copy from, may be the same as the burner device"
+msgstr ""
+"Le périphérique à partir duquel vous voulez effectuer la copie peut être le "
+"même que pour le gravage"
+
+#: func_gui_options.sh:378
+msgid "Track-at-once - Safe mode"
+msgstr "Piste à piste - Mode sûr"
+
+#: func_gui_options.sh:383
+msgid "Disc-at-once - No gaps between songs"
+msgstr "Disque entier - Aucune pause entre les pistes (gourmand en mémoire)"
+
+#: func_gui_options.sh:389
+msgid "Raw mode - Some burners support only this"
+msgstr "Mode RAW - Seul mode pris en charge par certains graveurs"
+
+#: func_gui_options.sh:398
+msgid "Normalize volume"
+msgstr "Normaliser le volume"
+
+#: func_gui_options.sh:419
+msgid "Activate CD-text"
+msgstr "Activer le CD-Texte"
+
+#: func_gui_options.sh:446
+msgid "Album artist"
+msgstr "Artiste de l'album"
+
+#: func_gui_options.sh:456
+msgid "Album title"
+msgstr "Titre de l'album"
+
+#: func_gui_options.sh:468 func_gui_options.sh:472
+msgid "Artist - Song"
+msgstr "Artiste - Morceau"
+
+#: func_gui_options.sh:501
+msgid "Aspect ratio"
+msgstr "Rapport d'aspect"
+
+#: func_gui_options.sh:510
+msgid "widescreen"
+msgstr "Écran large"
+
+#: func_gui_options.sh:530 func_gui_options.sh:621
+msgid "View images (in seconds)"
+msgstr "Vue des images (en secondes)"
+
+#: func_gui_options.sh:540
+msgid "Pause between movies (in seconds)"
+msgstr "Pause entre les films (en secondes)"
+
+#: func_gui_options.sh:554 func_gui_options.sh:569
+msgid "TV standard"
+msgstr "TV standard"
+
+#: func_gui_options.sh:569
+msgid "Country"
+msgstr "Pays"
+
+#: func_gui_options.sh:592
+msgid "Activate image slideshow"
+msgstr "Activer le diaporama"
+
+#: func_gui_options.sh:613
+msgid "Only build Slideshow file (*.mpg) - NO burn"
+msgstr "Construire uniquement un fichier de diaporama (*.mpg) - Sans gravage"
+
+#: func_gui_options.sh:662
+msgid "Time"
+msgstr "Durée"
+
+#: func_gui_options.sh:687
+msgid "Project label"
+msgstr "Nom du projet"
+
+#: func_toc_cue.sh:6 func_toc_cue.sh:11
+msgid "Select a toc file"
+msgstr "Sélectionner un fichier TOC"
+
+#: func_toc_cue.sh:11 func_toc_cue.sh:44
+msgid "Not a valid file!"
+msgstr "Fichier incorrect!"
+
+#: func_toc_cue.sh:21 func_toc_cue.sh:53
+msgid "Continue?"
+msgstr "Continuer?"
+
+#: func_toc_cue.sh:39 func_toc_cue.sh:44
+msgid "Select a cue file"
+msgstr "Sélectionner un fichier CUE"
+
+#: func_toc_cue.sh:52
+msgid "You are about to create a CD using the file"
+msgstr "Vous êtes sur le point de créer un CD utilisant le fichier"
+
+#: pburn.sh:168
+#, fuzzy
+msgid ""
+"pBurn has not detected your burner drive, and is set to /dev/cdrom. This "
+"will often work ok, but to be sure you should define (click on) the correct "
+"one."
+msgstr ""
+"Votre graveur semble n'être pas automatiquement détecté par Pburn. Il est "
+"actuellement défini comme /dev/cdrom. Cela fonctionne dans la plupart des "
+"cas, mais il vaut mieux définir (cliquez dessus) correctement le graveur."
+
+#: pburn.sh:176
+#, fuzzy
+msgid "Generic"
+msgstr "Général"
+
+#: pburn.sh:186
+#, fuzzy
+msgid ""
+"pBurn's <b>temporary storage is small</b>. This can cause problems when "
+"burning a large amount of data. If running a system inside a virtual "
+"filesystem (like Puppylinux), We recommend you to change this setting to a "
+"directory on a mounted hard drive. 10Gb of free space would do for most "
+"burning tasks.\n"
+"\n"
+"<b>Temporary storage on a Windows FAT partition works mostly, but will fail "
+"for audio/video burning.</b> NTFS is fine."
+msgstr ""
+"Le  stockage temporaire de Pburn <b>est réduit</b>. Des problèmes lors du "
+"gravage d'une quantité importante de données peuvent survenir. Si vous "
+"exécutez le système à l'intérieur d'un système de fichiers virtuel (comme "
+"Puppy/ToOpPy), il est recommandé de modifier la configuration actuelle de "
+"votre stockage temporaire vers un répertoire d'un disque dur monté. 10 Go "
+"d'espace libre seront suffisants pour la plupart des tâches de gravage.\n"
+"\n"
+"<b>Le stockage temporaire sur une partition FAT de Windows fonctionne la "
+"plupart du temps, mais échouera pour un gravage audio/vidéo.</b> NTFS est "
+"très bien."
+
+#: pburn.sh:193
+msgid ""
+"<b>Important!</b> Temporary storage does not exist, or points to an "
+"unmounted partition. Please change the location, or mount the partition. "
+"<b>NOW!</b>"
+msgstr ""
+"<b>Important!</b> Le stockage temporaire n'existe pas, ou pointe sur une "
+"partition non montée. Modifiez l'emplacement ou montez la partition "
+"<b>MAINTENANT!</b>"
+
+#: pburn.sh:210
+msgid "Skip this message at next startup"
+msgstr "Passer ce message au prochain lancement"
+
+#: pburn.sh:238
+msgid ""
+"Pburn is already running, or it was previously exited incorrectly.\n"
+"<b>Clear storage, and continue?</b>"
+msgstr ""
+"Pburn est déjà en cours d’exécution, ou a été quitté incorrectement.\n"
+"<b>Vider le stockage et continuer?</b>"
+
+#~ msgid "Base filesystem"
+#~ msgstr "Système de fichiers de base"
+
+#~ msgid "Iso9660 level 1 - 8.3 chars. This is very compatible."
+#~ msgstr "Iso9660 niveau 1 - 8.3 caractères - Grande compatibilité."
+
+#~ msgid "Iso9660 level 3 - max 31 uppercase chars and no spaces."
+#~ msgstr "Iso9660 niveau 3 - 31 caractères majuscules maximum sans espace."
+
+#~ msgid "Joliet - Long filenames in Windows"
+#~ msgstr "Joliet - Noms de fichiers longs Windows"
+
+#~ msgid "Multisession - Allow more burning on this disc later"
+#~ msgstr "Multisession - Permet des gravages ultérieurs sur le disque"
+
+#~ msgid "Nothing to burn."
+#~ msgstr "Rien à graver"
+
+#~ msgid "On-the-fly - No temporary storage (DVD/Blu-ray recommended)"
+#~ msgstr ""
+#~ "A la volée - Pas de stockage temporaire (recommandé pour les DVD/Blu-ray)"
+
+#~ msgid "Refresh command"
+#~ msgstr "Rafraîchir la commande"
+
+#~ msgid "Rockridge - Long filenames in Linux"
+#~ msgstr "Rockridge - Noms de fichiers longs Linux"
+
+#~ msgid "The DVD burn speed"
+#~ msgstr "Vitesse de gravage du DVD"
+
+#~ msgid ""
+#~ "The Video-DVD is now ripped, and you could optional test/save it. If you "
+#~ "want to convert it to a compressed format like avi, you could use a "
+#~ "program FFconvert or similar. Be aware that the ripped file will be "
+#~ "removed after burning is completed. The file is located in"
+#~ msgstr ""
+#~ "Le DVD vidéo est maintenant 'rippé' et vous pouvez soit le tester soit "
+#~ "l'enregistrer. Si vous voulez le convertir dans un format compressé comme "
+#~ "AVI, vous pouvez utiliser le programme FFconvert ou similaire. Veillez à "
+#~ "ce que le fichier 'rippé' soit supprimé à l'issue du gravage. Le fichier "
+#~ "se trouve dans"
+
+#~ msgid "Tune volume level"
+#~ msgstr "Optimiser le volume"
+
+#~ msgid "UDF - Allow large files > 4Gb (linux only)"
+#~ msgstr "UDF - Autorise de gros fichiers > 4Go (Linux uniquement)"
+
+#~ msgid "Use temporary storage (CD recommended)"
+#~ msgstr "Utiliser le stockage temporaire (recommandé pour les CD)"
+
+#~ msgid "Volume: 'normalize' is not installed."
+#~ msgstr "Volume: 'normalize' n'est pas installé."

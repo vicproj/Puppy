@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: connectwizard_2nd VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2012-02-23 19:55+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: connectwizard_2nd.sh:26
+msgid "Simple Network Setup"
+msgstr "Simple Network Setup"
+
+#: connectwizard_2nd.sh:27
+msgid ""
+"This is a simple network setup tool created by BarryK. Not as many features "
+"as the Network Wizard, for example requires the network to have a DHCP "
+"server (the vast majority of cases). The greatest feature is extreme ease of "
+"use. Recommended for most people."
+msgstr ""
+"Voici un utilitaire d'installation de réseau simple créé par Barry Kauler. "
+"Il n'a pas autant de fonctionnalités que l'Assistant Réseau. Exemple, ici le "
+"réseau doit disposer d'un serveur DHCP (la plus grande majorité des cas). Sa "
+"grande particularité, c'est son extrème facilité d'utilisation. Recommandé "
+"pour la plupart des utilisateurs."
+
+#: connectwizard_2nd.sh:42
+#, fuzzy
+msgid ""
+"This is a tool developed by Jemimah. Mostly for wireless connectivity for "
+"laptops, but also can handle ethernet connection. Very good for wireless "
+"roaming. Under very active development (see forum)."
+msgstr ""
+"Voici un utilitaire développé par Jemimah. En particulier pour la connection "
+"sans fil des ordinateurs portables, mais il peut aussi gérer une connexion "
+"Ethernet. Très bon pour le 'roaming'. Développement  très actif (voir le "
+"forum)."
+
+#: connectwizard_2nd.sh:57
+msgid ""
+"This is a tool developed by Jemimah. Mostly for wireless connectivity for "
+"laptops, but also can handle ethernet connection. Very good for wireless "
+"roaming."
+msgstr ""
+"Voici un utilitaire développé par Jemimah. En particulier pour la connection "
+"sans fil des ordinateurs portables, mais il peut aussi gérer une connexion "
+"Ethernet. Très bon pour le 'roaming'. Développement  très actif (voir le "
+"forum)."
+
+#: connectwizard_2nd.sh:71
+msgid "Network Wizard"
+msgstr "Assistant Réseau"
+
+#: connectwizard_2nd.sh:72
+msgid ""
+"This is the most sophisticated tool for network setup in Puppy. It is based "
+"on the 'Classic' Network Wizard originally written by BarryK, but greatly "
+"enhanced by Dougal, Rarsa, Shinobar and others. It is for both wired "
+"(ethernet) and wireless connectivity, with more configuration features than "
+"Pwireless and SNS."
+msgstr ""
+"Voici l'utilitaire de configuration de réseau le plus sophistiqué de Toutou/"
+"Puppy. Il est basé sur l'Assistant Réseau 'classique', écrit à l'origine par "
+"Barry Kauler, mais largement amélioré par Dougal, Rarsa, Shinobar et "
+"d'autres. Il sert à la fois pour les connexions filaires (Ethernet) et sans "
+"fil, avec plus de fonctionnalités de configuration que Pwireless et/ou SNS."
+
+#: connectwizard_2nd.sh:86
+msgid "Network Wizard (Classic)"
+msgstr "Assistant réseau (Classique)"
+
+#: connectwizard_2nd.sh:87
+msgid ""
+"The Network Wizard was originally developed by Barry Kauler, with "
+"considerable input from others."
+msgstr ""
+"L'Assistant Réseau a été initialement développé par Barry Kauler, avec "
+"l'apport considérable d'autres programmeurs."
+
+#: connectwizard_2nd.sh:100 connectwizard_2nd.sh:196 connectwizard_2nd.sh:218
+msgid "Network Connection Wizard"
+msgstr "Assistant de Connexion Réseau"
+
+#: connectwizard_2nd.sh:102
+msgid ""
+"This build of Puppy has the following choices of GUI tool that you can use "
+"to connect to a network (and Internet)..."
+msgstr ""
+"Pour vous connecter à un réseau (et Internet) vous avez les outils "
+"graphiques suivants ..."
+
+#: connectwizard_2nd.sh:159
+msgid "These interfaces are active:"
+msgstr "Ces interfaces sont actives"
+
+#: connectwizard_2nd.sh:162
+msgid ""
+"...Satisfied? Got online ok? If yes, click 'YES SET AS DEFAULT' button, so "
+"Puppy will be optimised to use this tool for future boots."
+msgstr ""
+"...Satisfait? Vous êtes bien en ligne? Si oui, cliquez sur le bouton 'OUI "
+"Définir par défaut', pour utiliser cet outil pour les prochains démarrages."
+
+#: connectwizard_2nd.sh:164
+msgid ""
+"No interfaces are active, so was the tool unsatisfactory? If it actually was "
+"OK, click the 'YES SET AS DEFAULT' button. But, it seems not, so..."
+msgstr ""
+"Aucune interface active, vous n'êtes pas satisfait de l'outil? Si c'est "
+"réellement ​​OK, cliquez sur le bouton  'OUI Définir par défaut'. Mais, cela "
+"ne semble pas, alors ..."
+
+#: connectwizard_2nd.sh:198
+msgid "You have finished running"
+msgstr "Vous avez fini d'utiliser"
+
+#: connectwizard_2nd.sh:200
+msgid ""
+"Click 'TRY A DIFFERENT TOOL' if you would like to try one of the other "
+"network setup tools..."
+msgstr ""
+"Cliquez sur 'ESSAYER un autre outil' pour tester un des autres outils de "
+"configuration du réseau ..."
+
+#: connectwizard_2nd.sh:201
+msgid "Click 'Cancel' button to quit without setting a default tool..."
+msgstr "Cliquez sur 'Annuler' pour quitter sans définir d'outil par défaut ..."
+
+#: connectwizard_2nd.sh:203
+msgid "YES SET AS DEFAULT"
+msgstr "OUI Définir par défaut"
+
+#: connectwizard_2nd.sh:204
+msgid "TRY A DIFFERENT TOOL"
+msgstr "ESSAYER un autre outil"
+
+#: connectwizard_2nd.sh:220
+msgid ""
+"now set as default network tool. Here are some technical notes that you "
+"might find useful:"
+msgstr ""
+"désormais défini comme outil de réseau par défaut. Voici quelques notes "
+"techniques que vous pourrez trouver utiles:"
+
+#: connectwizard_2nd.sh:221
+#, sh-format
+msgid ""
+"The default network tool is specified in file /usr/local/bin/defaultconnect, "
+"and if you were to look in that file now you will see that it contains "
+"'${NWEXEC}'. If you ever wanted to manually change that back to the original "
+"setting, you could edit the file and in place of '${NWEXEC}' put "
+"'connectwizard'."
+msgstr ""
+"L'outil de réseau par défaut est spécifié dans le fichier /usr/local/bin/"
+"defaultconnect, et si vous regardez dans ce fichier vous pourrez voir qu'il "
+"contient '${NWEXEC}'. Si vous voulez le modifier manuellement pour revenir à "
+"la configuration d'origine, éditez le fichier et remplacez '${NWEXEC}' par "
+"'connectwizard'."
+
+#: connectwizard_2nd.sh:222
+#, sh-format
+msgid ""
+"If you click on the 'connect' icon on the desktop, it will directly start "
+"the '${NWEXEC}' tool. In fact, it starts whatever has been specified in /usr/"
+"local/bin/defaultconnect. You can right-click on the 'connect' icon for a "
+"menu with other run options."
+msgstr ""
+"En cliquant sur l'icône 'Connexion' du bureau, l'outil '${NWEXEC}' sera "
+"directement lancé. En fait, est lancé ce qui a été spécifié dans /usr/local/"
+"bin/defaultconnect. Un clic droit sur l'icône 'Connexion' ouvrira un menu "
+"avec différentes options de lancement."
+
+#: connectwizard_2nd.sh:223
+msgid ""
+"EXPERTS ONLY: If you really want to know in-depth about the inner workings, "
+"specifically how the default tool is activated at bootup, look in /etc/rc.d/"
+"rc.sysinit. Two other relevant scripts are /usr/sbin/connectwizard and /usr/"
+"sbin/connectwizard_2nd."
+msgstr ""
+"EXPERTS SEULEMENT: Pour connaître vraiment en profondeur les rouages​​, en "
+"particulier la façon dont l'outil par défaut est activé au démarrage, "
+"regardez dans /etc/rc.d/rc.sysinit. Deux autres scripts sont pertinents /usr/"
+"sbin/connectwizard et /usr/sbin/connectwizard_2nd."

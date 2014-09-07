@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: report-video VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2013-02-15 10:10+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.fr>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: report-video.sh:27
+msgid "VIDEO REPORT:"
+msgstr "RAPPORT VIDÉO"
+
+#: report-video.sh:27
+msgid "version"
+msgstr "version"
+
+#: report-video.sh:30
+msgid "Chip description:"
+msgstr "Description de la puce:"
+
+#: report-video.sh:40
+msgid "Resolution (widthxheight, in pixels): "
+msgstr "Résolution (largeurxhauteur, en pixels):"
+
+#: report-video.sh:41
+msgid "Depth (bits, or planes):              "
+msgstr "Profondeur (bits, ou niveaux):\t\t"
+
+#: report-video.sh:43
+msgid "Modules requested to be loaded:       "
+msgstr "Modules à charger:\t\t"
+
+#: report-video.sh:45
+msgid "Modules requested to not be loaded:   "
+msgstr "Modules à ne pas charger:\t"
+
+#: report-video.sh:49
+msgid "Drivers requested to be loaded:       "
+msgstr "Pilotes à charger:\t\t"
+
+#: report-video.sh:52
+msgid "NOTE: there is no /etc/X11/xorg.conf configuration file."
+msgstr "REMARQUE: Le fichier de configuration /etc/X11/xorg.conf n'existe pas."
+
+#: report-video.sh:59
+msgid "Probing Xorg startup log file (/var/log/Xorg.0.log):"
+msgstr "Examen du fichier de démarrage de Xorg (/var/log/Xorg.0.log):"
+
+#: report-video.sh:73
+msgid "Driver loaded (and currently in use):"
+msgstr "Pilote chargé (et actuellement utilisé):"
+
+#: report-video.sh:87
+msgid "Loaded modules:"
+msgstr "Modules chargés:"
+
+#: report-video.sh:92
+msgid "Actual rendering on monitor:"
+msgstr "Rendu actuel de l'écran:"
+
+#: report-video.sh:96
+msgid "Resolution: "
+msgstr "Résolution: "
+
+#: report-video.sh:98
+msgid "Depth:      "
+msgstr "Profondeur:"
+
+#: report-video.sh:102
+msgid "Resolution:"
+msgstr "Résolution:"
+
+#: report-video.sh:104
+msgid "unknown"
+msgstr "Inconnu"
+
+#: report-video.sh:111
+msgid "...the above also recorded in /tmp/report-video"
+msgstr ""
+"... les infos ci-dessus ont été également enregistrées dans /tmp/report-video"

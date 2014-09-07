@@ -1,0 +1,632 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Pudd.sh:24
+msgid "Puppy universal dd"
+msgstr ""
+
+#: Pudd.sh:34
+msgid ""
+"Testing hardware.\n"
+"Please wait, this may take awhile..."
+msgstr ""
+"Test du matériel en cours.\n"
+"Patientez, cela peut prendre du temps ..."
+
+#: Pudd.sh:68
+msgid ""
+"If all is well, click a button to choose source drive/partition/image-file..."
+msgstr ""
+"Si tout est bon, cliquez sur le bouton pour choisir la source : disque/"
+"partition/fichier-image..."
+
+#: Pudd.sh:71
+msgid "...HOWEVER, Puppy detects an error probing the partitions!!!"
+msgstr ""
+"...CEPENDANT, il a été detecté une erreur en examinant les partitions!!!"
+
+#: Pudd.sh:85
+msgid "...HOWEVER, Puppy detects an error probing the USB partitions!!!"
+msgstr ""
+"...CEPENDANT, il a été detecté une erreur en examinant les partitions USB!!!"
+
+#: Pudd.sh:119
+msgid ""
+"Welcome to Pudd, the Puppy universal dd drive/partition/image-file backup/"
+"rescue program!\n"
+"This program will copy any drive, partition, or image-file to another drive, "
+"partition\n"
+"or file, on the same PC or over a network. You can use Pudd to make copies "
+"of floppy\n"
+"disks, to make clones of a drive/partition, or to rescue a failing drive/"
+"partition."
+msgstr ""
+"\t\tBienvenue dans Pudd, le programme universel de sauvegarde et de "
+"sauvetage \n"
+"\t\t\t\t\t\t\tde disques, partitions, fichiers-image!\n"
+" Ce programme permet la copie de tous disque, partition ou fichier-image sur "
+"un autre disque, partition ou\n"
+" fichier, dans un  même PC ou en réseau. Vous pouvez utiliser Pudd pour "
+"faire des copies de disquettes, pour\n"
+" faire des clones de disques/partitions, ou restituer des disques et "
+"partitions endommagés."
+
+#: Pudd.sh:124
+msgid ""
+"Okay, the first thing to do is decide on the source:\n"
+" 1. If the source is a file, it must be a complete filesystem, such as "
+"produced by a \n"
+"    previous usage of Pudd to copy a partition or drive  to a file -- such a "
+"\"file\" is\n"
+"    not like an ordinary text or graphic file, it is an image of a partition "
+"or complete\n"
+"    drive. An image file can be copied to a partition or drive,  an ordinary "
+"file cannot.\n"
+" 2. If the source is a drive, for example /dev/sda, the entire drive is "
+"copied. However, if\n"
+"    source is a partition, example: /dev/sda1, then it only is copied (sda1, "
+"sda2, etc. are\n"
+"    partitions in drive sda. Some drives do not have individual partitions, "
+"ex: /dev/fd0,\n"
+"    that is, there is only one filesystem that occupies the entire drive)."
+msgstr ""
+"Premièrement déterminer la source :\n"
+"  1. Si la source est un fichier, ce doit être un système de fichier "
+"complet, comme Pudd  l'a déjà fait lors d'une \n"
+"copie d'une partition ou disque dans un fichier -- c'est à  dire qu'un "
+"'fichier' n'est pas un fichier ordinaire\n"
+"  genre texte ou graphique, c'est une IMAGE d'une partition ou d'un disque "
+"complet.  Un fichier image peut \n"
+"tre copié sur une partition ou sur un disque, un fichier ordinaire non.\n"
+"\n"
+"  2. Si la source est un disque, par exemple /dev/sda, le disque entier est "
+"copié.  Cependant, si la source est \n"
+"une partition, exemple : /dev/sda1, (seules sont copiées les  partitions du "
+"disque \n"
+"sda). Certains disques ne possèdent pas de partitions individuelles, ex : /"
+"dev/fd0, cela veut dire qu'une seule\n"
+"  partition occupe le disque."
+
+#: Pudd.sh:134
+msgid ""
+"These are the partitions that Puppy knows about (Note: mounted partitions "
+"not\n"
+"shown. A mounted partition should be unmounted before copying from/to it):"
+msgstr ""
+"Ci-dessous les partitions  trouvées. (ATTENTION : les partitions montées ne "
+"sont  pas affichées).\n"
+"Une partition montée sera démontée avant d'être copiée dans/à partir de :"
+
+#: Pudd.sh:138
+msgid ""
+"...if USB partitions are missing or incorrect, click the \"Probe USB\" "
+"button..."
+msgstr ""
+"...  si des partitions USB sont absentes ou incorrectes, cliquez sur \"USB"
+"\"..."
+
+#: Pudd.sh:139
+msgid ""
+"...if ZIP partitions are missing or incorrect, click the \"Probe ZIP\" "
+"button..."
+msgstr ""
+"...  si des partitions ZIP sont absentes ou incorrectes, cliquez sur \"ZIP"
+"\"..."
+
+#: Pudd.sh:140
+msgid ""
+"...if floppy disk partition missing or incorrect, click \"Probe FLOPPY\" "
+"button..."
+msgstr ""
+"...  si la disquette est absente ou incorrecte, cliquez sur \"Disquette\"..."
+
+#: Pudd.sh:146
+#, fuzzy, sh-format
+msgid ""
+"ERROR: Puppy experienced a problem trying to unmount partition ${CATERR}"
+msgstr "ERREUR: Il y a eu un problème en essayant de démonter une partition :"
+
+#: Pudd.sh:149
+msgid "Probe USB"
+msgstr "USB"
+
+#: Pudd.sh:149
+msgid "Probe ZIP"
+msgstr "ZIP"
+
+#: Pudd.sh:149
+msgid "Probe FLOPPY"
+msgstr "Disquette"
+
+#: Pudd.sh:149
+msgid "Choose drive"
+msgstr "Disque"
+
+#: Pudd.sh:149
+msgid "Choose partition"
+msgstr "Partition"
+
+#: Pudd.sh:149
+msgid "Choose file"
+msgstr "Fichier"
+
+#: Pudd.sh:149 Pudd.sh:417 Pudd.sh:419 Pudd.sh:422
+msgid "HELP"
+msgstr "Aide"
+
+#: Pudd.sh:149 Pudd.sh:417 Pudd.sh:419 Pudd.sh:422 Pudd.sh:595
+msgid "EXIT"
+msgstr "Quitter"
+
+#: Pudd.sh:206
+#, sh-format
+msgid "${TITLE}: probe ZIP"
+msgstr "${TITLE}: test du ZIP"
+
+#: Pudd.sh:206
+msgid "Parallel port ZIP"
+msgstr "ZIP port parallèle"
+
+#: Pudd.sh:206
+msgid "IDE (internal) ZIP"
+msgstr "ZIP IDE (interne)"
+
+#: Pudd.sh:206
+msgid "none of these"
+msgstr "aucun des deux"
+
+#: Pudd.sh:206
+msgid "Please choose what type of ZIP drive you have..."
+msgstr "Choisir le type de lecteur ZIP vous avez ..."
+
+#: Pudd.sh:322
+#, sh-format
+msgid "${TITLE}: choose source partition"
+msgstr "${TITLE}: choix de la partition source"
+
+#: Pudd.sh:323
+msgid "Choose the partition to be copied from:"
+msgstr "Choisissez la partition d'où copier :"
+
+#: Pudd.sh:334
+#, sh-format
+msgid "${TITLE}: choose source drive"
+msgstr "${TITLE}: choix du disque source"
+
+#: Pudd.sh:335
+msgid "Choose the drive to be copied from:"
+msgstr "Choisissez le disque d'où copier :"
+
+#: Pudd.sh:348
+msgid ""
+"WARNING1: be careful what you write that file to. If it is an image of a "
+"partition\n"
+"          then it should be written to a partition. If an image of a whole "
+"drive, then it\n"
+"          should be written to a whole drive."
+msgstr ""
+"ATTENTION1: soyez prudent en écrivant ce fichier vers sa destination.\n"
+"          Si c'est une image d'une partition, elle doit être écrite sur une "
+"partition.\n"
+"          Si c'est une image d'un simple disque, elle doit être écrite sur "
+"un simple disque."
+
+#: Pudd.sh:353
+#, sh-format
+msgid "${TITLE}: choose source file"
+msgstr "${TITLE}: choisir le fichier source"
+
+#: Pudd.sh:363
+#, sh-format
+msgid "Error uncompressing ${SOURCEPART}. Click button to quit..."
+msgstr ""
+"Erreur en décompressant ${SOURCEPART}. Cliquez sur le bouton OK pour "
+"quitter..."
+
+#: Pudd.sh:367
+#, sh-format
+msgid ""
+"${WARNING1}WARNING2: $SOURCEPART file has been uncompressed as "
+"$UNCOMPRPATHNAME.\n"
+"          Pudd will delete it, but aborting before completion may prevent "
+"this."
+msgstr ""
+"${WARNING1}ATTENTION2 : Le fichier $SOURCEPART a été décompressé en "
+"$UNCOMPRPATHNAME.\n"
+"          Pudd va l'effacer, mais abandonner avant la fin peut empêcher cela."
+
+#: Pudd.sh:375 Pudd.sh:525 Pudd.sh:545
+#, sh-format
+msgid "${TITLE}: ERROR"
+msgstr "${TITLE}: ERREUR"
+
+#: Pudd.sh:375
+msgid ""
+"Sorry, this file does not have a filesystem inside it. \n"
+"Pudd is not intended for copying ordinary files. A file with a filesystem "
+"inside it is an\n"
+"image of a drive or partition, and may be copied back to a drive or "
+"partition. Try again..."
+msgstr ""
+"Désolé, ce fichier ne possède pas de système de fichier interne. \n"
+"Pudd ne sait pas copier les fichiers ordinaires. Un fichier avec un système "
+"de fichier interne\n"
+"est une image d'une partition/disque et peut être recopié sur une partition/"
+"disque. Ré-essayez..."
+
+#: Pudd.sh:389
+#, sh-format
+msgid "Ok, you have chosen a source of ${SOURCEPART}"
+msgstr "Vous avez choisi la source de ${SOURCEPART}"
+
+#: Pudd.sh:391
+msgid ""
+"Now to choose the destination. This Pudd program will first try to use the "
+"\"dd\"\n"
+"program in normal mode, but if the source has an error it will abort.\n"
+"Pudd will then try an alternate mode of dd to ignore read errors, which "
+"means\n"
+"that the destination will have errors in it also."
+msgstr ""
+"Maintenant choisissons la destination. Cette partie de Pudd va d'abord "
+"essayer d'utiliser le programme \"dd\" en mode normal, mais si la source a "
+"une erreur il s'arrétera.\n"
+"Pudd essaiera un autre mode de dd pour ignorer les erreurs, ce qui veut dire "
+"que la destination aura aussi des erreurs."
+
+#: Pudd.sh:396
+msgid ""
+"If the destination is a file, it will be compressed with the \"gzip\" "
+"program. This\n"
+"means that the file will be about half the size of the source drive/"
+"partition.\n"
+"Well, even though the destination file is compressed, you will still need "
+"to \n"
+"uncompress it if you ever want to mount it by loopback device, and Pudd also "
+"will\n"
+"uncompress it if it has to be copied to another drive/partition."
+msgstr ""
+"Si la destination est un fichier, il sera compressé avec le programme \"gzip"
+"\". C'est à dire qu'il fera environ la moitié (en taille) du disque/"
+"partition source.\n"
+"Bien, même si le fichier destination est compressé, vous devrez le "
+"décompresser si vous voulez le monter par 'loopback device', et Pudd le "
+"décompressera également s'il doit le copier sur un autre disque/partition."
+
+#: Pudd.sh:402
+msgid ""
+"If the destination is a drive/partition, it must be at least as large as the "
+"source\n"
+"drive/partition -- Pudd will display some info about this in the next window."
+msgstr ""
+"Si la destination est un disque/partition, il doit être au moins aussi grand "
+"que le disque/partition source \n"
+"-- Pudd fournira les infos dans la prochaine fenêtre."
+
+#: Pudd.sh:405
+msgid ""
+"If the destination is a partition, Pudd will offer to grow the filesystem to "
+"fill\n"
+"the partition. However, this only applies if the source partition is an "
+"ext2,\n"
+"ext3, ext4, or fat12/16/32 (this includes what we call msdos and vfat) "
+"filesystem.\n"
+"(NOTE: destination f.s. does not matter as will be overwritten)\n"
+"(WARNING: fat resize code is immature. Do not use on anything critical!)"
+msgstr ""
+"Si la destination est une partition, Pudd offre d'étendre le système de "
+"fichier pour remplir la partition. Cependant, cela s'applique seulement si "
+"la partition source a un système ext2, ext3, ou fat12/16/32 (ce qui inclut "
+"msdos et vfat).\n"
+"(NOTE: c'est sans importance si le système de fichiers destination est "
+"écrasé)(ATTENTION: code de redimensionnement fat immature. Ne pas utiliser "
+"inconsidérément!)"
+
+#: Pudd.sh:411
+msgid "Click on \"Run_fdisk\" button to create/edit/delete partitions..."
+msgstr ""
+"Cliquez sur le bouton \"Lancer_fdisk\" pour créer/modifier/effacer les "
+"partitions..."
+
+#: Pudd.sh:413
+msgid ""
+"If no need to run fdisk, click a button to choose destination...\n"
+"(Note, if destination not on current PC, click \"Choose_remote\" button)..."
+msgstr ""
+"S'il est inutile de lancer fdisk, cliquez sur un bouton pour choisir la "
+"destination...\n"
+"(Note, si la destination n'est pas sur ce PC, cliquez sur le bouton \"Distant"
+"\")..."
+
+#: Pudd.sh:417 Pudd.sh:419 Pudd.sh:422
+msgid "Run_fdisk"
+msgstr "lancer fdisk"
+
+#: Pudd.sh:417 Pudd.sh:419
+msgid "Choose_drive"
+msgstr "Disque"
+
+#: Pudd.sh:417 Pudd.sh:422
+msgid "Choose_partition"
+msgstr "Partition"
+
+#: Pudd.sh:417 Pudd.sh:419 Pudd.sh:422
+msgid "Choose_file"
+msgstr "Fichier"
+
+#: Pudd.sh:417 Pudd.sh:419 Pudd.sh:422
+msgid "Choose_remote"
+msgstr "Distant"
+
+#: Pudd.sh:427
+#, sh-format
+msgid "${TITLE}: choose destination"
+msgstr "${TITLE}: choisir la destination"
+
+#: Pudd.sh:458
+#, sh-format
+msgid "${TITLE}: run fdisk"
+msgstr "${TITLE}: lancer fdisk"
+
+#: Pudd.sh:459
+msgid "Choose the drive to be examined by fdisk:"
+msgstr "Choisir le disque à examiner par fdisk :"
+
+#: Pudd.sh:479
+#, sh-format
+msgid "${TITLE} choose remote"
+msgstr "${TITLE} choisir distant"
+
+#: Pudd.sh:479
+#, sh-format
+msgid ""
+"To transfer to a remote computer, you have to start the netcat/nc program"
+"\\nrunning on the remote computer. If the destination is a drive or "
+"partition,\\nit must be unmounted. The setup could be as simple as a "
+"ethernet cross-over\\ncable between two PCs, or over the Internet.\\nThis is "
+"what you need to execute on the remote PC:\\n # nc -l -p ${REMOTEPORT} < /"
+"dev/null | gunzip -c | dd of=DESTDEV bs=512\\n...where DESTDEV is whatever "
+"you want to write to, for example /dev/hda1\\n...you may be able to leave "
+"the bs= parameter off, or make it 1024 for ext2/3.\\n...I think for msdos/"
+"vfat, bs=512 is correct.\\n...the -l parameter means that nc will listen for "
+"data incoming at the port.\\n...THIS MUST BE DONE RIGHT NOW!\\n\\nThe local "
+"PC needs to know where the remote PC is, and the address may be\\na URL or "
+"IP. For example, www.goosee.com, or 196.108.56.10.\\nThe Port number at "
+"local and remote must be the same. I suggest 1234.\\n\\nPLEASE START THE "
+"REMOTE nc PROGRAM RUNNING BEFORE CLICKING OK BUTTON"
+msgstr ""
+"Pour transférer sur un ordinateur distant, vous devez lancer le "
+"programmenetcat/nc sur le PC distant. Si la destination est un disque ou une "
+"partition,\\nil doit être démonté. Ce doit être aussi simple qu'avec un "
+"cable éthernet\\nentre deux PC ou sur Internet.\\nVoici ce dont vous avez "
+"besoin pour l'exécution sur un ordi distant:\\n # nc -l -p ${REMOTEPORT} </"
+"dev/null | gunzip -c | dd of=DESTDEV bs=512\\n...où DESTDEV est l'endroit où "
+"vous voulez écrire, par exemple /dev/hda1\\n...vous devrez laissez le "
+"paramètre bs=off, ou lui mettre 1024 pour ext2/3.\\n...Je pense que pour "
+"msdos/vfat, bs=512 est correct.\\n...le paramètre -1 signifie que nc "
+"surveillera les données entrantes dans le port.\\n...CE DOIT ÊTRE FAIT TOUT "
+"DE SUITE!\\n\\nLe PC local doit savoir où se trouve le PC distant et "
+"l'adresse doit être\\nune URL ou IP. Exemple, www.goosee.com, ou "
+"196.108.56.10.\\nLes numéros des ports locaux et distant doivent être les "
+"mêmes. Disons 1234.\\nLANCEZ LE PROGRAMME DISTANT nc AVANT DE CLIQUER SUR LE "
+"BOUTON OK"
+
+#: Pudd.sh:479
+msgid "Remote address:"
+msgstr "Adresse distante"
+
+#: Pudd.sh:479
+msgid "Port:"
+msgstr "Port :"
+
+#: Pudd.sh:488
+#, sh-format
+msgid "ERROR, $REMOTEADDR IS NOT REACHABLE!"
+msgstr "ERREUR, $REMOTEADDR N'EST PAS JOIGNABLE!"
+
+#: Pudd.sh:502
+#, sh-format
+msgid "${TITLE}: choose destination partition"
+msgstr "${TITLE}: choix de la partition de destination"
+
+#: Pudd.sh:503
+msgid "Choose the partition to be copied to:"
+msgstr "Choisir la partition d'où copier :"
+
+#: Pudd.sh:514
+#, sh-format
+msgid "${TITLE}: grow filesystem"
+msgstr "${TITLE}: étendre le système de fichiers"
+
+#: Pudd.sh:514 Pudd.sh:611
+msgid "Yes"
+msgstr "Oui"
+
+#: Pudd.sh:514 Pudd.sh:611
+msgid "No"
+msgstr "Non"
+
+#: Pudd.sh:514
+msgid ""
+"Do you want to grow the filesystem to fill the partition?\\n(after it is "
+"copied to the partition)\\n(ext2, ext3, ext4 and fat12/16/32 (msdos/vfat) "
+"filesystems only)"
+msgstr ""
+"Voulez-vous étendre le système de fichier pour remplir la partition?\\n"
+"(après il est copié sur la partition)\\n(systèmes ext2, ext3 et fat12/16/32 "
+"(msdos/vfat) seulement"
+
+#: Pudd.sh:525
+#, sh-format
+msgid ""
+"Sorry, the destination partition is too small. The source \n"
+"$SOURCEPART is $SOURCESIZE Kbytes but the destination \n"
+"$DESTPART is $DESTSIZE Kbytes. Try again..."
+msgstr ""
+"Désolé, la partition de destination est trop petite. La source \n"
+"$SOURCEPART fait $SOURCESIZE Koctets mais la destination \n"
+"$DESTPART fait $DESTSIZE Koctets. Ré-essayez..."
+
+#: Pudd.sh:533
+#, sh-format
+msgid "${TITLE}: choose destination drive"
+msgstr "${TITLE}: choix du disque de destination"
+
+#: Pudd.sh:533
+msgid "Choose the drive to be copied to:"
+msgstr "Choisir le disque de destination"
+
+#: Pudd.sh:545
+#, sh-format
+msgid ""
+"Sorry, the destination drive is too small. The source \n"
+"$SOURCEPART is $SOURCESIZE Kbytes but the destination \n"
+"$DESTPART is $DESTSIZE Kbytes. Try again..."
+msgstr ""
+"Désolé, le disque destination est trop petit. La source \n"
+"$SOURCEPART fait $SOURCESIZE Koctets mais la destination \n"
+"$DESTPART fait $DESTSIZE Koctets. Ré-essayez..."
+
+#: Pudd.sh:553
+msgid "Pudd: new or choose existing (replace) dest. file"
+msgstr ""
+"Pudd: nouveau ou choisir (remplacer) un fichier de destination existant"
+
+#: Pudd.sh:563
+#, sh-format
+msgid "Here is what Puppy knows about ${DESTPART} ${DESTCHOICE}:"
+msgstr "Voici ce qui a été trouvé sur la ${DESTPART} ${DESTCHOICE}:"
+
+#: Pudd.sh:582
+msgid "Last chance to backout!"
+msgstr "Dernier point de retour!"
+
+#: Pudd.sh:583
+#, sh-format
+msgid "You have chosen to copy ${SOURCEPART} to destination ${DESTXTN}"
+msgstr "Vous avez décidé de copier ${SOURCEPART} vers ${DESTXTN}"
+
+#: Pudd.sh:585
+#, sh-format
+msgid "Here is what Puppy knows about ${SOURCEPART}:"
+msgstr "Voici ce qui a été trouvé dans ${SOURCEPART}:"
+
+#: Pudd.sh:588
+msgid ""
+"...for a destination partition, make sure that it is at least as big as the "
+"source.\n"
+"...for a destination file, make sure that the mounted partition where it "
+"will reside\n"
+"   has enough free space. A summary of the space in the local mounted "
+"partitions:"
+msgstr ""
+"... pour une partition de destination, assurez-vous qu'elle est au moins "
+"aussi grande que la source.\n"
+"... pour un fichier de destination, assurez-vous que la partition montée sur "
+"laquelle il est, possède\n"
+"suffisamment d'espace disponible. Voici une vue de l'espace des différentes "
+"partitions montées:"
+
+#: Pudd.sh:593
+msgid "If everything looks ok, click the \"Continue\" button..."
+msgstr "Si tout vous semble bon, cliquez sur le bouton \"Continuer\"..."
+
+#: Pudd.sh:595
+#, sh-format
+msgid "${TITLE}: final check"
+msgstr "${TITLE}: vérification finale"
+
+#: Pudd.sh:595
+msgid "Continue"
+msgstr "Continuer"
+
+#: Pudd.sh:611
+#, sh-format
+msgid "${TITLE}: optimise compression"
+msgstr "${TITLE}: optimiser la compression"
+
+#: Pudd.sh:611
+#, sh-format
+msgid ""
+"$SOURCEPART will be copied to $DESTPART.gz, compressed with gzip.\n"
+"Compression may be greatly improved if the unused part of $SOURCEPART\n"
+"is zeroised. This involves temporarily mounting it on /mnt/tmp,\n"
+"writing zeroes to the unused areas, then unmounting it.\n"
+"Would you like to do this size optimisation?"
+msgstr ""
+"$SOURCEPART sera copié sur $DESTPART.gz, compressé avec gzip.\n"
+"La compression sera grandement ameliorée si la partie non utilisée\n"
+"de $SOURCEPART est proche de 0. Ceci implique de la monter\n"
+"temporairement sur /mnt/tmp, pour y écrire des 0 sur les\n"
+"espaces inutilisés, puis de la démonter.\n"
+"Voulez-vous faire cette optimisation de la taille?"
+
+#: Pudd.sh:627
+msgid "Now zeroising unused areas of $2 ..."
+msgstr "Ecriture des zéros dans les vides de $2 ..."
+
+#: Pudd.sh:646 Pudd.sh:672
+msgid "Now copying $2 to $1, please wait very patiently..."
+msgstr "Copie de $2 to $1, veuillez attendre patiemment ..."
+
+#: Pudd.sh:651
+msgid "Read error, starting again, ignoring errors..."
+msgstr "Erreur de lecture, relance en ignorant les erreurs..."
+
+#: Pudd.sh:657
+msgid "Now copying $2 to remote PC, please wait very patiently..."
+msgstr "Copie de $2 vers le PC distant, veuillez attendre patiemment ..."
+
+#: Pudd.sh:662 Pudd.sh:677
+msgid "Read error, starting again and will ignore errors..."
+msgstr "Erreur de lecture, relance en ignorant les erreurs.."
+
+#: Pudd.sh:664
+msgid "KILL THE NETCAT LISTENER ON REMOTE PC, AND START IT AGAIN"
+msgstr "STOPPER AUDITEUR NETCAT SUR LE PC DISTANT PUIS LE RELANCER"
+
+#: Pudd.sh:666
+msgid "DO THAT RIGHT NOW, THEN PRESS ENTER KEY: "
+msgstr "FAITES-LE MAINTENANT, PUIS PRESSEZ ENTREE :"
+
+#: Pudd.sh:687
+msgid "Resizing $4 filesystem to fill $3 Kbyte partition..."
+msgstr "Redimensionne le SF $4 pour remplir la partiton de $3 Koctets..."
+
+#: Pudd.sh:690
+msgid "First check and fix f.s...."
+msgstr "En premier teste puis organise le S.F ..."
+
+#: Pudd.sh:694
+msgid "Now resizing f.s...."
+msgstr "Redimensionne le S.F ..."
+
+#: Pudd.sh:699
+msgid "WARNING: Immature code, do not use for anything critical!"
+msgstr "ATTENTION: Code immature, ne pas utiliser inconsidérement!"
+
+#: Pudd.sh:701
+msgid "         Changes have been backed up in /tmp/fsresizebackup.dat"
+msgstr "       Sauvegardes des changements dans /tmp/fsresizebackup.dat"
+
+#: Pudd.sh:703
+msgid "         (see fsresize doc page how to restore f.s.)"
+msgstr "(voir la page doc de fsresize comment restaurer le s.f.)"
+
+#: Pudd.sh:708
+msgid "...done"
+msgstr "...fini"
+
+#: Pudd.sh:711
+msgid "Backup finished. Press ENTER key to exit: "
+msgstr "Sauvegarde finie. Pressez ENTREE pour quitter : "

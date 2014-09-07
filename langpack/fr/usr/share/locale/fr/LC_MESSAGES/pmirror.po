@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pmirror VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:47+0200\n"
+"PO-Revision-Date: 2012-11-16 09:49+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pmirror.sh:39
+msgid ""
+"It seems to be your first run of Pmirror.\\n Please read HELP for "
+"information."
+msgstr ""
+"Il semble que vous utilisez Pmirror pour la première fois\\n Lisez l'AIDE "
+"pour avoir des informations."
+
+#: pmirror.sh:41
+#, sh-format
+msgid "Last Mirror of listed directory was $DAYS days ago."
+msgstr "Dernier Miroir des dossiers listés il y a $DAYS jours."
+
+#: pmirror.sh:45
+msgid "Pmirror - mirror/backup utility"
+msgstr "Pmirror - Miroir ou Sauvegarde"
+
+#: pmirror.sh:48
+msgid "Source dir"
+msgstr "Rep. source"
+
+#: pmirror.sh:56
+msgid "Mirror dir"
+msgstr "Rep. miroir"
+
+#: pmirror.sh:63
+msgid "Options"
+msgstr "Options"
+
+#: pmirror.sh:65
+msgid "Only simulate mirror"
+msgstr "Seulement simuler un miroir"
+
+#: pmirror.sh:69
+msgid "View information"
+msgstr "Afficher les informations"
+
+#: pmirror.sh:71
+msgid "Quick file compare"
+msgstr "Comparaison rapide des fichiers"
+
+#: pmirror.sh:75
+msgid "Do not compare ownership"
+msgstr "Ne pas comparer la propriété"
+
+#: pmirror.sh:76
+msgid "Do not compare date/time"
+msgstr "Ne pas comparer la date/heure"
+
+#: pmirror.sh:78
+msgid "Exception file"
+msgstr "Fichier exception"
+
+#: pmirror.sh:86
+msgid "info"
+msgstr "infos"
+
+#: pmirror.sh:91
+msgid "Pmirror - HELP"
+msgstr "Pmirror - AIDE"
+
+#: pmirror.sh:91
+#, fuzzy, sh-format
+msgid ""
+"Pmirror is a simple backup system to make one directory like another. First "
+"run it will copy the entire source-directory to the mirror-directory. The "
+"mirror function will then just update the mirror-directory. It will delete "
+"files on the mirror-directory if they dont exist on source-directory. Be "
+"careful, think twice and check settings again.\\n\\nThe mirror-directory "
+"should not be on the same harddisk that you stores your main data. Do NOT "
+"think your data is safe when saving mirror-files on another partition. It is "
+"still the same disk, and when it crashes, it all does. If you have only one "
+"disk, it may be better to burn files to CD/DVD.\\n\\n- Pmirror is a GUI for "
+"the mirdir package (19k).\\n- $HOME/ is where your personal data is stored "
+"(e-mail, bookmarks...)\\n- Config file: $HOME/.pmirror_config. Created after "
+"first mirror.\\n- See also mirdir documentation.\\n- Paths in exceptions "
+"file should point to destination directories.\\n- No warranty.\\n\\n"
+msgstr ""
+"Pmirror est un simple système de sauvegarde pour créer un dossier identique "
+"à un autre.\\nLors du premier lancement, il copiera entièrement le "
+"répertoire source vers le répertoire miroir.\\nLa fonction miroir sert "
+"seulement à mettre à jour le répertoire miroir. Il effacera les fichiers "
+"dans le répertoire miroir s'ils ne sont plus dans le répertoire source.\\n"
+"\\nSoyez prudent, réfléchissez au moins deux fois et vérifiez vos paramètres "
+"une nouvelle fois.\\n\\nLe dossier miroir ne doit pas se trouver sur le même "
+"disque dur où vous stockez vos données. NE CROYEZ PAS que vos données sont "
+"en sécurité quand vous avez sauvegardé vos fichier en miroir dans une autre "
+"partition dans un même disque dur. Cela reste toujours le même disque dur, "
+"et s'il vous laisse tomber, ce sera bien tout le disque qui sera perdu. Si "
+"vous ne possédez que un seul disque dur, il vaut mieux graver vos données "
+"sur un CD/DVD.\\n\\n- Pmirror est une interface graphique au paquet mirdir "
+"(19k).\\n- $HOME est l'emplacement où sont stockées vos données personnelles "
+"(courriels, marque-pages...)\\n- Le fichier de configuration : $HOME/."
+"pmirror_config. sera créé après le premier miroir.\\n- Voir aussi la "
+"documentation mirdir.\\n- Sans garantie.\\n\\n- Sigmund Berglund --- 2009 "
+"--- Trad. JJ Moulinier, août 2009, décembre 2012."
+
+#: pmirror.sh:113
+msgid ""
+"Pmirror will now simulate the backup process.\\n If it all goes right, turn "
+"off the simulate option,\\n and make a real mirror ....\\n\\n Choose OK to "
+"continue, and CANCEL to quit."
+msgstr ""
+" Maintenant, Pmirror va simuler le processus de sauvegarde.\\n Si tout va "
+"bien, annulez l'option de simulation,\n"
+" et faites vraiment un mirroir ....\\n\\n Choisissez OK pour continuer, et "
+"ANNULER pour quitter."
+
+#: pmirror.sh:115
+#, sh-format
+msgid ""
+"WARNING!!!\\n\\n\\n It may happend that Pmirror will delete files in \\n "
+"$MIRRORDIR .... \\n\\n Choose OK to continue, and CANCEL to quit."
+msgstr ""
+"ATTENTION!!!\\n\\n\\n Il peut arriver que Pmirror efface des fichiers dans "
+"\\n $MIRRORDIR .... \\n\\n Choisissez OK pour continuer, et ANNULER pour "
+"quitter."
+
+#: pmirror.sh:131
+msgid "It seems that all went well."
+msgstr "Il semble que tout se soit bien passé."
+
+#: pmirror.sh:133
+msgid ""
+"Something went wrong during backup.\\n- Are the \"mirdir\" package installed?"
+"\\n- Does source- and mirror-directory exist?\\n- Have you defined a "
+"exception file in right terms?\\n- Read messages above and Help."
+msgstr ""
+"Il y a eu un problème lors de la sauvegarde.\\n- Le paquet \"mirdir\" est-il "
+"installé?\\n- Est-ce que la source- et le répertoire-mirroir existent?\\n- "
+"Avez-vous défini un fichier exception dans les bons termes?\\n- Lisez les "
+"messages au-dessus et l'Aide."
+
+#: pmirror.sh:142
+msgid "Configuration file is updated."
+msgstr "Le fichier de configuration a été mis à jour."

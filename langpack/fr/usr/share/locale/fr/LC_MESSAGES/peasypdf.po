@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peasypdf 2.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2013-02-13 11:41+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: peasypdf.sh:25
+msgid "New project started in"
+msgstr "Nouveau projet démarré dans"
+
+#: peasypdf.sh:33 peasypdf.sh:233
+msgid "File"
+msgstr "Fichier"
+
+#: peasypdf.sh:33
+msgid "not found! Check your Contain Spaces setting."
+msgstr "non trouvé! Vérifiez votre réglage des espaces."
+
+#: peasypdf.sh:37 peasypdf.sh:61
+msgid "Adding"
+msgstr "Ajout de"
+
+#: peasypdf.sh:73
+msgid "not converted!"
+msgstr "non converti!"
+
+#: peasypdf.sh:83
+msgid "Please start a new project!"
+msgstr "Veuillez démarrer un nouveau projet!"
+
+#: peasypdf.sh:88
+msgid "Nothing to add!"
+msgstr "Rien à ajouter!"
+
+#: peasypdf.sh:107
+msgid "Nothing to save!"
+msgstr "Rien à sauvegarder!"
+
+#: peasypdf.sh:111
+msgid "Saving ..."
+msgstr "Sauvegarde en cours ..."
+
+#: peasypdf.sh:117
+msgid "Project saved as"
+msgstr "Projet sauvegardé dans"
+
+#: peasypdf.sh:124
+msgid "Missing data!"
+msgstr "Données manquantes!"
+
+#: peasypdf.sh:129
+msgid "File not found!"
+msgstr "Fichier non trouvé!"
+
+#: peasypdf.sh:157
+msgid "Extracting page"
+msgstr "Extraction de la page"
+
+#: peasypdf.sh:176
+msgid "Text extracted to"
+msgstr "Texte extrait vers"
+
+#: peasypdf.sh:179
+msgid "Add this string to the end of the filename"
+msgstr ""
+
+#: peasypdf.sh:181
+msgid "Still working ..."
+msgstr "Encore actif ..."
+
+#: peasypdf.sh:204
+msgid "File saved as"
+msgstr "Fichier sauvegardé sous"
+
+#: peasypdf.sh:216
+msgid "PDF Builder - Select a file (JPG, PNG, PS, PDF, etc)"
+msgstr "Créer un PDF - Sélectionner un fichier (JPG, PNG, PS, PDF, etc)"
+
+#: peasypdf.sh:219
+msgid "Do you want to pick filenames that may contain spaces?"
+msgstr "Utiliser des noms de fichiers avec des espaces?\t\t"
+
+#: peasypdf.sh:224
+msgid "If not, you can enter a list of names or use wildcards."
+msgstr "Sinon, entrez une liste de noms ou des caractères génériques"
+
+#: peasypdf.sh:227
+msgid "Should graphics be resized to fill the page?                      "
+msgstr "Redimensionner les graphiques pour remplir la page?\t"
+
+#: peasypdf.sh:231
+msgid "Use the Quick button to convert a single file to PDF."
+msgstr "Utilisez le bouton QUICK pour convertir un simple fichier en PDF."
+
+#: peasypdf.sh:246 peasypdf.sh:324
+msgid "Help"
+msgstr "Aide"
+
+#: peasypdf.sh:250
+msgid "New"
+msgstr "Nouveau"
+
+#: peasypdf.sh:254
+msgid "Add"
+msgstr "Ajouter"
+
+#: peasypdf.sh:259
+msgid "Save"
+msgstr "Sauver"
+
+#: peasypdf.sh:263 peasypdf.sh:337
+msgid "View"
+msgstr "Voir"
+
+#: peasypdf.sh:267
+msgid "Quick"
+msgstr "QUICK"
+
+#: peasypdf.sh:271 peasypdf.sh:340
+msgid "Quit"
+msgstr "QUITTER"
+
+#: peasypdf.sh:276
+msgid "PDF Extractor - Drag a PDF file into this box"
+msgstr "Extraire un PDF - Faire glisser un PDF dans cette case"
+
+#: peasypdf.sh:288
+msgid "Extract to: "
+msgstr "Extraire en : "
+
+#: peasypdf.sh:306
+msgid "Combine"
+msgstr "Combiner"
+
+#: peasypdf.sh:311
+msgid "Page Number(s)                  DPI"
+msgstr "Numéro de page(s)                  \tDPI"
+
+#: peasypdf.sh:328
+msgid "Extract"
+msgstr "Extraire"
+
+#: peasypdf.sh:332
+msgid "Clear"
+msgstr "Vider"
+
+#~ msgid "of"
+#~ msgstr "de"

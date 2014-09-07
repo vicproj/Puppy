@@ -1,0 +1,94 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: copy-fast VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:43+0200\n"
+"PO-Revision-Date: 2013-06-23 09:26+0100\n"
+"Last-Translator: fido@localhost\n"
+"Language-Team: none\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: copy-fast.sh:34
+msgid "Current date:"
+msgstr "Date actuelle:"
+
+#: copy-fast.sh:34
+msgid "Also recorded in /tmp/rsync-results."
+msgstr "Également enregistré dans /tmp/rsync-results."
+
+#: copy-fast.sh:34
+msgid "Please wait patiently for completion."
+msgstr "S'il vous plaît attendre patiemment la fin"
+
+#: copy-fast.sh:38
+msgid "There is a list of copied files found at /tmp/rsync-results"
+msgstr "Il y a une liste des fichiers copiés dans /tmp/rsync-results"
+
+#: copy-fast.sh:149 copy-fast.sh:154 copy-fast.sh:166 copy-fast.sh:172
+#: copy-fast.sh:216
+msgid "OK"
+msgstr "OK"
+
+#: copy-fast.sh:149
+msgid "Sorry"
+msgstr ""
+
+#: copy-fast.sh:149
+msgid "It is not recommended to copy a folder into itself."
+msgstr "Il n'est pas recommandé de copier un dossier en lui-même."
+
+#: copy-fast.sh:154 copy-fast.sh:172
+msgid "Log"
+msgstr "Log"
+
+#: copy-fast.sh:159
+msgid "No files copied!"
+msgstr "Aucun fichiers copiés!"
+
+#: copy-fast.sh:166
+msgid "Sorry. There is a file with the same name."
+msgstr "Désolé. Il y a un fichier avec le même nom."
+
+#: copy-fast.sh:193
+msgid "Fast Copy"
+msgstr "Fast Copy"
+
+#: copy-fast.sh:201
+msgid "Copy to..."
+msgstr "Copier vers ..."
+
+#: copy-fast.sh:214 copy-fast.sh:216
+msgid "Help"
+msgstr "Aide"
+
+#: copy-fast.sh:236
+msgid "Add a folder to list"
+msgstr "Ajouter un dossier à la liste"
+
+#: copy-fast.sh:243
+msgid "Cancel"
+msgstr "Annuler"
+
+#: copy-fast.sh:250
+msgid "Copy"
+msgstr "Copie"
+
+#: copy-fast.sh:290
+msgid "Question?"
+msgstr "Question?"
+
+#: copy-fast.sh:291
+msgid "There is a file with the same name."
+msgstr "Il y a un fichier avec le même nom."
+
+#: copy-fast.sh:293
+msgid "Do you want to overwrite it?"
+msgstr "Voulez-vous le remplacer?"
+
+#: copy-fast.sh:297 copy-fast.sh:311
+msgid "Copying  a file, please wait..."
+msgstr "Copie en cours d'un fichier, patientez s'il vous plaît..."

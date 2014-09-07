@@ -1,0 +1,175 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:50+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: FR_PUPPY_LINUX <fr_puppy_linux@tradux.org>\n"
+"Language-Team: FR_PUPPY_LINUX <fr_puppy_linux@tradux.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+
+#: psync.sh:37
+msgid "You are using GMT"
+msgstr "Vous utilisez actuellement GMT"
+
+#: psync.sh:39
+msgid "You are using UTC"
+msgstr "Vous utilisez actuellement UTC"
+
+#: psync.sh:41
+msgid "You are using Zulu"
+msgstr "Vous utilisez actuellement Zulu"
+
+#: psync.sh:43
+msgid "You are using UCT"
+msgstr "Vous utilisez actuellement UCT"
+
+#: psync.sh:45
+msgid "You are using Universal"
+msgstr "Vous utilisez actuellement Universel"
+
+#: psync.sh:47
+msgid "You are using Greenwich"
+msgstr "Vous utilisez actuellement Greenwich"
+
+#: psync.sh:49
+msgid "DST does not apply to this timezone"
+msgstr "DST n'est pas applicable à ce fuseau horaire"
+
+#: psync.sh:51
+#, sh-format
+msgid ""
+"Spring: $SPRING\n"
+"Autumn: $FALL"
+msgstr ""
+"Été: $SPRING\n"
+"Hiver: $FALL"
+
+#: psync.sh:80
+#, sh-format
+msgid "Psync $VERSION - Time Server Synchroniser"
+msgstr "Psync $VERSION - Synchroniser le Temps avec un serveur"
+
+#: psync.sh:82
+msgid "System Time & Offset to current Hardware Clock"
+msgstr "Temps système et décalage par rapport à l'horloge matérielle"
+
+#: psync.sh:85
+msgid "Hardware Date & Time"
+msgstr "Date & Heure de l'horloge matérielle"
+
+#: psync.sh:89
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: psync.sh:92
+msgid "True Offset to UTC"
+msgstr "Décalage réel par rapport UTC"
+
+#: psync.sh:96
+msgid "Daylight Saving Change Times"
+msgstr "Changements Heure d'été"
+
+#: psync.sh:99
+msgid ""
+"<i>To synchronise your clock, choose a Time Server Region nearest to you.</i>"
+msgstr ""
+"<i>Choisissez le serveur de Temps le plus proche de votre lieu de résidence "
+"pour synchroniser l'horloge.</i>"
+
+#: psync.sh:100
+msgid "Time Server Region"
+msgstr "Serveur de Temps"
+
+#: psync.sh:101
+msgid ""
+"\t<b>If display blanks</b>, move the mouse slightly.\n"
+"\tIf you use GMT with offset then the top line hardware report will show the "
+"offset in reverse notation.\n"
+"\tAfter setting the time there is an option to run Psync automatically at "
+"each startup.\n"
+"\n"
+"\t<i>Please read the Help file for more information.</i>"
+msgstr ""
+"\t<b>En cas d'écran noir</b>, déplacez légèrement votre souris.\n"
+"\tSi vous utilisez GMT avec décalage horaire, notez que la notation affichée "
+"est inverse.\n"
+"\tAprès avoir établi l'heure, il vous sera proposé de lancer automatiquement "
+"la synchronisation à chaque démarrage.\n"
+"\n"
+"\t<i>Veuillez consulter l'Aide pour de plus amples informations.</i>"
+
+#: psync.sh:109
+msgid "Africa"
+msgstr "Afrique"
+
+#: psync.sh:115
+msgid "Asia   "
+msgstr "Asie"
+
+#: psync.sh:121
+msgid "Europe "
+msgstr "Europe "
+
+#: psync.sh:127
+msgid "United Kingdom"
+msgstr "Royaume-Uni"
+
+#: psync.sh:135
+msgid "North America"
+msgstr "Amérique du Nord"
+
+#: psync.sh:141
+msgid "South America "
+msgstr "Amérique du Sud"
+
+#: psync.sh:147
+msgid "Oceania "
+msgstr "Océanie"
+
+#: psyncfunc.sh:32
+msgid "# Psync autorun server location - Rob Lane (tasmod) 2011"
+msgstr ""
+"# Psync lancement automatique du Serveur de Temps - Rob Lane (tasmod) 2011"
+
+#: psyncfunc.sh:36 psyncfunc.sh:56 psyncfunc.sh:76 psyncfunc.sh:96
+#: psyncfunc.sh:116 psyncfunc.sh:136 psyncfunc.sh:156
+msgid "Setting Time... Please wait!"
+msgstr "Configuration de la Date et l'Heure en cours... Veuillez patienter!"
+
+#: psyncfunc.sh:274
+msgid "Synchronised System Time"
+msgstr "Temps système synchronisé"
+
+#: psyncfunc.sh:276
+msgid "Updated Time"
+msgstr "Heure mise à jour"
+
+#: psyncfunc.sh:278
+#, sh-format
+msgid "<b>Offset was $offset</b>"
+msgstr "<b>Décalage de $offset</b>"
+
+#: psyncfunc.sh:280
+msgid ""
+"Press the button \"Autostart\" for auto run and synchronise your clock at "
+"each startup."
+msgstr ""
+"Cliquez sur le bouton \"Lancement automatique\" pour synchroniser l'horloge "
+"à chaque démarrage."
+
+#: psyncfunc.sh:284
+msgid "Autostart"
+msgstr "Lancement automatique"
+
+#: psyncfunc.sh:290
+msgid "Remove Autostart"
+msgstr "Désactiver le lancement"
+
+#: psyncfunc.sh:296
+msgid "Close"
+msgstr "Fermer"

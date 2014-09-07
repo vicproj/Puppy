@@ -1,0 +1,174 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: connectwizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2012-02-15 21:34+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: connectwizard.sh:101
+msgid "No network interfaces detected"
+msgstr "Aucune interface réseau détectée"
+
+#: connectwizard.sh:102
+msgid "Available network interfaces:"
+msgstr "Interfaces réseau disponibles :"
+
+#: connectwizard.sh:109
+msgid "No dialup modem detected"
+msgstr "Aucun modem analogique détecté"
+
+#: connectwizard.sh:110
+msgid "Dialup modem detected at port"
+msgstr "Modem analogique détecté au port"
+
+#: connectwizard.sh:111
+msgid "Dialup modem at port"
+msgstr "Modem analogique au port"
+
+#: connectwizard.sh:112
+msgid "not found"
+msgstr "non trouvé"
+
+#: connectwizard.sh:123
+msgid "GnomePPP (modem dialup)"
+msgstr "GnomePPP (modem à numérotation)"
+
+#: connectwizard.sh:130
+msgid "Roaring Penguin (PPPoE)"
+msgstr ""
+
+#: connectwizard.sh:131
+msgid "'Roaring Penguin' PPPOE:"
+msgstr ""
+
+#: connectwizard.sh:149
+msgid "Pppoeconf (PPPOE)"
+msgstr ""
+
+#: connectwizard.sh:150
+msgid "'Pppoeconf' PPPOE:"
+msgstr ""
+
+#: connectwizard.sh:166
+msgid "GPRS Connect"
+msgstr "Connexion GPRS"
+
+#: connectwizard.sh:167
+msgid "Wireless GPRS modem:"
+msgstr "Modem GPRS sans fil:"
+
+#: connectwizard.sh:206
+msgid "Pwireless (wireless networking)"
+msgstr "Pwireless (réseau sans fil)"
+
+#: connectwizard.sh:211
+msgid "Frisbee (wireless networking)"
+msgstr "Frisbee (connexion réseau sans fil)"
+
+#: connectwizard.sh:216
+msgid "Network Wizard Classic"
+msgstr "Assistant réseau classique"
+
+#: connectwizard.sh:221
+msgid "Dougal's Network Wizard"
+msgstr "Assistant réseau par Dougal"
+
+#: connectwizard.sh:226
+msgid "Simple Network Setup"
+msgstr "Configuration réseau simplifiée (SNS)"
+
+#: connectwizard.sh:232
+msgid "Desktop/tray"
+msgstr "Bureau/Barre"
+
+#: connectwizard.sh:233
+msgid ""
+"What you choose here will start immediately next time you click the "
+"'connect' icon:"
+msgstr ""
+"Votre choix sera exécuté la prochaine fois que vous cliquerez sur l'icône "
+"'Connexion':"
+
+#: connectwizard.sh:234
+msgid "PupDial (modem dialup)"
+msgstr "PupDial (modem à numérotation)"
+
+#: connectwizard.sh:235
+msgid "Internet Connection Wizard"
+msgstr "Assistant de connexion Internet"
+
+#: connectwizard.sh:254
+msgid "Change hostname:"
+msgstr "Changer le nom d'hôte:"
+
+#: connectwizard.sh:255
+msgid ""
+"Type your computer name to identify in the network. Alpha-numeric without "
+"spaces. Then click button to apply the change."
+msgstr ""
+"Tapez le nom de votre ordinateur pour l'identifier dans le réseau. "
+"Caractères alphanumériques sans espace. Puis cliquez sur le bouton pour "
+"appliquer le changement."
+
+#: connectwizard.sh:256
+msgid ""
+"Your computer has been assigned a unique name, known as the 'hostname', by "
+"which it identifies itself on a network. However, you might wish to change "
+"that to a name that is more meaningful to yourself, such as 'johnsmithpc'. "
+"The hostname can have letters and numbers, no spaces."
+msgstr ""
+"Votre ordinateur a reçu, comme 'nom d'hôte', un nom unique, par lequel il "
+"s'identifie sur un réseau. Cependant, si vous souhaitez en changer pour un "
+"autre plus significatif pour vous, genre 'JeanDuponthpc'. Sachez que le nom "
+"d'hôte peut contenir des lettres et des chiffres, sans espace."
+
+#: connectwizard.sh:257
+msgid "Click button to apply hostname"
+msgstr "Cliquez sur le bouton pour appliquer le nom d'hôte"
+
+#: connectwizard.sh:258
+msgid "Current setup/status"
+msgstr "Configuration/Etat actuels:"
+
+#: connectwizard.sh:259
+msgid "Detailed network interface Information:"
+msgstr "Information détaillée sur l'interface réseau:"
+
+#: connectwizard.sh:260
+msgid "Connect to Internet by"
+msgstr "Connexion Internet par"
+
+#: connectwizard.sh:261
+msgid "Dialup analog or wireless modem:"
+msgstr "Modem à numérotation ou sans fil:"
+
+#: connectwizard.sh:262
+msgid "Wired or wireless LAN:"
+msgstr "Réseau local avec ou sans fil:"
+
+#: connectwizard.sh:263
+msgid "Setup a firewall:"
+msgstr "Configurer un parefeu:"
+
+#: connectwizard.sh:264
+msgid "Setup a proxy server:"
+msgstr "Configurer un serveur proxy:"
+
+#: connectwizard.sh:265
+msgid "HELP"
+msgstr "AIDE"
+
+#: connectwizard.sh:266
+msgid "MORE HELP"
+msgstr "AIDE SUPPLEMENTAIRE"
+
+#: connectwizard.sh:337
+msgid "Tools"
+msgstr "Outils"

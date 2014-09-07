@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: numlock 20140413\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-04-13 12:51+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: numlock-bin.sh:19
+msgid "Number lock"
+msgstr "Verrouillage numérique"
+
+#: numlock-bin.sh:44
+msgid "enabled"
+msgstr "activé"
+
+#: numlock-bin.sh:46
+msgid "disabled"
+msgstr "désactivé"
+
+#: numlock-bin.sh:93
+#, sh-format
+msgid "Current status of keyboard numlock:"
+msgstr "Statut actuel du clavier numérique :"
+
+#: numlock-bin.sh:95
+msgid "Options"
+msgstr "Options"
+
+#: numlock-bin.sh:102
+msgid "Enable keyboard numlock."
+msgstr "Activer le clavier numérique."
+
+#: numlock-bin.sh:103
+#, sh-format
+msgid "Enable"
+msgstr "Activer"
+
+#: numlock-bin.sh:112
+msgid "Disable keyboard numlock."
+msgstr "Désactiver le clavier numérique."
+
+#: numlock-bin.sh:113
+msgid "Disable"
+msgstr "Désactiver"
+
+#: numlock-bin.sh:132
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: numlock.sh:21
+msgid "Infos"
+msgstr "Infos"
+
+#: numlock.sh:21
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà activé. Par conséquent, votre demande n'est pas acceptée."

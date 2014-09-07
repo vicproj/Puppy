@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: welcome1stboot VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2014-06-27 17:27+0200\n"
+"Last-Translator: ASRI\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: welcome1stboot.sh:18
+#, sh-format
+msgid "First boot"
+msgstr "Premier démarrage"
+
+#: welcome1stboot.sh:69
+#, sh-format
+msgid ""
+"Welcome! Your free environnement (Linux/GNU/GPL) is ready to be used.\n"
+"\n"
+"If need, you can click on the buttons below to:\n"
+"- get version informations or configure operating system\n"
+"- add applications\n"
+"- install $DISTRO_NAME $DISTRO_VERSION\n"
+"\n"
+"Important: we advise you to read the help and remind that you are using "
+"$DISTRO_NAME $DISTRO_VERSION <b>at your own risk</b>."
+msgstr ""
+"Bienvenue ! Votre environnement libre (Linux/GNU/GPL) est prêt à être "
+"utilisé.\n"
+"\n"
+"Si besoin, vous pouvez cliquer sur les boutons ci-dessous afin :\n"
+"- d'obtenir des informations de version ou de configurer votre système "
+"d'exploitation\n"
+"- d'ajouter des applications\n"
+"- d'installer $DISTRO_NAME $DISTRO_VERSION\n"
+"\n"
+"Important : nous vous encourageons à lire l'aide et nous vous rappelons que "
+"vous utilisez $DISTRO_NAME $DISTRO_VERSION <b>à vos propres risques</b>."
+
+#: welcome1stboot.sh:83
+#, sh-format
+msgid "Help for $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Aide pour $DISTRO_NAME $DISTRO_VERSION."
+
+#: welcome1stboot.sh:88
+#, sh-format
+msgid "Version informations about $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Informations de version à propos de $DISTRO_NAME $DISTRO_VERSION."
+
+#: welcome1stboot.sh:93
+#, sh-format
+msgid "Configuration of $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Configuration de $DISTRO_NAME $DISTRO_VERSION."
+
+#: welcome1stboot.sh:98
+#, sh-format
+msgid "Add applications to $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Ajouter des applications à $DISTRO_NAME $DISTRO_VERSION."
+
+#: welcome1stboot.sh:103
+#, sh-format
+msgid "Install $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Installer $DISTRO_NAME $DISTRO_VERSION."
+
+#: welcome1stboot.sh:108
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."

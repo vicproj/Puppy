@@ -1,0 +1,1061 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: quicksetup 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2011-10-29 15:15+0200\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: quicksetup.sh:88
+msgid "Quick Setup"
+msgstr "Localisation rapide"
+
+#: quicksetup.sh:89
+#, fuzzy
+msgid "Country"
+msgstr "Assistant du pays"
+
+#: quicksetup.sh:90
+msgid "Graphics"
+msgstr ""
+
+#: quicksetup.sh:91
+msgid ""
+"<b>Quick setup</b>. All these settings (and many more) are available from "
+"the Setup and Desktop menu. Please set these to suit yourself, then click "
+"<b>Ok</b>"
+msgstr ""
+
+#: quicksetup.sh:96
+msgid "Choose Locale"
+msgstr "Choisissez la locale"
+
+#: quicksetup.sh:97
+msgid "Set font, money and language for your location"
+msgstr "Paramétrer la police, la monnaie et la langue de votre pays"
+
+#: quicksetup.sh:99
+msgid "Language and Country"
+msgstr "Langue et Pays"
+
+#: quicksetup.sh:103
+msgid "Choose Timezone"
+msgstr "Choisissez le fuseau horaire"
+
+#: quicksetup.sh:104
+msgid "Set time and date for your location"
+msgstr "Paramétrer la date et l'heure"
+
+#: quicksetup.sh:106
+msgid "Timezone"
+msgstr "Fuseau horaire"
+
+#: quicksetup.sh:110 quicksetup.sh:961
+msgid "Choose keyboard layout"
+msgstr "Choisissez le plan du clavier"
+
+#: quicksetup.sh:111
+msgid ""
+"Choose keyboard layout for your country, or whatever keyboard you are using"
+msgstr ""
+
+#: quicksetup.sh:113 quicksetup.sh:157 quicksetup.sh:956 quicksetup.sh:960
+#: quicksetup.sh:1332
+msgid "Keyboard Layout"
+msgstr "Clavier"
+
+#: quicksetup.sh:117
+#, fuzzy
+msgid "Country Setup"
+msgstr "Installation rapide du pays"
+
+#: quicksetup.sh:118
+msgid ""
+"Country settings is required for correct keyboard layout, time zone, "
+"language, currency, decimal separator, calendar... Please set these to suit "
+"your country and language"
+msgstr ""
+
+#: quicksetup.sh:120
+msgid "Country Settings"
+msgstr "Paramètres du pays"
+
+#: quicksetup.sh:126
+msgid "Change Resolution"
+msgstr "Changer la résolution"
+
+#: quicksetup.sh:127
+msgid ""
+"These are available resolutions that the <b>xrandr</b> utility can change "
+"the screen to. Please choose the one that you would like to test."
+msgstr ""
+"Voici les résolutions disponibles dont l'utilitaire <b>xrandr</b> dispose "
+"pour changer l'affichage. Choisissez celle que vous voulez tester"
+
+#: quicksetup.sh:130 quicksetup.sh:255
+msgid "Screen Resolution"
+msgstr "Résolution de l'écran"
+
+#: quicksetup.sh:145
+msgid "Welcome to %s!"
+msgstr "Localisation de %s!"
+
+#: quicksetup.sh:151
+msgid "Close"
+msgstr "Fermer"
+
+#: quicksetup.sh:158
+msgid ""
+"Computer keyboards have different layouts, depending on the country and "
+"language.\n"
+"\n"
+"<b>Note:</b> After making a choice here, clicking the <b>OK</b> button will "
+"update the layout in X (graphical desktop) but not the console (when X not "
+"running) -- that requires a reboot.\n"
+"\n"
+"<b>Technical</b>\n"
+"The choice made here is saved in /etc/keymap. The value specifies a console "
+"layout, from the directory /lib/keymaps. When X starts, the startup script /"
+"usr/bin/xwin translates that to the equivalent for X, from directory /etc/"
+"X11/xkb/symbols -- note, if no match is found, X falls back to using <b>us</"
+"b> layout -- please report if that happens to you."
+msgstr ""
+"Les claviers d'ordinateur possèdent différentes configurations, selon le "
+"pays et la langue.\n"
+"\n"
+"<b>Remarque:</b> Après avoir fait votre choix ici, en cliquant sur <b>OK</"
+"b>, la mise à jour de la configuration de l'interface graphique X sera "
+"effectuée, mais pas celle de la console (quand X ne fonctionne pas) - ce qui "
+"nécessite un redémarrage.\n"
+"\n"
+"<b>Technique</b>\n"
+"Votre choix est sauvegardé dans le fichier /etc/keymap. La valeur spécifie "
+"une disposition de la console, à partir du répertoire /lib/keymaps. Lorsque "
+"l'interface graphique démarre, le script de démarrage /usr/bin/xwin traduit "
+"cela pour l'interface graphique X à partir du répertoire /etc/X11/xkb/"
+"symbols - si aucune correspondance n'est trouvée, l'interface graphique X "
+"revient à la configuration de clavier <b>us</b> - rapportez-le moi si cela "
+"vous arrive."
+
+#: quicksetup.sh:166
+#, fuzzy
+msgid "Keyboard Numlock"
+msgstr "ACTIVER LE PAVÉ NUMÉRIQUE"
+
+#: quicksetup.sh:167
+msgid ""
+"Most keyboards have a group of keys on the right side of the keyboard that "
+"are labeled <b>0</b> to <b>9</b>. These are intended for when heavy entry of "
+"numbers is required. They are dual-purpose, that is can also serve as arrow-"
+"keys, Home, End, PgUp, PgDn -- and the latter is usually the default. That "
+"is, numlock defaults to off.\n"
+"\n"
+"If the checkbox is ticked, numlock will be on when X starts.\n"
+"\n"
+"<b>Technical</b>\n"
+"The file /root/Startup/numlockx specifies whether numlock is on or off. if "
+"the file attribute is executable, then it will execute when X starts. The "
+"file contains either <b>numlockx on</b> or <b>numlockx off</b>, and may be "
+"edited directly if desired."
+msgstr ""
+"La plupart des claviers ont un 'carré' de touches sur le côté droit du "
+"clavier affichés de <b>0</b> à <b>9</b>. Elles sont destinés aux entrées des "
+"chiffres. Mais elles sont aussi à double usage, car elles peuvent aussi "
+"servir pour les touches fléchées, Home, Fin, PageHaut, PageBas - et cette "
+"dernière disposition est généralement proposée par défaut. Autrement dit, "
+"par défaut le pavé numérique est 'off' (désactivé).\n"
+"\n"
+"Si cette case est cochée, le pavé numérique (numlock) sera sur 'on' (activé) "
+"quand l'interface graphique X démarrera.\n"
+"\n"
+"<b>Technique</b> \n"
+"Le fichier /root/Startup/numlockx spécifie si le pavé numérique (numlock) "
+"est activé ou non. Si l'attribut du fichier est exécutable, il s'exécutera "
+"quand l'interface graphique X démarrera. Le fichier contient soit "
+"<b>numlockx on</b> soit <b>numlockx off</b>, et peut être modifié "
+"directement si nécessaire."
+
+#: quicksetup.sh:175 quicksetup.sh:815 quicksetup.sh:1577
+msgid "Time Zone"
+msgstr "Fuseau horaire"
+
+#: quicksetup.sh:176
+#, fuzzy
+msgid ""
+"This needs to be set to ensure that Puppy knows the correct time and date.\n"
+"If you cannot find an entry for your location, choose one of the <b>GMT</b> "
+"entries. Finding the correct entry is best, as it automatically applies DST "
+"(Daylight Saving Time), whereas the GMT entries are fixed offsets from the "
+"GMT (UTC) reference.\n"
+"\n"
+"<b>Technical</b>\n"
+"After making a choice, /etc/localtime will point to the appropriate timezone "
+"file in /usr/share/zoneinfo."
+msgstr ""
+"Le fuseau horaire doit être bien bien défini pour s'assurer que Toutou/Puppy "
+"affiche l'heure et la date correctes.\n"
+"Si vous ne trouvez pas d'entrée pour votre ville, choisissez l'une des "
+"entrées <b>GMT</b>. Trouver la bonne entrée c'est mieux, car elle applique "
+"automatiquement la DST (heure d'été), tandis que les entrées GMT ont un "
+"décalage fixe par rapport à l'heure GMT (UTC) de référence.\n"
+"\n"
+"<b>Technique</b>\n"
+"Après avoir fait un choix, le fichier /etc/localtime va pointer vers le "
+"fichier du fuseau horaire approprié dans le fichier /usr/share/zoneinfo. "
+"Notez, cependant, que les fichiers GMT (dans /usr/share/zoneinfo/Etc) ont "
+"effectivement le signe opposé à l'entrée GMT que vous avez choisie - c'est "
+"un détail technique qui n'affecte l'utilisateur en aucune façon."
+
+#: quicksetup.sh:183
+msgid "UTC"
+msgstr ""
+
+#: quicksetup.sh:184
+msgid ""
+"All computers have a hardware clock that runs continuously from a battery, "
+"even when the computer is turned off. This clock can be set either to the "
+"local time or to UTC.\n"
+"\n"
+"<b>UTC/GMT</b>\n"
+"UTC is Coordinated Universal Time, which is basically the same as GMT, "
+"Greenwich Mean Time. The latter is the time at the Royal Observatory in "
+"Greenwich, London -- this is a time that does not have daylight saving or "
+"summer time as does the rest of the UK. It is said to simplify things if the "
+"computer hardware clock is set to UTC.\n"
+"\n"
+"<b>Local time</b>\n"
+"By default, Puppy Linux assumes that the hardware clock is set to local "
+"time, as this is what MS DOS and Windows systems normally use. If you were "
+"to change the hardware clock to UTC, you would also have to ensure that all "
+"operating systems recognise that, else they will show the wrong time/date."
+msgstr ""
+"Tous les ordinateurs ont une horloge matérielle qui fonctionne en "
+"permanence, à l'aide d'une batterie, même lorsque l'ordinateur est éteint. "
+"Cette horloge peut être réglée soit à l'heure locale ou à l'UTC (Temps "
+"universel coordonné, compromis entre l'anglais CUT Coordinated universal "
+"time et le français TUC, Temps universel coordonné. pour plus de détails, "
+"voir cette page : http://fr.wikipedia.org/wiki/UTC_(homonymie)).\n"
+"\n"
+"<b>UTC/GMT</b>\n"
+"UTC est essentiellement le même que GMT (Greenwich Mean Time). Ce dernier "
+"est l'heure à l'Observatoire Royal de Greenwich à Londres - il n'y a pas "
+"d'heure d'été comme dans le reste du Royaume-Uni. Ceci est dit pour "
+"simplifier les choses si l'horloge matériellle du PC est à UTC.\n"
+"\n"
+"<b>Heure locale</b>\n"
+"Par défaut, Toutou/Puppy Linux suppose que l'horloge matérielle est réglée "
+"sur l'heure locale, car c'est ce que MS-DOS et Windows utilisent "
+"normalement. Si vous deviez changer l'horloge matérielle sur UTC, vous "
+"devriez également vous assurer que tous les systèmes d'exploitation la "
+"reconnaissent, sinon ils afficheront mal heures et dates."
+
+#: quicksetup.sh:193
+#, fuzzy
+msgid "Locale"
+msgstr "Aide : A la Localisation (locale)"
+
+#: quicksetup.sh:194
+#, fuzzy
+msgid ""
+"The locale setting provides money, date and font localization for your "
+"country.\n"
+"\n"
+"The format is, for example, <b>en_US</b> where <b>en</b> designates the "
+"language and <b>US</b> designates the country in which it is spoken and "
+"written.\n"
+"\n"
+"When you choose a non-English locale, you will also need a langpack PET "
+"package to provide full translation for applications in Puppy. You will "
+"receive more information about this after choosing the locale. Currently, we "
+"have these langpacks, with the (Forum) names of the maintainers shown:\n"
+"<i>Danish (da):  maans\n"
+"Dutch (nl):   Bert\n"
+"French (fr):  esmourguit\n"
+"German (de):  L18L\n"
+"Greek (el):   kounelii\n"
+"Italian (it): vicmz (temporary)\n"
+"Polish (pl):  robwoj44\n"
+"Portuguese (pt): vicmz\n"
+"Russian (ru): rodin.s\n"
+"Spanish (es): vicmz</i>"
+msgstr ""
+"Les 'locales' déterminent les paramètres pour la monnaie, la date et la "
+"localisation des polices en fonction de votre pays.\n"
+"\n"
+"Par exemple dans le format <b>fr_FR</b>, <b>fr</b> désigne la langue et "
+"<b>FR</b> le pays dans lequel la langue est écrite et parlée.\n"
+"\n"
+"S vous choisissez une autre locale, vous aurez aussi besoin d'un paquet PET "
+"'Langpack' pour obtenir la traduction des applications de Toutou/Puppy. Vous "
+"aurez plus d'informations après le choix du lieu. Nous avons actuellement, "
+"ces langpacks disponibles, suivis des noms (du forum) des mainteneurs :\n"
+"<i>French (fr):  esmourguit\n"
+"German (de):  L18L\n"
+"Polish (pl):  robwoj44\n"
+"Russian (ru): rodin.s\n"
+"Spanish (es): vicmz</i>"
+
+#: quicksetup.sh:210
+msgid "Currently installed langpack:"
+msgstr "Langpack actuellement installé :"
+
+#: quicksetup.sh:212
+msgid ""
+"Note: Even if no langpack is available for your language and country, "
+"choosing the correct locale does provide some useful localization. However, "
+"all the applications, menus and documentation will be in English."
+msgstr ""
+"Remarque : Même si aucun langpack n'est disponible pour votre langue et "
+"votre pays, le choix de la localisation correcte est très utile. Bien que la "
+"plupart des applications, les menus et les documents resteront en anglais/"
+"français."
+
+#: quicksetup.sh:214
+msgid ""
+"<b>Technical</b>\n"
+"The chosen locale file is generated in /usr/lib/locale (if not already) and "
+"LANG variable set in /etc/profile."
+msgstr ""
+"<b>Technique</b>\n"
+"Le fichier de locale choisi est créé dans le répertoire /usr/lib/locale (si "
+"ce n'est déjà fait) et la détermination de la variable LANG dans le fichier /"
+"etc/profile."
+
+#: quicksetup.sh:218
+#, fuzzy
+msgid "UTF-8"
+msgstr "Aide: UTF-8"
+
+#: quicksetup.sh:219
+#, fuzzy
+msgid ""
+"UTF-8 is a Unicode standard in which international characters are "
+"represented in 8, 16 or more bits, and plain ASCII (8th bit = 0) text files "
+"are valid UTF-8 encoding. UTF-8 has become the defacto standard in Linux. "
+"The reason is, basically, that UTF-8 encoded files can be used anywhere in "
+"the world and do not need a particular <b>character set</b> translation.\n"
+"\n"
+"<b>Note 1:</b> Many Puppy Linux users do not use UTF-8 as there is a slight "
+"speed penalty running applications -- all English users are ok running "
+"without UTF-8.\n"
+"\n"
+"<b>Note 2:</b> Non-unicode rendering is achieved by 8-bit character sets, "
+"such as ISO-8859-1 for normal Latin1 English, or ISO-8859-2 for Eastern "
+"European Latin2 languages.\n"
+"\n"
+"Basically, if your language is not a <b>Latin</b> derivative, such as all "
+"Asian languages, then you will need UTF-8. Most non-English Linux users "
+"enable UTF-8, even for Latin-derivative languages, <b>so recommend tick the "
+"box</b>!"
+msgstr ""
+"UTF-8 est un standard Unicode dans lequel les caractères internationaux sont "
+"représentés par 8, 16 ou plus, bits et ou les fichiers texte ASCII (8ème bit "
+"= 0) sont valables. UTF-8 est devenu, de facto, le standard sous Linux. La "
+"raison fondamentale en est que les fichiers codés en UTF-8 peuvent être "
+"utilisés partout dans le monde et n'ont pas besoin d'une <b>définition de "
+"caractère</b> particulière de traduction.\n"
+"\n"
+"<b>Remarque 1 : </b> De nombreux utilisateurs de Toutou/Puppy Linux "
+"n'utilisent pas UTF-8 car cela implique une très légère pénalité de vitesse "
+"d'exécution des applications - les utilisateurs anglais n'utilisent pas "
+"UTF-8.\n"
+"     \n"
+"<b> Remarque 2 : </b> Le rendu Non-unicode est réalisé par les jeux de "
+"caractères 8-bits, comme ISO-8859-1 pour le normal Latin1 Anglais, ou "
+"ISO-8859-2 pour les langues d'Europe de l'Est Latin2.\n"
+"\n"
+"En gros, si votre langue n'est pas dérivée du <b>Latin</b>, comme les "
+"langues asiatiques, vous devrez utiliser UTF-8. Mais, la plupart des "
+"utilisateurs non anglophones activent UTF-8, même pour des langues dérivées "
+"du latin, aussi, <b>je vous recommande de cocher cette case</b>!"
+
+#: quicksetup.sh:228
+msgid "NTP"
+msgstr ""
+
+#: quicksetup.sh:229
+msgid ""
+"This will synchronise the local time and date to an NTP server on the "
+"Internet. You do not need to do this, as computers normally have their date "
+"and time set by a battery-backed hardware clock. However, some tiny "
+"computers, such as some ARM boards (for example the Raspberry Pi) do not "
+"have a hardware clock, so you either have to set the time/date manually at "
+"every bootup, or enable NTP. Note, if you enable NTP now, you can change the "
+"settings any time in the future -- see the 'Psync' entry in the 'Desktop' "
+"menu."
+msgstr ""
+"Cela synchronisera l'heure et la date (locale) avec un serveur NTP sur "
+"Internet. Vous n'avez pas besoin de le faire puisque les ordinateurs ont "
+"normalement la date et l'heure déterminées par une horloge matérielle avec "
+"une batterie de secours. Cependant, certains petits ordinateurs, genre ARM "
+"(par exemple, le Raspberry Pi) n'ont pas d'horloge matérielle, il faut donc, "
+"soit régler l'heure/date manuellement à chaque démarrage, ou activer NTP. "
+"Remarque: si vous activez NTP maintenant, vous pourrez modifier les "
+"paramètres à tout moment - voir 'synchroniser l'heure' dans l'Assistant "
+"Général, ou dans le menu 'Bureau'."
+
+#: quicksetup.sh:232
+#, fuzzy
+msgid "Firewall"
+msgstr "Aide : Pare-feu"
+
+#: quicksetup.sh:233
+msgid ""
+"It is always recommended that the firewall be enabled when connected to a "
+"network, unless it is a local trusted network. Note that you can run the "
+"Firewall Wizard any time in the future if you want to change the settings -- "
+"see the 'Setup' menu."
+msgstr ""
+"Il est toujours recommandé que le pare-feu soit activé lorsque vous êtes "
+"connecté à un réseau, sauf s'il s'agit d'un réseau local de confiance. "
+"Cependant vous pourrez lancer l'Assistant Pare-feu à tout moment, si vous "
+"voulez modifier les paramètres - voir le menu 'Configuration' ou l'Assistant "
+"Général."
+
+#: quicksetup.sh:236 quicksetup.sh:337
+#, fuzzy
+msgid "Network"
+msgstr "Aide : Réseau"
+
+#: quicksetup.sh:237
+msgid ""
+"Your computer has been assigned a unique name, known as the 'hostname', by "
+"which it identifies itself on a network."
+msgstr ""
+"Il a été attribué à votre ordinateur un nom unique, appelé 'Nom d'hôte', par "
+"lequel il s'identifie sur un réseau."
+
+#: quicksetup.sh:237
+#, sh-format
+msgid ""
+"It is currently named '${HOSTNAME}', however you might wish to change that "
+"to a name that is more meaningful to yourself, such as 'johnsmithpc'."
+msgstr ""
+"Il est actuellement appelé '${HOSTNAME}', mais vous pouvez changer pour un "
+"nom plus personnel comme 'monpc'."
+
+#: quicksetup.sh:237
+msgid "The hostname can have letters and numbers, no spaces."
+msgstr "Le nom d'hôte peut être en lettres et chiffres, sans espace."
+
+#: quicksetup.sh:240
+#, fuzzy
+msgid "Xorg Wizards"
+msgstr "Aide: Assistants Xorg"
+
+#: quicksetup.sh:241
+msgid ""
+"If you tick a checkbox, you are flagging your wish to run the Wizard, and it "
+"will happen after you click the <b>OK</b> button.\n"
+"\n"
+"<b>Xorg Video Wizard</b>\n"
+"This is a text-mode application (keyboard-driven, no mouse, and requires "
+"exiting from X (the graphical desktop) to run), that enables you to set the "
+"screen resolution, refresh frequency, correct mouse/touchpad, and find a "
+"correct hardware-specific driver. Note, the <b>vesa</b> driver is generic, "
+"for any video hardware, but is slow. In some cases there is more than one "
+"hardware-specific driver and you have to choose the best one -- for example:"
+msgstr ""
+"Si vous cochez une case, signalant par là votre souhait d'exécuter "
+"l'assistant, il se lancera après avoir cliqué sur le bouton <b>OK</b>.\n"
+"\n"
+"<b>Assistant vidéo Xorg</b>\n"
+"Voici une application en mode texte (utilisable au clavier, sans souris, et "
+"qui nécessite de quitter l'inteface graphique X pour fonctionner), qui vous "
+"permet de définir la résolution de l'écran, la fréquence de "
+"rafraîchissement, de paramétrer les souris/touchpad, et de trouver le bon "
+"pilote spécifique au matériel. Remarque : le pilote <b>vesa</b> est "
+"générique pour tout matériel vidéo, mais il est lent. Dans certains cas, il "
+"y a plusieurs pilotes matériel spécifiques et vous aurez à choisir le "
+"meilleur - exemple :"
+
+#: quicksetup.sh:248
+#, fuzzy
+msgid ""
+"<b>Video Upgrade Wizard</b>\n"
+"What this offers depends on the particular build of Puppy Linux. It may "
+"offer upgrade PETs for the commercial nVidia and ATI Xorg drivers. In the "
+"case of Wary Puppy, there is an offer to upgrade Xorg from version 7.3 to "
+"7.6. Some builds of Puppy do not offer any upgrades via this Wizard, but may "
+"have upgrade PETs available elswhere, such as via the Puppy Package Manager "
+"or the Puppy Forum.\n"
+"\n"
+"<b>Note 1:</b> If you need to run either of these Wizards later on, they are "
+"available via the <b>setup</b> icon on the desktop, or the <b>Setup</b> "
+"category in the menu.\n"
+"<b>Note 2:</b> The <b>Xorg Video Wizard</b> via the <b>setup</b> icon is a "
+"full graphical application, with many more options than the text-mode "
+"version, such as finetuning screen dimensions and adjusting brightness. You "
+"might want to run that afterward to further finetune your X configuration."
+msgstr ""
+"<b>Assistant de Mise à jour vidéo</b>\n"
+"Ce qu'il propose dépend de la construction particulière de Toutou/Puppy "
+"Linux. Il peut offrir un paquet PET de mise à jour pour les pilotes Xorg "
+"commerciaux nVidia et ATI. Pour Toutou/Wary Linux, offre une mise à niveau "
+"de Xorg de la version 7.3 à 7.6. Certaines versions de Toutou/Puppy ne "
+"proposent pas de mises à jour via cet assistant, mais vous pouvez trouver "
+"divers paquets PET disponibles quelquepart, soit par le gestionnaire des "
+"paquets de Toutou/Puppy ou sur le Forum de Puppy par exemple.\n"
+"\n"
+"<b>Note 1:</b> Si vous avez besoin d'exécuter l'un de ces assistants "
+"ultérieurement, ils sont disponibles via le menu <b>Configuration</b> ou "
+"<b>Paramètres</b> (selon la version de Toutou) ou bien en cliquant sur "
+"l'icône <b>Paramètres</b> du bureau. \n"
+"<b>Note 2:</b> <b>L'Assistant vidéo Xorg</b> par l'icône <b>Paramètres</b> "
+"du bureau est une application graphique complète, avec beaucoup plus "
+"d'options que la version en mode texte, comme le réglage fin des dimensions "
+"de l'écran et le réglage de la luminosité... Vous pouvez le lancer, par la "
+"suite, pour affiner encore plus votre configuration de l'interface graphique "
+"X."
+
+#: quicksetup.sh:256
+msgid ""
+"<b>Screen resolution</b>\n"
+"The choices are in the format, for example, <b>1024x768</b>, which means "
+"1024 pixels (dots) horizontally and 768 pixels vertically.\n"
+"\n"
+"<b>Refresh frequency</b>\n"
+"Also listed is the vertical refresh frequency, for example <b>1024x768 60.0</"
+"b> means that the screen is refreshing (redrawing) 60 times per second. For "
+"older cathode-ray-tube monitors, a value of at least 75 is required to "
+"minimize flicker. For modern LCD screens, 60 is satisfactory, and even "
+"preferred in most cases.\n"
+"\n"
+"<b>Warning 1</b>\n"
+"After testing a resolution, you will be given the opportunity to make it "
+"permanent if you wish. <b>IF THE NEW RESOLUTION MESSES UP THE SCREEN, WAIT "
+"60 SECONDS OR PRESS CTRL-ALT-BACKSPACE</b>\n"
+"\n"
+"<b>Warning 2</b>\n"
+"This resolution selection box uses the <b>xrandr</b> utility to set the "
+"resolution, and is intended for testing only, not for a permanent change, as "
+"this does not really change the default resolution, instead it switches "
+"resolutions after X has started, which causes a delay and flicker at startup "
+"and may have other undesirable side-effects. With some X drivers/hardware it "
+"may not work at all. Instead, run the Video Wizard to choose a permanent "
+"resolution."
+msgstr ""
+"<b>Résolution d'écran</b>\n"
+"Les choix sont au format <b>1024x768</b>, ce qui signifie 1024 pixels "
+"(points) horizontalement et 768 pixels à la verticale.\n"
+"\n"
+"<b>Fréquence de rafraîchissement</b>\n"
+"Est aussi reprise la fréquence de rafraîchissement vertical, exemple : "
+"<b>1024x768 60.0</b> ce qui signifie que l'écran est rafraîchi (redessiné) "
+"60 fois par seconde. Pour les plus vieux moniteurs cathodiques à tube, une "
+"valeur d'au moins 75 est nécessaire pour minimiser le scintillement. Pour "
+"les écrans LCD modernes, 60 est satisfaisant et même préféré dans la plupart "
+"des cas.\n"
+"\n"
+"<b>Avertissement 1</b>\n"
+"Après avoir testé une résolution, il vous sera donné la possibilité de la "
+"rendre permanente si vous le souhaitez. <b> SI LA NOUVELLE RÉSOLUTION MET LE "
+"DESORDRE SUR L'ÉCRAN, ATTENDEZ 60 SECONDES OU PRESSEZ LES TOUCHES Ctrl-Alt-"
+"Retour Arr</b>\n"
+"\n"
+"<b>Avertissement 2</b>\n"
+"Cette boîte de sélection de résolution utilise l'utilitaire <b>xrandr</b> "
+"pour configurer la résolution. Il est destiné à tester et non pas pour "
+"établir un changement permanent, car il n'a pas réellement changé la "
+"résolution par défaut. Au lieu de ça, il commute les résolutions après le "
+"lancement de l'interface graphique X, ce qui provoque un retard et un "
+"scintillement et peut produire d'autres effets indésirables secondaires. "
+"Avec certains pilotes graphique ou du matériel, il peut ne pas fonctionner "
+"du tout. Dans ce cas, lancez l'Assistant vidéo pour choisir une solution "
+"permanente."
+
+#: quicksetup.sh:304
+msgid "Set this computer's time and date from an Internet NTP server"
+msgstr ""
+"Régler l'heure et la date de cet ordinateur à partir d'un serveur Internet "
+"NTP"
+
+#: quicksetup.sh:306
+msgid "Set time/date from the Internet"
+msgstr "Régler heure/date par Internet"
+
+#: quicksetup.sh:321
+msgid ""
+"Tick this if interested in running Internet applications as non-root user "
+"spot, for extra security"
+msgstr ""
+"Cochez cette case pour exécuter des applications Internet sous spot et "
+"quitter le mode administrateur root momentanément."
+
+#: quicksetup.sh:330
+msgid "Run Internet apps as spot"
+msgstr "Exécuter les applis Internet sous spot"
+
+#: quicksetup.sh:340
+msgid "Tick checkbox to activate the firewall (recommended)"
+msgstr "Cochez cette case pour activer le parefeu (recommandé)"
+
+#: quicksetup.sh:342 quicksetup.sh:1715
+msgid "Firewall enabled"
+msgstr "Pare-feu activé"
+
+#: quicksetup.sh:363
+msgid "Hostname:"
+msgstr "Nom d'hôte"
+
+#: quicksetup.sh:364
+msgid ""
+"Type your computer name to identify in the network. Alpha-numeric without "
+"spaces."
+msgstr ""
+
+#: quicksetup.sh:681
+msgid "Tick checkbox to support UTF-8 encoding"
+msgstr "Cochez la case pour prendre en charge l'encodage UTF-8"
+
+#: quicksetup.sh:683
+msgid "UTF-8 encoding"
+msgstr "Encodage UTF-8"
+
+#: quicksetup.sh:695 quicksetup.sh:1370
+msgid "Main Language"
+msgstr "Langue principale"
+
+#: quicksetup.sh:699
+#, fuzzy
+msgid "Main language"
+msgstr "Langue principale"
+
+#: quicksetup.sh:701
+msgid "Choose main language"
+msgstr "Choisissez la langue principale"
+
+#: quicksetup.sh:800
+msgid ""
+"Tick checkbox if hardware clock is set to UTC, untick if hardware clock set "
+"to local time"
+msgstr ""
+"Cochez cette case si l'horloge matérielle est réglée sur UTC, décocher-la si "
+"l'horloge matérielle est paramétrée à l'heure locale"
+
+#: quicksetup.sh:802
+msgid "Hardware clock set to UTC"
+msgstr "Horloge matérielle sur UTC?"
+
+#: quicksetup.sh:819
+#, fuzzy
+msgid "Time zone"
+msgstr "Fuseau horaire"
+
+#: quicksetup.sh:821
+msgid "Choose time zone"
+msgstr "Choisissez le fuseau horaire"
+
+#: quicksetup.sh:940
+msgid "Tick checkbox to turn on keyboard numlock"
+msgstr "Cochez cette case pour activer le pavé numérique"
+
+#: quicksetup.sh:942 quicksetup.sh:1351
+msgid "Keyboard numlock"
+msgstr "ACTIVER LE PAVÉ NUMÉRIQUE"
+
+#: quicksetup.sh:992
+msgid "If the Wizard fails to set desired resolution, try this:"
+msgstr "Si l'Assistant n'a pu établir la résolution choisie, essayez ça :"
+
+#: quicksetup.sh:1021
+#, fuzzy
+msgid ""
+"The generic <b>vesa</b> video driver is currently being used. It is "
+"recommended that you run the Video Wizard to try and load a hardware-"
+"specific driver. Failing that, try the Video Upgrade Wizard."
+msgstr ""
+"Le pilote vidéo générique <b>vesa</b> est actuellement utilisé. Il est "
+"recommandé de lancer l'assistant vidéo pour essayer de charger un pilote "
+"spécifique au matériel. Sinon, essayez l'Assistant de Mise à jour Vidéo :"
+
+#: quicksetup.sh:1022
+msgid "The"
+msgstr "Le pilote vidéo"
+
+#: quicksetup.sh:1023
+#, fuzzy
+msgid ""
+"video driver is currently being used. Good, but if you need to adjust screen "
+"resolution or displacement, run the Video Wizard."
+msgstr ""
+"est actuellement utilisé. Si vous avez besoin d'ajuster la résolution ou le "
+"déplacement de l'écran, lancez l'Assistant vidéo :"
+
+#: quicksetup.sh:1024
+msgid "Run the Xorg Video Wizard"
+msgstr "Lancer l'Assistant vidéo Xorg"
+
+#: quicksetup.sh:1025 quicksetup.sh:1689
+msgid "Xorg Video Wizard"
+msgstr "Assistant vidéo Xorg"
+
+#: quicksetup.sh:1026
+#, fuzzy
+msgid "Video Wizard"
+msgstr "Assistant vidéo"
+
+#: quicksetup.sh:1027
+#, fuzzy
+msgid "Upgrade Wizard"
+msgstr "Assistant de Mise à jour"
+
+#: quicksetup.sh:1028
+msgid "Run the Video Upgrade Wizard"
+msgstr "Lancer l'Assistant de Mise à jour vidéo"
+
+#: quicksetup.sh:1029
+msgid "Video Upgrade Wizard"
+msgstr "Assistant de Mise à jour vidéo"
+
+#: quicksetup.sh:1031
+msgid "If the Wizards fail to set desired resolution, try this:"
+msgstr ""
+"Si les Assistants ne parviennent pas à définir la résolution désirée, "
+"essayez ça :"
+
+#: quicksetup.sh:1091
+msgid "Launch the NVIDIA X Server Settings."
+msgstr "Lancement des Paramètres du serveur graphique X NVIDIA"
+
+#: quicksetup.sh:1091
+msgid "NVIDIA"
+msgstr "NVIDIA"
+
+#: quicksetup.sh:1132 quicksetup.sh:1606
+msgid "Xrandr Screen Resolution"
+msgstr "Résolution d'écran Xrandr"
+
+#: quicksetup.sh:1133
+msgid "Set screen resolution with xrandr"
+msgstr "Définir la résolution d'écran avec Xrandr"
+
+#: quicksetup.sh:1178
+msgid "Raspberry Pi Audio Settings"
+msgstr ""
+
+#: quicksetup.sh:1179
+msgid "Automatic output routing"
+msgstr ""
+
+#: quicksetup.sh:1180
+msgid "Output to round analog socket"
+msgstr ""
+
+#: quicksetup.sh:1181
+msgid "Output to HDMI TV/monitor"
+msgstr ""
+
+#: quicksetup.sh:1207
+msgid "Dead mouse?"
+msgstr ""
+
+#: quicksetup.sh:1207
+#, fuzzy
+msgid "<b>TAB</b> key to select this button then press <b>ENTER</b> key."
+msgstr ""
+"Souris morte? Touche <b>TAB</b> pour choisir ce bouton puis pressez la "
+"touche <b>Entrée</b> :"
+
+#: quicksetup.sh:1212
+msgid "Cancel"
+msgstr "Annuler"
+
+#: quicksetup.sh:1226
+msgid "Ok"
+msgstr ""
+
+#: quicksetup.sh:1287
+msgid "Processing, please wait..."
+msgstr ""
+
+#: quicksetup.sh:1533
+#, sh-format
+msgid ""
+"Note, you will need to install langpack_${LANG12} or langpack_${LANG1} PET "
+"package to more fully translate Puppy to your language. Run the Puppy "
+"Package Manager after connection to the Internet, to download and install "
+"this package."
+msgstr ""
+
+#: quicksetup.sh:1607
+#, fuzzy
+msgid "Change resolution to:"
+msgstr "Changer la résolution en"
+
+#: quicksetup.sh:1608
+msgid "Click the OK button to change the resolution."
+msgstr "Cliquez sur le bouton OK pour changer la résolution"
+
+#: quicksetup.sh:1609
+msgid ""
+"If the new resolution does not work, wait 60 seconds, or hit the CTRL-ALT-"
+"BACKSPACE key combination to kill X."
+msgstr ""
+"Si la nouvelle résolution ne fonctionne pas, attendez 60 secondes ou pressez "
+"la combinaison des touches Ctrl-Alt-Retour arr pour fermer le serveur "
+"graphique X."
+
+#: quicksetup.sh:1610
+msgid ""
+"Note, the drive icons may be in wrong place after resolution change, but "
+"will be correct after X is restarted."
+msgstr ""
+"Remarque, les icônes des disques peuvent avoir été déplacées après un "
+"changement de résolution, mais seront replacées correctement après le "
+"redémarrage de X."
+
+#: quicksetup.sh:1637
+msgid "Can you see this?"
+msgstr "Pouvez-vous voir ce qui est affiché?"
+
+#: quicksetup.sh:1638
+msgid ""
+"Click <b>Permanent</b> button to keep this resolution permanently.\n"
+"Click <b>Session</b> button to keep this resolution for current session "
+"only.\n"
+"Click <b>Cancel</b> button to revert to default resolution."
+msgstr ""
+"Cliquez sur le bouton <b>Permanent</b> pour garder de manière permanente "
+"cette résolution.\n"
+"Cliquez sur le bouton <b>Session</b> pour garder cette résolution pour cette "
+"session seulement.\n"
+"Cliquez sur le bouton <b>Annuler</b> pour revenir à la résolution par défaut."
+
+#: quicksetup.sh:1641
+#, fuzzy
+msgid ""
+"<b>Warning</b>\n"
+"It is NOT recommended to choose <b>Permanent</b> here, as the default "
+"resolution is not really changed, instead it switches resolutions after X "
+"has started, which causes a delay and flicker at startup and may have other "
+"undesirable side-effects. Instead, run the Video Wizard to choose a "
+"permanent resolution."
+msgstr ""
+"<b> Attention</b>Il n'est pas recommandé de choisir <b>permanent</b> ici, la "
+"résolution par défaut n'a pas changé, la nouvelle résolution ne prendra "
+"effet qu'après un redémarrage de X, ce qui entraîne un retard et des "
+"clignotement au démarrage et avoir d'autres effets secondaires indésirables. "
+"Pour remédier à cela, exécutez l'Assistant Vidéo pour choisir une résolution "
+"permanente."
+
+#: quicksetup.sh:1643
+msgid "Permanent"
+msgstr "Permanent"
+
+#: quicksetup.sh:1644
+msgid "Session"
+msgstr "Session"
+
+#: quicksetup.sh:1652
+msgid "Or, it will be canceled in 60 seconds."
+msgstr "Ou cela s'annulera au bout de 60 secondes."
+
+#: quicksetup.sh:1704 quicksetup.sh:1705
+#, fuzzy
+msgid "Hostname"
+msgstr "Nom d'hôte"
+
+#: quicksetup.sh:1713
+#, fuzzy
+msgid "Firewall disabled"
+msgstr "Pare-feu activé"
+
+#: quicksetup.sh:1729
+msgid "NTP set-time disabled"
+msgstr ""
+
+#: quicksetup.sh:1734 quicksetup.sh:1738
+msgid "NTP set-time enabled"
+msgstr ""
+
+#: quicksetup.sh:1741
+msgid "NTP set-time (this session only)"
+msgstr ""
+
+#: quicksetup.sh:1770
+msgid "Automatic audio output"
+msgstr ""
+
+#: quicksetup.sh:1771
+msgid "Analog audio output"
+msgstr ""
+
+#: quicksetup.sh:1772
+msgid "HDMI audio output"
+msgstr ""
+
+#: quicksetup.sh:1785
+msgid "restart"
+msgstr "relancer"
+
+#: quicksetup.sh:1788
+msgid "Quick Setup: finished"
+msgstr "Quick Setup: fin"
+
+#: quicksetup.sh:1789
+msgid "Restart X"
+msgstr "Relancer le serveur graphique X"
+
+#: quicksetup.sh:1790
+msgid "Exit"
+msgstr "Quitter"
+
+#: quicksetup.sh:1791
+msgid "These are the changed items:"
+msgstr "Voici les éléments modifiés"
+
+#: quicksetup.sh:1792
+msgid ""
+"Those marked with <b>restart</b> require a restart of X (the graphical "
+"desktop) to take effect. Recommend, if it is ok to continue without "
+"restarting X for now, choose that option (<b>Exit</b> button)."
+msgstr ""
+"Ceux marqués avec <b>relancer</b> nécessitent un redémarrage de l'interface "
+"graphique X pour prendre effet. Recommandé : s'il est possible de continuer "
+"sans redémarrer l'interface graphique X, choisissez cette option (bouton "
+"<b>Quitter</b>). "
+
+#: quicksetup.sh:1793
+msgid ""
+"Make sure no other applications are running, and click the <b>Restart X</b> "
+"button, which will exit from the graphical desktop and restart it."
+msgstr ""
+"Assurez-vous qu'aucune autre application est en cours de fonctionnement, et "
+"cliquez sur le bouton <b>Relancer le serveur graphique X</b>. Cela fermera "
+"le bureau graphique et le relancera. ATTENTION : toutes les applications "
+"seront fermées abruptement. Sauvez votre travail en cours avant de cliquer "
+"sur le bouton <b>Relancer le serveur graphique X</b>."
+
+#: quicksetup.sh:1794
+msgid ""
+"Or, if the <b>Exit</b> button is clicked, the desktop will be retained, and "
+"changes marked with <b>restart</b> will not take effect. However, they will "
+"take effect the next time that X is started."
+msgstr ""
+"Ou bien, si vous cliquez sur le bouton <b>Quitter</b>, le bureau sera "
+"conservé, et les changements marqués avec <b>relancer</b> ne prendront pas "
+"immédiatement effet. Ils prendront toutefois effet la prochaine fois que "
+"l'interface graphique X sera redémarré."
+
+#~ msgid ""
+#~ "<b>Attention</b>\n"
+#~ "It is NOT recommended to choose <b>Permanent</b> here, as the default "
+#~ "resolution is not really changed, instead it switches resolutions after X "
+#~ "has started, which causes a delay and flicker at startup and may have "
+#~ "other undesirable side-effects. Instead, run the Video Wizard to choose a "
+#~ "permanent resolution."
+#~ msgstr ""
+#~ "<b>Attention</b>\n"
+#~ "Il n'est pas recommandé de choisir <b>Permanent</b> ici. Comme la "
+#~ "résolution par défaut n'a pas étéréellement changée, au lieu de ça elle a "
+#~ "été commutée après le lancement du serveur graphique X, ce qui provoque "
+#~ "un retard et un scintillement et peut produire d'autres effets "
+#~ "indésirables secondaires. Lancez plutôt l'Assistant vidéo pour choisir "
+#~ "une solution permanente."
+
+#~ msgid "Confirm the settings and click OK:"
+#~ msgstr "Pour confirmer la configuration, cliquez sur OK :"
+
+#~ msgid "Help: Keyboard Layout"
+#~ msgstr "Aide: Disposition du clavier "
+
+#~ msgid "Help: Keyboard Numlock"
+#~ msgstr "Aide: Pavé numérique"
+
+#~ msgid "Help: NTP"
+#~ msgstr "Aide : NTP"
+
+#~ msgid "Help: Time Zone"
+#~ msgstr "Aide: Fuseau horaire"
+
+#~ msgid "Help: UTC"
+#~ msgstr "Aide: UTC"
+
+#~ msgid "Help: Xrandr Screen Resolution"
+#~ msgstr "Aide: Résolution d'écran Xrandr"
+
+#~ msgid "Network Settings"
+#~ msgstr "Paramètres Réseau"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Please set these to suit your country and language"
+#~ msgstr "Paramétrer en fonction de vos pays et langue"
+
+#~ msgid ""
+#~ "The locale setting provides money, date and font localization for your "
+#~ "country.\n"
+#~ "\n"
+#~ "The format is, for example, <b>en_US</b> where <b>en</b> designates the "
+#~ "language and <b>US</b> designates the country in which it is spoken and "
+#~ "written.\n"
+#~ "\n"
+#~ "<b>Technical</b>\n"
+#~ "The chosen locale file is generated in /usr/lib/locale (if not already) "
+#~ "and LANG variable set in /etc/profile."
+#~ msgstr ""
+#~ "Les paramétres de localisation fournissent la monnaie, la date et les "
+#~ "polices selon votre pays.\n"
+#~ "\n"
+#~ "Le format est par exemple <b>fr_FR</b> où <b>fr</b> indique la langue et "
+#~ "<b>FR</b> indique le pays où cette langue est parlée et écrite.\n"
+#~ "\n"
+#~ "<b>Technique</b>\n"
+#~ "Le fichier de locale choisie est généré dans /usr/lib/locale (s'il "
+#~ "n'existe pas déjà) et la définition de la variable LANG dans /etc/profile."
+
+#~ msgid ""
+#~ "UTF-8 is a Unicode standard in which international characters are "
+#~ "represented in 8, 16 or more bits, and plain ASCII (8th bit = 0) text "
+#~ "files are valid UTF-8 encoding. UTF-8 has become the defacto standard in "
+#~ "Linux. The reason is, basically, that UTF-8 encoded files can be used "
+#~ "anywhere in the world and do not need a particular <b>character set</b> "
+#~ "translation.\n"
+#~ "\n"
+#~ "<b>Note 1:</b> Many Puppy Linux users do not use UTF-8 as there is a "
+#~ "slight speed penalty running applications -- all English users are ok "
+#~ "running without UTF-8.\n"
+#~ "     \n"
+#~ "<b>Note 2:</b> Non-unicode rendering is achieved by 8-bit character sets, "
+#~ "such as ISO-8859-1 for normal Latin1 English, or ISO-8859-2 for Eastern "
+#~ "European Latin2 languages.\n"
+#~ "\n"
+#~ "Basically, if your language is not a <b>Latin</b> derivative, such as all "
+#~ "Asian languages, then you will need UTF-8."
+#~ msgstr ""
+#~ "UTF-8 est un standard Unicode dans lequel les caractères internationaux "
+#~ "sont représentés par 8, 16 bits ou plus, et les fichiers textes en ASCII "
+#~ "(8ème bit = 0) sont valables en encodage UTF-8. UTF-8 est devenu, de "
+#~ "facto, le standard dans Linux. Fondamentalement,la raison en est que les "
+#~ "fichiers en UTF-8 peuvent être utilisés partout dans le monde sans besoin "
+#~ "d'un <b>jeu de caractères</b> de traduction particulier.\n"
+#~ "\n"
+#~ "<b>Note 1:</b> Beaucoup d'utilisateurs de Toutou/Puppy Linux n'utilisent "
+#~ "pas l'UTF-8 parce qu'il y a une légère perte de vitesse exécution des "
+#~ "applications -- tous les utilisateurs anglais s'accordent pour ne pas "
+#~ "utiliser l'UTF-8.\n"
+#~ "     \n"
+#~ "<b>Note 2:</b> Le rendu Non-unicode est fait par les jeux de caractères 8 "
+#~ "bits, comme ISO-8859-1 ou ISO-8859-15  pour le français normal Latin1, ou "
+#~ "ISO-8859-2 pour les langues d'Europe de l'est Latin2.\n"
+#~ "\n"
+#~ "Au fond, si votre langue n'est pas dérivée du <b>Latin</b>, comme toutes "
+#~ "les langues asiatiques, alors vous aurez besoin de l'UTF-8."
+
+#~ msgid "Video Settings"
+#~ msgstr "Paramètres vidéo"
+
+#~ msgid "Welcome! Please set these to suit your country and language"
+#~ msgstr "Bienvenue! Paramétres de vos pays et langue"
+
+#~ msgid "Welcome! Please set these to suit yourself, then click <b>OK</b>"
+#~ msgstr "Paramétrez à votre gré, puis validez!"

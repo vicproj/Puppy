@@ -1,0 +1,54 @@
+# French translations for logout_gui package.
+# Copyright (C) 2014 THE logout_gui'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the logout_gui package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: logout_gui VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-09-07 22:54+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: logout_gui.sh:10
+msgid "Restart window manager"
+msgstr ""
+
+#: logout_gui.sh:15
+msgid "Rebuild Menu"
+msgstr ""
+
+#: logout_gui.sh:20
+msgid "Active window manager"
+msgstr ""
+
+#: logout_gui.sh:25
+msgid "Active graphical server"
+msgstr ""
+
+#: logout_gui.sh:28
+msgid "Puppy Log Out"
+msgstr ""
+
+#: logout_gui.sh:35
+msgid "Reboot"
+msgstr ""
+
+#: logout_gui.sh:40
+msgid "Shut Down"
+msgstr ""
+
+#: logout_gui.sh:48
+msgid "Restart graphical server"
+msgstr ""
+
+#: logout_gui.sh:53
+msgid "Exit to Prompt"
+msgstr ""

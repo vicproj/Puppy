@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"PO-Revision-Date: 2014-01-21 18:44+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: legacy_grub_2013.sh:16
+msgid "Cannot mount"
+msgstr "Montage impossible"
+
+#: legacy_grub_2013.sh:23
+msgid "Cannot create"
+msgstr "Création impossible"
+
+#: legacy_grub_2013.sh:91
+msgid ""
+"Legacy GRUB has two parts. Stage1 is the bootloader code. It can be "
+"installed in the MBR of a hard drive or in a partition boot sector. Stage2 "
+"is the set of support files, like menu.lst. It is installed in the folder /"
+"boot/grub of a partition. Legacy GRUB works with ext or FAT filesystems, but "
+"not NTFS."
+msgstr ""
+"Legacy GRUB a deux parties. Stage1, le code du chargeur de démarrage. Il "
+"peut êtreinstallé dans le MBR d'un HD ou dans un secteur d'amorçage de "
+"partition. Stage2est l'ensemble des fichiers, comme menu.lst. Il est "
+"installé dans le dossier /boot/grub d'une partition. Legacy GRUB fonctionne "
+"avec les S;F. FAT ou ext, maispas NTFS."
+
+#: legacy_grub_2013.sh:92 legacy_grub_2013.sh:94
+#, fuzzy
+msgid "Quick mode"
+msgstr "Mode rapide"
+
+#: legacy_grub_2013.sh:92 legacy_grub_2013.sh:120
+#, fuzzy
+msgid "Expert mode"
+msgstr "Mode expert"
+
+#: legacy_grub_2013.sh:97
+#, fuzzy
+msgid ""
+"Install Stage1 in the MBR of Drive sda\n"
+"and Stage2 in sda1"
+msgstr "Installer Stage1 dans le MBR du disque sda et Stage2 dans sda1"
+
+#: legacy_grub_2013.sh:101 legacy_grub_2013.sh:161
+msgid "Puppy Setup"
+msgstr "Paramètres de Toutou"
+
+#: legacy_grub_2013.sh:104 legacy_grub_2013.sh:164
+msgid "Frugal"
+msgstr "Frugale"
+
+#: legacy_grub_2013.sh:108 legacy_grub_2013.sh:168
+msgid "Full"
+msgstr "Complète"
+
+#: legacy_grub_2013.sh:112 legacy_grub_2013.sh:208
+msgid "Quick Install"
+msgstr "Installation rapide"
+
+#: legacy_grub_2013.sh:128
+msgid "Target for Stage1"
+msgstr "Cible pour Stage1"
+
+#: legacy_grub_2013.sh:135
+msgid "Partition for Stage2"
+msgstr "Partition pour Stage2"
+
+#: legacy_grub_2013.sh:142
+msgid "Target for Stage2"
+msgstr "Cible pour Stage2"
+
+#: legacy_grub_2013.sh:149
+msgid "Optional Windows entry"
+msgstr "Options d'entrées de Windows"
+
+#: legacy_grub_2013.sh:156
+msgid "Optional Ubuntu entry"
+msgstr "Options d'entrées d'Ubuntue"
+
+#: legacy_grub_2013.sh:172
+msgid "Expert Install"
+msgstr "Installation experte"
+
+#: legacy_grub_2013.sh:183 legacy_grub_2013.sh:203
+msgid "Help"
+msgstr "Aide"
+
+#: legacy_grub_2013.sh:188 legacy_grub_2013.sh:201
+msgid "Cancel"
+msgstr "Annuler"
+
+#: legacy_grub_2013.sh:205
+msgid "Do you really want to install GRUB?"
+msgstr "Voulez-vous vraiment installer GRUB?"
+
+#: legacy_grub_2013.sh:214
+#, fuzzy
+msgid "Done"
+msgstr "C'est fait!"

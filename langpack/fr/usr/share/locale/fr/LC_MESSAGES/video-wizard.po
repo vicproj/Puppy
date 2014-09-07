@@ -1,0 +1,83 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Video_wizard\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: video-wizard.sh:25 video-wizard.sh:73
+msgid "Xvesa Video Wizard"
+msgstr "Assistant vidéo Xvesa"
+
+#: video-wizard.sh:25
+msgid ""
+"The Xvesa X server is not currently running.\n"
+"Select the Xorg Video Wizard from the menu \n"
+"-- it has the option of switching over to the\n"
+"Xvesa server. Click OK button to exit..."
+msgstr ""
+"Le serveur graphique Xvesa n'est pas en fonctionnement.\n"
+"Sélectionnez l'Assistant vidéo Xorg dans le Tableau de bord,\n"
+"onglet Matériel. Vous aurez la possibilité de changer pour\n"
+"le serveur Xvesa. Cliquez sur OK pour quitter..."
+
+#: video-wizard.sh:76
+msgid "Video modes"
+msgstr "Modes vidéo"
+
+#: video-wizard.sh:85
+msgid "Welcome to the Xvesa Video Wizard!"
+msgstr "Bienvenue dans l'Assistant vidéo Xvesa!"
+
+#: video-wizard.sh:88
+#, sh-format
+msgid ""
+"The current video mode is ${CURRENTVALS}. If you want something else, make a "
+"choice on the left then click the 'CHANGE' button. If you are happy with the "
+"current screen resolution, click the 'OKAY' button."
+msgstr ""
+"Le mode vidéo actif est ${CURRENTVALS}. Si vous voulez autre chose, faites "
+"votre choix sur la gauche et cliquez sur le bouton 'CHANGER'. Si vous êtes "
+"satisfait de la résolution actuelle, cliquez sur le bouton 'VALIDER'."
+
+#: video-wizard.sh:91
+msgid ""
+"NOTE: x16 is 16-bit color which is 65,536 colors (HighColor), x24 is 24-bit "
+"color which is 16 million colors (TrueColor)."
+msgstr ""
+"N B: x16 affiche les couleurs en 16 octets soit : 65536 couleurs (HighColor) "
+"et x24 affiche les couleurs en 24 octets soit : 16 millions de couleurs "
+"(TrueColor)."
+
+#: video-wizard.sh:94
+msgid ""
+"IMPORTANT: if a mode does not work, press CTRL-ALT-BACKSPACE (hold down CTRL "
+"and ALT keys and tap BACKSPACE key). Please remember this key combination. "
+"It is the standard Linux technique for emergency shutdown of the X graphics "
+"server."
+msgstr ""
+"IMPORTANT: si un mode ne marche pas, pressez CTRL-ALT-RETOUR ARRIERE "
+"(appuyez sur CTRL et ALT puis tapez sur RETOUR ARRIERE). Rappelez-vous cette "
+"combinaison. C'est la technique standard sous Linux en cas de plantage d'un "
+"serveur graphique X."
+
+#: video-wizard.sh:103
+msgid "For the experts, X server startup options:"
+msgstr "Pour les experts, les options de lancement du serveur X:"
+
+#: video-wizard.sh:116
+msgid "CHANGE"
+msgstr "CHANGER"
+
+#: video-wizard.sh:120
+msgid "OKAY"
+msgstr "VALIDER"

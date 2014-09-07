@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: download_file VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2012-02-16 12:00+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: download_file.sh:50
+msgid "NOTE:"
+msgstr ""
+
+#: download_file.sh:51
+msgid ""
+"It may be that the local package database needs to be updated. In some "
+"cases, the packages in the online package repository change, so you may be "
+"trying to download a package that no longer exists. One way to check this is "
+"to go to the URL with your web browser:"
+msgstr ""
+
+#: download_file.sh:53
+msgid ""
+"If the URL is working and the repository has a later package, cancel the "
+"current operation. In the Puppy Package Manager main window, click the "
+"'Configure' button, then the 'Update now' button -- this will update the "
+"local database. Be warned though, for some large repositories this process "
+"may take awhile."
+msgstr ""
+
+#: download_file.sh:59
+msgid "Testing file exists:"
+msgstr "Test d'existance du fichier:"
+
+#: download_file.sh:63 download_file.sh:108 download_file.sh:151
+#: download_file.sh:170 download_file.sh:180 download_file.sh:191
+#: download_file.sh:209
+msgid "Puppy File Downloader"
+msgstr "PPM : Téléchargement de paquets"
+
+#: download_file.sh:63
+msgid "TEST AGAIN"
+msgstr "TESTER A NOUVEAU"
+
+#: download_file.sh:63 download_file.sh:209
+msgid "GIVE UP"
+msgstr "ABANDONNER"
+
+#: download_file.sh:63
+msgid ""
+"Tested if remote file exists, but failed, see log top-left of screen.\n"
+"Do you want to test again, or give up?"
+msgstr ""
+"Test de l'existance du fichier distant sans réussite, voir le rapport en "
+"haut à gauche de l'écran.\n"
+"Voulez-vous tester à nouveau, ou abandonner?"
+
+#: download_file.sh:84
+msgid "Oh dear, unable to obtain size of remote file:"
+msgstr "Impossible d'obtenir la taille du fichier distant:"
+
+#: download_file.sh:86
+msgid "although it does seem to exist."
+msgstr "Quoiqu'il semble bien exister."
+
+#: download_file.sh:91
+msgid "Oh dear, this URL seems to be wrong:"
+msgstr "Cette URL semble erronée:"
+
+#: download_file.sh:93
+msgid ""
+"It is supposed to be of the format http://foo.org/abiword-1.pet,\n"
+"or ftp://foo.org/abiword-1.pet (with name of the file to download\n"
+"on the end), but your URL seems wrong."
+msgstr ""
+"Elle est censé être de format http://foo.org/abiword-1.pet,\n"
+"ou ftp://foo.org/abiword-1.pet (avec le nom du fichier à\n"
+"télécharger à la fin), mais votre URL semble erroné."
+
+#: download_file.sh:99
+msgid "Oh dear, something seems to be wrong with the URL:"
+msgstr "Il y a quelque chose qui 'coince' avec l'URL:"
+
+#: download_file.sh:101
+msgid ""
+"A probe of the remote file could not retrieve correct information\n"
+"on it."
+msgstr ""
+"Un sondage du fichier distant n'a pas pu récupérer d'informations\n"
+"correctes à son sujet."
+
+#: download_file.sh:110
+msgid "Click button to abort download..."
+msgstr "Cliquez sur le bouton pour annuler le téléchargement ..."
+
+#: download_file.sh:136
+msgid ""
+"You need to shutdown and create a save-file, then you will have more space.\n"
+"See menu Shutdown -> Reboot"
+msgstr ""
+"Vous devez fermer la session et créer un fichier de sauvegarde, ainsi vous "
+"aurez plus d'espace.\n"
+"Voir menu SESSION -> Redémarrer le PC"
+
+#: download_file.sh:140
+msgid "The partition is full, you will have to delete something."
+msgstr "La partition est pleine, vous devez supprimer quelque chose."
+
+#: download_file.sh:143
+msgid ""
+"Do not have enough space in the RAM. Maybe you need a swap file\n"
+"or swap partition (or it needs to be bigger)"
+msgstr ""
+"Vous n'avez pas assez d'espace en mémoire RAM. Peut-être avez-vous besoin "
+"d'un\n"
+"fichier ou d'une partition d'échange (ou peut être l'augmenter)"
+
+#: download_file.sh:147
+msgid ""
+"You need to increase the size of the save-file.\n"
+"See menu Utility -> Resize personal storage file"
+msgstr ""
+"Vous devez augmenter la taille du fichier de sauvegarde.\n"
+"Voir menu Utilitaires  -> Augmenter le fichier de stockage personnel"
+
+#: download_file.sh:152
+#, sh-format
+msgid ""
+"Sorry, but there is not enough free space to download to.\n"
+"Attempted download directory: ${PWD}\n"
+"The online file is ${SIZEK_ONLINE}KB, but your free space is ${FREEK}KB.\n"
+"\n"
+"${MSGs}\n"
+"\n"
+"Click button to abort download..."
+msgstr ""
+"Désolé, mais il n'y a pas assez d'espace disponible pour le téléchargement.\n"
+"Répertoire de téléchargement essayé : ${PWD}\n"
+"Le fichier en ligne fait ${SIZEK_ONLINE}Ko, et votre espace libre est de "
+"${FREEK}KB.\n"
+"\n"
+"${MSGs}\n"
+"\n"
+"Cliquez sur le bouton pour annuler le téléchargement ..."
+
+#: download_file.sh:162
+msgid "already "
+msgstr "déjà "
+
+#: download_file.sh:170
+msgid "CONTINUE"
+msgstr "CONTINUER"
+
+#: download_file.sh:170
+msgid "START AGAIN"
+msgstr "RECOMMENCER"
+
+#: download_file.sh:170
+#, sh-format
+msgid ""
+"File '${FILENAME}' is ${INSERT1}partly downloaded (although there is\n"
+"no guarantee it is uncorrupted), do you want to continue downloading it,\n"
+"or erase it and download entire file again?"
+msgstr ""
+"Le fichier '${FILENAME}' est ${INSERT1} partiellement téléchargé (sans "
+"aucune\n"
+"garantie qu'il ne soit pas corrompu), voulez-vous continuer à le "
+"télécharger,\n"
+"ou le supprimer et le télécharger à nouveau en totalité?"
+
+#: download_file.sh:180 download_file.sh:191
+msgid "DOWNLOAD AGAIN"
+msgstr "TELECHARGER à nouveau"
+
+#: download_file.sh:180 download_file.sh:191
+msgid "NO"
+msgstr "NON"
+
+#: download_file.sh:180
+#, sh-format
+msgid ""
+"File '${FILENAME}' is ${INSERT1}downloaded but is larger\n"
+"than the online file. Hmmm... this probably means that the online\n"
+"file is a more recent version, so it is recommended that you erase\n"
+"the local file and download it again...\n"
+"Do you want to erase it and download entire file again?"
+msgstr ""
+"Le fichier '${FILENAME}' est ${INSERT1} téléchargé, mais est plus grand\n"
+"que le fichier en ligne. Hmmm ... cela signifie probablement que le fichier\n"
+"en ligne est  plus récent, il est donc recommandé d'effacer le fichier\n"
+"local et de le télécharger à nouveau ...\n"
+"Voulez-vous effacer et télécharger le fichier à nouveau en totalité?"
+
+#: download_file.sh:191
+#, sh-format
+msgid ""
+"File '${FILENAME}' is ${INSERT1}fully downloaded (although there is\n"
+"no guarantee it is uncorrupted), do you want to erase it and download\n"
+"entire file again?"
+msgstr ""
+"Le fichier '${FILENAME}' est ${INSERT1} entièrement téléchargé sans aucune\n"
+"garantie qu'il ne soit pas corrompu), voulez-vous l'effacer et le "
+"télécharger\n"
+"entièrement à nouveau?"
+
+#: download_file.sh:204
+msgid "Downloading file:"
+msgstr "Téléchargement du fichier:"
+
+#: download_file.sh:209
+msgid "TRY AGAIN"
+msgstr "RÉESSAYER"
+
+#: download_file.sh:209
+msgid ""
+"Download failed, see log top-left of screen.\n"
+"Do you want to try again, or give up?"
+msgstr ""
+"Le téléchargement a échoué, voir le rapport en haut à gauche de l'écran.\n"
+"Voulez-vous essayer à nouveau, ou abandonner?"

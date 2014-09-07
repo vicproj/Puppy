@@ -1,0 +1,412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: sns VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:51+0200\n"
+"PO-Revision-Date: 2012-02-15 20:18+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: sns.sh:112 sns.sh:161
+msgid "Interface"
+msgstr "Interface"
+
+#: sns.sh:114 sns.sh:161
+msgid "Type"
+msgstr "Type"
+
+#: sns.sh:116 sns.sh:161
+msgid "Driver"
+msgstr "Pilote"
+
+#: sns.sh:118 sns.sh:161
+msgid "Bus"
+msgstr "Bus"
+
+#: sns.sh:120
+msgid "Description"
+msgstr "Description"
+
+#: sns.sh:144
+#, fuzzy
+msgid "Currently a working Internet connection on"
+msgstr "ETAT : il y a actuellement une connexion Internet active sur"
+
+#: sns.sh:147
+#, fuzzy
+msgid "Currently no Internet connection"
+msgstr "ETAT : il n'y a actuellement aucune connexion Internet"
+
+#: sns.sh:151
+#, fuzzy
+msgid ""
+"Puppy has identified these network interfaces on your computer. Click a "
+"button to configure the interface for use."
+msgstr ""
+"Ces interfaces réseau ont été identifiées sur votre ordinateur. Cliquez sur "
+"un bouton pour configurer l'interface à utiliser :"
+
+#: sns.sh:154
+#, fuzzy
+msgid ""
+"Puppy has identified these network interfaces on your computer. Click a "
+"button to configure the interface for use, or click Windows button if you "
+"want to install and use a MS Windows driver."
+msgstr ""
+"Ci-dessous les interfaces réseau identifiées. Cliquez sur un des boutons de "
+"l'interface à utiliser afin de la configurer, ou sur le bouton 'Windows' "
+"pour installer et utiliser un pilote MS Windows.\t\t\t\t\t\t\t\tREMARQUE : "
+"eth0, eth1 etc. signifie une liaison par cable Ethernet (Type : Wired). Et "
+"wlan0, wlan1, etc. signifie une liaison sans fil (Type : Wireless)."
+
+#: sns.sh:161
+msgid "Hardware"
+msgstr "Matériel"
+
+#: sns.sh:161
+msgid "Security"
+msgstr "Sécurité"
+
+#: sns.sh:164
+msgid "Network"
+msgstr "Réseau"
+
+#: sns.sh:197
+msgid "Disconnect Now"
+msgstr ""
+
+#: sns.sh:199
+msgid "Connect Now"
+msgstr ""
+
+#: sns.sh:201
+#, fuzzy
+msgid "Connection profiles have previously been created by SNS."
+msgstr "Voici les profils de connexion déjà créés avec SNS :"
+
+#: sns.sh:201
+msgid ""
+"The 'Connect' button will try to establish an internet connection by any of "
+"the available profiles."
+msgstr ""
+
+#: sns.sh:203
+msgid "Delete:"
+msgstr "Supprimer"
+
+#: sns.sh:211
+msgid "<b>No profiles</b>"
+msgstr ""
+
+#: sns.sh:211
+msgid ""
+"Set up an interface first, and when connected, a profile will be built for "
+"next run."
+msgstr ""
+
+#: sns.sh:216
+#, fuzzy
+msgid "Barry's Simple Network Setup"
+msgstr "Simple Network Setup"
+
+#: sns.sh:223 sns.sh:224
+msgid "Profiles"
+msgstr "Profils"
+
+#: sns.sh:223 sns.sh:228
+msgid "Interfaces"
+msgstr "Interfaces"
+
+#: sns.sh:237 sns.sh:522
+msgid "Help"
+msgstr ""
+
+#: sns.sh:242
+#, fuzzy
+msgid "Network Information"
+msgstr "Information détaillée sur l'interface réseau :"
+
+#: sns.sh:250 sns.sh:884 sns.sh:1007
+msgid "Quit"
+msgstr ""
+
+#: sns.sh:283
+msgid "SNS: Install MS Windows driver"
+msgstr "SNS: Installer le pilote MS Windows"
+
+#: sns.sh:285
+msgid ""
+"Select the '.inf' file of the required MS Windows driver. If on a CD, you "
+"will have to mount it, then navigate to where the '.inf' file is. Note, "
+"choose a Windows XP driver if available..."
+msgstr ""
+"Sélectionnez le fichier '.inf' du pilote MS Windows requis. S'il est sur un "
+"CD, vous devrez le monter et y rechercher le fichier '.inf'. Avis, "
+"choisissez plutôt un pilote Windows XP si possible..."
+
+#: sns.sh:292 sns.sh:539
+msgid "Cancel"
+msgstr ""
+
+#: sns.sh:297 sns.sh:817 sns.sh:964
+msgid "Ok"
+msgstr ""
+
+#: sns.sh:320
+msgid "ERROR: Windows driver does not seem to work, it has been uninstalled"
+msgstr ""
+"ERREUR: Le pilote Windows semble ne pas fonctionner, il a été désinstallé"
+
+#: sns.sh:324
+#, sh-format
+msgid "ERROR, ${INFFILE} is not a .inf file"
+msgstr "ERREUR, ${INFFILE} n'est pas un fichier .inf"
+
+#: sns.sh:333
+msgid "Please wait, bringing down"
+msgstr "Patientez, désactivation de"
+
+#: sns.sh:361
+msgid "Please wait, scanning for wireless networks..."
+msgstr "Patientez, recherche de réseaux sans fil..."
+
+#: sns.sh:403
+#, fuzzy
+msgid "Encrypted"
+msgstr "Cryptage"
+
+#: sns.sh:406
+msgid "Open"
+msgstr ""
+
+#: sns.sh:437
+msgid "Strength"
+msgstr ""
+
+#: sns.sh:460
+msgid "No wireless networks found"
+msgstr "Aucun réseau sans fil n'a été trouvé"
+
+#: sns.sh:464
+#, fuzzy
+msgid ""
+"Choose which network you want to use, type of encryption, then click "
+"'Connect' button."
+msgstr ""
+"Choisissez le réseau que vous voulez utiliser, le type de cryptage, puis "
+"cliquez sur le bouton 'CONNEXION':"
+
+#: sns.sh:475
+msgid "Wireless networks"
+msgstr "Réseaux sans fil"
+
+#: sns.sh:487
+msgid "Encryption"
+msgstr "Cryptage"
+
+#: sns.sh:491
+msgid "None"
+msgstr ""
+
+#: sns.sh:507
+msgid "Key:"
+msgstr "Clé :"
+
+#: sns.sh:516
+msgid "Connect"
+msgstr ""
+
+#: sns.sh:530 sns.sh:860 sns.sh:923 sns.sh:988
+msgid "Simple Network Setup"
+msgstr "Simple Network Setup"
+
+#: sns.sh:591
+msgid "Please wait, attempting to connect to"
+msgstr "Patientez, tentative de connexion à"
+
+#: sns.sh:695 sns.sh:732
+msgid "Please keep waiting, retrying encrypted connection..."
+msgstr "Continuez de patienter, nouvelle tentative de connexion cryptée ..."
+
+#: sns.sh:790
+msgid ""
+"However, there is one item of recommended housekeeping: you really should be "
+"running a firewall. Puppy is inherently secure, however a firewall will give "
+"you that extra protection while online. Recommend that you tick the 'Start "
+"firewall' checkbox (the firewall will install and will automatically run at "
+"all future boots)..."
+msgstr ""
+"Cependant, il y a un truc de maintenance à recommander : utilisez vraiment "
+"un pare-feu. Cette distribution est intrinsèquement sûre, cependant un pare-"
+"feu vous donnera une protection supplémentaire quand vous êtes en ligne. Je "
+"vous recommande de cocher la case 'Lancer le pare-feu' (le pare-feu sera "
+"installé et fonctionnera automatiquement à chaque démarrage)..."
+
+#: sns.sh:792
+msgid "Start firewall"
+msgstr "Lancer le pare-feu"
+
+#: sns.sh:800 sns.sh:948
+msgid "SNS: Simple Network Setup"
+msgstr "SNS: Paramétrer Simple Network"
+
+#: sns.sh:804
+msgid "Successful connection to wireless network"
+msgstr "Connexion réussie au réseau sans fil"
+
+#: sns.sh:808 sns.sh:955
+#, fuzzy
+msgid ""
+"Let SNS automatically connect to the Internet at bootup. Also clicking the "
+"'connect' icon on the desktop will immediately launch SNS..."
+msgstr ""
+"Il est recommandé de laisser cette case cochée, afin d'utiliser SNS pour "
+"vous connecter automatiquement à Internet au démarrage. Ou également, un "
+"clic sur l'icône 'Connexion' du bureau lancera immédiatement SNS..."
+
+#: sns.sh:810 sns.sh:957
+msgid "Set SNS as default network setup tool"
+msgstr "Définir SNS comme outil de configuration réseau par défaut"
+
+#: sns.sh:846
+msgid ""
+"Note: the network card and/or Linux driver might not support WPA2, in which "
+"case you will need to set the wireless router to WPA. Or, WPA might not be "
+"supported at all, in which case you will have to set the router and network "
+"card to use WEP."
+msgstr ""
+"Remarque: la carte réseau et/ou le pilote Linux pourrait ne pas prendre en "
+"charge WPA2, auquel cas vous aurez besoin de configurer le routeur sans fil "
+"en WPA. Ou même WPA pourrait ne pas être du tout pris en charge, dans ce cas "
+"vous devrez configurer le routeur et la carte réseau en WEP."
+
+#: sns.sh:850
+#, sh-format
+msgid ""
+"Failed to activate interface '${INTERFACE}. Sometimes this is just a "
+"temporary problem. Go back to the main window, and you can try again..."
+msgstr ""
+"Impossible d'activer l'interface '${INTERFACE}. C'est parfois simplement "
+"temporaire. Retournez à la fenêtre principale pour essayer à nouveau..."
+
+#: sns.sh:851
+msgid "ERROR: you did not specify a Key"
+msgstr "ERREUR: vous n'avez pas spécifié de clé"
+
+#: sns.sh:852
+msgid "ERROR: you need to choose WEP or WPA security"
+msgstr "ERREUR: vous n'avez pas choisi le codage de sécurité WEP ni WPA"
+
+#: sns.sh:853
+#, sh-format
+msgid "Failed to associate '${CELL_ESSID}' with ESSID."
+msgstr "Impossible d'associer '${CELL_ESSID}' avec ESSID."
+
+#: sns.sh:854
+msgid "Failed to obtain Access Point of network."
+msgstr "Impossible d'obtenir le Point d'Accès au réseau."
+
+#: sns.sh:855
+msgid "wpa_supplicant has timed out trying to associate with the network card."
+msgstr ""
+"wpa_supplicant a dépassé le délai en essayant d'associer la carte réseau."
+
+#: sns.sh:856
+msgid "DHCP client failed to negotiate with wireless network"
+msgstr "Le Client DHCP n'a pas réussi à négocier avec le réseau sans fil"
+
+#: sns.sh:857
+msgid "Failed to connect to wireless network"
+msgstr "Echec de connexion au réseau sans fil"
+
+#: sns.sh:866
+msgid ""
+"So, what do you want to do? If you go back to the main window, you could "
+"test a different interface or network. Note, sometimes an error 'goes away' "
+"if you retry."
+msgstr ""
+"Alors, quoi faire? En revenant à la fenêtre principale, vous pourrez tester "
+"une interface ou un réseau différent. Remarque, parfois une erreur "
+"'disparaît' quand vous réessayez"
+
+#: sns.sh:869 sns.sh:996
+msgid "View log of attempted connection:"
+msgstr "Afficher le rapport des tentatives de connexion :"
+
+#: sns.sh:870 sns.sh:997
+msgid "View Log"
+msgstr ""
+
+#: sns.sh:879 sns.sh:1002
+msgid "Retry"
+msgstr ""
+
+#: sns.sh:900
+msgid "Please wait, trying to connect to interface"
+msgstr "Patientez, essai de connexion à l'interface"
+
+#: sns.sh:923
+msgid "There does not seem to be any network connected to"
+msgstr "Il semble n'y avoir aucun réseau connecté à"
+
+#: sns.sh:923
+#, fuzzy
+msgid ""
+"Is the network cable unplugged? Modem router turned off? If you can fix it, "
+"great, otherwise try a different interface."
+msgstr ""
+"Le câble réseau est-il débranché? Le modem routeur éteint? Si vous pouvez "
+"arranger ça, c'est parfait, sinon essayez une interface différente. Cliquez "
+"sur le bouton 'RETOUR A LA FENETRE PRINCIPALE' pour essayer à nouveau..."
+
+#: sns.sh:952
+msgid "Successful connection to wired network"
+msgstr "Connexion à un réseau câblé réussie"
+
+#: sns.sh:992
+msgid "Failed to connect to wired network"
+msgstr "Echec de connexion à un réseau câblé"
+
+#: sns.sh:993
+msgid ""
+"The network does exist, however failed to negotiate with the DHCP server. Is "
+"there a wireless interface? -- maybe try that."
+msgstr ""
+
+#~ msgid "CONNECT"
+#~ msgstr "CONNEXION"
+
+#~ msgid "CONNECT NOW"
+#~ msgstr "CONNECTER MAINTENANT"
+
+#~ msgid "Current status"
+#~ msgstr "Etat actuel"
+
+#~ msgid "DISCONNECT NOW"
+#~ msgstr "DECONNECTER MAINTENANT"
+
+#~ msgid "GO BACK TO MAIN WINDOW"
+#~ msgstr "RETOUR A LA FENETRE PRINCIPALE"
+
+#~ msgid "HELP"
+#~ msgstr "AIDE"
+
+#~ msgid "LOG"
+#~ msgstr "RAPPORT"
+
+#~ msgid "QUIT"
+#~ msgstr "QUITTER"
+
+#~ msgid "Welcome to Barry's Simple Network Setup!"
+#~ msgstr "Bienvenue dans Simple Network Setup de B. Kauler!"
+
+#~ msgid "Your Internet should now be working!"
+#~ msgstr "Votre Internet devrait maintenant fonctionner!"
+
+#~ msgid "none"
+#~ msgstr "aucun"

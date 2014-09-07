@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pupdial_wizard_helper VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2012-02-16 18:15+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pupdial_wizard_helper.sh:28
+msgid ""
+"However, there is one item of recommended housekeeping: you really should be "
+"running a firewall. Puppy is inherently secure, however a firewall will give "
+"you that extra protection while online. Recommend that you tick the 'Start "
+"firewall' checkbox (the firewall will install and will automatically run at "
+"all future boots)..."
+msgstr ""
+"Cependant, il y a un truc de maintenance à recommander : utilisez vraiment "
+"un pare-feu. Cette distribution est intrinsèquement sûre, cependant un pare-"
+"feu vous donnera une protection supplémentaire quand vous êtes en ligne. Je "
+"vous recommande de cocher la case 'Lancer le pare-feu' (le pare-feu sera "
+"installé et fonctionnera automatiquement à chaque démarrage)..."
+
+#: pupdial_wizard_helper.sh:29
+msgid "Start firewall"
+msgstr "Lancer le pare-feu"
+
+#: pupdial_wizard_helper.sh:31
+msgid "Wizard: PupDial post-connect"
+msgstr "Assistant: post-connexion de PupDial"
+
+#: pupdial_wizard_helper.sh:34
+msgid "It seems that you have successfully dialed the Internet!"
+msgstr "Il semble que vous avez réussi la connexion Internet par numérotation!"
+
+#: pupdial_wizard_helper.sh:37
+msgid ""
+"Recommend leave this checkbox ticked, so that Puppy will use PupDial to "
+"automatically connect to the Internet at bootup. Also clicking the 'connect' "
+"icon on the desktop will immediately launch PupDial..."
+msgstr ""
+"Il est recommandé de laisser cette case cochée, afin d'utiliser PupDial pour "
+"se connecter automatiquement à Internet au démarrage. Un clic sur l'icône "
+"'Connexion' du bureau lancera aussi PupDial ..."
+
+#: pupdial_wizard_helper.sh:38
+msgid "Set PupDial as default network setup tool"
+msgstr "Définir PupDial comme outil de configuration réseau par défaut"
+
+#: pupdial_wizard_helper.sh:39
+msgid ""
+"If you sometimes connect with PupDial, sometimes by other means such as via "
+"a LAN or router, and you don't want to set PupDial as the default connection "
+"method and you don't want this dialog box to pop up everytime you run "
+"PupDial, then leave the above checkbox unticked and tick this box..."
+msgstr ""
+"S'il vous arrive de vous connecter parfois avec PupDial, parfois par "
+"d'autres moyens (un réseau local ou un routeur), et que vous ne voulez pas "
+"de PupDial comme outil de connexion par défaut, ni ne voulez voir cette "
+"boîte de dialogue toutes les fois que vous lancez PupDial, alors laissez la "
+"case ci-dessus cochée et cochez cette case ..."
+
+#: pupdial_wizard_helper.sh:40
+msgid "Do not display this dialog box again"
+msgstr "Ne plus afficher cette case"

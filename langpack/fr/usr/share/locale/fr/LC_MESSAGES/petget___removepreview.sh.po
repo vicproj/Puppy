@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Petget_removepreview.sh\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:47+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: removepreview.sh:34 removepreview.sh:51 removepreview.sh:379
+msgid "Puppy Package Manager"
+msgstr ""
+
+#: removepreview.sh:37
+msgid "There are no user-installed packages yet, so nothing to uninstall!"
+msgstr ""
+
+#: removepreview.sh:54
+msgid "Click 'OK' button to confirm that you wish to uninstall package"
+msgstr ""
+"Cliquez sur 'Valider' pour confirmer que vous voulez désinstaller le paquet"
+
+#: removepreview.sh:123
+msgid "No pkgs beginning with"
+msgstr "Aucun paquet commençant par"
+
+#: removepreview.sh:123
+msgid "found"
+msgstr "n'a été trouvé"
+
+#: removepreview.sh:127
+msgid "Found more than 5 pkgs starting with"
+msgstr "Il a été trouvé plus de 5 paquets commençant par"
+
+#: removepreview.sh:128
+msgid "The first 5 are"
+msgstr "Les 5 sont les suivants"
+
+#: removepreview.sh:131
+msgid "WARNING:"
+msgstr "ATTENTION"
+
+#: removepreview.sh:132
+msgid "No file named"
+msgstr "Aucun fichier du nom de"
+
+#: removepreview.sh:132
+msgid "found in"
+msgstr "n'a été trouvé dans le dossier"
+
+#: removepreview.sh:133
+msgid "folder."
+msgstr "."
+
+#: removepreview.sh:136
+msgid "refusing cowardly to remove the package."
+msgstr "Lâche  refus de supprimer le paquet."
+
+#: removepreview.sh:138
+msgid "Possible suggestions are"
+msgstr "Suggestions possibles :"
+
+#: removepreview.sh:141
+msgid "Possible solution:"
+msgstr "Solution possible:"
+
+#: removepreview.sh:142
+msgid "Edit"
+msgstr "Modifier :"
+
+#: removepreview.sh:142
+msgid "to match the pkgname"
+msgstr "pour faire correspondre le nom du paquet"
+
+#: removepreview.sh:143
+msgid "and start again."
+msgstr "et recommencer."
+
+#: removepreview.sh:375
+msgid "Perhaps you do not need these dependencies that you had also installed:"
+msgstr ""
+"Peut-être n'avez-vous pas besoin de ces dépendances que vous avez "
+"installées :"
+
+#: removepreview.sh:375
+msgid ""
+"...if you do want to remove them, you will have to do so back on the main "
+"window, after clicking the 'Ok' button below (perhaps make a note of the "
+"package names on a scrap of paper right now)"
+msgstr ""
+"... si vous ne voulez pas les supprimer, vous devrez revenir dans la fenêtre "
+"principale pour le faire, après avoir cliqué sur le bouton 'Ok' ci-dessous "
+"(notez, peut-être tout de suite, les noms des paquets sur un bout de papier)"
+
+#: removepreview.sh:382
+msgid "Package"
+msgstr "Le paquet"
+
+#: removepreview.sh:382
+msgid "has been removed."
+msgstr "a été retiré."

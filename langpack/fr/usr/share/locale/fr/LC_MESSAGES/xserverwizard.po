@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2013-10-31 06:25+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: xserverwizard.sh:22
+#, fuzzy
+msgid ""
+"<b>Xvesa Kdrive server</b>. This has been in most live-CDs, and works on the "
+"widest range of video hardware. The single biggest disadvantage is that the "
+"screen refresh frequency cannot be changed (which does not matter for LCD "
+"monitors, it is only a problem for CRT monitors where low frequency causes "
+"noticeable flicker)."
+msgstr ""
+"Serveur Xvesa Kdrive. Ce serveur existe dans tous les live-CD, et il "
+"fonctionne dans presque tous les cas de figure. Le seul inconvénient, c'est "
+"que l'on ne peut pas changer la fréquence de rafraichissement de l'écran "
+"(sans importance pour les écrans LCD, seulement pour les écrans CRT avec des "
+"possibles scintillements). Cliquez sur ce bouton pour lancer L'Assistant "
+"vidéo Xvesa:"
+
+#: xserverwizard.sh:34
+#, fuzzy
+msgid "Puppy X server chooser Wizard"
+msgstr "Assistants serveur X"
+
+#: xserverwizard.sh:36
+msgid "Installed graphical server(s):"
+msgstr ""
+
+#: xserverwizard.sh:36
+msgid "Running graphical server is:"
+msgstr ""
+
+#: xserverwizard.sh:37
+#, fuzzy
+msgid "Graphical server Wizards"
+msgstr "Assistants serveur X"
+
+#: xserverwizard.sh:41
+#, fuzzy
+msgid ""
+"<b>Xorg X server</b>. This is the big fella, large, sophisticated, "
+"accelerated rendering, Xinerama, supports many input devices."
+msgstr ""
+"Serveur Xorg X. Un serveur très puissant et sophistiqué qui supporte "
+"pratiquement tout : l'interprétation accélérée, Xinerama, et diverses autres "
+"choses. Cliquez sur ce bouton pour lancer l'Assistant vidéo Xorg:"
+
+#~ msgid "The currently running X server is:"
+#~ msgstr "Le serveur X actuellement actif est :"
+
+#~ msgid "These X servers are currently installed:"
+#~ msgstr "Les serveurs X actuellement installés sont :"

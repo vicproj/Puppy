@@ -1,0 +1,121 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: osinstall 0.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2014-04-13 22:36+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: osinstall-bin.sh:19
+msgid "OSinstall"
+msgstr "OSinstall"
+
+#: osinstall-bin.sh:20
+msgid "(installation of operating system)"
+msgstr "(installation du système d'exploitation)"
+
+#: osinstall-bin.sh:84
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: osinstall-bin.sh:148
+msgid "Preferences"
+msgstr "Préférences"
+
+#: osinstall-bin.sh:154
+msgid "Interface: large (check) or small (uncheck)."
+msgstr "Interface : large (cocher) ou réduite (décocher)."
+
+#: osinstall-bin.sh:155
+msgid "Large interface"
+msgstr "Interface large"
+
+#: osinstall-bin.sh:164
+#, sh-format
+msgid "Automatically exit $AppTitle01 after selection of an application."
+msgstr ""
+"Quitter automatiquement $AppTitle01 après la sélection d'une application."
+
+#: osinstall-bin.sh:165
+msgid "Auto exit"
+msgstr "Quitter automatiquement"
+
+#: osinstall-bin.sh:174
+msgid "Use terminal to run applications."
+msgstr "Utiliser un terminal pour démarrer les applications."
+
+#: osinstall-bin.sh:175
+msgid "Run in terminal"
+msgstr "Démarrer dans un terminal"
+
+#: osinstall-bin.sh:183
+msgid "Save values."
+msgstr "Sauvegarder les valeurs."
+
+#: osinstall-bin.sh:236
+msgid "Application used ="
+msgstr "Application utilisée ="
+
+#: osinstall-bin.sh:243
+#, sh-format
+msgid "Installation of"
+msgstr "Installation de"
+
+#: osinstall-bin.sh:256
+msgid "<b>PUI</b>: universal installer."
+msgstr "<b>PUI</b> : installeur universel."
+
+#: osinstall-bin.sh:265
+msgid "<b>OCI</b>: simplified installation on primary hard drive (sda)."
+msgstr "<b>OCI</b> : installation simplifiée sur le disque dur primaire (sda)."
+
+#: osinstall-bin.sh:274
+msgid "<b>BootFlash</b>: install on USB device."
+msgstr "<b>BootFlash</b> : installation sur périphérique USB."
+
+#: osinstall-bin.sh:287
+#, sh-format
+msgid "Define preferences of $AppTitle01."
+msgstr "Définir les préférences de $AppTitle01."
+
+#: osinstall-bin.sh:293
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: osinstall-bin.sh:298
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: osinstall-bin.sh:303
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: osinstall.sh:20
+msgid "Infos"
+msgstr "Infos"
+
+#: osinstall.sh:20
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà activé. Par conséquent, votre demande n'est pas acceptée."

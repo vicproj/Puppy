@@ -1,0 +1,148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cdburner-wizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2012-11-16 09:50+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: cdburner-wizard.sh:21
+msgid "CD/DVD driver Wizard: FAILURE"
+msgstr "Assistant du pilote de CD et DVD : ECHEC"
+
+#: cdburner-wizard.sh:21
+msgid "no optical drive found"
+msgstr "aucun disque optique trouvé"
+
+#: cdburner-wizard.sh:25
+msgid "nothing"
+msgstr "  aucun"
+
+#: cdburner-wizard.sh:40
+msgid "Welcome to my CD and DVD Drive Wizard!"
+msgstr "                  Bienvenue dans l'Assistant CD et DVD!"
+
+#: cdburner-wizard.sh:43
+msgid "Choose_cdrom"
+msgstr "Choix du CD"
+
+#: cdburner-wizard.sh:44
+msgid "Choose_dvd"
+msgstr "Choix du DVD"
+
+#: cdburner-wizard.sh:48
+msgid "Optical Drive Wizard"
+msgstr "Assistant de disque optique"
+
+#: cdburner-wizard.sh:49
+msgid "HELP"
+msgstr "AIDE"
+
+#: cdburner-wizard.sh:49
+msgid "EXIT"
+msgstr "QUITTER"
+
+#: cdburner-wizard.sh:53
+msgid "Puppy has probed your PC and found these CD/DVD drives:"
+msgstr "Votre PC possède les lecteur/graveurs de CD/DVD suivants :"
+
+#: cdburner-wizard.sh:56
+#, sh-format
+msgid "Puppy thinks the default CDROM drive is:     ${CDROMDEV}"
+msgstr "Lecteur/graveur de CDROM par défaut:    $CDROMDEV"
+
+#: cdburner-wizard.sh:57
+#, sh-format
+msgid "Puppy thinks the default DVD drive is:       ${DVDDEV}"
+msgstr "Lecteur/graveur de DVD par défaut:      $DVDDEV"
+
+#: cdburner-wizard.sh:60
+#, sh-format
+msgid "/dev/cdrom is currently linked to:  ${CDROMLINK}."
+msgstr "/dev/cdrom est actuellement lié à: $CDROMLINK."
+
+#: cdburner-wizard.sh:61
+#, sh-format
+msgid "/dev/dvd is currently linked to:    ${DVDLINK}."
+msgstr "/dev/dvd est actuellement lié à:   $DVDLINK."
+
+#: cdburner-wizard.sh:63
+#, sh-format
+msgid ""
+"If you disagree with these choices, click the \"${CHOSECD}\"\n"
+"or \"${CHOSEDVD}\" button to change the selection."
+msgstr ""
+"Si vous n'êtes pas d'accord, cliquez sur les boutons\n"
+" \"${CHOSECD}\" ou \"${CHOSEDVD}\" pour modifier."
+
+#: cdburner-wizard.sh:72 cdburner-wizard.sh:88
+msgid "CD/DVD drive Wizard"
+msgstr "Assistant de lecteur/graveur de CD/DVD"
+
+#: cdburner-wizard.sh:72
+msgid "Choose which is the CDROM drive:"
+msgstr "Choisir le lecteur/graveur de CDROM :"
+
+#: cdburner-wizard.sh:74
+#, sh-format
+msgid "YOU MADE NO CHOICE FOR CDROM DRIVE, KEEPING ${CDROMDEV}"
+msgstr "VOUS N'AVEZ FAIT AUCUN CHOIX, ON CONSERVE ${CDROMDEV}"
+
+#: cdburner-wizard.sh:76
+#, sh-format
+msgid "YOU JUST CHOSE ${CDROMD0} AS THE CDROM DRIVE"
+msgstr "VOUS AVEZ CHOISI ${CDROMD0} COMME LECTEUR/GRAVEUR DE CD"
+
+#: cdburner-wizard.sh:88
+msgid "Choose which is the DVD drive:"
+msgstr "Choisir le lecteur/graveur de DVD :"
+
+#: cdburner-wizard.sh:90
+#, sh-format
+msgid "YOU MADE NO CHOICE FOR DVD DRIVE, KEEPING ${DVDDEV}"
+msgstr "VOUS N'AVEZ FAIT AUCUN CHOIX, ON CONSERVE ${DVDDEV}"
+
+#: cdburner-wizard.sh:92
+#, sh-format
+msgid "YOU JUST CHOSE ${DVDD0} AS THE DVD DRIVE"
+msgstr "VOUS AVEZ CHOISI ${DVDD0} COMME LECTEUR/GRAVEUR DE DVD"
+
+#: cdburner-wizard.sh:103
+msgid "CD/DVD driver Wizard: HELP"
+msgstr "Assistant de lecteur/graveur de CD/DVD: AIDE"
+
+#: cdburner-wizard.sh:103
+msgid ""
+"/dev/dvd and /dev/cdrom are links to the actual devices, for example, a link "
+"to /dev/sdc. These should point to the drives that you want to read from.\n"
+"For example, my PC has two drives, a DVD read-only drive and a CD-burner "
+"drive. \n"
+"I point *both* /dev/dvd and /dev/cdrom to the DVD drive, although I could "
+"have pointed /dev/cdrom to the burner drive (a DVD drive can also read CDs, "
+"so I chose it as my default for reading both CDs and DVDs).\n"
+"\n"
+"There are various applications for reading from CD or DVD. For example, "
+"Gxine can play audio CDs and video DVDs. Some of these applications require "
+"that /dev/cdrom \n"
+"or /dev/dvd point to the correct devices."
+msgstr ""
+"/dev/dvd et /dev/cdrom sont des liens vers les périphériques, par exemple, "
+"un lien vers /dev/sdc. Ils doivent pointer vers les lecteurs que vous "
+"souhaitez utiliser pour lire.\n"
+"Par exemple, mon PC a deux périphériques, un lecteur de DVD et un lecteur-"
+"graveur de CD. \n"
+"Je pointe à la fois /dev/dvd et /dev/cdrom vers le lecteur de DVD, bien que "
+"j'aurais pu lier /dev/cdrom au lecteur-graveur de CD (un lecteur de DVD peut "
+"aussi bien lire les CD, et je l'ai donc choisi par défaut pour la lecture "
+"des CD et DVD).\n"
+"\n"
+"Il existe différentes applications pour la lecture des CD ou DVD. Par "
+"exemple, gxine peut lire des CD audio et DVD vidéo. La plupart de ces "
+"applications exigent que /dev/cdrom \n"
+"ou /dev/dvd pointent vers les bons périphériques."

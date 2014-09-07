@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pmwget VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2014-01-20 14:42+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pmwget.sh:15
+msgid "PMirrorget - Help"
+msgstr "PMirrorget - Aide"
+
+#: pmwget.sh:18
+msgid ""
+"PMirrorget allows you to download an entire web page and its text linked "
+"pages to a folder on your PC. Copy and paste the URL you wish to download. "
+"Use the folder selector to choose the destination. It is designed primarily "
+"for grabbing manuals and wiki pages without sifting through them, so you can "
+"view them later."
+msgstr ""
+"PMirrorget vous permet de télécharger une page Web entière et ses pages "
+"texte liées dans un dossier de votre PC. Copiez et collez une adresse "
+"Internet que vous voulez télécharger. Utilisez le sélecteur pour choisir le "
+"répertoire de destination. PMirrorget est conçu principalement pour "
+"récupérer des pages de manuels et de Wiki sans filtre afin de vous permettre "
+"de les afficher ultérieurement."
+
+#: pmwget.sh:22
+msgid "Close"
+msgstr "Fermer"
+
+#: pmwget.sh:30
+msgid "PMirrorget - 0.2.1 - Site Grabber Utility"
+msgstr "PMirrorget - 0.2.1 - Récupérateur de site Web"
+
+#: pmwget.sh:33
+msgid ""
+"Copy and Paste or type the URL of the required site into URL. Choose your "
+"destination folder and then Grab It Now!"
+msgstr ""
+"Copiez, collez ou tapez une adresse dans la zone Adresse. Choisissez le "
+"dossier de destination et cliquez sur RÉCUPÉRER!"
+
+#: pmwget.sh:37
+msgid " URL:    "
+msgstr "Adresse :"
+
+#: pmwget.sh:41
+msgid "Folder:"
+msgstr "Dossier :"
+
+#: pmwget.sh:59
+msgid "Grab It Now!"
+msgstr "RÉCUPÉRER!"
+
+#~ msgid "Quit"
+#~ msgstr "Quitter"

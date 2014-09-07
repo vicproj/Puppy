@@ -1,0 +1,558 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xarchive\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-15 22:26+0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Michel Chabot <michel.chabot@online.fr>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: main.c:132
+#, c-format
+msgid "Found %d wrappers\n"
+msgstr "Greffons trouvés %d \n"
+
+#: main.c:142
+#, c-format
+msgid "no wrappers in %s\n"
+msgstr "Aucun greffon dans %s\n"
+
+#: main.c:147
+msgid "No wrappers found\n"
+msgstr "Aucun greffon trouvé\n"
+
+#: main.c:159
+msgid "Wrappers found and their supported file extensions:\n"
+msgstr "Greffons trouvés avec leurs extensions de fichiers supportés :\n"
+
+#: main.c:169
+#, c-format
+msgid ""
+"\n"
+"%s\n"
+"     Extentions: "
+msgstr ""
+"\n"
+"%s\n"
+"     Extensions : "
+
+#: main.c:174
+msgid "** Needed program not found, ignored **\n"
+msgstr "** Programme nécessaire non trouvé, ignoré **\n"
+
+#: main.c:264
+#, c-format
+msgid "Error running cmd: %s\n"
+msgstr "Erreur au lancement de la cmd : %s\n"
+
+#: main.c:266
+msgid "Error reading file"
+msgstr "Erreur de lecture du fichier"
+
+#: main.c:343
+msgid "Action not supported by wrapper for this archive type."
+msgstr "Action non supportée par le wrapper pour ce type d'archive."
+
+#: main.c:348
+msgid "Wrapper exited with a error."
+msgstr "Le greffon s'est terminé avec une erreur."
+
+#: main.c:381
+msgid ""
+"Change intial widget geometry to GEOM.\n"
+"\t\t\t   Format: WxH+Xpos+Ypos, eg 500x300+10+10\n"
+msgstr ""
+"Changement de la géométrie initiale du widget en GEOM.\n"
+"\t\t\t   Format : WxH+Xpos+Ypos, c.a.d. 500x300+10+10\n"
+
+#: main.c:385
+msgid ""
+"Create an archive named ARCHIVE containing FILES.\n"
+"\t\t\t   ARCHIVE should be the full path to the archive.\n"
+"\t\t\t   FILES will be shown in a file chooser.\n"
+"\t\t\t   If the name 'ask' is passed as the ARCHIVE name\n"
+"\t\t\t   XArchive will give you a file creation dialog.\n"
+"\t\t\t   May not be used with -a option.\n"
+msgstr ""
+"Сréation d'une archive nommée ARCHIVE contenant les FICHIERS.\n"
+"\t\t\t   L'ARCHIVE doit être le chemin complet de l'archive.\n"
+"\t\t\t   LES FICHIERS seront visibles dans le sélectionneur de fichiers\n"
+"\t\t\t   Si le nom 'ask' est donné comme nom d'ARCHIVE\n"
+"\t\t\t   XArchive affichera une boite de dialogues pour la nommer.\n"
+"\t\t\t   Ne doit pas être utilisé avec l'option -a.\n"
+
+#: main.c:393
+msgid ""
+"Add FILES to ARCHIVE.\n"
+"\t\t\t   ARCHIVE should be the full path to the archive.\n"
+"\t\t\t   FILES will be shown in a file chooser.\n"
+"\t\t\t   If the name 'ask' is passed as the ARCHIVE name\n"
+"\t\t\t   XArchive will give you a file selector dialog.\n"
+"\t\t\t   May not be used with -c option.\n"
+msgstr ""
+"Ajout de FICHIERS dans l'ARCHIVE.\n"
+"\t\t\t   L'ARCHIVE doit être le chemin complet de l'archive.\n"
+"\t\t\t   Les FICHIERS seront sélectionnables dans une boite de dialogues.\n"
+"\t\t\t   Si le nom 'ask' est passé comme nom d'ARCHIVE\n"
+"\t\t\t   XArchive ouvrira une boite de dialogues de sélection.\n"
+"\t\t\t   Ne doit pas être utilisé avec l'option -c.\n"
+
+#: main.c:410
+msgid ""
+"[FILES...]\n"
+"\n"
+"\tWithout an option each file in the list\n"
+"\tof passed FILES is treated as an archive\n"
+"\tand an attempt is made to open them.\n"
+"\tWith no FILES passed an info page is shown."
+msgstr ""
+"[FICHIERS...]\n"
+"\n"
+"\tSans une option, chaque fichier sélectionné dans la\n"
+"\tliste des FICHIERS sera traité en tant qu'ARCHIVE\n"
+"\tet une attente sera crée pour les ouvrir.\n"
+"\tSans FICHIER choisi une page d'info. est affichée."
+
+#: main.c:423
+msgid ""
+"Error parsing options\n"
+"Note: you can use -c ** OR ** -a, not both.\n"
+"Please see:  xarchive --help\n"
+"or:          man xarchive\n"
+msgstr ""
+"Erreur dans les options\n"
+"N.B. : vous pouvez utiliser -c ** OU ** -a, pas les deux.\n"
+"Veuillez voir : xarchive --help\n"
+"ou :            man xarchive\n"
+
+#: widgets_gtk.c:164
+msgid "File"
+msgstr "Fichier"
+
+#: widgets_gtk.c:165
+msgid "SymLink"
+msgstr "Lien symbolique"
+
+#: widgets_gtk.c:166
+msgid "Size"
+msgstr "Taille"
+
+#: widgets_gtk.c:167
+msgid "Permissions"
+msgstr "Permissions"
+
+#: widgets_gtk.c:168
+msgid "User"
+msgstr "Utilisateur"
+
+#: widgets_gtk.c:169
+msgid "Group"
+msgstr "Groupe"
+
+#: widgets_gtk.c:170
+msgid "Time"
+msgstr "Date"
+
+#: widgets_gtk.c:363
+msgid "Close Archive"
+msgstr "Fermer l'archive"
+
+#: widgets_gtk.c:428
+msgid "Reading..."
+msgstr "Lecture..."
+
+#: widgets_gtk.c:433
+msgid "Please wait, reading file..."
+msgstr "Veuillez patienter, lecture du fichier..."
+
+#: widgets_gtk.c:462
+msgid "Working..."
+msgstr "En cours..."
+
+#: widgets_gtk.c:467
+msgid "Please wait, adding files..."
+msgstr "Veuillez patienter, ajout des fichiers..."
+
+#: widgets_gtk.c:470
+msgid "Please wait, creating new archive..."
+msgstr "Veuillez patienter, création d'une nouvelle archive..."
+
+#: widgets_gtk.c:473
+msgid "Please wait, removing files..."
+msgstr "Veuillez patienter, retrait des fichiers..."
+
+#: widgets_gtk.c:476
+msgid "Please wait, extracting files..."
+msgstr "Veuillez patienter, extraction des fichiers..."
+
+#: widgets_gtk.c:479
+msgid "Busy, Please wait..."
+msgstr "En cours, veuillez patienter..."
+
+#: widgets_gtk.c:727
+msgid "Open File"
+msgstr "Ouvrir fichier"
+
+#: widgets_gtk.c:739
+msgid "Only Supported"
+msgstr "Supportés uniquement"
+
+#: widgets_gtk.c:744
+msgid "All"
+msgstr "Tous"
+
+#: widgets_gtk.c:764
+msgid "Enter New Archive Name"
+msgstr "Entrez un nouveau nom d'achive"
+
+#: widgets_gtk.c:788
+#, fuzzy
+msgid ""
+"Sorry, archive type not supported.\n"
+"\n"
+"Please use an archive name with an\n"
+"extenstion that you have a wrapper for.\n"
+"\n"
+"For example:\n"
+"If you have tar-wrap.sh:\n"
+"\tsomename.tar.gz\n"
+"If you have zip-wrap.sh:\n"
+"\tsomename.zip\n"
+msgstr ""
+"Désolé, type d'archive non supporté.\n"
+"\n"
+"Veuillez utiliser un nom d'archive avec une\n"
+"extension dont vous possédez le greffon adapté.\n"
+"\n"
+"Par exemple :\n"
+"Si vous possédez tar-wrap.sh :\n"
+"\tnom_quelconque.tar.gz\n"
+"Si vous possédez zip-wrap.sh:\n"
+"\tnom_quelconque.zip\n"
+
+#: widgets_gtk.c:802
+#, c-format
+msgid ""
+"Archive %s\n"
+"already exists.\n"
+"\n"
+"Please pick another name, or\n"
+"put archive in a different directory\n"
+msgstr ""
+"Аrchive %s\n"
+"déjà existante.\n"
+"\n"
+"Veuillez choisir un autre nom, ou\n"
+"placer l'archive dans un autre répertoire\n"
+
+#: widgets_gtk.c:843
+msgid ""
+"No files added to list.\n"
+"\n"
+"Please try again, or cancel."
+msgstr ""
+"Aucun fichier ajouté à la liste.\n"
+"\n"
+"Essayez à nouveau, ou abandonner."
+
+#: widgets_gtk.c:867
+msgid "Select Directory To Extract To"
+msgstr "Choisir le répertoire pour l'extraction"
+
+#: widgets_gtk.c:893
+msgid "Extraction Directory"
+msgstr "Répertoire d'extraction"
+
+#: widgets_gtk.c:903
+msgid "Enter Directory To Extract To:"
+msgstr "Entrez le répertoire pour l'extraction :"
+
+#: widgets_gtk.c:910
+msgid "Choose"
+msgstr "Choisir"
+
+#: widgets_gtk.c:926
+#, c-format
+msgid ""
+"Directory\n"
+"%s\n"
+"Does not exist.\n"
+"\n"
+"Shall I create it?"
+msgstr ""
+"Répertoire\n"
+"%s\n"
+"Inexistant.\n"
+"\n"
+"Le créer ?"
+
+#: widgets_gtk.c:934
+msgid ""
+"Sorry, could not create directory.\n"
+"\n"
+"If you need to create a parent dir and\n"
+"a subdir, create the parent first."
+msgstr ""
+"Désolé, ne peut créer le répertoire.\n"
+"\n"
+"Si vous devez créer un répertoire pére et\n"
+"un sous-répertoire, créer le pére en premier."
+
+#: widgets_gtk.c:1116
+#, c-format
+msgid "setting default handler to file %s\n"
+msgstr "définir l'option d'action par défaut au fichier %s\n"
+
+#: widgets_gtk.c:1160
+msgid ""
+"Double-clicking doesn't work until you\n"
+"set your default handler using the\n"
+"'set double-click default handler' flag\n"
+"in the 'open with..' dialog.\n"
+"\n"
+msgstr ""
+"Le double-clique ne fonctionne qu'après\n"
+"avoir défini votre choix par défaut par\n"
+"l'option 'double-clic par défaut'\n"
+"dans la boite de dialogue 'Ouvir avec...'.\n"
+"\n"
+
+#: widgets_gtk.c:1195
+msgid "Open With..."
+msgstr "Оuvrir avec..."
+
+#: widgets_gtk.c:1205
+#, c-format
+msgid "Open \"%s\" with..."
+msgstr "Оuvrir \"%s\" avec..."
+
+#: widgets_gtk.c:1225
+msgid "set as default double-click handler"
+msgstr "définir le double-clic comme action par défaut"
+
+#: widgets_gtk.c:1229
+#, c-format
+msgid "Current default handler: %s"
+msgstr "Action par défaut actuelle : %s"
+
+#: widgets_gtk.c:1451
+msgid ""
+"No files selected,\n"
+"\n"
+"assuming you want to extract all"
+msgstr ""
+"Aucun fichier sélectionné,\n"
+"\n"
+"en assumant que vous voulez les extraires tous"
+
+#: widgets_gtk.c:1502
+msgid ""
+"Done extracting files to:\n"
+"\n"
+msgstr ""
+"Extraction des fichiers terminée dans :\n"
+"\n"
+
+#: widgets_gtk.c:1675
+msgid "Wrapper Info"
+msgstr "Info. sur les greffons"
+
+#: widgets_gtk.c:1705
+msgid "View Help"
+msgstr "Aide de xarchive"
+
+#: widgets_gtk.c:1773
+msgid "_File"
+msgstr "_Fichier"
+
+#: widgets_gtk.c:1774
+msgid "_Archive"
+msgstr "_Аrchive"
+
+#: widgets_gtk.c:1775
+msgid "_Help"
+msgstr "_Aide"
+
+#: widgets_gtk.c:1776
+msgid "_Popup"
+msgstr "_Popup"
+
+#: widgets_gtk.c:1777
+msgid "_New"
+msgstr "_Nouveau"
+
+#: widgets_gtk.c:1778
+msgid "(CTRL-N) Create new archive"
+msgstr "(CTRL-N) Сréer une nouvelle archive"
+
+#: widgets_gtk.c:1779
+msgid "_Open"
+msgstr "_Оuvrir"
+
+#: widgets_gtk.c:1780
+msgid "(CTRL-O) Open exisiting archive"
+msgstr "(CTRL-O) Оuvrir une archive existante"
+
+#: widgets_gtk.c:1781
+msgid "_Close"
+msgstr "_Fermer"
+
+#: widgets_gtk.c:1782
+msgid "(CTRL-W) Close current archive window"
+msgstr "(CTRL-W) Fermer la fenêtre de l'archive courante"
+
+#: widgets_gtk.c:1783
+msgid "_Quit"
+msgstr "_Quitter"
+
+#: widgets_gtk.c:1784
+msgid "(CTRL-Q) Quit application, closing all open archives"
+msgstr "(CTRL-Q) Quitter l'application en fermant toutes les archives ouvertes"
+
+#: widgets_gtk.c:1786
+msgid "_Extract"
+msgstr "_Extraire"
+
+#: widgets_gtk.c:1787
+msgid "(CTRL-E) Extract selected files from current archive"
+msgstr "(CTRL-E) Extraction des fichiers sélectionnés de l'archive courante"
+
+#: widgets_gtk.c:1789
+msgid "_Add"
+msgstr "_Ajouter"
+
+#: widgets_gtk.c:1790
+msgid "(CTRL-A) Add files to current archive"
+msgstr "(CTRL-A) Ajout des fichiers dans l'archive courante"
+
+#: widgets_gtk.c:1791
+msgid "_Remove"
+msgstr "_Retirer"
+
+#: widgets_gtk.c:1792
+msgid "(CTRL-R) Remove selected files from current archive"
+msgstr "(CTRL-R) Retirer les fichiers sélectionnés de l'archive courante"
+
+#: widgets_gtk.c:1793
+msgid "O_pen With..."
+msgstr "О_uvrir avec..."
+
+#: widgets_gtk.c:1794
+msgid ""
+"(CTRL-P) Temporarily extract the selected files from current archive then "
+"open them with the specified application"
+msgstr ""
+"(CTRL-P) Extraction temporaire des fichiers sélectionnés de l'archive "
+"courante puis les ouvrir avec l'application spécifiée"
+
+#: widgets_gtk.c:1795
+msgid "_Selection"
+msgstr "_Sélection"
+
+#: widgets_gtk.c:1796
+msgid "_Select All"
+msgstr "_Sélectionner tout"
+
+#: widgets_gtk.c:1797
+msgid "(CTRL-S) selected all files in current archive"
+msgstr "(CTRL-S) Sélectionner tout les fichiers de l'archive courante"
+
+#: widgets_gtk.c:1798
+msgid "_Unselect All"
+msgstr "Tout _désélectionner"
+
+#: widgets_gtk.c:1799
+msgid "(CTRL-U) unselect all files in current archive"
+msgstr "(CTRL-U) désélectionner tout les fichiers de l'archive courante"
+
+#: widgets_gtk.c:1800
+msgid "Wrapper _Info"
+msgstr "_Info. des greffons"
+
+#: widgets_gtk.c:1801
+msgid "(CTRL-I) Show information on found wrappers"
+msgstr "(CTRL-I) Voir les informations sur les greffons trouvés"
+
+#: widgets_gtk.c:1802
+msgid "Read _Help"
+msgstr "Afficher l'_aide"
+
+#: widgets_gtk.c:1803
+msgid "(CTRL-H) Read help file"
+msgstr "(CTRL-H) Afficher le fichier d'aide"
+
+#: widgets_gtk.c:1868
+#, c-format
+msgid "building menus failed: %s"
+msgstr "Echec de création des menus : %s"
+
+#: widgets_gtk.c:1919
+msgid ""
+"Could not open archive:\n"
+"\n"
+msgstr ""
+"Ne peut ouvrir l'archive :\n"
+"\n"
+
+#: widgets_gtk.c:1929
+msgid ""
+"Would you like to:\n"
+"Create a new archive, or\n"
+"Add to an existing archive?"
+msgstr ""
+"Voulez-vous :\n"
+"Сréer une nouvelle archive, ou\n"
+"ajouter dans une archive existante ?"
+
+#: widgets_gtk.c:1934
+#, c-format
+msgid ""
+"Archive not found\n"
+"%s\n"
+"\n"
+"%s"
+msgstr ""
+"Аrchive non trouvée\n"
+"%s\n"
+"\n"
+"%s"
+
+#: myfc_gtk.c:165
+msgid "File and directories to add:"
+msgstr "Fichiers et répertoires à ajouter :"
+
+#: myfc_gtk.c:192
+msgid "Remove Selected From List"
+msgstr "Retirer les sélectionnés de la liste"
+
+#: myfc_gtk.c:219
+msgid "Select Files or Directories To Add"
+msgstr "Fichiers ou répertoires sélectionnés à ajouter"
+
+#: myfc_gtk.c:260
+msgid "Remove _From list"
+msgstr "Retirer _de la liste"
+
+#: myfc_gtk.c:268
+msgid "(ALT-F) Remove selected files from the \"add to archive\" list below."
+msgstr ""
+"(ALT-F) Retirer les fichiers sélectionnés de la liste \"Ajouter à l'archive"
+"\" ci-dessous."
+
+#: myfc_gtk.c:271
+msgid "Add _To list"
+msgstr "Ajouter _à la liste"
+
+#: myfc_gtk.c:279
+msgid ""
+"(ALT-T) Add selected files from the \"file chooser\" above to the \"add to "
+"archive\" list below."
+msgstr ""
+"(ALT-T) Ajouter les fichiers sélectionnés du \"choix des fichiers\" dans la "
+"liste \"ajouter à l'archive\" ci-dessous."

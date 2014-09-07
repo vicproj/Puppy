@@ -1,0 +1,225 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pmount VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2013-02-15 10:16+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pmount.sh:206
+msgid "N/A"
+msgstr ""
+
+#: pmount.sh:214 pmount.sh:285 pmount.sh:315 pmount.sh:317 pmount.sh:336
+#: pmount.sh:578
+#, fuzzy
+msgid "Puppy Drive Mounter"
+msgstr "Outil de montage : Pmount"
+
+#: pmount.sh:216 pmount.sh:570
+msgid "Edit label"
+msgstr ""
+
+#: pmount.sh:225 pmount.sh:798
+msgid "Cancel"
+msgstr ""
+
+#: pmount.sh:230 pmount.sh:802
+msgid "Ok"
+msgstr ""
+
+#: pmount.sh:285
+#, sh-format
+msgid "ERROR: unable to mount $DEVNAME"
+msgstr "ERREUR: impossible de monter $DEVNAME"
+
+#: pmount.sh:312
+msgid ""
+"FAILURE! In the case of removable media, the most\n"
+"common reason is the media is not currently inserted.\n"
+"If so, please remedy."
+msgstr ""
+"ECHEC! S'il s'agit d'un média amovible,\n"
+"la plupart du temps, c'est qu'il est mal introduit.\n"
+"Si c'est le cas, remédiez-y S.V.P."
+
+#: pmount.sh:317
+msgid "KILL"
+msgstr "ARRETER"
+
+#: pmount.sh:317
+msgid "EXIT"
+msgstr "QUITTER"
+
+#: pmount.sh:317
+msgid "FAILURE!"
+msgstr "ECHEC!"
+
+#: pmount.sh:318
+msgid ""
+"One or more processes (programs) are currently\n"
+"using the partition. Here they are:"
+msgstr ""
+"Un ou plusieurs processus (programmes)\n"
+"utilisent actuellement la partition. Ce sont :"
+
+#: pmount.sh:322
+msgid ""
+"If you press the 'KILL' button, Puppy will attempt to\n"
+"kill the offending programs for you. Only do this as a\n"
+"last resort."
+msgstr ""
+"Si vous cliquez sur le bouton 'ARRETER', il sera tenté de\n"
+"fermer le programme designé, pour vous. A n'utiliser\n"
+"qu'en dernier recours."
+
+#: pmount.sh:325
+msgid ""
+"Firstly you should try to close the programs\n"
+"manually, so do not press 'KILL'."
+msgstr ""
+"Vous devez d'abord tenter de fermer le programme\n"
+"manuellement, donc ne cliquez pas sur 'ARRETER'."
+
+#: pmount.sh:327
+msgid "PLEASE PRESS THE 'EXIT' BUTTON!"
+msgstr "CLIQUEZ SUR LE BOUTON 'QUITTER'!"
+
+#: pmount.sh:336
+#, fuzzy
+msgid "Remove media, then press <b>Ok</b>"
+msgstr "Retirez le medium, puis pressez sur 'VALIDER'"
+
+#: pmount.sh:381
+msgid "Please wait, probing hardware..."
+msgstr "Patientez, examen des disques en cours..."
+
+#: pmount.sh:559
+msgid "Show location"
+msgstr ""
+
+#: pmount.sh:575
+msgid "Check filesystem"
+msgstr ""
+
+#: pmount.sh:581
+msgid "Mount partition at boot"
+msgstr ""
+
+#: pmount.sh:592 pmount.sh:621 pmount.sh:643
+msgid "(un) Mount"
+msgstr ""
+
+#: pmount.sh:616 pmount.sh:628
+msgid "Play"
+msgstr ""
+
+#: pmount.sh:618 pmount.sh:630
+msgid "Eject disc"
+msgstr ""
+
+#: pmount.sh:626
+msgid "Disc information"
+msgstr ""
+
+#: pmount.sh:645
+msgid "Swap off"
+msgstr ""
+
+#: pmount.sh:648
+msgid "Swap on"
+msgstr ""
+
+#: pmount.sh:690
+msgid "drive"
+msgstr "disque"
+
+#: pmount.sh:691
+msgid "usbdrv"
+msgstr "USB"
+
+#: pmount.sh:692
+msgid "optical"
+msgstr "Optique"
+
+#: pmount.sh:693
+msgid "card"
+msgstr "carte"
+
+#: pmount.sh:694
+msgid "floppy"
+msgstr "Disquette"
+
+#: pmount.sh:712
+msgid "DO NOT REMOVE MOUNTED MEDIA"
+msgstr "NE PAS DÉBRANCHER les médias MONTÉS"
+
+#: pmount.sh:719
+msgid "Refresh"
+msgstr ""
+
+#: pmount.sh:777 pmount.sh:779
+#, fuzzy
+msgid "Preferences"
+msgstr "préférences"
+
+#: pmount.sh:780
+#, fuzzy
+msgid ""
+"If you don't have many drives or partitions, you may find it more convenient "
+"to see everything in one window. Untick the box if you want the default "
+"tabbed interface, or tick for a single window."
+msgstr ""
+"Si vous avez peu de disques, vous pouvez tous les afficher dans une même "
+"fenêtre. Décochez la case pour l'interface par défaut à onglets, ou cocher "
+"pour une seule fenêtre."
+
+#: pmount.sh:782
+msgid "Tick box for single window"
+msgstr "Cochez ici pour une seule fenêtre"
+
+#: pmount.sh:787
+#, fuzzy
+msgid ""
+"If this checkbox is ticked, pMount will quit immediately after choosing to "
+"mount or unmount a partition. If you would prefer pMount to keep running "
+"afterward, then untick this box."
+msgstr ""
+"Si cette case est cochée, Pmount quittera immédiatement après le choix de "
+"monter ou de démonter une partition. Si vous souhaitez consulter Pmount pour "
+"continuer à fonctionner après, décochez cette case."
+
+#: pmount.sh:790
+#, fuzzy
+msgid "Tick for pMount to quit after mount/unmount"
+msgstr "Cochez ici pour fermer Pmount après le montage/démontage"
+
+#~ msgid "CANCEL"
+#~ msgstr "ANNULER"
+
+#~ msgid "MOUNT"
+#~ msgstr "MONTER"
+
+#~ msgid "OK"
+#~ msgstr "VALIDER"
+
+#~ msgid "Pmount: choose preferences"
+#~ msgstr "Pmount: choix des préférences"
+
+#~ msgid "QUIT"
+#~ msgstr "QUITTER"
+
+#~ msgid "REFRESH"
+#~ msgstr "RAFRAÎCHIR"
+
+#~ msgid "UNMOUNT"
+#~ msgstr "DEMONTER"
+
+#~ msgid "free"
+#~ msgstr "libre"

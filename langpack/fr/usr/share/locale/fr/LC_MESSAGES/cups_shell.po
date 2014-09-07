@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cups_shell VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"PO-Revision-Date: 2012-02-15 21:50+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: cups_shell.sh:43 cups_shell.sh:45 cups_shell.sh:47
+msgid "Puppy Printing"
+msgstr ""
+
+#: cups_shell.sh:45
+msgid ""
+"There are 2 main help sources for printing. One locally and one on the Puppy "
+"forum. If chosen, these will be shown together with the print-manager in "
+"your browser."
+msgstr ""
+
+#: cups_shell.sh:51
+#, fuzzy
+msgid "Show basic help to add a printer"
+msgstr "Voulez-vous ajouter une nouvelle imprimante?"
+
+#: cups_shell.sh:59
+msgid "Show extended online help for installing printers"
+msgstr ""
+
+#: cups_shell.sh:68
+msgid "Manage printers and printing tasks"
+msgstr ""
+
+#: cups_shell.sh:117
+msgid "Please wait, composing Gutenprint '.ppd' driver files..."
+msgstr ""
+"Veuillez patienter pendant la composition des fichiers du pilote Gutenprint "
+"'.ppd'..."
+
+#~ msgid "No"
+#~ msgstr "Non"
+
+#~ msgid "Yes"
+#~ msgstr "Oui"

@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: gparted_shell VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2013-02-15 10:23+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: gparted_shell.sh:28
+msgid "internal drive"
+msgstr "disque interne"
+
+#: gparted_shell.sh:29
+msgid "USB drive"
+msgstr "disque USB"
+
+#: gparted_shell.sh:32
+msgid "Descr:"
+msgstr "Descr :"
+
+#: gparted_shell.sh:35
+msgid "ALL DRIVES. Scan all drives at startup"
+msgstr "TOUT :  Rechercher dans tous les disques au lancement."
+
+#: gparted_shell.sh:42
+msgid ""
+"Welcome, Gparted is an application to examine and modify partitions in a "
+"disk drive. At startup, the default behaviour is for Gparted to scan for all "
+"drives in the computer, and on some computers this can take a very long "
+"time. Therefore, this dialog window enables you to make a choice of which "
+"drive you want to work on (and Gparted will only scan that drive at startup)."
+msgstr ""
+"Gparted permet d'examiner et/ou de modifier les partitions d'un disque dur. "
+"Par défaut Gparted recherche tous les disques de votre ordinateur, et sur "
+"certains PC cela peut durer très longtemps. Cette fenêtre de dialogue vous "
+"permet de choisir la partition sur laquelle vous voulez travailler (Gparted "
+"ne recherchera que votre choix)."
+
+#: gparted_shell.sh:43
+msgid ""
+"WARNING: A PC may have a single VFAT or NTFS partition, with Windows "
+"installed, and you might want to decrease the size of that partition so as "
+"to be able to create a Linux partition. For Windows XP/98/95 this is usually "
+"ok (but be careful not to make it too small, say 5GB for XP). However, Vista "
+"gets very upset if the partition is resized and may not work properly "
+"afterward (in some cases won't even start) -- there may be a fix for this, "
+"but we don't know what it is."
+msgstr ""
+" AVERTISSEMENT : Votre ordinateur peut n'avoir qu'une seule partition VFAT "
+"ou NTFS installée avec Windows, et vous voudrez peut-être diminuer la taille "
+"de cette partition pour y créer une partition Linux. Pour Windows XP/98/95 "
+"cela se passe habituellement sans problème (mais attention de ne pas la "
+"diminuer trop, disons 5 Go minimum pour XP). Toutefois, Vista n'aime pas du "
+"tout qu'on touche à sa partition et peut de ne pas fonctionner correctement "
+"après (dans certains cas, il ne démarrera même pas) - il y a un correctif "
+"pour cela, mais nous ne le connaissons pas encore."
+
+#: gparted_shell.sh:49
+msgid "OKAY"
+msgstr "VALIDER"
+
+#: gparted_shell.sh:53
+msgid "CANCEL"
+msgstr "ANNULER"

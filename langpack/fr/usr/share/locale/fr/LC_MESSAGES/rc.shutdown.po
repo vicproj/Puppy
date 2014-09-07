@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: rc.shutdown\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: rc.shutdown.sh:132
+msgid "is now shutting down..."
+msgstr "est en cours de fermeture ..."
+
+#: rc.shutdown.sh:321
+#, sh-format
+msgid ""
+"A swapfile named 'pupswap.swp' is being created in partition "
+"${localSAVEPART},"
+msgstr ""
+"Un fichier d'échange 'pupswap.swp' va être créé dans la partition "
+"${localSAVEPART},"
+
+#: rc.shutdown.sh:322
+#, sh-format
+msgid ""
+"of size ${SWPSIZE}MB. This will be loaded at next boot, to ease the low-RAM"
+msgstr ""
+"d'une taille de ${SWPSIZE}Mo. Il sera chargé au prochain démarrage, pour "
+"pallier au peu de RAM"
+
+#: rc.shutdown.sh:323
+msgid "situation of your PC. Creating now..."
+msgstr "de votre PC. Démarrage de la création maintenant ..."
+
+#: rc.shutdown.sh:331
+msgid "...error, unable to create swapfile."
+msgstr "... erreur, impossible de créer le fichier d'échange."
+
+#: rc.shutdown.sh:382
+msgid "SAVE"
+msgstr ""
+
+#: rc.shutdown.sh:382
+msgid "NO SAVE"
+msgstr ""
+
+#: rc.shutdown.sh:382
+msgid ""
+"Press ENTER key to save session... \n"
+"Or, press TAB then ENTER to not save session... \n"
+"Or, wait 60 seconds to shutdown without saving session..."
+msgstr ""
+
+#: rc.shutdown.sh:387 rc.shutdown.sh:394 rc.shutdown.sh:560
+msgid "Session not saved"
+msgstr "Session non sauvegardée"
+
+#: rc.shutdown.sh:403
+#, fuzzy, sh-format
+msgid "Saving session to ${xPDEV}..."
+msgstr "Sauvegarde de la session sur ${PDEV1}..."
+
+#: rc.shutdown.sh:409
+#, sh-format
+msgid "ERROR: unable to mount /dev/${xPDEV}, cannot save."
+msgstr ""
+"ERREUR: impossible de monter /dev/${xPDEV}, pas de sauvegarde possible."
+
+#: rc.shutdown.sh:434
+#, sh-format
+msgid "Saving session to ${SAVEFILE} file on ${SAVEPART} partition..."
+msgstr ""
+"Sauvegarde de la session dans le fichier ${SAVEFILE} dans la partition "
+"${SAVEPART} ..."
+
+#: rc.shutdown.sh:455
+msgid ""
+"Note, a bug in one of the Linux utility programs requires you to reenter"
+msgstr ""
+"N.B. Un bug dans un des programmes utilitaires de Linux oblige de rentrer"
+
+#: rc.shutdown.sh:456
+msgid "the password in the case of light encryption..."
+msgstr "à nouveau le mot de passe dans le cas de cryptage léger ..."
+
+#: rc.shutdown.sh:524
+#, sh-format
+msgid "${PDEV1} mounted directly, session already saved."
+msgstr "${PDEV1} est monté directement, la session est déjà sauvée."
+
+#: rc.shutdown.sh:528
+#, sh-format
+msgid "${PDEV1} mounted directly top layer, session already saved."
+msgstr ""
+"${PDEV1} est monté directement en couche supérieure, session déjà sauvée."
+
+#: rc.shutdown.sh:533
+#, sh-format
+msgid "${TXT} mounted directly top layer, session already saved."
+msgstr ""
+"${TXT} est monté directement en couche supérieure, session déjà sauvée."
+
+#: rc.shutdown.sh:539 rc.shutdown.sh:546
+#, sh-format
+msgid "Saving session to ${PDEV1}..."
+msgstr "Sauvegarde de la session sur ${PDEV1}..."
+
+#: rc.shutdown.sh:555
+#, sh-format
+msgid "Saving session to ${SAVEFILE} (${SAVEPART})..."
+msgstr "Sauvegarde de la session sur ${SAVEFILE} (${SAVEPART})..."

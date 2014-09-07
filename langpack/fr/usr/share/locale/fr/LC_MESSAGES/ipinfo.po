@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ipinfo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ipinfo.sh:29
+msgid "<b>External IP</b> (via icanhazip.com):"
+msgstr ""
+
+#: ipinfo.sh:48
+msgid "Hostname:"
+msgstr "Nom d'hôte:"
+
+#: ipinfo.sh:70
+msgid "No wireless extensions detected."
+msgstr "Aucune extension sans fil détectée."
+
+#: ipinfo.sh:100
+msgid "Query icanhazip.com for your external IP "
+msgstr ""
+
+#: ipinfo.sh:104
+msgid "Get information about icanhazip.com"
+msgstr ""
+
+#: ipinfo.sh:125
+#, fuzzy
+msgid "Network information"
+msgstr "Configuration du réseau"
+
+#: ipinfo.sh:127
+msgid "Interfaces"
+msgstr "Interfaces"
+
+#: ipinfo.sh:127
+msgid "DNS"
+msgstr "DNS"
+
+#: ipinfo.sh:127
+msgid "Routing"
+msgstr "Routage"
+
+#: ipinfo.sh:127
+msgid "Wireless"
+msgstr "Sans fil"
+
+#: ipinfo.sh:127
+msgid "Statistics"
+msgstr "Statistiques"
+
+#: ipinfo.sh:130
+msgid "Kernel IP routing table"
+msgstr "Table de routage IP du noyau"
+
+#: ipinfo.sh:131
+msgid "Wireless configuration:"
+msgstr "Configuration sans fil:"
+
+#: ipinfo.sh:132
+msgid "Network statistics:"
+msgstr "Statistiques du réseau:"
+
+#: ipinfo.sh:136
+msgid "Ok"
+msgstr ""
+
+#: ipinfo.sh:162
+msgid "Please wait, probing..."
+msgstr "Veuillez patientez, examen en cours..."
+
+#~ msgid "External IP:"
+#~ msgstr "IP externe:"
+
+#~ msgid "IP Info"
+#~ msgstr "Infos IP"

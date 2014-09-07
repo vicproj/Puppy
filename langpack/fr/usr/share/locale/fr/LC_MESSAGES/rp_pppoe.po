@@ -1,0 +1,442 @@
+#: pppoe-setup.sh:51
+msgid "Error copying $1 to"
+msgstr ""
+
+#: pppoe-setup.sh:52
+msgid "Quitting."
+msgstr ""
+
+#: pppoe-setup.sh:57
+msgid "Welcome to the Roaring Penguin PPPoE client setup.  First, I will run"
+msgstr ""
+
+#: pppoe-setup.sh:58
+msgid "some checks on your system to make sure the PPPoE client is installed"
+msgstr ""
+
+#: pppoe-setup.sh:59
+msgid "properly..."
+msgstr ""
+
+#: pppoe-setup.sh:64
+msgid "Sorry, you must be root to run this script"
+msgstr ""
+
+#: pppoe-setup.sh:70
+#, sh-format
+msgid "Oh, dear, I don't see the file '$CONFIG' anywhere.  Please"
+msgstr ""
+
+#: pppoe-setup.sh:71
+msgid "re-install the PPPoE client."
+msgstr ""
+
+#: pppoe-setup.sh:77
+#, sh-format
+msgid "Oops, I can't execute the program '$PPPD'.  You"
+msgstr ""
+
+#: pppoe-setup.sh:78
+msgid "must install the PPP software suite, version 2.3.10 or later."
+msgstr ""
+
+#: pppoe-setup.sh:90
+#, sh-format
+msgid "Oh, dear, I can't execute the program '$PPPOE'.  Please"
+msgstr ""
+
+#: pppoe-setup.sh:91
+msgid "re-install the rp-pppoe client."
+msgstr ""
+
+#: pppoe-setup.sh:95
+msgid "Looks good!  Now, please enter some information:"
+msgstr ""
+
+#: pppoe-setup.sh:99
+msgid "USER NAME"
+msgstr ""
+
+#: pppoe-setup.sh:101
+#, sh-format
+msgid "Enter your PPPoE user name (default $USER):"
+msgstr ""
+
+#: pppoe-setup.sh:113
+msgid "INTERFACE"
+msgstr ""
+
+#: pppoe-setup.sh:115
+msgid "Enter the Ethernet interface connected to the DSL modem"
+msgstr ""
+
+#: pppoe-setup.sh:116
+msgid "For Solaris, this is likely to be something like /dev/hme0."
+msgstr ""
+
+#: pppoe-setup.sh:117
+msgid "For Linux, it will be ethn, where 'n' is a number."
+msgstr ""
+
+#: pppoe-setup.sh:118
+msgid "default"
+msgstr ""
+
+#: pppoe-setup.sh:126
+msgid "Do you want the link to come up on demand, or stay up continuously?"
+msgstr ""
+
+#: pppoe-setup.sh:127
+msgid "If you want it to come up on demand, enter the idle time in seconds"
+msgstr ""
+
+#: pppoe-setup.sh:128
+msgid "after which the link should be dropped.  If you want the link to"
+msgstr ""
+
+#: pppoe-setup.sh:129
+msgid "stay up permanently, enter 'no' (two letters, lower-case.)"
+msgstr ""
+
+#: pppoe-setup.sh:130
+msgid "NOTE: Demand-activated links do not interact well with dynamic IP"
+msgstr ""
+
+#: pppoe-setup.sh:131
+msgid "addresses.  You may have some problems with demand-activated links."
+msgstr ""
+
+#: pppoe-setup.sh:132
+#, sh-format
+msgid "Enter the demand value (default $DEMAND)"
+msgstr ""
+
+#: pppoe-setup.sh:142
+msgid "Please enter the IP address of your ISP's primary DNS server."
+msgstr ""
+
+#: pppoe-setup.sh:143
+msgid "If your ISP claims that 'the server will provide DNS addresses'"
+msgstr ""
+
+#: pppoe-setup.sh:144
+msgid "just hit enter."
+msgstr ""
+
+#: pppoe-setup.sh:145
+msgid "If you just press enter, I will assume you know what you are"
+msgstr ""
+
+#: pppoe-setup.sh:146
+msgid "doing and not modify your DNS setup. Recommended most cases."
+msgstr ""
+
+#: pppoe-setup.sh:148
+msgid "Enter the DNS information here:"
+msgstr ""
+
+#: pppoe-setup.sh:163
+msgid "Please enter the IP address of your ISP's secondary DNS server."
+msgstr ""
+
+#: pppoe-setup.sh:164
+msgid "If you just press enter, I will assume there is only one DNS server."
+msgstr ""
+
+#: pppoe-setup.sh:165
+msgid "Enter the secondary DNS server address here:"
+msgstr ""
+
+#: pppoe-setup.sh:175
+msgid "Please enter your PPPoE password:"
+msgstr ""
+
+#: pppoe-setup.sh:178
+msgid "Please re-enter your PPPoE password:"
+msgstr ""
+
+#: pppoe-setup.sh:186
+msgid "Sorry, the passwords do not match.  Try again? (y/n)"
+msgstr ""
+
+#: pppoe-setup.sh:190
+msgid "OK, quitting.  Bye."
+msgstr ""
+
+#: pppoe-setup.sh:197
+msgid "FIREWALLING"
+msgstr ""
+
+#: pppoe-setup.sh:200
+msgid "Sorry, firewalling is only supported under Linux.  Consult"
+msgstr ""
+
+#: pppoe-setup.sh:201
+msgid "your operating system manuals for details on setting up"
+msgstr ""
+
+#: pppoe-setup.sh:202
+msgid "packet filters for your system."
+msgstr ""
+
+#: pppoe-setup.sh:205
+msgid "Please choose the firewall rules to use.  Note that these rules are"
+msgstr ""
+
+#: pppoe-setup.sh:206
+msgid "very basic.  You are strongly encouraged to use a more sophisticated"
+msgstr ""
+
+#: pppoe-setup.sh:207
+msgid "firewall setup; however, these will provide basic security.  If you"
+msgstr ""
+
+#: pppoe-setup.sh:208
+msgid "are running any servers on your machine, you must choose 'NONE' and"
+msgstr ""
+
+#: pppoe-setup.sh:209
+msgid "set up firewalling yourself.  Otherwise, the firewall rules will deny"
+msgstr ""
+
+#: pppoe-setup.sh:210
+msgid "access to all standard servers like Web, e-mail, ftp, etc.  If you"
+msgstr ""
+
+#: pppoe-setup.sh:211
+msgid "are using SSH, the rules will block outgoing SSH connections which"
+msgstr ""
+
+#: pppoe-setup.sh:212
+msgid "allocate a privileged source port."
+msgstr ""
+
+#: pppoe-setup.sh:215
+msgid "The firewall choices are:"
+msgstr ""
+
+#: pppoe-setup.sh:216
+msgid ""
+"0 - NONE: This script will not set any firewall rules.  You are responsible"
+msgstr ""
+
+#: pppoe-setup.sh:217
+msgid "for ensuring the security of your machine.  You are STRONGLY"
+msgstr ""
+
+#: pppoe-setup.sh:218
+msgid "recommended to use some kind of firewall rules."
+msgstr ""
+
+#: pppoe-setup.sh:219
+msgid "STANDALONE: Appropriate for a basic stand-alone web-surfing workstation"
+msgstr ""
+
+#: pppoe-setup.sh:220
+msgid "MASQUERADE: Appropriate for a machine acting as an Internet gateway"
+msgstr ""
+
+#: pppoe-setup.sh:221
+msgid "for a LAN"
+msgstr ""
+
+#: pppoe-setup.sh:222
+msgid "Choose a type of firewall (0-2):"
+msgstr ""
+
+#: pppoe-setup.sh:227
+msgid "Please enter a number from 0 to 2"
+msgstr ""
+
+#: pppoe-setup.sh:244
+msgid "Summary of what you entered"
+msgstr ""
+
+#: pppoe-setup.sh:246
+msgid "Ethernet Interface:"
+msgstr ""
+
+#: pppoe-setup.sh:247
+msgid "User name:"
+msgstr ""
+
+#: pppoe-setup.sh:249
+msgid "Activate-on-demand:"
+msgstr ""
+
+#: pppoe-setup.sh:251
+#, sh-format
+msgid "Activate-on-demand: Yes; idle timeout = $D seconds"
+msgstr ""
+
+#: pppoe-setup.sh:256
+#, sh-format
+msgid "DNS addresses:      Supplied by ISP's server"
+msgstr ""
+
+#: pppoe-setup.sh:258
+msgid "Primary DNS:"
+msgstr ""
+
+#: pppoe-setup.sh:260
+msgid "Secondary DNS:"
+msgstr ""
+
+#: pppoe-setup.sh:264
+msgid "Do not adjust"
+msgstr ""
+
+#: pppoe-setup.sh:266
+msgid "Firewalling:"
+msgstr ""
+
+#: pppoe-setup.sh:269
+msgid "Accept these settings and adjust configuration files (y/n)?"
+msgstr ""
+
+#: pppoe-setup.sh:290 pppoe-setup.sh:333
+msgid "Adjusting"
+msgstr ""
+
+#: pppoe-setup.sh:326
+msgid "Error modifying"
+msgstr ""
+
+#: pppoe-setup.sh:327
+msgid "Quitting"
+msgstr ""
+
+#: pppoe-setup.sh:337
+msgid "But first backing it up to"
+msgstr ""
+
+#: pppoe-setup.sh:349
+msgid "Adjusting /etc/ppp/pap-secrets and /etc/ppp/chap-secrets"
+msgstr ""
+
+#: pppoe-setup.sh:351
+msgid "(But first backing it up to /etc/ppp/pap-secrets-bak)"
+msgstr ""
+
+#: pppoe-setup.sh:357
+msgid "(But first backing it up to /etc/ppp/chap-secrets-bak)"
+msgstr ""
+
+#: pppoe-setup.sh:371
+msgid "Congratulations, it should be all set up!"
+msgstr ""
+
+#: pppoe-setup.sh:373
+msgid ""
+"Type 'pppoe-start' to bring up your PPPoE link and 'pppoe-stop' to bring"
+msgstr ""
+
+#: pppoe-setup.sh:374
+msgid "it down.  Type 'pppoe-status' to see the link status."
+msgstr ""
+
+#: pppoe-start.sh:55
+msgid "You must be root to run this script"
+msgstr ""
+
+#: pppoe-start.sh:61
+msgid "Running in debug mode... please be patient..."
+msgstr ""
+
+#: pppoe-start.sh:66
+#, sh-format
+msgid "Could not create directory $DEBUG... exiting"
+msgstr ""
+
+#: pppoe-start.sh:127 pppoe-status.sh:42 pppoe-stop.sh:45
+msgid "Cannot read configuration file"
+msgstr ""
+
+#: pppoe-start.sh:147
+msgid "There already seems to be a PPPoE connection up"
+msgstr ""
+
+#: pppoe-start.sh:182
+msgid "Connected!"
+msgstr ""
+
+#: pppoe-start.sh:198
+msgid "TIMED OUT"
+msgstr ""
+
+#: pppoe-start_shell.sh:7 pppoe-status_shell.sh:7 pppoe-stop_shell.sh:7
+msgid "Press ENTER key to continue:"
+msgstr ""
+
+#: pppoe-status.sh:52
+msgid ""
+"Note: You have enabled demand-connection; pppoe-status may be inaccurate."
+msgstr ""
+
+#: pppoe-status.sh:58
+#, sh-format
+msgid "pppoe-status: Link is down (can't read pppoe PID file $PPPOE_PIDFILE)"
+msgstr ""
+
+#: pppoe-status.sh:65
+#, sh-format
+msgid "pppoe-status: Link is down (can't read pppd PID file $PPPD_PIDFILE)"
+msgstr ""
+
+#: pppoe-status.sh:82
+#, sh-format
+msgid "pppoe-status: Link is attached to $IF, but $IF is down"
+msgstr ""
+
+#: pppoe-status.sh:85
+msgid "pppoe-status: Link is up and running on interface"
+msgstr ""
+
+#: pppoe-status.sh:92
+msgid "pppoe-status: Link is down -- could not find interface corresponding to"
+msgstr ""
+
+#: pppoe-status.sh:93
+msgid "pppd pid"
+msgstr ""
+
+#: pppoe-stop.sh:70
+#, sh-format
+msgid "The pppoe-connect script (PID $PID) appears to have died"
+msgstr ""
+
+#: pppoe-stop.sh:77
+msgid "Killing pppd"
+msgstr ""
+
+#: pppoe-stop.sh:91
+msgid "Killing pppoe-connect"
+msgstr ""
+
+#: pppoe-stop.sh:102
+msgid "No PPPoE connection appears to be running"
+msgstr ""
+
+#: pppoe_gui.sh:19
+msgid "Roaring Penguin client"
+msgstr ""
+
+#: pppoe_gui.sh:23
+msgid "Initial configuration"
+msgstr ""
+
+#: pppoe_gui.sh:30
+msgid "Connect now"
+msgstr ""
+
+#: pppoe_gui.sh:37
+msgid "Disconnect now"
+msgstr ""
+
+#: pppoe_gui.sh:44
+msgid "View status"
+msgstr ""
+
+#: pppoe_gui.sh:53
+msgid "Quit"
+msgstr ""

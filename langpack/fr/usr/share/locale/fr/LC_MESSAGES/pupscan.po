@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pupscan\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: pupscan.sh:30
+msgid "Please wait, probing hardware..."
+msgstr "Patientez, détection du matériel ..."
+
+#: pupscan.sh:62
+msgid ""
+"PCI scan utility scanpci not available. This must be a\n"
+"cutdown Puppy (scanpci is part of the Xorg package).\n"
+"Simplified information only is displayed here:"
+msgstr ""
+"L'utilitaire de recherche PCI scanpci n'est pas disponible.\n"
+" Ce doit être un 'condensé' (scanpci fait partie du paquet Xorg).\n"
+" Quelques infos simplifiées sont affichées ici :"
+
+#: pupscan.sh:188
+#, fuzzy
+msgid ""
+"<b>USB devices</b>\n"
+"USB interfaces are part of the PCI interfaces, but to find information about "
+"any plugged-in USB devices, click this button."
+msgstr ""
+"Les interfaces USB font partie des interfaces PCI. Pour avoir des infos sur "
+"les supports USB branchés, cliquez ici :"
+
+#: pupscan.sh:202
+msgid "Puppy hardware-interfaces information"
+msgstr "Informations des interfaces du matériel"
+
+#: pupscan.sh:206
+msgid "Find information about your hardware"
+msgstr ""
+
+#: pupscan.sh:209
+#, fuzzy
+msgid ""
+"<b>Kernel modules</b>\n"
+"At bootup, Puppy examines the hardware interfaces to determine what kernel "
+"drivers (modules) to load, and does so. Click this button for information on "
+"loaded modules."
+msgstr ""
+"Au démarrage, un examen de votre configuration détermine les pilotes du "
+"noyau (modules) à charger. Cliquez sur ce bouton pour des informations sur "
+"les modules chargés:"
+
+#: pupscan.sh:221
+#, fuzzy
+msgid "More <b>details</b> on each loaded module."
+msgstr "Détails de chaque module chargé :"
+
+#: pupscan.sh:238
+#, fuzzy
+msgid ""
+"<b>PCI interfaces</b>\n"
+"Most of the hardware interfaces inside a PC are PCI devices. Click this "
+"button for a scan of all the PCI interfaces."
+msgstr ""
+"La plupart des interfaces matériels sont 'PCI'. Cliquez sur ce bouton pour "
+"une recherche de toutes les interfaces PCI :"
+
+#: pupscan.sh:261
+msgid "Quit"
+msgstr ""
+
+#~ msgid "EXIT"
+#~ msgstr "QUITTER"
+
+#~ msgid "Kernel modules"
+#~ msgstr "Modules du noyau"
+
+#~ msgid "PCI interfaces"
+#~ msgstr "Interfaces PCI"
+
+#~ msgid "USB devices"
+#~ msgstr "Supports USB"
+
+#~ msgid "result"
+#~ msgstr "Résultat"

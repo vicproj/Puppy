@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: xgamma-gui VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2013-02-11 16:53+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: xgamma-gui.sh:22
+msgid "Monitor Gamma calibration"
+msgstr "Calibrage Gamma du Moniteur"
+
+#: xgamma-gui.sh:23
+msgid ""
+"Set value for each colour, or adjust equally if only want to adjust "
+"brightness of screen."
+msgstr ""
+"Définir la valeur pour chaque couleur ou ajuster également si ne voulez pas "
+"régler la luminosité de votre écran"
+
+#: xgamma-gui.sh:24
+msgid ""
+"The spinboxes are adjustable in the range -100 to +100, where -100 is "
+"darkest, 0 is default, and +100 is brightest."
+msgstr ""
+"Les champs de saisie sont réglables dans la plage de -100 à +100. -100 est "
+"sombre, 0 est par défaut et +100 est brillant."
+
+#: xgamma-gui.sh:27
+msgid "xgamma not found."
+msgstr "xgamma non trouvé"
+
+#: xgamma-gui.sh:53
+msgid "Red"
+msgstr "Rouge"
+
+#: xgamma-gui.sh:54
+msgid "Green"
+msgstr "Vert"
+
+#: xgamma-gui.sh:55
+msgid "Blue"
+msgstr "Bleu"
+
+#: xgamma-gui.sh:60
+msgid "Apply"
+msgstr "Appliquer"
+
+#: xgamma-gui.sh:60
+msgid "Exit"
+msgstr "Quitter"
+
+#: xgamma-gui.sh:105
+msgid "Save current configuration?"
+msgstr "Enregistrer la configuration actuelle?"

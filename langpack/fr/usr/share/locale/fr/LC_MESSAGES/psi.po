@@ -1,0 +1,45 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: psi 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2014-03-29 14:12+0100\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: psi.sh:15
+msgid "PSI"
+msgstr "PSI"
+
+#: psi.sh:16
+msgid "(pupsave infos)"
+msgstr "(infos pupsave)"
+
+#: psi.sh:45
+#, sh-format
+msgid "Actualy, you do not use a personal storage file (pupsave)."
+msgstr ""
+"Actuellement, vous n'utilisez pas de fichier personnel de sauvegarde "
+"(pupsave)."
+
+#: psi.sh:73
+#, sh-format
+msgid ""
+"Your currently personal storage file (pupsave) $NAMEPFILE is stored on "
+"partition $SAVEPART.\n"
+"\n"
+"- Free space left in $NAMEPFILE = $SIZEFREE MB (on a total size of "
+"$ACTUALSIZE MB).\n"
+"- Free space left in $SAVEPART = $PARTFREE MB."
+msgstr ""
+"Votre fichier de sauvergarde actuel (pupsave) $NAMEPFILE est stocké sur la "
+"partition $SAVEPART.\n"
+"\n"
+"- Espace libre disponible dans $NAMEPFILE = $SIZEFREE Mo (sur un espace "
+"total de $ACTUALSIZE Mo).\n"
+"- Espace libre disponible dans $SAVEPART = $PARTFREE Mo."

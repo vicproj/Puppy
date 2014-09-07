@@ -1,0 +1,44 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Icon_switcher\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: icon_switcher.sh:139
+msgid "Puppy Icon Switcher"
+msgstr "Changer les icônes du bureau et du menu"
+
+#: icon_switcher.sh:141
+msgid ""
+"The Puppy icon switcher sets icons for both the <b>desktop</b> and the "
+"<b>menu</b>"
+msgstr ""
+
+#: icon_switcher.sh:154
+msgid "Cancel"
+msgstr ""
+
+#~ msgid "Choose the icon-set for desktop and menu"
+#~ msgstr "Jeux d'icônes disponibles"
+
+#~ msgid "QUIT"
+#~ msgstr "QUITTER"
+
+#~ msgid ""
+#~ "You have chosen the '${NEWTHEME}' theme.\n"
+#~ "These are icons for the desktop and top-level of menu.\n"
+#~ "Click OK button and you will see them..."
+#~ msgstr ""
+#~ "Vous avez choisi le thème '${NEWTHEME}'.\n"
+#~ "Cliquez sur OK pour actualiser les icônes du bureau\n"
+#~ "et des entrées principales du menu..."

@@ -1,0 +1,86 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pup_event_frontend_d VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:51+0200\n"
+"PO-Revision-Date: 2012-11-16 09:38+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: frontend_funcs.sh:54
+msgid "Drive icons are part of Puppy Event Manager, see System menu"
+msgstr ""
+"Les icônes des disques font parties de Puppy Event Manager, voir le menu "
+"Système"
+
+#: frontend_funcs.sh:58
+msgid "Run Pmount Puppy Drive Mounter"
+msgstr "Lancer l'outil de montage Pmount"
+
+#: frontend_funcs.sh:58
+msgid "Run Desktop Drive Icon Manager"
+msgstr "Lancer le gestionnaire des icônes des disques du bureau"
+
+#: frontend_funcs.sh:230 frontend_funcs.sh:259
+msgid "Description"
+msgstr ""
+
+#: frontend_funcs.sh:230 frontend_funcs.sh:236 frontend_funcs.sh:259
+msgid "Size"
+msgstr ""
+
+#: frontend_funcs.sh:233
+msgid "Puppy drive manager"
+msgstr "Gestionnaire des disques"
+
+#: frontend_funcs.sh:236
+msgid "Filesystem"
+msgstr ""
+
+#: frontend_funcs.sh:240
+#, sh-format
+msgid "Unmount ${ONEDRVNAME} (if currently mounted)"
+msgstr "Démonter ${ONEDRVNAME} (si actuellement monté)"
+
+#: frontend_funcs.sh:240 frontend_funcs.sh:261
+msgid "Unmount ALL mounted partitions"
+msgstr "Démonter TOUTES les partitions montées"
+
+#: frontend_funcs.sh:338
+msgid ""
+"WARNING: Personal storage getting full, strongly recommend you resize it or "
+"delete files!"
+msgstr ""
+"ATTENTION : Le stockage personnel est bientôt plein, il est fortement "
+"recommandé d'augmenter sa capacité ou d'y effacer des fichiers!"
+
+#: frontend_funcs.sh:370
+msgid ""
+"WARNING: Personal storage file getting full, strongly recommend you resize "
+"it or delete files!"
+msgstr ""
+"ATTENTION : Le fichier personnel de stockage est bientôt plein, il est "
+"fortement recommandé d'augmenter sa capacité ou d'y effacer des fichiers!"
+
+#: frontend_funcs.sh:377
+msgid "WARNING: RAM working space only"
+msgstr "ATTENTION : L'espace de travail en RAM est de seulement"
+
+#: frontend_funcs.sh:377
+msgid "MB, recommend a reboot which will flush the RAM"
+msgstr "Mo, un redémarrage est recommandé afin de vider la RAM"
+
+#: frontend_funcs.sh:402
+msgid "Saving RAM to 'pup_save' file..."
+msgstr "Sauvegarde de la RAM dans le fichier de sauvegarde ..."
+
+#~ msgid "Description: ${DRV_DESCRIPTION} Size: ${SIZE}"
+#~ msgstr "Description: ${DRV_DESCRIPTION} Taille: ${SIZE}"
+
+#~ msgid "Filesystem: ${FSTYPE} Size: ${SIZE}"
+#~ msgstr "Système de fichiers: ${FSTYPE} Taille: ${SIZE}"

@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: func VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: 2013-01-20 19:14+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: func.sh:84
+msgid "An error occurred. Please check your sound configuration."
+msgstr "Une erreur est survenue. Vérifiez la configuration audio."
+
+#: func.sh:97
+msgid "Preset"
+msgstr "Préréglages"
+
+#: func.sh:97
+msgid "already exist"
+msgstr "existe déjà"
+
+#: func.sh:98
+msgid "Do you want to overwrite existing Preset?"
+msgstr "Voulez-vous écraser le préréglage existant?"
+
+#: func.sh:122
+msgid "Do you really want to delete the preset"
+msgstr "Voulez-vous réellement supprimer le préréglage?"
+
+#: pequalizer.sh:179
+msgid "Delete preset"
+msgstr "Supprimer le préréglage"
+
+#: pequalizer.sh:184
+msgid "Save custom preset"
+msgstr "Enregistrer le préréglage personnalisé"

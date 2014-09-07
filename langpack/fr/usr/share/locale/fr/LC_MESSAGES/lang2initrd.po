@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: lang2initrd VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:53+0200\n"
+"PO-Revision-Date: 2012-02-16 18:38+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: lang2initrd.sh:41
+msgid "Early boot messages"
+msgstr "Messages de début d'amorçage"
+
+#: lang2initrd.sh:41 lang2initrd.sh:45
+msgid ""
+"Do you want to translate the early boot messages? These are in what is known "
+"as the initrd or initramfs, when the Linux operating system (kernel) is "
+"first loading. It is usually good to answer yes here."
+msgstr ""
+"Voulez-vous traduire les messages du début d'amorçage ? Ils sont dans le "
+"fichier initrd ou initramfs, lorsque le système d'exploitation Linux (noyau) "
+"se charge en premier. En principe on répond oui."
+
+#: lang2initrd.sh:43 lang2initrd.sh:47
+msgid "They will be translated to:"
+msgstr ""
+
+#: lang2initrd.sh:122
+#, sh-format
+msgid ""
+"The file \\Zbinitrd.gz\\ZB (at ${INITRDSPEC} on ${INITRDPART}) has been "
+"successfully translated to language \\Zb${NEWLANG}\\ZB. You will see the "
+"effect at the next boot. Warning: Puppy thinks that this is the correct "
+"initrd.gz used at bootup, although it is possible that a boot manager such "
+"as GRUB can specify an alternate location, which means that the wrong initrd."
+"gz file has been translated!"
+msgstr ""
+"Le fichier \\Zbinitrd.gz\\ZB (à ${INITRDSPEC} sur ${INITRDPART}) a été "
+"traduit avec succès en \\Zb${NEWLANG}\\ZB. Cela prendra effet au prochain "
+"démarrage. Attention: Puppy pense qu'il s'agit du bon fichier initrd.gz "
+"utilisé au démarrage, mais il est possible qu'un gestionnaire d'amorçage "
+"comme GRUB puisse spécifier un autre emplacement, cela signifie que le "
+"mauvais fichier initrd.gz a été traduit!"
+
+#: lang2initrd.sh:127
+#, sh-format
+msgid ""
+"Sorry, something went wrong, was unable to translate file \\Zbinitrd.gz\\ZB "
+"(at ${INITRDSPEC} on ${INITRDPART}). A possible reason for this is that "
+"initrd.gz is located somewhere else, specified by a boot manager such as "
+"GRUB."
+msgstr ""
+"Désolé, il y a eu un problème, impossible de traduire le fichier \\Zbinitrd."
+"gz\\ZB (à ${INITRDSPEC} sur ${INITRDPART}). Une raison probable est que "
+"initrd.gz se trouve ailleurs, spécifié par un gestionnaire d'amorçage comme "
+"GRUB."
+
+#: lang2initrd.sh:131
+msgid "Initrd translation"
+msgstr "Traduction d'initrd"

@@ -1,0 +1,652 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: frisbee 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:44+0200\n"
+"PO-Revision-Date:  2013-04-23 09:58+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French team <jj@moulinier.net>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+
+#: frisbee.sh:16
+msgid "Checking network devices"
+msgstr "Examen des périphériques réseau"
+
+#: frisbee.sh:57
+msgid "Manage Saved Network Profiles"
+msgstr "Gérer les profils de réseau enregistré"
+
+#: frisbee.sh:59
+msgid "Select a Profile to Edit or Delete"
+msgstr "Sélectionner un profil à modifier ou supprimer"
+
+#: frisbee.sh:63
+msgid "ID   | SSID                               |BSSID                 |Flags"
+msgstr ""
+"ID   | SSID                               |BSSID                 |Drapeaux"
+
+#: frisbee.sh:84
+msgid "To change the SSID, you must delete the profile and add it again"
+msgstr ""
+"Pour changer de SSID, vous devez supprimer le profil et l'ajouter à nouveau."
+
+#: frisbee.sh:88 frisbee.sh:92 frisbee.sh:96 frisbee.sh:100
+msgid ""
+"If you need to change this, delete the profile and add the network again; "
+"encryption settings are automatically detected"
+msgstr ""
+"Si vous devez changer cela, supprimez le profil et ajoutez à nouveau le "
+"réseau. Les paramètres de cryptage sont automatiquement détectés"
+
+#: frisbee.sh:106
+msgid "Wpa_supplicant will not try to connect to a network that is disabled"
+msgstr ""
+"Wpa_supplicant ne tentera pas de se connecter à un réseau non disponible"
+
+#: frisbee.sh:107
+msgid "Network Enabled"
+msgstr "Réseau utilisable"
+
+#: frisbee.sh:113
+msgid "Priority"
+msgstr "Priorité"
+
+#: frisbee.sh:115
+msgid ""
+"Wpa_supplicant will prefer to connect to the network with the largest number "
+"in the Priority field"
+msgstr ""
+"Wpa_supplicant préférera se connecter au réseau avec le plus grand numéro "
+"dans le champ Priorité"
+
+#: frisbee.sh:123
+msgid "Key or Password"
+msgstr "Clé ou mot de passe"
+
+#: frisbee.sh:125
+msgid ""
+"Enter your password or HEX key here; for best results with WEP, use the HEX "
+"key"
+msgstr ""
+"Saisissez votre mot de passe ou clé HEX ici. Pour de meilleurs résultats "
+"avec WEP, utilisez la clé HEX"
+
+#: frisbee.sh:135
+msgid "DHCP Settings"
+msgstr "Paramètres DHCP"
+
+#: frisbee.sh:138 frisbee.sh:556
+msgid "Request IP address and routing information from a DHCP server"
+msgstr "Obtenir l'adresse IP et les informations de routage d'un serveur DHCP"
+
+#: frisbee.sh:139 frisbee.sh:557
+msgid "Auto DHCP"
+msgstr "DHCP Auto"
+
+#: frisbee.sh:176 frisbee.sh:525
+msgid "Static IP Address"
+msgstr "Adresse IP statique"
+
+#: frisbee.sh:177 frisbee.sh:526
+msgid "Enter static IP address"
+msgstr "Saisir l'adresse IP statique"
+
+#: frisbee.sh:187 frisbee.sh:536
+msgid "Subnet Mask"
+msgstr "Masque de sous-réseau"
+
+#: frisbee.sh:189 frisbee.sh:538
+msgid "Enter subnet mask"
+msgstr "Saisir le masque de sous-réseau"
+
+#: frisbee.sh:200 frisbee.sh:547
+msgid "Gateway"
+msgstr "Passerelle"
+
+#: frisbee.sh:201 frisbee.sh:548
+msgid "Enter gateway IP address"
+msgstr "Saisir l'adresse IP de la passerelle"
+
+#: frisbee.sh:210 frisbee.sh:595
+msgid "DNS Server 1"
+msgstr "Serveur DNS 1"
+
+#: frisbee.sh:212 frisbee.sh:597
+msgid "Enter the IP address for the DNS server"
+msgstr "Saisir l'adresse IP du serveur DNS"
+
+#: frisbee.sh:221 frisbee.sh:606
+msgid "DNS Server 2"
+msgstr "Serveur DNS 2"
+
+#: frisbee.sh:223 frisbee.sh:608
+msgid "Enter IP address for backup DNS server; this field is optional"
+msgstr ""
+"Saisir l'adresse IP du serveur DNS de secours - ce champ est facultatif"
+
+#: frisbee.sh:233
+msgid ""
+"Select a profile, make changes, then click this button to save the changes"
+msgstr ""
+"Sélectionnez un profil, apportez les modifications et cliquez sur ce bouton "
+"pour les enregistrer"
+
+#: frisbee.sh:235
+msgid "Save Profile"
+msgstr "Enregistrer le profil"
+
+#: frisbee.sh:250
+msgid "Delete the selected profile"
+msgstr "Supprimer le profil sélectionné"
+
+#: frisbee.sh:252
+msgid "Delete Profile"
+msgstr "Supprimer le profil"
+
+#: frisbee.sh:282
+msgid "Wireless Diagnostic Tools"
+msgstr "Outils de diagnostic Sans Fil "
+
+#: frisbee.sh:285
+#, sh-format
+msgid "Status of $INTERFACE"
+msgstr "État de $INTERFACE"
+
+#: frisbee.sh:293
+msgid ""
+"Log wpa_supplicant activities; restart networks to activate - creates large /"
+"tmp/wpa_supplicant.log file"
+msgstr ""
+"Identifie les activités de wpa_supplicant; redémarre les réseaux à activer - "
+"crée un gros fichier /tmp/wpa_supplicant.log"
+
+#: frisbee.sh:296
+msgid "Enable Debug Logging"
+msgstr "Activer le débogage"
+
+#: frisbee.sh:301 frisbee.sh:445
+msgid "Refresh"
+msgstr "Actualiser"
+
+#: frisbee.sh:309
+msgid "WPA_Supplicant Tools"
+msgstr "Outils de WPA_Supplicant"
+
+#: frisbee.sh:312
+msgid "View the wpa_supplicant log file"
+msgstr "Afficher le fichier journal de wpa_supplicant"
+
+#: frisbee.sh:314
+msgid "View Log"
+msgstr "Journal"
+
+#: frisbee.sh:315
+#, fuzzy
+msgid "Wpa_Supplicant Log"
+msgstr "Afficher le journal Wpa_Supplicant"
+
+#: frisbee.sh:319
+msgid "Edit the wpa_supplicant configuration file"
+msgstr "Modifier le fichier de configuration de wpa_supplicant"
+
+#: frisbee.sh:321
+msgid "Edit Configuration"
+msgstr "Modifier"
+
+#: frisbee.sh:326
+msgid ""
+"Control Wi-Fi Protected Access by command line interface commands to "
+"wpa_supplicant"
+msgstr ""
+"Accès protégé au contrôle Wi-Fi par les commandes de l'interface en ligne de "
+"commande pour wpa_supplicant"
+
+#: frisbee.sh:328
+msgid "Control WPA Functions"
+msgstr "Fonctions de contrôle"
+
+#: frisbee.sh:334
+msgid "Other Actions"
+msgstr "Autres Actions"
+
+#: frisbee.sh:337
+msgid "Set time to wait after connection loss until closing its interface"
+msgstr ""
+"Détermine le délai avant la fermeture de l'interface après la perte de "
+"connexion"
+
+#: frisbee.sh:339
+msgid "Set Drop Timeout"
+msgstr "Délai d'interruption"
+
+#: frisbee.sh:344
+msgid "Set ap_scan parameter"
+msgstr "Définir le paramètre d'ap_scan"
+
+#: frisbee.sh:346
+msgid "Set AP scan mode"
+msgstr "Mode de balayage AP"
+
+#: frisbee.sh:351
+msgid "Generate diagnostic data"
+msgstr "Générer les données de diagnostics"
+
+#: frisbee.sh:353
+msgid "Generate Diagnostic Data"
+msgstr "Données de diagnostics"
+
+#: frisbee.sh:369
+msgid "Configure Networks"
+msgstr "Configuration réseaux"
+
+#: frisbee.sh:371
+msgid "Wireless Networks|Network Interfaces"
+msgstr "Réseaux sans fil|Interfaces réseau"
+
+#: frisbee.sh:375
+msgid "Enable wireless networking"
+msgstr "Activer la gestion du réseau sans-fil"
+
+#: frisbee.sh:378
+msgid "Enable Wireless"
+msgstr "Activer Sans Fil"
+
+#: frisbee.sh:396
+msgid ""
+"Connect last-used, available wireless network automatically when Puppy "
+"starts; must be checked to retain any saved network profiles (because the "
+"configuration file is only temporary, for current session)"
+msgstr ""
+"Connecte automatiquement  le dernier réseau sans fil disponible utilisé au "
+"démarrage, doit être vérifié pour conserver les profils de réseau "
+"enregistrés (parce que le fichier de configuration est seulement temporaire "
+"pour la session en cours)"
+
+#: frisbee.sh:399
+msgid "Connect WiFi Automatically"
+msgstr "Connexion WiFi automatique"
+
+#: frisbee.sh:406
+msgid "Select an interface, if you have multiple wireless cards"
+msgstr ""
+"Sélectionner une interface, si vous disposer de plusieurs cartes sans-fil"
+
+#: frisbee.sh:407
+msgid "Change Interface"
+msgstr "Changer d'interface"
+
+#: frisbee.sh:411
+msgid "Diagnose wireless problems"
+msgstr "Diagnostiquer les problèmes réseau sans-fil"
+
+#: frisbee.sh:412
+#, fuzzy
+msgid "Diagnostics"
+msgstr "Diagnostiques réseau sans-fil"
+
+#: frisbee.sh:417
+#, sh-format
+msgid "Scan results for $INTERFACE"
+msgstr "Résultat de l'examen de $INTERFACE"
+
+#: frisbee.sh:422
+msgid "BSSID                  |Freq  |Strength|Encryption              |SSID"
+msgstr "BSSID                    |Fréq  |Puiss.  |Cryptage             |SSID"
+
+#: frisbee.sh:426 frisbee.sh:430
+msgid "Connection status"
+msgstr "État de la connexion"
+
+#: frisbee.sh:434
+msgid "Connect to selected network"
+msgstr "Connexion au réseau sélectionné"
+
+#: frisbee.sh:436
+msgid "Connect"
+msgstr "Connecter"
+
+#: frisbee.sh:456
+msgid "Edit or delete saved network profiles"
+msgstr "Modifier ou supprimer des profils de réseau enregistrés"
+
+#: frisbee.sh:457
+msgid "Manage Saved Networks"
+msgstr "Gestion des réseaux enregistrés"
+
+#: frisbee.sh:460
+msgid "Restart the wpa_supplicant daemon"
+msgstr "Redémarrer le service wpa_supplicant"
+
+#: frisbee.sh:462
+msgid "Restart Networks"
+msgstr "Redémarrer les Réseaux"
+
+#: frisbee.sh:463
+#, fuzzy
+msgid "Resetting network processes"
+msgstr "Réinitialiser les processus réseau"
+
+#: frisbee.sh:479
+msgid "Interface   | Type                                        |Action"
+msgstr "Interface   | Type                                        |Action"
+
+#: frisbee.sh:488
+msgid "Tell dhcpcd to ignore this interface"
+msgstr "Dire à dhcpcd d'ignorer cette interface"
+
+#: frisbee.sh:489
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: frisbee.sh:615
+msgid "Save interface settings; dhcpcd will restart"
+msgstr "Enregistrer les paramètres de l'interface; dhcpcd va redémarrer"
+
+#: frisbee.sh:617
+msgid "Save"
+msgstr "Enregistrer"
+
+#: frisbee.sh:627
+msgid "View network information"
+msgstr "Afficher les informations réseau"
+
+#: frisbee.sh:628
+msgid "Network Status"
+msgstr "État du réseau"
+
+#: frisbee.sh:631
+msgid "View the dhcpcd log file"
+msgstr "Afficher le fichier journal dhcpcd"
+
+#: frisbee.sh:633
+msgid "View DHCP Log"
+msgstr "Journal DHCP"
+
+#: frisbee.sh:635
+#, fuzzy
+msgid "DHCP Log"
+msgstr "Journal DHCP"
+
+#: frisbee.sh:639
+msgid "Edit the dhcpcd configuration file"
+msgstr "Modifiez le fichier de configuration de dhcpcd"
+
+#: frisbee.sh:641
+msgid "Edit dhcpcd.conf"
+msgstr "Modifier dhcpcd.conf"
+
+#: frisbee.sh:644
+msgid "Restart the dhcpcd daemon"
+msgstr "Redémarrer le service dhcpcd"
+
+#: frisbee.sh:646
+msgid "Restart DHCP"
+msgstr "Redémarrer DHCP"
+
+#: frisbee.sh:647
+msgid "Resetting DHCP processes"
+msgstr "Reconfiguration des processus DHCP"
+
+#: frisbee.sh:655
+msgid "Show notices of changes to network interface states"
+msgstr "Afficher les avis de changements dans les états d'interface réseau"
+
+#: frisbee.sh:658
+msgid "Announce State Changes"
+msgstr "Annoncer les changements d'état"
+
+#: frisbee.sh:665 frisbee.sh:667
+msgid "Exit"
+msgstr "Quitter"
+
+#: frisbee.sh:672
+msgid ""
+"Scanning for available networks. Please wait awhile for them to display."
+msgstr ""
+"Recherche des réseaux disponibles. Veuillez patienter le temps qu'ils "
+"s'affichent..."
+
+#~ msgid "$interface is down"
+#~ msgstr "$interface arrêté"
+
+#~ msgid "$new_ip_address acquired on $interface"
+#~ msgstr "$new_ip_address acquise sur $interface"
+
+#~ msgid "Change Wireless Interface"
+#~ msgstr "Changer d'interface réseau sans-fil"
+
+#~ msgid "Command line interface for wpa_supplicant"
+#~ msgstr "Interface en ligne de commande de wpa_supplicant"
+
+#~ msgid "Configure Wireless Networks|Configure Network Interfaces"
+#~ msgstr "Configurer les réseaux sans-fil|Configurer les interfaces réseau"
+
+#~ msgid "Connect to Selected Network"
+#~ msgstr "Connexion au Réseau Sélectionné"
+
+#~ msgid "Connected to"
+#~ msgstr "Connecté à"
+
+#~ msgid "Currently ${VAL}."
+#~ msgstr "Actuellement ${VAL}."
+
+#~ msgid "Delete Selected Profile"
+#~ msgstr "Supprimer le profil sélectionné"
+
+#~ msgid "Edit Saved Networks"
+#~ msgstr "Éditer les réseaux enregistrés"
+
+#~ msgid "Edit saved networks"
+#~ msgstr "Éditer les réseaux enregistrés"
+
+#~ msgid "Edit wpa_supplicant.conf"
+#~ msgstr "Éditer wpa_supplicant.conf"
+
+#~ msgid "Enable Wireless Networking"
+#~ msgstr "Activer la gestion du réseau sans-fil"
+
+#~ msgid "Enter the SSID"
+#~ msgstr "Saisir le SSID"
+
+#~ msgid "Failed to add network"
+#~ msgstr "Échec de l'ajout du réseau"
+
+#~ msgid "Failed to delete network"
+#~ msgstr "La suppression du réseau a échoué"
+
+#~ msgid "Failed to disable network"
+#~ msgstr "Impossible de désactiver le réseau"
+
+#~ msgid "Failed to enable network"
+#~ msgstr "Impossible de rendre le réseau utilisable"
+
+#~ msgid "Failed to save configuration"
+#~ msgstr "Échec de l'enregistrement de la configuration"
+
+#~ msgid "Failed to set network configuration parameter: $PARAMETER"
+#~ msgstr ""
+#~ "Échec de l'enregistrement des paramètres de configuration: $PARAMETER"
+
+#~ msgid "Hand edit the dhcpcd configuration file"
+#~ msgstr "Édition manuelle du fichier de configuration dhcpcd"
+
+#~ msgid "Hand edit the wpa_supplicant configuration file"
+#~ msgstr "Éditer manuellement le fichier de configuration de wpa_supplicant"
+
+#~ msgid "IP Address:"
+#~ msgstr "Adresse IP :"
+
+#~ msgid "IP address request failed on $interface"
+#~ msgstr "Échec de la demande d'adresse IP sur $interface"
+
+#~ msgid ""
+#~ "If the connection drops, how many seconds should we wait before "
+#~ "deconfiguring the wireless interface? \\n Increase this time for unstable "
+#~ "connections.  Decrease it if you have trouble roaming between networks."
+#~ msgstr ""
+#~ "En cas d'interruption de connexion, quel délai en secondes avant la dé-"
+#~ "configuration de l'interface sans-fil? \\n Augmentez ce délai pour les "
+#~ "connexions capricieuses. Réduisez-le si vous avez des difficultés à "
+#~ "passer d'un réseau à l'autre."
+
+#~ msgid "Invalid BSSID"
+#~ msgstr "BSSID incorrect"
+
+#~ msgid "Invalid Gateway"
+#~ msgstr "Passerelle incorrecte"
+
+#~ msgid "Invalid IP Address for DNS Server 1"
+#~ msgstr "Adresse IP du serveur DNS 1 incorrecte"
+
+#~ msgid "Invalid IP address"
+#~ msgstr "Adresse IP incorrecte"
+
+#~ msgid "Invalid Password"
+#~ msgstr "Mot de passe incorrect"
+
+#~ msgid ""
+#~ "Invalid Password - Ascii keys must be 5, 13 or 16 characters. \\n  Hex "
+#~ "keys must be 10, 26, or 32 characters."
+#~ msgstr ""
+#~ "Mot de passe incorrect - les clés Ascii doivent comporter 5, 13 ou 16 "
+#~ "caractères. \\n\"  Les clés Hex 10, 26, ou 32 caractères."
+
+#~ msgid "Invalid Priority"
+#~ msgstr "Priorité incorrecte"
+
+#~ msgid "Invalid SSID"
+#~ msgstr "SSID incorrect"
+
+#~ msgid "Invalid Subnet Mask"
+#~ msgstr "Masque de sous-réseau incorrect"
+
+#~ msgid "Key Type? If in doubt, \\n try Open first"
+#~ msgstr "Type de clé? Dans le doute, \\n\"essayez d'abord Open\""
+
+#~ msgid ""
+#~ "Load a profile, make changes, then click this button to save the changes"
+#~ msgstr ""
+#~ "Chargez un profile, apportez des modifications puis cliquez sur ce bouton "
+#~ "pour les enregistrer"
+
+#~ msgid "Network can take up to 45 seconds or so to reconfigure itself."
+#~ msgstr ""
+#~ "Le réseau peut prendre jusqu'à 45 secondes ou plus pour se reconfigurer "
+#~ "lui-même."
+
+#~ msgid "Not Connected"
+#~ msgstr "Non Connecté"
+
+#~ msgid ""
+#~ "Please enter the ASCII or HEX key with no colons or dashes.  The HEX key "
+#~ "works most reliably"
+#~ msgstr ""
+#~ "Veuillez saisir la clé ASCII ou HEX sans colonnes ou tirets. La clé HEX "
+#~ "fonctionne généralement de façon plus fiable"
+
+#~ msgid "Please enter the Password."
+#~ msgstr "Veuillez saisir le mot de passe."
+
+#~ msgid "Please select a Profile to Update"
+#~ msgstr "Veuillez sélectionner un profil à mettre à jour"
+
+#~ msgid "Please select a network"
+#~ msgstr "Veuillez sélectionner un réseau"
+
+#~ msgid "Please select an interface"
+#~ msgstr "Veuillez sélectionner une interface"
+
+#~ msgid "Profile Deleted"
+#~ msgstr "Profile supprimé"
+
+#~ msgid "Profile Updated"
+#~ msgstr "Profil mis à jour"
+
+#~ msgid "Profile for $SSID added."
+#~ msgstr "Profile pour $SSID ajouté."
+
+#~ msgid "Releasing $interface"
+#~ msgstr "Sortie de $interface"
+
+#~ msgid "Requesting IP address for $interface $ssid"
+#~ msgstr "Demande d'une adresse IP pour $interface $ssid"
+
+#~ msgid "Reset DHCP"
+#~ msgstr "Réinitialiser DHCP"
+
+#~ msgid "Save Changes to Selected Interface"
+#~ msgstr "Enregistrer les changements"
+
+#~ msgid "Save DHCP settings; Dhcpcd will restart"
+#~ msgstr "Enregistrer les paramètres - DHCP, Dhcpcd redémarrera"
+
+#~ msgid "Select Interface"
+#~ msgstr "Sélectionner une interface"
+
+#~ msgid "Set"
+#~ msgstr "Configurer"
+
+#~ msgid "Set AP scan"
+#~ msgstr "Configuration de AP scan"
+
+#~ msgid "Set ASCII Password Failed"
+#~ msgstr "La configuration du mot de passe ASCII a échoué"
+
+#~ msgid "Set HEX Password Failed"
+#~ msgstr "La configuration du mot de passe HEX a échoué"
+
+#~ msgid ""
+#~ "Set the AP Scan Mode. \\n  It should be set to 1 unless you have an adhoc "
+#~ "network, \\n or are using ndiswrapper, or some other 3rd party driver. It "
+#~ "may also be \\n necessary to set it to 2 to connect to a hidden SSID with "
+#~ "some hardware."
+#~ msgstr ""
+#~ "Définir le paramètre de AP_Scan. \\n  Il devrait être réglé sur 1, à "
+#~ "moins d'avoir un réseau ad hoc, \\n ou utiliser ndiswrapper ou quelque "
+#~ "autre pilote tiers. Il peut être également nécessaire, \\n avec certains "
+#~ "matériels, de le régler sur 2 pour se connecter à un SSID masqué."
+
+#~ msgid "Tell Dhcpcd to ignore this interface"
+#~ msgstr "Demander à Dhcpcd d'ignorer cette interface"
+
+#~ msgid ""
+#~ "To configure a static IP address, press the Edit Saved Networks button."
+#~ msgstr ""
+#~ "Pour configurer une adresse IP statique, appuyez sur le bouton Modifier "
+#~ "les réseaux enregistrés."
+
+#~ msgid "Update Selected Profile"
+#~ msgstr "Mettre à jour le profil sélectionné"
+
+#~ msgid ""
+#~ "Usage: $PROGNAME [OPTION]\\nSet links to network tray icon set for dialup "
+#~ "analog or wireless modems.\\nDefault determined by first phone/access "
+#~ "number in wvdial configuration file\\n(/etc/wvdial.conf); if none, "
+#~ "selection not changed.\\n\\nOptions:\\n  -a, --analog    analog/wireline "
+#~ "telephone system (POTS)\\n  -w, --wireless  wireless/mobile cellular data "
+#~ "service\\n      --help      display this help and exit"
+#~ msgstr ""
+#~ "Utilisation : $PROGNAME [OPTION]\\nDéfinit les liens à l'icône de réseau "
+#~ "configurée pour les modems analogiques ou sans fil \\nPar défaut "
+#~ "déterminé par le premier numéro de téléphone/d'accès dans le fichier de "
+#~ "configuration wvdial \\n(/etc/wvdial.conf); sinon, la sélection n'est pas "
+#~ "changée\\n\\nOptions : \\n-a, --analog  système de téléphonie analogique/"
+#~ "filaire (POTS) \\n-w, --wireless service de données sans fil/mobile "
+#~ "cellulaire \\n       --help      affiche cette aide et quitte"
+
+#~ msgid "Wireless Network Reset"
+#~ msgstr "Réinitialisation du réseau sans-fil"
+
+#~ msgid "Wpa_cli"
+#~ msgstr "Wpa_cli"
+
+#~ msgid ""
+#~ "Wpa_supplicant failed to connect.  Verify that the password you entered "
+#~ "is correct and that your network card supports wpa_supplicant."
+#~ msgstr ""
+#~ "Wpa_supplicant: la connexion a échoué. Vérifiez que le mot de passe saisi "
+#~ "est correct et que votre carte réseau prend wpa_supplicant en charge."

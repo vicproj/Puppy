@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: precord VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:42+0200\n"
+"PO-Revision-Date: 2013-01-01 12:29+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: precord.sh:47
+msgid ""
+"Section A: Commandline usage\n"
+"\n"
+"In a console enter command: precord --help\n"
+"for brief commandline usage.\n"
+msgstr ""
+"Section A: Utilisation de la ligne de commande\n"
+"\n"
+"Dans une console entrez la commande : precord --help\n"
+"pour une utilisation brève en ligne de commande.\n"
+
+#: precord.sh:51
+msgid ""
+"\n"
+"-----\n"
+"Section B: Pscheduler:\n"
+"\n"
+"If Pscheduler is available, you can Add (or Edit) Task(s) of the form \n"
+"\n"
+"  precord rec outfile.mp3 [duration]\n"
+"\n"
+"to schedule when a recording session should start.\n"
+"\n"
+"You can schedule any of the commands described by: precord --help\n"
+msgstr ""
+"\n"
+"-----\n"
+"Section B: Programmation\n"
+"\n"
+"Si Pschedule est disponible, vous pouvez ajouter (ou éditer) une(des) tâche"
+"(s) sous la forme\n"
+"\n"
+"  precord rec outfile.mp3 [durée]\n"
+"\n"
+"pour programmer le début d'une session d'enregistrement.\n"
+"\n"
+"Vous pouvez programmer chacune des commandes décrites dans : precord --help\n"
+
+#: precord.sh:62
+msgid ""
+"\n"
+"-----\n"
+"Section C: Alsa setup\n"
+"\n"
+"Recording:\n"
+"\n"
+"1. For louder microphone recordings: \n"
+"\n"
+"   Press MIXER button to bring up audio mixer and the VU meter. Activate Mic "
+"boost. Using it greatly boosts your microphone sound recording level.\n"
+"   \n"
+"   If using alsamixer to do this, use the cursor keys, move far over to the "
+"right hand side of the alsamixer window, and keep going right (often off the "
+"edge of the window). Around that location you may (or should?) find the 'Mic "
+"Boost' control (keyboard key 'M' toggles its activation).\n"
+"\n"
+msgstr ""
+"\n"
+"-----\n"
+"Section C: Configurer Alsa\n"
+"\n"
+"Enregistrement :\n"
+"\n"
+"1. Pour des enregistrements  plus fort avec le microphone: \n"
+"\n"
+"   Pressez le bouton MIXER pour afficher alsamixer et le VU-mètre. Activez "
+"Mic boost, son utilisation augmente considérablement le niveau "
+"d'enregistrement du micro.\n"
+"   \n"
+"\tSi vous utilisez AlsaMixer, à l'aide des touches du curseur, déplacez-vous "
+"le plus possible vers le côté droit de la fenêtre d'Alsamixer (en principe à "
+"l'extrémité droite de la fenêtre), vous devriez trouver le contrôle 'Mic "
+"Boost'. Pressez la touche du clavier 'M' pour activer 'Mic Boost'.\n"
+"\n"
+
+#: precord.sh:74
+msgid ""
+"\n"
+"\n"
+"2. For Microphone recording, you should also activate 'Mic' as the capture "
+"device (if using alsamixer use space bar to activate).\n"
+"\n"
+"3. You should turn up the amplitude setting of the 'Capture' (to around "
+"maximum), but be careful you do not unwittingly turn up the Playback Mic "
+"volume (which you should inactivate) rather than the Capture one, or you may "
+"end up recording sound fed back to your mic from your blaring speakers! If "
+"using alsamixer, pressing the Tab key such that you come to the alsamixer "
+"Capture window, before setting capture devices, may help you to avoid "
+"unnecessarily increasing the playback amplitude controls rather than the "
+"record ones.\n"
+msgstr ""
+"\n"
+"\n"
+"2. Pour enregistrer à partir du microphone, vous devez aussi activer le "
+"périphérique de capture 'Mic' (barre espace pour activer) et parfois/"
+"souvent?) le périphérique générique  appelé 'Capture'.\n"
+"\n"
+"3. Vous devez régler le plus haut possible le périphérique utilisé pour "
+"'Capture'. Mais faites attention de ne pas augmenter le volume de lecture "
+"plus haut que celui de capture 'Mic' sans le vouloir, vous risqueriez avoir "
+"un    effet retour dans les haut-parleurs très inconfortable! Si vous "
+"utilisez AlsaMixer, en appuyant sur la touche 'tabulation' (comme pour la "
+"fenêtre alsamixer pour la 'capture'), ça peut vous aider  à éviter "
+"d'augmenter inutilement le volume de la lecture plutôt que celui de l' "
+"enregistrement.\n"
+
+#: precord.sh:79
+msgid ""
+"\n"
+"\n"
+"4. As an alternative to recording from the microphone, you could select some "
+"other device to capture from (e.g. Line in). If you select 'Mix' (or perhaps "
+"'Mono Mix' as the capture device; depending on what your sound card "
+"provides) you can record most anything passing through your sound card (for "
+"example: streaming radio as in 01micko pupRadio program).\n"
+"\n"
+"5. For playback to work you need to activate and turn up PCM and your Master "
+"volume control.\n"
+"\n"
+"6. You will be able to see from the running VU display window if, and when, "
+"you have your sound controls correctly set up (but turn off the VU display "
+"before actually recording or you will end up with a blank recording!).\n"
+msgstr ""
+"\n"
+"\n"
+"4. Comme alternative à l'enregistrement depuis le micro, vous pourrait "
+"choisir un autre périphérique d'entrée (par exemple, 'Line in'). Si vous "
+"sélectionnez 'Mix' (ou peut-être 'Mono Mix') en tant que périphérique de "
+"capture vous pourrez enregistrer presque tout ce qui passe par votre carte "
+"son (par exemple: des flux radio).\n"
+"\n"
+"5. Pour que la lecture fonctionne, vous devez activer et lancer PCM ainsi "
+"que votre contrôle de volume principal.\n"
+"\n"
+"6. Vous pourrez voir dans la fenêtre d'affichage VU si (et quand) votre "
+"réglage son est correctement configuré (mais désactivez l'affichage VU avant "
+"d'enregistrer sinon vous aurez un enregistrement blanc!).\n"
+
+#: precord.sh:86
+msgid ""
+"\n"
+"\n"
+"\n"
+"Playback: \n"
+"\n"
+"1. For Playback, you need to turn up the PCM device volume and at least the "
+"Master device volume. Note that key 'M' is also used to Mute devices.\n"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"Lecture: \n"
+"\n"
+"1. Pour la lecture, vous avez besoin de monter le volume de PCM et au moins "
+"le volume Principal (Master). Notez que la touche 'M' est aussi utilisée "
+"pour désactiver les périphériques.\n"
+
+#: precord.sh:92
+msgid ""
+"\n"
+"-----\n"
+"Precord Plugins:\n"
+"\n"
+"Version 6.0.0 and above provides a revolutionary (!) slave application "
+"'plugin' facility (one per main precord function). The facility allows "
+"precord to start up and shutdown virtually any application or script in "
+"response to precord button presses. For information on usage of slave "
+"plugins, read READMEplayslavedemo.txt. A copy of that is provided in hidden "
+"directory .pcreole in your home directory.\n"
+"-----\n"
+"Tips:\n"
+"\n"
+"To keep Precord as the top window, right-click on its window bar, and "
+"select \n"
+"Layer -> Top"
+msgstr ""
+"\n"
+"-----\n"
+"Plugins de Precord:\n"
+"\n"
+"La version 6.0.0 et supérieures offre une application esclave(!) "
+"révolutionnaire 'plugin' (une par fonction principale de Precord ). Cela "
+"permet à Precord de lancer et arréter pratiquement n'importe quelle "
+"application ou script en fonction des actions sur les boutons de Precord. "
+"Pour plus d'informations sur l'utilisation des plugins esclave, lisez /usr/"
+"share/precord/READMEplayslavedemo.txt.\n"
+"-----\n"
+"Conseils:\n"
+"\n"
+"Pour garder Precord apparent en permanence, cliquez-droit sur sa barre de "
+"titre, et sélectionnez \n"
+" 'Layer' -> Top"
+
+#: precord.sh:486 precord.sh:606
+msgid "mp3, ogg, wav, acc and flac recorder and player"
+msgstr "Enregistreur/lecteur mp3, ogg, wav, acc et flac"
+
+#: precord.sh:488 precord.sh:657
+msgid "RECORD File"
+msgstr "ENREGISTRER le fichier"
+
+#: precord.sh:498 precord.sh:628
+msgid "PAUSE record"
+msgstr "PAUSE de l'enregistrement"
+
+#: precord.sh:504 precord.sh:635
+msgid "STOP record. If no record in process, pop up MIXER and VU display"
+msgstr "ARRET de l'enregistrement"
+
+#: precord.sh:511
+msgid "PLAY File"
+msgstr "LIRE le fichier"
+
+#: precord.sh:519 precord.sh:709
+msgid "PAUSE play"
+msgstr "PAUSE lecture"
+
+#: precord.sh:525 precord.sh:716
+msgid "STOP play"
+msgstr "ARRET lecture"
+
+#: precord.sh:531
+msgid "Advanced User Interface and Precord configuration"
+msgstr "Interface Utilisateur Avancée et Configuration"
+
+#: precord.sh:540
+msgid "Browse and select the target directory for the file to record or play"
+msgstr ""
+"Rechercher et sélectionner le répertoire de destination du fichier à "
+"enregistrer ou lire"
+
+#: precord.sh:545
+msgid ""
+"Browse, drag and drop, copy and paste, or type the target directory for the "
+"file to record or play"
+msgstr ""
+"Recherchez, glissez-déposez, copiez-collez, ou tapez le répertoire cible du "
+"fichier à enregistrer ou lire"
+
+#: precord.sh:550
+msgid ""
+"Drag and drop, copy and paste, or type the name of the file to record or play"
+msgstr ""
+"Glissez-déposez, copiez-collez, ou tapez le nom du fichier à enregistrer ou "
+"lire"
+
+#: precord.sh:555 precord.sh:653
+msgid "Opens Rox filemanager at target directory of recording"
+msgstr ""
+"Ouvre le gestionnaire de fichiers ROX dans le répertoire cible "
+"d'enregistrement"
+
+#: precord.sh:559
+msgid "click checkbox for date-stamped record to chosen directory"
+msgstr ""
+"Cliquez la case pour horodater un enregistrement dans le répertoire choisi"
+
+#: precord.sh:564 precord.sh:1027
+msgid "QUIT"
+msgstr "QUITTER"
+
+#: precord.sh:590
+msgid "Setup Help"
+msgstr "Aide de configuration"
+
+#: precord.sh:610
+msgid "Record"
+msgstr "Enregistrement"
+
+#: precord.sh:611
+msgid "Target Directory"
+msgstr "Dossier cible"
+
+#: precord.sh:611 precord.sh:701
+msgid "Duration(seconds)"
+msgstr "Durée (secondes)"
+
+#: precord.sh:613
+msgid "Browse and select the target directory for the file to record"
+msgstr ""
+"Rechercher et sélectionner le répertoire de destination du fichier à "
+"enregistrer"
+
+#: precord.sh:618
+msgid ""
+"Browse, drag and drop, copy and paste, or type the target directory for the "
+"file to record"
+msgstr ""
+"Rechercher, glisser-déposer, copier-coller, ou tapez le répertoire cible du "
+"fichier à enregistrer"
+
+#: precord.sh:623 precord.sh:704
+msgid "0 = no time limit"
+msgstr "0 = sans limite de temps"
+
+#: precord.sh:649
+msgid "Drag and drop, copy and paste, or type name of the file to record"
+msgstr ""
+"Glisser-déposer, copier-coller, ou tapez le nom du fichier à enregistrer"
+
+#: precord.sh:668
+msgid "Copy Record entry to Play entry1"
+msgstr "Copier une Entrée Enregistrement vers une Entrée Lecture 1"
+
+#: precord.sh:676
+msgid "Auto generated date-stamped file name YearMonthDayHourMinuteSecond"
+msgstr ""
+"Nom de fichier automatiquement généré horodaté "
+"AnnéeMoisJourHeureMinuteSeconde"
+
+#: precord.sh:680
+msgid "RECORD Date-stamped file"
+msgstr "ENREGISTRER un fichier horodaté"
+
+#: precord.sh:692
+msgid "Copy Date-stamped Record entry to Play entry2"
+msgstr "Copier une Entrée Enregistrement horodaté vers une Entrée Lecture 2"
+
+#: precord.sh:700
+msgid "Play"
+msgstr "Lecture"
+
+#: precord.sh:727 precord.sh:747
+msgid "Browse for SOURCE File to play"
+msgstr "Rechercher le fichier SOURCE à jouer"
+
+#: precord.sh:732 precord.sh:752
+msgid ""
+"Browse, drag and drop, copy and paste, or type name (including path) of file "
+"to play"
+msgstr ""
+"Rechercher, glisser/déposer, copier et coller, ou taper le nom (y compris le "
+"chemin) du fichier à lire"
+
+#: precord.sh:736
+msgid "PLAY File1"
+msgstr "Lire le fichier 1"
+
+#: precord.sh:756
+msgid "PLAY File2"
+msgstr "Lire le fichier 2"
+
+#: precord.sh:771
+msgid "AUDIO RECORD CONFIGURATION:"
+msgstr "CONFIGURATION DE L'ENREGISTREMENT"
+
+#: precord.sh:774
+msgid "select audio format"
+msgstr "Format audio"
+
+#: precord.sh:776
+msgid "use mp3 encoder type"
+msgstr "utiliser un type de codage mp3"
+
+#: precord.sh:781
+msgid "use wav encoder type"
+msgstr "utiliser un type de codage wav"
+
+#: precord.sh:786
+msgid "use ogg managed maximum encoder type"
+msgstr "utiliser un type de codage ogg géré en mode maximum"
+
+#: precord.sh:791
+msgid "use ogg unmanaged quality encoder type"
+msgstr "utiliser un type de codage ogg en mode qualité non géré"
+
+#: precord.sh:796
+msgid "use aac bitrate mode encoder type"
+msgstr "utiliser un type de codage en mode débit aac"
+
+#: precord.sh:801
+msgid "use aac quality mode encoder type"
+msgstr "utiliser un type de codage en mode de qualité aac"
+
+#: precord.sh:806
+msgid "use flac lossless encoder type"
+msgstr "utiliser un type de codage sans perte FLAC"
+
+#: precord.sh:815
+msgid "select mp3 mode"
+msgstr "Mode mp3"
+
+#: precord.sh:817
+msgid "use Constant Bit Rate mode when mp3 encoding"
+msgstr "utiliser un mode de débit binaire constant en codage mp3"
+
+#: precord.sh:822
+msgid "use Average Bit Rate mode when mp3 encoding"
+msgstr "utiliser un mode de débit binaire moyen en codage mp3"
+
+#: precord.sh:827
+msgid "use Variable Bit Rate mode when mp3 encoding"
+msgstr "utiliser un mode de débit binaire variable en codage mp3"
+
+#: precord.sh:837
+msgid "sample rate for wav; bitrate for mp3, aac or ogg_mm"
+msgstr ""
+"Fréquence d'échantillonnage pour wav, débit binaire pour mp3, aac ou ogg_mm"
+
+#: precord.sh:898
+msgid ""
+"audio quality for: mp3 vbr, aac_q or ogg_q; compression_level for flac "
+"(N1=12)"
+msgstr ""
+"Qualité audio pour : mp3 vbr, aac_q ou ogg_q; niveau de compression pour "
+"flac (N1=12)"
+
+#: precord.sh:968
+msgid "General Configuration"
+msgstr "Configuration Générale"
+
+#: precord.sh:972
+msgid "channel"
+msgstr "Canal"
+
+#: precord.sh:973
+msgid "select for stereo recording"
+msgstr "Choisir l'enregistrement stéréo"
+
+#: precord.sh:975
+msgid "stereo"
+msgstr "stéréo"
+
+#: precord.sh:982
+msgid "select soundcard"
+msgstr "Carte son"
+
+#: precord.sh:984
+msgid "If you soundcard is not card 0 click checkbox"
+msgstr "Si votre carte son n'est pas la carte 0 cochez la case"
+
+#: precord.sh:989
+msgid "If you soundcard is not subdevice 0 click checkbox"
+msgstr "Si votre carte son n'est pas le sous-périphérique 0 cochez la case"
+
+#: precord.sh:1000
+msgid "Return to Small GUI"
+msgstr "Retour à l'Interface Minimale"
+
+#: precord.sh:1006
+msgid "Help"
+msgstr "Aide"
+
+#: precord.sh:1015
+msgid "Run Pschedule task on time"
+msgstr "Lancer Pschedule"
+
+#: precord.sh:1023
+msgid "Pop up MIXER and VU display"
+msgstr "Afficher les fenêtres MIXER et VU"
+
+#: precord.sh:1111
+msgid ""
+"After you have configure precord \n"
+"via the GUI, you can also control it\n"
+"from the commandline using:\n"
+"\n"
+"precord [option] [path to file] [file] [duration]\n"
+"\n"
+"where [duration] is a time limit for the record\n"
+"capture or play process:\n"
+" \n"
+"0 means no time limit;\n"
+"entering no duration results in use of\n"
+"duration pre-configured for record.\n"
+msgstr ""
+"Après avoir configuré Precord via \n"
+"l'interface graphique, vous pouvez aussi le\n"
+"contrôler en ligne de commande en utilisant :\n"
+"\n"
+"precord [option] [[chemin du fichier] [fichier] [durée]\n"
+"\n"
+"où [durée] est un délai fixé pour\n"
+"l'enregistrement ou la lecture :\n"
+"\n"
+"0 signifie sans limite;\n"
+"entrer aucune durée entraine l'utilisation d'une\n"
+"durée préconfigurée pour l'enregistrement.\n"
+
+#: precord.sh:1123
+msgid ""
+"\n"
+"\n"
+"Commandline Arguments:\n"
+"\n"
+"rec target_directory outfile [duration] : record to outfile.\n"
+"pauserec : pause/continue recording (toggle).  \n"
+"stoprec : stop recording.\n"
+"play target_directory infile [duration] : play infile.\n"
+"pauseplay : pause/continue playback (toggle).\n"
+"stopplay : stop playback.\n"
+"quit : clean up all and quit program.\n"
+"--help : this brief usage help.\n"
+"-? : this brief usage help.\n"
+"- : read arguments from stdin (e.g. pipe)\n"
+"\n"
+"Note that precord automatically keeps\n"
+"track of the running process IDs.\n"
+"\n"
+"If no options are entered the precord GUI\n"
+"will start.\\n"
+msgstr ""
+"\n"
+"\n"
+"Arguments de ligne de commande :\n"
+"\n"
+"rec outfile [duration] : enregistrer hors fichier.\n"
+"pauserec : faire une pause/continuer l'enregistrement (alternativement).\n"
+"stoprec : arréter l'enregistrement après un bref délai.\n"
+"play target_directory infile [duration] : lire dans le fichier.\n"
+"stoprecnow : arréter l'enregistrement immédiatement.\n"
+"play infile [duration] : lire dans fichier.\n"
+"pauseplay : faire une pause/continuer la lecture (alternativement).\n"
+"stopplay : arréter la lecture.\n"
+"quit : tout vider et quitter le programme.\n"
+"--help : ce court texte d'aide.\n"
+"-? : ce court texte d'aide.\n"
+"-v : numéro de version de precord.\n"
+"- : read arguments from stdin (e.g. pipe)\n"
+"\n"
+"Precord conserve automatiquement le\n"
+"suivi du processus ID en cours d'exécution.\n"
+"\n"
+"Si aucune option n'est entrée l'Interface\n"
+"Graphique de Precord se lancera.\\n"

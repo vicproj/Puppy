@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: screeny VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2012-11-16 09:53+0800\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: screeny.sh:17
+msgid "Screeny"
+msgstr "Screeny"
+
+#: screeny.sh:53
+msgid "SCREENY"
+msgstr "SCREENY"
+
+#: screeny.sh:56
+msgid "Version "
+msgstr "Version"
+
+#: screeny.sh:59
+msgid ""
+"Simply make a choice whether you want to take a fullscreen \n"
+"snap or a window snap. Fullscreen is taken automatically. \n"
+"For a window, the cursor changes to a crosshair, just hover\n"
+"the cursor over the window and left click."
+msgstr ""
+"Faites simplement le choix entre un cliché de plein écran \n"
+"et un cliché de fenêtre. Le plein écran est automatiquement \n"
+"sélectionné. Pour une fenêtre, le curseur se change en croix, \n"
+"il suffit alors de survoler la fenêtre et de faire un clic gauche."
+
+#: screeny.sh:65
+msgid "BE AWARE that for a window shot the window MUST be in focus."
+msgstr ""
+"ATTENTION : pour un cliché de fenêtre, il faut avoir le focus sur celle-ci."
+
+#: screeny.sh:70
+msgid "Preferences"
+msgstr "Préférences"
+
+#: screeny.sh:72
+msgid "The Menu: File >> Preferences :"
+msgstr "Le menu : Fichier>>Préférences :"
+
+#: screeny.sh:74
+msgid ""
+"Choosing forum compatibility scales the image to 600px wide \n"
+"for posting on forums.\n"
+"\n"
+"You can choose to open the image for editing after the shot is taken.\n"
+"\n"
+"You can choose to turn off the splash images \n"
+"once you learn how the program works."
+msgstr ""
+"Le choix 'compatible forum' retaille l'image à une largeur \n"
+"de 600 pixels pour pouvoir la poster sur un forum. \n"
+"\n"
+"Vous pouvez choisir d'éditer l'image après le cliché.\n"
+"\n"
+"Vous pouvez aussi désactiver l'image d'accueil  \n"
+"une fois que vous avez saisi le fonctionnement du programme. "
+
+#: screeny.sh:85
+msgid ""
+"A simple screen capture program \\n\\nGPLv2 See /usr/shar/doc/legal \\n\\n(c)"
+"Mick Amadio 2012"
+msgstr ""
+"Un programme simple de capture d'écran \\n\\nGPLv2 Voir /usr/shar/doc/legal "
+"\\n\\n(c)Mick Amadio 2012"
+
+#: screeny.sh:102
+msgid "Capture Screen Shot"
+msgstr "Cliché de capture d'écran"
+
+#: screeny.sh:103
+msgid "Choose window or fullscreen"
+msgstr "Choix entre une fenêtre ou le plein écran"
+
+#: screeny.sh:104
+msgid "window"
+msgstr "fenêtre"
+
+#: screeny.sh:105
+msgid "fullscreen"
+msgstr "plein écran"
+
+#: screeny.sh:106
+msgid "Name your output file (optional)"
+msgstr "Nommez votre fichier de sortie (optionnel)"
+
+#: screeny.sh:107
+msgid "Check this to save as a 600px wide jpg image"
+msgstr ""
+"Cochez ce choix pour sauver comme image jpeg avec une largeur de 600 pixels"
+
+#: screeny.sh:108
+msgid "Uncheck this to avoid the splash messages (faster)"
+msgstr "Décochez ce choix pour annuler le message d'accueil (plus rapide) "
+
+#: screeny.sh:109
+msgid "Check this to open your screen shot for editing"
+msgstr "Cochez ce choix pour éditer votre capture d'écran"
+
+#: screeny.sh:110
+msgid "useful only for full shots"
+msgstr "utile seulement pour les clichés de plein écran"
+
+#: screeny.sh:111
+msgid "choose a name if desired, else your shot will be capturexxx.png"
+msgstr "choisissez un nom (par défaut : capturexxx.png) "
+
+#: screeny.sh:121
+msgid "Check for forum compatibility"
+msgstr "Cochez pour une image compatible avec les forums"
+
+#: screeny.sh:125
+msgid "Uncheck to turn off messages"
+msgstr "Décochez cette case pour ne plus avoir de messages"
+
+#: screeny.sh:129
+#, sh-format
+msgid "Check to open in '${DEFAULTIMAGEEDITOR}'"
+msgstr "Cochez pour ouvrir dans '${DEFAULTIMAGEEDITOR}'"
+
+#: screeny.sh:135
+msgid "File"
+msgstr "Fichier"
+
+#: screeny.sh:146
+msgid "Help"
+msgstr "Aide"
+
+#: screeny.sh:167
+msgid "Set Delay"
+msgstr "Choisir un retardement"
+
+#: screeny.sh:190
+msgid "Hover mouse over desired window and click"
+msgstr "Survolez avec la souris la fenêtre choisie et cliquez"
+
+#: screeny.sh:219
+#, sh-format
+msgid "Your ${EXIT} screen shot is saved as ${CAPTURE}"
+msgstr "Votre cliché ${EXIT} est sauvé en tant que ${CAPTURE} "

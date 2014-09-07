@@ -1,0 +1,151 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pup-advert-blocker\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: pup-advert-blocker.sh:101
+msgid "No ad lists selected. Ad blocking will be disabled."
+msgstr "Pas de listes sélectionnées. Le bloqueur de pubs est désactivé."
+
+#: pup-advert-blocker.sh:109
+msgid ""
+"Success - your settings have been changed.\\n\\nYour hosts file has been "
+"updated.\\nRestart your browser to see the changes."
+msgstr ""
+"Réussi - vos préférences ont été sauvegardées.\\n\\nVotre fichier hôte a été "
+"mis à jour.\\nRedémarrez votre navigateur pour voir les changements."
+
+#: pup-advert-blocker.sh:117
+msgid "The"
+msgstr "Cet outil,"
+
+#: pup-advert-blocker.sh:117
+msgid ""
+"tool adds stuff to your \"/etc/hosts\" file, so that many advertising "
+"servers and websites will not be able to connect to this PC."
+msgstr ""
+"ajoute des trucs au fichier \"/etc/hosts\", afin que les publicités et les "
+"sites web ne puissent pas se connecter à ce PC."
+
+#: pup-advert-blocker.sh:122
+msgid ""
+"Leave your cursor over a service to see a short description. You can choose "
+"one service or combine multiple services for more advert protection."
+msgstr ""
+"Laissez votre curseur sur un service pour en voir une courte description. "
+"Vous pouvez choisir un service ou combiner de multiples services pour "
+"accroitre la protection contre les publicités."
+
+#: pup-advert-blocker.sh:127
+msgid ""
+"Blocking ad servers protects your privacy, saves you bandwidth, greatly "
+"improves web-browsing speeds and makes the internet much less annoying in "
+"general."
+msgstr ""
+"'Pup-advert-blocker' protège votre vie privée, allège votre bande passante, "
+"améliore la rapidité de votre navigation Internet et rend le Web moins "
+"gênant en général."
+
+#: pup-advert-blocker.sh:139
+msgid "Close this help dialog"
+msgstr "Fermer cette fenêtre"
+
+#: pup-advert-blocker.sh:141
+msgid "Close"
+msgstr "Fermer"
+
+#: pup-advert-blocker.sh:154
+msgid "Block online ads in all browsers with this simple tool"
+msgstr "Bloquez les publicités en ligne avec cet utilitaire!"
+
+#: pup-advert-blocker.sh:162
+#, fuzzy
+msgid ""
+"Choose your preferred ad blocking service(s) or select them all for maximum "
+"blocking"
+msgstr "Choisissez le(s) service(s) préféré(s) de blocage"
+
+#: pup-advert-blocker.sh:166
+msgid "Blocks many known malware sites and unsafe adult networks"
+msgstr ""
+"Bloque de nombreux sites malveillants connus et de dangereux réseaux pour "
+"adultes"
+
+#: pup-advert-blocker.sh:171
+msgid "A large, fairly comprehensive list of many known ad servers"
+msgstr ""
+"Une grande liste assez complète des nombreux serveurs publicitaires connus"
+
+#: pup-advert-blocker.sh:176
+msgid "A small and effective list of popular ad servers"
+msgstr "Une petite liste efficace contre les Popups"
+
+#: pup-advert-blocker.sh:188
+#, fuzzy
+msgid ""
+"Click the \"Start\" button to download and block the latest list of known "
+"advertising servers. Click with nothing selected to remove all advert "
+"blocking"
+msgstr ""
+"Cliquez sur \"Lancer\" pour télécharger la dernière liste des serveurs "
+"publicitaires connus et les bloquer"
+
+#: pup-advert-blocker.sh:190
+msgid "Click to download and then block a list of advertising servers"
+msgstr ""
+"Cliquez ici pour télécharger afin de les bloquer une liste de serveurs "
+"publicitaires"
+
+#: pup-advert-blocker.sh:193
+msgid "Start"
+msgstr "Lancer"
+
+#: pup-advert-blocker.sh:206
+msgid ""
+"Or click the \"Edit\" button to manually edit your hosts file, using your "
+"default text editor"
+msgstr ""
+"Ou cliquez sur \"Editer\" si vous voulez modifier vous-même le fichier hôte "
+"dans l'éditeur par défaut."
+
+#: pup-advert-blocker.sh:208
+msgid ""
+"Manually edit your hosts file in a text editor, adding or removing any "
+"entries you like"
+msgstr ""
+"Modifier manuellement votre fichier hôte, en ajoutant ou supprimant toutes "
+"les entrées que vous désirez"
+
+#: pup-advert-blocker.sh:211
+msgid "Edit"
+msgstr "Editer"
+
+#: pup-advert-blocker.sh:220
+msgid "Learn more about blocking ads"
+msgstr "En savoir plus"
+
+#: pup-advert-blocker.sh:223
+msgid "Help"
+msgstr "Aide"
+
+#: pup-advert-blocker.sh:227
+msgid "Exit Pup Advert Blocker"
+msgstr "Quitter Pup Advert Blocker"
+
+#: pup-advert-blocker.sh:230
+msgid "Quit"
+msgstr "Quitter"
+
+#~ msgid "A smaller list of popup adverts, ad servers and ad networks"
+#~ msgstr "Une petite liste d’annonces, serveurs et réseaux"

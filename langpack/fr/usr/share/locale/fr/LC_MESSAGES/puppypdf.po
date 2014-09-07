@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: puppypdf VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:56+0200\n"
+"PO-Revision-Date: 2012-02-16 17:56+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: puppypdf.sh:15
+msgid "YES"
+msgstr "OUI"
+
+#: puppypdf.sh:16
+msgid "NO"
+msgstr "NON"
+
+#: puppypdf.sh:36
+msgid ""
+"The Puppy PDF Conversion Wizard (puppyPDF) takes an input file\\nand "
+"converts it to PDF format. The wizard relies on 3 external programs:\\n"
+"\\nbash, Abiword, and ps2pdf\\n\\nand is recommended for use with Puppy "
+"version 1.03 or later,\\nsince these are included with the standard iso.\\n"
+"\\n=== SUPPORTED FILE FORMATS ===\\n\\nAbiword Documents (.abw, .awt)\\n"
+"\\nMicrosoft Word Documents (.doc, .dot)\\n\\nRich Text Format Documents (."
+"rtf)\\n\\nText Documents (.txt, .text)"
+msgstr ""
+"L'assistant PDF (puppyPDF) prend un fichier en entrée\\net le convertit au "
+"format PDF. L'assistant est relié à 3 programmes externes:\\n\\nbash, "
+"Abiword, et ps2pdf\\n\\net il est recommandé de l'utiliser avec les versions "
+"de Puppy 1.03 ou suivantes,\\nà condition que ces programmes soient dans la "
+"distribution.\\n\\n=== FORMATS DES FICHIERS SUPPORTES ===\\n\\nDocuments "
+"Abiword (.abw, .awt)\\n\\nDocuments Microsoft Word (.doc, .dot)\\n"
+"\\nDocuments Rich Text Format (.rtf)\\n\\nDocuments Text (.txt, .text)"
+
+#: puppypdf.sh:45
+msgid "input file"
+msgstr "fichier d'entrée"
+
+#: puppypdf.sh:46
+msgid "output file"
+msgstr "fichier de sortie"
+
+#: puppypdf.sh:47
+msgid "prints help"
+msgstr "afficher l'aide"
+
+#: puppypdf.sh:75
+msgid "PDF file selected"
+msgstr "Fichier PDF selectionné"
+
+#: puppypdf.sh:75
+msgid ""
+"A PDF file was selected.\\n\\nPress YES to try again,\\n\\n or NO to quit"
+msgstr ""
+"Un fichier PDF a été sélectionné.\\n\\nPressez OUI pour ré-essayer,\\n\\n ou "
+"NON pour quitter"
+
+#: puppypdf.sh:87 puppypdf.sh:109
+msgid "Please specify a valid input file"
+msgstr "Veuillez spécifier un fichier d'entrée correct"
+
+#: puppypdf.sh:98
+msgid "No file selected"
+msgstr "Aucun fichier sélectionné"
+
+#: puppypdf.sh:98
+msgid "Invalid file selected.\\n\\nPress YES to try again,\\n\\n or NO to quit"
+msgstr ""
+"Le fichier sélectionné n'est pas correct.\\n\\nPressez OUI pour ré-essayer,"
+"\\n\\n ou NON pour quitter"
+
+#: puppypdf.sh:119
+msgid "no output filename specified, using"
+msgstr "Aucun nom de fichier de sortie spécifié, on utilisera"
+
+#: puppypdf.sh:122
+msgid "no output filename specified,\\nusing"
+msgstr "Aucun nom de fichier de sortie spécifié,\\on utilisera"
+
+#: puppypdf.sh:130
+msgid "Filename already exists"
+msgstr "Ce nom de fichier existe déjà"
+
+#: puppypdf.sh:130
+msgid "already exists\\n\\nPress YES to overwrite,\\n\\nor NO to change"
+msgstr "existe déjà\\n\\nPressez OUI pour l'écraser,\\n\\n ou NON pour changer"
+
+#: puppypdf.sh:141
+msgid "already exists! Press ENTER to continue or CTRL-C to quit"
+msgstr "existe déjà! Pressez ENTREE pour continuer ou Ctrl-c pour quitter"
+
+#: puppypdf.sh:151
+msgid "Puppy PDF Conversion Wizard"
+msgstr "Assistant de conversion PDF"
+
+#: puppypdf.sh:152
+msgid "WELCOME to the Puppy PDF Conversion Wizard!"
+msgstr "Bienvenue dans l'Assistant de conversion PDF!"
+
+#: puppypdf.sh:153
+msgid ""
+"Press YES to choose the file to convert,\\n\\n NO to exit,\\n\\n or HELP for "
+"more info"
+msgstr ""
+"Pressez OUI pour choisir le fichier à convertir,\\n\\n NON pour quitter,\\n"
+"\\n ou AIDE pour plus d'info"
+
+#: puppypdf.sh:174
+msgid "Next step: save as..."
+msgstr "Etape suivante: enregistrer sous..."
+
+#: puppypdf.sh:175
+msgid ""
+"The next step is to specify the name of your pdf file.\\n\\n Press OK to "
+"continue."
+msgstr ""
+"L'étape suivante consiste à donner un nom au fichier pdf.\\n\\n Pressez OK "
+"pour continuer."
+
+#: puppypdf.sh:205
+msgid "Confirm..."
+msgstr "Confirmer ..."
+
+#: puppypdf.sh:206
+msgid "The Puppy PDF Conversion Wizard"
+msgstr "L'Assistant de conversion PDF"
+
+#: puppypdf.sh:207
+#, sh-format
+msgid "will now convert\\n\\n$INPUT\\n\\nto the pdf file"
+msgstr "va maintenant convertir\\n\\n$INPUT\\n\\nen un fichier pdf"
+
+#: puppypdf.sh:208
+msgid "If this is correct, choose YES\\n To quit, choose NO"
+msgstr "Si vous êtes d'accord, choisissez OUI\\n Pour quitter, choisissez NON"
+
+#: puppypdf.sh:243
+msgid "ps2pdf error! Exiting..."
+msgstr "ps2pdf erreur! Abandon..."
+
+#: puppypdf.sh:244 puppypdf.sh:253
+msgid "File Conversion error!"
+msgstr "Erreur de conversion du fichier!"
+
+#: puppypdf.sh:245 puppypdf.sh:254
+msgid ""
+"There was an error in the file conversion process!\\n\\nCheck that your "
+"input file format is supported.\\n\\nPress OK to exit"
+msgstr ""
+"Il y a eu une erreur au cours du processus de conversion du fichier!\\n"
+"\\nVérifiez que le format de votre fichier d'entrée est supporté.\\n"
+"\\nPressez OK pour quitter."
+
+#: puppypdf.sh:252
+msgid "abiword error! Exiting..."
+msgstr "Erreur d'Abiword! Abandon..."

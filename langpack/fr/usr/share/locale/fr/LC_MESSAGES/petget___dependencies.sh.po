@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: JJ Moulinier\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: France\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: dependencies.sh:58
+msgid "Please wait, processing package database files..."
+msgstr "Patientez, traitement des fichiers de base de données des paquets..."
+
+#: dependencies.sh:103
+msgid "HIERARCHY OF MISSING DEPENDENCIES OF PACKAGE"
+msgstr "HIERARCHIE DES DEPENDANCES MANQUANTES DES PAQUETS"
+
+#: dependencies.sh:104
+msgid ""
+"Format of each line: 'a-missing-dependent-pkg: missing dependencies of a-"
+"missing-dependent-pkg'"
+msgstr ""
+"Format de chaque ligne: 'paquet-de-dépendance-manquante : dépendances "
+"manquantes d'un paquet-de-dépendance-manquante'"
+
+#: dependencies.sh:108
+msgid "Number of missing dependencies:"
+msgstr ""

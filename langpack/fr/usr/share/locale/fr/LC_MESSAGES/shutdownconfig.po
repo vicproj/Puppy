@@ -1,0 +1,976 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: shutdownconfig VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2012-02-10 16:35+0000\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: shutdownconfig.sh:48
+msgid "First shutdown: save session"
+msgstr "Premier arrêt: Enregistrer la session"
+
+#: shutdownconfig.sh:49
+msgid "No suitable partitions to save to. Shutting down without saving."
+msgstr "Aucune partition disponible pour sauvegarder. Fermeture sans sauver."
+
+#: shutdownconfig.sh:50
+msgid "Continue"
+msgstr "Continuer"
+
+#: shutdownconfig.sh:51
+msgid "Abort"
+msgstr "Abandon"
+
+#: shutdownconfig.sh:52
+msgid "No"
+msgstr "Non"
+
+#: shutdownconfig.sh:53
+msgid "DO NOT SAVE"
+msgstr "NE PAS SAUVER"
+
+#: shutdownconfig.sh:102
+msgid "administrator"
+msgstr "administrateur"
+
+#: shutdownconfig.sh:103
+#, sh-format
+msgid "fido CURRENTLY EXPERIMENTAL STATUS, PLEASE CHOOSE ${T_admin}"
+msgstr "fido ACTUELLEMENT A L'ETAT EXPERIMENTAL, VEUILLEZ CHOISIR ${T_admin}"
+
+#: shutdownconfig.sh:105
+msgid "First shutdown: ask fido"
+msgstr "Premier arrêt : Demandez Fido"
+
+#: shutdownconfig.sh:106
+#, fuzzy, sh-format
+msgid ""
+"You are currently running Puppy as the ${T_admin} (also known as 'root') "
+"which is the preferred choice. However, for the paranoid, you may run Puppy "
+"as a less-privileged user 'fido'. Puppy boots up without requiring a "
+"password, whether as ${T_admin} or fido, but the latter will require jumping "
+"to ${T_admin} to perform some system-level tasks, which will require entry "
+"of the admin password -- this is viewed by many as an unnecessary hassle."
+msgstr ""
+"Vous utilisez actuellement Toutou comme ${T_admin} (connu aussi comme "
+"'root'), qui est le choix préféré. Cependant, pour les paranoïaques, vous "
+"pouvez lancer Toutou comme un utilisateur moins privilégié 'fido'. Toutou "
+"démarre sans exiger de mot de passe, que ce soit ${T_admin} ou fido, mais "
+"ces derniers auront besoin de revenir à ${T_admin}  pour effectuer certaines "
+"tâches au niveau du système, ce qui nécessitera d'entrer le mot de passe "
+"administrateur. Cela est vu par beaucoup comme des tracas inutiles. \n"
+"Toutou est structuré de telle manière que nous considérons que l'utilisation "
+"en tant que ${T_admin} est absolument sûr, il est le choix de la plupart des "
+"utilisateurs, cependant Fido est théoriquement plus sécurisé.\n"
+"Notez que Toutou n'a que ce seul utilisateur non-admin, fido, car il ne "
+"possède pas de système multi-utilisateurs dans le sens habituel - au lieu de "
+"ça, chaque personne utilisant Toutou sur ​​le même ordinateur, peut avoir son "
+"propre fichier de sauvegarde personnel (chacun sous root ou fido à son "
+"choix).\n"
+"\n"
+"Notez aussi que le gestionnaire de pseudo (menu Système) vous permet de "
+"revenir à ${T_admin} si vous décidez ultérieurement que vous ne voulez "
+"plus \n"
+"${FIDOMSG2}"
+
+#: shutdownconfig.sh:107
+#, sh-format
+msgid ""
+"Puppy is structured in such a way that we consider running as ${T_admin} to "
+"be completely safe, and is the choice of most users, however fido is "
+"theoretically more secure."
+msgstr ""
+
+#: shutdownconfig.sh:108
+msgid ""
+"Note that Puppy only has one non-admin user, fido, as it is not a multi-user "
+"system in the normal sense -- instead, each person using Puppy on the same "
+"computer can have their own save-file (each one set to root or fido as the "
+"users wish)."
+msgstr ""
+
+#: shutdownconfig.sh:110
+#, sh-format
+msgid ""
+"Note also, the LoginManager (System menu) enables you to switch back to "
+"${T_admin} if you decide later that you don't want to run as fido."
+msgstr ""
+
+#: shutdownconfig.sh:161
+msgid "First shutdown: get ready"
+msgstr "Premier arrêt : Préparez-vous"
+
+#: shutdownconfig.sh:162
+#, fuzzy, sh-format
+msgid ""
+"WARNING: If you want to create a save-file (${DISTRO_FILE_PREFIX}save.2fs) "
+"in a NTFS partition (Windows XP), it is strongly recommended that you "
+"defragment the partition first."
+msgstr ""
+"ATTENTION: Pour la création d'un fichier (${DISTRO_FILE_PREFIX}save.2fs) "
+"dans une partition NTFS (Windows XP), je vous recommande de la défragmenter "
+"avant. \n"
+"  Pressez le bouton \\Zb${T_abort}\\ZB pour abandonner la sauvegarde. "
+"Démarrez Windows, puis choisissez Menu Démarrer->Tous les programmes-"
+">Accessoires->Outils systèmes->Défragmenter."
+
+#: shutdownconfig.sh:163
+#, fuzzy, sh-format
+msgid ""
+"Choose \\Zb${T_abort}\\ZB button to abort this save, start Windows and "
+"choose Start->All Programs->Accessories->System Tools->Defragment."
+msgstr ""
+"ATTENTION: Pour la création d'un fichier (${DISTRO_FILE_PREFIX}save.2fs) "
+"dans une partition NTFS (Windows XP), je vous recommande de la défragmenter "
+"avant. \n"
+"  Pressez le bouton \\Zb${T_abort}\\ZB pour abandonner la sauvegarde. "
+"Démarrez Windows, puis choisissez Menu Démarrer->Tous les programmes-"
+">Accessoires->Outils systèmes->Défragmenter."
+
+#: shutdownconfig.sh:164
+msgid "Make sure any required USB, floppy, etc. is PLUGGED IN NOW!"
+msgstr ""
+"Assurez-vous que le support choisi (USB, disquette, etc.) est BIEN BRANCHE!"
+
+#: shutdownconfig.sh:165
+#, fuzzy, sh-format
+msgid "Choose \\Zb${T_continue}\\ZB button to search available storage..."
+msgstr "Pressez le bouton \\Zb${T_continue}\\ZB pour continuer..."
+
+#: shutdownconfig.sh:169
+#, fuzzy, sh-format
+msgid ""
+"You have booted off a live-CD or DVD, and you can now save your personal "
+"settings and files to a USB Flash drive or any hard drive partition.\n"
+"However, if you have burnt the CD/DVD as multisession (not closed), then "
+"sessions can be saved as additional tracks to the CD/DVD -- each saved "
+"session will appear on the CD/DVD as a directory with all the saved files in "
+"it, not as a single file. \\Zb\\Z1THIS IS STILL EXPERIMENTAL, AND DOES NOT "
+"WORK WITH LAPTOP OPTICAL DRIVES\\Zn\\ZB"
+msgstr ""
+"Le lancement a eu lieu d'un live CD ou DVD. Maintenant vous pouvez sauver "
+"vos fichiers personnels et de configuration sur des supports USB, Zip, "
+"disquette ou partition de disque dur. Toutou enregistrera la session dans un "
+"fichier '${DISTRO_FILE_PREFIX}save.2fs' avec un Syst. de fichiers ext2 (ou "
+"ext3).\n"
+"Si la gravure du CD/DVD est en multisession (ouvert), vous pourrez "
+"enregistrer les sessions suivantes comme des pistes additionnelles sur ce CD/"
+"DVD. Chaque sauvegarde apparaitra sur le CD/DVD comme un dossier avec tous "
+"les fichiers visibles dans ce dossier. \\Zb\\Z1CECI EST ENCORE EXPERIMENTAL, "
+"ET NE FONCTIONNE PAS AVEC LES DISQUES OPTIQUES DES ORDINATEURS PORTABLES\\Zn"
+"\\ZB"
+
+#: shutdownconfig.sh:200
+msgid "Please wait, probing partitions..."
+msgstr "Patientez, recherche des partitions en cours..."
+
+#: shutdownconfig.sh:230
+msgid "First shutdown: NTFS warning"
+msgstr "Premier arrêt : Avertissement NTFS"
+
+#: shutdownconfig.sh:231
+msgid "WARNING:"
+msgstr "ATTENTION"
+
+#: shutdownconfig.sh:232
+#, sh-format
+msgid ""
+"The ntfs-3g driver has determined that the NTFS filesystem in partition "
+"${ATAG} is 'dirty'."
+msgstr ""
+
+#: shutdownconfig.sh:233
+msgid ""
+"It will display in the next dialog box in the list of partitions to save to, "
+"but it is recommended that you do not use it."
+msgstr ""
+
+#: shutdownconfig.sh:234
+#, fuzzy
+msgid ""
+"Instead, you should first run Microsoft Windows -- most often this problem "
+"is due to Windows not being shut down properly the last time it was used, "
+"leaving the filesystem in a 'dirty' state."
+msgstr ""
+"Le gestionnaire ntfs-3g a trouvé le système de fichiers ntfs 'mal en point' "
+"dans la partition /dev/${ATAG}. \n"
+"Elle s'affichera dans la boite de dialoque suivante, (dans la liste des "
+"partitions disponibles pour sauver), mais je recommande de ne pas "
+"l'utiliser. \n"
+"Lancez Microsoft Windows à la place. Cela survient souvent quand Windows n'a "
+"pas été quitté proprement. Il laisse le système de fichiers en 'mauvais "
+"état'."
+
+#: shutdownconfig.sh:235
+msgid "Click button to continue..."
+msgstr "Cliquez sur le bouton pour continuer..."
+
+#: shutdownconfig.sh:261 shutdownconfig.sh:263
+msgid "Size:"
+msgstr "Taille :"
+
+#: shutdownconfig.sh:261 shutdownconfig.sh:263
+msgid "Free:"
+msgstr "Libre :"
+
+#: shutdownconfig.sh:261 shutdownconfig.sh:375
+msgid "*RECOMMENDED*"
+msgstr "RECOMMANDE"
+
+#: shutdownconfig.sh:263
+msgid "Filesystem:"
+msgstr "Système de fichiers :"
+
+#: shutdownconfig.sh:286
+msgid "First shutdown: choose partition"
+msgstr "Premier arrêt : Choix de partition"
+
+#: shutdownconfig.sh:287
+msgid "Please choose a partition to create a pupsave on."
+msgstr ""
+
+#: shutdownconfig.sh:289
+msgid ""
+"For Windows partitions(ntfs/vfat), Puppy makes a file with a Linux "
+"filesystem image in it. The size is typically 512MB - 4GB (it can be made "
+"bigger later)."
+msgstr ""
+
+#: shutdownconfig.sh:290
+msgid ""
+"On linux partitions(ext3 and etc.), Puppy makes a folder for pupsave. Unlike "
+"single file, the size is not predetermined but limited by the free space of "
+"the partition. A Linux partition is recommended, if available."
+msgstr ""
+
+#: shutdownconfig.sh:292
+msgid "Highlight desired choice, then click OK button..."
+msgstr ""
+
+#: shutdownconfig.sh:300
+msgid "First shutdown: Not chosen"
+msgstr "Premier arrêt : Pas de choix"
+
+#: shutdownconfig.sh:301
+msgid "Try again"
+msgstr "Essayez à nouveau"
+
+#: shutdownconfig.sh:302
+msgid "\\Zb\\Z1ERROR:\\Zn\\ZB you did not choose any partition."
+msgstr ""
+
+#: shutdownconfig.sh:304
+#, fuzzy, sh-format
+msgid "Choose \\Zb${T_tryagain}\\ZB button to try again..."
+msgstr "Pressez le bouton \\Zb${T_continue}\\ZB pour continuer..."
+
+#: shutdownconfig.sh:305
+#, fuzzy, sh-format
+msgid "Or, \\Zb${T_abort}\\ZB to shutdown without saving..."
+msgstr "Ou, attendre 240 secondes pour arréter sans sauver la session..."
+
+#: shutdownconfig.sh:356
+msgid "First shutdown: size save-file"
+msgstr "Premier arrêt : Taille du fichier de sauvegarde"
+
+#: shutdownconfig.sh:357
+msgid "Please choose the size you would like for the personal save file."
+msgstr ""
+
+#: shutdownconfig.sh:358
+msgid "Note, 512M is a good choice, or highest if that not available."
+msgstr ""
+
+#: shutdownconfig.sh:359
+msgid "Select choice, then click OK button..."
+msgstr ""
+
+#: shutdownconfig.sh:371
+#, fuzzy
+msgid "First shutdown: choose saving style"
+msgstr "Premier arrêt : Choix du système de fichiers"
+
+#: shutdownconfig.sh:372
+msgid ""
+"You can save the session in a 'folder(directory)' because you chose a Linux "
+"partition. Unlike single file, saving in a folder is not restricted to the "
+"fixed file size but by the free space on the partition. You can save "
+"multiple profiles by different name."
+msgstr ""
+
+#: shutdownconfig.sh:374
+msgid ""
+"A \\Zbfolder\\ZB is recommended for this case, but you still have another "
+"option if you have some reason and you want it."
+msgstr ""
+
+#: shutdownconfig.sh:375
+msgid "Save in a folder."
+msgstr ""
+
+#: shutdownconfig.sh:376
+msgid "Save to the entire partition. Only one profile."
+msgstr ""
+
+#: shutdownconfig.sh:377
+msgid "Single file, ext2/3/4 filesystem image in it."
+msgstr ""
+
+#: shutdownconfig.sh:403
+msgid "First shutdown: choose filesystem"
+msgstr "Premier arrêt : Choix du système de fichiers"
+
+#: shutdownconfig.sh:404
+msgid ""
+"Previously, Puppy has only used ext2, now there is a choice. Regarding power-"
+"failure, note that Puppy will do a f.s. check at next boot so ext2 can "
+"recover, however journalled filesystems can recover even without a f.s. "
+"check. If in doubt, choose ext2. After making the choice, click OK button..."
+msgstr ""
+"Avant, Toutou n'utilisait que ext2, maintenant vous avez le choix. Pour les "
+"cas de coupure d'électricité, Toutou vérifiera le système de fichiers au "
+"prochain démarrage si ext2 peut être récupéré. Mais un système de fichiers "
+"journalisé (ext3 ou 4) peut se récupérer même sans vérification du s.f. "
+"Indécis, cliquez sur le  bouton OK..."
+
+#: shutdownconfig.sh:405
+msgid "Maximum storage space, encrypted save-file must use ext2"
+msgstr "Espace de stockage maximal, un fichier crypté doit utiliser ext2"
+
+#: shutdownconfig.sh:406 shutdownconfig.sh:408
+msgid "Journalled f.s., safest if power failure etc."
+msgstr "Un S.F. journalisé est plus sûr en cas de panne d'électricité, etc."
+
+#: shutdownconfig.sh:427
+#, fuzzy
+msgid "First shutdown: pupsave name"
+msgstr "Premier arrêt : Nom du fichier de sauvegarde"
+
+#: shutdownconfig.sh:428
+#, sh-format
+msgid ""
+"Would you like to customise the name of the '${DISTRO_FILE_PREFIX}save'?"
+msgstr ""
+
+#: shutdownconfig.sh:430
+#, sh-format
+msgid ""
+"This is optional, but it is convenient to manage multiple profiles. If you "
+"have lots of '${DISTRO_FILE_PREFIX}save' and you want to choose the right "
+"one at startup."
+msgstr ""
+
+#: shutdownconfig.sh:431
+#, sh-format
+msgid ""
+"For example, if you enter 'john' here, the file will become "
+"'${DISTRO_FILE_PREFIX}save-john'."
+msgstr ""
+
+#: shutdownconfig.sh:433
+msgid "Type any alpha-numeric characters you wish, then click OK button:"
+msgstr ""
+
+#: shutdownconfig.sh:447
+msgid "First shutdown: encryption"
+msgstr "Premier arrêt : Cryptage"
+
+#: shutdownconfig.sh:448
+msgid "NORMAL (no encryp.)"
+msgstr "NORMAL (sans cryptage)"
+
+#: shutdownconfig.sh:449
+msgid "Heavy encrypted"
+msgstr "Cryptage lourd"
+
+#: shutdownconfig.sh:450
+msgid "Light encrypted"
+msgstr "Cryptage léger"
+
+#: shutdownconfig.sh:451
+#, sh-format
+msgid "Do you want to encrypt the '${DISTRO_FILE_PREFIX}save'?"
+msgstr ""
+
+#: shutdownconfig.sh:452
+#, sh-format
+msgid ""
+"If the '${DISTRO_FILE_PREFIX}save' is encrypted, then a password will have "
+"to be entered at every bootup. The reason for doing this is security, as no "
+"one else will be able to see what is inside the ${DISTRO_FILE_PREFIX}save. "
+"Encryption does slow ${DISTRO_NAME} down slightly, the 'heavy' encryption "
+"the most. Two scenarios:"
+msgstr ""
+
+#: shutdownconfig.sh:453
+msgid "1."
+msgstr ""
+
+#: shutdownconfig.sh:453
+#, sh-format
+msgid ""
+"If the ${DISTRO_FILE_PREFIX}save file is on a Flash drive, encryption is "
+"protection in case the drive is mislaid. Heavy encryption is recommended, as "
+"${DISTRO_NAME} minimises writes to the save file (to prolong life of the "
+"Flash drive, but this also minimises encryption slowdown)."
+msgstr ""
+
+#: shutdownconfig.sh:454
+msgid "2."
+msgstr ""
+
+#: shutdownconfig.sh:454
+#, sh-format
+msgid ""
+"If the ${DISTRO_FILE_PREFIX}save file is on a hard drive, 'light' encryption "
+"is recommended to minimise slowdown, particularly on older PCs."
+msgstr ""
+
+#: shutdownconfig.sh:456
+#, sh-format
+msgid ""
+"Encrypted ${DISTRO_FILE_PREFIX}save files have another advantage, they allow "
+"multiple users. Recommended if spouse and kids are going to be using the "
+"same ${DISTRO_NAME} installation."
+msgstr ""
+
+#: shutdownconfig.sh:458
+msgid ""
+"Unless you have a good reason to use encryption, it is recommended not to, "
+"to avoid the overhead. Recommend choose \\ZbNORMAL\\ZB button..."
+msgstr ""
+
+#: shutdownconfig.sh:462
+msgid "First shutdown: password"
+msgstr "Premier arrêt : Mot de passe"
+
+#: shutdownconfig.sh:463
+msgid ""
+"Please choose a password.\n"
+"This must be remembered and\n"
+"entered at every bootup."
+msgstr ""
+"Choisissez un mot de passe.\n"
+"Vous devrez vous en rappeler et\n"
+"le saisir à chaque démarrage."
+
+#: shutdownconfig.sh:493
+msgid "First shutdown: name clash"
+msgstr "Premier arrêt : Conflit de nom"
+
+#: shutdownconfig.sh:494 shutdownconfig.sh:802
+msgid "SAVE"
+msgstr "SAUVER"
+
+#: shutdownconfig.sh:495
+#, sh-format
+msgid "There already exists '${NAMEONLY}' on the partition you chose."
+msgstr ""
+
+#: shutdownconfig.sh:497
+#, fuzzy, sh-format
+msgid ""
+"To create another one, with a slightly different name (such as "
+"${MNAMEONLY}-1.${SFEXT}), select \\Zb${T_save}\\ZB button..."
+msgstr ""
+"Il existe déjà un fichier '${NAMEONLY}' sur la partition que vous avez "
+"choisie.\n"
+"  \n"
+"Pour en créer un autre avec un nom légèrement différent (comme "
+"${MNAMEONLY}-1.${SFEXT}), sélectionnez le bouton \\Zb${T_save}\\ZB ...\n"
+"Pour quitter sans sauvegarder, sélectionnez le bouton \\Zb${T_no}\\ZB ..."
+
+#: shutdownconfig.sh:498
+#, sh-format
+msgid "To quit without saving, select \\Zb${T_no}\\ZB button..."
+msgstr ""
+
+#: shutdownconfig.sh:526
+msgid "First shutdown: choose folder"
+msgstr "Premier arrêt : Choisir un dossier"
+
+#: shutdownconfig.sh:527
+#, fuzzy
+msgid ""
+"Edit path. / means top-level of partition.\n"
+"You are only allowed to save one-deep, for example: /puppy300.\n"
+"If folder does not exist, it will be created. Spaces are not allowed.\n"
+"If uncertain, just click OK button."
+msgstr ""
+"Modifier le chemin : / est le niveau le plus haut de la partition. \n"
+"Vous pouvez seulement sauver sur un niveau plus bas, ex : /Toutou550. \n"
+"Si le répertoire n'existe pas, il sera créé. Les espaces ne sont pas "
+"autorisés. \n"
+"Indécis, cliquez simplement sur le bouton OK."
+
+#: shutdownconfig.sh:550 shutdownconfig.sh:655
+msgid "First shutdown: sanity check"
+msgstr "Premier arrêt : Vérification de cohérence"
+
+#: shutdownconfig.sh:551 shutdownconfig.sh:656
+msgid "YES, SAVE"
+msgstr "OUI, SAUVER"
+
+#: shutdownconfig.sh:552 shutdownconfig.sh:657
+msgid "CHANGE FOLDER"
+msgstr "CHANGER DE DOSSIER"
+
+#: shutdownconfig.sh:558
+#, sh-format
+msgid ""
+"\\Zb\\Z1FINAL SANITY CHECK:\\Zn\\ZB\n"
+"Partition you are saving to:      \\Zb${SAVEPART}\\ZB\n"
+"The filesystem of ${SAVEPART} partition: \\Zb${SAVEFS}\\ZB\n"
+"Name of the save file:            \\Zb${NAMEONLY}\\ZB\n"
+"Path (folder) of the save file:   \\Zb${SAVEPATH}\\ZB\n"
+"Size of save file:                \\Zb${SIZEPFILE}KB (${AAAMB}MB)\\ZB\n"
+"Filesystem inside save file:      \\Zb${SFFS}\\ZB\n"
+"\n"
+"If they definitely look right, choose \\Zb${T_saniyes}\\ZB button...\n"
+"Looks ok, but you want to change the folder, choose \\Zb"
+"${T_sanichange}\\ZB...\n"
+"If anything looks wrong, choose \\Zb${T_notsave}\\ZB..."
+msgstr ""
+"\\Zb\\Z1DERNIERE VERIFICATION:\\Zn\\ZB\n"
+"Partition de sauvegarde :           \\Zb${SAVEPART}\\ZB\n"
+"Syst. Fich. de la part. ${SAVEPART}:\\Zb${SAVEFS}\\ZB\n"
+"Nom du fichier de sauvegarde:       \\Zb${NAMEONLY}\\ZB\n"
+"Chemin (dossier) fich. de sauv.:    \\Zb${SAVEPATH}\\ZB\n"
+"Taille de la sauvegarde:            \\Zb${SIZEPFILE}KB (${AAAMB}Mo)\\ZB\n"
+"Syst. Fich. dans la sauvegarde:     \\Zb${SFFS}\\ZB\n"
+"\n"
+"Si tout parait correct, choisir \\Zb${T_saniyes}\\ZB button...\n"
+"Tout est correct, mais vous voulez changer de dossier, choisir \\Zb"
+"${T_sanichange}\\ZB...\n"
+"Vous voyez une erreur, choisir \\Zb${T_notsave}\\ZB..."
+
+#: shutdownconfig.sh:588
+msgid "First shutdown: creating save-file"
+msgstr "Premier arrêt : Création du fichier de sauvegarde"
+
+#: shutdownconfig.sh:589
+#, fuzzy, sh-format
+msgid ""
+"Creating ${NAMEONLY} in ${SAVEPART}, please wait awhile (no need to click OK "
+"button)..."
+msgstr ""
+"Création de ${NAMEONLY} dans /dev/$SAVEPART, patientez un instant (inutile "
+"de cliquer sur le bouton OK)..."
+
+#: shutdownconfig.sh:590
+#, fuzzy, sh-format
+msgid "Creating ${NAMEONLY} in ${SAVEPART}, please wait awhile..."
+msgstr ""
+"Création de ${NAMEONLY} dans /dev/$SAVEPART, patientez un instant (inutile "
+"de cliquer sur le bouton OK)..."
+
+#: shutdownconfig.sh:608
+#, sh-format
+msgid "Creating a ${SFFS} filesystem in ${NAMEONLY}..."
+msgstr "Création du Syst. de fich. ${SFFS} dans ${NAMEONLY}..."
+
+#: shutdownconfig.sh:628
+msgid ""
+"Note, a bug in one of the Linux utility programs requires you to reenter"
+msgstr ""
+"N.B. Un bug dans un des programmes utilitaires de Linux oblige de rentrer"
+
+#: shutdownconfig.sh:629
+msgid "the password in the case of light encryption..."
+msgstr "le mot de passe en cas de cryptage leger"
+
+#: shutdownconfig.sh:636
+msgid "First shutdown: reenter password"
+msgstr "Premier arrêt : Entrez à nouveau le mot de passe"
+
+#: shutdownconfig.sh:712
+msgid "First shutdown: copy .sfs from CD"
+msgstr "Premier arrêt : Copie du fichier .sfs à partir du CD"
+
+#: shutdownconfig.sh:713
+msgid "COPY"
+msgstr "COPIER"
+
+#: shutdownconfig.sh:714
+#, fuzzy, sh-format
+msgid ""
+"The CD has '${DISTRO_PUPPYSFS}' and maybe other .sfs files on it. It will "
+"speed startup considerably if these are on the hard drive.\n"
+"Also, for PCs with less than 256MB of RAM, ${DISTRO_NAME} does not copy the "
+"${DISTRO_PUPPYSFS} file to RAM so the CD drive remains mounted, meaning that "
+"the drive cannot be used for other purposes.\n"
+"However, if you reply \\Zb${T_copy}\\ZB here then it will be copied to the "
+"same drive as the '${DISTRO_FILE_PREFIX}save' file and loaded from there at "
+"startup, thus freeing the CD drive for other uses.\n"
+"Even if you have heaps of RAM, it is still good to answer \\Zb${T_copy}\\ZB "
+"to get the faster startup.\n"
+"\n"
+"Note: if a CD has extra .sfs files on it, by copying them to the same drive "
+"as the '${DISTRO_FILE_PREFIX}save' file, they are then available to be "
+"loaded at startup, which is configurable by the BootManager (the BootManager "
+"is in the System menu)\n"
+"\n"
+"If you answer \\Zb${T_copy}\\ZB here, please \\Zb\\Z1FIRST, RIGHT NOW\\Zn"
+"\\ZB, put the ${DISTRO_NAME} CD into the ${PDEV1} drive (the same one that "
+"the CD was in at startup), if it isn't already, THEN select the \\Zb"
+"${T_copy}\\ZB button..."
+msgstr ""
+"Le CD contient '${DISTRO_PUPPYSFS}' et d'autres fichiers.sfs. Cela "
+"accélèrerait le lancement s'ils se trouvaient sur le disque dur. \n"
+"Sur les PC avec moins de 256 Mo de RAM, ${DISTRO_NAME} ne copie pas le "
+"fichier ${DISTRO_PUPPYSFS} en RAM. Le CD reste 'monté' et le lecteur est "
+"indisponible pour des utilisations diverses. \n"
+"Mais, si vous choisissez \\Zb${T_copy}\\ZB ici, il sera mis au même endroit "
+"que le fichier '${DISTRO_FILE_PREFIX}save' et son chargement aura lieu lors "
+"de chaque lancement, laissant alors le lecteur de CD disponible.  \n"
+"Même avec beaucoup de RAM, je vous conseille de choisir \\Zb${T_copy}\\ZB "
+"pour un lancement plus rapide. \n"
+"\n"
+"N.B. Si le CD contient encore des fichiers .sfs, en les copiant au même "
+"endroit que le fichier '${DISTRO_FILE_PREFIX}save', ils seront ainsi "
+"disponibles lors de chaque lancement. Gestion de ces fichiers par "
+"BootManager (Menu-Systeme).\n"
+"\n"
+"Si vous répondez \\Zb${T_copy}\\ZB , mettez \\Zb\\Z1TOUT DE SUITE\\Zn le CD "
+"${DISTRO_NAME} dans le lecteur ${PDEV1} (celui du lancement), si pas encore "
+"fait, PUIS choisissez le bouton \\Zb${T_copy}\\ZB ..."
+
+#: shutdownconfig.sh:729
+msgid "Please wait, copying .sfs files from CD..."
+msgstr "Veuillez patienter, copie des fichiers .sfs à partir du CD ..."
+
+#: shutdownconfig.sh:761
+#, sh-format
+msgid "Copying ${BASESFS}..."
+msgstr "Copie de ${BASESFS}..."
+
+#: shutdownconfig.sh:765
+#, sh-format
+msgid "Insufficient space! Cannot copy ${BASESFS}"
+msgstr "Espace insuffisant! Impossible de copier ${BASESFS}"
+
+#: shutdownconfig.sh:794
+msgid "Click close-box to cancel shutdown"
+msgstr "Clic sur la croix de fermeture pour abandonner"
+
+#: shutdownconfig.sh:795
+msgid "Shutdown in TIME seconds"
+msgstr "Arrêt dans TIME secondes"
+
+#: shutdownconfig.sh:796
+msgid "SAVE TO FILE"
+msgstr "SAUVER DANS UN FICHIER"
+
+#: shutdownconfig.sh:797
+#, sh-format
+msgid "SAVE TO ${xPDEV}"
+msgstr "SAUVER DANS ${xPDEV}"
+
+#: shutdownconfig.sh:800
+#, fuzzy
+msgid "(Or, wait %s seconds to shutdown without saving session)"
+msgstr "Ou, attendre 240 secondes pour arréter sans sauver la session..."
+
+#: shutdownconfig.sh:803
+msgid "SAVE TO CD"
+msgstr "SAUVER SUR CD"
+
+#: shutdownconfig.sh:809
+#, fuzzy, sh-format
+msgid ""
+"You can save the session (all of your personal data and settings) to the "
+"storage, named '${DISTRO_FILE_PREFIX}save'.\n"
+"\n"
+"Do you want to create a '${DISTRO_FILE_PREFIX}save'? If unsure, it is "
+"recommended that you do save the session, so all your personal settings and "
+"files will be automatically loaded at next boot."
+msgstr ""
+"Vous pouvez sauver la session (tous vos fichiers personnels et de "
+"configuration) dans un fichier '${DISTRO_FILE_PREFIX}save.2fs' (avec un S.F. "
+"ext2 ou ext3). N.B. Toutou enregistrera votre choix pour le prochain "
+"lancement.\n"
+"\n"
+"Voulez-vous créer un fichier '${DISTRO_FILE_PREFIX}save.2fs'? Si vous n'êtes "
+"pas sûr, je vous recommande de sauver la session, ainsi tous vos paramétres "
+"et fichiers personnels seront chargés automatiquement au prochain démarrage."
+
+#: shutdownconfig.sh:813
+#, fuzzy, sh-format
+msgid ""
+"Click the \\Zb${T_save}\\ZB button to create '${DISTRO_FILE_PREFIX}save' and "
+"save to it, or click \\Zb${T_no}\\ZB to not save session..."
+msgstr ""
+"Cliquez sur le bouton \\Zb${T_save}\\ZB pour créer '${DISTRO_FILE_PREFIX}"
+"save.2fs' et l'enregistrer, ou cliquez sur \\Zb${T_no}\\ZB pour ne pas "
+"enregistrer la session..."
+
+#: shutdownconfig.sh:817
+#, fuzzy, sh-format
+msgid ""
+"Select \\Zb${T_save}\\ZB (just press ENTER key) to create "
+"'${DISTRO_FILE_PREFIX}save' and save to it, or select \\Zb${T_no}\\ZB (TAB "
+"then ENTER) to not save session..."
+msgstr ""
+"Choisir \\Zb${T_save}\\ZB (pressez juste ENTREE) pour créer "
+"'${DISTRO_FILE_PREFIX}save.2fs' et l'enregistrer, ou choisir \\Zb${T_no}\\ZB "
+"(TAB puis ENTREE) pour ne pas enregistrer la session..."
+
+#: shutdownconfig.sh:864
+msgid "Shutting down without saving..."
+msgstr "Fermeture sans sauvegarde..."
+
+#~ msgid ""
+#~ "Click the \\Zb${T_savetofile}\\ZB button to choose a partition to save "
+#~ "the session as file '${DISTRO_FILE_PREFIX}save.2fs'...\n"
+#~ "Click \\Zb${T_cd}\\ZB button to save session to CD/DVD (multisession) "
+#~ "(EXPERIMENTAL)...\n"
+#~ "Click \\Zb${T_notsave}\\ZB to shutdown without saving session..."
+#~ msgstr ""
+#~ "Cliquez sur le bouton \\Zb${T_savetofile}\\ZB pour choisir une partition "
+#~ "pour sauver la session comme fichier '${DISTRO_FILE_PREFIX}save.2fs'...\n"
+#~ "Cliquez sur le bouton \\Zb${T_cd}\\ZB pour sauver la session sur un CD/"
+#~ "DVD (multisession) (EXPERIMENTAL)...\n"
+#~ "Cliquez sur \\Zb${T_notsave}\\ZB pour arréter sans sauver la session..."
+
+#~ msgid ""
+#~ "Click the \\Zb${T_savetofile}\\ZB button to create a "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs' file, or \\Zb${T_notsave}\\ZB to shutdown "
+#~ "without saving session..."
+#~ msgstr ""
+#~ "Cliquez sur le bouton \\Zb${T_savetofile}\\ZB pour créer un fichier "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs', ou sur \\Zb${T_notsave}\\ZB pour arréter "
+#~ "sans sauver la session..."
+
+#~ msgid ""
+#~ "Do you want to encrypt the '${NAMEONLY}' file?\n"
+#~ "If the '${DISTRO_FILE_PREFIX}save' is encrypted, then a password will "
+#~ "have to be entered at every bootup. The reason for doing this is "
+#~ "security, as no one else will be able to see what is inside the "
+#~ "${DISTRO_FILE_PREFIX}save. Encryption does slow ${DISTRO_NAME} down "
+#~ "slightly, the 'heavy' encryption the most. Two scenarios:\n"
+#~ "\\Zb1.\\ZB\n"
+#~ "If the ${DISTRO_FILE_PREFIX}save file is on a Flash drive, encryption is "
+#~ "protection in case the drive is mislaid. Heavy encryption is recommended, "
+#~ "as ${DISTRO_NAME} minimises writes to the save file (to prolong life of "
+#~ "the Flash drive, but this also minimises encryption slowdown).\n"
+#~ "\\Zb2.\\ZB\n"
+#~ "If the ${DISTRO_FILE_PREFIX}save file is on a hard drive, 'light' "
+#~ "encryption is recommended to minimise slowdown, particularly on older "
+#~ "PCs.\n"
+#~ "  \n"
+#~ "Encrypted ${DISTRO_FILE_PREFIX}save files have another advantage, they "
+#~ "allow multiple users. Recommended if spouse and kids are going to be "
+#~ "using the same ${DISTRO_NAME} installation.\n"
+#~ "\n"
+#~ "Unless you have a good reason to use encryption, it is recommended not "
+#~ "to, to avoid the overhead. Recommend choose \\ZbNORMAL\\ZB button..."
+#~ msgstr ""
+#~ "Voulez-vous crypter le fichier '${NAMEONLY}'?\n"
+#~ "Si vous cryptez le fichier '${DISTRO_FILE_PREFIX}save', vous devrez "
+#~ "entrer un mot de passe au lancement, pour que personne d'autre que vous "
+#~ "ne puisse aller voir dans le fichier ${DISTRO_FILE_PREFIX}save. Le "
+#~ "cryptage 'léger' ralentira un peu ${DISTRO_NAME}, le cryptage 'lourd' un "
+#~ "peu plus.  Deux scenarios:\n"
+#~ "\\Zb1.\\ZB\n"
+#~ " Si le fichier ${DISTRO_FILE_PREFIX}save est sur un disque flash, le "
+#~ "cryptage est une protection en cas de perte. Je vous recommande le "
+#~ "cryptage lourd, parce que ${DISTRO_NAME} minimise les enregistrements "
+#~ "(pour prolonger la vie des disques flash), et minimise aussi le "
+#~ "ralentissement du cryptage).\n"
+#~ " \\Zb2.\\ZB\n"
+#~ " Si le fichier ${DISTRO_FILE_PREFIX}save est sur un disque dur, je "
+#~ "recommande le cryptage 'léger' pour minimiser le ralentissement, surtout "
+#~ "sur les vieux PC.\n"
+#~ "  \n"
+#~ "Les fichiers cryptés ${DISTRO_FILE_PREFIX}save ont un autre avantage, ils "
+#~ "permettent plusieurs utilisateurs. Recommendé si votre épouse et vos "
+#~ "enfants voudront utiliser la même installation ${DISTRO_NAME} "
+#~ "installation.\n"
+#~ "\n"
+#~ "Sauf si vous avez une bonne raison d'utiliser le cryptage, je ne vous le "
+#~ "recommande pas, pour éviter la surcharge. Je vous recommande donc de "
+#~ "choisir le bouton\\ZbNORMAL\\ZB ..."
+
+#~ msgid ""
+#~ "If in doubt, click \\Zb${T_savetofile}\\ZB button.\n"
+#~ "\n"
+#~ "Select \\Zb${T_savetofile}\\ZB to create a '${DISTRO_FILE_PREFIX}save.2fs "
+#~ "file', \n"
+#~ "select \\Zb${T_savetopart}\\ZB to save direct to partition, or \\Zb"
+#~ "${T_notsave}\\ZB to shutdown without saving session..."
+#~ msgstr ""
+#~ "Indécis, cliquez sur le bouton \\Zb${T_savetofile}\\ZB.\n"
+#~ "\n"
+#~ "Choisir \\Zb${T_savetofile}\\ZB pour créer un fichier "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs', \n"
+#~ "Choisir \\Zb${T_savetopart}\\ZB pour sauver directement dans la "
+#~ "partition, ou \\Zb${T_notsave}\\ZB pour arrêter sans sauver la session..."
+
+#~ msgid ""
+#~ "If in doubt, just press ENTER to accept the default.\n"
+#~ "\n"
+#~ "Select \\Zb${T_savetofile}\\ZB to create a '${DISTRO_FILE_PREFIX}save.2fs "
+#~ "file', \n"
+#~ "select \\Zb${T_savetopart}${PDEV1}   \\ZB (TAB then ENTER) to save direct "
+#~ "to partition, or \\Zb${T_notsave}\\ZB to shutdown without saving "
+#~ "session..."
+#~ msgstr ""
+#~ "Indécis, pressez simplement ENTREE pour accepter la valeur par défaut.\n"
+#~ "\n"
+#~ "Choisir \\Zb${T_savetofile}\\ZB pour créer un fichier "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs', \n"
+#~ "Choisir \\Zb${T_savetopart}${PDEV1}   \\ZB (TAB puis ENTER) pour sauver "
+#~ "directement dans la partition, ou \\Zb${T_notsave}\\ZB pour arrêter sans "
+#~ "sauver la session..."
+
+#~ msgid ""
+#~ "Please choose a partition to create a pup_save.2fs file on. \n"
+#~ "It can be any of the partitions listed. \n"
+#~ "It is recommended that you choose a partition with over 512M free, but "
+#~ "Puppy can create a smaller save file if there is less space. The file "
+#~ "will contain a Linux ext2 or ext3 filesystem.\n"
+#~ "\n"
+#~ "Note, next time Puppy boots, this file, with all saved personal data, "
+#~ "will be automatically loaded.\n"
+#~ "\n"
+#~ "Highlight desired choice, then click OK button..."
+#~ msgstr ""
+#~ "Veuillez choisir, dans la liste, une partition pour y créer un fichier "
+#~ "pup_save.2fs.  \n"
+#~ "Cela peut être n'importe quelle partition listée. \n"
+#~ "Il vaut mieux choisir une partition avec au moins 512 Mo libre. Si vous "
+#~ "manquez de place, choisissez moins, bien sûr. Le fichier aura un syst. de "
+#~ "fichiers ext2.\n"
+#~ "\n"
+#~ "N.B. Lors du prochain lancement, ce fichier, contenant toutes vos "
+#~ "fichiers personnels, se chargera automatiquement.\n"
+#~ "\n"
+#~ "Mettez en surbrillance votre choix, puis cliquez sur OK..."
+
+#~ msgid ""
+#~ "Please choose the size you would like for the personal save file.\n"
+#~ "Note, 512M is a good choice, or highest if that not available.\n"
+#~ "Select choice, then click OK button..."
+#~ msgstr ""
+#~ "Choisissez une contenance pour le fichier personnel de sauvegarde.\n"
+#~ "512 Mo est un bon choix, plus si cela vous est possible.\n"
+#~ "Faites votre choix puis cliquez sur le bouton OK..."
+
+#~ msgid "SAVE TO A FILE"
+#~ msgstr "SAUVER DANS UN FICHIER"
+
+#~ msgid ""
+#~ "Select <${T_savetofile}> (just press ENTER key) to choose a partition to "
+#~ "save the session as file ${DISTRO_FILE_PREFIX}save.2fs...\n"
+#~ "Select <${T_cd}> (TAB then ENTER) to save session to CD/DVD "
+#~ "(multisession) (EXPERIMENTAL)...\n"
+#~ "Select <${T_notsave}> to shutdown without saving session..."
+#~ msgstr ""
+#~ "Choisir \\Zb${T_savetofile}\\ZB (pressez juste ENTREE) pour choisir une "
+#~ "partition pour sauver la session comme fichier '${DISTRO_FILE_PREFIX}"
+#~ "save.2fs'...\n"
+#~ "Choisir \\Zb${T_cd}\\ZB (TAB puis ENTREE) pour sauver la session sur un "
+#~ "CD/DVD (multisession) (EXPERIMENTAL)...\n"
+#~ "Choisir \\Zb${T_notsave}\\ZB pour arréter sans sauver la session..."
+
+#~ msgid ""
+#~ "Select \\Zb${T_savetofile}\\ZB (just press ENTER key) to create a "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs' file, or press TAB key then ENTER to "
+#~ "shutdown without saving session..."
+#~ msgstr ""
+#~ "Choisir \\Zb${T_savetofile}\\ZB  (pressez juste ENTREE) pour créer un "
+#~ "fichier '${DISTRO_FILE_PREFIX}save.2fs', ou pressez la touche TAB, puis "
+#~ "ENTREE pour arréter sans sauver la session..."
+
+#~ msgid ""
+#~ "Would you like to customise the name of the '${DISTRO_FILE_PREFIX}save."
+#~ "${SFEXT}' file? \n"
+#~ "This is optional, but it is convenient if you have lots of "
+#~ "'${DISTRO_FILE_PREFIX}save' files and you want to choose the right one at "
+#~ "startup. \n"
+#~ "For example, if you enter 'john' here, the file will become "
+#~ "'${DISTRO_FILE_PREFIX}save-john.${SFEXT}'.\n"
+#~ "\n"
+#~ "Type any characters you wish, then click OK button:"
+#~ msgstr ""
+#~ "Voulez-vous personnaliser le nom du fichier '${DISTRO_FILE_PREFIX}save."
+#~ "${SFEXT}'?\n"
+#~ "Cette option est pratique si vous avez de nombreux fichiers "
+#~ "'${DISTRO_FILE_PREFIX}save'. Vous pourrez choisir le bon fichier au "
+#~ "lancement. \n"
+#~ "Exemple, si vous entrez 'jean', le fichier sera alors "
+#~ "'${DISTRO_FILE_PREFIX}save-jean.${SFEXT}'.\n"
+#~ "\n"
+#~ "Tapez n'importe quels caractères (sauf pav. num.), puis pressez le bouton "
+#~ "OK:"
+
+#~ msgid ""
+#~ "You can now choose to save the personal session files to a file, named "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs'. \n"
+#~ "Or, if ${xPDEV} partition is not being used by anything else (no other "
+#~ "operating system) then you can choose to save the session files direct to "
+#~ "the partition. \n"
+#~ "Either way, your choice will be remembered at next bootup.\n"
+#~ "\n"
+#~ "Which to choose?\n"
+#~ " Partition: you immediately get the entire partition available for "
+#~ "saving.\n"
+#~ " File: having everything in a single file is convenient for archiving, "
+#~ "but storage is limited to the size of the file, typically 512MB - 4GB (it "
+#~ "can be made bigger later)."
+#~ msgstr ""
+#~ "Vous pouvez maintenant sauver les fichiers de la session dans le fichier "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs'. \n"
+#~ "Ou, si la partition ${xPDEV} est inutilisée (aucun autre OS), vous pouvez "
+#~ "sauver directement dans la partition entière. \n"
+#~ "De toutes façons, Toutou enregistrera votre choix pour le prochain "
+#~ "lancement.\n"
+#~ "\n"
+#~ "Que choisir?\n"
+#~ "La Partition : toute la partition est disponible pour vos fichiers. \n"
+#~ "Le Fichier : vos fichiers dans un seul fichier cela est très commode, "
+#~ "mais le stockage est limité par la taille du fichier, en principe 512 Mo "
+#~ "- 4 Go (vous pourrez augmenter la taille plus tard)."
+
+#~ msgid ""
+#~ "You can now choose to save the personal session files to a file, named "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs'. Your choice will be remembered at next "
+#~ "bootup.\n"
+#~ "\n"
+#~ "NOTE: You cannot choose to save the session to the entire partition "
+#~ "${xPDEV}, as Puppy is installed into a sub-directory '${xPSUBDIR}'. If "
+#~ "Puppy had been installed at '/', not in a folder, then you would have the "
+#~ "option of saving the session to the entire partition (assuming that the "
+#~ "partition does not have any other distro installed in it) which has the "
+#~ "advantage of all the free space in the partition available for your "
+#~ "session files."
+#~ msgstr ""
+#~ "Vous pouvez maintenant sauver les fichiers de la session dans le fichier  "
+#~ "'${DISTRO_FILE_PREFIX}save.2fs' Toutou enregistrera votre choix pour le "
+#~ "prochain démarrage.\n"
+#~ "\n"
+#~ "NB, vous ne pouvez pas choisir de sauver la session dans la partition "
+#~ "entière ${xPDEV}, si Toutou est installé dans le sous répertoire "
+#~ "'${xPSUBDIR}'. Dans le cas ou Toutou est installé dans '/' et non dans un "
+#~ "dossier, vous aurez la possibilité de sauver la session dans une "
+#~ "partition entière (s'il n'y a pas d'autre distribution installée) ce qui "
+#~ "a l'avantage de réserver tout l'espace de la partition pour les fichiers "
+#~ "de la session."
+
+#~ msgid ""
+#~ "\\Zb\\Z1ERROR:\\Zn\\ZB you did not choose any partition.\n"
+#~ "  \n"
+#~ "Choose \\Zb${T_tryagain}\\ZB button to try again...\n"
+#~ "Or, \\Zb${T_abort}\\ZB to shutdown without saving..."
+#~ msgstr ""
+#~ "\\Zb\\Z1ERREUR:\\Zn\\ZB vous n'avez choisi aucune partition.\n"
+#~ "  \n"
+#~ "Choisissez le bouton \\Zb${T_tryagain}\\ZB pour recommencer...\n"
+#~ "Ou, \\Zb${T_abort}\\ZB pour fermer sans sauver la session..."

@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: pkgtools 0.0.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2014-04-14 01:02+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pkgtools-bin.sh:19
+msgid "Packages tools"
+msgstr "Packages tools"
+
+#: pkgtools-bin.sh:20
+msgid "(install and manage packages)"
+msgstr "(installer et gérer les paquets)"
+
+#: pkgtools-bin.sh:84
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: pkgtools-bin.sh:148
+msgid "Preferences"
+msgstr "Préférences"
+
+#: pkgtools-bin.sh:154
+msgid "Interface: large (check) or small (uncheck)."
+msgstr "Interface : large (cocher) ou réduite (décocher)."
+
+#: pkgtools-bin.sh:155
+msgid "Large interface"
+msgstr "Interface large"
+
+#: pkgtools-bin.sh:164
+#, sh-format
+msgid "Automatically exit $AppTitle01 after selection of an application."
+msgstr ""
+"Quitter automatiquement $AppTitle01 après la sélection d'une application."
+
+#: pkgtools-bin.sh:165
+msgid "Auto exit"
+msgstr "Quitter automatiquement"
+
+#: pkgtools-bin.sh:174
+msgid "Use terminal to run applications."
+msgstr "Utiliser un terminal pour démarrer les applications."
+
+#: pkgtools-bin.sh:175
+msgid "Run in terminal"
+msgstr "Démarrer dans un terminal"
+
+#: pkgtools-bin.sh:183
+msgid "Save values."
+msgstr "Sauvegarder les valeurs."
+
+#: pkgtools-bin.sh:236
+msgid "Application used ="
+msgstr "Application utilisée ="
+
+#: pkgtools-bin.sh:243
+#, sh-format
+msgid "Tools to install and manage packages."
+msgstr "Des outils pour installer et gérer les paquets."
+
+#: pkgtools-bin.sh:256
+msgid "<b>PPI</b>: popular packages installer."
+msgstr "<b>PPI</b> : installeur d'applications populaires."
+
+#: pkgtools-bin.sh:265
+msgid "<b>PPM</b>: packages manager."
+msgstr "<b>PPM</b> : gestionnaire des paquets."
+
+#: pkgtools-bin.sh:274
+msgid "<b>SFS loader</b>: load/unload sfs files."
+msgstr "<b>SFS loader</b> : charger/décharger les fichiers sfs."
+
+#: pkgtools-bin.sh:283
+msgid "<b>SFS converter</b>: convert version of sfs files."
+msgstr "<b>SFS converter</b> : convertir la version d'un fichier sfs."
+
+#: pkgtools-bin.sh:292
+msgid "<b>Dependencies</b>: check dependencies of installed packages."
+msgstr "<b>Dépendances</b> : vérifier les dépendances des paquets installés."
+
+#: pkgtools-bin.sh:305
+#, sh-format
+msgid "Define preferences of $AppTitle01."
+msgstr "Définir les préférences de $AppTitle01."
+
+#: pkgtools-bin.sh:311
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: pkgtools-bin.sh:316
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: pkgtools-bin.sh:321
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: pkgtools.sh:20
+msgid "Infos"
+msgstr "Infos"
+
+#: pkgtools.sh:20
+#, sh-format
+msgid "$ANL01 is already active. So your request is not accepted."
+msgstr ""
+"$ANL01 est déjà activé. Par conséquent, votre demande n'est pas acceptée."

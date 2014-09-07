@@ -1,0 +1,155 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"PO-Revision-Date: 2014-01-21 18:48+0100\n"
+"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"Language-Team: French <jj@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: pclock.sh:46
+msgid ""
+"pClock uses the program pSchedule \n"
+"to keep track of alarming. Click the \n"
+"Define-Alarm button and you will \n"
+"get new options to define time and \n"
+"action. By default, pMusic plays \n"
+"the defined audio track."
+msgstr ""
+"PCLock utilise le programme pSchedule pour garder trace\n"
+"de l'alarme.\n"
+"Cliquez sur le bouton 'Définir l'alarme' pour obtenir d'autres\n"
+"options (avec Pschedule) et définir ainsi l'heure et l'action.\n"
+"Par défaut, pMusic exécute le morceau prédéfini."
+
+#: pclock.sh:418
+msgid "Preferences"
+msgstr "Préférences"
+
+#: pclock.sh:421
+msgid "Font size"
+msgstr "Taille de la police"
+
+#: pclock.sh:425
+msgid "Background Colour"
+msgstr "Couleur d'arrière plan"
+
+#: pclock.sh:429
+msgid "Foreground Colour"
+msgstr "Couleur de premier plan"
+
+#: pclock.sh:433
+msgid "Restart pClock to activate changes"
+msgstr "Redémarrez PCLock pour activer les changements"
+
+#: pclock.sh:508 pclock.sh:646
+msgid "Set system time"
+msgstr "Régler l'heure du système"
+
+#: pclock.sh:511
+msgid "Set system time zone"
+msgstr "Régler le fuseau horaire du système"
+
+#: pclock.sh:518
+msgid "File"
+msgstr "Fichier"
+
+#: pclock.sh:525
+msgid "View"
+msgstr "Affichage"
+
+#: pclock.sh:531
+msgid "Help"
+msgstr "Aide"
+
+#: pclock.sh:537
+msgid "Clock"
+msgstr "Horloge"
+
+#: pclock.sh:544
+msgid "Stopwatch"
+msgstr "Chronomètre"
+
+#: pclock.sh:551
+msgid "Countdown"
+msgstr "Décompte"
+
+#: pclock.sh:561
+msgid "Alarm"
+msgstr "Alarme"
+
+#: pclock.sh:636 pclock.sh:640
+msgid "Hours"
+msgstr "Heures"
+
+#: pclock.sh:650
+msgid "Set time zone"
+msgstr "Définir le fuseau horaire"
+
+#: pclock.sh:659 pclock.sh:709
+msgid "Start"
+msgstr "Démarrer"
+
+#: pclock.sh:671
+msgid "Count hundredths"
+msgstr "Centièmes"
+
+#: pclock.sh:678
+msgid "Split"
+msgstr "Scinder"
+
+#: pclock.sh:689 pclock.sh:698
+msgid "Lap"
+msgstr "Tour"
+
+#: pclock.sh:698
+msgid "Laptime"
+msgstr "Temps au tour"
+
+#: pclock.sh:698
+msgid "Time"
+msgstr "Heure"
+
+#: pclock.sh:720
+msgid "Pause"
+msgstr "Pause"
+
+#: pclock.sh:728
+msgid "Stop"
+msgstr "Arrêter"
+
+#: pclock.sh:763
+msgid "Hour"
+msgstr "Heure"
+
+#: pclock.sh:788
+msgid "Min"
+msgstr "Min."
+
+#: pclock.sh:813
+msgid "Sec"
+msgstr "Sec."
+
+#: pclock.sh:837
+msgid ""
+"You can either play an audio-file\n"
+"or execute a defined command."
+msgstr ""
+"Vous pouvez exécuter un fichier audio \n"
+"ou exécuter une commande définie."
+
+#: pclock.sh:839
+msgid "Sound/Action at zero"
+msgstr "Son/Action à zéro"
+
+#: pclock.sh:855
+msgid "Define Alarm"
+msgstr "Définir l'alarme"
+
+#: pclock.sh:860
+msgid "Audio"
+msgstr "Audio"

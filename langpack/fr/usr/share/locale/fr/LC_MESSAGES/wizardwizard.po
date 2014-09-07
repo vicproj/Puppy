@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wizardwizard VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"PO-Revision-Date: 2012-02-08 12:42+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: wizardwizard.sh:17
+msgid "Puppy Setup"
+msgstr "Paramètrages"
+
+#: wizardwizard.sh:19
+msgid ""
+"This is the basic setup guide for Puppy. More configuration is found in the "
+"<b>Desktop</b> and <b>Setup</b> menu."
+msgstr ""
+
+#: wizardwizard.sh:21
+msgid "Wizards"
+msgstr ""
+
+#: wizardwizard.sh:24
+msgid "Language / Country"
+msgstr ""
+
+#: wizardwizard.sh:29
+msgid "Startup"
+msgstr ""
+
+#: wizardwizard.sh:34
+msgid "Mouse / Keyboard"
+msgstr ""
+
+#: wizardwizard.sh:42
+msgid "Sound"
+msgstr ""
+
+#: wizardwizard.sh:47
+msgid "Graphics / Screen"
+msgstr ""
+
+#: wizardwizard.sh:52
+msgid "Accelerated graphics"
+msgstr ""
+
+#: wizardwizard.sh:60
+msgid "Internet"
+msgstr ""
+
+#: wizardwizard.sh:65
+msgid "Printer"
+msgstr ""
+
+#: wizardwizard.sh:75
+msgid "Quit"
+msgstr ""
+
+#~ msgid "Change the mouse and keyboard:"
+#~ msgstr "Souris et clavier"
+
+#~ msgid "Configure Puppy for your country:"
+#~ msgstr "Localisation"
+
+#~ msgid "Configure startup of Puppy:"
+#~ msgstr "Démarrage"
+
+#~ msgid "Connect to Internet or Intranet:"
+#~ msgstr "Connexion Internet/Intranet"
+
+#~ msgid "Setup ALSA sound:"
+#~ msgstr "Audio ALSA"
+
+#~ msgid "Setup CD and DVD reader and burner drives:"
+#~ msgstr "Lecteurs et graveurs"
+
+#~ msgid "Setup CUPS printing:"
+#~ msgstr "Impression par CUPS"
+
+#~ msgid "Setup a firewall:"
+#~ msgstr "Parefeu"
+
+#~ msgid "Setup the X video:"
+#~ msgstr "Serveur Graphique"
+
+#~ msgid "Upgrade X drivers:"
+#~ msgstr "Actualiser les pilotes"

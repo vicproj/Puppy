@@ -1,0 +1,77 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PROXY SETUP\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-04-12 22:10+0800\n"
+"PO-Revision-Date: 2011-11-08 16:23+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French <j@moulinier.net>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: /tmp/proxy-setup.bac.c:381
+msgid "(leave Username/Password blank if not needed)"
+msgstr "(laissez Pseudo/Mot de passe vide si pas nécessaire)."
+
+#: /tmp/proxy-setup.bac.c:447
+msgid "Cancel"
+msgstr "Annuler"
+
+#: /tmp/proxy-setup.bac.c:385
+msgid "Enable Internet connection through proxy server"
+msgstr "Activer la connexion Internet par serveur proxy"
+
+#: /tmp/proxy-setup.bac.c:431
+msgid "Enter password again:"
+msgstr "Encore le mot de passe"
+
+#: /tmp/proxy-setup.bac.c:454
+msgid ""
+"Great, you have modified the proxy server settings. Note, you can see the "
+"result in files /etc/profile.d/http_profile and /etc/profile.d/ftp_profile. "
+"However, MOST IMPORTANT, you must reboot for this to take effect"
+msgstr ""
+"Parfait, vous avez modifié les paramètres du serveur proxy. Vous pouvez voir "
+"le résultat dans les fichiers /etc/profile.d/http_profile et /etc/profile.d/"
+"ftp_profile. Cependant, LE PLUS IMPORTANT, vous devez redémarrer pour qu'ils "
+"prennent effet."
+
+#: /tmp/proxy-setup.bac.c:373
+msgid "If you connect to the Internet through a proxy"
+msgstr "Si vous vous connectez à Internet par un serveur"
+
+#: /tmp/proxy-setup.bac.c:443
+msgid "OKAY"
+msgstr "Parfait"
+
+#: /tmp/proxy-setup.bac.c:419
+msgid "Password:"
+msgstr "Mot de passe"
+
+#: /tmp/proxy-setup.bac.c:367
+msgid "Proxy server setup"
+msgstr "Paramètrer le serveur Proxy"
+
+#: /tmp/proxy-setup.bac.c:452
+msgid "Sorry, the password entries are not the same"
+msgstr "Désolé, les entrées du mot de passe sont différentes"
+
+#: /tmp/proxy-setup.bac.c:409
+msgid "Username:"
+msgstr "Pseudo :"
+
+#: /tmp/proxy-setup.bac.c:456
+msgid ""
+"You have chosen NOT to use a proxy server. Note, if you previously did have "
+"a proxy server enabled, you MUST REBOOT for the change to take effect"
+msgstr ""
+"Vous n'avez pas souhaité utiliser un serveur proxy. Si, précédemment, vous "
+"aviez activé un serveur proxy, REDEMARREZ pour que les changements prennent "
+"effet."
+
+#: /tmp/proxy-setup.bac.c:377
+msgid "server, tick the checkbox and fill in the fields"
+msgstr "proxy, cochez la case et remplissez les champs"

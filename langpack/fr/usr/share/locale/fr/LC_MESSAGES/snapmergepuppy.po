@@ -1,0 +1,32 @@
+# French translations for snapmergepuppy package.
+# Copyright (C) 2014 THE snapmergepuppy'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the snapmergepuppy package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: snapmergepuppy VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"PO-Revision-Date: 2014-09-07 22:57+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: snapmergepuppy.sh:228
+msgid ""
+"WARNING!\n"
+"Unable to save all files. You need to delete some."
+msgstr ""
+
+#: snapmergepuppy.sh:235
+msgid ""
+"WARNING!\n"
+"There were some errors detected.\n"
+"(see '/tmp/snapmergepuppy-error' for details)\n"
+"Filesystem check of the savefile (pfix=fsck) is highly recommended."
+msgstr ""

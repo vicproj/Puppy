@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: installpkg.sh VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-07 22:46+0200\n"
+"PO-Revision-Date: 2012-02-23 20:34+0100\n"
+"Last-Translator: root <jj@moulinier.net>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: installpkg.sh:79
+msgid "This package will install files under"
+msgstr "Ce paquet va installer les fichiers dans"
+
+#: installpkg.sh:80
+msgid ""
+"It can be dangerous to install files under '/mnt' because it depends on the "
+"profile of installation."
+msgstr ""
+"Il peut être dangereux d'installer des fichiers sous '/mnt', car il dépend "
+"du profil de l'installation."
+
+#: installpkg.sh:84
+#, fuzzy
+msgid ""
+"You are running Puppy without 'pupsave', and '/mnt/home' does not exist. In "
+"this case, you can use the RAM for this space, but strongly recommended to "
+"shutdown now to create 'pupsave' BEFORE installing these packages."
+msgstr ""
+"Vous exécutez Toutou/Puppy sans 'pupsave', et' '/mnt/home' n'existe pas. "
+"Dans ce cas, vous pouvez utiliser la mémoire vive pour cet espace, mais il "
+"est fortement recommandé de fermer dès maintenant votre session pour créer  "
+"un fichier de sauvegarde 'pupsave' AVANT d'installer ces paquets."
+
+#: installpkg.sh:85
+msgid ""
+"NOTE: You can install this package for a tentative use, then do NOT make "
+"'pupsave' with this package installed."
+msgstr ""
+"REMARQUE: Vous pouvez installer ce paquet pour une utilisation provisoire, "
+"mais ne faites PAS de 'pupsave' avec ce paquet installé."
+
+#: installpkg.sh:94
+msgid ""
+"Click 'Cancel' not to install(recommended). Or click 'Install' if you like "
+"to proceed."
+msgstr ""
+"Cliquez sur 'Annuler' pour ne pas l'installer (recommandé). Ou cliquez sur "
+"'Installer' si vous voulez vraiment poursuivre."
+
+#: installpkg.sh:97
+msgid "Install"
+msgstr "Installer"
+
+#: installpkg.sh:120
+msgid "Sorry, this package is already installed. Aborting."
+msgstr ""
+
+#: installpkg.sh:122 installpkg.sh:152
+msgid "Package:"
+msgstr ""
+
+#: installpkg.sh:122
+msgid "Sorry, but this package is already installed. Cannot install it twice."
+msgstr ""
+
+#: installpkg.sh:153
+msgid ""
+"Sorry, there is not enough free space in the partition to install this "
+"package"
+msgstr ""
+
+#: installpkg.sh:187
+msgid "Please wait, processing..."
+msgstr ""
