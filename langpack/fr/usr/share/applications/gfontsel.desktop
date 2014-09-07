@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gfontsel: font viewer
+Name[fr]=Gfontsel : visualiser les polices
+Icon=/usr/share/pixmaps/puppy/font.svg
+Comment=Gfontsel: font viewer
+Comment[fr]=Gfontsel : visualiser les polices
+Exec=gfontsel
+Terminal=false
+Type=Application
+Categories=X-DesktopApplets
+GenericName=Gfontsel: font viewer

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PicPuz : puzzle
+Name[fr]=PicPuz : puzzle 
+Icon=picpuz.png
+Comment=PicPuz : puzzle
+Comment[fr]=PicPuz : puzzle
+Exec=picpuz
+Terminal=false
+Type=Application
+Categories=X-Fun-puzzle
+GenericName=PicPuz : puzzle

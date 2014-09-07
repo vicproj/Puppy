@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=puppyPDF: convert file to PDF
+Name[fr]=puppyPDF : convertir un fichier en PDF
+Icon=/usr/share/pixmaps/puppy/pdf.svg
+Comment=puppyPDF: convert file to PDF
+Comment[fr]=puppyPDF : convertir un fichier en PDF
+Exec=puppypdf
+Terminal=false
+Type=Application
+Categories=X-Document-utility
+GenericName=puppyPDF: convert file to PDF

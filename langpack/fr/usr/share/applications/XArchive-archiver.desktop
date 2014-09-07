@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=XArchive: archiver
+Name[fr]=XArchive : archiveur
+Icon=package.xpm
+Comment=XArchive: archiver
+Comment[fr]=XArchive : archiveur
+Exec=xarchive
+Terminal=false
+Type=Application
+Categories=Utility
+GenericName=XArchive: archiver

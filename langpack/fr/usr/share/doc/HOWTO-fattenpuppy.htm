@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<HTML xmlns="http://www.w3.org/1999/xhtml"><HEAD><TITLE>No title</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>
+<H1><IMG style="WIDTH: 96px; HEIGHT: 96px" alt="" src="">HOWTO : Nourrir 
+Puppy</H1>
+<P>PUPPY peut être facilement complétée. Cette page est en cours d'écriture. 
+<P>Noter que les quelques liens donnés ici, ne seront actifs que si le paquet 
+est installé.<BR></P>
+<P>Noter aussi, qu'il est facile de reconstruire une PUPPY/TOUTOU personnalisée, 
+avec les paquets que vous voulez. Voici comment faire, soit :<BR></P>
+<OL>
+  <LI>télécharger Puppy Unleashed qui contient tous les paquets conçus pour 
+  faire fonctionner PUPPY/TOUTOU et vous exécutez un simple script afin de créer 
+  un nouveau LiveCD avec les paquets de votre choix. Ou bien...<BR>
+  <LI>Lancer le script "Remaster CD", se trouvant dans le menu "Menu -&gt; 
+  Configurer -&gt; Remaster Puppy live-CD".<BR></LI></OL>
+<TABLE border=1>
+  <CAPTION><BR></CAPTION>
+  <TBODY>
+  <TR>
+    <TD><A 
+      href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/abiword.htm">Abiword</A></TD>
+    <TD>Ajouter la vérification de l'orthographe, des polices Microsoft 
+      TrueType, des plugins.</TD></TR>
+  <TR>
+    <TD style="VERTICAL-ALIGN: top">Seamonkey<BR></TD>
+    <TD style="VERTICAL-ALIGN: top">La suite Seamonkey est fourni dans 
+      l'édition standard du LiveCD de PUPPY/TOUTOU, avec une sélection 
+      d'extensions, le plugin pour Macromedia Flash, ainsi que celui pour le 
+      'media-player' Gxine, donc PUPPY/TOUTOU est déjà bien nourri ! Cependant, 
+      vous voudriez ajouter Java et étendre le support pour les flux 
+      audio/vidéo. --- voir quelques notes ci-dessous...<BR></TD></TR></TBODY></TABLE>
+<P></P>
+<H2>Mozilla Seamonkey</H2>
+<H3>Vérification orthographique</H3>Seamonkey Composer (l'éditeur de HTML) a un 
+vérificateur d'orthographe, mais certaines versions de PUPPY/TOUTOU n'ont aucun 
+dictionnaire (ou seulement le dictionnaire EN/EU). C'est très facile d'y 
+remédier. Le site Web pour les dictionnaires dans toutes les langues est : <A 
+href="http://dictionaries.mozdev.org/installation.html">http://dictionaries.mozdev.org/installation.html</A>. 
+<BR>Et vous pouvez utiliser soit un navigateur pour aller directement à cette 
+adresse, soit ouvrir le correcteur orthographique dans Composer, par "Edit -&gt; 
+Orthographe..." clic sur&nbsp; "Télécharger plus".&nbsp;. Les instructions sur 
+le site Web indiquent clic gauche pour télécharger et installer un dictionnaire, 
+cependant moi j'ai eu : "erreur de téléchargement". Donc à la place : clic droit 
+et choisir télécharger et enregistrer le fichier, par exemple "spell-fr.FR.xpi". 
+Puis lancer Seamonkey, choisir "Fichier - &gt; Ouvrir ..." et le fichier ".xpi" 
+s'installera automatiquement .<BR>Les dictionnaires téléchargés sont dans : 
+/usr/lib/mozilla/components/myspell/.<BR>
+<H3>Themes</H3>Ouais, vous pouvez ajoutez des thèmes à Seamonkey. ...mais besoin 
+d'écrire le howto ici...<BR>
+<H3>Flash</H3>PUPPY/TOUTOU a le plugin Adobe Flash player, se trouvant dans 
+/usr/lib/mozilla/plugins. SeaMonkey, Firefox et Opera sont capable de le trouver 
+dans ce fichier.<BR><BR>Actuellement (avril 2008), il y a des problèmes 
+d'affichage plein-écran avec quelques vidéos depuis youtube.com. Une version 
+plus récente du plugin peut marcher pour vous.<BR>Il y a des discussions sur le 
+forum de PUPPY à ce sujet, avec quelques suggestions.<BR><BR>Pour installer un 
+nouveau plugin Flash, télécharger le fichier depuis Adobe, décompresser-le 
+(juste cliquer dessus), et copier 'libflashplayer.so' vers 
+/usr/lib/mozilla/plugins. <BR>Puis fermer et redémarrer le navigateur.<BR>
+<H3>Extensions</H3>A écrire.<BR>
+<H2>Codecs audio/vidéos</H2>XINE est la bibliothèque multimédia utilisée par 
+PUPPY/TOUTOU et Gxine est une interface graphique pour le lecteur. Gxine a aussi 
+plugin pour le web, compatible avec SeaMonkey, Firefox et Opera.<BR><BR>Noter 
+que vous trouverez le plugin de Gxine dans /usr/lib/mozilla/plugins. SeaMonkey, 
+Firefox et Opera le trouveront dans ce dossier.<BR><BR>Gxine a lui aussi 
+quelques problèmes de lecture en mode plein-écran, mais il y a une solution 
+facile. D'abord, maximiser la fenêtre (l'icône du milieu, en haut à droite, dans 
+la fenêtre) , puis choisir 'Vue -&gt; mode plein-écran' dans le menu.<BR><BR>La 
+bibliothèque XINE dans PUPPY/TOUTOU peut lire la plupart des fichiers 
+audio/vidéo, mais si l'un d'entr'eux, ne peut être lu, il y a un paquet .PET 
+avec des 'extra-codecs' (des plugins pour le support de plus nombreux formats de 
+fichiers). <BR>Le meilleur endroit pour trouver des infos complémentaires, la 
+page <A 
+href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/HOWTO-multimedia.htm">HOWTO: 
+multimedia</A>.<BR><BR></BODY></HTML>

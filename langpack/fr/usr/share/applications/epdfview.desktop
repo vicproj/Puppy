@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ePDFView: PDF viewer
+Name[fr]=ePDFView : lecteur PDF
+Icon=/usr/share/pixmaps/puppy/pdf.svg
+Comment=ePDFView: PDF viewer
+Comment[fr]=ePDFView : lecteur PDF
+Exec=epdfview
+Terminal=false
+Type=Application
+Categories=X-DocumentUtility
+GenericName=ePDFView: PDF viewer

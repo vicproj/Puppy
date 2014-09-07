@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pwallpaper: set background image
+Name[fr]=Pwallpaper : définir l'arrière plan du bureau
+Icon=mini-cave.xpm
+Comment=Pwallpaper: set background image
+Comment[fr]=Pwallpaper : définir l'arrière plan du bureau
+Exec=pwallpaper
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+GenericName=Pwallpaper: set background image

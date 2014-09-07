@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DOI: download official iso files
+Name[fr]=DOI : télécharger les fichiers iso officiels
+Icon=doi.png
+Comment=DOI: download official iso files
+Comment[fr]=DOI : télécharger les fichiers iso officiels
+Exec=doi
+Terminal=false
+Type=Application
+Categories=Utility
+GenericName=DOI: download official iso files

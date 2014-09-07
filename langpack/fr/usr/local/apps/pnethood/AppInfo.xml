@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<AppInfo>
+  <Summary>Pnethood</Summary>
+  <About>
+    <Purpose>Pnethood windows shares</Purpose>
+    <License>GPL: http://www.gnu.org/licenses/gpl.txt</License>
+    <Version>0.6.8.1 - Will Davies - Andres Caro - September 10, 2011</Version>
+    <Homepage>http://www.murga-linux.com/puppy/viewtopic.php?t=23464</Homepage>
+  </About>
+  <AppMenu>
+    <Item label="Start Pnethood" option=""/>
+    <Item label="Help" option="--help"/>
+  </AppMenu>
+</AppInfo>

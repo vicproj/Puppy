@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DAL: default applications launcher
+Name[fr]=DAL : lanceur d'applications par défaut
+Icon=dal.png
+Comment=To launch default applications
+Comment[fr]=Pour lancer les applications par défaut
+Exec=dal
+Terminal=false
+Type=Application
+Categories=Utility
+GenericName=DAL: default applications launcher

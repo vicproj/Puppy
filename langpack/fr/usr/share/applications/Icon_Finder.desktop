@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IconFinder: find icons in your system
+Name[fr]=IconFinder : rechercher les icônes
+Icon=iconfinder.png
+Comment=IconFinder: find icons in your system
+Comment[fr]=IconFinder : rechercher les icônes
+Exec=iconfinder
+Terminal=false
+Type=Application
+Categories=X-Graphic-viewer
+GenericName=IconFinder: find icons in your system

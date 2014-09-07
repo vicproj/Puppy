@@ -1,0 +1,417 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>HOWTO Multimedia</title>
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta content="text/html; charset=iso-8859-1">
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+<meta content="MSHTML 6.00.2900.2180" name="GENERATOR"></head>
+<body>
+<h1><img style="WIDTH: 96px; HEIGHT: 96px" alt="" src=""> HOWTO : 
+Multim&eacute;dia</h1>PUPPY/TOUTOU a une excellente gamme d'outils multim&eacute;dia pour : 
+l'&eacute;dition, la conversion et l'affichage. Les liens renvoient vers les pages 
+d'aide de chaque programme. <br><br>Noter que les liens ne fonctionneront que si 
+le package ad&eacute;quat est install&eacute;. PUPPY/TOUTOU est maintenant tr&egrave;s 
+personnalisable, gr&acirc;ce &agrave; l'introcuction de <span style="FONT-STYLE: italic">Puppy Unleashed</span>, et un liveCD peut facilement 
+&ecirc;tre cr&eacute;&eacute; avec les paquets de votre choix. La page principale pour l'aide, est 
+automatiquement &eacute;dit&eacute;e par les scripts de cr&eacute;ation de PUPPY Unleashed, afin 
+d'avoir uniquement des liens vers les fichiers d'aide qui existent r&eacute;ellement, 
+mais donc pas vers ces pages de HOWTO. J'ai gris&eacute; les paquets qui ne peuvent pas 
+&ecirc;tre dans la version 'standard' (non-personnalis&eacute;e) de PUPPY/TOUTOU -- mais, ils 
+sont tous installables avec le PETGET package manager. 
+<h3>Graphisme</h3>
+<p>PUPPY/TOUTOU a une s&eacute;rie tr&egrave;s utile d'applications et d'outils pour manipuler 
+des images graphiques, tant bitmap que vectorielles. Notez qu'il y a eu une 
+tendance &agrave; s'&eacute;loigner du format GIF en raison d'un brevet sur l'algorithme de 
+compression LZW, cependant ce brevet d'invention a expir&eacute; dans tous les pays du 
+monde, donc ce n'est plus d'actualit&eacute; d&eacute;sormais (mais, GIF est seulement utile 
+pour l'animation, PNG lui est bien sup&eacute;rieur &agrave; tous les &eacute;gards).<br>Le tableau 
+suivant est un r&eacute;sum&eacute; :</p>
+<table border="1">
+  <caption><br></caption>
+  <tbody>
+  <tr>
+    <td style="COLOR: rgb(153,153,153)"><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/xpaint.htm">Xpaint</a></td>
+    <td style="COLOR: rgb(153,153,153)">Xpaint est un editeur et afficheur 
+      d'image bitmap (de trame). Les formats qu'il peut ouvrir et sauvegard&eacute; 
+      sont : gif, ico, jpeg, png, ppm, ps, pdf, tiff, xbm, xpm and xwd</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/mtpaint.htm">mtPaint</a></td>
+    <td>C'est un autre &eacute;diteur d'image bitmap, et sp&eacute;cialis&eacute; dans le niveau de 
+      pixellisation , plus particuli&egrave;rement celui des ic&ocirc;nes. J'ai trouv&eacute; que 
+      mtPaint &eacute;tait un excellent programme universel de peinture.<br>En fait, 
+      mon avis sur mtPaint est de plus en plus positif, car l'auteur le 
+      d&eacute;veloppe rapidement. La version 0.45 supporte le scalage des images, qui 
+      est un s&eacute;rieux manque dans Xpaint. La 0.50 permet la rotation par un angle 
+      arbitraire. M&ecirc;me la rognure d'image, propos&eacute;e dans Xpaint, est beaucoup 
+      moins sophistiqu&eacute;e que dans mtPaint.<br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/figurine/index.html">Figurine</a></td>
+    <td><span style="COLOR: rgb(153,153,153)">Figurine est un &eacute;diteur d'image 
+      vectorielle dont le format par d&eacute;faut est fig. Seulement les fichiers 
+      .fig, peuvent &ecirc;tre ouverts, cependant Figurine peut utiliser fig2dev pour 
+      l'export vers un grand nombre de format vectoriel et bitmap.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Noter que Figurine ne propose pas l'option 
+      pour exporter en svg bien que fig2dev le permette. J'ai l'intention de 
+      modifier le code source de Figurine pour le r&eacute;parer, cependant pour le 
+      moment la conversion de fig &agrave; svg peut &ecirc;tre r&eacute;alis&eacute;e en utilisant fig2dev 
+      directement en ligne de commande.</span><br></td></tr>
+  <tr>
+    <td>DIA</td>
+    <td style="COLOR: rgb(153,153,153)">Un &eacute;diteur graphique vectoriel tr&egrave;s 
+      agr&eacute;able avec des biblioth&egrave;ques de formes. Peut importer/exporter bitmap, 
+      xfig et des formats de svg. Un inconv&eacute;nient : le texte et les formes ne 
+      peuvent pas &ecirc;tre arbitrairement tourn&eacute;s, cependant il sera possible 
+      d'ex&eacute;cuter les rotations arbitraires dans Figurine et l'importation dans 
+      DIA. Des biblioth&egrave;ques de formes personnalis&eacute;es peuvent &ecirc;tre cr&eacute;&eacute;es.<br>La 
+      documentation en ligne : <a href="http://www.gnome.org/projects/dia/docs.html">http://www.gnome.org/projects/dia/docs.html</a>.</td></tr>
+  <tr>
+    <td>Sodipodi</td>
+    <td style="COLOR: rgb(153,153,153)">Un &eacute;diteur vectoriel SVG tr&egrave;s 
+      sophistiqu&eacute;. SVG signifie "Graphisme Vectoriel &Eacute;volutif" et c'est 
+      l'&eacute;quivalent open source de Flash. C'est-&agrave;-dire : diagrammes vectoriels, 
+      animations, pages Web interactives. Des plugins SVG sont disponibles pour 
+      tous les navigateurs Internet majeurs, le plus populaire est celui d'Adobe 
+      (t&eacute;l&eacute;chargement gratuit). Cependant, m&ecirc;me si vous n'&ecirc;tes pas int&eacute;ress&eacute;s 
+      par SVG comme tel, Sodipodi est un bon outil de cr&eacute;ation pour les dessins 
+      qui peuvent &ecirc;tre exporter vers des formats PNG raster ou Postscript (et 
+      indirectement en PDF et d'autres formats vectoriels via GSVIEW).<br>De la 
+      documentation peut &ecirc;tre trouv&eacute;e sur <a href="http://www.sodipodi.com/">http://www.sodipodi.com/</a> et un 
+      tutoriel ici <a href="http://hawthorn.csse.monash.edu.au/%7Enjh/programming/draw-packages/sodipodi/">hawthorn.csse.monash.edu.au/~njh/programming/draw-packages/sodipodi/</a></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle">InkLite<br></td>
+    <td style="VERTICAL-ALIGN: top">C'est un d&eacute;riv&eacute; d'une des premi&egrave;res 
+      versions de Inkscape, basiquement comparable &agrave; Sodipodi, avec quelques 
+      modifications et une interface utilisateur conventionnelle. La 
+      documentation de Sodipodi convient &agrave; InkLite.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle">Inkscape<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">C'est le grand fr&egrave;re de InkLite. Au d&eacute;part 
+      d&eacute;riv&eacute; de Sodipodi, puis pass&eacute; de C &agrave; C++, d&eacute;pendant ensuite des 
+      biblioth&egrave;ques GTKmm et Glibmm. Il poss&egrave;de aussi beaucoup plus de 
+      fonctionnalit&eacute;s. Par cons&eacute;quent il p&egrave;se plus lourd. </span><span style="COLOR: rgb(153,153,153)">De plus, beaucoup de ses plugins 
+      n&eacute;cessitent l'installation de Python. </span><span style="COLOR: rgb(153,153,153)">Inkscape ne peut pas &ecirc;tre dans la 
+      version'standard' de PUPPY/TOUTOU mais, est disponible en paquet 
+      .PET.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Documentation en ligne : </span><a style="COLOR: rgb(153,153,153)" href="http://www.inkscape.org/doc/index.php?css=css/base.css">http://www.inkscape.org/doc/index.php?css=css/base.css</a> 
+      <br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/impress/impdoc.html">Impress</a></td>
+    <td style="COLOR: rgb(153,153,153)">C'est une tr&egrave;s int&eacute;ressante 
+      application graphique en Tcl/Tk pour la cr&eacute;ation de pr&eacute;sentation de 
+      diapositives. Pas &agrave; la hauteur de "Powerpoint", quoique.<br>Impress peut 
+      faire tourner des objets, degr&eacute; d'angle &agrave; d&eacute;finir et est suppos&eacute; capable 
+      aussi, de faire tourner le texte. Il le fait en utilisant le programme 
+      postedit qui vectorise le texte, qui peut alors &ecirc;tre tourn&eacute;. Cependant, la 
+      rotation de texte est "en cours de d&eacute;veloppement" <br>Encore une chose -- 
+      l'auteur annonce que PowerPoint peut exporter dans le format Postscript, 
+      format qu'Impress peut importer tout &agrave; fait bien. Voir la documentation 
+      d'Impress.</td></tr>
+  <tr>
+    <td>Imposter</td>
+    <td><span style="COLOR: rgb(153,153,153)">C'est un lecteur des 
+      pr&eacute;sentations cr&eacute;&eacute;es avec Open Office Impress. Vous ne pouvez pas en 
+      r&eacute;alit&eacute; cr&eacute;er ces pr&eacute;sentations dans PUPPY/TOUTOU, les visionner juste. Si 
+      Impress peut importer des pr&eacute;sentations PowerPoint, ce serait la solution 
+      pour &ecirc;tre capable de les &eacute;dit&eacute;es dans PUPPY/TOUTOU. </span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Imposter est une application GTK2 , donc a 
+      des polices 'antialiased'.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Page d'accueil : </span><a style="COLOR: rgb(153,153,153)" href="http://imposter.sourceforge.net/">http://imposter.sourceforge.net/</a> 
+      <br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/gtksee.htm">GTKSee</a></td>
+    <td style="COLOR: rgb(153,153,153)">GTKSee est un visionneur, manager 
+      d'images et diaporama. Il affiche les vignettes, comme Rox, mais poss&egrave;de 
+      beaucoup plus de fonctionnalit&eacute; optimis&eacute;e pour la gestion d'images, comme 
+      l'affichage des dimensions d'images au passage de la souris. La fonction 
+      diaporama est tr&egrave;s agr&eacute;able.</td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Fotox <br></td>
+    <td style="VERTICAL-ALIGN: top">C'est le visionneur d'images par d&eacute;faut 
+      dans PUPPY/TOUTOU 4.xx. Il a aussi quelques fonctions 
+d'&eacute;ditions.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gimageview<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">C'est un visionneur d'images performant. 
+      Il lit aussi les fichiers vid&eacute;os.</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gpicview<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Visionneur basique</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gqview<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Encore un autre 
+visionneur</span><br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/fig2dev.htm">fig2dev</a></td>
+    <td style="COLOR: rgb(153,153,153)">Convertit une image vectorielle fig en 
+      plusieurs autres formats vectoriels ou bitmap. Cette version de 
+      PUPPY/TOUTOU a &eacute;t&eacute; compil&eacute; pour supporter les formats vectoriels suivants 
+      : cgm, pic, ps, emf, eps, pdf, and svg. Ainsi que ces formats bitmap : 
+      gif, jpeg, pcx, png, ppm, sld, tiff, xbm, xpm.<br>Noter que, et Figurine 
+      et ABS utilise fig2dev pour l'export.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/pstoedit.htm">pstoedit</a></td>
+    <td style="COLOR: rgb(153,153,153)">Le visionneur Postscript et PDF <a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/gsview.htm">GSview</a> 
+      utilise postedit pour exporter des fichiers Postscript and PDF en de 
+      nombreux formats vectoriels. Les formats support&eacute;s : ps, ai (Adobe 
+      Illustrator), idraw, fig, xfig, tgif, tk, hpgl, pic, mma, mpost, sk 
+      (Sketch), kil (Kontour), pdf, java1, java2, dxf, rpl, rib, lwo, dxf.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/gifsicle/index.html">gifsicle</a></td>
+    <td>gifsicle est un programme en console pour la construction de gifs 
+      anim&eacute;s. C'est aussi un visionneur -- noter aussi, que Firefox et Opera 
+      savent lire les gifs anim&eacute;s. Plus important encore, gifsicle peut analyser 
+      des frames et cr&eacute;er un gif anim&eacute; dans les frames suivants, conservant 
+      seulement les changements depuis le cadre pr&eacute;c&eacute;dent, r&eacute;duisant, ainsi, 
+      &eacute;norm&eacute;ment la taille.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/scalerx.htm">scalerx</a></td>
+    <td>scalerx est un superbe programme en console. Si vous avez une petite 
+      image bitmap et vous voulez l'agrandir, elle aura des bords d&eacute;chiquet&eacute;s, 
+      cependant scalerx analyse l'image et lisse les bords. Seulement r&eacute;alisable 
+      avec des images png.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/xli.htm">xli</a></td>
+    <td style="COLOR: rgb(153,153,153)">C'est une application en console pour 
+      afficher une image dans une fen&ecirc;tre ou pour la charger dans une 
+      fen&ecirc;tre-racine (l'arri&egrave;re-plan de bureau). Les types d'images support&eacute;es 
+      sont : fbm, Sun Rasterfile, CMU WM Raster, pbm, Faces Project, png, gif, 
+      jfif, jpeg, Utah RLE, Windows OS/2 RLE, Photograph on CD, X Window Dump, 
+      Targa, McIDAS, G3 FAX, PC Paintbrush, GEM, MacPaint, X Pixmap (xpm), X 
+      Bitmap (xbm).</td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle"><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/qiv.htm">qiv</a><br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Il 
+      fait la m&ecirc;me chose que xli et il est plus, petit et rapide. qiv remplace 
+      xli dans les versions de PUPPY/TOUTOU ant&eacute;rieures &agrave; la 2.10 
+  .</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gview<br></td>
+    <td style="VERTICAL-ALIGN: top">Application basique d'affichage d'image 
+      dans une fen&ecirc;tre, utilis&eacute;e dans PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td>grabc</td>
+    <td style="COLOR: rgb(153,153,153)">Il est dans le menu sous "RGB screen 
+      color picker", et c'est une application simple qui montre une palette, 
+      plac&eacute;e &agrave; l'endroit d&eacute;sir&eacute;, permettant d'un clic gauche l'&eacute;chantillonnage 
+      de la couleur sous-jacente et l'affichage de ses composants 
+      bleus/verts/rouges. </td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gcolor2<br></td>
+    <td style="VERTICAL-ALIGN: top">C'est le s&eacute;lecteur/collecteur de couleur 
+      d'&eacute;cran utilis&eacute; dans PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td>netpbm</td>
+    <td>C'est un paquet d'outils pour la conversion et la manipulation de 
+      formats de fichiers graphiques. PUPPY/TOUTOU int&egrave;gre une partie du paquet 
+      complet. Sont inclus : anytopnm (juste un script shell qui d&eacute;termine le 
+      type de fichier et appelle un des autres programmes de conversion), 
+      giftopnm, jpegtopnm, pgmtopbm, pbmtext, pbmtoxbm, pngtopnm, pnmalias, 
+      pnmconvol, pnmcut, pnmnlfilt, pnmrotate, pnmscale, pnmsmooth, pnmtops, 
+      pnmtotiff, pnmtojpeg, pnmtopng, ppmdither, ppmlabel, ppmrainbow, ppmtogif, 
+      ppmtopgm, ppmtoxpm, ppmtobmp, ppmquant, pstopnm, tifftopnm, xbmtopbm, 
+      xpmtoppm, xwdtopnm. 
+      <p><i>pbm</i> est un format monochrome, <i>pgm</i> est un d&eacute;grad&eacute; de gris, 
+      <i>ppm</i> est la couleur, et <i>pnm</i> couvre les trois formats. 
+      Beaucoup d'applications dans PUPPY/TOUTOU utilisent ces outils et ils sont 
+      forts utiles dans des scripts o&ugrave; les entr&eacute;es/sorties peuvent &ecirc;tre 
+      'tub&eacute;es'. La documentation en ligne peut se trouver sur <a href="http://netpbm.sourceforge.net/">netpbm.sourceforge.net</a>.</p></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Gtkam<br></td>
+    <td style="VERTICAL-ALIGN: top">Acquisition des photos d'un appareil photo 
+      num&eacute;rique. C'est le standard dans PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Xsane<br></td>
+    <td style="VERTICAL-ALIGN: top">Une interface graphique afin d'acqu&eacute;rir 
+      les images de scanneurs. C'est dans PUPPY/TOUTOU 
+4.xx.<br></td></tr></tbody></table>
+<h3>Vid&eacute;o</h3>
+<p>Depuis la version 0.9.6, PUPPY utilise Xine-libs, qui manipule une tr&egrave;s vaste 
+gamme de formats audio/vid&eacute;o.</p>
+<table border="1">
+  <caption><br></caption>
+  <tbody>
+  <tr>
+    <td>Xine-libs</td>
+    <td>Xine-libs est la biblioth&egrave;que d'arri&egrave;re-plan qui fournit le support 
+      pour de nombreux types de formats audio/vid&eacute;o. La documentation se trouve 
+      en ligne sur : <a href="http://xine.sourceforge.net/">xine.sourceforge.net</a></td></tr>
+  <tr>
+    <td>Gxine</td>
+    <td>Gxine, une GUI pour Xine-libs, et peut lire les DVDs vid&eacute;os, de 
+      nombreux formats de fichiers vid&eacute;os dont : Quicktime, MPG and AVI. 
+      <p>La lecture de DVDs fonctionne vraiment bien, &agrave; partir du moment o&ugrave; 
+      PUPPY/TOUTOU a correctement identifi&eacute; votre lecteur DVD -- &agrave; vous de 
+      trouver le lien /dev/dvd pointant sur votre lecteur r&eacute;el, par exemple 
+      /dev/hdc (ou autre).</p></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Mplayer<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Un 
+      autre lecteur multimedia (audio/vid&eacute;o). Disponible en paquet 
+      PET.</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Pupdvdtool<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Un 
+      rippeur de DVD vid&eacute;o. le fervent 'puppyiste', 'plinej' l'a 
+      d&eacute;velopp&eacute;.</span><br></td></tr></tbody></table>
+<p>Des fichiers de "codec" peuvent &ecirc;tre ajout&eacute;s &agrave; Gxine/Xine afin d'en augmenter 
+les possibilit&eacute;s. -- voir les notes dans la section Audio, ci-dessous.</p>
+<h3>Audio</h3>
+<p>Xine-libs and Gxine fournisse un lecteur media g&eacute;n&eacute;rique, incluant le support 
+d'une large palette de fichiers de formats audio.<br></p>
+<table border="1">
+  <caption><br></caption>
+  <tbody>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/wavplay.htm">Wavplay</a></td>
+    <td>C'est une application en console, lisant/enregistrant les fichiers 
+      audio .wav. 
+      <p>Noter : j'ai gard&eacute; cette application bien qu'elle fasse double-emploi 
+      avec l'implantation de Gxine (voir ci-dessous).</p></td></tr>
+  <tr>
+    <td>Gxine</td>
+    <td>Gxine est un lecteur media, supportant un grand nombre de format de 
+      fichiers audio. Gxine lit aussi les flux audio depuis Internet.<br>Jouera 
+      le CD audio sans exiger un c&acirc;ble interne connectant la sortie audio du 
+      lecteur de CD, &agrave; la carte son -- les autres lecteurs CD, list&eacute;s ci-dessous 
+      n&eacute;cessitent ce c&acirc;ble.<br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/ripperX.htm">ripperX</a></td>
+    <td style="COLOR: rgb(153,153,153)">Extrait des chansons des CDs audio et 
+      sauvegarde en formats .wav ou .mp3. 
+      <p>Vous pouvez utiliser ripperX comme simple lecteur de CD. Tr&egrave;s bonne 
+      chose, le support du cddb -- si vous &ecirc;tes connect&eacute;s &agrave; Internet, un simple 
+      clic sur le bouton "cddb" et tous les titres des chansons seront 
+      charg&eacute;s.</p></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Asunder<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Rippeur pour CDs audio.</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">RipOff<br></td>
+    <td style="VERTICAL-ALIGN: top">Extracteur pour CDs audio. Par d&eacute;faut dans 
+      PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Pcdripper<br></td>
+    <td style="VERTICAL-ALIGN: top">Extracteur pour CDs audio. Aussi dans 
+      PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td>GplayCD</td>
+    <td style="COLOR: rgb(153,153,153)">Lecteur de CDs audio. Gxine et ripperX 
+      peuvent aussi lire les CDs audio.</td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle">XfreeCD<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Lecture de CDs audio et support du 
+      cddb.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">A noter : se bloque si un CD n'est pas 
+      ins&eacute;r&eacute; avant le lancement de l'application.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Page 
+      d'accueil du projet : </span><a style="COLOR: rgb(153,153,153)" href="http://xfreecd.sourceforge.net/">http://xfreecd.sourceforge.net/</a><span style="COLOR: rgb(153,153,153)"> </span><br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/cdp.htm">cdplay</a></td>
+    <td>Application console pour la lecture de CDs audio.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/gcombust/FAQ.html">Gcombust</a></td>
+    <td style="COLOR: rgb(153,153,153)">Utiliser pour la cr&eacute;ation de CDs 
+      audio, &agrave; partir de fichiers .wav ou .mp3.</td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">WishCD<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Utiliser pour la cr&eacute;ation de CDs audio, 
+      depuis des fichiers .wav.</span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Graveman<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Peut 
+      &ecirc;tre utilis&eacute; pour cr&eacute;er des CDs audio.</span><br></td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/setvol.txt">setvol</a></td>
+    <td>C'est un petit outil en console pour configurer ou r&eacute;gler le 
+  volume.</td></tr>
+  <tr>
+    <td><a href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/xtmix.htm">xtmix</a>, 
+      <br></td>
+    <td style="COLOR: rgb(153,153,153)">Interface de mixeur de son.</td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Sgmixer<br></td>
+    <td style="VERTICAL-ALIGN: top">GUI de mixeur de sons utilis&eacute;e dans 
+      PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td>Snack audio player</td>
+    <td style="COLOR: rgb(153,153,153)">C'est une alternative &agrave; Gxine pour la 
+      lecture des fichiers audio. Utilise la biblioth&egrave;que Snack. D&eacute;pend de 
+      Tcl/Tk.<br></td></tr>
+  <tr>
+    <td>XS audio recorder and editor</td>
+    <td style="COLOR: rgb(153,153,153)">XS utilise la biblioth&egrave;que Snack, 
+      ainsi il g&egrave;re une large gamme de formats de fichiers. Sauf pour 
+      l'enregistrement et l'&eacute;dition des fichiers-sons existants, XS est utile 
+      pour convertir les fichiers-sons d'un format &agrave; un autre. D&eacute;pend de 
+      Tcl/Tk.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle">Sweep<br></td>
+    <td style="VERTICAL-ALIGN: top"><span style="COLOR: rgb(153,153,153)">Enregistreur/&eacute;diteur de sons. Beaucoup de 
+      fonctionnalit&eacute;s.</span><br style="COLOR: rgb(153,153,153)"><span style="COLOR: rgb(153,153,153)">Doc. en ligne : </span><a style="COLOR: rgb(153,153,153)" href="http://www.metadecks.org/software/sweep/tutorials/">http://www.metadecks.org/software/sweep/tutorials/</a><span style="COLOR: rgb(153,153,153)"> </span><br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">mhWaveEdit<br></td>
+    <td style="VERTICAL-ALIGN: top">Enregistreur/&eacute;diteur de sons. Peut aussi 
+      servir &agrave; la conversion entre diff&eacute;rents formats de fichier audio. Par 
+      d&eacute;fault dans PUPPY/TOUTOU 4.xx.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: middle">madplay<br></td>
+    <td style="VERTICAL-ALIGN: top">Lecteur mp3 en console.<br>Doc. en ligne : 
+      <a href="http://www.linuxmanpages.com/man1/madplay.1.php">http://www.linuxmanpages.com/man1/madplay.1.php</a> 
+      <br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top">Pmetatagger<br></td>
+    <td style="VERTICAL-ALIGN: top">Affichage et &eacute;dition des balises de texte 
+      dans les fichiers audio.<br></td></tr>
+  <tr>
+    <td style="VERTICAL-ALIGN: top"><br></td>
+    <td style="VERTICAL-ALIGN: top"><br></td></tr></tbody></table>
+<p>Gxine/Xine peut lire les flux audio/vid&eacute;o depuis Internet, ainsi par exemple, 
+vous pouvez &eacute;couter les stations radio sur Internet. Mais, principalement pour 
+des raisons l&eacute;gales, les derni&egrave;res mises &agrave; jour des fichiers "codec" RealAudio 
+and MicrosoftMedia ne sont pas incluses dans PUPPY/TOUTOU 4.xx, ce qui signifie 
+que certaines stations ne pourront pas &ecirc;tre &eacute;cout&eacute;es. Cependant vous pouvez 
+charg&eacute;s et install&eacute;s ces fichiers -- voir la section "Streaming audio and video 
+Gxine plugin" au d&eacute;but de cette page.<br></p>
+<h3>Scannage</h3>
+<p>PUPPY/TOUTOU a SANE scanner en arri&egrave;re-plan (avec tous les drivers), et XSane 
+comme GUI. Tout est int&eacute;gr&eacute; dans PUPPY/TOUTOU 4.xx, rien d'autre &agrave; 
+installer<br></p>
+<h3>Impression</h3>
+<p>L'impression sous PUPPY/TOUTOU est construite autour de Ghostscript et CUPS, 
+et les applications principales telles : Abiword, Amaya, Xpaint et Firefox, 
+g&eacute;n&egrave;rent, pour l'impression, des fichiers au format Postscript. Le programme gs 
+est capable de convertir des fichiers format Postscript et de les adapter &agrave; une 
+imprimante particuli&egrave;re.</p>
+<p>Le paquet Ghostscript a son propre jeu de pilotes d'imprimantes, qui est 
+cependant tr&egrave;s limit&eacute; et PUPPY/TOUTOU utilise les drivers de Gutenprint, qui 
+fonctionne avec Ghostscript. Cet ajout du support de plus de 200 imprimantes, 
+porte &agrave; plus de 600, le nombre d'imprimantes enti&egrave;rement ou partiellement 
+compatibles.</p>
+<p>Pour avoir la possibilit&eacute; d'imprimer, vous devez d'abord ex&eacute;cuter l'assistant 
+d'impression CUPS. Cela vous permet de choisir le pilote ad&eacute;quat et de le 
+configurer afin qu'il fonctionne dans PUPPY/TOUTOU. Vous trouverez cet assistant 
+dans "D&eacute;marrer/Configurer".</p>
+<p>CUPS, Ghostscript, les polices, et le jeu complet des pilotes Gutenprint sont 
+int&eacute;gr&eacute;s dans PUPPY/TOUTOU, donc rien d'autre &agrave; installer pour l'impression. 
+Cependant si vous avez une imprimante Hewlett Packard, qui n'est pas dans le 
+paquet de pilotes Gutenprint, il y a un extra-paquet 'hp-ijs' disponible en 
+.PET.<br></p>
+<hr style="WIDTH: 100%; HEIGHT: 2px">
+
+<h3>Plugin (Gxine) de flux audio/video</h3>
+<p>Gxine est install&eacute; avec un plugin pour Firefox/Seamonkey, donc vous pouvez, 
+par exemple, &eacute;couter des stations radio d'Internet. Plusieurs marcheront, mais 
+dans certains cas vous aurez besoin des tous derniers fichiers "codec" de 
+RealAudio et WindowsMedia, les deux formats les plus usit&eacute;s pour les flux audio. 
+Vous n'avez pas &agrave; installer RealPlayer ou tout autre lecteur, car les fichiers 
+de codecs s'int&egrave;grent &agrave; Gxine.<br></p>
+<p>Le jeu d"extra codecs" disponible depuis le site de Mplayer, est fournit en 
+paquet PET.<br>Lancer simplement PETget package manager (voir Menu -&gt; 
+Configuration -&gt; PUPPY/TOUTOU package manager, ou bien cliquer juste sur 
+l'ic&ocirc;ne 'installation' sur le bureau) et installer le paquet nomm&eacute; 
+"mplayer_codecs_full".<br></p><br>
+<hr>
+<small>(c) Copyright 2004,2005,2006,2008 Barry Kauler</small> 
+</body></html>

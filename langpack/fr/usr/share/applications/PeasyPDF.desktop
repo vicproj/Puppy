@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PeasyPDF: convert/build/extract PDF
+Name[fr]=PeasyPDF : convertir/créer/extraire PDF
+Icon=/usr/share/pixmaps/puppy/pdf.svg
+Comment=PeasyPDF: convert/build/extract PDF
+Comment[fr]=PeasyPDF : convertir/créer/extraire PDF
+Exec=peasypdf
+Terminal=false
+Type=Application
+Categories=X-DocumentUtility
+GenericName=PeasyPDF: convert/build/extract PDF

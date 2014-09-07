@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pmusic: audio player/grabber
+Name[fr]=Pmusic : lecteur/extracteur audio
+Icon=/usr/share/icons/hicolor/scalable/apps/pmusic.svg
+Comment=Pmusic: audio player/grabber
+Comment[fr]=Pmusic : lecteur/extracteur audio
+Exec=pmusic
+Terminal=false
+Type=Application
+Categories=Audio
+GenericName=Pmusic: audio player/grabber

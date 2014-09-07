@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Retrovol: sound mixer
+Name[fr]=Retrovol : mixeur audio
+Icon=mini-sound.xpm
+Comment=Retrovol: sound mixer
+Comment[fr]=Retrovol : mixeur audio
+Exec=retrovol
+Terminal=false
+Type=Application
+Categories=X-Multimedia-sound
+GenericName=Retrovol: sound mixer

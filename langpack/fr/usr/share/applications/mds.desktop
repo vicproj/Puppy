@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MDS: manage desktop shortcuts 
+Name[fr]=MDS : gérer les raccourcis du bureau
+Comment=MDS: manage desktop shortcuts 
+Comment[fr]=MDS : gérer les raccourcis du bureau
+Exec=mds
+Icon=mds.png
+Type=Application
+Categories=X-Desktop
+NoDisplay=false
+GenericName=MDS : gérer les raccourcis du bureau

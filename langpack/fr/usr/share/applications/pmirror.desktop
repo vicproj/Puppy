@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pmirror: backup a directory
+Name[fr]=Pmirror : sauvegarde de répertoire
+Icon=mini-folder.xpm
+Comment=Pmirror: backup a directory
+Comment[fr]=Pmirror : sauvegarde de répertoire
+Exec=/usr/local/pmirror/pmirror
+Terminal=false
+Type=Application
+Categories=Archiving
+GenericName=Pmirror: backup a directory

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=OSconf: OS configuration
+Name[fr]=OSconf : configuration de l'OS
+Icon=osconf.png
+Comment=Configuration of operating system
+Comment[fr]=Configuration du système d'exploitation
+Exec=osconf
+Terminal=false
+Type=Application
+Categories=X-Setup-puppy
+GenericName=OSconf: OS configuration

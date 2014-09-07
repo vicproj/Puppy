@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Ayttm: multi-protocol chat client
+Name[fr]=Ayttm : clavardage
+Comment=Ayttm: multi-protocol chat client
+Comment[fr]=Ayttm : clavardage, client multi-protocoles
+Exec=ayttm
+Icon=ayttm.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-Internet-chat
+GenericName=Ayttm: multi-protocol chat client

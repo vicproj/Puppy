@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Galculator: calculator
+Name[fr]=Galculator : calculatrice
+Comment=Galculator: calculator
+Comment[fr]=Galculator : calculatrice
+Exec=galculator
+Icon=galculator.png
+Terminal=false
+Type=Application
+Categories=Calculator
+StartupNotify=true
+GenericName=Galculator: calculator

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+<title></title>
+</head><body>
+<h1>yaf-splash (nouveau)</h1>
+L'ancien yaf-splash est disponible en paquet PET et tr&egrave;s 
+probablement d&eacute;j&agrave; dans votre distribution. Il est 
+situ&eacute; dans /usr/X11R7/bin/yaf-splash. La documentation de 
+l'ancien yaf-splash est dans /usr/share/doc/yaf-splash.htm.<br>
+<br>
+Il y a maintenant une am&eacute;lioration avec le rempla&ccedil;ant de 
+yaf-splash. Il s'agit du script /usr/share/doc/yaf-splash.htm, avec un 
+lien symbolique vers /usr/bin/yaf-splash.<br>
+<br>
+Si vous ex&eacute;cutez 'yaf-splash', le nouveau script sera 
+lanc&eacute;. Mais, le script gtkdialog-splash lancera l'ancien (si 
+install&eacute;) s'il d&eacute;tecte le param&egrave;tre "-font" dans la
+ ligne de commande.<br>
+<br>
+Le nouveau yaf-splash n'utilise pas le param&egrave;tre '-font' (il 
+l'ignore). Voici les options de ligne de commande du nouveau yaf-splash:<br>
+<br>
+<pre>&nbsp;-text EXPRESSION<br>&nbsp;-timeout COUNT (en secondes)<br>&nbsp;-icon GTK-XXX (par exemple: gtk-info all gtk-stock-symbols, d&eacute;faut: none)<br>&nbsp;-bg COLOR (background color red, blue, yellow..., default: grey)<br>&nbsp;-fg COLOR (coleur de police, d&eacute;faut: black)<br>&nbsp;-placement center|mouse|top|bottom|top-left|bottom-left (d&eacute;faut center)<br>&nbsp;-close never|mouseover|box (d&eacute;faut is mouseover)<br>&nbsp;-deco TITLE (affiche les d&eacute;corations des fen&ecirc;tres, avec titre)<br>&nbsp;-fontsize SIZE (small, medium, large, x-large, d&eacute;faut: large)</pre>
+<br>
+Exemple:<br>
+<br>
+<pre># yaf-splash -placement top -close box -text "This is a message"</pre>
+<br>
+<span id="result_box" class="" lang="fr"><span class="hps">Le nouveau</span> <span class="hps">yaf</span><span>-splash</span> <span class="hps">a &eacute;t&eacute;</span> <span class="hps">initialement &eacute;crit par</span> <span class="hps atn">'</span><span>Mave'</span><span class="hps atn"></span><span>,</span> <span class="hps">modifi&eacute; par</span> <span class="hps">Barry K</span><span class="">auler.</span></span><br>
+<br>
+Notez que le nouveau yaf-splash fonctionne mieux avec le gestionnaire de
+ fen&ecirc;tres JWM, qui est configur&eacute; pour traiter la classe de 
+'gtkdialog-splash' d'une mani&egrave;re particuli&egrave;re (voir 
+/root/.jwmrc).<br>
+Ceux qui pr&eacute;f&egrave;rent l'ancien yaf-splash peuvent continuer 
+&agrave; l'utiliser, simplement en mettant en param&egrave;tre '-font' -
+ ce qui est toujours fait de toutes fa&ccedil;ons.<br>
+<br>
+Cordialement,<br>
+Barry Kauler<br>
+Sept. 2010<br>
+<br>
+</body></html>

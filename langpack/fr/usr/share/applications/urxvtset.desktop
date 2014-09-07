@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=UrxvtSet: setup terminal emulator
+Name[fr]=UrxvtSet : configurer l'émulateur de terminal
+Icon=/usr/share/pixmaps/puppy/terminal.svg
+Comment=UrxvtSet: setup terminal emulator
+Comment[fr]=UrxvtSet : configurer l'émulateur de terminal
+Exec=urxvtset
+Type=Application
+Categories=TerminalEmulator
+GenericName=UrxvtSet: setup terminal emulator

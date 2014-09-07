@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Geany: text editor
+Name[fr]=Geany : éditeur de textes
+Icon=geany.png
+Comment=Geany: text editor
+Comment[fr]=Geany : éditeur de textes
+Exec=geany
+Terminal=false
+Type=Application
+Categories=TextEditor
+GenericName=Geany: text editor

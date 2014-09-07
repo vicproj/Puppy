@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Glipper: clipboard manager
+Name[fr]=Glipper : gestionnaire de presse-papier
+Icon=mini-clipboard.xpm
+Comment=Glipper: clipboard manager
+Comment[fr]=Glipper : gestionnaire de presse-papier
+Exec=glipper_shell
+Terminal=false
+Type=Application
+Categories=X-Desktop-applet
+GenericName=Glipper: clipboard manager

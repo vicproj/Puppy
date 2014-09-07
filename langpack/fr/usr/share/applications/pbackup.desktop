@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pbackup: backup and sync
+Name[fr]=Pbackup : sauvegarde et synchronisation
+Icon=mini-diskette.xpm
+Comment=Pbackup: backup and sync
+Comment[fr]=Pbackup : sauvegarde et synchronisation
+Exec=pbackup
+Terminal=false
+Type=Application
+Categories=Archiving
+GenericName=Pbackup: backup and sync

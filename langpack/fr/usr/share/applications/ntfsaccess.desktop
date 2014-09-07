@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=NTFS access: access to NTFS partitions
+Name[fr]=NTFS access : accès aux partitions NTFS
+Icon=ntfsaccess.png
+Comment=Define rights/permissions for access to NTFS partitions
+Comment[fr]=Définir les droits/permissions pour l'accès aux partitions NTFS
+Exec=ntfsaccess
+Terminal=false
+Type=Application
+Categories=X-SetupEntry

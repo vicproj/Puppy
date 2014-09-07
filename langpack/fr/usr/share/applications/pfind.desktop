@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pfind: file finder
+Name[fr]=Pfind : recherche de fichiers
+Icon=/usr/share/pixmaps/puppy/find.svg
+Comment=Pfind: file finder
+Comment[fr]=Pfind : recherche de fichiers
+Exec=pfind
+Terminal=false
+Type=Application
+Categories=X-Filesystem-find
+GenericName=Pfind: file finder

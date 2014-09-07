@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Surfer: html viewer
+Name[fr]=Surfer : lecteur html
+Icon=/usr/share/pixmaps/puppy/internet.svg
+Comment=Surfer: html viewer
+Comment[fr]=Surfer : lecteur html
+Exec=surfer
+Terminal=false
+Type=Application
+Categories=X-Internet-utility
+GenericName=Surfer: html viewer

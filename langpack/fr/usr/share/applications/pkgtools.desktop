@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Packages tools: install/manage packages
+Name[fr]=Packages tools : installer/gérer des paquets
+Icon=pkgtools.png
+Comment=Install and manage packages
+Comment[fr]=Installer et gérer les paquets
+Exec=pkgtools
+Terminal=false
+Type=Application
+Categories=X-Setup-puppy
+GenericName=Packages tools: install/manage packages

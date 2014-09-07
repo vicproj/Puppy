@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=OSinstall: install OS
+Name[fr]=OSinstall : installation de l'OS
+Icon=osinstall.png
+Comment=Installation of operating system
+Comment[fr]=Installation du système d'exploitation
+Exec=osinstall
+Terminal=false
+Type=Application
+Categories=X-Setup-installation
+GenericName=OSinstall: install OS

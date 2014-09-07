@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=InkLite: vector editor
+Name[fr]=InkLite : éditeur de dessins vectoriels
+Icon=inkscape.xpm
+Comment=InkLite: vector editor
+Comment[fr]=InkLite : éditeur de dessins vectoriels
+Exec=inkscapelite
+Terminal=false
+Type=Application
+Categories=VectorGraphics
+GenericName=InkLite: vector editor

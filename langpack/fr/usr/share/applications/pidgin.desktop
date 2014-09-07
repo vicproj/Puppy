@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pidgin: multi-protocol chat client
+Name[fr]=Pidgin : clavardage
+Comment=Pidgin: multi-protocol chat client
+Comment[fr]=Pidgin : clavardage
+Exec=pidginshell
+Icon=pidgin.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=X-Internet-chat
+GenericName=Pidgin: multi-protocol chat client

@@ -1,0 +1,97 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Documents Microsoft</TITLE>
+<META content="text/html; charset=iso-8859-1">
+<META http-equiv=content-type content="text/html; charset=ISO-8859-1">
+<META content="MSHTML 6.00.2900.2180" name=GENERATOR></HEAD>
+<BODY>
+<H1><IMG style="WIDTH: 96px; HEIGHT: 96px" alt="" src=""> HOWTO : Documents 
+Microsoft</H1>Nous savons que <I>Microsoft Office</I> -- est defacto la norme, 
+nous devons donc en tenir compte. Le problème le plus fréquent, les documents de 
+Word -- De nombreux hommes d'affaires taperont un document en utilisant Word, 
+l'attacheront ensuite à un courrier électronique et s'attendront à ce que les 
+destinataires soient capables de le voir.<BR>Donc, voyons pour Word ...<BR>
+<H2>Fichiers MS Word .doc</H2>Microsoft utilise un format propriétaire et peu 
+documenté pour les fichiers Word et pour aggraver les choses, un document 
+préparé avec Word2000 ne peut être lu avec Word97. Cela enferme les clients dans 
+le cercle vicieux des mises à jour de Microsoft.<BR><BR>De toute façon, 
+concentrons-nous sur la situation dans PUPPY/TOUTOU. 
+<P>Jusqu'à la version 0.9.4 incluse, PUPPY avait un programme nommé 
+<I>Antiword</I>, qui convertissait les fichiers MS WORD DOC en Postscript, ils 
+pouvaient ainsi être vus mais pas imprimés</P>
+<P>Mais depuis la version 0.9.5, PUPPY comprend <I>Abiword</I> traitement de 
+textes, dans lequel est intégré <I>wv</I>.Ceci autorise l'import/export des 
+fichiers MS DOC par Abiword.<BR></P>
+<P>La page d'aide de Abiword : <A 
+href="file:///C:/usr/share/doc/abiword.htm">/usr/share/doc/abiword.htm</A><BR></P>
+<P>Noter aussi que le gestionnaire de fichiers Rox, le client-mail Sylpheed et 
+d'autres applications sont configurés pour lancer Abiword. Un clic gauche sur un 
+fichier DOC dans Rox, et le fichier s'ouvrira dans Abiword.</P>
+<P>Le fichier de configuration de ROX est dans /root/Choices/ <BR>Celui de 
+Sylpheed est dans /root/.sylpheed/sylpheedrc<BR>Les types de MIME et les 
+applications externes rattachés à Sylpheed sont liés au contenu de 
+/etc/mimetypes et /etc/mailcap/<BR>Seamonkey lit aussi en /etc/mimetypes et 
+/etc/mailcap, afin de permettre lecture/affichage d'un fichier que vous êtes sur 
+le point de télécharger.<BR></P>
+<H2>Fichiers MS Word .rtf</H2><I>RTF</I> signifie Rich Text Format, et c'est un 
+format de fichier pour les programmes de traitement de textes. La norme RTF est 
+abondamment documentée et tous les traitements de textes importants peuvent 
+l'ouvrir et l'enregistrer, MS WORD inclus. Ainsi, les utilisateurs de MS Word 
+devraient être encouragés à sauvegarder des documents au format RTF, avant 
+l'envoi de ceux-ci à d'autres personnes.<BR>
+<P>Jusqu'à la version 0.9.4, PUPPY avait <I>Ted</I> comme traitement de textes, 
+dont le format par défaut est RTF.<BR></P>
+<P>Depuis la version 0.9.5, Abiword peut importer/exporter le RTF.</P>
+<P>Et une fois encore, ROX-Filer et Sylpheed ont été configurés pour reconnaître 
+l'extension ".rtf". Dans le cas de ROX, un clic gauche suffit.<BR></P>
+<H2>Fichiers du tableur MS Excel</H2>
+<P>Le tableur <I>Excel</I> est une composante de la suite Office.</P>
+<P>Depuis la version 0.9.7 PUPPY, contient <I>ABS</I>, un tableur aussi. ABS est 
+toujours disonible en paquet PET. Le format par défaut d' ABS peut être converti 
+en format Excel, et vice versa, au moyen d'une macro. La documentation se trouve 
+dans le paquet supplémentaire PET.</P>
+<P>PUPPY depuis la version 0.9.8 et suivantes a <I>Planmaker Free Edition</I>, 
+qui est une version gratuite de Planmaker, un produit commercial. L'édition 
+gratuite n'est pas bridée et n'a aucune restriction d'utilisation, sauf la 
+limitation du nombre maximal de rangées/colonnes pouvant être éditées. Les 
+vraiment bonnes nouvelles sont qu'il peut ouvrir, éditer et sauver les fichiers 
+du format d'Excel. Planmaker est toujours disponible comme un paquet 
+PET.<BR></P>
+<P>La documentation est en format PDF : <A 
+href="file:///C:/Documents%20and%20Settings/JJ/Local%20Settings/Temp/planmaker.pdf">planmaker.pdf</A> 
+(seulement si le paquet Planmaker est installé)<BR>La licence : <A 
+href="file:///C:/usr/local/planmaker/license.txt">license.txt</A> (seulement si 
+le paquet Planmaker est installé)<BR></P>
+<P>PUPPY version 1.0.4 et supérieure, intègre <SPAN 
+style="FONT-STYLE: italic">Gnumeric</SPAN>, doté d'un jeu complet de plugins, 
+dont l'import/export du format d'Excel. Gnumeric est open source, gratuit et 
+vraiment bon.<BR></P>
+<P>Finalement, si vous voulez le nec plus ultra, <SPAN 
+style="FONT-STYLE: italic">OpenOffice</SPAN> est disponible pour PUPPY/TOUTOU, 
+pas dans le liveCD mais sous forme d'un paquet PET ou d'un fichier SFS. Ce 
+dernier est recommandé. Si vous ne savez pas ce qu'est un fichier SFS, 
+rendez-vous sur cette page : <A 
+href="http://puppylinux.com/development/package-management.htm">http://puppylinux.com/development/package-management.htm</A>.<BR></P>
+<H2>Polices MS</H2>
+<P>Oui, les polices MS TrueType sont facilement utilisables dans PUPPY/TOUTOU -- 
+c'est juste une question de duplication (ou bien, si c'est un problème légal, un 
+lien symbolique peut être créé depuis la partition PUPPY/TOUTOU vers les polices 
+de la partition Windows).</P>
+<P>La page d'aide de Abiword explique comment faire : <A 
+href="file:///C:/usr/share/doc/abiword.htm">/usr/share/doc/abiword.htm</A><BR></P>
+<H2>Open Document Format</H2>
+<P>Je le mentionne ici, ODF devient une norme internationale de format de 
+fichier de document. Abiword peut maintenant importer et exporter des fichiers 
+ODF.<BR></P>
+<P>Ouais, mais en ce qui concerne MS Office ? Microsoft a été fortement opposé à 
+ODF et continue de le dénigrer. Il <SPAN style="FONT-STYLE: italic">n'est 
+pas</SPAN> dans l'intérêt de Microsoft d'avoir des normes de document ouvert, 
+car en ayant des formats de fichiers fermés, il peut toujours avoir une longueur 
+d'avance sur la concurrence. Ainsi, MS ne propose pas l'import/export d'ODF dans 
+OFFICE, cependant la bonne nouvelle : une société a développé un plugin qui le 
+permet et c'est gratuit.<BR></P>
+<P>Je n'ai pourtant pas de détails sur où on peut se procurer ce plugin 0DF pour 
+MS Office.<BR></P>
+<HR width="100%" SIZE=2>
+Noter : vous pouvez trouver une série d'exemples de fichiers dans 
+/usr/share/examples, fichiers .xls (Excel) et .doc (Word) 
+inclus.<BR><BR></BODY></HTML>

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Asunder: audio CD ripper
+Name[fr]=Asunder : extracteur de CD Audio
+Comment=An application to save tracks from an Audio CD as WAV, MP3, OGG, and/or FLAC.
+Comment[fr]=Extraire le contenu d'un CD audio et le sauvegarder en WAV, MP3, OGG, FLAC.
+Icon=asunder.png
+Exec=asunder
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=X-Multimedia-sound
+GenericName=Asunder: audio CD ripper

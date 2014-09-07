@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<AppInfo>
+  <Summary>OCI (one click installer)</Summary>
+  <About>
+	<Application>OCI</Application>
+	<Author>ASRI</Author>
+	<License>GNU GPL v2</License>
+    <Homepage>http://forum.asri-education.org/</Homepage>
+  </About>
+</AppInfo>

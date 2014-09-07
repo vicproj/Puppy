@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pEqualizer: graphical equalizer
+Name[fr]=pEqualizer : égaliseur graphique
+Icon=/usr/share/icons/hicolor/24x24/apps/eq.png
+Comment=pEqualizer: graphical equalizer
+Comment[fr]=pEqualizer : égaliseur graphique
+Exec=/usr/local/pequalizer/pequalizer
+Terminal=false
+Type=Application
+Categories=Mixer
+GenericName=pEqualizer: graphical equalizer

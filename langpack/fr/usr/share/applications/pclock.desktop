@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pClock: time tools
+Name[fr]=pClock : outil horaire
+Comment=pClock: word processor
+Comment[fr]=pClock : outil horaire
+Icon=/usr/share/pixmaps/puppy/clock.svg
+Comment=pClock time tools
+Exec=pclock
+Terminal=false
+Type=Application
+Categories=X-PersonalUtility
+GenericName=pClock: time tools

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gnumeric: spreadsheet editor
+Name[fr]=Gnumeric : tableur
+Icon=gnumeric.xpm
+Comment=Gnumeric spreadsheet editor
+Comment[fr]=Gnumeric : tableur
+Exec=gnumeric
+Terminal=false
+Type=Application
+Categories=X-Business-spreadsheet
+GenericName=Gnumeric: spreadsheet editor

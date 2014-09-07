@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DefaultsChooser: default applications chooser
+Name[fr]=DefaultsChooser : choix des applications par défaut
+Icon=Executable.xpm
+Comment=DefaultsChooser: default applications chooser
+Comment[fr]=DefaultsChooser : choix des applications par défaut
+Exec=defaults-chooser
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=DefaultsChooser: default applications chooser

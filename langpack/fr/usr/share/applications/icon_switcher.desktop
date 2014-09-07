@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=IconSwitcher : switch desktop and menu icons
+Name[fr]=IconSwitcher : changer les icônes du bureau et du menu
+Icon=/usr/share/pixmaps/puppy/desktop_icons.svg
+Comment=IconSwitcher : switch desktop and menu icons
+Comment[fr]=IconSwitcher : changer les icônes du bureau et du menu
+Exec=icon_switcher
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+GenericName=IconSwitcher : switch desktop and menu icons

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Menu Manager: edit main menu
+Name[fr]=Menu Manager : éditer le menu principal
+Icon=/usr/share/pixmaps/puppy/menu.svg
+Comment=Menu Manager: edit main menu
+Comment[fr]=Menu Manager : éditer le menu principal
+Exec=menumanager
+Terminal=false
+Type=Application
+Categories=X-Setup-wizard
+GenericName=Menu Manager: edit main menu
+NoDisplay=false

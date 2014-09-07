@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=MMME: manage main menu entries
+Name[fr]=MMME : gérer les entrées du menu principal
+Comment=MMME: manage main menu entries
+Comment[fr]=MMME : gérer les entrées du menu principal
+Exec=mmme
+Icon=menuedit.png
+Type=Application
+Categories=X-Setup-wizard
+GenericName=MMME: manage main menu entries

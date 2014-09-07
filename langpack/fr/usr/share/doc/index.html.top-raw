@@ -1,0 +1,71 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><title>DISTRO_NAME Page d'Aide</title>
+
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+
+  <meta http-equiv="content-style-type" content="text/css">
+
+  <meta http-equiv="expires" content="0">
+
+<script language="JavaScript">
+
+<!-- Begin
+function formHandler(form){
+var URL = document.form.site.options[document.form.site.selectedIndex].value;
+window.location.href = URL;
+}
+function formHandler2(form2){
+var URL = document.form2.site2.options[document.form2.site2.selectedIndex].value;
+window.location.href = URL;
+}
+function search_site()
+{
+var url = "http://linux.die.net/man/1/"
+// Append the text box input to the search url for the selected site
+url = url + document.search_form.u_search.value;
+// Change the the browser location to the new url
+window.location.href = url;
+}
+// End -->
+
+</script></head><body>
+
+<img style="width: 96px; height: 96px;" src="puppylogo96.png" alt="logo" align="middle"> 
+<big style="font-weight: bold;"> Bienvenue dans DISTRO_NAME version RIGHTVER, publiée le PUPPYDATE</big><br>
+<br>
+DISTRO_NAME est la dernière de la famille des "distributions Puppy Linux "!<br>
+<br>
+<table style="text-align: left;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top; background-color: rgb(255, 204, 204);">
+      &nbsp;Veuillez lire : <a href="release-cutDISTRONAME-DISTRO_VERSION.htm">
+      <big style="font-weight: bold;">Annonce et Notes de publication pour DISTRO_NAME RIGHTVER</big></a> <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+
+<h2>Aide de DISTRO_NAME</h2>
+Toute la documentation locale de DISTRO_NAME est en HTML ou en format texte brut. Cette page est l'index principal.<br>
+
+<h3>Aide spécifique de DISTRO_NAME</h3>
+<ul>
+  <li><a href="HOWTO_Internet.htm">HOWTO accéder à l'Internet</a> (connexion à votre FAI)</li><li><a href="HOWTO-microsoft.htm">HOWTO afficher et modifier des documents Microsoft</a>&nbsp;</li>
+  <li><a href="http://puppylinux.com/howto/programming.htm">HOWTO écrire des programmes pour DISTRO_NAME</a> </li>
+  <li><a href="HOWTO-multimedia.htm">HOWTO multimédia</a> (travailler avec des graphismes, sons, vidéo)</li>
+  <li><a href="HOWTO-regexps.htm">HOWTO expressions régulières</a> (quelles sont-elles, comment les utiliser)</li>
+  <li><a href="HOWTO-fattenpuppy.htm">HOWTO engraisser DISTRO_NAME</a> ((ajout de polices, plugins, vérification orthographique)</li>
+<!--  <li><a href="HOWTO_quisp_shsql.htm">HOWTO QUISP et SHSQL</a> (pages web dynamiques avec base de données SQL en arrière)</li> -->
+  <li><a href="shortcutkeys.htm">Raccourcis clavier pour les caractères internationaux</a></li>
+  <li><a href="samba-printing.htm">HOWTO imprimer avec Samba et CUPS</a></li>
+  <li><a href="HOWTO-internationalization.htm">HOWTO Internationalisation</a> (prise en charge des langues non anglophones)</li>
+</ul>
+
+<h3>Documentation des Applications</h3>
+
+<p>Le menu déroulant permet d'accéder facilement à la documentation en ligne de tous les utilitaires et applications de DISTRO_NAME. Sélectionnez puis allez-y!...</p>
+

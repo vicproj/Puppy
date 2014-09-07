@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=OSinfos: OS information
+Name[fr]=OSinfos : à propos de l'OS
+Comment=Information about operating system used
+Comment[fr]=Informations à propos du système d'exploitation utilisé
+Icon=osinfos.png
+Exec=osinfos
+Terminal=false
+Type=Application
+Categories=X-Setup-puppy
+GenericName=OSinfos: OS information

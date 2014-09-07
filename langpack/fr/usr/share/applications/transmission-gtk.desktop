@@ -1,0 +1,15 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Transmission: torrent client
+Name[fr]=Transmission : client torrent
+GenericName=Transmission: torrent client
+GenericName[fr]=Transmission : client torrent
+Comment=Download and share files over BitTorrent
+Comment[fr]=Reçoit et partage des fichiers via BitTorrent
+Exec=transmission-gtk  
+Icon=/usr/share/pixmaps/transmission.png
+Terminal=false
+TryExec=transmission-gtk
+Type=Application
+MimeType=application/x-bittorrent;x-scheme-handler/magnet
+Categories=X-Internet-transfer

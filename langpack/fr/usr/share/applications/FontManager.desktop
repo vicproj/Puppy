@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=FontManager: configure and install fonts
+Name[fr]=FontManager : configurer et installer des polices
+Icon=/usr/share/pixmaps/puppy/font.svg
+Comment=Configure and install fonts
+Comment[fr]=Configurer et installer des polices (fonts)
+Exec=fontmanager
+Terminal=false
+Type=Application
+Categories=X-DesktopApplets
+GenericName=FontManager: configure and install fonts

@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=YASSM: samba share select
+Name[fr]=YASSM : définir un partage Samba
+Icon=/usr/local/yassm/samba-menu.xpm
+Comment=YASSM: samba share select
+Comment[fr]=YASSM : définir un partage Samba
+Exec=/usr/local/yassm/samba-select
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=YASSM: samba share select
+NoDisplay=true

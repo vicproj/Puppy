@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=PureFTPd: FTP server
+Name[fr]=PureFTPd : serveur FTP
+Icon=/usr/share/pixmaps/puppy/internet_connect_yes.svg
+Comment=PureFTPd: FTP server
+Comment[fr]=PureFTPd : serveur FTP
+Exec=run-pureftpd
+Terminal=false
+Type=Application
+Categories=X-Network-transfer
+GenericName=PureFTPd: FTP server

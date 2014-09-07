@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=gFTP: ftp client
+Name[fr]=gFTP : client FTP
+Icon=gftp.png
+Comment=gFTP: ftp client
+Comment[fr]=gFTP : client FTP
+Exec=gftp
+Terminal=false
+Type=Application
+Categories=X-Internet
+GenericName=gFTP: ftp client

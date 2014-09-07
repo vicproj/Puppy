@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Grub 2013: bootloader config
+Name[fr]=Grub 2013 : configurer le chargeur d'amorçage
+Icon=/usr/share/pixmaps/puppy/startup_os.svg
+Comment=Grub 2013: bootloader config
+Comment[fr]=Grub 2013 : configurer le chargeur d'amorçage
+Exec=legacy_grub_2013
+Terminal=false
+Type=Application
+Categories=X-System-memory
+GenericName=Grub 2013: bootloader config

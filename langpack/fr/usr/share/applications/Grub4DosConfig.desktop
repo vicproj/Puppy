@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Grub4Dos: bootloader config
+Name[fr]=Grub4Dos : configurer le chargeur d'amorçage
+Icon=gnibbles.png
+Comment=Grub4Dos: bootloader config
+Comment[fr]=Grub4Dos : configurer le chargeur d'amorçage
+Exec=grub4dosconfig
+Terminal=false
+Type=Application
+Categories=X-System-memory
+GenericName=Grub4Dos: bootloader config

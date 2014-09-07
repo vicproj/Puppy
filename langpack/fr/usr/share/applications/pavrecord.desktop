@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pavrecord: audio-video recorder/player
+Name[fr]=Pavrecord : enregistreur/lecteur audio-vidéo
+Icon=mini-record.xpm
+Comment=Pavrecord: audio-video recorder/player
+Comment[fr]=Pavrecord : enregistreur/lecteur audio-vidéo
+Exec=/usr/bin/pavrecord
+Terminal=false
+Type=Application
+Categories=AudioVideo
+GenericName=Pavrecord: audio-video recorder/player

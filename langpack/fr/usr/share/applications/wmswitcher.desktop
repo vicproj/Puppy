@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WM Switcher Switch between windowmanagers
+Name[fr]=WM Switcher : permuter de gestionnaire de fenêtres 
+Icon=wmswitcher.png
+Comment=WM Switcher Switch between windowmanagers
+Commment[fr]=WM Switcher : permuter de gestionnaire de fenêtres
+Exec=wmswitcher
+Terminal=false
+Type=Application
+Categories=DesktopSettings
+GenericName=WM Switcher Switch between windowmanagers

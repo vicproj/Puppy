@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pTiming: event timer system
+Name[fr]=pTiming : compteur d'évènements
+Icon=/usr/share/icons/hicolor/scalable/apps/ptiming.svg
+Comment=pTiming: event timer system
+Comment[fr]=pTiming : compteur d'évènements
+Exec=ptiming
+Terminal=false
+Type=Application
+Categories=X-PersonalUtility
+GenericName=pTiming: event timer system

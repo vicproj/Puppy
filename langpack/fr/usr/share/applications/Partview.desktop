@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Partview: free space in drives
+Name[fr]=Partview : taille des partitions
+Icon=/usr/share/pixmaps/puppy/partition.svg
+Comment=Partview: free space in drives
+Comment[fr]=Partview : taille des partitions
+Exec=partview
+Terminal=false
+Type=Application
+Categories=X-Filesystem-storage
+GenericName=Partview: free space in drives

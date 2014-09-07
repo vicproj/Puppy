@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Screeny: screenchot utility
+Name[fr]=Screeny : capturer l'écran 
+Icon=mini-display.xpm
+Comment=Screeny: screenchot utility
+Comment[fr]=Screeny : capturer l'écran 
+Exec=screeny
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+GenericName=Screeny: screenchot utility

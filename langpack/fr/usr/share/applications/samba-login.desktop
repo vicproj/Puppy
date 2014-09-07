@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=YASSM: samba share login
+Name[fr]=YASSM : connexion partage Samba
+Icon=/usr/local/yassm/samba-menu.xpm
+Comment=YASSM: samba share login
+Comment[fr]=YASSM : connexion partage Samba
+Exec=/usr/local/yassm/samba-login
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=YASSM: samba share login
+NoDisplay=true

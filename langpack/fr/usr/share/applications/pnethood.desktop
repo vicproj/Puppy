@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pnethood: samba shares
+Name[fr]=Pnethood : partages samba
+Icon=/usr/local/apps/pnethood/network-transmit.png
+Comment=Pnethood: samba shares
+Comment[fr]=Pnethood : partages samba
+Exec=pnethood
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=Pnethood: samba shares

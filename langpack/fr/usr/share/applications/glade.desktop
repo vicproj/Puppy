@@ -1,0 +1,19 @@
+[Desktop Entry]
+Name[fr]=PLEASE INSERT YOUR TRANSLATION HERE
+Name=Glade
+GenericName=Interface Designer
+X-GNOME-FullName=Glade Interface Designer
+Comment=Create or open user interface designs for GTK+ applications
+Exec=glade %F
+Terminal=false
+StartupNotify=true
+Type=Application
+Icon=glade.xpm
+Categories=GUIDesigner
+MimeType=application/x-glade;
+X-GNOME-DocPath=glade/glade.xml
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=glade
+X-GNOME-Bugzilla-Version=3.12.1
+X-GNOME-Bugzilla-Component=general
+X-Ubuntu-Gettext-Domain=glade

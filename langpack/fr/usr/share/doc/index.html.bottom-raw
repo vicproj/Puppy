@@ -1,0 +1,77 @@
+
+<p>Entrez le nom d'un programme utilitaire (ex: cat, ls) et cliquez sur le bouton 'Rechercher' :</p>
+<center>
+<!-- <form name="search_form">
+<input tpye="text" name="u_search">
+<input type="button" value="Search" onClick="JavaScript:search_site()">
+</form> -->
+<!-- better solution from technosaurus -->
+<form action="http://www.google.com/search" name=f>
+<input name=q class=lst type=hidden value="man">
+<input autocomplete="off" maxlength=2048 name=q size=55 class=lst title="Man Page Search" value="">
+<input name=q class=lst type=hidden value="site:linux.die.net">
+<input name=btnI type=submit value="Search" class=lsb>
+</form>
+</center>
+
+<p><br>
+Notez que, même si DISTRO_NAME contient Busybox, qui est une très petite
+boîte à outils d'applications utilitaires, dans quelques cas elles
+n'ont pas la fonctionnalité exigée et sont remplacées par les versions
+complètes. Ces remplacements incluent : modprobe, cat, cp, df, gzip,
+gunzip, losetup, ls, mkdir, mv, rm, sed, sort, tar, wget, date, find,
+grep, fgrep and egrep.
+</p>
+<br>
+<p>Noter que les applications de DISTRO_NAME sont open source et sous
+diverses licences GPL, il y a cependant quelques exceptions. <br>
+</p>
+<p>Planmaker Free
+Edition (tableur) et Textmaker Free Edition (traitement de textes) sont
+des paquets PET. La licence est incluse dans les paquets.
+Nous devons avoir la possibilité d'ouvrir et d'éditer des tableaux de
+format Excel, ce que Planmaker fait admirablement et Free Edition est
+tout simplement gratuit, aucune annonce incorporée, aucune restriction
+d'utilisation (à part une taille maximale limitée pour l'édition).
+Je voudrais agir correctement avec l'éditeur, Softmaker Software, donc
+je vous recommanderais l'utilisation de l'édition complète de Planmaker
+pour des fins commerciales sérieuses.</p>
+<p>
+Quelques versions de PUPPY/TOUTOU, intègrent le navigateur web Opera,
+qui est sous licence propriétaire mais gratuit.<br>
+</p>
+
+<table style="width: 100%; text-align: left;" border="0" cellpadding="2" cellspacing="2">
+  <tbody>
+    <tr>
+      <td style="vertical-align: top;"><a href="http://www.adobe.com/"><img alt="" src="flashlogo.gif" style="border: 2px solid ; width: 50px; height: 60px;"></a><br>
+      </td>
+      <td style="vertical-align: top;">Quelques
+versions de PUPPY/TOUTOU intègrent
+le plugin Macromedia Flash pour la navigation web. C'est propriétaire
+mais gratuit. La licence de distribution requiert que j'inclus le logo
+et un lien vers le site de Macromedia.<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br><small><b>Legal notice:</b><br>I, Barry Kauler, established the
+'Puppy Linux Project' in January 2003, first website and product
+release 18-June-2003, and I have trademark claim to the name and typed
+drawing of 'Puppy Linux', 'PuppyOS' and 'Puppy' as it relates to
+"computer operating system software to facilitate computer use and
+operation", under Federal and International Common Law and Trademark
+Laws as appropriate.<br>Programs
+in Puppy are open source (except where noted above), and licences of
+individual products are duly acknowledged. The name Puppy Linux", also
+known as "Puppy" and "PuppyOS", and all artistic creations thereof,
+are copyright (c) 2003,2004,2005,2006,2007,2008,2009 Barry Kauler -- further
+details in the online <a href="http://puppylinux.com/faq.htm">FAQ</a>.<br>
+<br>
+<b>Disclaimer:</b><br>
+Very simple, use entirely at your own risk. Barry Kauler accepts no liability
+or responsibility whatsoever, and you use Puppy with this understanding.<br>
+</small><br>
+
+
+</body></html>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name[fr]=PLEASE INSERT YOUR TRANSLATION HERE
+Name=Sysprof Profiler
+Comment=A system-wide linux profiler
+Exec=sysprof
+Icon=sysprof.xpm
+Type=Application
+Categories=Development

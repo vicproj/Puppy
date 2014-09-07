@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=mtPaint: image editor
+Name[fr]=mtPaint : éditeur d'images
+Icon=mtpaint.png
+Comment=mtPaint: image editor
+Comment[fr]=mtPaint : éditeur d'images
+Exec=mtpaint
+Terminal=false
+Type=Application
+Categories=X-Graphic-paint
+GenericName=mtPaint: image editor

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=YASSM: samba share search
+Name[fr]=YASSM : recherche de partage Samba
+Icon=/usr/local/yassm/samba-menu.xpm
+Comment=YASSM: samba share search
+Comment[fr]=YASSM : recherche de partage Samba
+Exec=/usr/local/yassm/samba-search
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=YASSM: samba share search
