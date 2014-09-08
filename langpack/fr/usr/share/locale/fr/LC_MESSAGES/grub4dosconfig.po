@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: grub4dosconfig VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-15 07:10+0900\n"
-"PO-Revision-Date: 2012-02-16 14:25+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-08 18:50+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -30,7 +30,7 @@ msgstr "Où installer le chargeur d'amorçage Grub4Dos"
 
 #: grub4dosconfig:70
 msgid "Usually on the MBR of the 1st drive"
-msgstr ""
+msgstr "Habituellement sur le MBR du 1er disque"
 
 #: grub4dosconfig:73
 #, fuzzy
@@ -53,13 +53,14 @@ msgstr "(Coche ignorée comme pour les disquettes)"
 msgid "Grub4Dos Guide"
 msgstr "Guide de Grub4Dos"
 
-#: grub4dosconfig:78 grub4dosconfig:212
+#: grub4dosconfig:78
+#: grub4dosconfig:212
 msgid "Help"
 msgstr "Aide"
 
 #: grub4dosconfig:79
 msgid "You chose nothig to do."
-msgstr ""
+msgstr "Vous n'avez pas choisi d'action à faire."
 
 #: grub4dosconfig:80
 msgid "Searching. Please wait..."
@@ -74,12 +75,8 @@ msgid "List of detected operating systems"
 msgstr "Liste des OS détectés"
 
 #: grub4dosconfig:84
-msgid ""
-"You can rewrite each label. Or, erase. Caution: You cannot change their "
-"order."
-msgstr ""
-"Vous pouvez réécrire chaque étiquette. Ou l'effacer. Attention: Vous ne "
-"pouvez pas en changer l'ordre."
+msgid "You can rewrite each label. Or, erase. Caution: You cannot change their order."
+msgstr "Vous pouvez réécrire chaque étiquette. Ou l'effacer. Attention: Vous ne pouvez pas en changer l'ordre."
 
 #: grub4dosconfig:85
 msgid "Frugal installed Puppy"
@@ -142,12 +139,8 @@ msgid "You can edit 'menu.lst' before reboot."
 msgstr "Vous pouvez modifier menu.lst avant de redémarrer."
 
 #: grub4dosconfig:103
-msgid ""
-"If you installed on a removable device, ensure unmount the drive before "
-"remove it."
-msgstr ""
-"Si vous avez installé sur un périphérique amovible, assurez-vous de l'avoir "
-"démonté avant de le retirer."
+msgid "If you installed on a removable device, ensure unmount the drive before remove it."
+msgstr "Si vous avez installé sur un périphérique amovible, assurez-vous de l'avoir démonté avant de le retirer."
 
 #: grub4dosconfig:104
 msgid "Old 'menu.lst' found and renamed as follows:"
@@ -158,28 +151,16 @@ msgid "Note: the boot record is not changed."
 msgstr "L'enregistrement d'amorçage n'a pas changé."
 
 #: grub4dosconfig:106
-msgid ""
-"The MBR of the 1st drive has not changed this time. You may need to "
-"configure the BIOS or the MBR to make chain to"
-msgstr ""
-"Le MBR du 1er disque n'a pas été modifié cette fois. Vous devrez peut-être "
-"configurer le BIOS ou le MBR pour enchaîner"
+msgid "The MBR of the 1st drive has not changed this time. You may need to configure the BIOS or the MBR to make chain to"
+msgstr "Le MBR du 1er disque n'a pas été modifié cette fois. Vous devrez peut-être configurer le BIOS ou le MBR pour enchaîner"
 
 #: grub4dosconfig:107
-msgid ""
-"The boot-flag of the partition %s is not set. You may need to set the boot-"
-"flag using Gparted."
-msgstr ""
-"Le drapeau d'amorçage de la partition %s n'est pas défini. Vous devriez peut-"
-"être le faire en utilisant Gparted."
+msgid "The boot-flag of the partition %s is not set. You may need to set the boot-flag using Gparted."
+msgstr "Le drapeau d'amorçage de la partition %s n'est pas défini. Vous devriez peut-être le faire en utilisant Gparted."
 
 #: grub4dosconfig:108
-msgid ""
-"The MBR of the drive %s seems not bootable. You may need to install some "
-"bootloader there."
-msgstr ""
-"Le MBR du disque %s ne semble pas amorçable. Vous devriez peut-être "
-"installer un chargeur d'amorçage."
+msgid "The MBR of the drive %s seems not bootable. You may need to install some bootloader there."
+msgstr "Le MBR du disque %s ne semble pas amorçable. Vous devriez peut-être installer un chargeur d'amorçage."
 
 #: grub4dosconfig:110
 msgid "Edit 'menu.lst'"
@@ -191,33 +172,26 @@ msgid "Edit 'Advanced menu'"
 msgstr "Modifier 'menu.lst"
 
 #: grub4dosconfig:112
-msgid ""
-"Grub not found. Grub(other than Grub4Dos) which supports ext4 is required if "
-"the 1st partition of the target drive is ext4 file system."
-msgstr ""
-"Grub non trouvé. Grub, différent de Grub4Dos et qui prend en charge ext4, "
-"est requis si le système de fichiers de la première partition du disque "
-"cible est en ext4."
+msgid "Grub not found. Grub(other than Grub4Dos) which supports ext4 is required if the 1st partition of the target drive is ext4 file system."
+msgstr "Grub non trouvé. Grub, différent de Grub4Dos et qui prend en charge ext4, est requis si le système de fichiers de la première partition du disque cible est en ext4."
 
 #: grub4dosconfig:114
 msgid "Grub4dos Guide online"
 msgstr "Guide en ligne de Grub4dos"
 
-#: grub4dosconfig:115 grub4dosconfig:117 grub4dosconfig:669
+#: grub4dosconfig:115
+#: grub4dosconfig:117
+#: grub4dosconfig:669
 msgid "Options"
 msgstr "Options"
 
 #: grub4dosconfig:116
 msgid "You can edit the boot options add to all frugal installed Puppy."
-msgstr ""
-"Vous pouvez modifier les options de démarrage ajoutées à toute installation "
-"frugale de Toutou/Puppy."
+msgstr "Vous pouvez modifier les options de démarrage ajoutées à toute installation frugale de Toutou/Puppy."
 
 #: grub4dosconfig:118
 msgid "You can edit the boot options add to all full installed Linux."
-msgstr ""
-"Vous pouvez modifier les options de démarrage ajoutées à toute installation "
-"complète de Linux."
+msgstr "Vous pouvez modifier les options de démarrage ajoutées à toute installation complète de Linux."
 
 #: grub4dosconfig:119
 msgid "Old MBR is saved"
@@ -229,24 +203,16 @@ msgstr "Pour restaurer le MBR, tapez la commande suivante en console"
 
 #: grub4dosconfig:122
 msgid ""
-"Next puppy directories have same name on multiple partitions. It may confuse "
-"the bootup procces. Recommended to press 'Cancel' to quit this program, "
-"change the names of the directories, and then restart this program.\\nBut "
-"you can continue this program pressing 'OK'."
+"Next puppy directories have same name on multiple partitions. It may confuse the bootup procces. Recommended to press 'Cancel' to quit this program, change the names of the directories, and then restart this program.\\n"
+"But you can continue this program pressing 'OK'."
 msgstr ""
-"Les répertoires suivants de Toutou/Puppy ont le même nom sur de nombreuses "
-"partitions. Cela peut fortement géner le processus d'amorçage. Changez les "
-"noms des répertoires et relancez ce programme.\\nMais vous pouvez continuer "
-"ce programme en pressant sur 'OK'."
+"Les répertoires suivants de Toutou/Puppy ont le même nom sur de nombreuses partitions. Cela peut fortement géner le processus d'amorçage. Changez les noms des répertoires et relancez ce programme.\\n"
+"Mais vous pouvez continuer ce programme en pressant sur 'OK'."
 
 #: grub4dosconfig:123
 #, fuzzy
-msgid ""
-"This entry is always shown no matter Windows are installed or not. "
-"Recommended to keep the entry."
-msgstr ""
-"La première entrée est toujours affichée, que Windows soit installé ou non. "
-"Il est recommandé de garder cette entrée."
+msgid "This entry is always shown no matter Windows are installed or not. Recommended to keep the entry."
+msgstr "La première entrée est toujours affichée, que Windows soit installé ou non. Il est recommandé de garder cette entrée."
 
 #: grub4dosconfig:124
 msgid "The Grub4DosConfig seems improperly installed. Missing files"
@@ -277,23 +243,12 @@ msgid "The Grub4DosConfig does not support this drive."
 msgstr "Grub4DosConfig ne prend pas en charge ce disque."
 
 #: grub4dosconfig:131
-msgid ""
-"Remove all the partitions on the drive (after backing up all the data) and "
-"rewrite the partition tabe with Gparted."
-msgstr ""
-"Retirez toutes les partitions du disque (après avoir sauvé toutes les "
-"données) et recréez la table de partition avec Gparted."
+msgid "Remove all the partitions on the drive (after backing up all the data) and rewrite the partition tabe with Gparted."
+msgstr "Retirez toutes les partitions du disque (après avoir sauvé toutes les données) et recréez la table de partition avec Gparted."
 
 #: grub4dosconfig:132
-msgid ""
-"Select the device you would like to boot from. Usually the first drive(MBR), "
-"but you can select floppy(fd0) if available, or USB removable devices. You "
-"may need to change the BIOS setting."
-msgstr ""
-"Sélectionnez le périphérique à partir duquel vous souhaitez démarrer. "
-"Généralement, le premier disque (MBR), mais vous pouvez sélectionner une "
-"disquette (fd0) si disponible, ou des périphériques amovibles USB. Vous "
-"devrez peut-être changer le réglage dans le BIOS."
+msgid "Select the device you would like to boot from. Usually the first drive(MBR), but you can select floppy(fd0) if available, or USB removable devices. You may need to change the BIOS setting."
+msgstr "Sélectionnez le périphérique à partir duquel vous souhaitez démarrer. Généralement, le premier disque (MBR), mais vous pouvez sélectionner une disquette (fd0) si disponible, ou des périphériques amovibles USB. Vous devrez peut-être changer le réglage dans le BIOS."
 
 #: grub4dosconfig:133
 msgid "Ignored for floppies"
@@ -301,33 +256,19 @@ msgstr "Ignoré pour les disquettes"
 
 #: grub4dosconfig:134
 msgid "Or, for PBS install, it searches only the partiton and is recommended."
-msgstr ""
-"Ou, pour une installation PBS, ne rechercher que la partiton et c'est "
-"recommandé."
+msgstr "Ou, pour une installation PBS, ne rechercher que la partiton et c'est recommandé."
 
 #: grub4dosconfig:135
-msgid ""
-"Limit the search scope so that the installations on other drives are not "
-"listed up. Recommended only for removal devices."
-msgstr ""
-"S'assurer que la recherche des installations sur d'autres disques ne soient "
-"pas listée. Recommandé uniquement pour les périphériques amovibles."
+msgid "Limit the search scope so that the installations on other drives are not listed up. Recommended only for removal devices."
+msgstr "S'assurer que la recherche des installations sur d'autres disques ne soient pas listée. Recommandé uniquement pour les périphériques amovibles."
 
 #: grub4dosconfig:136
-msgid ""
-"Only if you do not want to change your existing MBR. Your boot sequence "
-"should be ready to start up grubldr."
-msgstr ""
-"Seulement si vous ne voulez pas modifier le MBR existant. Votre séquence de "
-"démarrage devrait être prête à démarrer grubldr."
+msgid "Only if you do not want to change your existing MBR. Your boot sequence should be ready to start up grubldr."
+msgstr "Seulement si vous ne voulez pas modifier le MBR existant. Votre séquence de démarrage devrait être prête à démarrer grubldr."
 
 #: grub4dosconfig:137
-msgid ""
-"Only if you want to keep the existing menu.lst and you can handle it "
-"manually."
-msgstr ""
-"Seulement si vous voulez conserver le menu.lst existant et le gérer à la "
-"main."
+msgid "Only if you want to keep the existing menu.lst and you can handle it manually."
+msgstr "Seulement si vous voulez conserver le menu.lst existant et le gérer à la main."
 
 #: grub4dosconfig:138
 #, fuzzy
@@ -335,10 +276,7 @@ msgid "Legacy compatible 'menu.lst'"
 msgstr "Ne pas écraser 'menu.lst'"
 
 #: grub4dosconfig:139
-msgid ""
-"Only if you still use legacy grub. You also need to tick on 'Do not rewrite "
-"the existing boot record'. The 'menu.lst' is made with legacy grub "
-"compatible commands."
+msgid "Only if you still use legacy grub. You also need to tick on 'Do not rewrite the existing boot record'. The 'menu.lst' is made with legacy grub compatible commands."
 msgstr ""
 
 #: grub4dosconfig:140
@@ -370,25 +308,20 @@ msgid "Hide PBS"
 msgstr "Masquer PBS"
 
 #: grub4dosconfig:147
-msgid ""
-"Show all partitions if you want to install the bootloader on the partition "
-"boot sector(PBS)."
-msgstr ""
-"Afficher toutes les partitions si vous souhaitez installer le chargeur de "
-"démarrage sur le secteur d'amorçage des partitions (PBS)."
+msgid "Show all partitions if you want to install the bootloader on the partition boot sector(PBS)."
+msgstr "Afficher toutes les partitions si vous souhaitez installer le chargeur de démarrage sur le secteur d'amorçage des partitions (PBS)."
 
 #: grub4dosconfig:148
 msgid "Single page menu"
 msgstr ""
 
 #: grub4dosconfig:149
-msgid ""
-"Single page menu with advanced entries. Or, the advanced menu at next page"
+msgid "Single page menu with advanced entries. Or, the advanced menu at next page"
 msgstr ""
 
 #: grub4dosconfig:150
 msgid "Device"
-msgstr ""
+msgstr "Appareil"
 
 #: grub4dosconfig:151
 #, fuzzy
@@ -412,14 +345,8 @@ msgid "Boot flag not found on %s."
 msgstr "Drapeau d'amorçage non trouvé sur %s."
 
 #: grub4dosconfig:803
-msgid ""
-"Some BIOS does not boot from the drive which has no boot flag. Click "
-"'Cancel' here and set the boot flag by using GParted or something. But you "
-"can proceed installing grub4dos first."
-msgstr ""
-"Certains BIOS ne démarrent pas d'un lecteur sans drapeau d'amorçage. Cliquez "
-"sur 'Annuler' ici et définissez le drapeau d'amorçage avec GParted ou "
-"autres. Mais vous pouvez continuer d'abord l'installation de grub4dos."
+msgid "Some BIOS does not boot from the drive which has no boot flag. Click 'Cancel' here and set the boot flag by using GParted or something. But you can proceed installing grub4dos first."
+msgstr "Certains BIOS ne démarrent pas d'un lecteur sans drapeau d'amorçage. Cliquez sur 'Annuler' ici et définissez le drapeau d'amorçage avec GParted ou autres. Mais vous pouvez continuer d'abord l'installation de grub4dos."
 
 #: grub4dosconfig:1305
 msgid "Confirmation"

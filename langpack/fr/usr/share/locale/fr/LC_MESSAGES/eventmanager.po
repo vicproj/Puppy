@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: eventmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2012-02-16 13:58+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-08 19:02+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -12,21 +12,29 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: eventmanager.sh:64 eventmanager.sh:201 eventmanager.sh:372
+#: eventmanager.sh:64
+#: eventmanager.sh:201
+#: eventmanager.sh:372
 msgid "Bottom"
-msgstr ""
+msgstr "Bas"
 
-#: eventmanager.sh:65 eventmanager.sh:200 eventmanager.sh:373
+#: eventmanager.sh:65
+#: eventmanager.sh:200
+#: eventmanager.sh:373
 msgid "Top"
-msgstr ""
+msgstr "Haut"
 
-#: eventmanager.sh:66 eventmanager.sh:203 eventmanager.sh:375
+#: eventmanager.sh:66
+#: eventmanager.sh:203
+#: eventmanager.sh:375
 msgid "Right"
-msgstr ""
+msgstr "Droite"
 
-#: eventmanager.sh:67 eventmanager.sh:202 eventmanager.sh:374
+#: eventmanager.sh:67
+#: eventmanager.sh:202
+#: eventmanager.sh:374
 msgid "Left"
-msgstr ""
+msgstr "Gauche"
 
 #: eventmanager.sh:77
 msgid "Puppy Event Manager"
@@ -44,32 +52,20 @@ msgstr "Sauver la Session"
 msgid "Desktop Icons"
 msgstr "Icônes du bureau"
 
-#: eventmanager.sh:79 eventmanager.sh:144 eventmanager.sh:275
+#: eventmanager.sh:79
+#: eventmanager.sh:144
+#: eventmanager.sh:275
 msgid "Power"
 msgstr "Arrêt"
 
-#: eventmanager.sh:80 eventmanager.sh:85
+#: eventmanager.sh:80
+#: eventmanager.sh:85
 msgid "Activate Puppy Event Manager"
 msgstr "Activer Puppy Event Manager"
 
 #: eventmanager.sh:81
-msgid ""
-"The 'pup_event' Puppy Event Manager runs in the background and handles "
-"hotplugging of drives, including the desktop drive icons. This also includes "
-"automatic module and firmware loading if new hardware is detected. However, "
-"turn it all off, and Puppy will revert to the same behaviour as versions "
-"prior to 4.x, in which there is no hotplug support. This reduces resource "
-"usage, so try unticking these on very old slow PCs. Pmount can still be run "
-"manually to mount and unmount partitions."
-msgstr ""
-"Le Manipulateur 'pup_event' s'exécute en arrière plan et gère les "
-"branchements à chaud des média, y compris leurs icônes sur le bureau. Quand "
-"un nouveau matériel est détecté, cela comprend aussi les chargements "
-"automatiques de module et firmware. Si vous l'arrétez, Toutou redeviendra "
-"comme dans les versions antérieures à 4.x, dans lesquelles le branchement à "
-"chaud n'existait pas. Cela réduit les ressources, alors décochez la case "
-"pour les vieux PC lents. Pmount peut toujours être lancé pour monter et "
-"démonter des partitions"
+msgid "The 'pup_event' Puppy Event Manager runs in the background and handles hotplugging of drives, including the desktop drive icons. This also includes automatic module and firmware loading if new hardware is detected. However, turn it all off, and Puppy will revert to the same behaviour as versions prior to 4.x, in which there is no hotplug support. This reduces resource usage, so try unticking these on very old slow PCs. Pmount can still be run manually to mount and unmount partitions."
+msgstr "Le Manipulateur 'pup_event' s'exécute en arrière plan et gère les branchements à chaud des média, y compris leurs icônes sur le bureau. Quand un nouveau matériel est détecté, cela comprend aussi les chargements automatiques de module et firmware. Si vous l'arrétez, Toutou redeviendra comme dans les versions antérieures à 4.x, dans lesquelles le branchement à chaud n'existait pas. Cela réduit les ressources, alors décochez la case pour les vieux PC lents. Pmount peut toujours être lancé pour monter et démonter des partitions"
 
 #: eventmanager.sh:94
 #, fuzzy
@@ -91,54 +87,35 @@ msgid "Periodic save from RAM"
 msgstr "Sauvegarde périodique de la RAM"
 
 #: eventmanager.sh:109
-msgid ""
-"Puppy runs in a particular 'state' that we call the PUPMODE. This depends on "
-"the type of installation and the type of hardware. Currently, PUPMODE="
-msgstr ""
-"Toutou/Puppy fonctionne dans un 'état' particulier appelé PUPMODE. Il dépend "
-"du type d'installation et du matériel. Actuellement, PUPMODE="
+msgid "Puppy runs in a particular 'state' that we call the PUPMODE. This depends on the type of installation and the type of hardware. Currently, PUPMODE="
+msgstr "Toutou/Puppy fonctionne dans un 'état' particulier appelé PUPMODE. Il dépend du type d'installation et du matériel. Actuellement, PUPMODE="
 
 #: eventmanager.sh:109
 #, fuzzy
-msgid ""
-"If it is an odd number, for example 13, then Puppy is doing everything in "
-"RAM and saving the current session to a drive periodically -- this is done "
-"in the case of Flash memory to make it last longer. When Puppy runs in an "
-"odd PUPMODE, there will be a 'save' icon on the desktop, also a save occurs "
-"at shutdown. You can also specify a periodic save here"
-msgstr ""
-"Si c'est un nombre impair, par exemple 13, Toutou fait tout en RAM et "
-"enregistre la session en cours périodiquement sur un disque, afin "
-"d'économiser les mémoires flash. Quand Toutou fonctionne dans un PUPMODE "
-"différent, vous avez une icône 'save' sur le bureau, une sauvegarde est "
-"effectuée aussi lors de l'arrêt du PC. Vous pouvez aussi spécifier une "
-"sauvegarde périodique ici:"
+msgid "If it is an odd number, for example 13, then Puppy is doing everything in RAM and saving the current session to a drive periodically -- this is done in the case of Flash memory to make it last longer. When Puppy runs in an odd PUPMODE, there will be a 'save' icon on the desktop, also a save occurs at shutdown. You can also specify a periodic save here"
+msgstr "Si c'est un nombre impair, par exemple 13, Toutou fait tout en RAM et enregistre la session en cours périodiquement sur un disque, afin d'économiser les mémoires flash. Quand Toutou fonctionne dans un PUPMODE différent, vous avez une icône 'save' sur le bureau, une sauvegarde est effectuée aussi lors de l'arrêt du PC. Vous pouvez aussi spécifier une sauvegarde périodique ici:"
 
 #: eventmanager.sh:109
 msgid "Note!"
-msgstr ""
+msgstr "Note!"
 
 #: eventmanager.sh:109
 #, fuzzy
-msgid ""
-"PUPMODE=77 (multisession DVD) excluded, only manual save with desktop icon "
-"and at shutdown."
-msgstr ""
-"NOTE1: PUPMODE=77 (DVD multisession) exclu, sauvegarde avec l'icône du "
-"bureau ou à la fermeture seulement."
+msgid "PUPMODE=77 (multisession DVD) excluded, only manual save with desktop icon and at shutdown."
+msgstr "NOTE1: PUPMODE=77 (DVD multisession) exclu, sauvegarde avec l'icône du bureau ou à la fermeture seulement."
 
 #: eventmanager.sh:109
 #, fuzzy
 msgid "PUPMODE=5 there are no saves, above value ignored."
-msgstr ""
-"NOTE2: PUPMODE=5 il n'y a pas de sauvegarde, la valeur ci-dessus est ignorée."
+msgstr "NOTE2: PUPMODE=5 il n'y a pas de sauvegarde, la valeur ci-dessus est ignorée."
 
 #: eventmanager.sh:114
 #, fuzzy
 msgid "Save interval (0=never)"
 msgstr "Intervalle de sauvegarde (0=jamais):"
 
-#: eventmanager.sh:123 eventmanager.sh:287
+#: eventmanager.sh:123
+#: eventmanager.sh:287
 msgid "minutes"
 msgstr "minutes"
 
@@ -148,12 +125,11 @@ msgstr ""
 
 #: eventmanager.sh:136
 msgid "(if unticked, session will be saved automatically)"
-msgstr ""
+msgstr "(si non coché, la session sera sauvegardée automatiquement)"
 
 #: eventmanager.sh:144
-#, fuzzy
 msgid "Show Icons"
-msgstr "Icônes du bureau"
+msgstr "Afficher les icônes"
 
 #: eventmanager.sh:144
 msgid "Icon Handler"
@@ -161,39 +137,27 @@ msgstr "Gestion d'icône"
 
 #: eventmanager.sh:144
 msgid "Floppy drive"
-msgstr ""
+msgstr "Disquette"
 
 #: eventmanager.sh:145
 msgid "Drive icons on desktop"
 msgstr "Icônes des disques du bureau"
 
 #: eventmanager.sh:147
-msgid ""
-"When this box is ticked, there will be an icon for each drive. If you plugin "
-"a USB pen drive for example, an icon will appear. Unplug and it will "
-"disappear. If you don't want these drive icons on the desktop, untick this "
-"box (but there will still remain just one icon that will launch Pmount when "
-"clicked on). The individual drive icons are purely a convenience and Puppy "
-"works fine without them."
-msgstr ""
-"Si cette case est cochée, une icône pour chaque disque présent dans votre "
-"système sera affichée. Si vous branchez une clé USB par exemple, une icône "
-"s'affichera. Débranchez-la et elle disparaîtra. Si vous ne voulez pas de ces "
-"icônes sur le bureau, décochez cette case (mais il restera encore une icône "
-"pour lancer Pmount en cliquant dessus). Les icônes individualisées par "
-"disque sont une simple commodité, Toutou/Puppy fonctionne très bien sans."
+msgid "When this box is ticked, there will be an icon for each drive. If you plugin a USB pen drive for example, an icon will appear. Unplug and it will disappear. If you don't want these drive icons on the desktop, untick this box (but there will still remain just one icon that will launch Pmount when clicked on). The individual drive icons are purely a convenience and Puppy works fine without them."
+msgstr "Quand cette case est cochée, une icône pour chaque disque présent dans votre système sera affichée. Si vous branchez une clé USB par exemple, une icône s'affichera. Débranchez-la et elle disparaîtra. Si vous ne voulez pas de ces icônes sur le bureau, décochez cette case (mais il restera encore une icône pour lancer Pmount en cliquant dessus). Les icônes individualisées par disque sont une simple commodité, Toutou/Puppy fonctionne très bien sans."
 
 #: eventmanager.sh:154
 msgid "Show desktop icons for each DRIVE"
-msgstr ""
+msgstr "Afficher les icônes du bureau pour chaque DISQUE"
 
 #: eventmanager.sh:172
 msgid "Show desktop icons for each PARTITION"
-msgstr ""
+msgstr "Afficher les icônes du bureau pour chaque PARTITION"
 
 #: eventmanager.sh:179
 msgid "Show labels for each PARTITION"
-msgstr ""
+msgstr "Afficher les libellés pour chaque PARTITION"
 
 #: eventmanager.sh:184
 #, fuzzy
@@ -202,7 +166,7 @@ msgstr "Cochez pour effacer puis redessiner et réaligner les icônes existantes
 
 #: eventmanager.sh:195
 msgid "Placement: "
-msgstr ""
+msgstr "Emplacement:"
 
 #: eventmanager.sh:207
 msgid "Start gap: "
@@ -214,7 +178,7 @@ msgstr ""
 
 #: eventmanager.sh:221
 msgid "Spacing: "
-msgstr ""
+msgstr "Espacement:"
 
 #: eventmanager.sh:234
 msgid "Drive 'handler'"
@@ -222,34 +186,17 @@ msgstr "'Manipulateur' de disque"
 
 #: eventmanager.sh:236
 #, fuzzy
-msgid ""
-"The 'handler' decides what to do when you click on a desktop drive icon. "
-"Normally, this just starts Pmount if you click on a drive icon. For "
-"partitions, it mounts and shows content in a file browser. This behavior can "
-"be extended..."
-msgstr ""
-"Le 'manipulateur' décide ce qu'il faut faire quand vous cliquez sur une "
-"icône du bureau. Normalement, si vous cliquez sur une icône cela lance "
-"Pmount, ou monte et lance ROX-Filer si c'est une icône de partition. Mais ce "
-"comportement peut être étendu par ces cases à cocher."
+msgid "The 'handler' decides what to do when you click on a desktop drive icon. Normally, this just starts Pmount if you click on a drive icon. For partitions, it mounts and shows content in a file browser. This behavior can be extended..."
+msgstr "Le 'manipulateur' décide ce qu'il faut faire quand vous cliquez sur une icône du bureau. Normalement, si vous cliquez sur une icône cela lance Pmount, ou monte et lance ROX-Filer si c'est une icône de partition. Mais ce comportement peut être étendu par ces cases à cocher."
 
 #: eventmanager.sh:239
 msgid "Auto-play video-DVD and audio-CD"
-msgstr ""
+msgstr "Jouer automatiquement les DVD-Vidéo et CD-Audio"
 
 #: eventmanager.sh:247
 #, fuzzy
-msgid ""
-"Normally you have to click on a drive icon to run the 'handler', but this "
-"checkbox makes the 'handler' run as soon as a media is plugged in. For "
-"example, plug in a DVD and it will immediately either get mounted, or if the "
-"above checkbox is ticked the media player will run."
-msgstr ""
-"Normalement, vous devez cliquer sur une icône pour lancer le 'manipulateur', "
-"mais cette case à cocher lance le 'manipulateur' dès que le média est "
-"branché. Par exemple, branchez un DVD, il va immédiatement être monté, ou, "
-"si la case au-dessus est cochée, il va lancer automatiquement le lecteur "
-"multimédia pour lire le DVD:"
+msgid "Normally you have to click on a drive icon to run the 'handler', but this checkbox makes the 'handler' run as soon as a media is plugged in. For example, plug in a DVD and it will immediately either get mounted, or if the above checkbox is ticked the media player will run."
+msgstr "Normalement, vous devez cliquer sur une icône pour lancer le 'manipulateur', mais cette case à cocher lance le 'manipulateur' dès que le média est branché. Par exemple, branchez un DVD, il va immédiatement être monté, ou, si la case au-dessus est cochée, il va lancer automatiquement le lecteur multimédia pour lire le DVD:"
 
 #: eventmanager.sh:250
 #, fuzzy
@@ -257,20 +204,8 @@ msgid "Auto-launch 'handler' when media plugged in"
 msgstr "Cochez pour le lancement automatique lorsque un média est branché"
 
 #: eventmanager.sh:261
-msgid ""
-"Linux does not support hotplug detection of when a legacy floppy diskette is "
-"inserted or removed. Periodic probing requires starting the drive motor, "
-"which is very slow -- and do you want the motor to startup every 4 seconds? "
-"Therefore, if your PC has a floppy drive, tick this box to have a permanent "
-"icon on desktop (regardless whether a diskette is actually inserted, or even "
-"a floppy drive!)."
-msgstr ""
-"Linux ne prend pas en charge la détection à chaud lors du branchement "
-"(débranchement) d'une disquette. La recherche périodique exige le lancement "
-"du moteur de disquette, qui est très lent - voulez-vous le lancement du "
-"moteur toutes les 4 secondes? Si votre PC possède un lecteur de disquettes, "
-"cochez cette case pour avoir une icône permanente sur le bureau "
-"(indifféremment pour une disquette insérée, ou un lecteur de disquette!)."
+msgid "Linux does not support hotplug detection of when a legacy floppy diskette is inserted or removed. Periodic probing requires starting the drive motor, which is very slow -- and do you want the motor to startup every 4 seconds? Therefore, if your PC has a floppy drive, tick this box to have a permanent icon on desktop (regardless whether a diskette is actually inserted, or even a floppy drive!)."
+msgstr "Linux ne prend pas en charge la détection à chaud lors du branchement (débranchement) d'une disquette. La recherche périodique exige le lancement du moteur de disquette, qui est très lent - voulez-vous le lancement du moteur toutes les 4 secondes? Si votre PC possède un lecteur de disquettes, cochez cette case pour avoir une icône permanente sur le bureau (indifféremment pour une disquette insérée, ou un lecteur de disquette!)."
 
 #: eventmanager.sh:265
 #, fuzzy
@@ -279,14 +214,8 @@ msgstr "Cochez pour une icône de disquette sur le bureau"
 
 #: eventmanager.sh:277
 #, fuzzy
-msgid ""
-"Puppy is able to power-off your computer after a period of mouse inactivity. "
-"This will occur if the mouse cursor has not been moved for the designated "
-"interval."
-msgstr ""
-"Toutou/Puppy peut éteindre votre ordinateur après une période d'inactivité "
-"de la souris. Cela arrivera lorsque le curseur de la souris sera resté "
-"immobile pendant une durée déterminée:"
+msgid "Puppy is able to power-off your computer after a period of mouse inactivity. This will occur if the mouse cursor has not been moved for the designated interval."
+msgstr "Toutou/Puppy peut éteindre votre ordinateur après une période d'inactivité de la souris. Cela arrivera lorsque le curseur de la souris sera resté immobile pendant une durée déterminée:"
 
 #: eventmanager.sh:282
 #, fuzzy
@@ -299,11 +228,11 @@ msgstr "Relancez X pour activer les changements"
 
 #: eventmanager.sh:299
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: eventmanager.sh:304
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #~ msgid "Event Manager: Desktop drive icons"
 #~ msgstr "Event Manager: Icones des disques du bureau"

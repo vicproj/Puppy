@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:44+0200\n"
-"PO-Revision-Date: 2014-01-22 10:41+0100\n"
-"Last-Translator: EsmourguitE <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-08 18:51+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -27,37 +27,42 @@ msgstr "L'icône n'existe plus"
 msgid "Save icon in"
 msgstr "Enregsitrer l'icône dans"
 
-#: iconfinder.sh:168 iconfinder.sh:630
+#: iconfinder.sh:168
+#: iconfinder.sh:630
 msgid "Create new list"
 msgstr "Créer une nouvelle liste"
 
-#: iconfinder.sh:171 iconfinder.sh:298 iconfinder.sh:633
+#: iconfinder.sh:171
+#: iconfinder.sh:298
+#: iconfinder.sh:633
 msgid "GTK stock icons"
 msgstr "Icônes de GTK stock"
 
-#: iconfinder.sh:174 iconfinder.sh:410 iconfinder.sh:636
+#: iconfinder.sh:174
+#: iconfinder.sh:410
+#: iconfinder.sh:636
 msgid "Settings"
 msgstr "Paramètres"
 
-#: iconfinder.sh:177 iconfinder.sh:275 iconfinder.sh:639
+#: iconfinder.sh:177
+#: iconfinder.sh:275
+#: iconfinder.sh:639
 msgid "About"
 msgstr "À propos"
 
-#: iconfinder.sh:181 iconfinder.sh:643
+#: iconfinder.sh:181
+#: iconfinder.sh:643
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
-#: iconfinder.sh:184 iconfinder.sh:646
+#: iconfinder.sh:184
+#: iconfinder.sh:646
 msgid "Menu"
 msgstr "Menu"
 
 #: iconfinder.sh:187
-msgid ""
-"Hover an icon for additional info. Click an icon to locate it using ROX-"
-"Filer."
-msgstr ""
-"Survolez une icône pour plus d'informations. Cliquez sur une icône pour la "
-"localiser avec ROX-Filer."
+msgid "Hover an icon for additional info. Click an icon to locate it using ROX-Filer."
+msgstr "Survolez une icône pour plus d'informations. Cliquez sur une icône pour la localiser avec ROX-Filer."
 
 #: iconfinder.sh:193
 msgid "Searching for images, please wait..."
@@ -168,17 +173,20 @@ msgid "It may take some time, so be patient."
 msgstr "Cela peut prendre du temps, soyez patient."
 
 #: iconfinder.sh:678
-msgid "The list of icons is probably corrupted.\\nDelete it and start over?"
+msgid ""
+"The list of icons is probably corrupted.\\n"
+"Delete it and start over?"
 msgstr ""
-"La liste des icônes est probablement corrompue.\\nLa supprimer et "
-"recommencer?"
+"La liste des icônes est probablement corrompue.\\n"
+"La supprimer et recommencer?"
 
 #: iconfinder.sh:690
 msgid ""
-"The list of icons is probably too long and Icon Finder has crashed.\\n(Tip: "
-"increase number of columns and/or amend search parameters.)\\nDelete the "
-"list and start over?"
+"The list of icons is probably too long and Icon Finder has crashed.\\n"
+"(Tip: increase number of columns and/or amend search parameters.)\\n"
+"Delete the list and start over?"
 msgstr ""
 "La liste des icônes est probablement trop longue et Icon Finder a planté.\\n"
-"(Astuce: augmenter le nombre des colonnes et/ou modifier les paramètres de "
-"recherche.)\\nSupprimer la liste et recommencer?"
+"(Astuce: augmenter le nombre des colonnes et/ou modifier les paramètres de recherche.)\\n"
+"Supprimer la liste et recommencer?"
+

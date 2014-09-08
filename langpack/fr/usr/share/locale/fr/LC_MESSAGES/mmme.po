@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: mmme 0.0.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:54+0200\n"
-"PO-Revision-Date: 2014-04-29 18:45+0200\n"
-"Last-Translator: ASRI <root@localhost>\n"
+"PO-Revision-Date: 2014-09-08 18:49+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -35,27 +35,20 @@ msgstr ""
 "- Versions précédentes : par $AuthorPreviousVersions.\n"
 "- Version originale : par $AuthorOriginalVersion."
 
-#: mmme-bin.sh:74 mmme-bin.sh:84
+#: mmme-bin.sh:74
+#: mmme-bin.sh:84
 msgid "Please, select an entry in the list."
 msgstr "Veuillez sélectionner une entrée dans la liste."
 
 #: mmme-bin.sh:138
 #, sh-format
-msgid ""
-"Click on the entry you want to remove from the main menu of $DISTRO_NAME "
-"$DISTRO_VERSION."
-msgstr ""
-"Cliquez sur l'entrée que vous souhaitez supprimer du menu principal de "
-"$DISTRO_NAME $DISTRO_VERSION."
+msgid "Click on the entry you want to remove from the main menu of $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Cliquez sur l'entrée que vous souhaitez supprimer du menu principal de $DISTRO_NAME $DISTRO_VERSION."
 
 #: mmme-bin.sh:139
 #, sh-format
-msgid ""
-"Click on the entry you want to restore in the main menu of $DISTRO_NAME "
-"$DISTRO_VERSION."
-msgstr ""
-"Cliquez sur l'entrée que vous souhaitez restaurer au menu principal de "
-"$DISTRO_NAME $DISTRO_VERSION."
+msgid "Click on the entry you want to restore in the main menu of $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Cliquez sur l'entrée que vous souhaitez restaurer au menu principal de $DISTRO_NAME $DISTRO_VERSION."
 
 #: mmme-bin.sh:140
 msgid "Click to sort items of the list"
@@ -87,14 +80,12 @@ msgstr "Version et auteurs de $AppTitle01."
 #: mmme-bin.sh:199
 #, sh-format
 msgid "Refresh main menu and taskbar of $DISTRO_NAME $DISTRO_VERSION."
-msgstr ""
-"Rafraîchir le menu principal et la barre des tâches de $DISTRO_NAME "
-"$DISTRO_VERSION."
+msgstr "Rafraîchir le menu principal et la barre des tâches de $DISTRO_NAME $DISTRO_VERSION."
 
 #: mmme-bin.sh:204
 #, sh-format
 msgid "Quit $AppTitle01 and apply modifications."
-msgstr ""
+msgstr "Quitter $AppTitle01 et valider les modifications."
 
 #: mmme.sh:22
 #, sh-format

@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 
 #: ipinfo.sh:29
 msgid "<b>External IP</b> (via icanhazip.com):"
-msgstr ""
+msgstr "<b>IP externe</b> (via icanhazip.com):"
 
 #: ipinfo.sh:48
 msgid "Hostname:"
@@ -28,11 +28,11 @@ msgstr "Aucune extension sans fil détectée."
 
 #: ipinfo.sh:100
 msgid "Query icanhazip.com for your external IP "
-msgstr ""
+msgstr "Demander à icanhazip.com votre IP externe"
 
 #: ipinfo.sh:104
 msgid "Get information about icanhazip.com"
-msgstr ""
+msgstr "Obtenir des informations sur icanhazip.com"
 
 #: ipinfo.sh:125
 #, fuzzy
@@ -73,7 +73,7 @@ msgstr "Statistiques du réseau:"
 
 #: ipinfo.sh:136
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: ipinfo.sh:162
 msgid "Please wait, probing..."

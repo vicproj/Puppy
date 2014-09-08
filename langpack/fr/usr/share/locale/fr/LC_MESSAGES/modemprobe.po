@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:54+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -19,37 +19,24 @@ msgid "PORT: /dev/modem is currently linked to port"
 msgstr "PORT: /dev/modem est actuellement lié au port"
 
 #: modemprobe.sh:49
-msgid ""
-"Well, Puppy did not detect anything at bootup, so if the modem was turned-on "
-"then it probably is not supported by any of the drivers in Puppy. Tough, you "
-"need to get another modem -- an old serial modem is best. There are some USB "
-"modems that work well."
-msgstr ""
-"Rien n' a été détecté. Si le modem est allumé, sans doute n'est-il pas pris "
-"en charge par l'un des pilotes. Essayez-en un autre, le mieux c'est un vieux "
-"modem série. Certains modems USB vont bien."
+msgid "Well, Puppy did not detect anything at bootup, so if the modem was turned-on then it probably is not supported by any of the drivers in Puppy. Tough, you need to get another modem -- an old serial modem is best. There are some USB modems that work well."
+msgstr "Rien n' a été détecté. Si le modem est allumé, sans doute n'est-il pas pris en charge par l'un des pilotes. Essayez-en un autre, le mieux c'est un vieux modem série. Certains modems USB vont bien."
 
 #: modemprobe.sh:52
 msgid "Puppy did detect a modem at bootup, and loaded this driver:"
 msgstr "Un modem a été détecté au démarrage et ce pilote a été chargé :"
 
 #: modemprobe.sh:56
-msgid ""
-"Puppy detected more than one modem at bootup and and loaded these drivers:"
-msgstr ""
-"Plusieurs modem ont été détectés au démarrage et ces pilotes ont été chargés:"
+msgid "Puppy detected more than one modem at bootup and and loaded these drivers:"
+msgstr "Plusieurs modem ont été détectés au démarrage et ces pilotes ont été chargés:"
 
 #: modemprobe.sh:64
 msgid "PupDial modem selection"
 msgstr "PupDial sélection de modem"
 
 #: modemprobe.sh:66
-msgid ""
-"Most modems are autodetected by Puppy at bootup, but it has to be turned on! "
-"(or plugged in)."
-msgstr ""
-"La plupart des modems sont détectés au démarrage, à condition d'être allumés "
-"(ou branchés)."
+msgid "Most modems are autodetected by Puppy at bootup, but it has to be turned on! (or plugged in)."
+msgstr "La plupart des modems sont détectés au démarrage, à condition d'être allumés (ou branchés)."
 
 #: modemprobe.sh:67
 msgid "Automatic probing"
@@ -65,54 +52,27 @@ msgstr "Test manuel"
 
 #: modemprobe.sh:72
 #, fuzzy
-msgid ""
-"This will use the 'wvdialconf' program to <b>automatically probe and setup a "
-"modem</b> for use by PupDial. If successful will create or update /etc/"
-"wvdial.conf and will set /dev/modem as a link to the correct modem port."
-msgstr ""
-"Cliquez ici pour utiliser 'wvdialconf' afin de tester et paramétrer "
-"automatiquement un modem à utiliser avec PupDial. En cas de succès, cela "
-"créera (ou mettra à jour) /etc/wvdial.conf et liera /dev/modem vers le port "
-"du modem:"
+msgid "This will use the 'wvdialconf' program to <b>automatically probe and setup a modem</b> for use by PupDial. If successful will create or update /etc/wvdial.conf and will set /dev/modem as a link to the correct modem port."
+msgstr "Cliquez ici pour utiliser 'wvdialconf' afin de tester et paramétrer automatiquement un modem à utiliser avec PupDial. En cas de succès, cela créera (ou mettra à jour) /etc/wvdial.conf et liera /dev/modem vers le port du modem:"
 
 #: modemprobe.sh:76
 msgid "Probe"
-msgstr ""
+msgstr "Tester"
 
 #: modemprobe.sh:92
 #, fuzzy
-msgid ""
-"<b>Blacklist</b> a modem module. Note that you will then have to click the "
-"ERASE button, then reboot Puppy so that autodetection can re-occur."
-msgstr ""
-"Cliquez ici pour mettre un module en Liste Noire. Vous devrez cliquer sur le "
-"bouton EFFACER puis vous devrez redémarrer le PC pour la reprise de la "
-"détection automatique."
+msgid "<b>Blacklist</b> a modem module. Note that you will then have to click the ERASE button, then reboot Puppy so that autodetection can re-occur."
+msgstr "Cliquez ici pour mettre un module en Liste Noire. Vous devrez cliquer sur le bouton EFFACER puis vous devrez redémarrer le PC pour la reprise de la détection automatique."
 
 #: modemprobe.sh:101
 #, fuzzy
-msgid ""
-"<b>Erase</b> current modem settings. This will delete /dev/modem thus "
-"allowing a fresh auto-probe and will cancel the 'Modem' entry in /etc/wvdial."
-"conf. CLICKING THIS BUTTON WILL CAUSE EXIT FROM PupDial. A REBOOT WILL THEN "
-"BE REQUIRED TO PROPERLY RE-DETECT INTERNAL MODEMS (for external modem not "
-"essential to reboot)"
-msgstr ""
-"Cliquez ici pour supprimer les paramètres. Cela va supprimer /dev/modem, "
-"puis lancera un test automatique au démarrage et effacera l'entrée 'Modem' "
-"de /etc/wvdial.conf.                 CLIQUER SUR 'EFFACER' ENTRAINERA LA "
-"SORTIE DE PUPDIAL.  UN REDEMARRAGE PERMETTRA DE DETECTER PROPREMENT LES "
-"MODEMS INTERNES                                               (rédémarrage "
-"non indispensable pour les modems externes)."
+msgid "<b>Erase</b> current modem settings. This will delete /dev/modem thus allowing a fresh auto-probe and will cancel the 'Modem' entry in /etc/wvdial.conf. CLICKING THIS BUTTON WILL CAUSE EXIT FROM PupDial. A REBOOT WILL THEN BE REQUIRED TO PROPERLY RE-DETECT INTERNAL MODEMS (for external modem not essential to reboot)"
+msgstr "Cliquez ici pour supprimer les paramètres. Cela va supprimer /dev/modem, puis lancera un test automatique au démarrage et effacera l'entrée 'Modem' de /etc/wvdial.conf.                 CLIQUER SUR 'EFFACER' ENTRAINERA LA SORTIE DE PUPDIAL.  UN REDEMARRAGE PERMETTRA DE DETECTER PROPREMENT LES MODEMS INTERNES                                               (rédémarrage non indispensable pour les modems externes)."
 
 #: modemprobe.sh:117
 #, fuzzy
-msgid ""
-"If the 'Automatic probe' for some reason didn't satisfy you, consider some "
-"manual probing..."
-msgstr ""
-"Le bouton TESTER effectue un test automatique. Mais si cela ne vous convient "
-"pas vous pouvez effectuer un test manuel..."
+msgid "If the 'Automatic probe' for some reason didn't satisfy you, consider some manual probing..."
+msgstr "Le bouton TESTER effectue un test automatique. Mais si cela ne vous convient pas vous pouvez effectuer un test manuel..."
 
 #: modemprobe.sh:119
 msgid "Serial hardware modem"
@@ -120,59 +80,28 @@ msgstr "Modem série matériel"
 
 #: modemprobe.sh:122
 #, fuzzy
-msgid ""
-"If you have a true-hardware external serial or internal ISA card (or in some "
-"rare cases an internal PCI card), or think you might, click a button to "
-"probe. Note that 'ttyS0' is the same as 'com1' in DOS/Windows. Note also, "
-"'ttyS0' is the most likely port, unless you have some other serial device "
-"such as a mouse. If the test is succesful then you will be offered to set /"
-"dev/modem and basic setup of /etc/wvdial.conf. (Note that these modems are "
-"not autodetected at bootup by Puppy, but are probed by the automatic "
-"probing.)"
-msgstr ""
-"Si vous avez un modem série externe, une carte ISA ou même une carte PCI, ou "
-"pensez en avoir, cliquez sur un des boutons pour tester. ('ttyS0' est pareil "
-"que 'com1' sous DOS/Windows). N.B. 'ttyS0' est le plus probable, sauf si "
-"vous avez un autre périphérique série (ex : une souris). Si le test réussit, "
-"il vous sera proposé de l'enregistrer dans /dev/modem et de configurer /etc/"
-"wvdial.conf. (ces modems ne sont pas détectés automatiquement au démarrage, "
-"mais par le test automatique lancé par le bouton TESTER ci-dessus)"
+msgid "If you have a true-hardware external serial or internal ISA card (or in some rare cases an internal PCI card), or think you might, click a button to probe. Note that 'ttyS0' is the same as 'com1' in DOS/Windows. Note also, 'ttyS0' is the most likely port, unless you have some other serial device such as a mouse. If the test is succesful then you will be offered to set /dev/modem and basic setup of /etc/wvdial.conf. (Note that these modems are not autodetected at bootup by Puppy, but are probed by the automatic probing.)"
+msgstr "Si vous avez un modem série externe, une carte ISA ou même une carte PCI, ou pensez en avoir, cliquez sur un des boutons pour tester. ('ttyS0' est pareil que 'com1' sous DOS/Windows). N.B. 'ttyS0' est le plus probable, sauf si vous avez un autre périphérique série (ex : une souris). Si le test réussit, il vous sera proposé de l'enregistrer dans /dev/modem et de configurer /etc/wvdial.conf. (ces modems ne sont pas détectés automatiquement au démarrage, mais par le test automatique lancé par le bouton TESTER ci-dessus)"
 
 #: modemprobe.sh:162
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: modemprobe.sh:168
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: modemprobe.sh:190
 msgid "PupDial modem Internet dialer"
 msgstr "PupDial numéroteur de modem Internet"
 
 #: modemprobe.sh:192
-msgid ""
-"Before probing, a basic question: do you want to connect to the Internet "
-"using an internal fixed modem, or a removable (USB, serial, PCMCIA) modem?"
-msgstr ""
-"Avant de tester, une question basiqule : voulez-vous vous connecter à "
-"Internet en utilisant un modem interne fixe, ou un modem amovible (USB, "
-"série, PCMCIA)?"
+msgid "Before probing, a basic question: do you want to connect to the Internet using an internal fixed modem, or a removable (USB, serial, PCMCIA) modem?"
+msgstr "Avant de tester, une question basiqule : voulez-vous vous connecter à Internet en utilisant un modem interne fixe, ou un modem amovible (USB, série, PCMCIA)?"
 
 #: modemprobe.sh:193
-msgid ""
-"The reason for asking this, is an internal modem will have been detected at "
-"bootup, but a 'hotpluggable' external modem may not have have been detected "
-"if plugged in after bootup. Also, if you have both, say an internal analog "
-"dialup modem, plus a USB modem, PupDial may choose the wrong one -- ticking "
-"or unticking the checkbox here will avoid that confusion..."
-msgstr ""
-"La raison de cette question, c'est qu'un modem interne a été détecté, mais "
-"un modem externe 'montable à chaud'  peut ne pas avoir été détecté s'il a "
-"été branché après le démarrage. En outre, si vous avez à la fois, par "
-"exemple un modem RTC analogique interne et un modem USB, PupDial peut "
-"choisir le mauvais - cocher ou décocher la case ici afin déviter la "
-"confusion ..."
+msgid "The reason for asking this, is an internal modem will have been detected at bootup, but a 'hotpluggable' external modem may not have have been detected if plugged in after bootup. Also, if you have both, say an internal analog dialup modem, plus a USB modem, PupDial may choose the wrong one -- ticking or unticking the checkbox here will avoid that confusion..."
+msgstr "La raison de cette question, c'est qu'un modem interne a été détecté, mais un modem externe 'montable à chaud'  peut ne pas avoir été détecté s'il a été branché après le démarrage. En outre, si vous avez à la fois, par exemple un modem RTC analogique interne et un modem USB, PupDial peut choisir le mauvais - cocher ou décocher la case ici afin déviter la confusion ..."
 
 #: modemprobe.sh:194
 msgid "Tick checkbox if external modem"

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: oci 0.0.8\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2013-10-17 13:34-0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2014-09-08 18:46+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: ASRI\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,97 +12,82 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: oci-bin.sh:28 oci-install.sh:31 oci-pre-install.sh:24 oci.sh:22
+#: oci-bin.sh:28
+#: oci-install.sh:31
+#: oci-pre-install.sh:24
+#: oci.sh:22
 msgid "OCI"
 msgstr "OCI"
 
-#: oci-bin.sh:29 oci-install.sh:32 oci-pre-install.sh:25
+#: oci-bin.sh:29
+#: oci-install.sh:32
+#: oci-pre-install.sh:25
 msgid "(one click installer)"
 msgstr "(one click installer)"
 
-#: oci-bin.sh:31 oci-pre-install.sh:27
+#: oci-bin.sh:31
+#: oci-pre-install.sh:27
 msgid "A simplified method to install your operating system!"
 msgstr "Une méthode simplifiée pour installer votre système d'exploitation !"
 
-#: oci-bin.sh:119 oci-install.sh:164 oci-install.sh:188
+#: oci-bin.sh:119
+#: oci-install.sh:164
+#: oci-install.sh:188
 #, sh-format
 msgid ""
-"Installation stopped because $AppTitle01 $AppVersion could not find a hard "
-"drive.\\n\\nBefore reactivating $AppTitle01 $AppVersion, check that a hard "
-"drive is present in your computer."
+"Installation stopped because $AppTitle01 $AppVersion could not find a hard drive.\\n"
+"\\n"
+"Before reactivating $AppTitle01 $AppVersion, check that a hard drive is present in your computer."
 msgstr ""
-"L'installation s'est arrêtée car $AppTitle01 $AppVersion ne trouve pas de "
-"disque dur.\\n\\nAvant de réactiver $AppTitle01 $AppVersion, vérifiez qu'un "
-"disque dur est présent dans votre ordinateur."
+"L'installation s'est arrêtée car $AppTitle01 $AppVersion ne trouve pas de disque dur.\\n"
+"\\n"
+"Avant de réactiver $AppTitle01 $AppVersion, vérifiez qu'un disque dur est présent dans votre ordinateur."
 
 #: oci-bin.sh:262
 #, sh-format
 msgid ""
-"Currently, ${DISTRO_NAME} ${DISTRO_VERSION} is used with a pupmode=$PUPMODE."
-"\\n\\nThis type of use is not compatible with the installation process.\\n"
-"\\nTherefore, you must restart from a live CD-DVD-USB with the RAM option "
-"(puppy pfix=ram) in order to get a pupmode=5 (first use without backup)."
+"Currently, ${DISTRO_NAME} ${DISTRO_VERSION} is used with a pupmode=$PUPMODE.\\n"
+"\\n"
+"This type of use is not compatible with the installation process.\\n"
+"\\n"
+"Therefore, you must restart from a live CD-DVD-USB with the RAM option (puppy pfix=ram) in order to get a pupmode=5 (first use without backup)."
 msgstr ""
-"Actuellement, ${DISTRO_NAME} ${DISTRO_VERSION} utilise un pupmode=$PUPMODE."
-"\\n\\nCe type d'utilisation n'est pas compatible avec un processus "
-"d'installation.\\n\\nPar conséquent, vous devez redémarrer à partir d'un "
-"live CD-DVD-USB avec l'option RAM (puppy pfix=ram) afin d'utiliser un "
-"pupmode=5 (première utilisation sans sauvegarde)."
+"Actuellement, ${DISTRO_NAME} ${DISTRO_VERSION} utilise un pupmode=$PUPMODE.\\n"
+"\\n"
+"Ce type d'utilisation n'est pas compatible avec un processus d'installation.\\n"
+"\\n"
+"Par conséquent, vous devez redémarrer à partir d'un live CD-DVD-USB avec l'option RAM (puppy pfix=ram) afin d'utiliser un pupmode=5 (première utilisation sans sauvegarde)."
 
 #: oci-bin.sh:279
 #, sh-format
 msgid ""
-"Currently, ${DISTRO_NAME} ${DISTRO_VERSION} uses a non compatible support "
-"for simplified installation ($SupportDevice, $SupportFormat)\\n\\nTherefore, "
-"you must restart from a live CD-DVD-USB with the RAM option (puppy pfix=ram) "
-"in order to get a pupmode=5 (first use without backup)."
+"Currently, ${DISTRO_NAME} ${DISTRO_VERSION} uses a non compatible support for simplified installation ($SupportDevice, $SupportFormat)\\n"
+"\\n"
+"Therefore, you must restart from a live CD-DVD-USB with the RAM option (puppy pfix=ram) in order to get a pupmode=5 (first use without backup)."
 msgstr ""
-"Actuellement, ${DISTRO_NAME} ${DISTRO_VERSION} utilise un support non "
-"compatible avec l'installation simplifiée ($SupportDevice, $SupportFormat)\\n"
-"\\nPar conséquent, vous devez redémarrer à partir d'un live CD-DVD-USB avec "
-"l'option RAM (puppy pfix=ram) afin d'utiliser un pupmode=5 (première "
-"utilisation sans sauvegarde)."
+"Actuellement, ${DISTRO_NAME} ${DISTRO_VERSION} utilise un support non compatible avec l'installation simplifiée ($SupportDevice, $SupportFormat)\\n"
+"\\n"
+"Par conséquent, vous devez redémarrer à partir d'un live CD-DVD-USB avec l'option RAM (puppy pfix=ram) afin d'utiliser un pupmode=5 (première utilisation sans sauvegarde)."
 
 #: oci-bin.sh:310
 #, sh-format
-msgid ""
-"Your computer has more than $DefaultRamSize MB of RAM, therefore we "
-"recommend a $InstallMethodProposed installation with creation of a save file "
-"($SaveFileNameAndExt)."
-msgstr ""
-"Votre ordinateur possède plus de $DefaultRamSize Mo de RAM, par conséquent "
-"nous vous recommandons une installation $InstallMethodProposed avec création "
-"d'un fichier de sauvegarde ($SaveFileNameAndExt)."
+msgid "Your computer has more than $DefaultRamSize MB of RAM, therefore we recommend a $InstallMethodProposed installation with creation of a save file ($SaveFileNameAndExt)."
+msgstr "Votre ordinateur possède plus de $DefaultRamSize Mo de RAM, par conséquent nous vous recommandons une installation $InstallMethodProposed avec création d'un fichier de sauvegarde ($SaveFileNameAndExt)."
 
 #: oci-bin.sh:315
 #, sh-format
-msgid ""
-"Your computer has less than $DefaultRamSize MB of RAM, therefore we "
-"recommend a $InstallMethodProposed installation without creation of a save "
-"file ($SaveFileNameAndExt)."
-msgstr ""
-"Votre ordinateur possède moins de $DefaultRamSize Mo de RAM, par conséquent "
-"nous vous recommandons une installation $InstallMethodProposed sans création "
-"d'un fichier de sauvegarde ($SaveFileNameAndExt)."
+msgid "Your computer has less than $DefaultRamSize MB of RAM, therefore we recommend a $InstallMethodProposed installation without creation of a save file ($SaveFileNameAndExt)."
+msgstr "Votre ordinateur possède moins de $DefaultRamSize Mo de RAM, par conséquent nous vous recommandons une installation $InstallMethodProposed sans création d'un fichier de sauvegarde ($SaveFileNameAndExt)."
 
 #: oci-bin.sh:324
 #, sh-format
-msgid ""
-"Your computer has more than $DefaultRamSwap MB of RAM, therefore you do not "
-"need create a swap file."
-msgstr ""
-"Votre ordinateur possède plus de $DefaultRamSwap Mo de RAM, par conséquent "
-"nous n'avez pas besoin de créer un fichier swap."
+msgid "Your computer has more than $DefaultRamSwap MB of RAM, therefore you do not need create a swap file."
+msgstr "Votre ordinateur possède plus de $DefaultRamSwap Mo de RAM, par conséquent nous n'avez pas besoin de créer un fichier swap."
 
 #: oci-bin.sh:329
 #, sh-format
-msgid ""
-"Your computer has less than $DefaultRamSwap MB of RAM, therefore we "
-"recommend to create a swap file (size proposed = $SwapSizeProposed MB)."
-msgstr ""
-"Votre ordinateur possède moins de $DefaultRamSwap Mo de RAM, par conséquent "
-"nous vous recommandons de créer un fichier swap (taille proposée = "
-"$SwapSizeProposed Mo)."
+msgid "Your computer has less than $DefaultRamSwap MB of RAM, therefore we recommend to create a swap file (size proposed = $SwapSizeProposed MB)."
+msgstr "Votre ordinateur possède moins de $DefaultRamSwap Mo de RAM, par conséquent nous vous recommandons de créer un fichier swap (taille proposée = $SwapSizeProposed Mo)."
 
 #: oci-bin.sh:537
 msgid "Help and infos"
@@ -118,25 +103,13 @@ msgstr "Matériel et suggestions"
 
 #: oci-bin.sh:545
 #, sh-format
-msgid ""
-"We are $DATE and you want to make a simplified installation of "
-"${DISTRO_NAME} ${DISTRO_VERSION}."
-msgstr ""
-"Nous sommes $DATE et vous voulez effectuer une installation simplifiée de "
-"${DISTRO_NAME} ${DISTRO_VERSION}."
+msgid "We are $DATE and you want to make a simplified installation of ${DISTRO_NAME} ${DISTRO_VERSION}."
+msgstr "Nous sommes $DATE et vous voulez effectuer une installation simplifiée de ${DISTRO_NAME} ${DISTRO_VERSION}."
 
 #: oci-bin.sh:547
 #, sh-format
-msgid ""
-"Utility $AppTitle allows to install operating system with a simplified "
-"method that is intended for novice users, or pressed. For an installation "
-"with a complet choice of options, you must exit $AppTitle01 $AppVersion and "
-"start Puppy installer."
-msgstr ""
-"L'utilitaire $AppTitle vous permet d'installer votre système d'exploitation "
-"à l'aide d'une méthode simplifiée adaptée aux utilisateurs novices ou "
-"pressés. Pour une installation avec un choix complet des options, vous devez "
-"quitter $AppTitle01 $AppVersion et démarrer Puppy installer."
+msgid "Utility $AppTitle allows to install operating system with a simplified method that is intended for novice users, or pressed. For an installation with a complet choice of options, you must exit $AppTitle01 $AppVersion and start Puppy installer."
+msgstr "L'utilitaire $AppTitle vous permet d'installer votre système d'exploitation à l'aide d'une méthode simplifiée adaptée aux utilisateurs novices ou pressés. Pour une installation avec un choix complet des options, vous devez quitter $AppTitle01 $AppVersion et démarrer Puppy installer."
 
 #: oci-bin.sh:549
 #, sh-format
@@ -145,33 +118,18 @@ msgstr "<b>Important</b>"
 
 #: oci-bin.sh:550
 #, sh-format
-msgid ""
-"The simplified installation formats (erases) automatically all partitions of "
-"the main hard disk ($HDRV) of the computer. So you must save the files you "
-"want to keep (on $HDRV) before starting the simplified installation!"
-msgstr ""
-"L'installation simplifiée formate (efface) automatiquement toutes les "
-"partitions du disque dur principal ($HDRV) de l'ordinateur. Vous devez donc "
-"sauvegarder les fichiers que vous souhaitez conserver (sur $HDRV) avant de "
-"commencer l'installation simplifiée !"
+msgid "The simplified installation formats (erases) automatically all partitions of the main hard disk ($HDRV) of the computer. So you must save the files you want to keep (on $HDRV) before starting the simplified installation!"
+msgstr "L'installation simplifiée formate (efface) automatiquement toutes les partitions du disque dur principal ($HDRV) de l'ordinateur. Vous devez donc sauvegarder les fichiers que vous souhaitez conserver (sur $HDRV) avant de commencer l'installation simplifiée !"
 
 #: oci-bin.sh:551
 #, sh-format
-msgid ""
-"Simplified installation must be done from a live support (CD-DVD-USB) "
-"enabled with option RAM (puppy pfix=ram)."
-msgstr ""
-"L'installation simplifiée doit être activée à partir d'un support live (CD-"
-"DVD-USB) activé avec l'option RAM (puppy pfix=ram)."
+msgid "Simplified installation must be done from a live support (CD-DVD-USB) enabled with option RAM (puppy pfix=ram)."
+msgstr "L'installation simplifiée doit être activée à partir d'un support live (CD-DVD-USB) activé avec l'option RAM (puppy pfix=ram)."
 
 #: oci-bin.sh:553
 #, sh-format
-msgid ""
-"For more detailed help, click on Full help button. To suggest improvements "
-"or changes, use the $AppTitle forum."
-msgstr ""
-"Pour une aide plus détaillée, cliquez sur le bouton Aide complète. Pour "
-"proposer des améliorations ou des modifications, utilisez le forum $AppTitle."
+msgid "For more detailed help, click on Full help button. To suggest improvements or changes, use the $AppTitle forum."
+msgstr "Pour une aide plus détaillée, cliquez sur le bouton Aide complète. Pour proposer des améliorations ou des modifications, utilisez le forum $AppTitle."
 
 #: oci-bin.sh:560
 #, sh-format
@@ -180,18 +138,17 @@ msgstr "<u>Configuration matérielle de votre ordinateur</u>"
 
 #: oci-bin.sh:561
 #, sh-format
-msgid ""
-"Live support detected = $LiveSupportProposed ($SupportDevice, "
-"$SupportFormat)."
-msgstr ""
-"Support live détecté = $LiveSupportProposed ($SupportDevice, $SupportFormat)."
+msgid "Live support detected = $LiveSupportProposed ($SupportDevice, $SupportFormat)."
+msgstr "Support live détecté = $LiveSupportProposed ($SupportDevice, $SupportFormat)."
 
 #: oci-bin.sh:562
 #, sh-format
 msgid "Total size of host partition ($HDRV) = $HOSTSIZE MB"
 msgstr "Taille totale de la partition d'accueil ($HDRV) = $HOSTSIZE MB"
 
-#: oci-bin.sh:562 oci-bin.sh:564 oci-bin.sh:803
+#: oci-bin.sh:562
+#: oci-bin.sh:564
+#: oci-bin.sh:803
 #, sh-format
 msgid "GB)."
 msgstr "Go)."
@@ -223,12 +180,8 @@ msgstr "<u>Options proposées</u>"
 
 #: oci-bin.sh:568
 #, sh-format
-msgid ""
-"If you do not know what to do, you can usually trust options proposed by "
-"$AppTitle01 utility."
-msgstr ""
-"Si vous ne savez pas quoi faire, vous pouvez conserver les options proposées "
-"par l'utilitaire $AppTitle01."
+msgid "If you do not know what to do, you can usually trust options proposed by $AppTitle01 utility."
+msgstr "Si vous ne savez pas quoi faire, vous pouvez conserver les options proposées par l'utilitaire $AppTitle01."
 
 #: oci-bin.sh:570
 #, sh-format
@@ -265,6 +218,11 @@ msgid ""
 "Previous versions: by $AuthorPreviousVersions.\n"
 "Original version: by $AuthorOriginalVersion."
 msgstr ""
+"Version et auteurs de $AppTitle01\n"
+"\n"
+"Version utilisée: $AppVersion par $AuthorActualVersion.\n"
+"Versions précédentes: par $AuthorPreviousVersions.\n"
+"Version originale: par $AuthorOriginalVersion."
 
 #: oci-bin.sh:705
 #, sh-format
@@ -279,18 +237,13 @@ msgstr "Compression sfs"
 #, fuzzy, sh-format
 msgid ""
 "Select compression of the main sfs file ($MainSFSshort).\n"
-"This option is avaible only if you choice to keep config with frugal "
-"install.\n"
+"This option is avaible only if you choice to keep config with frugal install.\n"
 "\n"
-"Suggestion: xz+/xz = high compression (good choice for recent computer) ; "
-"gzip = light compression (good choice for old computer)."
+"Suggestion: xz+/xz = high compression (good choice for recent computer) ; gzip = light compression (good choice for old computer)."
 msgstr ""
-"Sélectionnez la compression du fichier sfs ($MainSFSshort). Remarque : cette "
-"option n'est disponible que si vous avez choisi de conserver la "
-"configuration lors d'une installation frugale (frugal).\n"
+"Sélectionnez la compression du fichier sfs ($MainSFSshort). Remarque : cette option n'est disponible que si vous avez choisi de conserver la configuration lors d'une installation frugale (frugal).\n"
 "\n"
-"Suggestion : xz = compression élevée (bon choix pour un ordinateur récent) ; "
-"gzip = compression légère (bon choix pour un ordinateur ancien)."
+"Suggestion : xz = compression élevée (bon choix pour un ordinateur récent) ; gzip = compression légère (bon choix pour un ordinateur ancien)."
 
 #: oci-bin.sh:744
 msgid "Simplified installation of operating system"
@@ -298,19 +251,8 @@ msgstr "Installation simplifiée du système d'exploitation"
 
 #: oci-bin.sh:748
 #, sh-format
-msgid ""
-"Read the Help, check options, then click on button Install now. <span "
-"color='#3272C0'><b>Important:</b></span> simplified installation will erase "
-"all partitions on the primary hard drive ($HDRV), so you must save the files "
-"you want to keep before clicking the Install button <span "
-"color='#3272C0'><b>!!!</b></span>"
-msgstr ""
-"Lisez l'aide, vérifiez les options, puis cliquez sur le bouton Installer. "
-"<span color='#3272C0'><b>Important :</b></span> l'installation simplifiée va "
-"formater (effacer) automatiquement toutes les partitions du disque dur "
-"principal ($HDRV), vous devez donc sauvegarder les fichiers que vous "
-"souhaitez conserver avant de cliquer sur le bouton Installer <span "
-"color='#3272C0'><b>!!!</b></span>"
+msgid "Read the Help, check options, then click on button Install now. <span color='#3272C0'><b>Important:</b></span> simplified installation will erase all partitions on the primary hard drive ($HDRV), so you must save the files you want to keep before clicking the Install button <span color='#3272C0'><b>!!!</b></span>"
+msgstr "Lisez l'aide, vérifiez les options, puis cliquez sur le bouton Installer. <span color='#3272C0'><b>Important :</b></span> l'installation simplifiée va formater (effacer) automatiquement toutes les partitions du disque dur principal ($HDRV), vous devez donc sauvegarder les fichiers que vous souhaitez conserver avant de cliquer sur le bouton Installer <span color='#3272C0'><b>!!!</b></span>"
 
 #: oci-bin.sh:751
 msgid "General options *"
@@ -324,18 +266,14 @@ msgstr "Support live"
 #, sh-format
 msgid ""
 "Select the live support you are currently using. \n"
-"This value corresponds to the source that you use to activate $DISTRO_NAME "
-"$DISTRO_VERSION (live USB/CD-DVD).\n"
+"This value corresponds to the source that you use to activate $DISTRO_NAME $DISTRO_VERSION (live USB/CD-DVD).\n"
 "\n"
-"Suggestion: select $LiveSupportProposed (your current live support is "
-"$SupportDevice, $SupportFormat)."
+"Suggestion: select $LiveSupportProposed (your current live support is $SupportDevice, $SupportFormat)."
 msgstr ""
 "Sélectionnez le support live que vous utilisez actuellement. \n"
-"Cette valeur correspond à la source que vous utilisez pour activer "
-"$DISTRO_NAME $DISTRO_VERSION (live USB/CD-DVD).\n"
+"Cette valeur correspond à la source que vous utilisez pour activer $DISTRO_NAME $DISTRO_VERSION (live USB/CD-DVD).\n"
 "\n"
-"Suggestion : sélectionnez $LiveSupportProposed (votre support live actuel "
-"est $SupportDevice, $SupportFormat)."
+"Suggestion : sélectionnez $LiveSupportProposed (votre support live actuel est $SupportDevice, $SupportFormat)."
 
 #: oci-bin.sh:769
 msgid "Keep config"
@@ -345,28 +283,18 @@ msgstr "Conserver configuration"
 #, sh-format
 msgid ""
 "Keep actual config, or abandon?\n"
-"Considered parameters: screen resolution, keyboard, mouse, country, time "
-"zone, hostname, firewall, date and time.\n"
+"Considered parameters: screen resolution, keyboard, mouse, country, time zone, hostname, firewall, date and time.\n"
 "\n"
-"Note: for a frugal installation, this option significantly extends the time "
-"of installation (because the sfs file is remastered/remake during "
-"installation), it allows you to have a fully configured sfs at the first "
-"reboot. If you are in a hurry, it is better not to select this option.\n"
+"Note: for a frugal installation, this option significantly extends the time of installation (because the sfs file is remastered/remake during installation), it allows you to have a fully configured sfs at the first reboot. If you are in a hurry, it is better not to select this option.\n"
 "\n"
 "Suggestion: usually, keep config is a good choice."
 msgstr ""
 "Conserver la configuration actuelle ou l'abandonner ?\n"
-" Paramètres pris en compte : configuration de l'affichage, clavier, souris, "
-"pays, zone horaire, nom d'hôte, pare-feu, jour et heure.\n"
+" Paramètres pris en compte : configuration de l'affichage, clavier, souris, pays, zone horaire, nom d'hôte, pare-feu, jour et heure.\n"
 "\n"
-"Remarque : dans le cas d'une installation frugale (frugal), cette option "
-"augmente significativement le temps d'installation (car le fichier sfs est "
-"remasterisé/reconstruit durant l'installation), cela vous permet de "
-"bénéficier d'un sfs configuré dès le premier redémarrage. Si vous êtes très "
-"pressé, il est préférable de ne pas sélectionner cette option.\n"
+"Remarque : dans le cas d'une installation frugale (frugal), cette option augmente significativement le temps d'installation (car le fichier sfs est remasterisé/reconstruit durant l'installation), cela vous permet de bénéficier d'un sfs configuré dès le premier redémarrage. Si vous êtes très pressé, il est préférable de ne pas sélectionner cette option.\n"
 "\n"
-"Suggestion : habituellement, la conservation de la configuration est un bon "
-"choix."
+"Suggestion : habituellement, la conservation de la configuration est un bon choix."
 
 #: oci-bin.sh:788
 msgid "Install method"
@@ -384,25 +312,15 @@ msgstr "Taille swap"
 #: oci-bin.sh:799
 #, sh-format
 msgid ""
-"Select the swap size (in MB). If you have a lot of RAM (over $DefaultRamSwap "
-"MB), you do not need swap (so you can select 0 MB). If you have little RAM, "
-"or if you use very resource-intensive applications, you need a swap file.\n"
+"Select the swap size (in MB). If you have a lot of RAM (over $DefaultRamSwap MB), you do not need swap (so you can select 0 MB). If you have little RAM, or if you use very resource-intensive applications, you need a swap file.\n"
 "\n"
-"The swap file is the virtual memory (this is used when the RAM is "
-"insufficient), its size depends on your hardware configuration, but also on "
-"your needs/habits.\n"
+"The swap file is the virtual memory (this is used when the RAM is insufficient), its size depends on your hardware configuration, but also on your needs/habits.\n"
 "\n"
 "Note: your RAM (random access memory) = $R MB"
 msgstr ""
-"Sélectionnez la taille du fichier swap (en Mo). Si vous avez beaucoup de RAM "
-"(plus de $DefaultRamSwap Mo), vous n'avez pas besoin d'un fichier swap (vous "
-"pouvez donc sélectionner 0 Mo). Si vous avez peu de RAM, ou si vous utilisez "
-"des applications très gourmandes en ressources, vous avez besoin d'un "
-"fichier swap.\n"
+"Sélectionnez la taille du fichier swap (en Mo). Si vous avez beaucoup de RAM (plus de $DefaultRamSwap Mo), vous n'avez pas besoin d'un fichier swap (vous pouvez donc sélectionner 0 Mo). Si vous avez peu de RAM, ou si vous utilisez des applications très gourmandes en ressources, vous avez besoin d'un fichier swap.\n"
 "\n"
-"Le fichier swap représente la mémoire virtuelle (cette mémoire est utilisée "
-"quand la RAM est insuffisante), la taille du swap dépend de votre "
-"configuration matérielle et de vos besoins/habitudes.\n"
+"Le fichier swap représente la mémoire virtuelle (cette mémoire est utilisée quand la RAM est insuffisante), la taille du swap dépend de votre configuration matérielle et de vos besoins/habitudes.\n"
 "\n"
 "Remarque : votre RAM (mémoire vive) = $R Mo"
 
@@ -415,14 +333,11 @@ msgstr "Information utilisateur"
 msgid ""
 "Select the user information.\n"
 "\n"
-"Suggestion: usually silent is a good choice, select talkative if you want "
-"view details of the installation in a terminal."
+"Suggestion: usually silent is a good choice, select talkative if you want view details of the installation in a terminal."
 msgstr ""
 "Sélectionnez l'information utilisateur.\n"
 "\n"
-"Suggestion: habituellement l'option silent (silence) est un bon choix, "
-"sélectionnez talkative (bavard) si vous souhaitez afficher les détails de "
-"l'installation dans un terminal."
+"Suggestion: habituellement l'option silent (silence) est un bon choix, sélectionnez talkative (bavard) si vous souhaitez afficher les détails de l'installation dans un terminal."
 
 #: oci-bin.sh:828
 msgid "Host format"
@@ -432,14 +347,12 @@ msgstr "Format hôte"
 #, sh-format
 msgid ""
 "Select the future desired format for host device ($HDRV)\n"
-"To install $DISTRO_NAME $DISTRO_VERSION, only the Linux formats are "
-"supported (ext*).\n"
+"To install $DISTRO_NAME $DISTRO_VERSION, only the Linux formats are supported (ext*).\n"
 "\n"
 "Suggestion: usually, ext3 is a good choice."
 msgstr ""
 "Sélectionnez le futur format du disque hôte ($HDRV).\n"
-"Pour l'installation de $DISTRO_NAME $DISTRO_VERSION, seuls les formats Linux "
-"sont supportés (ext*).\n"
+"Pour l'installation de $DISTRO_NAME $DISTRO_VERSION, seuls les formats Linux sont supportés (ext*).\n"
 "\n"
 "Suggestion : habituellement, ext3 est un bon choix."
 
@@ -455,21 +368,13 @@ msgstr "Création fichier de sauvegarde"
 #: oci-bin.sh:858
 #, sh-format
 msgid ""
-"Click here to create automatically a save file (personnal storage file). In "
-"the case of frugal use or live with save file, the save file "
-"($SaveFileNameAndExt) will be usable at the next reboot.\n"
-"The save file will be automatically create in folder where you installed/"
-"saved $DISTRO_NAME $DISTRO_VERSION files.\n"
+"Click here to create automatically a save file (personnal storage file). In the case of frugal use or live with save file, the save file ($SaveFileNameAndExt) will be usable at the next reboot.\n"
+"The save file will be automatically create in folder where you installed/saved $DISTRO_NAME $DISTRO_VERSION files.\n"
 "\n"
 "Suggestion: create a save file is a good choice."
 msgstr ""
-"Ciquez ici pour créer automatiquement un fichier de sauvegarde (fichier de "
-"sauvegarde des données de l'utilisateur). Dans le cas d'une installation "
-"frugale (frugal) ou d'une utilisation live avec fichier de sauvegarde, le "
-"fichier de sauvegarde ($SaveFileNameAndExt) sera utilisable dès le prochain "
-"redémarrage.\n"
-"Le fichier de sauvegarde sera créé dans le dossier où vous avez installé/"
-"sauvegardé les fichiers de $DISTRO_NAME $DISTRO_VERSION.\n"
+"Ciquez ici pour créer automatiquement un fichier de sauvegarde (fichier de sauvegarde des données de l'utilisateur). Dans le cas d'une installation frugale (frugal) ou d'une utilisation live avec fichier de sauvegarde, le fichier de sauvegarde ($SaveFileNameAndExt) sera utilisable dès le prochain redémarrage.\n"
+"Le fichier de sauvegarde sera créé dans le dossier où vous avez installé/sauvegardé les fichiers de $DISTRO_NAME $DISTRO_VERSION.\n"
 "\n"
 "Suggestion : créer un fichier de sauvegarde est un bon choix."
 
@@ -480,16 +385,13 @@ msgstr "Taille fichier de sauvegarde"
 #: oci-bin.sh:875
 #, sh-format
 msgid ""
-"Select the save file size (in MB). The save file size depends on your usage "
-"and needs.\n"
+"Select the save file size (in MB). The save file size depends on your usage and needs.\n"
 "For more information on using the save file, you can consult the forum.\n"
 "\n"
 "Suggestion: usualy, $DefaultPupsaveSize MB seems to be a good choice."
 msgstr ""
-"Sélectionnez la taille du fichier de sauvegarde (en Mo). La taille du "
-"fichier de sauvegarde dépend de vos besoins et de vos habitudes.\n"
-"Pour de plus amples informations sur l'utilisation du fichier de sauvegarde, "
-"vous pouvez consulter le forum.\n"
+"Sélectionnez la taille du fichier de sauvegarde (en Mo). La taille du fichier de sauvegarde dépend de vos besoins et de vos habitudes.\n"
+"Pour de plus amples informations sur l'utilisation du fichier de sauvegarde, vous pouvez consulter le forum.\n"
 "\n"
 "Suggestion : habituellement, $DefaultPupsaveSize Mo semble être un bon choix."
 
@@ -512,23 +414,13 @@ msgstr ""
 
 #: oci-bin.sh:909
 #, sh-format
-msgid ""
-"* options used for full and frugal installations  |  ** options only used "
-"for frugal installations"
-msgstr ""
-"* options utilisées avec les installations complète (full) et frugale "
-"(frugal)  |  ** options uniquement utilisées avec l'installation frugale "
-"(frugal)"
+msgid "* options used for full and frugal installations  |  ** options only used for frugal installations"
+msgstr "* options utilisées avec les installations complète (full) et frugale (frugal)  |  ** options uniquement utilisées avec l'installation frugale (frugal)"
 
 #: oci-bin.sh:915
 #, sh-format
-msgid ""
-"Click here to delete all partitions on primary hard drive ($HDRV) and start "
-"immediately the simplified installation of $DISTRO_NAME $DISTRO_VERSION."
-msgstr ""
-"Cliquez ici pour effacer toutes les partitions du disque dur principal "
-"($HDRV) et démarrer immédiatement l'installation simplifiée de $DISTRO_NAME "
-"$DISTRO_VERSION."
+msgid "Click here to delete all partitions on primary hard drive ($HDRV) and start immediately the simplified installation of $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Cliquez ici pour effacer toutes les partitions du disque dur principal ($HDRV) et démarrer immédiatement l'installation simplifiée de $DISTRO_NAME $DISTRO_VERSION."
 
 #: oci-bin.sh:917
 #, fuzzy
@@ -537,19 +429,13 @@ msgstr "Installer maintenant"
 
 #: oci-bin.sh:922
 #, fuzzy, sh-format
-msgid ""
-"Abort the simplified installation of $DISTRO_NAME $DISTRO_VERSION and "
-"activate Puppy installer to setup installation with a complete choice of "
-"options: multi-boot, etc."
-msgstr ""
-"Cliquez ici pour abandonner l'installation simplifiée de $DISTRO_NAME "
-"$DISTRO_VERSION et activer l'utilitaire Puppy installer afin de bénéficier "
-"d'un choix complet des options : multi-boot, etc."
+msgid "Abort the simplified installation of $DISTRO_NAME $DISTRO_VERSION and activate Puppy installer to setup installation with a complete choice of options: multi-boot, etc."
+msgstr "Cliquez ici pour abandonner l'installation simplifiée de $DISTRO_NAME $DISTRO_VERSION et activer l'utilitaire Puppy installer afin de bénéficier d'un choix complet des options : multi-boot, etc."
 
 #: oci-bin.sh:928
 #, sh-format
 msgid "Help for $AppTitle01."
-msgstr ""
+msgstr "Aide pour $AppTitle01."
 
 #: oci-bin.sh:933
 #, fuzzy, sh-format
@@ -559,59 +445,50 @@ msgstr "Version et auteurs"
 #: oci-bin.sh:938
 #, fuzzy, sh-format
 msgid "Reset/restore default configuration of $AppTitle01 $AppVersion."
-msgstr ""
-"Cliquez ici pour réinitialiser/restaurer la configuration par défaut de "
-"$AppTitle01 $AppVersion.\n"
+msgstr "Cliquez ici pour réinitialiser/restaurer la configuration par défaut de $AppTitle01 $AppVersion.\n"
 
 #: oci-bin.sh:946
 #, sh-format
 msgid "Quit $AppTitle01."
-msgstr ""
+msgstr "Quitter $AppTitle01."
 
 #: oci-install.sh:93
 #, sh-format
-msgid ""
-"Installation of ${DISTRO_NAME} ${DISTRO_VERSION} is in progress. Please, "
-"wait the end of the install process..."
-msgstr ""
-"L'installation de ${DISTRO_NAME} ${DISTRO_VERSION} a commencé. Veuillez "
-"attendre la fin du processus d'installation..."
+msgid "Installation of ${DISTRO_NAME} ${DISTRO_VERSION} is in progress. Please, wait the end of the install process..."
+msgstr "L'installation de ${DISTRO_NAME} ${DISTRO_VERSION} a commencé. Veuillez attendre la fin du processus d'installation..."
 
 #: oci-install.sh:123
 #, sh-format
 msgid ""
-"Installation stopped because the liveCD of $DISTRO_NAME $DISTRO_VERSION was "
-"not found.\\n\\nBefore reactivating $AppTitle01 $AppVersion, check that the "
-"liveCD is present in the main optical drive of the computer."
+"Installation stopped because the liveCD of $DISTRO_NAME $DISTRO_VERSION was not found.\\n"
+"\\n"
+"Before reactivating $AppTitle01 $AppVersion, check that the liveCD is present in the main optical drive of the computer."
 msgstr ""
-"L'installation s'est arrêtée car le liveCD de $DISTRO_NAME $DISTRO_VERSION "
-"n'a pas été trouvé.\\n\\nAvant de réactiver $AppTitle01 $AppVersion, "
-"vérifiez que le liveCD est présent dans le lecteur optique principal de "
-"votre ordinateur."
+"L'installation s'est arrêtée car le liveCD de $DISTRO_NAME $DISTRO_VERSION n'a pas été trouvé.\\n"
+"\\n"
+"Avant de réactiver $AppTitle01 $AppVersion, vérifiez que le liveCD est présent dans le lecteur optique principal de votre ordinateur."
 
 #: oci-install.sh:140
 #, sh-format
 msgid ""
-"Installation stopped because the liveUSB of $DISTRO_NAME $DISTRO_VERSION was "
-"not found.\\n\\nBefore reactivating $AppTitle01 $AppVersion, check that the "
-"liveUSB is connect to your computer."
+"Installation stopped because the liveUSB of $DISTRO_NAME $DISTRO_VERSION was not found.\\n"
+"\\n"
+"Before reactivating $AppTitle01 $AppVersion, check that the liveUSB is connect to your computer."
 msgstr ""
-"L'installation s'est arrêtée car le liveUSB de $DISTRO_NAME $DISTRO_VERSION "
-"n'a pas été trouvé.\\n\\nAvant de réactiver $AppTitle01 $AppVersion, "
-"vérifiez que le liveUSB est connecté à votre ordinateur."
+"L'installation s'est arrêtée car le liveUSB de $DISTRO_NAME $DISTRO_VERSION n'a pas été trouvé.\\n"
+"\\n"
+"Avant de réactiver $AppTitle01 $AppVersion, vérifiez que le liveUSB est connecté à votre ordinateur."
 
 #: oci-install.sh:211
 #, sh-format
 msgid ""
 "Installation stopped because something on drive $HDRV is still mounted!\\n"
-"\\nFirst, try to unmount the different partitions of $HDRV. If it does not "
-"work, reboot your computer using the option RAM (puppy pfix=ram), then "
-"reactive $AppTitle01 $AppVersion."
+"\\n"
+"First, try to unmount the different partitions of $HDRV. If it does not work, reboot your computer using the option RAM (puppy pfix=ram), then reactive $AppTitle01 $AppVersion."
 msgstr ""
-"L'installation s'est arrêtée car quelque chose sur le disque $HDRV est "
-"toujours monté !\\n\\nTout d'abord, essayer de démonter les différentes "
-"partitions de $HDRV. Si cela ne suffit pas, redémarrez l'ordinateur avec "
-"l'option RAM (puppy pfix=ram), puis relancez $AppTitle01 $AppVersion."
+"L'installation s'est arrêtée car quelque chose sur le disque $HDRV est toujours monté !\\n"
+"\\n"
+"Tout d'abord, essayer de démonter les différentes partitions de $HDRV. Si cela ne suffit pas, redémarrez l'ordinateur avec l'option RAM (puppy pfix=ram), puis relancez $AppTitle01 $AppVersion."
 
 #: oci-install.sh:242
 #, sh-format
@@ -626,117 +503,133 @@ msgstr "$CheckSwapSize Mo"
 #: oci-install.sh:542
 #, fuzzy, sh-format
 msgid ""
-"Summary of the simplified installation :\\n- $AppTitle01 version = "
-"$AppVersion\\n- install date = $DATE\\n- operating system = $DISTRO_NAME "
-"$DISTRO_VERSION\\n- kernel = $KERNEL\\n- install method = $CheckInstallMethod"
-"\\n- user information = $CheckUserInformation\\n- live support = "
-"$CheckLiveSupport\\n- host partition = $HDRV\\n- host format = "
-"$CheckDeviceFormat\\n- swap file = $SwapInfo \\n- keep config = "
-"$CheckKeepConfig"
+"Summary of the simplified installation :\\n"
+"- $AppTitle01 version = $AppVersion\\n"
+"- install date = $DATE\\n"
+"- operating system = $DISTRO_NAME $DISTRO_VERSION\\n"
+"- kernel = $KERNEL\\n"
+"- install method = $CheckInstallMethod\\n"
+"- user information = $CheckUserInformation\\n"
+"- live support = $CheckLiveSupport\\n"
+"- host partition = $HDRV\\n"
+"- host format = $CheckDeviceFormat\\n"
+"- swap file = $SwapInfo \\n"
+"- keep config = $CheckKeepConfig"
 msgstr ""
-"Résumé de l'installation simplifiée :\\n- version $AppTitle01 = $AppVersion"
-"\\n- date d'installation = $DATE\\n- système d'exploitation = $DISTRO_NAME "
-"$DISTRO_VERSION\\n- kernel = $KERNEL\\n- méthode d'installation = "
-"$CheckInstallMethod\\n- information utilisateur = $CheckUserInformation\\n- "
-"support live = $CheckLiveSupport\\n- partition hôte = $HDRV\\n- format hôte "
-"= $CheckDeviceFormat\\n- fichier swap = $CheckSwapSize Mo\\n- conserver "
-"configuration = $CheckKeepConfig"
+"Résumé de l'installation simplifiée :\\n"
+"- version $AppTitle01 = $AppVersion\\n"
+"- date d'installation = $DATE\\n"
+"- système d'exploitation = $DISTRO_NAME $DISTRO_VERSION\\n"
+"- kernel = $KERNEL\\n"
+"- méthode d'installation = $CheckInstallMethod\\n"
+"- information utilisateur = $CheckUserInformation\\n"
+"- support live = $CheckLiveSupport\\n"
+"- partition hôte = $HDRV\\n"
+"- format hôte = $CheckDeviceFormat\\n"
+"- fichier swap = $CheckSwapSize Mo\\n"
+"- conserver configuration = $CheckKeepConfig"
 
 #: oci-install.sh:545
 #, fuzzy, sh-format
 msgid ""
-"Summary of the simplified installation :\\n- $AppTitle01 version = "
-"$AppVersion\\n- install date = $DATE\\n- operating system = $DISTRO_NAME "
-"$DISTRO_VERSION\\n- kernel = $KERNEL\\n- install method = $CheckInstallMethod"
-"\\n- user information = $CheckUserInformation\\n- live support = "
-"$CheckLiveSupport\\n- host partition = $HDRV\\n- host format = "
-"$CheckDeviceFormat\\n- swap file = $SwapInfo \\n- keep config = "
-"$CheckKeepConfig\\n- create save file = $CheckPupsaveMake"
+"Summary of the simplified installation :\\n"
+"- $AppTitle01 version = $AppVersion\\n"
+"- install date = $DATE\\n"
+"- operating system = $DISTRO_NAME $DISTRO_VERSION\\n"
+"- kernel = $KERNEL\\n"
+"- install method = $CheckInstallMethod\\n"
+"- user information = $CheckUserInformation\\n"
+"- live support = $CheckLiveSupport\\n"
+"- host partition = $HDRV\\n"
+"- host format = $CheckDeviceFormat\\n"
+"- swap file = $SwapInfo \\n"
+"- keep config = $CheckKeepConfig\\n"
+"- create save file = $CheckPupsaveMake"
 msgstr ""
-"Résumé de l'installation simplifiée :\\n- version $AppTitle01 = $AppVersion"
-"\\n- date d'installation = $DATE\\n- système d'exploitation = $DISTRO_NAME "
-"$DISTRO_VERSION\\n- kernel = $KERNEL\\n- méthode d'installation = "
-"$CheckInstallMethod\\n- information utilisateur = $CheckUserInformation\\n- "
-"support live = $CheckLiveSupport\\n- partition hôte = $HDRV\\n- format hôte "
-"= $CheckDeviceFormat\\n- fichier swap = $CheckSwapSize Mo\\n- conserver "
-"configuration = $CheckKeepConfig\\n- créer fichier de sauvegarde = "
-"$CheckPupsaveMake."
+"Résumé de l'installation simplifiée :\\n"
+"- version $AppTitle01 = $AppVersion\\n"
+"- date d'installation = $DATE\\n"
+"- système d'exploitation = $DISTRO_NAME $DISTRO_VERSION\\n"
+"- kernel = $KERNEL\\n"
+"- méthode d'installation = $CheckInstallMethod\\n"
+"- information utilisateur = $CheckUserInformation\\n"
+"- support live = $CheckLiveSupport\\n"
+"- partition hôte = $HDRV\\n"
+"- format hôte = $CheckDeviceFormat\\n"
+"- fichier swap = $CheckSwapSize Mo\\n"
+"- conserver configuration = $CheckKeepConfig\\n"
+"- créer fichier de sauvegarde = $CheckPupsaveMake."
 
 #: oci-install.sh:606
 #, sh-format
-msgid "\\n- sfs compression = $CheckSfsCompression"
-msgstr "\\n- compression sfs = $CheckSfsCompression"
+msgid ""
+"\\n"
+"- sfs compression = $CheckSfsCompression"
+msgstr ""
+"\\n"
+"- compression sfs = $CheckSfsCompression"
 
 #: oci-install.sh:608
 #, sh-format
-msgid "\\n- sfs compression = gz (gzip)"
-msgstr "\\n- compression sfs = gz (gzip)"
+msgid ""
+"\\n"
+"- sfs compression = gz (gzip)"
+msgstr ""
+"\\n"
+"- compression sfs = gz (gzip)"
 
 #: oci-install.sh:616
 #, sh-format
 msgid ""
-"\\n- save file name = $SaveFileName.$EXT\\n- save file format = "
-"$CheckPupsaveFormat\\n- save file size = $CheckPupsaveSize MB"
+"\\n"
+"- save file name = $SaveFileName.$EXT\\n"
+"- save file format = $CheckPupsaveFormat\\n"
+"- save file size = $CheckPupsaveSize MB"
 msgstr ""
-"\\n- nom du fichier de sauvegarde = $SaveFileName.$EXT\\n- format du fichier "
-"de sauvegarde = $CheckPupsaveFormat\\n- taille du fichier de sauvegarde = "
-"$CheckPupsaveSize"
+"\\n"
+"- nom du fichier de sauvegarde = $SaveFileName.$EXT\\n"
+"- format du fichier de sauvegarde = $CheckPupsaveFormat\\n"
+"- taille du fichier de sauvegarde = $CheckPupsaveSize"
 
 #: oci-install.sh:619
 #, sh-format
-msgid ""
-"Then, reboot off the hard drive and make one pupsave at the end of that "
-"session."
-msgstr ""
-"Puis, redémarrez à partir du disque dur et créez un fichier pupsave à la fin "
-"de la session."
+msgid "Then, reboot off the hard drive and make one pupsave at the end of that session."
+msgstr "Puis, redémarrez à partir du disque dur et créez un fichier pupsave à la fin de la session."
 
 #: oci-install.sh:628
 #, sh-format
-msgid ""
-"Done ! Simplified installation of ${DISTRO_NAME} ${DISTRO_VERSION} is "
-"complete."
-msgstr ""
-"C'est fait ! L'installation simplifiée de ${DISTRO_NAME} ${DISTRO_VERSION} "
-"est terminée."
+msgid "Done ! Simplified installation of ${DISTRO_NAME} ${DISTRO_VERSION} is complete."
+msgstr "C'est fait ! L'installation simplifiée de ${DISTRO_NAME} ${DISTRO_VERSION} est terminée."
 
 #: oci-install.sh:629
 #, sh-format
-msgid ""
-"To finalize the procedure, the computer will be automatically restarted."
-msgstr ""
-"Afin de finaliser la procédure d'installation, l'ordinateur va être "
-"automatiquement redémarré."
+msgid "To finalize the procedure, the computer will be automatically restarted."
+msgstr "Afin de finaliser la procédure d'installation, l'ordinateur va être automatiquement redémarré."
 
 #: oci-install.sh:630
 #, sh-format
 msgid ""
-"\\nDuring the shutdown, some Puppy versions will ask if you want to make a "
-"pupsave file, you will have to answer NO. \\nAt the beginning of reboot, you "
-"will must eject/remove the live CD-DVD-USB (you can possibly try to do so "
-"immediately), otherwise you will restart on that live device (instead of "
-"hard drive $HDRV1)."
+"\\n"
+"During the shutdown, some Puppy versions will ask if you want to make a pupsave file, you will have to answer NO. \\n"
+"At the beginning of reboot, you will must eject/remove the live CD-DVD-USB (you can possibly try to do so immediately), otherwise you will restart on that live device (instead of hard drive $HDRV1)."
 msgstr ""
-"\\nDurant l'arrêt de l'ordinateur, il vous sera parfois demandé si vous "
-"souhaitez créer un fichier pupsave, vous devrez répondre NON. \\nLors du "
-"redémarrage de l'ordinateur, vous devrez éjecter/retirer le live CD-DVD-USB "
-"(vous pouvez éventuellement essayer de le faire immédiatement), dans le cas "
-"contraire vous redémarrerez à partir du support live (à la place du disque "
-"dur $HDRV1)."
+"\\n"
+"Durant l'arrêt de l'ordinateur, il vous sera parfois demandé si vous souhaitez créer un fichier pupsave, vous devrez répondre NON. \\n"
+"Lors du redémarrage de l'ordinateur, vous devrez éjecter/retirer le live CD-DVD-USB (vous pouvez éventuellement essayer de le faire immédiatement), dans le cas contraire vous redémarrerez à partir du support live (à la place du disque dur $HDRV1)."
 
 #: oci-install.sh:632
 #, sh-format
-msgid "\\nNote: an installation report has been recorded in file $DirReport."
+msgid ""
+"\\n"
+"Note: an installation report has been recorded in file $DirReport."
 msgstr ""
-"\\nRemarque : un rapport d'installation a été enregistré dans le fichier "
-"$DirReport."
+"\\n"
+"Remarque : un rapport d'installation a été enregistré dans le fichier $DirReport."
 
 #: oci-pre-install.sh:102
 #, sh-format
 msgid "| make pupsave = $CheckPupsaveMake ($CheckPupsaveSize MB)"
-msgstr ""
-"| créer fichier de sauvegarde (pupsave) = $CheckPupsaveMake "
-"($CheckPupsaveSize Mo)"
+msgstr "| créer fichier de sauvegarde (pupsave) = $CheckPupsaveMake ($CheckPupsaveSize Mo)"
 
 #: oci-pre-install.sh:111
 msgid "Last "
@@ -748,28 +641,13 @@ msgstr "vérification "
 
 #: oci-pre-install.sh:112
 #, sh-format
-msgid ""
-"Now, this is the last check before starting the simplified installation. If "
-"all is ok, wait $DelayInstall seconds or click on Start now. If it is not "
-"ok, click on cancel."
-msgstr ""
-"C'est la dernière vérification avant de commencer l'installation simplifiée. "
-"Si tout est ok, patientez $DelayInstall secondes ou cliquez sur le bouton "
-"Démarrer maintenant. Si ce n'est pas ok, cliquez sur Annuler l'installation."
+msgid "Now, this is the last check before starting the simplified installation. If all is ok, wait $DelayInstall seconds or click on Start now. If it is not ok, click on cancel."
+msgstr "C'est la dernière vérification avant de commencer l'installation simplifiée. Si tout est ok, patientez $DelayInstall secondes ou cliquez sur le bouton Démarrer maintenant. Si ce n'est pas ok, cliquez sur Annuler l'installation."
 
 #: oci-pre-install.sh:113
 #, sh-format
-msgid ""
-"Summary of the simplified installation : erase all partitions and data on "
-"host partition ($HDRV) = yes | install method = $CheckInstallMethod | swap "
-"file = $CheckSwapSize MB | keep config = $CheckKeepConfig $InfoMakepupsave | "
-"install size required = $SizeInstall MB"
-msgstr ""
-"Résumé de l'installation simplifiée : effacer toutes les partitions et les "
-"données du disque dur hôte ($HDRV) = yes | méthode d'installation = "
-"$CheckInstallMethod | fichier swap = $CheckSwapSize Mo | conserver "
-"configuration = $CheckKeepConfig $InfoMakepupsave | taille nécessaire pour "
-"l'installation = $SizeInstall Mo"
+msgid "Summary of the simplified installation : erase all partitions and data on host partition ($HDRV) = yes | install method = $CheckInstallMethod | swap file = $CheckSwapSize MB | keep config = $CheckKeepConfig $InfoMakepupsave | install size required = $SizeInstall MB"
+msgstr "Résumé de l'installation simplifiée : effacer toutes les partitions et les données du disque dur hôte ($HDRV) = yes | méthode d'installation = $CheckInstallMethod | fichier swap = $CheckSwapSize Mo | conserver configuration = $CheckKeepConfig $InfoMakepupsave | taille nécessaire pour l'installation = $SizeInstall Mo"
 
 #: oci-pre-install.sh:114
 msgid "Time left until start installation"
@@ -783,7 +661,8 @@ msgstr "Encore quelques secondes"
 msgid "Start now"
 msgstr "Démarrer maintenant"
 
-#: oci-pre-install.sh:130 oci-pre-install.sh:232
+#: oci-pre-install.sh:130
+#: oci-pre-install.sh:232
 #, sh-format
 msgid "Cancel installation"
 msgstr "Annuler l'installation"
@@ -801,36 +680,21 @@ msgstr "Forcer l'installation"
 #: oci-pre-install.sh:232
 #, sh-format
 msgid ""
-"The host size device seems to be smaller than install size required, so "
-"installation may not work.\n"
+"The host size device seems to be smaller than install size required, so installation may not work.\n"
 "- host size device : $HDRV = $HOSTSIZE MB\n"
-"- install size required : $SizeInstall MB = iso size x $IsoMultiplied "
-"($SizeIsoUncompressed MB) + swap size ($SizeSwap MB) $SizePupsaveInfo\n"
+"- install size required : $SizeInstall MB = iso size x $IsoMultiplied ($SizeIsoUncompressed MB) + swap size ($SizeSwap MB) $SizePupsaveInfo\n"
 "\n"
 "Notes:\n"
-"- If you trust this warnig (recommended), click on the button Cancel "
-"installation. Before retry simplified installation, check that host size "
-"($HDRV) is greater than install size required.\n"
-"- If you want to ignore this warning (not recommended, but possible if "
-"$AppTitle01 did not properly calculated size avaible/required), you can "
-"force the installation by clicking on the button Force installation."
+"- If you trust this warnig (recommended), click on the button Cancel installation. Before retry simplified installation, check that host size ($HDRV) is greater than install size required.\n"
+"- If you want to ignore this warning (not recommended, but possible if $AppTitle01 did not properly calculated size avaible/required), you can force the installation by clicking on the button Force installation."
 msgstr ""
-"La taille du périphérique hôte semble inférieure à la taille nécessaire pour "
-"l'installation, par conséquent l'installation pourrait ne pas fonctionner.\n"
+"La taille du périphérique hôte semble inférieure à la taille nécessaire pour l'installation, par conséquent l'installation pourrait ne pas fonctionner.\n"
 "- taille du périphérique hôte : $HDRV = $HOSTSIZE Mo\n"
-"- taille nécessaire pour l'installation : $SizeInstall Mo = taille de l'iso "
-"x $IsoMultiplied ($SizeIsoUncompressed Mo) + taille du fichier swap "
-"($SizeSwap Mo) $SizePupsaveInfo\n"
+"- taille nécessaire pour l'installation : $SizeInstall Mo = taille de l'iso x $IsoMultiplied ($SizeIsoUncompressed Mo) + taille du fichier swap ($SizeSwap Mo) $SizePupsaveInfo\n"
 "\n"
 "Remarques :\n"
-"- Si vous faites confiance à cet avertissement (recommandé), cliquez sur le "
-"bouton Annuler l'installation. Avant d'activer une nouvelle installation, "
-"vérifiez que la taille du périphérique hôte ($HDRV) est supérieure à la "
-"taille nécessaire pour l'installation.\n"
-"- Si vous souhaitez ignorer cet avertissement (non recommandé, mais possible "
-"si vous pensez que $AppTitle01 n'a pas calculé correctement la taille "
-"disponible/nécessaire), vous pouvez forcer l'installation en cliquant sur le "
-"bouton Forcer l'installation."
+"- Si vous faites confiance à cet avertissement (recommandé), cliquez sur le bouton Annuler l'installation. Avant d'activer une nouvelle installation, vérifiez que la taille du périphérique hôte ($HDRV) est supérieure à la taille nécessaire pour l'installation.\n"
+"- Si vous souhaitez ignorer cet avertissement (non recommandé, mais possible si vous pensez que $AppTitle01 n'a pas calculé correctement la taille disponible/nécessaire), vous pouvez forcer l'installation en cliquant sur le bouton Forcer l'installation."
 
 #~ msgid ""
 #~ "Click here to abort the simplified installation of $DISTRO_NAME "

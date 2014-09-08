@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:52+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -15,36 +15,28 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #: bcrypt_gui.sh:20
-#, fuzzy
 msgid "Bcrypt error"
-msgstr "Bcrypt décryptage"
+msgstr "Erreur bcrypt"
 
 #: bcrypt_gui.sh:20
 msgid "The 'bcrypt' package must be installed first."
 msgstr "Le paquet 'bcrypt' doit d'abord être installé."
 
 #: bcrypt_gui.sh:42
-#, fuzzy
 msgid "File encryption"
-msgstr "Bcrypt cryptage de fichier"
+msgstr "Cryptage de fichier"
 
 #: bcrypt_gui.sh:44
-#, fuzzy
 msgid "Bcrypt is a utility to encrypt or decrypt a file"
-msgstr ""
-"Bienvenue, ceci est l'interface graphique de l'utilitaire 'bcrypt', pour (dé)"
-"crypter un fichier."
+msgstr "Bcrypt est un utilitaire pour crypter ou décrypter un fichier"
 
 #: bcrypt_gui.sh:44
-msgid ""
-"Drag the file you want to <b>encrypt or decrypt</b> into the field or use "
-"the browse-button."
-msgstr ""
+msgid "Drag the file you want to <b>encrypt or decrypt</b> into the field or use the browse-button."
+msgstr "Faire glisser le fichier que vous voulez <b>crypter ou décrypter</b> dans le champ ou utiliser le bouton naviguer."
 
 #: bcrypt_gui.sh:48
-#, fuzzy
 msgid "File to encrypt / decrypt"
-msgstr "Bcrypt décryptage"
+msgstr "Fichier à crypter / décrypter"
 
 #: bcrypt_gui.sh:63
 #, fuzzy
@@ -58,15 +50,15 @@ msgstr "Confirmez le mot de passe:"
 
 #: bcrypt_gui.sh:83
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: bcrypt_gui.sh:90
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: bcrypt_gui.sh:95
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: bcrypt_gui.sh:116
 msgid "Password needs to be at least 8 characters!"

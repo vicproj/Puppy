@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: fontmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-07 22:53+0200\n"
-"Last-Translator: root <root@localhost>\n"
+"PO-Revision-Date: 2014-09-08 18:50+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,8 @@ msgstr ""
 msgid "Please choose dpi (dots per inch) for the screen. The larger the value, the bigger that antialiased fonts will render on the screen. Adjust up or down if fonts are rendering too small or too big on screen."
 msgstr ""
 
-#: fontmanager.sh:49 fontmanager.sh:76
+#: fontmanager.sh:49
+#: fontmanager.sh:76
 msgid "Note!"
 msgstr ""
 
@@ -83,7 +84,7 @@ msgstr ""
 
 #: fontmanager.sh:80
 msgid "Antialiasing"
-msgstr ""
+msgstr "Anticrénelage"
 
 #: fontmanager.sh:84
 msgid "If checked, fonts will be smoothed with hinting."
@@ -103,40 +104,41 @@ msgstr ""
 
 #: fontmanager.sh:108
 msgid "Install font"
-msgstr ""
+msgstr "Installer une police"
 
 #: fontmanager.sh:109
 msgid "Define a *.TTF file by browsing, or just drag it to the field below. Then click install. Windows TTF-files are fine."
-msgstr ""
+msgstr "Choisir un fichier *.TTF en naviguant, ou faites le glisser dans le champ ci-dessous. Puis cliquer sur installer. Les polices TTF windows sont bonnes."
 
 #: fontmanager.sh:109
 msgid "To install several fonts at once, copy new *.TTF files to the font directory"
-msgstr ""
+msgstr "Pour installer plusieurs polices en une fois, copier les nouveaux fichiers *.TTF dans le répertoire des polices"
 
 #: fontmanager.sh:109
 msgid "and click install."
-msgstr ""
+msgstr "et cliquer sur installer."
 
 #: fontmanager.sh:109
 msgid "You find a lot of free fonts on the web. - ie. at"
-msgstr ""
+msgstr "Vous pouvez trouver plein de polices sur le web. -ie.at"
 
 #: fontmanager.sh:123
 msgid "Open font directory"
-msgstr ""
+msgstr "Ouvrir le répertoire des polices"
 
 #: fontmanager.sh:128
 msgid "Install font(s)"
-msgstr ""
+msgstr "Installer police(s)"
 
 #: fontmanager.sh:142
 msgid "View installed fonts"
-msgstr ""
+msgstr "Voir les polices installées"
 
 #: fontmanager.sh:147
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: fontmanager.sh:152
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
+

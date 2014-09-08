@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: changeKey VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:45+0200\n"
-"PO-Revision-Date: 2013-02-15 18:23+0100\n"
-"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-08 18:51+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,8 @@ msgstr ""
 msgid "Shortcut Details"
 msgstr "Détails des Raccourcis"
 
-#: changeKey.sh:103 panel-buttons.sh:59
+#: changeKey.sh:103
+#: panel-buttons.sh:59
 msgid "Delete"
 msgstr "Supprimer"
 
@@ -75,16 +76,12 @@ msgstr "FOCUS CLICK"
 #: focusModel.sh:48
 #, fuzzy
 msgid "The model used by Microsoft Windows."
-msgstr ""
-"C'est le modèle utilisé par Microsoft Windows. La fenêtre active est "
-"sélectionnée par un clic de souris."
+msgstr "C'est le modèle utilisé par Microsoft Windows. La fenêtre active est sélectionnée par un clic de souris."
 
 #: focusModel.sh:49
 #, fuzzy
 msgid "The active window is selected by mouse click."
-msgstr ""
-"C'est le modèle utilisé par Microsoft Windows. La fenêtre active est "
-"sélectionnée par un clic de souris."
+msgstr "C'est le modèle utilisé par Microsoft Windows. La fenêtre active est sélectionnée par un clic de souris."
 
 #: focusModel.sh:50
 msgid "click-to-focus"
@@ -103,7 +100,9 @@ msgstr "Changement_s enregistrés"
 msgid "Set to $CHOICE focus model"
 msgstr "Réglé sur le modèle de focus :"
 
-#: jwmConfigMgr.sh:22 keyboard.sh:33 taskbar.sh:13
+#: jwmConfigMgr.sh:22
+#: keyboard.sh:33
+#: taskbar.sh:13
 msgid "JWM Configuration Manager"
 msgstr "Gestionnaire de configuration de JWM"
 
@@ -149,17 +148,15 @@ msgid "Important!"
 msgstr "Important!"
 
 #: jwmConfigMgr.sh:108
-msgid ""
-"Some of the above actions require JWM to be restarted for changes to take "
-"effect"
-msgstr ""
-"Certaines modifications requièrent de relancer JWM. Cliquez sur ce bouton."
+msgid "Some of the above actions require JWM to be restarted for changes to take effect"
+msgstr "Certaines modifications requièrent de relancer JWM. Cliquez sur ce bouton."
 
 #: jwmConfigMgr.sh:113
 msgid "Restart JWM now?"
 msgstr "Relancer JWM maintenant"
 
-#: jwmConfigMgr.sh:122 jwmConfigMgr.sh:125
+#: jwmConfigMgr.sh:122
+#: jwmConfigMgr.sh:125
 msgid "Exit"
 msgstr "Quitter"
 
@@ -168,12 +165,8 @@ msgid "HELP"
 msgstr "Aide"
 
 #: jwmConfigMgr.sh:122
-msgid ""
-"JWM is a Window Manager. It controls the behaviour and appearance of the "
-"windows and the tray."
-msgstr ""
-"JWM est un gestionnaire des fenêtres. Il contrôle le comportement et "
-"l'apparence des fenêtres et de la barre des tâches."
+msgid "JWM is a Window Manager. It controls the behaviour and appearance of the windows and the tray."
+msgstr "JWM est un gestionnaire des fenêtres. Il contrôle le comportement et l'apparence des fenêtres et de la barre des tâches."
 
 #: keyboard.sh:35
 msgid "Description"
@@ -189,13 +182,11 @@ msgstr "Raccourcis actuels"
 
 #: keyboard.sh:48
 msgid "You can delete or change a shortcut by selecting it below."
-msgstr ""
-"Sélectionnez le raccourci à modifer ou à supprimer dans la liste ci-dessous."
+msgstr "Sélectionnez le raccourci à modifer ou à supprimer dans la liste ci-dessous."
 
 #: keyboard.sh:55
 msgid "Note that changes will appear next time you run this script."
-msgstr ""
-"Les changements apparaîtront la prochaine fois que vous exécuterez ce script"
+msgstr "Les changements apparaîtront la prochaine fois que vous exécuterez ce script"
 
 #: keyboard.sh:60
 msgid "KeyCombo                         |Action"
@@ -206,12 +197,8 @@ msgid "Add Shortcut"
 msgstr "Ajouter un raccourci"
 
 #: keyboard.sh:69
-msgid ""
-"Add a new shortcut by filling in the boxes below. Click the button to add "
-"your shortcut."
-msgstr ""
-"Ajouter un nouveau raccourci en remplissant les cases ci-dessous. Cliquez "
-"sur le bouton pour ajouter votre raccourci."
+msgid "Add a new shortcut by filling in the boxes below. Click the button to add your shortcut."
+msgstr "Ajouter un nouveau raccourci en remplissant les cases ci-dessous. Cliquez sur le bouton pour ajouter votre raccourci."
 
 #: keyboard.sh:87
 msgid "Add"
@@ -231,7 +218,9 @@ msgstr ""
 
 #: panel-buttons.sh:60
 #, sh-format
-msgid "Are you sure you want to delete \\n${PROG} launcher?"
+msgid ""
+"Are you sure you want to delete \\n"
+"${PROG} launcher?"
 msgstr ""
 
 #: panel-buttons.sh:63
@@ -332,7 +321,8 @@ msgstr "Restaurer la configuration originale"
 msgid "Tray Configuration Options"
 msgstr "Options de configuration de la barre des tâches"
 
-#: taskbar.sh:17 virtualDesknew.sh:19
+#: taskbar.sh:17
+#: virtualDesknew.sh:19
 msgid "Virtual Desktops"
 msgstr "Bureaux virtuels"
 
@@ -364,11 +354,16 @@ msgstr "Important"
 msgid "JWM must be restarted for changes to take effect"
 msgstr "Relancez JWM pour activer les changements"
 
-#: taskbarConfig.sh:42 taskbarHeight.sh:74 taskbarPlace.sh:43 trayInsert.sh:56
+#: taskbarConfig.sh:42
+#: taskbarHeight.sh:74
+#: taskbarPlace.sh:43
+#: trayInsert.sh:56
 msgid "JWM Taskbar Configuration"
 msgstr "Configuration de la barre des tâches"
 
-#: taskbarConfig.sh:43 taskbarHeight.sh:75 taskbarPlace.sh:44
+#: taskbarConfig.sh:43
+#: taskbarHeight.sh:75
+#: taskbarPlace.sh:44
 msgid "Taskbar"
 msgstr "Barre des tâches"
 
@@ -384,7 +379,9 @@ msgstr "Afficher en permanence"
 msgid "Tray Autohide on"
 msgstr "Masquer automatiquement"
 
-#: taskbarConfig.sh:87 taskbarHeight.sh:128 taskbarPlace.sh:88
+#: taskbarConfig.sh:87
+#: taskbarHeight.sh:128
+#: taskbarPlace.sh:88
 #: trayInsert.sh:113
 msgid "Change Saved"
 msgstr "Changement enregistré"
@@ -393,22 +390,30 @@ msgstr "Changement enregistré"
 msgid "The tray autohide option is now"
 msgstr "Le masquage de la barre des tâches est"
 
-#: taskbarConfig.sh:91 taskbarHeight.sh:132 taskbarPlace.sh:92
+#: taskbarConfig.sh:91
+#: taskbarHeight.sh:132
+#: taskbarPlace.sh:92
 #: trayInsert.sh:117
 msgid "Change Reversed"
 msgstr "Changement abandonné"
 
-#: taskbarConfig.sh:92 taskbarHeight.sh:133 taskbarPlace.sh:93
+#: taskbarConfig.sh:92
+#: taskbarHeight.sh:133
+#: taskbarPlace.sh:93
 #: trayInsert.sh:118
 msgid "New config corrupt. Keeping original"
 msgstr "Nouvelle configuration corrompue. L'originale a été conservée"
 
-#: taskbarConfig.sh:96 taskbarHeight.sh:137 taskbarPlace.sh:97
+#: taskbarConfig.sh:96
+#: taskbarHeight.sh:137
+#: taskbarPlace.sh:97
 #: trayInsert.sh:122
 msgid "Change Failed"
 msgstr "Echec!"
 
-#: taskbarConfig.sh:97 taskbarHeight.sh:138 taskbarPlace.sh:98
+#: taskbarConfig.sh:97
+#: taskbarHeight.sh:138
+#: taskbarPlace.sh:98
 #: trayInsert.sh:123
 msgid "Configuration has not been altered"
 msgstr "La configuration n'a pas été modifiée"
@@ -466,61 +471,55 @@ msgstr ""
 
 #: taskbariconify.sh:27
 msgid "Iconify"
-msgstr ""
+msgstr "Iconifier"
 
 #: taskbariconify.sh:31
 msgid "Fixed Width"
-msgstr ""
+msgstr "Largeur fixe"
 
 #: taskbariconify.sh:35
 msgid "Variable Width"
-msgstr ""
+msgstr "Largeur variable"
 
 #: taskbariconify.sh:45
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: theme_switcher.sh:31
 msgid "Puppy JWM Theme Switcher"
 msgstr ""
 
 #: theme_switcher.sh:33
-msgid ""
-"JWM is the window manager, handling window borders and tray (taskbar) "
-"appearance, whereas the GTK theme is inside each window. Choose a JWM theme "
-"that matches or compliments the current GTK theme"
-msgstr ""
-"JWM est le gestionnaire des fenêtres. Seule l'apparence des bordures des "
-"fenêtres et de la barre des tâches est gérée par les thèmes de JWM. Le thème "
-"GTK gère l'intérieur de chaque fenêtre. Choisissez ici un thème de JWM."
+msgid "JWM is the window manager, handling window borders and tray (taskbar) appearance, whereas the GTK theme is inside each window. Choose a JWM theme that matches or compliments the current GTK theme"
+msgstr "JWM est le gestionnaire des fenêtres. Seule l'apparence des bordures des fenêtres et de la barre des tâches est gérée par les thèmes de JWM. Le thème GTK gère l'intérieur de chaque fenêtre. Choisissez ici un thème de JWM."
 
 #: title-clock.sh:27
 msgid "Window title bar and Clock"
-msgstr ""
+msgstr "Barre de titre de la fenêtre et Horloge"
 
 #: title-clock.sh:29
 msgid "Height of Title Bar"
-msgstr ""
+msgstr "Hauteur de la Barre de Titre"
 
 #: title-clock.sh:32
 msgid "pixels"
-msgstr ""
+msgstr "pixels"
 
 #: title-clock.sh:43
 msgid "Clock Format"
-msgstr ""
+msgstr "Format de l'horloge"
 
 #: title-clock.sh:46
 msgid "24 hour (default)"
-msgstr ""
+msgstr "24 heures (par défaut)"
 
 #: title-clock.sh:51
 msgid "12 hour"
-msgstr ""
+msgstr "12 heures"
 
 #: title-clock.sh:56
 msgid "seconds"
-msgstr ""
+msgstr "secondes"
 
 #: title-clock.sh:60
 msgid "am/pm"

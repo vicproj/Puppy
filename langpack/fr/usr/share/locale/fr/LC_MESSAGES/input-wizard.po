@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,8 @@ msgstr ""
 "X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
 
-#: input-wizard.sh:30 input-wizard.sh:119
+#: input-wizard.sh:30
+#: input-wizard.sh:119
 msgid "Input Wizard"
 msgstr "Assistant des périphériques d'entrée"
 
@@ -44,7 +45,7 @@ msgstr "Configuration avancée du clavier..."
 
 #: input-wizard.sh:61
 msgid "Pointer"
-msgstr ""
+msgstr "Pointeur"
 
 #: input-wizard.sh:63
 #, fuzzy
@@ -53,15 +54,15 @@ msgstr "Choisir le type de souris..."
 
 #: input-wizard.sh:70
 msgid "Adjust mouse sensitivity"
-msgstr ""
+msgstr "Ajuster la sensibilité de la souris"
 
 #: input-wizard.sh:77
 msgid "Touchpad"
-msgstr ""
+msgstr "Pavé tactile"
 
 #: input-wizard.sh:89
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: input-wizard.sh:121
 #, fuzzy
@@ -70,10 +71,10 @@ msgstr "Choisissez votre clavier en fonction du pays :"
 
 #: input-wizard.sh:121
 msgid "Changing this only takes effect after Puppy is rebooted!"
-msgstr ""
-"Les changements ne prendront effet qu'après le redémarrage de Toutou/Puppy!"
+msgstr "Les changements ne prendront effet qu'après le redémarrage de Toutou/Puppy!"
 
-#: input-wizard.sh:123 input-wizard.sh:232
+#: input-wizard.sh:123
+#: input-wizard.sh:232
 #, fuzzy
 msgid "Interface"
 msgstr "Interface souris"
@@ -83,13 +84,15 @@ msgstr "Interface souris"
 msgid "Keyboard has USB interface"
 msgstr "Interface clavier"
 
-#: input-wizard.sh:135 input-wizard.sh:308
+#: input-wizard.sh:135
+#: input-wizard.sh:308
 msgid "Cancel"
 msgstr "Annuler"
 
-#: input-wizard.sh:140 input-wizard.sh:313
+#: input-wizard.sh:140
+#: input-wizard.sh:313
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: input-wizard.sh:218
 msgid "Enable touchpad tapping for mouse button clicks"
@@ -106,15 +109,15 @@ msgstr "Configurer le pavé tactile..."
 
 #: input-wizard.sh:228
 msgid "If you got a touchpad, choose USB interface."
-msgstr ""
+msgstr "Si vous avez un pavé tactile, choisir l'interface USB."
 
 #: input-wizard.sh:237
 msgid "USB"
-msgstr ""
+msgstr "USB"
 
 #: input-wizard.sh:243
 msgid "PS/2"
-msgstr ""
+msgstr "PS/2"
 
 #: input-wizard.sh:249
 #, fuzzy
@@ -123,7 +126,7 @@ msgstr "Souris série"
 
 #: input-wizard.sh:265
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 #: input-wizard.sh:279
 #, fuzzy

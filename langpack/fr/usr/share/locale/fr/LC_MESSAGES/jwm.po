@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: jwm 2.1.1\n"
 "Report-Msgid-Bugs-To: joewing@joewing.net\n"
 "POT-Creation-Date: 2013-06-14 18:53-0500\n"
-"PO-Revision-Date: 2012-02-17 09:57+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-08 18:51+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -14,30 +14,31 @@ msgstr ""
 
 #: src/background.c:135
 msgid "no value specified for background"
-msgstr ""
+msgstr "aucune valeur spécifiée pour le fond d'écran"
 
 #: src/background.c:151
 #, c-format
 msgid "invalid background type: \"%s\""
-msgstr ""
+msgstr "type de fond d'écran invalide: \"%s\""
 
 #: src/background.c:286
 #, c-format
 msgid "background image not found: \"%s\""
-msgstr ""
+msgstr "image de fond d'écran introuvable: \"%s\""
 
 #: src/client.c:868
 msgid "Kill this window?"
-msgstr ""
+msgstr "Fermer cette fenêtre?"
 
 #: src/client.c:869
 msgid "This may cause data to be lost!"
-msgstr ""
+msgstr "Cela peut provoquer la perte de données!"
 
-#: src/command.c:138 src/main.c:190
+#: src/command.c:138
+#: src/main.c:190
 #, c-format
 msgid "exec failed: (%s) %s"
-msgstr ""
+msgstr "exec a echouée: (%s) %s"
 
 #: src/desktop.c:266
 msgid "empty Desktops Name tag"
@@ -55,15 +56,17 @@ msgstr ""
 msgid "Fullscreen state will be shaped!"
 msgstr ""
 
-#: src/font.c:76 src/font.c:95
+#: src/font.c:76
+#: src/font.c:95
 #, c-format
 msgid "could not load font: %s"
-msgstr ""
+msgstr "impossible de charger la police: %s"
 
-#: src/font.c:83 src/font.c:102
+#: src/font.c:83
+#: src/font.c:102
 #, c-format
 msgid "could not load the default font: %s"
-msgstr ""
+msgstr "impossible de charger la police par défaut: %s"
 
 #: src/font.c:208
 msgid "empty Font tag"
@@ -71,16 +74,16 @@ msgstr ""
 
 #: src/group.c:114
 msgid "invalid group class"
-msgstr ""
+msgstr "Nom de classe invalide"
 
 #: src/group.c:125
 msgid "invalid group name"
-msgstr ""
+msgstr "Nom de groupe invalide"
 
 #: src/group.c:253
 #, c-format
 msgid "invalid group desktop: %d"
-msgstr ""
+msgstr "Groupe de bureau invalide: %d"
 
 #: src/image.c:189
 #, c-format
@@ -90,7 +93,7 @@ msgstr ""
 #: src/image.c:202
 #, c-format
 msgid "error reading PNG image: %s"
-msgstr ""
+msgstr "erreur lors de la lecture de l'image PNG: %s"
 
 #: src/image.c:209
 #, c-format
@@ -197,7 +200,7 @@ msgstr ""
 
 #: src/parse.c:1881
 msgid "configuration error"
-msgstr ""
+msgstr "Erreur de configuration"
 
 #: src/root.c:102
 #, c-format
@@ -206,11 +209,11 @@ msgstr ""
 
 #: src/root.c:231
 msgid "Exit JWM"
-msgstr ""
+msgstr "Quitter JWM"
 
 #: src/root.c:232
 msgid "Are you sure?"
-msgstr ""
+msgstr "Êtes-vous sûr?"
 
 #: src/swallow.c:86
 msgid "cannot swallow a client with no name"
@@ -285,7 +288,8 @@ msgstr "Redimensionner"
 msgid "Move"
 msgstr "Déplacer"
 
-#: src/winmenu.c:97 src/winmenu.c:120
+#: src/winmenu.c:97
+#: src/winmenu.c:120
 msgid "Restore"
 msgstr "Restaurer"
 
@@ -331,7 +335,7 @@ msgstr ""
 
 #: src/winmenu.c:172
 msgid "Above"
-msgstr ""
+msgstr "Au dessus"
 
 #: src/winmenu.c:175
 msgid "[Normal]"
@@ -347,8 +351,9 @@ msgstr ""
 
 #: src/winmenu.c:182
 msgid "Below"
-msgstr ""
+msgstr "En dessous"
 
 #: src/winmenu.c:202
 msgid "Send To"
 msgstr "Envoyer vers"
+
