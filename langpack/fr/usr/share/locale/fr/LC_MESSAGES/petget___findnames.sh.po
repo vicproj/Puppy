@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: findnames.sh VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:46+0200\n"
-"PO-Revision-Date: 2012-02-15 16:14+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:17+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -14,24 +14,26 @@ msgstr ""
 
 #: findnames.sh:45
 msgid "PPM: search"
-msgstr ""
+msgstr "PPM: chercher"
 
 #: findnames.sh:47
 msgid "Search only current repository"
-msgstr ""
+msgstr "Chercher seulement dans le référentiel actuel"
 
-#: findnames.sh:51 findnames.sh:59
+#: findnames.sh:51
+#: findnames.sh:59
 msgid "Search"
-msgstr ""
+msgstr "Chercher"
 
 #: findnames.sh:55
 msgid "Search all repositories"
-msgstr ""
+msgstr "Chercher dans tous les référentiels"
 
 #: findnames.sh:129
 msgid "PPM find"
-msgstr ""
+msgstr "PPM: trouver"
 
 #: findnames.sh:129
 msgid "Sorry, no matching package name"
 msgstr "Désolé, aucun nom de paquet correspondant"
+

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: peasypdf 2.3\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2013-02-13 11:41+0100\n"
-"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:13+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,8 @@ msgstr ""
 msgid "New project started in"
 msgstr "Nouveau projet démarré dans"
 
-#: peasypdf.sh:33 peasypdf.sh:233
+#: peasypdf.sh:33
+#: peasypdf.sh:233
 msgid "File"
 msgstr "Fichier"
 
@@ -24,7 +25,8 @@ msgstr "Fichier"
 msgid "not found! Check your Contain Spaces setting."
 msgstr "non trouvé! Vérifiez votre réglage des espaces."
 
-#: peasypdf.sh:37 peasypdf.sh:61
+#: peasypdf.sh:37
+#: peasypdf.sh:61
 msgid "Adding"
 msgstr "Ajout de"
 
@@ -70,7 +72,7 @@ msgstr "Texte extrait vers"
 
 #: peasypdf.sh:179
 msgid "Add this string to the end of the filename"
-msgstr ""
+msgstr "Ajouter cette chaine à la fin du nom de fichier"
 
 #: peasypdf.sh:181
 msgid "Still working ..."
@@ -100,7 +102,8 @@ msgstr "Redimensionner les graphiques pour remplir la page?\t"
 msgid "Use the Quick button to convert a single file to PDF."
 msgstr "Utilisez le bouton QUICK pour convertir un simple fichier en PDF."
 
-#: peasypdf.sh:246 peasypdf.sh:324
+#: peasypdf.sh:246
+#: peasypdf.sh:324
 msgid "Help"
 msgstr "Aide"
 
@@ -116,7 +119,8 @@ msgstr "Ajouter"
 msgid "Save"
 msgstr "Sauver"
 
-#: peasypdf.sh:263 peasypdf.sh:337
+#: peasypdf.sh:263
+#: peasypdf.sh:337
 msgid "View"
 msgstr "Voir"
 
@@ -124,7 +128,8 @@ msgstr "Voir"
 msgid "Quick"
 msgstr "QUICK"
 
-#: peasypdf.sh:271 peasypdf.sh:340
+#: peasypdf.sh:271
+#: peasypdf.sh:340
 msgid "Quit"
 msgstr "QUITTER"
 

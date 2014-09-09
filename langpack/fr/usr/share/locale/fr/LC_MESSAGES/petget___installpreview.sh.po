@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:46+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,8 @@ msgstr "Patientez, traitement des fichiers des bases de données des paquets..."
 msgid "no description available"
 msgstr "Aucune description disponible"
 
-#: installpreview.sh:84 installpreview.sh:135
+#: installpreview.sh:84
+#: installpreview.sh:135
 msgid "After installation, this package will occupy"
 msgstr "Après installation, ce paquet occupera"
 
@@ -31,58 +32,29 @@ msgid "The amount of free space that you have for installation is"
 msgstr "L'espace libre disponible pour l'installation est de"
 
 #: installpreview.sh:89
-msgid ""
-"A general rule-of-thumb is that the free space should be at least the "
-"original-package-size plus installed-package-size plus 10MB to allow for "
-"sufficient working space during and after installation. It does not look to "
-"good, so you had better click the 'Cancel' button"
-msgstr ""
-"La règle de base générale veut que l'espace libre doit faire la taille du "
-"paquet d'origine, plus la taille du paquet installé, plus 10 Mo pour "
-"disposer de suffisamment d'espace de travail pendant et après "
-"l'installation. Cela ne semble pas très bon, il vaut mieux cliquer sur "
-"'Annuler'"
+msgid "A general rule-of-thumb is that the free space should be at least the original-package-size plus installed-package-size plus 10MB to allow for sufficient working space during and after installation. It does not look to good, so you had better click the 'Cancel' button"
+msgstr "La règle de base générale veut que l'espace libre doit faire la taille du paquet d'origine, plus la taille du paquet installé, plus 10 Mo pour disposer de suffisamment d'espace de travail pendant et après l'installation. Cela ne semble pas très bon, il vaut mieux cliquer sur 'Annuler'"
 
 #: installpreview.sh:89
-msgid ""
-"note, if you are running Puppy in a mode that has a 'pupsave' file, then the "
-"Utility menu has an entry 'Resize personal storage file' that should solve "
-"the problem."
-msgstr ""
-"remarque, dans le mode avec un fichier 'pupsave', le menu Utilitaires "
-"possède une entrée 'Augmenter le fichier de stockage' qui devrait résoudre "
-"le problème."
+msgid "note, if you are running Puppy in a mode that has a 'pupsave' file, then the Utility menu has an entry 'Resize personal storage file' that should solve the problem."
+msgstr "remarque, dans le mode avec un fichier 'pupsave', le menu Utilitaires possède une entrée 'Augmenter le fichier de stockage' qui devrait résoudre le problème."
 
 #: installpreview.sh:91
 msgid "...free space looks ok, so click 'Install' button:"
 msgstr "...l'espace libre semble suffisant, cliquez sur Installer :"
 
 #: installpreview.sh:94
-msgid ""
-"Unfortunately the provider of the package database has not supplied the size "
-"of this package when installed. If you are able to see the size of the "
-"compressed package, multiple that by 3 to get the approximate installed "
-"size. The free available space, which is"
-msgstr ""
-"Malheureusement, le fournisseur des données des paquets n'a pas fourni la "
-"taille de ce paquet une fois installé. Si vous pouvez voir la taille du "
-"paquet compressé, multipliez-la par 3 pour avoir la taille approximative de "
-"l'installation. L'espace disponible, qui est de"
+msgid "Unfortunately the provider of the package database has not supplied the size of this package when installed. If you are able to see the size of the compressed package, multiple that by 3 to get the approximate installed size. The free available space, which is"
+msgstr "Malheureusement, le fournisseur des données des paquets n'a pas fourni la taille de ce paquet une fois installé. Si vous pouvez voir la taille du paquet compressé, multipliez-la par 3 pour avoir la taille approximative de l'installation. L'espace disponible, qui est de"
 
 #: installpreview.sh:94
 msgid "should be at least 4 times greater."
 msgstr "devrait faire au moins quatre fois plus."
 
-#: installpreview.sh:100 installpreview.sh:116
-msgid ""
-"It seems that all dependencies are already installed. Sometimes though, the "
-"dependency information in the database is incomplete, however a check for "
-"presence of needed shared libraries will be done after installation."
-msgstr ""
-"Il semble que toutes les dépendances soient déjà installés. Parfois, les "
-"informations des dépendances dans la base de données sont incomplètes. Un "
-"contrôle de la présence des bibliothèques partagées nécessaires sera fait "
-"après l'installation."
+#: installpreview.sh:100
+#: installpreview.sh:116
+msgid "It seems that all dependencies are already installed. Sometimes though, the dependency information in the database is incomplete, however a check for presence of needed shared libraries will be done after installation."
+msgstr "Il semble que toutes les dépendances soient déjà installés. Parfois, les informations des dépendances dans la base de données sont incomplètes. Un contrôle de la présence des bibliothèques partagées nécessaires sera fait après l'installation."
 
 #: installpreview.sh:118
 msgid "ONLY"
@@ -92,19 +64,14 @@ msgstr "SEULEMENT"
 msgid "Examine dependencies"
 msgstr "EXAMINER"
 
-#: installpreview.sh:126 installpreview.sh:131
+#: installpreview.sh:126
+#: installpreview.sh:131
 msgid "Warning, the following dependent packages are missing:"
 msgstr "Attention, les dépendances suivantes sont absentes :"
 
 #: installpreview.sh:128
-msgid ""
-"A warning, these dependencies may have other dependencies not necessarily "
-"listed here. It is recommended that you click the 'Examine dependencies' "
-"button to find all dependencies before installing."
-msgstr ""
-"Attention, ces dépendances peuvent avoir d'autres dépendances non "
-"nécessairement listées ici. Cliquez sur 'EXAMINER' pour rechercher toutes "
-"les dépendances avant de les installer."
+msgid "A warning, these dependencies may have other dependencies not necessarily listed here. It is recommended that you click the 'Examine dependencies' button to find all dependencies before installing."
+msgstr "Attention, ces dépendances peuvent avoir d'autres dépendances non nécessairement listées ici. Cliquez sur 'EXAMINER' pour rechercher toutes les dépendances avant de les installer."
 
 #: installpreview.sh:129
 msgid "Please click 'Examine dependencies' to install"
@@ -115,22 +82,12 @@ msgid "as well as its dependencies"
 msgstr "et ses dépendances"
 
 #: installpreview.sh:135
-msgid ""
-"however the dependencies will need more space so you really need to find "
-"what they will need first."
-msgstr ""
-"mais les dépendances auront besoin de plus. Vous devez d'abord connaitre la "
-"quantité d'espace nécessaire."
+msgid "however the dependencies will need more space so you really need to find what they will need first."
+msgstr "mais les dépendances auront besoin de plus. Vous devez d'abord connaitre la quantité d'espace nécessaire."
 
 #: installpreview.sh:137
-msgid ""
-"Also, the package database provider has not supplied the installed size of "
-"this package, so you will have to try and estimate whether you have enough "
-"free space for it (and the dependencies)"
-msgstr ""
-"Ici, le fournisseur de la base de données du paquet n'a pas fourni la taille "
-"du paquet installé. Vous devrez donc essayer de savoir si vous avez "
-"suffisamment d'espace libre (même chose pour les dépendances)"
+msgid "Also, the package database provider has not supplied the installed size of this package, so you will have to try and estimate whether you have enough free space for it (and the dependencies)"
+msgstr "Ici, le fournisseur de la base de données du paquet n'a pas fourni la taille du paquet installé. Vous devrez donc essayer de savoir si vous avez suffisamment d'espace libre (même chose pour les dépendances)"
 
 #: installpreview.sh:144
 msgid "Puppy Package Manager: preinstall"
@@ -149,9 +106,7 @@ msgid "If you would like more information about"
 msgstr "Pour plus d'information sur"
 
 #: installpreview.sh:154
-msgid ""
-"such as what it is for and the dependencies, this button will download and "
-"display detailed information:"
+msgid "such as what it is for and the dependencies, this button will download and display detailed information:"
 msgstr "son utilité et ses dépendances, cliquez ici :"
 
 #: installpreview.sh:196
@@ -161,111 +116,72 @@ msgstr "EXAMINER"
 
 #: installpreview.sh:196
 msgid "There seem to be no missing dependencies."
-msgstr ""
+msgstr "Il semble ne pas y avoir de dépendances manquantes."
 
 #: installpreview.sh:198
-msgid ""
-"Note: if the previous window indicated that there are missing dependencies, "
-"they were not found. Sometimes, a package database lists a dependency that "
-"does not actually exist anymore and is not required."
-msgstr ""
+msgid "Note: if the previous window indicated that there are missing dependencies, they were not found. Sometimes, a package database lists a dependency that does not actually exist anymore and is not required."
+msgstr "Note: Si la fenêtre précédente indiquait qu'il y avait des dépendances manquantes, elles n'ont pas été trouvées. Parfois, une base de données de paquet liste une dépendance qui n'existe plus et qui n'est plus requise."
 
 #: installpreview.sh:211
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: installpreview.sh:211
 msgid "WARNING: devx not installed"
-msgstr ""
+msgstr "AVERTISSEMENT: devx non installé"
 
 #: installpreview.sh:211
 msgid "Package:"
-msgstr ""
+msgstr "Paquet:"
 
 #: installpreview.sh:212
-msgid ""
-"This package has dependencies that are in the 'devx' SFS file, which is "
-"Puppy's C/C++/Vala/Genie/BaCon mega-package, a complete compiling "
-"environment."
-msgstr ""
+msgid "This package has dependencies that are in the 'devx' SFS file, which is Puppy's C/C++/Vala/Genie/BaCon mega-package, a complete compiling environment."
+msgstr "Ce paquet a des dépendances qui sont dans le fichier SFS 'devx', qui est un paquet Puppy's C/C++/Vala/Genie/BaCon, un environnement complet de compilation."
 
 #: installpreview.sh:214
 msgid "The devx file is named:"
-msgstr ""
+msgstr "Le fichier devx est nommé:"
 
 #: installpreview.sh:216
-msgid ""
-"Please cancel installation, close the Puppy Package Manager, then click the "
-"\\Zbinstall\\ZB icon on the desktop and install the devx SFS file first."
-msgstr ""
+msgid "Please cancel installation, close the Puppy Package Manager, then click the \\Zbinstall\\ZB icon on the desktop and install the devx SFS file first."
+msgstr "Veuillez annuler l'installation, fermer le gestionnaire de paquets Puppy, puis cliquer sur l'icône \\Zbinstaller\\ZB sur le bureau et installer le fichier SFS devx en premier."
 
 #: installpreview.sh:267
 #, fuzzy
-msgid ""
-"SORRY! Too many dependencies, list truncated. Suggest click Cancel button "
-"and install some deps first."
-msgstr ""
-"DESOLE! Trop de dépendances, la liste est tronquée. Je suggère d'installer "
-"d'abord quelques dépendances."
+msgid "SORRY! Too many dependencies, list truncated. Suggest click Cancel button and install some deps first."
+msgstr "DESOLE! Trop de dépendances, la liste est tronquée. Je suggère d'installer d'abord quelques dépendances."
 
 #: installpreview.sh:295
-msgid ""
-"If that looks like enough free space, go ahead and click the 'Install' "
-"button..."
-msgstr ""
-"S'il y a suffisamment d'espace libre, poursuivez et cliquez sur "
-"'Installer'..."
+msgid "If that looks like enough free space, go ahead and click the 'Install' button..."
+msgstr "S'il y a suffisamment d'espace libre, poursuivez et cliquez sur 'Installer'..."
 
 #: installpreview.sh:299
-msgid ""
-"Not too good! recommend that you make more space before installing -- see "
-"'Resize personal storage file' in the 'Utility' menu."
-msgstr ""
-"Pas très bon! Je vous recommande de libérer de l'espace avant l'installation "
-"-- voir 'Augmenter le fichier de stockage' dans le menu 'Utilitaires'."
+msgid "Not too good! recommend that you make more space before installing -- see 'Resize personal storage file' in the 'Utility' menu."
+msgstr "Pas très bon! Je vous recommande de libérer de l'espace avant l'installation -- voir 'Augmenter le fichier de stockage' dans le menu 'Utilitaires'."
 
 #: installpreview.sh:301
 msgid "Puppy Package Manager: dependencies"
 msgstr "PPM : Dépendances"
 
 #: installpreview.sh:313
-msgid ""
-"Sometimes Puppy's automatic dependency checking comes up with a list that "
-"may include packages that don't really need to be installed, or are already "
-"installed under a different name. If uncertain, just accept them all, but if "
-"you spot one that does not need to be installed, then un-tick it."
-msgstr ""
-"Il arrive parfois que la vérification automatique des dépendances affiche "
-"une liste de paquets qui ne sont pas vraiment nécessaires ou déjà installés "
-"avec un nom différent. Dans le doute, acceptez-les, mais si l'un d'eux vous "
-"semble n'avoir pas besoin d'être installé, décochez-le."
+msgid "Sometimes Puppy's automatic dependency checking comes up with a list that may include packages that don't really need to be installed, or are already installed under a different name. If uncertain, just accept them all, but if you spot one that does not need to be installed, then un-tick it."
+msgstr "Il arrive parfois que la vérification automatique des dépendances affiche une liste de paquets qui ne sont pas vraiment nécessaires ou déjà installés avec un nom différent. Dans le doute, acceptez-les, mais si l'un d'eux vous semble n'avoir pas besoin d'être installé, décochez-le."
 
 #: installpreview.sh:315
-msgid ""
-"Puppy usually avoids listing the same package more than once if it exists in "
-"two or more repositories. However, if the same package is listed twice, "
-"choose the one that seems to be most appropriate."
-msgstr ""
-"Le gestionnaire évite en principe d'afficher une liste avec le même paquet "
-"plusieurs fois, si présent dans plusieurs dépots. Même si le paquet est "
-"inscrit deux fois, choisissez celui qui semble le plus approprié."
+msgid "Puppy usually avoids listing the same package more than once if it exists in two or more repositories. However, if the same package is listed twice, choose the one that seems to be most appropriate."
+msgstr "Le gestionnaire évite en principe d'afficher une liste avec le même paquet plusieurs fois, si présent dans plusieurs dépots. Même si le paquet est inscrit deux fois, choisissez celui qui semble le plus approprié."
 
 #: installpreview.sh:320
 msgid "Click to see the hierarchy of the dependencies:"
-msgstr ""
-"Cliquez sur le bouton ci-dessous pour afficher la hiérarchie des "
-"dépendances :"
+msgstr "Cliquez sur le bouton ci-dessous pour afficher la hiérarchie des dépendances :"
 
 #: installpreview.sh:323
 msgid "View hierarchy"
 msgstr "Afficher la hiérarchie"
 
 #: installpreview.sh:329
-msgid ""
-"If all of the above packages are selected, the total installed size will be"
-msgstr ""
-"Si tous les paquets ci-dessus sont sélectionnés, la taille totale de "
-"l'installation sera de"
+msgid "If all of the above packages are selected, the total installed size will be"
+msgstr "Si tous les paquets ci-dessus sont sélectionnés, la taille totale de l'installation sera de"
 
 #: installpreview.sh:329
 msgid "The free space available for installation is"
@@ -285,10 +201,9 @@ msgstr "Patientez, actualisation de la page d'aide et du menu ..."
 
 #: installpreview.sh:405
 msgid "Please wait, updating help page and menu (the screen will flicker!)..."
-msgstr ""
-"Patientez, actualisation de la page d'aide et du menu (l'écran va "
-"clignoter!) ..."
+msgstr "Patientez, actualisation de la page d'aide et du menu (l'écran va clignoter!) ..."
 
 #: installpreview.sh:408
 msgid "Please wait, updating help page..."
 msgstr "Patientez, actualisation de la page d'aide ..."
+

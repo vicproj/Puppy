@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: box_ok VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2012-11-16 09:47+0800\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:28+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -32,49 +32,37 @@ msgstr ""
 msgid ""
 "Searching for 'text in file' is MUCH slower than 'filename'.\n"
 "\n"
-"Regular expressions works only when searching for filenames (not Text in "
-"file).\n"
+"Regular expressions works only when searching for filenames (not Text in file).\n"
 "\n"
 "If having problems with local chars, use ? instead of char."
 msgstr ""
-"La recherche de 'texte dans les fichiers' est BEAUCOUP plus lente que par le "
-"'nom de fichier'.\n"
+"La recherche de 'texte dans les fichiers' est BEAUCOUP plus lente que par le 'nom de fichier'.\n"
 "\n"
-"Expressions régulières ne fonctionne que dans les cas de recherche par nom "
-"de fichier (pas pour texte dans un fichier).\n"
+"Expressions régulières ne fonctionne que dans les cas de recherche par nom de fichier (pas pour texte dans un fichier).\n"
 "\n"
-"Si vous rencontrez des problèmes en utilisant un signe local, utilisez "
-"alors ? à la place."
+"Si vous rencontrez des problèmes en utilisant un signe local, utilisez alors ? à la place."
 
 #: box_ok.sh:19
 msgid ""
 "To define an exact search, you can use the terms:\n"
 "\n"
-"<b>[OR]</b> Filename/content must contain either 'this [OR] that'. This will "
-"give more results.\n"
+"<b>[OR]</b> Filename/content must contain either 'this [OR] that'. This will give more results.\n"
 "\n"
-"<b>[AND]</b> Filename/content must contain both 'this [AND] that'. This will "
-"give less results.\n"
+"<b>[AND]</b> Filename/content must contain both 'this [AND] that'. This will give less results.\n"
 "\n"
-"<b>*</b> Means anything. 'pup*back' finds both 'PuppyBackup' and 'Puppies "
-"are back'.\n"
+"<b>*</b> Means anything. 'pup*back' finds both 'PuppyBackup' and 'Puppies are back'.\n"
 "\n"
-"<b>?</b> Means any char. 'pup??back' finds only 'PuppyBackup'. '??' "
-"represent only two chars."
+"<b>?</b> Means any char. 'pup??back' finds only 'PuppyBackup'. '??' represent only two chars."
 msgstr ""
 "Pour définir une recherche précise vous pouvez utiliser ces termes :\n"
 "\n"
-"<b>[OR]</b> Nom de fichier/contenu doit avoir 'ceci [OU] cela'. Affiche plus "
-"de résultats.\n"
+"<b>[OR]</b> Nom de fichier/contenu doit avoir 'ceci [OU] cela'. Affiche plus de résultats.\n"
 "\n"
-"<b>[AND]</b> Nom de fichier/contenu doit avoir à la fois 'ceci [ET] cela'. "
-"Affiche moins de résultats.\n"
+"<b>[AND]</b> Nom de fichier/contenu doit avoir à la fois 'ceci [ET] cela'. Affiche moins de résultats.\n"
 "\n"
-"<b>*</b> Signifie n'importe quoi. 'pup*back' trouvera à la fois "
-"'PuppyBackup' et 'Puppies are back'.\n"
+"<b>*</b> Signifie n'importe quoi. 'pup*back' trouvera à la fois 'PuppyBackup' et 'Puppies are back'.\n"
 "\n"
-"<b>?</b> Signifie n'importe quel caractère. 'pup??back' ne trouvera que "
-"'PuppyBackup'. '??' représente seulement 2 caractères."
+"<b>?</b> Signifie n'importe quel caractère. 'pup??back' ne trouvera que 'PuppyBackup'. '??' représente seulement 2 caractères."
 
 #: box_ok.sh:29
 msgid ""
@@ -102,13 +90,10 @@ msgstr ""
 "<b>1M</b> = 1 megaoctets (M majuscule).\n"
 "<b>1G</b> = 1 gigaoctets (G majuscule)."
 
-#: box_ok.sh:40 box_ok.sh:46
-msgid ""
-"Define a directory, and it will NOT be in the searchpath. Setting works "
-"recursively."
-msgstr ""
-"Définir un répertoire, et il ne sera pas dans le chemin de recherche. "
-"Paramètres récursifs."
+#: box_ok.sh:40
+#: box_ok.sh:46
+msgid "Define a directory, and it will NOT be in the searchpath. Setting works recursively."
+msgstr "Définir un répertoire, et il ne sera pas dans le chemin de recherche. Paramètres récursifs."
 
 #: box_ok.sh:42
 #, fuzzy
@@ -126,7 +111,9 @@ msgstr ""
 msgid "Ok"
 msgstr "Valider"
 
-#: func.sh:15 func.sh:16 pfilesearch.sh:120
+#: func.sh:15
+#: func.sh:16
+#: pfilesearch.sh:120
 msgid "All files"
 msgstr "Tous les fichiers"
 
@@ -150,15 +137,18 @@ msgstr "La date ne doit pas être antérieure au 1/1 1970."
 msgid "No files found!"
 msgstr "Aucun fichier trouvé!"
 
-#: func.sh:279 pfilesearch.sh:386
+#: func.sh:279
+#: pfilesearch.sh:386
 msgid "Preferences"
 msgstr "Préférences"
 
-#: func.sh:281 pfilesearch.sh:391
+#: func.sh:281
+#: pfilesearch.sh:391
 msgid "Search"
 msgstr "Recherche en cours"
 
-#: func.sh:281 func.sh:330
+#: func.sh:281
+#: func.sh:330
 msgid "MIME"
 msgstr "MIME"
 
@@ -166,31 +156,39 @@ msgstr "MIME"
 msgid "Searchpath"
 msgstr "Chemin de recherche"
 
-#: func.sh:292 pfilesearch.sh:192
+#: func.sh:292
+#: pfilesearch.sh:192
 msgid "Exclude"
 msgstr "Exclure"
 
-#: func.sh:301 pfilesearch.sh:27 pfilesearch.sh:207
+#: func.sh:301
+#: pfilesearch.sh:27
+#: pfilesearch.sh:207
 msgid "Options"
 msgstr "Options"
 
-#: func.sh:303 pfilesearch.sh:208
+#: func.sh:303
+#: pfilesearch.sh:208
 msgid "Search also subdirectories"
 msgstr "Rechercher aussi les sous-dossiers"
 
-#: func.sh:308 pfilesearch.sh:209
+#: func.sh:308
+#: pfilesearch.sh:209
 msgid "Search only current filesystem"
 msgstr "Rechercher seulement dans le système de fichiers actuel"
 
-#: func.sh:313 pfilesearch.sh:210
+#: func.sh:313
+#: pfilesearch.sh:210
 msgid "Match only exact filename"
 msgstr "Correspondre au nom de fichier exact"
 
-#: func.sh:318 pfilesearch.sh:211
+#: func.sh:318
+#: pfilesearch.sh:211
 msgid "Case sensitive"
 msgstr "Sensible à la casse"
 
-#: func.sh:323 pfilesearch.sh:212
+#: func.sh:323
+#: pfilesearch.sh:212
 msgid "Follow symlinks"
 msgstr "Suivre les liens symboliques"
 
@@ -220,11 +218,11 @@ msgstr "Rechercher dans un dossier spécifique"
 
 #: pfilesearch.sh:33
 msgid "Run embedded - gtkdialog code is pointed to stdout"
-msgstr ""
+msgstr "Démarrer le code intégré - le code gtkdialog est dirigé vers stdout"
 
 #: pfilesearch.sh:34
 msgid "Run embedded - skip standalone options"
-msgstr ""
+msgstr "Démarrer le code intégré - évite les options autonomes"
 
 #: pfilesearch.sh:35
 msgid "Search for only groups of files:"

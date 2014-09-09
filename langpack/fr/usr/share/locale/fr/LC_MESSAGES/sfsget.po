@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:57+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,8 @@ msgid "Please wait, probing primary remote site..."
 msgstr "Veuillez patienter, examen du site principal distant ..."
 
 #: sfsget.sh:120
-msgid ""
-"Either your Internet connection is not working, or the primary repository is "
-"down. Aborting SFS Downloader"
-msgstr ""
-"Soit votre connexion Internet ne fonctionne pas, soit le dépôt principal est "
-"en panne. Abandon de SFS Downloader"
+msgid "Either your Internet connection is not working, or the primary repository is down. Aborting SFS Downloader"
+msgstr "Soit votre connexion Internet ne fonctionne pas, soit le dépôt principal est en panne. Abandon de SFS Downloader"
 
 #: sfsget.sh:133
 msgid "SFS Downloader: choose file"
@@ -40,11 +36,11 @@ msgstr "AUCUNE PARTITION TROUVEE"
 
 #: sfsget.sh:174
 msgid "filesystem:"
-msgstr ""
+msgstr "système de fichiers:"
 
 #: sfsget.sh:174
 msgid "size:"
-msgstr ""
+msgstr "taille:"
 
 #: sfsget.sh:176
 #, fuzzy
@@ -52,39 +48,16 @@ msgid "SFS Downloader: destination"
 msgstr "SFS Downloader: site hôte"
 
 #: sfsget.sh:178
-msgid ""
-"This is a first boot of Puppy and you have not yet saved a session. You want "
-"to download"
-msgstr ""
-"Il s'agit de votre premier démarrage et vous n'avez pas encore enregistré de "
-"session. Vous souhaitez télécharger"
+msgid "This is a first boot of Puppy and you have not yet saved a session. You want to download"
+msgstr "Il s'agit de votre premier démarrage et vous n'avez pas encore enregistré de session. Vous souhaitez télécharger"
 
 #: sfsget.sh:178
-msgid ""
-"and this needs to be downloaded to the same partition in which you will be "
-"creating the session save-file. Then, at next boot, Puppy will load the "
-"session and will also see the SFS file and be able to load that also (a "
-"'zdrv' will load automatically, others need to be manually selected in te "
-"BootManager -- see System menu)"
-msgstr ""
-"et il doit être téléchargé dans la même partition où sera créé le fichier de "
-"sauvegarde de la session. Ainsi, au prochain démarrage, lors du chargement "
-"de la session,Toutou/Puppy localisera le fichier SFS et le chargera aussi "
-"(un fichier 'zdrv 'se chargera automatiquement, d'autres sfs devront être "
-"sélectionnés manuellement dans BootManager - voir le menu Système)"
+msgid "and this needs to be downloaded to the same partition in which you will be creating the session save-file. Then, at next boot, Puppy will load the session and will also see the SFS file and be able to load that also (a 'zdrv' will load automatically, others need to be manually selected in te BootManager -- see System menu)"
+msgstr "et il doit être téléchargé dans la même partition où sera créé le fichier de sauvegarde de la session. Ainsi, au prochain démarrage, lors du chargement de la session,Toutou/Puppy localisera le fichier SFS et le chargera aussi (un fichier 'zdrv 'se chargera automatiquement, d'autres sfs devront être sélectionnés manuellement dans BootManager - voir le menu Système)"
 
 #: sfsget.sh:179
-msgid ""
-"Here is a list of suitable partitions. Whichever one you choose, at shutdown "
-"you will be asked to save the session and be sure to choose the same "
-"partition. Well, even if you download it to the wrong place, you can move it "
-"afterward! Click the one you want:"
-msgstr ""
-"Voici une liste des partitions disponibles. Quelle que soit celle que vous "
-"choisirez, lors du premier arrêt du PC vous serez invité à enregistrer la "
-"session et serez ainsi assuré de choisir la même partition. Mais ne vous "
-"inquiétez pas, même si vous le téléchargez au mauvais endroit, vous pourrez "
-"le déplacer par la suite! Cliquez sur la partition souhaitée :"
+msgid "Here is a list of suitable partitions. Whichever one you choose, at shutdown you will be asked to save the session and be sure to choose the same partition. Well, even if you download it to the wrong place, you can move it afterward! Click the one you want:"
+msgstr "Voici une liste des partitions disponibles. Quelle que soit celle que vous choisirez, lors du premier arrêt du PC vous serez invité à enregistrer la session et serez ainsi assuré de choisir la même partition. Mais ne vous inquiétez pas, même si vous le téléchargez au mauvais endroit, vous pourrez le déplacer par la suite! Cliquez sur la partition souhaitée :"
 
 #: sfsget.sh:200
 msgid "ERROR: Could not mount"
@@ -108,8 +81,7 @@ msgstr "Il sera téléchargé au plus haut niveau (/) dans la partition"
 
 #: sfsget.sh:223
 msgid "Please choose which URL you would like to download it from:"
-msgstr ""
-"Veuillez choisir l'URL à partir de laquelle vous souhaitez le télécharger :"
+msgstr "Veuillez choisir l'URL à partir de laquelle vous souhaitez le télécharger :"
 
 #: sfsget.sh:231
 msgid "Test URLs"
@@ -120,22 +92,10 @@ msgid "Download SFS file"
 msgstr "Télécharger le fichier SFS"
 
 #: sfsget.sh:258
-msgid ""
-"The SFS file has downloaded. You can now choose it in the BootManager (but "
-"not a 'zdrv' SFS, that will automatically load), then reboot for it to load"
-msgstr ""
-"Le fichier SFS a été téléchargé. Vous pouvez maintenant le sélectionner dans "
-"BootManager (sauf pour le fichier SFS 'zdrv ', qui sera automatiquement "
-"chargé), puis redémarrer l'ordinateur afin qu'il se charge lors du prochain "
-"démarrage"
+msgid "The SFS file has downloaded. You can now choose it in the BootManager (but not a 'zdrv' SFS, that will automatically load), then reboot for it to load"
+msgstr "Le fichier SFS a été téléchargé. Vous pouvez maintenant le sélectionner dans BootManager (sauf pour le fichier SFS 'zdrv ', qui sera automatiquement chargé), puis redémarrer l'ordinateur afin qu'il se charge lors du prochain démarrage"
 
 #: sfsget.sh:261
-msgid ""
-"The SFS file has been downloaded, however you have to save the session (at "
-"shutdown) then on next bootup the BootManager will run and offer the SFS "
-"file (a 'zdrv' SFS will automatically load)."
-msgstr ""
-"Le fichier SFS a été téléchargé, mais vous devez sauvegarder la session "
-"(arréter ou redémarrer le PC), puis au démarrage suivant, BootManager se "
-"lancera et proposera le fichier SFS (notez qu'un fichier SFS 'zdrv' se "
-"charge automatiquement)."
+msgid "The SFS file has been downloaded, however you have to save the session (at shutdown) then on next bootup the BootManager will run and offer the SFS file (a 'zdrv' SFS will automatically load)."
+msgstr "Le fichier SFS a été téléchargé, mais vous devez sauvegarder la session (arréter ou redémarrer le PC), puis au démarrage suivant, BootManager se lancera et proposera le fichier SFS (notez qu'un fichier SFS 'zdrv' se charge automatiquement)."
+

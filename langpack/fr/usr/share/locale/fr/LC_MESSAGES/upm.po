@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: upm VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:57+0200\n"
-"PO-Revision-Date: 2014-09-07 22:57+0200\n"
-"Last-Translator: root <root@localhost>\n"
+"PO-Revision-Date: 2014-09-09 19:40+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr ""
 
 #: upm-bin.sh:19
 msgid "UPM"
-msgstr ""
+msgstr "UPM"
 
 #: upm-bin.sh:20
 msgid "(user profiles manager)"
-msgstr ""
+msgstr "(Gestionnaire de profils utilisateurs)"
 
 #: upm-bin.sh:85
 #, sh-format
@@ -34,10 +34,16 @@ msgid ""
 "- Previous versions: by $AuthorPreviousVersions.\n"
 "- Original version: by $AuthorOriginalVersion."
 msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée: $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes: par $AuthorPreviousVersions.\n"
+"- Version originale: par $AuthorOriginalVersion."
 
-#: upm-bin.sh:116 upm.sh:21
+#: upm-bin.sh:116
+#: upm.sh:21
 msgid "Infos"
-msgstr ""
+msgstr "Infos"
 
 #: upm-bin.sh:118
 #, sh-format
@@ -45,23 +51,26 @@ msgid ""
 "Currently, $AppTitle is under development.\n"
 "Use the forum to contribute."
 msgstr ""
+"Actuellement, $AppTitle est en cours de développement.\n"
+"Utiliser le forum pour contribuer."
 
 #: upm-bin.sh:129
 #, sh-format
 msgid "Help for $AppTitle01."
-msgstr ""
+msgstr "Aide pour $AppTitle01."
 
 #: upm-bin.sh:134
 #, sh-format
 msgid "Version and authors of $AppTitle01."
-msgstr ""
+msgstr "Version and authors of $AppTitle01."
 
 #: upm-bin.sh:139
 #, sh-format
 msgid "Quit $AppTitle01."
-msgstr ""
+msgstr "Quitter $AppTitle01."
 
 #: upm.sh:21
 #, sh-format
 msgid "$ANL01 is already active. So your request is not accepted."
-msgstr ""
+msgstr "$ANL01 est déjà actif. Votre demande n'est pas acceptée."
+

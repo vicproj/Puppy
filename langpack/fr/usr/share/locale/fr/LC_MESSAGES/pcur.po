@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: pcur VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2013-01-04 17:00+0100\n"
-"Last-Translator: esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:12+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: FRENCH <LL@li.org>\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -12,37 +12,37 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: pcur.sh:24 pcur.sh:26 pcur.sh:28 pcur.sh:85
+#: pcur.sh:24
+#: pcur.sh:26
+#: pcur.sh:28
+#: pcur.sh:85
 #, fuzzy
 msgid "Cursor theme setter"
 msgstr "Thème du curseur"
 
 #: pcur.sh:24
 msgid "Failed to download package"
-msgstr ""
+msgstr "Impossible de télécharger le paquet"
 
 #: pcur.sh:26
 msgid "Failed to install package"
-msgstr ""
+msgstr "Impossible d'installer le paquet"
 
 #: pcur.sh:28
-msgid ""
-"New themes are installed. <b>Please restart pCur</b> - Cursor theme setter."
-msgstr ""
+msgid "New themes are installed. <b>Please restart pCur</b> - Cursor theme setter."
+msgstr "Les nouveaux thèmes sont installés. <b>Veuillez redémarrer pCur</b> - Thème du curseur"
 
 #: pcur.sh:54
 msgid "Cursor theme"
 msgstr "Thème du curseur"
 
 #: pcur.sh:64
-msgid ""
-"<b>No themes found.</b> Click the install button to get a nice collection of "
-"cursor themes."
-msgstr ""
+msgid "<b>No themes found.</b> Click the install button to get a nice collection of cursor themes."
+msgstr "<b>Aucun thème trouvé.</b> Cliquer sur le bouton installer pour obtenir une sympathique collection de thèmes de curseur."
 
 #: pcur.sh:71
 msgid "Download and Install"
-msgstr ""
+msgstr "Télécharger et installer"
 
 #: pcur.sh:79
 #, fuzzy
@@ -51,19 +51,19 @@ msgstr "Vous devez relancer le serveur X pour utiliser le nouveau thème"
 
 #: pcur.sh:81
 msgid "<b>Choose your prefered mousepointer theme.</b> Themes are installed to"
-msgstr ""
+msgstr "<b>Choisissez votre thème préféré de pointeur de souris.</b> Les thèmes sont installés dans"
 
 #: pcur.sh:92
 msgid "Apply"
-msgstr ""
+msgstr "Appliquer"
 
 #: pcur.sh:97
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: pcur.sh:103
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #~ msgid ""
 #~ "Choose one you like, click 'OK', close down all applications, then choose "

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: pmount VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2013-02-15 10:16+0100\n"
-"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:34+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -14,25 +14,32 @@ msgstr ""
 
 #: pmount.sh:206
 msgid "N/A"
-msgstr ""
+msgstr "N/A"
 
-#: pmount.sh:214 pmount.sh:285 pmount.sh:315 pmount.sh:317 pmount.sh:336
+#: pmount.sh:214
+#: pmount.sh:285
+#: pmount.sh:315
+#: pmount.sh:317
+#: pmount.sh:336
 #: pmount.sh:578
 #, fuzzy
 msgid "Puppy Drive Mounter"
 msgstr "Outil de montage : Pmount"
 
-#: pmount.sh:216 pmount.sh:570
+#: pmount.sh:216
+#: pmount.sh:570
 msgid "Edit label"
-msgstr ""
+msgstr "Editer libellé"
 
-#: pmount.sh:225 pmount.sh:798
+#: pmount.sh:225
+#: pmount.sh:798
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
-#: pmount.sh:230 pmount.sh:802
+#: pmount.sh:230
+#: pmount.sh:802
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: pmount.sh:285
 #, sh-format
@@ -102,39 +109,43 @@ msgstr "Patientez, examen des disques en cours..."
 
 #: pmount.sh:559
 msgid "Show location"
-msgstr ""
+msgstr "Afficher l'emplacement"
 
 #: pmount.sh:575
 msgid "Check filesystem"
-msgstr ""
+msgstr "Vérifier le système de fichiers"
 
 #: pmount.sh:581
 msgid "Mount partition at boot"
-msgstr ""
+msgstr "Monter la partition au démarrage"
 
-#: pmount.sh:592 pmount.sh:621 pmount.sh:643
+#: pmount.sh:592
+#: pmount.sh:621
+#: pmount.sh:643
 msgid "(un) Mount"
-msgstr ""
+msgstr "(dé) Monter"
 
-#: pmount.sh:616 pmount.sh:628
+#: pmount.sh:616
+#: pmount.sh:628
 msgid "Play"
-msgstr ""
+msgstr "Jouer"
 
-#: pmount.sh:618 pmount.sh:630
+#: pmount.sh:618
+#: pmount.sh:630
 msgid "Eject disc"
-msgstr ""
+msgstr "Ejecter le disque"
 
 #: pmount.sh:626
 msgid "Disc information"
-msgstr ""
+msgstr "Informations du disque"
 
 #: pmount.sh:645
 msgid "Swap off"
-msgstr ""
+msgstr "Swap désactivé"
 
 #: pmount.sh:648
 msgid "Swap on"
-msgstr ""
+msgstr "Swap activé"
 
 #: pmount.sh:690
 msgid "drive"
@@ -162,23 +173,18 @@ msgstr "NE PAS DÉBRANCHER les médias MONTÉS"
 
 #: pmount.sh:719
 msgid "Refresh"
-msgstr ""
+msgstr "Rafraîchir"
 
-#: pmount.sh:777 pmount.sh:779
+#: pmount.sh:777
+#: pmount.sh:779
 #, fuzzy
 msgid "Preferences"
 msgstr "préférences"
 
 #: pmount.sh:780
 #, fuzzy
-msgid ""
-"If you don't have many drives or partitions, you may find it more convenient "
-"to see everything in one window. Untick the box if you want the default "
-"tabbed interface, or tick for a single window."
-msgstr ""
-"Si vous avez peu de disques, vous pouvez tous les afficher dans une même "
-"fenêtre. Décochez la case pour l'interface par défaut à onglets, ou cocher "
-"pour une seule fenêtre."
+msgid "If you don't have many drives or partitions, you may find it more convenient to see everything in one window. Untick the box if you want the default tabbed interface, or tick for a single window."
+msgstr "Si vous avez peu de disques, vous pouvez tous les afficher dans une même fenêtre. Décochez la case pour l'interface par défaut à onglets, ou cocher pour une seule fenêtre."
 
 #: pmount.sh:782
 msgid "Tick box for single window"
@@ -186,14 +192,8 @@ msgstr "Cochez ici pour une seule fenêtre"
 
 #: pmount.sh:787
 #, fuzzy
-msgid ""
-"If this checkbox is ticked, pMount will quit immediately after choosing to "
-"mount or unmount a partition. If you would prefer pMount to keep running "
-"afterward, then untick this box."
-msgstr ""
-"Si cette case est cochée, Pmount quittera immédiatement après le choix de "
-"monter ou de démonter une partition. Si vous souhaitez consulter Pmount pour "
-"continuer à fonctionner après, décochez cette case."
+msgid "If this checkbox is ticked, pMount will quit immediately after choosing to mount or unmount a partition. If you would prefer pMount to keep running afterward, then untick this box."
+msgstr "Si cette case est cochée, Pmount quittera immédiatement après le choix de monter ou de démonter une partition. Si vous souhaitez consulter Pmount pour continuer à fonctionner après, décochez cette case."
 
 #: pmount.sh:790
 #, fuzzy

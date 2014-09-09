@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:55+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -20,11 +20,11 @@ msgstr "Patientez, traitement en cours..."
 
 #: partview.sh:23
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: partview.sh:23
 msgid "Kernel"
-msgstr ""
+msgstr "Noyau"
 
 #: partview.sh:88
 msgid "free"
@@ -32,7 +32,7 @@ msgstr "libre"
 
 #: partview.sh:100
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #~ msgid "size"
 #~ msgstr "taille"

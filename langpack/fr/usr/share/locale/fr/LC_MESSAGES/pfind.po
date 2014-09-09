@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: box_yesno VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2012-11-16 09:48+0800\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:29+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: box_yesno.sh:4 func.sh:245 func.sh:592 func.sh:637 func.sh:746 pfind.sh:223
+#: box_yesno.sh:4
+#: func.sh:245
+#: func.sh:592
+#: func.sh:637
+#: func.sh:746
+#: pfind.sh:223
 msgid "Info"
 msgstr "Infos"
 
@@ -28,87 +33,111 @@ msgstr "\"Oui\""
 msgid "Building symlinks...please wait"
 msgstr "Patientez, construction des liens symboliques..."
 
-#: func.sh:101 func.sh:556 func.sh:576 pfind.sh:135
+#: func.sh:101
+#: func.sh:556
+#: func.sh:576
+#: pfind.sh:135
 msgid "Copy"
 msgstr "Copier"
 
-#: func.sh:102 func.sh:709 func.sh:730 func.sh:734 pfind.sh:136
+#: func.sh:102
+#: func.sh:709
+#: func.sh:730
+#: func.sh:734
+#: pfind.sh:136
 msgid "Move"
 msgstr "Déplacer"
 
-#: func.sh:103 pfind.sh:137 pfind.sh:460
+#: func.sh:103
+#: pfind.sh:137
+#: pfind.sh:460
 msgid "Burn"
 msgstr "Graver"
 
-#: func.sh:104 pfind.sh:138
+#: func.sh:104
+#: pfind.sh:138
 msgid "Execute command"
 msgstr "Exécuter la commande"
 
-#: func.sh:106 pfind.sh:141
+#: func.sh:106
+#: pfind.sh:141
 msgid "Show location"
 msgstr "Afficher l'emlacement"
 
-#: func.sh:107 func.sh:684 pfind.sh:142
+#: func.sh:107
+#: func.sh:684
+#: pfind.sh:142
 msgid "Rename"
 msgstr "Renommer"
 
-#: func.sh:108 func.sh:782 pfind.sh:143
+#: func.sh:108
+#: func.sh:782
+#: pfind.sh:143
 msgid "Link"
 msgstr "Lier"
 
-#: func.sh:109 func.sh:797 pfind.sh:144
+#: func.sh:109
+#: func.sh:797
+#: pfind.sh:144
 msgid "Delete"
 msgstr "Supprimer"
 
-#: func.sh:110 func.sh:822 pfind.sh:139
+#: func.sh:110
+#: func.sh:822
+#: pfind.sh:139
 msgid "Send to trash"
 msgstr "Envoyer aux déchets"
 
-#: func.sh:154 func.sh:345 func.sh:427 func.sh:440 func.sh:453 func.sh:473
-#: func.sh:491 func.sh:506 func.sh:543
+#: func.sh:154
+#: func.sh:345
+#: func.sh:427
+#: func.sh:440
+#: func.sh:453
+#: func.sh:473
+#: func.sh:491
+#: func.sh:506
+#: func.sh:543
 msgid "is not installed. Check config."
 msgstr "n'est pas installé. verifier la configuration."
 
-#: func.sh:175 pfind.sh:47
+#: func.sh:175
+#: pfind.sh:47
 msgid "Total"
 msgstr "Total"
 
-#: func.sh:177 pfind.sh:54
+#: func.sh:177
+#: pfind.sh:54
 msgid "Documents"
 msgstr "Documents"
 
-#: func.sh:179 pfind.sh:60
+#: func.sh:179
+#: pfind.sh:60
 msgid "Pictures"
 msgstr "Images"
 
-#: func.sh:181 pfind.sh:66
+#: func.sh:181
+#: pfind.sh:66
 msgid "Sound files"
 msgstr "Fichiers audio"
 
-#: func.sh:183 pfind.sh:72
+#: func.sh:183
+#: pfind.sh:72
 msgid "Videos"
 msgstr "Vidéos"
 
-#: func.sh:185 pfind.sh:78
+#: func.sh:185
+#: pfind.sh:78
 msgid "Compressed"
 msgstr "Compressés"
 
-#: func.sh:187 pfind.sh:84
+#: func.sh:187
+#: pfind.sh:84
 msgid "Code files"
 msgstr "Fichiers de code"
 
 #: func.sh:245
-msgid ""
-"Search result contains file(s) with < or > in name. As long as all filenames "
-"uses charset UTF-8 there is no risk, and you can configure Pfind to allow "
-"these chars. If filenames uses other charset than UTF-8 Pfind will fail. "
-"Pfind will now translate < and > to ?"
-msgstr ""
-"Le résultat de la recherche contient des fichiers avec < or > dans le nom. "
-"Tant que tous les fichiers utilisent la charte UTF-8 il n'y a pas de risque, "
-"et vous pouvez configurer Pfind pour autoriser ces caractères. Si les noms "
-"de fichiers utilisent un autre système que UTF-8, Pfind ne fonctionnera pas. "
-"Pfind va maintenant traduire < and > en ?"
+msgid "Search result contains file(s) with < or > in name. As long as all filenames uses charset UTF-8 there is no risk, and you can configure Pfind to allow these chars. If filenames uses other charset than UTF-8 Pfind will fail. Pfind will now translate < and > to ?"
+msgstr "Le résultat de la recherche contient des fichiers avec < or > dans le nom. Tant que tous les fichiers utilisent la charte UTF-8 il n'y a pas de risque, et vous pouvez configurer Pfind pour autoriser ces caractères. Si les noms de fichiers utilisent un autre système que UTF-8, Pfind ne fonctionnera pas. Pfind va maintenant traduire < and > en ?"
 
 #: func.sh:315
 #, fuzzy
@@ -121,9 +150,10 @@ msgstr "Afficher la liste des noms de fichiers dans l'éditeur par défaut."
 
 #: func.sh:319
 msgid "include"
-msgstr ""
+msgstr "inclure"
 
-#: func.sh:321 pfind.sh:267
+#: func.sh:321
+#: pfind.sh:267
 msgid "Path"
 msgstr "Chemin"
 
@@ -131,12 +161,17 @@ msgstr "Chemin"
 msgid "Extension"
 msgstr "Extension"
 
-#: func.sh:519 func.sh:663 func.sh:679 func.sh:778 func.sh:793
+#: func.sh:519
+#: func.sh:663
+#: func.sh:679
+#: func.sh:778
+#: func.sh:793
 msgid "This operation requires single selection. Please select ONE file."
-msgstr ""
-"Cette opération requiert une sélection unique. Sélectionnez UN fichier."
+msgstr "Cette opération requiert une sélection unique. Sélectionnez UN fichier."
 
-#: func.sh:523 pfind.sh:123 pfind.sh:131
+#: func.sh:523
+#: pfind.sh:123
+#: pfind.sh:131
 msgid "Open with"
 msgstr "Ouvrir avec"
 
@@ -144,24 +179,18 @@ msgstr "Ouvrir avec"
 msgid "Copy to"
 msgstr "Copier dans"
 
-#: func.sh:588 func.sh:742
+#: func.sh:588
+#: func.sh:742
 msgid "Use original filenames"
 msgstr "Utiliser les noms de fichiers originaux"
 
 #: func.sh:593
 #, fuzzy
 msgid ""
-"Pfind names files with both original filename and its path. Like this: info."
-"txt (-usr-local-pfind-). Using only original filename, will let files get "
-"the same name (info.txt). Copying will fail if another file with the same "
-"name exist.\n"
+"Pfind names files with both original filename and its path. Like this: info.txt (-usr-local-pfind-). Using only original filename, will let files get the same name (info.txt). Copying will fail if another file with the same name exist.\n"
 "\n"
 "The following files will be copied:"
-msgstr ""
-"Pfind nomme les fichiers avec le nom original et son chemin. Comme ceci: "
-"info.txt   (-usr-local-pfind-). Si on utilisait le nom original seulement, "
-"les fichiers prendraient un même nom (info.txt). La copie échouerait si un "
-"autre fichier avec le même nom existait."
+msgstr "Pfind nomme les fichiers avec le nom original et son chemin. Comme ceci: info.txt   (-usr-local-pfind-). Si on utilisait le nom original seulement, les fichiers prendraient un même nom (info.txt). La copie échouerait si un autre fichier avec le même nom existait."
 
 #: func.sh:631
 #, fuzzy
@@ -174,7 +203,7 @@ msgstr "Déplacer tous les fichiers dans la liste vers"
 
 #: func.sh:638
 msgid "The command will affect the following files:"
-msgstr ""
+msgstr "La commande va affecter les fichiers suivants:"
 
 #: func.sh:645
 msgid "Ok"
@@ -191,17 +220,10 @@ msgstr "vers"
 #: func.sh:747
 #, fuzzy
 msgid ""
-"Pfind names files with both original filename and its path. Like this: info."
-"txt (-usr-local-pfind-). Using only original filename, will let files get "
-"the same name (info.txt). Moving will fail if another file with the same "
-"name exist.\n"
+"Pfind names files with both original filename and its path. Like this: info.txt (-usr-local-pfind-). Using only original filename, will let files get the same name (info.txt). Moving will fail if another file with the same name exist.\n"
 "\n"
 "The following files will be moved:"
-msgstr ""
-"Pfind nomme les fichiers avec le nom original et son chemin. Comme ceci: "
-"info.txt   (-usr-local-pfind-). Si on utilisait le nom original seulement, "
-"les fichiers prendraient un même nom (info.txt). La copie échouerait si un "
-"autre fichier avec le même nom existait."
+msgstr "Pfind nomme les fichiers avec le nom original et son chemin. Comme ceci: info.txt   (-usr-local-pfind-). Si on utilisait le nom original seulement, les fichiers prendraient un même nom (info.txt). La copie échouerait si un autre fichier avec le même nom existait."
 
 #: pfind.sh:116
 msgid "File"
@@ -219,31 +241,38 @@ msgstr "Configurer"
 msgid "Action"
 msgstr "Action"
 
-#: pfind.sh:124 pfind.sh:404
+#: pfind.sh:124
+#: pfind.sh:404
 msgid "FileManager"
 msgstr "Gestionnaire de fichiers"
 
-#: pfind.sh:125 pfind.sh:411
+#: pfind.sh:125
+#: pfind.sh:411
 msgid "TextEditor"
 msgstr "Editeur de textes"
 
-#: pfind.sh:126 pfind.sh:419
+#: pfind.sh:126
+#: pfind.sh:419
 msgid "ImageBrowser"
 msgstr "Gestionnaire d'images"
 
-#: pfind.sh:127 pfind.sh:431
+#: pfind.sh:127
+#: pfind.sh:431
 msgid "Slideshow"
 msgstr "Diaporama"
 
-#: pfind.sh:128 pfind.sh:441
+#: pfind.sh:128
+#: pfind.sh:441
 msgid "MusicPlayer"
 msgstr "Lecteur audio"
 
-#: pfind.sh:129 pfind.sh:452
+#: pfind.sh:129
+#: pfind.sh:452
 msgid "VideoPlayer"
 msgstr "Lecteur vidéo"
 
-#: pfind.sh:148 pfind.sh:150
+#: pfind.sh:148
+#: pfind.sh:150
 msgid "Help"
 msgstr "Aide"
 
@@ -255,7 +284,8 @@ msgstr "A propos"
 msgid "Define (part of) filename"
 msgstr "Définir le nom (ou une partie) du fichier"
 
-#: pfind.sh:172 pfind.sh:223
+#: pfind.sh:172
+#: pfind.sh:223
 msgid "Advanced"
 msgstr "Avancé"
 
@@ -294,9 +324,7 @@ msgstr "Occurences"
 #: pfind.sh:231
 msgid ""
 "I N F O R M A T I O N\n"
-"<i>Pfind is a tool to find files on your harddisks. You don't need to know "
-"the exact name of the file to find it. It is enough to specify a part of the "
-"filename as search-text.\n"
+"<i>Pfind is a tool to find files on your harddisks. You don't need to know the exact name of the file to find it. It is enough to specify a part of the filename as search-text.\n"
 "\n"
 "\n"
 "For more options, please try the Advanced button.</i>\n"
@@ -308,25 +336,19 @@ msgid ""
 "<i>To define an exact search, you can use the following terms:</i>\n"
 "\n"
 "<b>[OR]</b>\n"
-"<i>Filename/content must contain either 'this [OR] that'. This will give "
-"more results.</i>\n"
+"<i>Filename/content must contain either 'this [OR] that'. This will give more results.</i>\n"
 "\n"
 "<b>[AND]</b>\n"
-"<i>Filename/content must contain both 'this [AND] that'. This will give less "
-"results.</i>\n"
+"<i>Filename/content must contain both 'this [AND] that'. This will give less results.</i>\n"
 "\n"
 "<b>*</b>\n"
-"<i>Means anything. 'pup*back' finds both 'PuppyBackup' and 'Puppies are "
-"back'.</i>\n"
+"<i>Means anything. 'pup*back' finds both 'PuppyBackup' and 'Puppies are back'.</i>\n"
 "\n"
 "<b>?</b>\n"
-"<i>Means any char. 'pup??back' finds only 'PuppyBackup'. '??' represent only "
-"two chars.</i>"
+"<i>Means any char. 'pup??back' finds only 'PuppyBackup'. '??' represent only two chars.</i>"
 msgstr ""
 "I N F O R M A T I O N\n"
-"<i>Pfind est un utilitaire de recherche des fichiers dans vos disques. Nul "
-"besoin de connaitre le nom exact du fichier à trouver. Il vous suffit de "
-"spécifier une partie d'un nom de fichier comme texte de recherche.\n"
+"<i>Pfind est un utilitaire de recherche des fichiers dans vos disques. Nul besoin de connaitre le nom exact du fichier à trouver. Il vous suffit de spécifier une partie d'un nom de fichier comme texte de recherche.\n"
 "\n"
 "\n"
 "Pour plus d'options, cliquez sur le bouton 'Avancé'.</i>\n"
@@ -338,22 +360,19 @@ msgstr ""
 "<i>Pour définir une recherche précise, vous pouvez utiliser cela :</i>\n"
 "\n"
 "<b>[OR]</b>\n"
-"<i>Le nom du fichier ou son contenu doivent comporter 'ceci [OU] cela'. "
-"Affiche plus de résultats.</i>\n"
+"<i>Le nom du fichier ou son contenu doivent comporter 'ceci [OU] cela'. Affiche plus de résultats.</i>\n"
 "\n"
 "<b>[AND]</b>\n"
-"<i>Le nom du fichier ou son contenu doivent comporter à la fois 'ceci [ET] "
-"cela'. Affiche moins de résultats.</i>\n"
+"<i>Le nom du fichier ou son contenu doivent comporter à la fois 'ceci [ET] cela'. Affiche moins de résultats.</i>\n"
 "\n"
 "<b>*</b>\n"
-"<i>Signifie n'importe quoi : 'pup*back' trouvera 'PuppyBackup' et 'Puppies "
-"are back'.</i>\n"
+"<i>Signifie n'importe quoi : 'pup*back' trouvera 'PuppyBackup' et 'Puppies are back'.</i>\n"
 "\n"
 "<b>?</b>\n"
-"<i>Signifie n'importe quel caractère: 'pup??back' ne trouvera que "
-"'PuppyBackup'. '??' ne représente que 2 caractères seulement.</i>"
+"<i>Signifie n'importe quel caractère: 'pup??back' ne trouvera que 'PuppyBackup'. '??' ne représente que 2 caractères seulement.</i>"
 
-#: pfind.sh:267 pfind.sh:372
+#: pfind.sh:267
+#: pfind.sh:372
 msgid "Filename"
 msgstr "Nom de fichier"
 
@@ -385,18 +404,14 @@ msgstr "Paramètres"
 msgid "Commands"
 msgstr "Commandes"
 
-#: pfind.sh:349 pfind.sh:353
+#: pfind.sh:349
+#: pfind.sh:353
 msgid "Search options / MIME settings"
 msgstr "Options de recherche / Paramètres MIME"
 
 #: pfind.sh:358
-msgid ""
-"Pfind uses Pfilesearch as its file-search-engine. All search settings are "
-"global, and will affect other programs that uses Pfilesearch."
-msgstr ""
-"Pfind utilise 'Pfilesearch' comme moteur de recherche. Tous les paramètres "
-"de recherche sont globaux et affecteront tous les programmes utilisant "
-"Pfilesearch."
+msgid "Pfind uses Pfilesearch as its file-search-engine. All search settings are global, and will affect other programs that uses Pfilesearch."
+msgstr "Pfind utilise 'Pfilesearch' comme moteur de recherche. Tous les paramètres de recherche sont globaux et affecteront tous les programmes utilisant Pfilesearch."
 
 #: pfind.sh:360
 msgid "Language"
@@ -409,25 +424,18 @@ msgstr "Choisir la langue et relancer Pfind"
 #: pfind.sh:373
 msgid ""
 "Filenames in searchresult can be shown in 3 different ways:\n"
-"<b>Short</b> - Just filename (file.txt). Similar files (/tmp/file.txt and /"
-"root/file.txt) will be (file.txt) and (file~.txt).\n"
+"<b>Short</b> - Just filename (file.txt). Similar files (/tmp/file.txt and /root/file.txt) will be (file.txt) and (file~.txt).\n"
 "<b>Long</b> - Filename with path (-tmp-file.txt). Never similar files.\n"
 "<b>Hybrid</b> - As 'short', but 'long' when similar files."
 msgstr ""
-"Les noms de fichiers dans le résultat de la recherche peuvent être affichés "
-"de trois manières:\n"
-"<b>Court</b> - Simplement le nom du fichier (fichier.txt). Les fichiers "
-"similaires (/tmp/fichier.txt et /root/fichier.txt) seront affichés (fichier."
-"txt) et (fichier~.txt).\n"
-"<b>Long</b> - Le nom du fichier avec le chemin (-tmp-fichier.txt). Jamais de "
-"fichiers similaires.\n"
+"Les noms de fichiers dans le résultat de la recherche peuvent être affichés de trois manières:\n"
+"<b>Court</b> - Simplement le nom du fichier (fichier.txt). Les fichiers similaires (/tmp/fichier.txt et /root/fichier.txt) seront affichés (fichier.txt) et (fichier~.txt).\n"
+"<b>Long</b> - Le nom du fichier avec le chemin (-tmp-fichier.txt). Jamais de fichiers similaires.\n"
 "<b>Hybrid</b> - Comme 'Court', mais 'Long' avec des fichiers similaires."
 
 #: pfind.sh:387
 msgid "Allow filenames with < or >. Trouble if not compatible with UTF-8"
-msgstr ""
-"Autoriser les noms de fichier avec < or >. Risque de problèmes si non "
-"compatible avec UTF-8"
+msgstr "Autoriser les noms de fichier avec < or >. Risque de problèmes si non compatible avec UTF-8"
 
 #: pfind.sh:392
 msgid "External programs"

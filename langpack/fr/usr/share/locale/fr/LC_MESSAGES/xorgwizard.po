@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:58+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,70 +17,54 @@ msgstr ""
 #: xorgwizard.sh:195
 #, sh-format
 msgid ""
-"NOTICE: The '${REPLACEDDRV0}' driver has been removed, so when Xorg probes "
-"the video hardware, it should instead use '${SUBSTDRV}'. \n"
+"NOTICE: The '${REPLACEDDRV0}' driver has been removed, so when Xorg probes the video hardware, it should instead use '${SUBSTDRV}'. \n"
 "\n"
-"TECHNICAL NOTE: '${REPLACEDDRV0}' has been moved to /usr/lib/x/drivers-"
-"alternate and if you ever want to manually get it back so that Xorg can use "
-"it, move it to /usr/lib/xorg/modules/drivers. Note that there may also be "
-"one or more directories inside /usr/lib/x/drivers-alternate with library "
-"files needed for the alternate drivers.\n"
+"TECHNICAL NOTE: '${REPLACEDDRV0}' has been moved to /usr/lib/x/drivers-alternate and if you ever want to manually get it back so that Xorg can use it, move it to /usr/lib/xorg/modules/drivers. Note that there may also be one or more directories inside /usr/lib/x/drivers-alternate with library files needed for the alternate drivers.\n"
 "\n"
 "Press ENTER key to continue..."
 msgstr ""
-"AVIS: Le pilote '${REPLACEDDRV0}' a été retiré, ainsi lorsque Xorg examinera "
-"\"\"le matériel vidéo, il devrait utiliser '${SUBSTDRV}' à la place. \n"
+"AVIS: Le pilote '${REPLACEDDRV0}' a été retiré, ainsi lorsque Xorg examinera \"\"le matériel vidéo, il devrait utiliser '${SUBSTDRV}' à la place. \n"
 "\"\"\n"
-"\"\"NOTE TECHNIQUE: '${REPLACEDDRV0}' a été déplacé vers /usr/lib/xorg/"
-"modules/drivers-\"\"alternate et si vous voulez le reprendre manuellement "
-"pour qu'Xorg puisse l'utiliser, \"\"déplacez-le vers /usr/lib/xorg/modules/"
-"drivers. Notez qu'il peut aussi y avoir un ou \"\"plusieurs répertoires "
-"dans /usr/lib/xorg/modules/drivers-alternate, avec des fichiers \"\"de "
-"bibliothèques nécessaires à d'autres pilotes.\n"
+"\"\"NOTE TECHNIQUE: '${REPLACEDDRV0}' a été déplacé vers /usr/lib/xorg/modules/drivers-\"\"alternate et si vous voulez le reprendre manuellement pour qu'Xorg puisse l'utiliser, \"\"déplacez-le vers /usr/lib/xorg/modules/drivers. Notez qu'il peut aussi y avoir un ou \"\"plusieurs répertoires dans /usr/lib/xorg/modules/drivers-alternate, avec des fichiers \"\"de bibliothèques nécessaires à d'autres pilotes.\n"
 "\"\"\n"
 "\"\"Pressez ENTREE pour continuer..."
 
 #: xorgwizard.sh:201
 #, sh-format
 msgid ""
-"NOTICE: The '${REPLACEDDRV}' and '${REPLACEDDRV2}' drivers have been "
-"removed, so when Xorg probes the video hardware, it should instead use "
-"'${SUBSTDRV}'. \n"
+"NOTICE: The '${REPLACEDDRV}' and '${REPLACEDDRV2}' drivers have been removed, so when Xorg probes the video hardware, it should instead use '${SUBSTDRV}'. \n"
 "\n"
-"TECHNICAL NOTE: '${REPLACEDDRV}' and '${REPLACEDDRV2}' have been moved to /"
-"usr/lib/x/drivers-alternate and if you ever want to manually get them back "
-"so that Xorg can use them, move them to /usr/lib/xorg/modules/drivers. Note "
-"that there may also be one or more directories inside /usr/lib/x/drivers-"
-"alternate with library files needed for the alternate drivers.\n"
+"TECHNICAL NOTE: '${REPLACEDDRV}' and '${REPLACEDDRV2}' have been moved to /usr/lib/x/drivers-alternate and if you ever want to manually get them back so that Xorg can use them, move them to /usr/lib/xorg/modules/drivers. Note that there may also be one or more directories inside /usr/lib/x/drivers-alternate with library files needed for the alternate drivers.\n"
 "\n"
 "Press ENTER key to continue..."
 msgstr ""
-"AVIS: Les pilotes '${REPLACEDDRV}' et '${REPLACEDDRV2}' ont été retirés, "
-"ainsi lorsque Xorg examinera le matériel vidéo, il devrait utiliser "
-"'${SUBSTDRV}' à la place. . \n"
+"AVIS: Les pilotes '${REPLACEDDRV}' et '${REPLACEDDRV2}' ont été retirés, ainsi lorsque Xorg examinera le matériel vidéo, il devrait utiliser '${SUBSTDRV}' à la place. . \n"
 "\"\"\n"
-"\"NOTE TECHNIQUE: '${REPLACEDDRV}' et '${REPLACEDDRV2}' ont été déplacés "
-"vers /usr/lib/xorg/modules/drivers-alternate et si vous voulez le reprendre "
-"manuellement pour qu'Xorg puisse l'utiliser, déplacez-le vers /usr/lib/xorg/"
-"modules/drivers. Notez qu'il peut aussi y avoir un ou plusieurs répertoires "
-"dans /usr/lib/xorg/modules/drivers-alternate avec des fichiers de "
-"bibliothèques nécessaires à d'autres pilotes.\n"
+"\"NOTE TECHNIQUE: '${REPLACEDDRV}' et '${REPLACEDDRV2}' ont été déplacés vers /usr/lib/xorg/modules/drivers-alternate et si vous voulez le reprendre manuellement pour qu'Xorg puisse l'utiliser, déplacez-le vers /usr/lib/xorg/modules/drivers. Notez qu'il peut aussi y avoir un ou plusieurs répertoires dans /usr/lib/xorg/modules/drivers-alternate avec des fichiers de bibliothèques nécessaires à d'autres pilotes.\n"
 "\"\"\n"
 "\"\"Pressez ENTREE pour continuer..."
 
-#: xorgwizard.sh:207 xorgwizard.sh:265 xorgwizard.sh:668 xorgwizard.sh:1104
-#: xorgwizard.sh:1105 xorgwizard.sh:1442 xorgwizard.sh:1485 xorgwizard.sh:1571
-#: xorgwizard.sh:1588 xorgwizard.sh:1628 xorgwizard.sh:1659 xorgwizard.sh:1674
-#: xorgwizard.sh:1705 xorgwizard.sh:1747 xorgwizard.sh:1765
+#: xorgwizard.sh:207
+#: xorgwizard.sh:265
+#: xorgwizard.sh:668
+#: xorgwizard.sh:1104
+#: xorgwizard.sh:1105
+#: xorgwizard.sh:1442
+#: xorgwizard.sh:1485
+#: xorgwizard.sh:1571
+#: xorgwizard.sh:1588
+#: xorgwizard.sh:1628
+#: xorgwizard.sh:1659
+#: xorgwizard.sh:1674
+#: xorgwizard.sh:1705
+#: xorgwizard.sh:1747
+#: xorgwizard.sh:1765
 msgid "Xorg Video Wizard"
 msgstr "Assistant Vidéo Xorg"
 
 #: xorgwizard.sh:245
 #, fuzzy
-msgid ""
-"The behaviour of Xorg is controlled by a configuration file, /etc/X11/xorg."
-"conf. This was generated auto-matically at the first boot, but you may now "
-"edit it manually."
+msgid "The behaviour of Xorg is controlled by a configuration file, /etc/X11/xorg.conf. This was generated auto-matically at the first boot, but you may now edit it manually."
 msgstr ""
 " \n"
 "Le comportement de Xorg est\n"
@@ -96,10 +80,7 @@ msgstr ""
 
 #: xorgwizard.sh:248
 #, fuzzy
-msgid ""
-"The behaviour of Xorg is controlled by a configuration file, /etc/X11/xorg."
-"conf. You have a choice here, either to completely reconstruct the /etc/X11/"
-"xorg.conf file, or to modify the existing file."
+msgid "The behaviour of Xorg is controlled by a configuration file, /etc/X11/xorg.conf. You have a choice here, either to completely reconstruct the /etc/X11/xorg.conf file, or to modify the existing file."
 msgstr ""
 " \n"
 "Le comportement de Xorg est\n"
@@ -116,34 +97,25 @@ msgstr ""
 #: xorgwizard.sh:251
 #, fuzzy
 msgid ""
-"<b>XorgWizard</b> completely reconstructs the /etc/X11/xorg.conf file, and X "
-"must not be running to do this. A reboot is required, and the Wizard will "
-"run in text mode, before X is launched.\n"
+"<b>XorgWizard</b> completely reconstructs the /etc/X11/xorg.conf file, and X must not be running to do this. A reboot is required, and the Wizard will run in text mode, before X is launched.\n"
 "\n"
-"NOTE: You can also run XorgWizard manually, without rebooting, by exiting "
-"from X to the commandline (see Shutdown menu) then run xorgwizard."
-msgstr ""
-"XorgWizard sait reconstruire le fichier /etc/X11/xorg.conf, mais pas en "
-"fonctionnement sous X.Il faut vous redémarrer. L'Assistant fonctionnera en "
-"mode texte avant que le serveur graphique soit lancé. SAUVEGARDEZ votre "
-"travail avant..."
+"NOTE: You can also run XorgWizard manually, without rebooting, by exiting from X to the commandline (see Shutdown menu) then run xorgwizard."
+msgstr "XorgWizard sait reconstruire le fichier /etc/X11/xorg.conf, mais pas en fonctionnement sous X.Il faut vous redémarrer. L'Assistant fonctionnera en mode texte avant que le serveur graphique soit lancé. SAUVEGARDEZ votre travail avant..."
 
 #: xorgwizard.sh:267
 msgid "Screen"
-msgstr ""
+msgstr "Ecran"
 
 #: xorgwizard.sh:267
 msgid "Advanced"
-msgstr ""
+msgstr "Avancé"
 
 #: xorgwizard.sh:269
 msgid "Screen tuning"
 msgstr ""
 
 #: xorgwizard.sh:270
-msgid ""
-"<b>Screen tuning</b> depends on the loaded video/graphics driver, so if "
-"correct resolution is not there, check the advanced tab..."
+msgid "<b>Screen tuning</b> depends on the loaded video/graphics driver, so if correct resolution is not there, check the advanced tab..."
 msgstr ""
 
 #: xorgwizard.sh:272
@@ -151,6 +123,8 @@ msgid ""
 "<b>Change screen resolution</b>\n"
 "How many vertical and horizontal pixels fits your screen."
 msgstr ""
+"<b>Modifier la résolution écran</b>\n"
+"Combien de pixels verticaux et horizontaux constituent votre écran."
 
 #: xorgwizard.sh:283
 #, fuzzy
@@ -163,11 +137,8 @@ msgstr "Ajuster les couleurs du moniteur et la brillance de l'écran :"
 #, fuzzy
 msgid ""
 "<b>X/Y correction</b>\n"
-"If the screen is displaced or the width/height are wrong. This will modify "
-"the existing xorg.conf file. <b>Use with caution!</b>"
-msgstr ""
-"Si l'écran est déplacé ou si largeur/hauteur ne sont pas correctes, xvidtune "
-"vous aidera à les rectifier. Cela modifiera le fichier xorg.conf existant."
+"If the screen is displaced or the width/height are wrong. This will modify the existing xorg.conf file. <b>Use with caution!</b>"
+msgstr "Si l'écran est déplacé ou si largeur/hauteur ne sont pas correctes, xvidtune vous aidera à les rectifier. Cela modifiera le fichier xorg.conf existant."
 
 #: xorgwizard.sh:307
 #, fuzzy
@@ -176,24 +147,16 @@ msgstr "Modifier xorg.conf"
 
 #: xorgwizard.sh:313
 #, fuzzy
-msgid ""
-"You can <b>manually edit</b> /etc/X11/xorg.conf, but note that you will need "
-"to exit from X afterward then restart X (see Shutdown menu). Click button to "
-"edit:"
-msgstr ""
-"Vous pouvez modifier le fichier /etc/X11/xorg.conf, cependant vous devrez "
-"relancer le serveur graphique X (voir l'Assistant Général) :"
+msgid "You can <b>manually edit</b> /etc/X11/xorg.conf, but note that you will need to exit from X afterward then restart X (see Shutdown menu). Click button to edit:"
+msgstr "Vous pouvez modifier le fichier /etc/X11/xorg.conf, cependant vous devrez relancer le serveur graphique X (voir l'Assistant Général) :"
 
 #: xorgwizard.sh:327
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: xorgwizard.sh:357
-msgid ""
-"Changes to /etc/X11/xorg.conf will only take effect after X is restarted."
-msgstr ""
-"Les changements dans /etc/X11/xorg.conf ne prendont effet qu'après le "
-"redémarrage du serveur graphique X."
+msgid "Changes to /etc/X11/xorg.conf will only take effect after X is restarted."
+msgstr "Les changements dans /etc/X11/xorg.conf ne prendont effet qu'après le redémarrage du serveur graphique X."
 
 #: xorgwizard.sh:359
 msgid "Click OK button to restart X..."
@@ -219,9 +182,7 @@ msgstr "Ainsi :"
 
 #: xorgwizard.sh:367
 msgid "'Show' to record the settings (for later inclusion into xorg.conf)"
-msgstr ""
-"Afficher' pour sauver les nouveaux réglages (pour une prochaine inclusion "
-"dans xorg.conf)"
+msgstr "Afficher' pour sauver les nouveaux réglages (pour une prochaine inclusion dans xorg.conf)"
 
 #: xorgwizard.sh:368
 msgid "'Quit' to exit Xvidtune."
@@ -232,10 +193,8 @@ msgid ""
 "Please note that Xvidtune does not work with all video hardware, meaning\n"
 "that changing the settings will cause no change on the screen."
 msgstr ""
-"Notez cependant que Xvidtune ne fonctionne pas avec tous les matériels, ce "
-"qui\n"
-"veut dire que la modification des paramètres ne se verra pas forcément à "
-"l'écran."
+"Notez cependant que Xvidtune ne fonctionne pas avec tous les matériels, ce qui\n"
+"veut dire que la modification des paramètres ne se verra pas forcément à l'écran."
 
 #: xorgwizard.sh:376
 msgid "Xvidtune: Modeline"
@@ -251,21 +210,15 @@ msgstr "Note : Relancez le serveur graphique X pour activer les changements."
 
 #: xorgwizard.sh:380
 msgid "up X, edit from commandline 'mp /etc/X11/xorg.conf' and comment-out"
-msgstr ""
-"S'il y a un problème au démarrage de X, tapez la commande : 'mp /etc/X11/"
-"xorg.conf' "
+msgstr "S'il y a un problème au démarrage de X, tapez la commande : 'mp /etc/X11/xorg.conf' "
 
 #: xorgwizard.sh:381
 msgid "the 'UseModes' line (do not delete it) in the Monitor section."
-msgstr ""
-"et, ajoutez un # au debut de la ligne 'UseModes' (ne pas l'effacer) dans la "
-"section Monitor ."
+msgstr "et, ajoutez un # au debut de la ligne 'UseModes' (ne pas l'effacer) dans la section Monitor ."
 
 #: xorgwizard.sh:383
 msgid "To insert this into /etc/X11/xorg.conf, click 'Write' button..."
-msgstr ""
-"Pour insérer cette modification dans /etc/X11/xorg.conf, cliquez sur "
-"'Appliquer'..."
+msgstr "Pour insérer cette modification dans /etc/X11/xorg.conf, cliquez sur 'Appliquer'..."
 
 #: xorgwizard.sh:384
 msgid "To exit without changing xorg.conf, click 'Quit' button..."
@@ -275,8 +228,12 @@ msgstr "Pour quitter sans modifier xorg.conf, cliquez sur 'Quitter'..."
 msgid "Welcome to the Puppy Video Wizard!"
 msgstr "Bienvenue dans l'Assistant Graphique de Toutou Linux"
 
-#: xorgwizard.sh:431 xorgwizard.sh:447 xorgwizard.sh:496 xorgwizard.sh:981
-#: xorgwizard.sh:1162 xorgwizard.sh:1183
+#: xorgwizard.sh:431
+#: xorgwizard.sh:447
+#: xorgwizard.sh:496
+#: xorgwizard.sh:981
+#: xorgwizard.sh:1162
+#: xorgwizard.sh:1183
 msgid "Puppy Video Wizard"
 msgstr "Assistant Vidéo"
 
@@ -284,7 +241,8 @@ msgstr "Assistant Vidéo"
 msgid "Commandline"
 msgstr "Ligne de commande"
 
-#: xorgwizard.sh:431 xorgwizard.sh:447
+#: xorgwizard.sh:431
+#: xorgwizard.sh:447
 msgid ""
 "Welcome to the Puppy Video Wizard!\n"
 "Puppy has two X servers (to run Puppy in graphics mode):"
@@ -298,7 +256,8 @@ msgstr ""
 "Xvesa: Un tout petit et tout simple serveur X \"Kdrive\".\n"
 "A UTILISER EN DERNIER RECOURS."
 
-#: xorgwizard.sh:434 xorgwizard.sh:450
+#: xorgwizard.sh:434
+#: xorgwizard.sh:450
 msgid ""
 "Xorg:  A very large and sophisticated X server, with many hardware-\n"
 "       specific drivers for optimum performance (note: there is also\n"
@@ -309,31 +268,25 @@ msgstr ""
 "       aussi un pilote générique 'vesa', ne pas confondre avec Xvesa!)"
 
 #: xorgwizard.sh:437
-msgid ""
-"Your video hardware would cause Xvesa to freeze Puppy, so your options are "
-"to use Xorg or exit to the command prompt."
-msgstr ""
-"Votre matériel vidéo peut entrainer que Xvesa fige Toutou, votre option est "
-"donc d'utiliser Xorg ou de retourner au prompt."
+msgid "Your video hardware would cause Xvesa to freeze Puppy, so your options are to use Xorg or exit to the command prompt."
+msgstr "Votre matériel vidéo peut entrainer que Xvesa fige Toutou, votre option est donc d'utiliser Xorg ou de retourner au prompt."
 
 #: xorgwizard.sh:439
 msgid ""
 "It is recommended that you choose the <Xorg> button now, but some\n"
-"quirky video hardware does not work with Xorg, in which case you must "
-"operate from the command line.  Make sure you have at least 96 MB of RAM"
-"+swap, for Xorg to function."
+"quirky video hardware does not work with Xorg, in which case you must operate from the command line.  Make sure you have at least 96 MB of RAM+swap, for Xorg to function."
 msgstr ""
 "Choisissez le bouton <Xorg> MAINTENANT. Si votre matériel vidéo NE\n"
 "fonctionnent pas avec Xorg, dans ce cas utilisez la ligne de commande.\n"
 "Assurez-vous d'avoir au moins 96 Mo de RAM+swap, pour que Xorg fonctionne."
 
-#: xorgwizard.sh:442 xorgwizard.sh:462
+#: xorgwizard.sh:442
+#: xorgwizard.sh:462
 msgid "Press ENTER for Xorg..."
 msgstr "Pressez ENTREE pour Xorg..."
 
 #: xorgwizard.sh:443
-msgid ""
-"Press TAB (or right-arrow) key then ENTER key to use the command line..."
+msgid "Press TAB (or right-arrow) key then ENTER key to use the command line..."
 msgstr "Pressez TAB (ou flèche droite) puis ENTREE pour la ligne de commande.."
 
 #: xorgwizard.sh:449
@@ -370,27 +323,22 @@ msgstr "Pressez TAB (ou flèche droite) puis ENTREE pour Xvesa..."
 
 #: xorgwizard.sh:488
 msgid ""
-"EX: There are two drivers for Intel video, \"intel\" and \"i810\" and it "
-"may \n"
+"EX: There are two drivers for Intel video, \"intel\" and \"i810\" and it may \n"
 "be necessary to choose one now as probe of the wrong one may hang the PC."
 msgstr ""
-"EX: Il y a deux pilotes pour Intel, 'intel' et 'i810' et il vaut mieux "
-"choisir un \n"
-"\"des deux maintenant : la recherche automatique du mauvais peut planter le "
-"PC."
+"EX: Il y a deux pilotes pour Intel, 'intel' et 'i810' et il vaut mieux choisir un \n"
+"\"des deux maintenant : la recherche automatique du mauvais peut planter le PC."
 
 #: xorgwizard.sh:492
 msgid ""
-"EX: There are two drivers for Nvidia video, \"nv\" and \"nouveau\" and it "
-"may\n"
+"EX: There are two drivers for Nvidia video, \"nv\" and \"nouveau\" and it may\n"
 "be necessary to choose one now as probe of the wrong one may hang the PC."
 msgstr ""
-"EX: Il y a deux pilotes pour Nvidia, \"nv\" et  \"nouveau\" et il vaut "
-"mieux  choisir un\n"
-"\"des deux maintenant : la recherche automatique du mauvais peut planter le "
-"PC."
+"EX: Il y a deux pilotes pour Nvidia, \"nv\" et  \"nouveau\" et il vaut mieux  choisir un\n"
+"\"des deux maintenant : la recherche automatique du mauvais peut planter le PC."
 
-#: xorgwizard.sh:496 xorgwizard.sh:1628
+#: xorgwizard.sh:496
+#: xorgwizard.sh:1628
 msgid "Probe"
 msgstr "Eprouver"
 
@@ -444,55 +392,54 @@ msgstr "Ou, TAB, TAB puis ENTREE pour prendre le pilote générique vesa..."
 
 #: xorgwizard.sh:668
 msgid "Choose an Xorg driver (down-arrow or up-arrow then ENTER):"
-msgstr ""
-"Choisissez un pilote Xorg (flèche vers le bas ou vers le haut puis ENTREE):"
+msgstr "Choisissez un pilote Xorg (flèche vers le bas ou vers le haut puis ENTREE):"
 
-#: xorgwizard.sh:694 xorgwizard-cli.sh:322
+#: xorgwizard.sh:694
+#: xorgwizard-cli.sh:322
 msgid "Probing video hardware, please wait..."
 msgstr "Examen de votre matériel vidéo. Patientez..."
 
 #: xorgwizard.sh:884
 msgid ""
-"\\nIf initialization freezes here, press ctrl-c and type \"xorgwizard\","
-"\\nselect \"Xorg\", choose monitor type and choose video mode."
+"\\n"
+"If initialization freezes here, press ctrl-c and type \"xorgwizard\",\\n"
+"select \"Xorg\", choose monitor type and choose video mode."
 msgstr ""
-"\\nSi votre initialisation se fige ici, pressez ctrl-c et tapez \"xorgwizard"
-"\",\\nchoisissez \"Xorg\", puis le type de moniteur et le mode vidéo."
+"\\n"
+"Si votre initialisation se fige ici, pressez ctrl-c et tapez \"xorgwizard\",\\n"
+"choisissez \"Xorg\", puis le type de moniteur et le mode vidéo."
 
 #: xorgwizard.sh:981
 msgid ""
-"Automatic probing of your monitor was unsuccessful, so you now need\\nto "
-"choose from a list of generic monitor types.\\nChoose the highest "
-"specification that describes your monitor.\\nLCD: Liquid Crystal Display."
-"\\nCRT: Cathode Ray Tube (normal monitor).\\nChoose Z if you have the "
-"monitor user manual, and it has the\\nhorizontal and vertical frequency "
-"specifications.\\nDOWN-ARROW to highlight choice, ENTER key to finish..."
+"Automatic probing of your monitor was unsuccessful, so you now need\\n"
+"to choose from a list of generic monitor types.\\n"
+"Choose the highest specification that describes your monitor.\\n"
+"LCD: Liquid Crystal Display.\\n"
+"CRT: Cathode Ray Tube (normal monitor).\\n"
+"Choose Z if you have the monitor user manual, and it has the\\n"
+"horizontal and vertical frequency specifications.\\n"
+"DOWN-ARROW to highlight choice, ENTER key to finish..."
 msgstr ""
-"La recherche automatique de votre moniteur a echoué, vous devez donc"
-"\\nchoisir dans cette liste de moniteurs génériques.\\nChoisissez la plus "
-"haute spécification de votre moniteur.\\nLCD: Liquid Crystal Display.\\nCRT: "
-"Cathode Ray Tube (anciens moniteurs).\\nChoisissez Z si vous avez le manuel "
-"du moniteur et qu'il vous donne\\nles fréquences horizontales et verticales."
-"\\nFlèche VERS LE BAS pour sélectionner votre choix, touche ENTREE pour "
-"finir..."
+"La recherche automatique de votre moniteur a echoué, vous devez donc\\n"
+"choisir dans cette liste de moniteurs génériques.\\n"
+"Choisissez la plus haute spécification de votre moniteur.\\n"
+"LCD: Liquid Crystal Display.\\n"
+"CRT: Cathode Ray Tube (anciens moniteurs).\\n"
+"Choisissez Z si vous avez le manuel du moniteur et qu'il vous donne\\n"
+"les fréquences horizontales et verticales.\\n"
+"Flèche VERS LE BAS pour sélectionner votre choix, touche ENTREE pour finir..."
 
 #: xorgwizard.sh:1001
 msgid "SELECT THIS IF YOU KNOW MONITOR FREQUENCY SPECS"
 msgstr "CHOISISSEZ CELA SI VOUS CONNAISSEZ LES FREQUENCES DE VOTRE MONITEUR"
 
 #: xorgwizard.sh:1104
-msgid ""
-"Please enter the horizontal frequency range of the monitor, in KHz. An "
-"example is given:"
-msgstr ""
-"Veuillez entrer la fréquence horizontale de votre moniteur en KHz. Exemple : "
+msgid "Please enter the horizontal frequency range of the monitor, in KHz. An example is given:"
+msgstr "Veuillez entrer la fréquence horizontale de votre moniteur en KHz. Exemple : "
 
 #: xorgwizard.sh:1105
-msgid ""
-"Please enter the vertical frequency range of the monitor, in Hz. An example "
-"is given:"
-msgstr ""
-"Veuillez entrer la fréquence verticale de votre moniteur en Hz. Exemple : "
+msgid "Please enter the vertical frequency range of the monitor, in Hz. An example is given:"
+msgstr "Veuillez entrer la fréquence verticale de votre moniteur en Hz. Exemple : "
 
 #: xorgwizard.sh:1127
 msgid "Unconfirmed MAXIMUM for monitor, OK for card"
@@ -514,7 +461,8 @@ msgstr "Bon pour le moniteur, Bon pour la carte vidéo"
 msgid "OK for monitor, maybe NOT OK for card"
 msgstr "Bon pour le moniteur, un doute pour la carte vidéo"
 
-#: xorgwizard.sh:1162 xorgwizard.sh:1183
+#: xorgwizard.sh:1162
+#: xorgwizard.sh:1183
 msgid "TEST"
 msgstr "TESTER"
 
@@ -522,7 +470,8 @@ msgstr "TESTER"
 msgid "EXIT"
 msgstr "QUITTER"
 
-#: xorgwizard.sh:1162 xorgwizard.sh:1183
+#: xorgwizard.sh:1162
+#: xorgwizard.sh:1183
 msgid ""
 "Please use the UP/DOWN ARROW keys to select a video mode. Choices are\n"
 "shown in the format WidthxHeightxBits, where Width and Height are\n"
@@ -532,20 +481,24 @@ msgstr ""
 "largeurxhauteurxoctets, dans lequel largeur et hauteur sont la\n"
 "résolution du moniteur en pixels, 16/24 bits = 65.536/16.77.216 couleurs."
 
-#: xorgwizard.sh:1166 xorgwizard.sh:1187
+#: xorgwizard.sh:1166
+#: xorgwizard.sh:1187
 #, sh-format
 msgid "CANNOT DECIDE? ...${RECMODE} is suggested as a good choice."
 msgstr "INDECIS? ...${RECMODE} sera un bon choix."
 
-#: xorgwizard.sh:1167 xorgwizard.sh:1188
+#: xorgwizard.sh:1167
+#: xorgwizard.sh:1188
 msgid "RECOMMENDATION: Choose <TEST> button to verify it works!"
 msgstr "RECOMMANDATION: Choisissez <TESTER> pour voir si cela marche!"
 
-#: xorgwizard.sh:1169 xorgwizard.sh:1192
+#: xorgwizard.sh:1169
+#: xorgwizard.sh:1192
 msgid "OK:     Just press ENTER key to immediately use the selected mode..."
 msgstr "OK:     Pressez ENTREE pour utiliser le mode choisi..."
 
-#: xorgwizard.sh:1170 xorgwizard.sh:1193
+#: xorgwizard.sh:1170
+#: xorgwizard.sh:1193
 msgid "TEST: TAB key then ENTER to test and debug the mode before using it..."
 msgstr "TESTER: TAB puis ENTREE pour tester et debugger le mode avant..."
 
@@ -558,14 +511,8 @@ msgid "MORE"
 msgstr "PLUS"
 
 #: xorgwizard.sh:1190
-msgid ""
-"NOTICE: If auto-probe has not detected a resolution that you know your "
-"monitor supports, click the <MORE> button to display more resolutions to "
-"choose from..."
-msgstr ""
-"REMARQUE: Si la recherche automatique ne trouve pas la résolution que votre "
-"moniteur peut prendre en charge, cliquez sur <PLUS> pour afficher plus de "
-"choix ..."
+msgid "NOTICE: If auto-probe has not detected a resolution that you know your monitor supports, click the <MORE> button to display more resolutions to choose from..."
+msgstr "REMARQUE: Si la recherche automatique ne trouve pas la résolution que votre moniteur peut prendre en charge, cliquez sur <PLUS> pour afficher plus de choix ..."
 
 #: xorgwizard.sh:1194
 msgid "MORE: Display more monitor resolutions to choose from..."
@@ -630,8 +577,7 @@ msgstr ""
 
 #: xorgwizard.sh:1454
 msgid "Press ENTER key now to start X graphics mode (may take a few secs)..."
-msgstr ""
-"ENTREE pour lancer le mode graphique X (cela prendra quelques secondes)..."
+msgstr "ENTREE pour lancer le mode graphique X (cela prendra quelques secondes)..."
 
 #: xorgwizard.sh:1455
 msgid "TAB then ENTER to change the mouse (afterward will return here)..."
@@ -653,23 +599,28 @@ msgstr ""
 " \n"
 "\"Pressez ENTREE si le test est bon (ou pour revenir vers Xvesa)..."
 
-#: xorgwizard.sh:1482 xorgwizard-cli.sh:230
+#: xorgwizard.sh:1482
+#: xorgwizard-cli.sh:230
 msgid "Press ENTER key if test was okay..."
 msgstr "Pressez ENTREE si le test est bon..."
 
-#: xorgwizard.sh:1485 xorgwizard-cli.sh:222
+#: xorgwizard.sh:1485
+#: xorgwizard-cli.sh:222
 msgid "FINISHED"
 msgstr "TERMINE"
 
-#: xorgwizard.sh:1485 xorgwizard-cli.sh:222
+#: xorgwizard.sh:1485
+#: xorgwizard-cli.sh:222
 msgid "Tweak"
 msgstr "Ajuster"
 
-#: xorgwizard.sh:1485 xorgwizard-cli.sh:222
+#: xorgwizard.sh:1485
+#: xorgwizard-cli.sh:222
 msgid "Report on X test:"
 msgstr "Rapport du test de X :"
 
-#: xorgwizard.sh:1486 xorgwizard-cli.sh:223
+#: xorgwizard.sh:1486
+#: xorgwizard-cli.sh:223
 #, sh-format
 msgid "Resolution:           ${XTEST}x${YTEST} pixels"
 msgstr "Résolution:            ${XTEST}x${YTEST} pixels"
@@ -706,38 +657,28 @@ msgid "TAB then ENTER to tweak parameters & retest X..."
 msgstr "TAB puis ENTREE pour ajuster la configuration & retester X..."
 
 #: xorgwizard.sh:1519
-msgid ""
-"ATTN: There is an older 'i810' Intel video driver that might work better..."
-msgstr ""
-"ATTN: Il y a un ancien pilote Intel 'i810' qui devrait mieux marcher..."
+msgid "ATTN: There is an older 'i810' Intel video driver that might work better..."
+msgstr "ATTN: Il y a un ancien pilote Intel 'i810' qui devrait mieux marcher..."
 
 #: xorgwizard.sh:1528
-msgid ""
-"ATTN: There is an newer 'intel' Intel video driver that might work better..."
-msgstr ""
-"ATTN: Il y a un nouveau pilote Intel 'intel' qui devrait mieux marcher..."
+msgid "ATTN: There is an newer 'intel' Intel video driver that might work better..."
+msgstr "ATTN: Il y a un nouveau pilote Intel 'intel' qui devrait mieux marcher..."
 
 #: xorgwizard.sh:1537
-msgid ""
-"ATTN: There is an alternative 'nvidia' Nvidia video driver that might work "
-"better..."
-msgstr ""
-"ATTN: Il y a un autre pilote Nvidia 'nvidia' qui devrait mieux marcher..."
+msgid "ATTN: There is an alternative 'nvidia' Nvidia video driver that might work better..."
+msgstr "ATTN: Il y a un autre pilote Nvidia 'nvidia' qui devrait mieux marcher..."
 
 #: xorgwizard.sh:1544
-msgid ""
-"ATTN: There is an alternative 'nouveau' Nvidia video driver that might work "
-"better..."
-msgstr ""
-"ATTN: Il y a un autre pilote Nvidia 'nouveau' qui devrait mieux marcher..."
+msgid "ATTN: There is an alternative 'nouveau' Nvidia video driver that might work better..."
+msgstr "ATTN: Il y a un autre pilote Nvidia 'nouveau' qui devrait mieux marcher..."
 
-#: xorgwizard.sh:1554 xorgwizard.sh:1563
-msgid ""
-"ATTN: There is an alternative 'nv' Nvidia video driver that might work "
-"better..."
+#: xorgwizard.sh:1554
+#: xorgwizard.sh:1563
+msgid "ATTN: There is an alternative 'nv' Nvidia video driver that might work better..."
 msgstr "ATTN: Il y a un autre pilote Nvidia 'nv' qui devrait mieux marcher..."
 
-#: xorgwizard.sh:1571 xorgwizard.sh:1588
+#: xorgwizard.sh:1571
+#: xorgwizard.sh:1588
 msgid "Tweak_xorg.conf"
 msgstr "Ajuster_xorg.conf"
 
@@ -833,27 +774,17 @@ msgstr ""
 
 #: xorgwizard.sh:1659
 msgid ""
-"There are some alternative video drivers that Xorg is currently not using. "
-"If you think that your video hardware may need one of these, select it, "
-"otherwise stay with 'vesa'...\n"
+"There are some alternative video drivers that Xorg is currently not using. If you think that your video hardware may need one of these, select it, otherwise stay with 'vesa'...\n"
 "\n"
-"NOTICE: if you choose a driver other than 'vesa', then the Xorg Wizard will "
-"restart so that Xorg can probe the hardware with the chosen driver enabled.\n"
+"NOTICE: if you choose a driver other than 'vesa', then the Xorg Wizard will restart so that Xorg can probe the hardware with the chosen driver enabled.\n"
 "\n"
-"TECHNICAL NOTE: Unused drivers are kept at /usr/lib/x/drivers-alternate. If "
-"you choose one (other than 'vesa'), it will be moved to /usr/lib/xorg/"
-"modules/drivers."
+"TECHNICAL NOTE: Unused drivers are kept at /usr/lib/x/drivers-alternate. If you choose one (other than 'vesa'), it will be moved to /usr/lib/xorg/modules/drivers."
 msgstr ""
-"Il y a quelques autres pilotes vidéo dont Xorg ne se sert pas actuellement, "
-"si vous pensez que votre matériel peut en avoir besoin, prenez-le, autrement "
-"restez avec 'vesa'...\n"
+"Il y a quelques autres pilotes vidéo dont Xorg ne se sert pas actuellement, si vous pensez que votre matériel peut en avoir besoin, prenez-le, autrement restez avec 'vesa'...\n"
 "\n"
-"AVIS: si vous choisissez un pilote autre que 'vesa', alors l'Assistant Xorg "
-"redémarrera pour que Xorg teste le matériel avec le pilote choisi actif.\n"
+"AVIS: si vous choisissez un pilote autre que 'vesa', alors l'Assistant Xorg redémarrera pour que Xorg teste le matériel avec le pilote choisi actif.\n"
 "\n"
-"NOTE TECHNIQUE: Les pilotes inutilisés sont dans /usr/lib/xorg/modules/"
-"drivers-alternate. Si vous en choisissez un (autre que 'vesa'), il sera "
-"déplacé vers /usr/lib/xorg/modules/drivers."
+"NOTE TECHNIQUE: Les pilotes inutilisés sont dans /usr/lib/xorg/modules/drivers-alternate. Si vous en choisissez un (autre que 'vesa'), il sera déplacé vers /usr/lib/xorg/modules/drivers."
 
 #: xorgwizard.sh:1674
 msgid "Tweak_refresh"
@@ -880,8 +811,7 @@ msgstr ""
 " Cependant, si vous êtes plus experimenté avec Linux et X, vous pouvez\n"
 "ouvrir xorg.conf dans un éditeur et changer ce que vous voulez.\n"
 "\n"
-"Pressez ENTREE pour l'option simple, ajuster la fréquence de "
-"rafraîchissement...\n"
+"Pressez ENTREE pour l'option simple, ajuster la fréquence de rafraîchissement...\n"
 "Pressez TAB puis ENTREE pour ouvrir xorg.conf dans un éditeur de texte.."
 
 #: xorgwizard.sh:1686
@@ -913,8 +843,7 @@ msgid ""
 msgstr ""
 "Note1: Il n'est pas prudent de trop pousser un moniteur. Trouvez un juste\n"
 " \tmilieu, sans dégats. 72Hz-85Hz pour les CRT, 60Hz pour les LCD.\n"
-"Note2 : Un affichage trop à droite est souvent dû à une fréquence trop "
-"élevée."
+"Note2 : Un affichage trop à droite est souvent dû à une fréquence trop élevée."
 
 #: xorgwizard.sh:1698
 msgid "Very noticeable flicker on CRT screens"
@@ -924,7 +853,8 @@ msgstr "Scintillement très sensible sur les écrans CRT"
 msgid "Okay for most LCD screens, flicker on CRT"
 msgstr "Bon pour la plupart des écrans LCD, scintillement sur les CRT"
 
-#: xorgwizard.sh:1700 xorgwizard.sh:1701
+#: xorgwizard.sh:1700
+#: xorgwizard.sh:1701
 msgid "Sensitive eyes may notice flicker on CRT"
 msgstr "Les yeux sensibles peuvent noter des scintillement sur les CRT"
 
@@ -938,16 +868,8 @@ msgstr "Aucun scintillement sur les CRT"
 
 #: xorgwizard.sh:1705
 #, sh-format
-msgid ""
-"Xorg is currently set to refresh the screen $VRTEST times per second. Taking "
-"this up or down may remove distortion etc., but note that the choices here "
-"are only suggested upper limits and Xorg may not use exactly the frequency "
-"chosen here."
-msgstr ""
-"Xorg est actuellement réglé pour rafraîchir l'écran $VRTEST fois par "
-"seconde. Monter ou baisser ce réglage peut supprimer des distorsions etc. "
-"Mais les choix sont seulement suggérés pour les limites supérieures et Xorg "
-"peut très bien ne pas utiliser les fréquences choisies ici."
+msgid "Xorg is currently set to refresh the screen $VRTEST times per second. Taking this up or down may remove distortion etc., but note that the choices here are only suggested upper limits and Xorg may not use exactly the frequency chosen here."
+msgstr "Xorg est actuellement réglé pour rafraîchir l'écran $VRTEST fois par seconde. Monter ou baisser ce réglage peut supprimer des distorsions etc. Mais les choix sont seulement suggérés pour les limites supérieures et Xorg peut très bien ne pas utiliser les fréquences choisies ici."
 
 #: xorgwizard.sh:1747
 #, sh-format
@@ -998,9 +920,7 @@ msgstr ""
 
 #: xorgwizard.sh:1792
 msgid "Xorg Video Wizard completed. Type 'xwin' to start X..."
-msgstr ""
-"L'Assistant Vidéo Xorg a fini. Tapez 'xwin' pour lancer le serveur graphique "
-"X..."
+msgstr "L'Assistant Vidéo Xorg a fini. Tapez 'xwin' pour lancer le serveur graphique X..."
 
 #: xorgwizard.sh:1797
 msgid "If X did not work, type 'xorgwizard' to run the Video Wizard again."
@@ -1029,9 +949,7 @@ msgstr "Assistant Vidéo"
 
 #: xorgwizard-cli.sh:92
 #, fuzzy
-msgid ""
-"Puppy thinks that you have a serial mouse. However, if your PC has a modern "
-"usb or ps/2 mouse, you must choose the <Change mouse> button now."
+msgid "Puppy thinks that you have a serial mouse. However, if your PC has a modern usb or ps/2 mouse, you must choose the <Change mouse> button now."
 msgstr ""
 "Toutou pense que vous avez une souris série. Ce type de souris\n"
 "existe sur les vieux PC. La plupart des PC modernes utilisent\n"
@@ -1040,9 +958,7 @@ msgstr ""
 
 #: xorgwizard-cli.sh:93
 #, fuzzy
-msgid ""
-"Puppy thinks that you have a usb or ps/2 mouse. However, for an old PC that "
-"has a serial mouse, you must choose the <Change mouse> button now."
+msgid "Puppy thinks that you have a usb or ps/2 mouse. However, for an old PC that has a serial mouse, you must choose the <Change mouse> button now."
 msgstr ""
 "Toutou pense que vous avez une souris usb ou ps/2. C'est bon dans\n"
 "la plupart des cas, mais certains vieux PC ont une souris série.\n"
@@ -1062,22 +978,20 @@ msgstr "Changer_de_souris"
 msgid "Fallback"
 msgstr ""
 
-#: xorgwizard-cli.sh:96 xorgwizard-cli.sh:117 xorgwizard-cli.sh:600
+#: xorgwizard-cli.sh:96
+#: xorgwizard-cli.sh:117
+#: xorgwizard-cli.sh:600
 #: xorgwizard-cli.sh:610
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: xorgwizard-cli.sh:96
 msgid "THE NEXT STEP WILL TEST XORG!"
-msgstr ""
+msgstr "LA PROCHAINE ETAPE VA TESTER XORG!"
 
 #: xorgwizard-cli.sh:100
 #, fuzzy
-msgid ""
-"After choosing <TEST X NOW> button, if the next screen shows a nice dialog "
-"box, then X started okay. If the screen is blank or garbage, then failure "
-"(In such a case, just press the ENTER key to terminate the test, preferably "
-"within the 60 second test timeout)."
+msgid "After choosing <TEST X NOW> button, if the next screen shows a nice dialog box, then X started okay. If the screen is blank or garbage, then failure (In such a case, just press the ENTER key to terminate the test, preferably within the 60 second test timeout)."
 msgstr ""
 "Après avoir choisi <TESTER_X_MAINTENANT>, si une superbe\n"
 "boite de dialogue s'affiche, tout va bien. Si la page est vide\n"
@@ -1086,30 +1000,24 @@ msgstr ""
 
 #: xorgwizard-cli.sh:102
 #, fuzzy
-msgid ""
-"IMPORTANT: If the ENTER key does not terminate the test, press the "
-"combination CTRL-ALT-BACKSPACE"
+msgid "IMPORTANT: If the ENTER key does not terminate the test, press the combination CTRL-ALT-BACKSPACE"
 msgstr ""
 "IMPORTANT: Si la touche Entrée ne termine pas le test, pressez\n"
 " la combinaison Ctrl+Alt+Retour Arrière (certains anciens PC\n"
 " demandent de presser 2 fois pour terminer le test)!"
 
 #: xorgwizard-cli.sh:104
-msgid ""
-"EMERGENCY SHUTDOWN: If the test hangs your PC, reboot by pressing the reset "
-"button, or hold down the power button for 4 seconds to shutdown."
+msgid "EMERGENCY SHUTDOWN: If the test hangs your PC, reboot by pressing the reset button, or hold down the power button for 4 seconds to shutdown."
 msgstr ""
 
 #: xorgwizard-cli.sh:106
 #, fuzzy
 msgid "Press ENTER key now to test X graphics mode (may take a few secs)..."
-msgstr ""
-"ENTREE pour lancer le mode graphique X (cela prendra quelques secondes)..."
+msgstr "ENTREE pour lancer le mode graphique X (cela prendra quelques secondes)..."
 
 #: xorgwizard-cli.sh:107
-msgid ""
-"TAB then ENTER to use an old working xorg.conf, or create new xorg.conf..."
-msgstr ""
+msgid "TAB then ENTER to use an old working xorg.conf, or create new xorg.conf..."
+msgstr "TAB puis ENTREE pour utiliser un ancien xorg.conf fonctionnel, ou créer un nouveau xorg.conf..."
 
 #: xorgwizard-cli.sh:108
 #, fuzzy
@@ -1118,23 +1026,18 @@ msgstr "TAB puis ENTREE pour changer de souris (puis on revient ici)..."
 
 #: xorgwizard-cli.sh:109
 msgid "Press ESC key to exit Wizard without testing xorg.conf..."
-msgstr ""
+msgstr "Appuyer sur la touche ESC pour quitter l'Assistant sans tester xorg.conf..."
 
 #: xorgwizard-cli.sh:117
-msgid ""
-"Xorg is the system required for the PC to go into graphical desktop mode."
+msgid "Xorg is the system required for the PC to go into graphical desktop mode."
 msgstr ""
 
 #: xorgwizard-cli.sh:119
 msgid "Mouse:"
-msgstr ""
+msgstr "Souris:"
 
 #: xorgwizard-cli.sh:120
-msgid ""
-"Modern PCs have a usb or ps/2 mouse (or touchpad). However, some old PCs "
-"have a serial mouse (recognizable by the large rectangular plug), in which "
-"case you must choose the <Change mouse> button before continuing with the "
-"Wizard."
+msgid "Modern PCs have a usb or ps/2 mouse (or touchpad). However, some old PCs have a serial mouse (recognizable by the large rectangular plug), in which case you must choose the <Change mouse> button before continuing with the Wizard."
 msgstr ""
 
 #: xorgwizard-cli.sh:122
@@ -1142,10 +1045,7 @@ msgid "CTRL-ALT-BACKSPACE:"
 msgstr ""
 
 #: xorgwizard-cli.sh:123
-msgid ""
-"This is the standard emergency key combination to terminate Xorg and drop "
-"back to the text-mode console. Hold down CTRL and ALT keys then tap the "
-"BACKSPACE key. Remember this key combination!"
+msgid "This is the standard emergency key combination to terminate Xorg and drop back to the text-mode console. Hold down CTRL and ALT keys then tap the BACKSPACE key. Remember this key combination!"
 msgstr ""
 
 #: xorgwizard-cli.sh:125
@@ -1153,11 +1053,7 @@ msgid "Fallback:"
 msgstr ""
 
 #: xorgwizard-cli.sh:126
-msgid ""
-"The Xorg configuration file is /etc/X11/xorg.conf. Choosing this option will "
-"offer a choice of all /etc/X11/xorg.conf* files, so if you have previously "
-"created one that you know works, you may choose it. Or, you may choose to "
-"abort entirely and create a new xorg.conf."
+msgid "The Xorg configuration file is /etc/X11/xorg.conf. Choosing this option will offer a choice of all /etc/X11/xorg.conf* files, so if you have previously created one that you know works, you may choose it. Or, you may choose to abort entirely and create a new xorg.conf."
 msgstr ""
 
 #: xorgwizard-cli.sh:128
@@ -1165,33 +1061,31 @@ msgstr ""
 msgid "Press ENTER key to go back to previous window..."
 msgstr "Pressez ENTREE si le test est bon..."
 
-#: xorgwizard-cli.sh:146 xorgwizard-cli.sh:651 xorgwizard-cli.sh:664
+#: xorgwizard-cli.sh:146
+#: xorgwizard-cli.sh:651
+#: xorgwizard-cli.sh:664
 msgid "OK"
-msgstr ""
+msgstr "Ok"
 
 #: xorgwizard-cli.sh:146
 msgid "View"
-msgstr ""
+msgstr "Visualiser"
 
 #: xorgwizard-cli.sh:146
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: xorgwizard-cli.sh:146
-msgid ""
-"Press UP/DOWN arrow keys to choose an old xorg.conf, or NONE to probe and "
-"create a new xorg.conf."
+msgid "Press UP/DOWN arrow keys to choose an old xorg.conf, or NONE to probe and create a new xorg.conf."
 msgstr ""
 
 #: xorgwizard-cli.sh:148
-msgid ""
-"Note that after highlighting a file, you can select the <View> button to see "
-"the content in a text editor, and afterward come back to this window."
+msgid "Note that after highlighting a file, you can select the <View> button to see the content in a text editor, and afterward come back to this window."
 msgstr ""
 
 #: xorgwizard-cli.sh:150
 msgid "After choosing file, press ENTER key to choose <OK> button, or"
-msgstr ""
+msgstr "Après avoir choisi le fichier, presser la touche ENTREE pour choisir le bouton <OK>, ou"
 
 #: xorgwizard-cli.sh:151
 #, fuzzy
@@ -1200,41 +1094,35 @@ msgstr "Ou, TAB puis ENTREE pour choisir un autre pilote..."
 
 #: xorgwizard-cli.sh:152
 msgid "TAB, TAB then ENTER keys to abort and go back to previous window..."
-msgstr ""
+msgstr "les touches TAB, TAB puis ENTREE pour abandonner et revenir à la fenêtre précédente..."
 
 #: xorgwizard-cli.sh:190
 msgid "File:"
-msgstr ""
+msgstr "Fichier:"
 
 #: xorgwizard-cli.sh:191
 msgid "Has been copied to:"
-msgstr ""
+msgstr "A été copié vers:"
 
 #: xorgwizard-cli.sh:192
 msgid "Also backed up as:"
-msgstr ""
+msgstr "Aussi archivé comme:"
 
 #: xorgwizard-cli.sh:193
 msgid "Type \"xwin\" (then ENTER key) to start X..."
-msgstr ""
+msgstr "Taper \"xwin\" (puis la touche ENTREE) pour démarrer X..."
 
 #: xorgwizard-cli.sh:205
-msgid ""
-"You have exited from the Xorg Wizard without testing the configuration file /"
-"etc/X11/xorg.conf."
-msgstr ""
+msgid "You have exited from the Xorg Wizard without testing the configuration file /etc/X11/xorg.conf."
+msgstr "Vous avez quitté l'assistant Xorg sans avoir testé le fichier de configuration /etc/X11/xorg.conf."
 
 #: xorgwizard-cli.sh:206
-msgid ""
-"Type \"xwin\" (then ENTER key) to start X (the graphical desktop) now, or "
-"\"xorgwizard\" to re-run the Xorg Wizard."
+msgid "Type \"xwin\" (then ENTER key) to start X (the graphical desktop) now, or \"xorgwizard\" to re-run the Xorg Wizard."
 msgstr ""
 
-#: xorgwizard-cli.sh:208 xorgwizard-cli.sh:244
-msgid ""
-"Note, type \"xwin jwm\" or \"xwin openbox\" if you have both of these window "
-"managers installed and you want to change from the current one. Ditto for "
-"any other installed window manager."
+#: xorgwizard-cli.sh:208
+#: xorgwizard-cli.sh:244
+msgid "Note, type \"xwin jwm\" or \"xwin openbox\" if you have both of these window managers installed and you want to change from the current one. Ditto for any other installed window manager."
 msgstr ""
 
 #: xorgwizard-cli.sh:224
@@ -1254,11 +1142,7 @@ msgstr "Pilote vidéo:          $CARD0DRIVER"
 
 #: xorgwizard-cli.sh:228
 #, fuzzy
-msgid ""
-"If you are reporting success, great, but if the display was not quite right, "
-"say displaced or distorted, you now have the option of tweaking various "
-"parameters, even choose a different video driver. Ditto if testing X was an "
-"abysmal failure."
+msgid "If you are reporting success, great, but if the display was not quite right, say displaced or distorted, you now have the option of tweaking various parameters, even choose a different video driver. Ditto if testing X was an abysmal failure."
 msgstr ""
 "Si cela fonctionne, Bravo! Mais si l'image n'est pas vraiment belle,\n"
 "mal placée ou tordue, vous avez l'option d'ajuster différents\n"
@@ -1280,10 +1164,8 @@ msgid "The Puppy Xorg Wizard has been run, presumably successfully."
 msgstr ""
 
 #: xorgwizard-cli.sh:241
-msgid ""
-"If so, type \"xwin\" (then ENTER key) to start Xorg and the graphical "
-"desktop."
-msgstr ""
+msgid "If so, type \"xwin\" (then ENTER key) to start Xorg and the graphical desktop."
+msgstr "Si oui, taper \"xwin\" (puis la touche ENTREE) pour démarrer Xorg et l'interface graphique."
 
 #: xorgwizard-cli.sh:242
 #, fuzzy
@@ -1291,10 +1173,7 @@ msgid "Otherwise, you may type \"xorgwizard\" to re-run the Wizard..."
 msgstr "Si X ne marche pas, tapez 'xorgwizard' pour relancer l'assistant"
 
 #: xorgwizard-cli.sh:251
-msgid ""
-"The next step will be to open /etc/X11/xorg.conf in a text editor. Various "
-"parameters can be modified, then the file saved, then exit the editor. "
-"Please note that this is a text-mode editor that does not work with a mouse."
+msgid "The next step will be to open /etc/X11/xorg.conf in a text editor. Various parameters can be modified, then the file saved, then exit the editor. Please note that this is a text-mode editor that does not work with a mouse."
 msgstr ""
 
 #: xorgwizard-cli.sh:253
@@ -1302,25 +1181,20 @@ msgid "Displaced:"
 msgstr ""
 
 #: xorgwizard-cli.sh:254
-msgid ""
-"The most common problem is the image displaced/squeezed/distorted. Often "
-"this is due to a wrong vertical refresh frequency (number of times per "
-"second that the screen gets re-drawn). You may experiment with the "
-"'VertRefresh' range. Note, 60Hz is usually OK for LCD screens. Older CRT "
-"screens may flicker at 60Hz, usually need at least 70Hz."
+msgid "The most common problem is the image displaced/squeezed/distorted. Often this is due to a wrong vertical refresh frequency (number of times per second that the screen gets re-drawn). You may experiment with the 'VertRefresh' range. Note, 60Hz is usually OK for LCD screens. Older CRT screens may flicker at 60Hz, usually need at least 70Hz."
 msgstr ""
 
 #: xorgwizard-cli.sh:507
 msgid "driver, needs KMS"
-msgstr ""
+msgstr "pilote, utilise KMS"
 
 #: xorgwizard-cli.sh:508
 msgid "driver, no KMS"
-msgstr ""
+msgstr "pilote, pas de KMS"
 
 #: xorgwizard-cli.sh:509
 msgid "(requires reboot)"
-msgstr ""
+msgstr "(nécessite un redémarrage)"
 
 #: xorgwizard-cli.sh:510
 msgid "Unaccelerated driver"
@@ -1328,25 +1202,22 @@ msgstr ""
 
 #: xorgwizard-cli.sh:522
 msgid "Simple NVIDA driver"
-msgstr ""
+msgstr "Pilote simple NVIDIA"
 
 #: xorgwizard-cli.sh:526
 msgid "NVIDIA proprietary driver"
-msgstr ""
+msgstr "Pilote propriétaire NVIDIA"
 
 #: xorgwizard-cli.sh:543
 msgid "Old ATI Radeon driver"
-msgstr ""
+msgstr "Vieux pilote ATI Radeon"
 
 #: xorgwizard-cli.sh:551
 msgid "ATI proprietary driver"
-msgstr ""
+msgstr "Pilote propriétaire ATI"
 
 #: xorgwizard-cli.sh:563
-msgid ""
-"Accelerated drivers are designed for specific video hardware. Basically, "
-"they are much faster than the unaccelerated drivers. They may also offer "
-"additional configuration features."
+msgid "Accelerated drivers are designed for specific video hardware. Basically, they are much faster than the unaccelerated drivers. They may also offer additional configuration features."
 msgstr ""
 
 #: xorgwizard-cli.sh:570
@@ -1386,9 +1257,7 @@ msgid "If installed, accelerated commercial driver. Without KMS"
 msgstr ""
 
 #: xorgwizard-cli.sh:596
-msgid ""
-"Please use UP/DOWN arrow keys to choose a Xorg driver, then press ENTER "
-"key..."
+msgid "Please use UP/DOWN arrow keys to choose a Xorg driver, then press ENTER key..."
 msgstr ""
 
 #: xorgwizard-cli.sh:597
@@ -1402,47 +1271,33 @@ msgid "If uncertain, press TAB, TAB then ENTER to choose <Help>..."
 msgstr "Ou, TAB puis ENTREE pour choisir un autre pilote..."
 
 #: xorgwizard-cli.sh:610
-msgid ""
-"The Xorg Wizard has probed the computer and determined that any of these "
-"drivers may be suitable. Choose that which seems most appropriate. If a "
-"driver does not work, at worst even hangs the PC, you will be able to re-run "
-"the Wizard and choose another driver."
+msgid "The Xorg Wizard has probed the computer and determined that any of these drivers may be suitable. Choose that which seems most appropriate. If a driver does not work, at worst even hangs the PC, you will be able to re-run the Wizard and choose another driver."
 msgstr ""
 
 #: xorgwizard-cli.sh:614
 msgid "Generic"
-msgstr ""
+msgstr "Générique"
 
 #: xorgwizard-cli.sh:615
-msgid ""
-"Fallbacks are the generic unaccelerated drivers 'vesa' and 'modesetting', "
-"that should work for all video hardware. They have limitations, such as "
-"slowness and no full-screen video. The 'vesa' driver can only use a VESA "
-"standard resolution (which may not match your wide-screen monitor), however "
-"the 'modesetting' driver can be set to the native resolution of the monitor."
+msgid "Fallbacks are the generic unaccelerated drivers 'vesa' and 'modesetting', that should work for all video hardware. They have limitations, such as slowness and no full-screen video. The 'vesa' driver can only use a VESA standard resolution (which may not match your wide-screen monitor), however the 'modesetting' driver can be set to the native resolution of the monitor."
 msgstr ""
 
 #: xorgwizard-cli.sh:644
 msgid "Let Xorg guess it"
-msgstr ""
+msgstr "Laisser Xorg le deviner"
 
 #: xorgwizard-cli.sh:645
-msgid ""
-"Screen resolutions are listed below, in the format horizontal x vertical "
-"pixels. One of these will be best suited to your monitor. If the Wizard "
-"offers a 'recommended' resolution, choose that."
+msgid "Screen resolutions are listed below, in the format horizontal x vertical pixels. One of these will be best suited to your monitor. If the Wizard offers a 'recommended' resolution, choose that."
 msgstr ""
 
 #: xorgwizard-cli.sh:646
-msgid ""
-"This option means leave it up to Xorg to try and guess the most appropriate "
-"resolution -- this usually works well."
+msgid "This option means leave it up to Xorg to try and guess the most appropriate resolution -- this usually works well."
 msgstr ""
 
-#: xorgwizard-cli.sh:648 xorgwizard-cli.sh:662
-msgid ""
-"Use the UP/DOWN arrow keys to choose a resolution, then press ENTER key..."
-msgstr ""
+#: xorgwizard-cli.sh:648
+#: xorgwizard-cli.sh:662
+msgid "Use the UP/DOWN arrow keys to choose a resolution, then press ENTER key..."
+msgstr "Utiliser les flêches HAUT/BAS pour choisir une résolution, puis presser la touche ENTREE..."
 
 #: xorgwizard-cli.sh:649
 #, fuzzy
@@ -1451,19 +1306,19 @@ msgstr "PLUS: Affiche plus de choix de résolutions pour votre moniteur.."
 
 #: xorgwizard-cli.sh:651
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: xorgwizard-cli.sh:659
 msgid "Hi-res monitor"
-msgstr ""
+msgstr "Moniteur haute-rés"
 
 #: xorgwizard-cli.sh:660
 msgid "Very hi-res monitor"
-msgstr ""
+msgstr "Moniteur très haute-rés"
 
 #: xorgwizard-cli.sh:661
 msgid "Non-VESA, widescreen"
-msgstr ""
+msgstr "Non-VESA, écran large"
 
 #: xorgwizard-cli.sh:663
 #, fuzzy
@@ -1472,11 +1327,11 @@ msgstr "Ou, TAB puis ENTREE pour choisir un autre pilote..."
 
 #: xorgwizard-cli.sh:664
 msgid "Go back"
-msgstr ""
+msgstr "Retour arrière"
 
 #: xorgwizard-cli.sh:664
 msgid "Very poor, not usable"
-msgstr ""
+msgstr "Très pauvre, non utilisable"
 
 #: xorgwizard-cli.sh:664
 msgid "Minimum usable by Puppy"
@@ -1484,18 +1339,16 @@ msgstr ""
 
 #: xorgwizard-cli.sh:664
 msgid "Good, works with most monitors"
-msgstr ""
+msgstr "Bien, fonctionne avec la plupart des moniteurs"
 
 #: xorgwizard-cli.sh:798
-msgid ""
-"IMPORTANT: At shutdown you will be asked to create a session save-file, "
-"please do so."
-msgstr ""
+msgid "IMPORTANT: At shutdown you will be asked to create a session save-file, please do so."
+msgstr "IMPORTANT: Lors de l'arrêt, on va vous demander de créer un fichier de sauvegarde pour la session, veuillez le faire."
 
 #: xorgwizard-cli.sh:799
 #, sh-format
 msgid "A reboot is required before the '${CHOSENDRV}' driver can be tested."
-msgstr ""
+msgstr "Un redémarrage est requis avant de pouvoir tester le driver '${CHOSENDRV}'."
 
 #: xorgwizard-cli.sh:801
 #, fuzzy

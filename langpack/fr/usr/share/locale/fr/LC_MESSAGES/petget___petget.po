@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: petget VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2012-02-16 11:40+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:26+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,9 @@ msgstr ""
 msgid "Sorry, failed to download"
 msgstr "Désolé, échec du téléchargement de"
 
-#: petget.sh:184 petget.sh:234 petget.sh:301
+#: petget.sh:184
+#: petget.sh:234
+#: petget.sh:301
 msgid "Puppy Package Manager"
 msgstr "Gestionnaire des paquets PPM"
 
@@ -34,73 +36,74 @@ msgstr "."
 
 #: petget.sh:249
 msgid "Desktop"
-msgstr ""
+msgstr "Bureau"
 
 #: petget.sh:250
 msgid "System"
-msgstr ""
+msgstr "Système"
 
 #: petget.sh:251
 msgid "Setup"
-msgstr ""
+msgstr "Paramètres"
 
 #: petget.sh:252
 msgid "Utility"
-msgstr ""
+msgstr "Utilitaire"
 
 #: petget.sh:253
 msgid "Filesystem"
-msgstr ""
+msgstr "Système de fichiers"
 
 #: petget.sh:254
 msgid "Graphic"
-msgstr ""
+msgstr "Graphique"
 
 #: petget.sh:255
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #: petget.sh:256
 msgid "Business"
-msgstr ""
+msgstr "Travail"
 
 #: petget.sh:257
 msgid "Personal"
-msgstr ""
+msgstr "Personnel"
 
 #: petget.sh:258
 msgid "Network"
-msgstr ""
+msgstr "Réseau"
 
 #: petget.sh:259
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: petget.sh:260
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimédia"
 
 #: petget.sh:261
 msgid "Fun"
-msgstr ""
+msgstr "Plaisir"
 
 #: petget.sh:262
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: petget.sh:263
 msgid "none"
-msgstr ""
+msgstr "aucune"
 
 #: petget.sh:281
 msgid "CATEGORY:"
-msgstr ""
+msgstr "CATEGORIE"
 
 #: petget.sh:282
 msgid "PACKAGE:"
-msgstr ""
+msgstr "PAQUET:"
 
-#: petget.sh:290 petget.sh:297
+#: petget.sh:290
+#: petget.sh:297
 msgid "...note, this package does not have a menu entry."
 msgstr "...note, ce paquet n'a pas d'entrée menu."
 
@@ -122,10 +125,9 @@ msgstr "Patientez, actualisation de la page d'aide et du menu.."
 
 #: petget.sh:319
 msgid "Please wait, updating help page and menu (the screen will flicker!)..."
-msgstr ""
-"Patientez, actualisation de la page d'aide et du menu (l'ecran va "
-"scintiller!).."
+msgstr "Patientez, actualisation de la page d'aide et du menu (l'ecran va scintiller!).."
 
 #: petget.sh:322
 msgid "Please wait, updating help page..."
 msgstr "Patientez, actualisation de la page d'aide..."
+

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: XkbConfigMngr VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:43+0200\n"
-"PO-Revision-Date: 2013-02-15 17:25+0100\n"
-"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-09 19:42+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,9 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: XkbConfigMngr.sh:26 XkbLayoutConfig.sh:23 XkbLayoutConfig.sh:70
+#: XkbConfigMngr.sh:26
+#: XkbLayoutConfig.sh:23
+#: XkbLayoutConfig.sh:70
 #: XkbModelConfig.sh:23
 msgid "ERROR"
 msgstr "ERREUR"
@@ -29,20 +31,18 @@ msgstr "SUCCES!"
 msgid "Changes applied successfuly!"
 msgstr "Modification effectuée correctement!"
 
-#: XkbConfigMngr.sh:36 XkbConfigMngr.sh:57
+#: XkbConfigMngr.sh:36
+#: XkbConfigMngr.sh:57
 msgid "XKB Configuration Manager"
 msgstr "Xkb - Configuration du clavier"
 
 #: XkbConfigMngr.sh:38
 msgid "Information"
-msgstr ""
+msgstr "Informations"
 
 #: XkbConfigMngr.sh:41
-msgid ""
-"This tool lets you modify the keyboard settings part of your xorg.conf file."
-msgstr ""
-"Cet utilitaire vous permet de modifier les paramètres de la partie clavier "
-"dans votre fichier xorg.conf."
+msgid "This tool lets you modify the keyboard settings part of your xorg.conf file."
+msgstr "Cet utilitaire vous permet de modifier les paramètres de la partie clavier dans votre fichier xorg.conf."
 
 #: XkbConfigMngr.sh:44
 msgid "Note that this is only relevant for Xorg users..."
@@ -54,7 +54,7 @@ msgstr "Principal"
 
 #: XkbConfigMngr.sh:59
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: XkbConfigMngr.sh:63
 msgid "Keyboard Model"
@@ -82,8 +82,7 @@ msgstr "Emplacement de la touche Ctrl"
 
 #: XkbConfigMngr.sh:119
 msgid "Use keyboard LED to show alternative group"
-msgstr ""
-"Utiliser les voyants lumineux pour afficher les combinaisons alternatives"
+msgstr "Utiliser les voyants lumineux pour afficher les combinaisons alternatives"
 
 #: XkbConfigMngr.sh:128
 msgid "CapsLock key behavior"
@@ -115,10 +114,10 @@ msgstr "Quitter"
 
 #: XkbLayoutConfig.sh:23
 msgid "Your xorg.conf file does not contain any XkbLayout options!"
-msgstr ""
-"Votre fichier xorg.conf ne contient aucune option de disposition de clavier!"
+msgstr "Votre fichier xorg.conf ne contient aucune option de disposition de clavier!"
 
-#: XkbLayoutConfig.sh:42 XkbLayoutConfig.sh:60
+#: XkbLayoutConfig.sh:42
+#: XkbLayoutConfig.sh:60
 msgid "Configure Xkb Layout"
 msgstr "Configurer la disposition du clavier"
 
@@ -180,7 +179,8 @@ msgstr "Désolé: 4 dispositions maximum autorisées!"
 msgid "Your xorg.conf file does not contain any XkbModel options!"
 msgstr "Votre xorg.conf ne contient aucune option de modèle de clavier!"
 
-#: XkbModelConfig.sh:32 XkbVariantConfig.sh:63
+#: XkbModelConfig.sh:32
+#: XkbVariantConfig.sh:63
 msgid "Select XkbModel"
 msgstr "Choisir un modèle de clavier"
 
@@ -204,9 +204,14 @@ msgstr ""
 msgid "You are currently using the following altwin setting"
 msgstr "Vous utilisez le comportement de Alt/Win suivant:"
 
-#: XkbOptionsAltwin.sh:36 XkbOptionsCaps.sh:36 XkbOptionsCompose.sh:36
-#: XkbOptionsCtrl.sh:36 XkbOptionsEuro.sh:37 XkbOptionsGrp.sh:36
-#: XkbOptionsGrp_led.sh:36 XkbOptionsLv3.sh:36
+#: XkbOptionsAltwin.sh:36
+#: XkbOptionsCaps.sh:36
+#: XkbOptionsCompose.sh:36
+#: XkbOptionsCtrl.sh:36
+#: XkbOptionsEuro.sh:37
+#: XkbOptionsGrp.sh:36
+#: XkbOptionsGrp_led.sh:36
+#: XkbOptionsLv3.sh:36
 msgid ""
 "To change it, select a new one below, then press OK.\n"
 "To remove it, select it below and press OK.\n"
@@ -216,7 +221,8 @@ msgstr ""
 "Pour le retirer, sélectionnez-le ci-dessous puis cliquez sur OK..\n"
 "Pour abandonner, cliquez sur Annuler."
 
-#: XkbOptionsAltwin.sh:40 XkbOptionsCaps.sh:40
+#: XkbOptionsAltwin.sh:40
+#: XkbOptionsCaps.sh:40
 msgid ""
 "Please select the setting you would like to use, then press OK.\n"
 "To abort, press cancel."
@@ -224,9 +230,14 @@ msgstr ""
 "Sélectionnez le paramètre que vous désirez utiliser puis cliquez sur OK.\n"
 "Pour abandonner, cliquez sur Annuler."
 
-#: XkbOptionsAltwin.sh:45 XkbOptionsCaps.sh:48 XkbOptionsCompose.sh:46
-#: XkbOptionsCtrl.sh:46 XkbOptionsEuro.sh:47 XkbOptionsGrp.sh:46
-#: XkbOptionsGrp_led.sh:46 XkbOptionsLv3.sh:46
+#: XkbOptionsAltwin.sh:45
+#: XkbOptionsCaps.sh:48
+#: XkbOptionsCompose.sh:46
+#: XkbOptionsCtrl.sh:46
+#: XkbOptionsEuro.sh:47
+#: XkbOptionsGrp.sh:46
+#: XkbOptionsGrp_led.sh:46
+#: XkbOptionsLv3.sh:46
 msgid "Configure Xkb Option"
 msgstr "Configurer les options de Xkb"
 
@@ -258,19 +269,18 @@ msgstr "Hyper en liaison avec les touches Win."
 msgid "Alt is mapped to the right Win-key and Super to Menu."
 msgstr "Alt en liaison avec la touche Win droite et Super avec le menu."
 
-#: XkbOptionsCaps.sh:33 XkbOptionsGrp.sh:33
+#: XkbOptionsCaps.sh:33
+#: XkbOptionsGrp.sh:33
 msgid "You are currently using the following group setting"
 msgstr "Vous utilisez actuellement la configuration de combinaison suivante"
 
 #: XkbOptionsCaps.sh:46
 msgid "CapsLock uses internal capitalization. Shift doesn't cancel CapsLock."
-msgstr ""
-"Verr. Maj. utilise les capitales internes. Maj. n'annule pas Verr. Maj."
+msgstr "Verr. Maj. utilise les capitales internes. Maj. n'annule pas Verr. Maj."
 
 #: XkbOptionsCaps.sh:47
 msgid "CapsLock acts as Shift with locking. Shift doesn't cancel CapsLock."
-msgstr ""
-"Verr. Maj. uagit comme Maj. avec verrouillage. Maj. n'annule pas Verr. Maj."
+msgstr "Verr. Maj. uagit comme Maj. avec verrouillage. Maj. n'annule pas Verr. Maj."
 
 #: XkbOptionsCaps.sh:48
 msgid "CapsLock uses internal capitalization. Shift cancels CapsLock."
@@ -296,8 +306,12 @@ msgstr "Verr. Maj. renverse Maj. Toutes les touches sont affectées."
 msgid "You are currently using the following compose setting"
 msgstr "Vous utilisez actuellement la configuration de compose suivante"
 
-#: XkbOptionsCompose.sh:40 XkbOptionsCtrl.sh:40 XkbOptionsEuro.sh:41
-#: XkbOptionsGrp.sh:40 XkbOptionsGrp_led.sh:40 XkbOptionsLv3.sh:40
+#: XkbOptionsCompose.sh:40
+#: XkbOptionsCtrl.sh:40
+#: XkbOptionsEuro.sh:41
+#: XkbOptionsGrp.sh:40
+#: XkbOptionsGrp_led.sh:40
+#: XkbOptionsLv3.sh:40
 msgid ""
 "Please select the setting you would like to use,\n"
 " then press OK.\n"
@@ -527,8 +541,7 @@ msgid ""
 "NOTE: if you select a variant for a layout that already has one,\n"
 " the new one will replace the old."
 msgstr ""
-"Pour la retirer, sélectionnez-la dans la liste ci-dessous puis cliquez sur "
-"OK\n"
+"Pour la retirer, sélectionnez-la dans la liste ci-dessous puis cliquez sur OK\n"
 "Pour ajouter une nouvelle, sélectionnez-la puis cliquez sur OK!\n"
 "\n"
 "REMARQUE: Si vous sélectionnez une variante différente de l'actuelle,\n"
@@ -536,6 +549,5 @@ msgstr ""
 
 #: XkbVariantConfig.sh:51
 msgid "Please select the variant you would like to add, then press OK."
-msgstr ""
-"Choisissez la disposition alternative que vous voulez ajouter puis validez "
-"en cliquant sur OK!"
+msgstr "Choisissez la disposition alternative que vous voulez ajouter puis validez en cliquant sur OK!"
+

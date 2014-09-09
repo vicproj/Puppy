@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:56+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -16,21 +16,24 @@ msgstr ""
 
 #: pupdial.sh:51
 msgid ""
-"This documentation has 2 chapters:\\n1. Run wvdial\\n2. Configure wvdial"
+"This documentation has 2 chapters:\\n"
+"1. Run wvdial\\n"
+"2. Configure wvdial"
 msgstr ""
+"Cette documentation a 2 chapîtres:\\n"
+"1. Démarrer wvdial\\n"
+"2. Configurer wvdial"
 
 #: pupdial.sh:53
 msgid "R U N   W V D I A L"
-msgstr ""
+msgstr "D E M A R R E R   W V D I A L"
 
 #: pupdial.sh:58
 msgid "C O N F I G U R E   W V D I A L"
-msgstr ""
+msgstr "C O N F I G U R E R   W V D I A L"
 
 #: pupdial.sh:63
-msgid ""
-"PupDial - Internet connection with analog dialup or digital wireless modem "
-"(3g)"
+msgid "PupDial - Internet connection with analog dialup or digital wireless modem (3g)"
 msgstr ""
 
 #: pupdial.sh:70
@@ -46,27 +49,12 @@ msgid "PupDial modem Internet dialer"
 msgstr "Modem Internet à numérotation - PupDial"
 
 #: pupdial.sh:88
-msgid ""
-"Welcome! First, a basic question: do you want to connect to the Internet "
-"using an internal fixed modem, or a removable (USB, serial, PCMCIA) modem?"
-msgstr ""
-"Bienvenue! Tout d'abord, une question fondamentale: voulez-vous vous "
-"connecter à Internet en utilisant un modem interne fixe, ou un modem "
-"amovible (USB, série, PCMCIA)?"
+msgid "Welcome! First, a basic question: do you want to connect to the Internet using an internal fixed modem, or a removable (USB, serial, PCMCIA) modem?"
+msgstr "Bienvenue! Tout d'abord, une question fondamentale: voulez-vous vous connecter à Internet en utilisant un modem interne fixe, ou un modem amovible (USB, série, PCMCIA)?"
 
 #: pupdial.sh:89
-msgid ""
-"The reason for asking this, is an internal modem will have been detected at "
-"bootup, but a 'hotpluggable' external modem may not have have been detected "
-"if plugged in after bootup. Also, if you have both, say an internal analog "
-"dialup modem, plus a USB modem, PupDial may choose the wrong one -- ticking "
-"or unticking the checkbox here will avoid that confusion..."
-msgstr ""
-"La raison est qu'un modem interne a été détecté au démarrage. Mais un modem "
-"externe 'montable à chaud' peut ne pas avoir été détecté s'il a été branché "
-"après le démarrage. En outre, si vous avez à la fois, par exemple un modem "
-"RTC analogique interne et un modem USB, PupDial peut choisir le mauvais - "
-"cochez ou décochez la case ici afin d'éviter la confusion ..."
+msgid "The reason for asking this, is an internal modem will have been detected at bootup, but a 'hotpluggable' external modem may not have have been detected if plugged in after bootup. Also, if you have both, say an internal analog dialup modem, plus a USB modem, PupDial may choose the wrong one -- ticking or unticking the checkbox here will avoid that confusion..."
+msgstr "La raison est qu'un modem interne a été détecté au démarrage. Mais un modem externe 'montable à chaud' peut ne pas avoir été détecté s'il a été branché après le démarrage. En outre, si vous avez à la fois, par exemple un modem RTC analogique interne et un modem USB, PupDial peut choisir le mauvais - cochez ou décochez la case ici afin d'éviter la confusion ..."
 
 #: pupdial.sh:90
 msgid "Tick checkbox if external modem"
@@ -83,14 +71,20 @@ msgstr "ACTUALISATION"
 #: pupdial.sh:185
 #, sh-format
 msgid ""
-"It seems that the modem has changed.\\n\n"
-"It was '${wvMODEM}', it is now '${newMODEM}'\\n\n"
-"Do you want to update PupDial?\\n\n"
+"It seems that the modem has changed.\\n"
+"\n"
+"It was '${wvMODEM}', it is now '${newMODEM}'\\n"
+"\n"
+"Do you want to update PupDial?\\n"
+"\n"
 "Recommend click UPDATE button..."
 msgstr ""
-"Il semble que le modem a changé.\\n\n"
-"C'était '${wvMODEM}', et maintenant c'est '${newMODEM}'\\n\n"
-"Voulez-vous actualiser PupDial?\\n\n"
+"Il semble que le modem a changé.\\n"
+"\n"
+"C'était '${wvMODEM}', et maintenant c'est '${newMODEM}'\\n"
+"\n"
+"Voulez-vous actualiser PupDial?\\n"
+"\n"
 "Il est recommandé de cliquer sur ACTUALISER ..."
 
 #: pupdial.sh:199
@@ -104,36 +98,58 @@ msgstr "TESTER"
 #: pupdial.sh:199
 #, sh-format
 msgid ""
-"It seems that you have a modem, at port ${MYDEVM}\\n\n"
-"However, it is recommended that you now click the 'TEST' button\\n\n"
-"to test that it is working.\\n\n"
-"\\n\n"
-"Note 1: The test will also optionally probe for what is called an\\n\n"
-"'inialization string'. If you are running PupDial for the first time\\n\n"
-"or have changed modems, you will definitely need to click the 'TEST'\\n\n"
-"button and obtain an initialization string.\\n\n"
-"\\n\n"
-"Note 2: If you think that ${MYDEVM} might be the wrong modem,\\n\n"
-"click the 'No' button and the main PupDial GUI has a 'CHOOSE' button\\n\n"
-"that will enable you to test alternative modem interfaces.\\n\n"
-"\\n\n"
+"It seems that you have a modem, at port ${MYDEVM}\\n"
+"\n"
+"However, it is recommended that you now click the 'TEST' button\\n"
+"\n"
+"to test that it is working.\\n"
+"\n"
+"\\n"
+"\n"
+"Note 1: The test will also optionally probe for what is called an\\n"
+"\n"
+"'inialization string'. If you are running PupDial for the first time\\n"
+"\n"
+"or have changed modems, you will definitely need to click the 'TEST'\\n"
+"\n"
+"button and obtain an initialization string.\\n"
+"\n"
+"\\n"
+"\n"
+"Note 2: If you think that ${MYDEVM} might be the wrong modem,\\n"
+"\n"
+"click the 'No' button and the main PupDial GUI has a 'CHOOSE' button\\n"
+"\n"
+"that will enable you to test alternative modem interfaces.\\n"
+"\n"
+"\\n"
+"\n"
 "Recommend click 'TEST' to probe the modem..."
 msgstr ""
-"Il semble que vous ayez un modem au port ${MYDEVM}\\n\n"
-"Cependant, il est recommandé de cliquer sur le bouton 'TESTER'\\n\n"
-"pour voir s'il fonctionne.\\n\n"
-"\\n\n"
-"Note 1: Le test examinera aussi, éventuellement, ce qu'on appelle une\\n\n"
-"'chaine d'initialisation'. Si vous utilisez PupDial pour la première fois"
-"\\n\n"
-"ou si vous avez changé de modem, vous devrez cliquer sur le bouton\\n\n"
-"'TESTER' pour obtenir une chaîne d'initialisation.\\n\n"
-"Note 2: Si vous pensez que  ${MYDEVM} n'est pas le bon modem, cliquez\\n\n"
-"sur le bouton 'Non' et la fenêtre principale de PupDial vous permettra de"
-"\\n\n"
-"tester les interfaces des modems de remplacement avec le bouton 'CHOISIR'."
-"\\n\n"
-"\\n\n"
+"Il semble que vous ayez un modem au port ${MYDEVM}\\n"
+"\n"
+"Cependant, il est recommandé de cliquer sur le bouton 'TESTER'\\n"
+"\n"
+"pour voir s'il fonctionne.\\n"
+"\n"
+"\\n"
+"\n"
+"Note 1: Le test examinera aussi, éventuellement, ce qu'on appelle une\\n"
+"\n"
+"'chaine d'initialisation'. Si vous utilisez PupDial pour la première fois\\n"
+"\n"
+"ou si vous avez changé de modem, vous devrez cliquer sur le bouton\\n"
+"\n"
+"'TESTER' pour obtenir une chaîne d'initialisation.\\n"
+"\n"
+"Note 2: Si vous pensez que  ${MYDEVM} n'est pas le bon modem, cliquez\\n"
+"\n"
+"sur le bouton 'Non' et la fenêtre principale de PupDial vous permettra de\\n"
+"\n"
+"tester les interfaces des modems de remplacement avec le bouton 'CHOISIR'.\\n"
+"\n"
+"\\n"
+"\n"
 "Il est recommandé de cliquer sur TESTER' pour tester le modem..."
 
 #: pupdial.sh:220
@@ -174,8 +190,7 @@ msgstr ""
 "dans wvdial.conf quand vous cliquerez sur les boutons 'Quitter' ou\n"
 "'Connexion'. N.B. vous pouvez aussi modifier wvdial.conf à la main.\n"
 "\n"
-"Si vous utilisez Pupdial pour la première fois, il est recommandé de "
-"cliquer\n"
+"Si vous utilisez Pupdial pour la première fois, il est recommandé de cliquer\n"
 "sur les boutons d'Aide, plus particulièrement 'Paramètres du modem'."
 
 #: pupdial.sh:303
@@ -194,7 +209,7 @@ msgstr ""
 
 #: pupdial.sh:393
 msgid "Choose modem"
-msgstr ""
+msgstr "Choisir un modem"
 
 #: pupdial.sh:399
 msgid "Carrier check"
@@ -208,7 +223,8 @@ msgstr "Vérification de la tonalité"
 msgid "Busy check"
 msgstr "Vérification de l'occupation"
 
-#: pupdial.sh:416 pupdial.sh:423
+#: pupdial.sh:416
+#: pupdial.sh:423
 msgid "String for modem initialisation"
 msgstr "Chaine pour l'initialisation du modem"
 
@@ -249,60 +265,77 @@ msgstr "Paramètres du modem"
 msgid "Account 1|Account2"
 msgstr "Compte 1/Compte 2"
 
-#: pupdial.sh:460 pupdial.sh:526
+#: pupdial.sh:460
+#: pupdial.sh:526
 msgid "Connect to the Internet"
 msgstr "Connexion à Internet"
 
-#: pupdial.sh:461 pupdial.sh:527
+#: pupdial.sh:461
+#: pupdial.sh:527
 msgid "Connect"
-msgstr ""
+msgstr "Connecter"
 
-#: pupdial.sh:470 pupdial.sh:472 pupdial.sh:536 pupdial.sh:538
+#: pupdial.sh:470
+#: pupdial.sh:472
+#: pupdial.sh:536
+#: pupdial.sh:538
 msgid "Enter the Phone or Access Number here"
 msgstr "Entrez le numéro de téléphone ou d'accès ici"
 
-#: pupdial.sh:470 pupdial.sh:536
+#: pupdial.sh:470
+#: pupdial.sh:536
 #, fuzzy
 msgid "Phone number"
 msgstr "Numéro de téléphone:"
 
-#: pupdial.sh:478 pupdial.sh:544
+#: pupdial.sh:478
+#: pupdial.sh:544
 #, fuzzy
 msgid "Username"
 msgstr "Nom d'utilisateur:"
 
-#: pupdial.sh:488 pupdial.sh:490 pupdial.sh:554 pupdial.sh:556
+#: pupdial.sh:488
+#: pupdial.sh:490
+#: pupdial.sh:554
+#: pupdial.sh:556
 msgid "Only for 3G or cell/mobile phone connections"
 msgstr "Seulement pour des connexions 3G ou par téléphone cellulaire/mobile"
 
-#: pupdial.sh:488 pupdial.sh:554
+#: pupdial.sh:488
+#: pupdial.sh:554
 msgid "Wireless:   APN:"
 msgstr "Sans fil :   APN :"
 
-#: pupdial.sh:496 pupdial.sh:498 pupdial.sh:562 pupdial.sh:564
+#: pupdial.sh:496
+#: pupdial.sh:498
+#: pupdial.sh:562
+#: pupdial.sh:564
 msgid "Enter your password here"
 msgstr "Entrez votre mot de passe ici"
 
-#: pupdial.sh:496 pupdial.sh:562
+#: pupdial.sh:496
+#: pupdial.sh:562
 #, fuzzy
 msgid "Password"
 msgstr "Mot de passe :"
 
-#: pupdial.sh:505 pupdial.sh:571
+#: pupdial.sh:505
+#: pupdial.sh:571
 msgid "Recommended to check this box if using a 3G modem"
 msgstr "Il est recommandé de cocher cette case si vous utilisez un modem 3 G"
 
-#: pupdial.sh:508 pupdial.sh:574
+#: pupdial.sh:508
+#: pupdial.sh:574
 msgid "Stupid mode"
 msgstr "Stupid mode"
 
-#: pupdial.sh:513 pupdial.sh:579
+#: pupdial.sh:513
+#: pupdial.sh:579
 msgid "Make sure this box is checked to attempt auto reconnection"
-msgstr ""
-"Assurez-vous que cette case est cochée pour tenter une reconnexion "
-"automatique"
+msgstr "Assurez-vous que cette case est cochée pour tenter une reconnexion automatique"
 
-#: pupdial.sh:516 pupdial.sh:582
+#: pupdial.sh:516
+#: pupdial.sh:582
 msgid "Auto Reconnect"
 msgstr "Reconnexion automatique"
 
@@ -316,57 +349,31 @@ msgstr "Déconnecter d'Internet"
 
 #: pupdial.sh:617
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: pupdial.sh:756
-msgid ""
-"To force only 2G or 3G, uncomment the Init4 line and append 0 (2G) or 2 "
-"(3G), and substitute your operator's name for MYOPS."
-msgstr ""
-"Pour forcer 2G ou 3G seulement, décommentez la ligne Init4 et append 0 (2G) "
-"ou 2 (3G), et substituez le nom de votre opérateur pour MYOPS."
+msgid "To force only 2G or 3G, uncomment the Init4 line and append 0 (2G) or 2 (3G), and substitute your operator's name for MYOPS."
+msgstr "Pour forcer 2G ou 3G seulement, décommentez la ligne Init4 et append 0 (2G) ou 2 (3G), et substituez le nom de votre opérateur pour MYOPS."
 
 #: pupdial.sh:758
-msgid ""
-"Init6-Init9 lines are available for user purposes; the commented examples "
-"can be used as described:"
-msgstr ""
-"Les lignes Init6-Init9 sont à la discrétion des utilisateurs; les exemples "
-"commentés peuvent être utilisé comme décrit:"
+msgid "Init6-Init9 lines are available for user purposes; the commented examples can be used as described:"
+msgstr "Les lignes Init6-Init9 sont à la discrétion des utilisateurs; les exemples commentés peuvent être utilisé comme décrit:"
 
 #: pupdial.sh:759
-msgid ""
-"To force the 3G quality of service level, uncomment the Init6/Init7 line "
-"pair and set value two places each, for 384k/144k/64k, omitting the \\\"k\\"
-"\" (e.g., =1,4,64,384,64,384)."
-msgstr ""
-"Pour forcer le niveau de la qualité du service 3G, décommentez la ligne "
-"paire Init6/Init7 et définissez la valeur de deux places chacune, pour "
-"384k/144k/64k, en omettant le \\\"k\\\" (e.g., =1,4,64,384,64,384)."
+msgid "To force the 3G quality of service level, uncomment the Init6/Init7 line pair and set value two places each, for 384k/144k/64k, omitting the \\\"k\\\" (e.g., =1,4,64,384,64,384)."
+msgstr "Pour forcer le niveau de la qualité du service 3G, décommentez la ligne paire Init6/Init7 et définissez la valeur de deux places chacune, pour 384k/144k/64k, en omettant le \\\"k\\\" (e.g., =1,4,64,384,64,384)."
 
 #: pupdial.sh:760
-msgid ""
-"To list all the APNs stored in the modem, uncomment the Init8 line; check "
-"the Connection status log for lines beginning with +CGDCONT:."
-msgstr ""
-"Pour lister tous les APN stockés dans le modem, décommentez la ligne Init8; "
-"vérifiez le journal de l'état ​​de la connexion pour les lignes commençant par "
-"+CGDCONT:."
+msgid "To list all the APNs stored in the modem, uncomment the Init8 line; check the Connection status log for lines beginning with +CGDCONT:."
+msgstr "Pour lister tous les APN stockés dans le modem, décommentez la ligne Init8; vérifiez le journal de l'état ​​de la connexion pour les lignes commençant par +CGDCONT:."
 
 #: pupdial.sh:761
-msgid ""
-"To list the operator identifier stored in the modem, uncomment the Init9 "
-"line; check the Connection status log for a line beginning with +COPS:"
-msgstr ""
-"Pour lister l'identificateur de l'opérateur stocké dans le modem, "
-"décommentez la ligne Init9; vérifiez le journal de l'état de la connexion "
-"pour une ligne commençant par +COPS:"
+msgid "To list the operator identifier stored in the modem, uncomment the Init9 line; check the Connection status log for a line beginning with +COPS:"
+msgstr "Pour lister l'identificateur de l'opérateur stocké dans le modem, décommentez la ligne Init9; vérifiez le journal de l'état de la connexion pour une ligne commençant par +COPS:"
 
 #: pupdial.sh:830
 msgid "NOTICE: If the log shows a failure to connect, please click left button"
-msgstr ""
-"AVIS: Si le journal montre un échec de connexion, veuillez cliquer sur le "
-"bouton gauche"
+msgstr "AVIS: Si le journal montre un échec de connexion, veuillez cliquer sur le bouton gauche"
 
 #: pupdial.sh:830
 msgid "PupDial: WvDial connection log"

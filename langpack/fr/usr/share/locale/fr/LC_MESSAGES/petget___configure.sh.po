@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:46+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -23,55 +23,28 @@ msgid "Update database"
 msgstr "Actualiser la base de données"
 
 #: configure.sh:71
-msgid ""
-"Puppy has a database file for each package repository. Click this button to "
-"download the latest information on what packages are in the repository:"
-msgstr ""
-"Toutou possède une base de données pour chaque dépot de paquets. Téléchargez "
-"les dernières infos des paquets dans les dépots:"
+msgid "Puppy has a database file for each package repository. Click this button to download the latest information on what packages are in the repository:"
+msgstr "Toutou possède une base de données pour chaque dépot de paquets. Téléchargez les dernières infos des paquets dans les dépots:"
 
 #: configure.sh:72
 msgid "Update now"
 msgstr "Actualiser"
 
 #: configure.sh:74
-msgid ""
-"Note: some repositories are 'fixed' and do not need to be updated. An "
-"example of this is the Slackware official version 12.2 repo. An example that "
-"does change is the Slackware 'slacky' 12.2 repo which has extra packages for "
-"Slackware 12.2. Anyway, to be on the safe side, clicking the above button "
-"will update all database files."
-msgstr ""
-"Note: certains dépots sont 'gelés' et n'ont pas besoin d'être actualisés. "
-"Exemple le dépot de la version officielle Slackware12.2. Un exemple de celui "
-"qui qui doit changer c'est le dépot Slackware 'slacky' 12.2 qui contient des "
-"paquets supplémentaires pour Slackware 12.2. De toutes manières par "
-"sécurité, quand vous cliquerez sur le bouton ci-dessus, tous les fichiers "
-"des bases de données seront mis à jour."
+msgid "Note: some repositories are 'fixed' and do not need to be updated. An example of this is the Slackware official version 12.2 repo. An example that does change is the Slackware 'slacky' 12.2 repo which has extra packages for Slackware 12.2. Anyway, to be on the safe side, clicking the above button will update all database files."
+msgstr "Note: certains dépots sont 'gelés' et n'ont pas besoin d'être actualisés. Exemple le dépot de la version officielle Slackware12.2. Un exemple de celui qui qui doit changer c'est le dépot Slackware 'slacky' 12.2 qui contient des paquets supplémentaires pour Slackware 12.2. De toutes manières par sécurité, quand vous cliquerez sur le bouton ci-dessus, tous les fichiers des bases de données seront mis à jour."
 
 #: configure.sh:75
-msgid ""
-"Warning: The database information for some repositories is quite large, "
-"about 1.5MB for 'slacky' and several MB for Ubuntu/Debian. If you are on "
-"dialup, be prepared for this."
-msgstr ""
-"ATTENTION : L'information des bases de données de certains dépots est très "
-"volumineuse, environ 1.5Mo pour 'slacky' et plusieurs Mo pour Ubuntu/Debian. "
-"Tenez-en compte si vous êtes en connexion analogique."
+msgid "Warning: The database information for some repositories is quite large, about 1.5MB for 'slacky' and several MB for Ubuntu/Debian. If you are on dialup, be prepared for this."
+msgstr "ATTENTION : L'information des bases de données de certains dépots est très volumineuse, environ 1.5Mo pour 'slacky' et plusieurs Mo pour Ubuntu/Debian. Tenez-en compte si vous êtes en connexion analogique."
 
 #: configure.sh:76
-msgid ""
-"Technical note: if you would like to see the package databases, they are at"
+msgid "Technical note: if you would like to see the package databases, they are at"
 msgstr "Note technique: les bases de données des paquets sont affichées dans "
 
 #: configure.sh:76
-msgid ""
-"These are in a standardised format, regardless of which distribution they "
-"were obtained from. This format is considerably smaller than that of the "
-"original distro."
-msgstr ""
-"C'est le format standard, quelle que soit leur distribution d'origine. Ce "
-"format est bien plus petit que celui de la distribution originale."
+msgid "These are in a standardised format, regardless of which distribution they were obtained from. This format is considerably smaller than that of the original distro."
+msgstr "C'est le format standard, quelle que soit leur distribution d'origine. Ce format est bien plus petit que celui de la distribution originale."
 
 #: configure.sh:78
 msgid "User Interface"
@@ -79,7 +52,7 @@ msgstr "Interface utilisateur"
 
 #: configure.sh:83
 msgid "Enable BuildingBlock category (for advanced users only!)"
-msgstr ""
+msgstr "Activer la catégorie de Génération du Bloc (pour utilisateurs avancés uniquement!)"
 
 #: configure.sh:92
 msgid "Requires restart of PPM to see changes"
@@ -87,25 +60,18 @@ msgstr "Relancez PPM pour activer les changements"
 
 #: configure.sh:93
 msgid "Choose repositories"
-msgstr "Choisir les dépots"
+msgstr "Choisir les dépôts"
 
 #: configure.sh:94
 #, fuzzy
-msgid ""
-"Choose what repositories you would like to have appear in the main GUI "
-"window:"
-msgstr ""
-"Sélectionnez les dépots que vous voulez afficher dans la fenêtre principale "
-"(au maximum 5 cases):"
+msgid "Choose what repositories you would like to have appear in the main GUI window:"
+msgstr "Sélectionnez les dépots que vous voulez afficher dans la fenêtre principale (au maximum 5 cases):"
 
 #: configure.sh:98
-msgid ""
-"Adding a new repository currently requires manual editing of some text "
-"files. Click this button for further information:"
-msgstr ""
-"Ajouter un nouveau dépot nécessite de modifier certains fichiers texte. Plus "
-"d'infos ICI:"
+msgid "Adding a new repository currently requires manual editing of some text files. Click this button for further information:"
+msgstr "Ajouter un nouveau dépot nécessite de modifier certains fichiers texte. Plus d'infos ICI:"
 
 #: configure.sh:99
 msgid "Add repo help"
-msgstr "Aide ajout de dépot"
+msgstr "Aide ajout de dépôt"
+

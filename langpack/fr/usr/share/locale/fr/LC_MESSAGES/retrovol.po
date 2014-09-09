@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: pizzasgood@gmail.com\n"
 "POT-Creation-Date: 2013-05-09 23:07-0400\n"
 "PO-Revision-Date: \n"
-"Last-Translator: Argolance <argolance@free.fr>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -38,15 +38,18 @@ msgstr "_Panneau complet"
 msgid "Error:  Failed to set background color to %s\n"
 msgstr "Erreur: Impossible d'assigner la couleur de fond %s\n"
 
-#: src/main.cpp:519 src/main.cpp:526
+#: src/main.cpp:519
+#: src/main.cpp:526
 msgid "/_File"
 msgstr "/_Fichier"
 
-#: src/main.cpp:520 src/main.cpp:527
+#: src/main.cpp:520
+#: src/main.cpp:527
 msgid "/File/_Configure"
 msgstr "/_Fichier/Configurer"
 
-#: src/main.cpp:521 src/main.cpp:529
+#: src/main.cpp:521
+#: src/main.cpp:529
 msgid "/File/_Quit"
 msgstr "/_Fichier/Quitter"
 
@@ -56,9 +59,7 @@ msgstr "/Fichier/Quitter complètement"
 
 #: src/main.cpp:723
 #, c-format
-msgid ""
-"ERROR:  The -bg option requires a color to be supplied in the format "
-"#rrggbb\n"
+msgid "ERROR:  The -bg option requires a color to be supplied in the format #rrggbb\n"
 msgstr "ERREUR: l'option -bg requiert un format de couleur du type #rrggbb\n"
 
 #: src/main.cpp:731
@@ -69,9 +70,7 @@ msgstr "Usage: %s [-bg #rrggbb] [-hide]\n"
 #: src/main.cpp:732
 #, c-format
 msgid "Volume mixer with bargraph style sliders.\n"
-msgstr ""
-"Mixeur de volume avec potentiometres à glissière - indicateurs visuels de "
-"puissance.\n"
+msgstr "Mixeur de volume avec potentiometres à glissière - indicateurs visuels de puissance.\n"
 
 #: src/main.cpp:733
 #, c-format
@@ -90,9 +89,7 @@ msgstr "\t-v              Donne le numéro de version et quitte\n"
 #: src/main.cpp:735
 #, c-format
 msgid "\t-bg #rrggbb     specify the background color of the tray icon\n"
-msgstr ""
-"\t-bg #rrggbb     spécifie la couleur de fond de l'icône de la barre des "
-"tâches\n"
+msgstr "\t-bg #rrggbb     spécifie la couleur de fond de l'icône de la barre des tâches\n"
 
 #: src/main.cpp:736
 #, c-format
@@ -127,12 +124,8 @@ msgid "# Config file for retrovol\n"
 msgstr "# Fichier de configuration de retrovol\n"
 
 #: src/config_settings.cpp:341
-msgid ""
-"# This file should reside in the user's home directory and be named ."
-"retrovolrc\n"
-msgstr ""
-"# Ce fichier doit en principe se trouver dans le dossier administrateur de "
-"l'utilisateur et être nommé .retrovolrc\n"
+msgid "# This file should reside in the user's home directory and be named .retrovolrc\n"
+msgstr "# Ce fichier doit en principe se trouver dans le dossier administrateur de l'utilisateur et être nommé .retrovolrc\n"
 
 #: src/config_settings.cpp:344
 msgid ""
@@ -145,26 +138,22 @@ msgstr ""
 #: src/config_settings.cpp:348
 msgid ""
 "\n"
-"# Set this to 0-2 to define a linear, logarithmic, or exponential volume "
-"scale, respectively\n"
+"# Set this to 0-2 to define a linear, logarithmic, or exponential volume scale, respectively\n"
 msgstr ""
 
 #: src/config_settings.cpp:351
 msgid ""
 "\n"
-"# Set this to 1 to make the volume automatically mute when set to 0%, or 0 "
-"to keep it unmuted at 0%\n"
+"# Set this to 1 to make the volume automatically mute when set to 0%, or 0 to keep it unmuted at 0%\n"
 msgstr ""
 
 #: src/config_settings.cpp:355
 msgid ""
 "\n"
-"# Set this to 1 to make the sliders vertical, or 0 for horizontal (only "
-"applies to the main window)\n"
+"# Set this to 1 to make the sliders vertical, or 0 for horizontal (only applies to the main window)\n"
 msgstr ""
 "\n"
-"# I pour disposer les potentiomètres verticalementl, 0 pour les disposer "
-"horizontalement (valeurs appliquées au panneau complet uniquement)\n"
+"# I pour disposer les potentiomètres verticalementl, 0 pour les disposer horizontalement (valeurs appliquées au panneau complet uniquement)\n"
 
 #: src/config_settings.cpp:359
 msgid ""
@@ -217,23 +206,18 @@ msgstr ""
 #: src/config_settings.cpp:409
 msgid ""
 "\n"
-"# Background color of tray_icon (default is default GTK background color).  "
-"Note:  the commandline -bg option overrides this\n"
+"# Background color of tray_icon (default is default GTK background color).  Note:  the commandline -bg option overrides this\n"
 msgstr ""
 "\n"
-"# Couleur de fond de l'icône de la barre des tâches (la couleur par défaut "
-"est celle de GTK).  Note: l'option -bg en ligne de commande prend le pas sur "
-"cela\n"
+"# Couleur de fond de l'icône de la barre des tâches (la couleur par défaut est celle de GTK).  Note: l'option -bg en ligne de commande prend le pas sur cela\n"
 
 #: src/config_settings.cpp:415
 msgid ""
 "\n"
-"# Set this to 1 to make the slider on the tray_icon vertical, or 0 for "
-"horizontal\n"
+"# Set this to 1 to make the slider on the tray_icon vertical, or 0 for horizontal\n"
 msgstr ""
 "\n"
-"#  1 pour positionner le potentiomètre de la barre verticalement , ou 0 pour "
-"le positionner horizontalement\n"
+"#  1 pour positionner le potentiomètre de la barre verticalement , ou 0 pour le positionner horizontalement\n"
 
 #: src/config_settings.cpp:419
 msgid ""
@@ -249,24 +233,20 @@ msgid ""
 "# Which slider to link with the tray_icon, identified by numid\n"
 msgstr ""
 "\n"
-"# Potentiomètre lié à l 'icône de la barre des tâches, identifié par le "
-"numéro d'id\n"
+"# Potentiomètre lié à l 'icône de la barre des tâches, identifié par le numéro d'id\n"
 
 #: src/config_settings.cpp:433
 msgid ""
 "\n"
-"# The numids of the sliders to display, in order.  It is okay to have "
-"comments\n"
+"# The numids of the sliders to display, in order.  It is okay to have comments\n"
 "# after the numbers as long as the numbers are the first non-whitespace\n"
 "# characters.  To get a list of the slider numids, run this command:\n"
 "#    amixer controls\n"
 "# NOTE:  This section must go at the end of the file!\n"
 msgstr ""
 "\n"
-"# Les potentiomètres sont affichés suivant leurs numéros d'identification.  "
-"Les commentaires après\n"
-"# les nombres sont okay tant que les nombres sont en premiers et composés de "
-"caractères sans espace\n"
+"# Les potentiomètres sont affichés suivant leurs numéros d'identification.  Les commentaires après\n"
+"# les nombres sont okay tant que les nombres sont en premiers et composés de caractères sans espace\n"
 "# Pour obtenir la liste des numéros d'id, exécuter cette commande:\n"
 "#    amixer controls\n"
 "# NOTE:  Cette section doit impérativement se trouver en fin de fichier!\n"
@@ -280,11 +260,8 @@ msgstr ""
 "#EXEMPLE:\n"
 
 #: src/config_window.cpp:82
-msgid ""
-"Below you can chose which sliders to enable and in which order to display "
-"them."
-msgstr ""
-"Choisissez ici quels potentiomètres activer et dans quel ordre les afficher."
+msgid "Below you can chose which sliders to enable and in which order to display them."
+msgstr "Choisissez ici quels potentiomètres activer et dans quel ordre les afficher."
 
 #: src/config_window.cpp:117
 msgid "Active Sliders"
@@ -296,15 +273,15 @@ msgstr "Potentiomètres déactivés"
 
 #: src/config_window.cpp:435
 msgid "Linear"
-msgstr ""
+msgstr "Linéaire"
 
 #: src/config_window.cpp:436
 msgid "Logarithmic"
-msgstr ""
+msgstr "Logarithmique"
 
 #: src/config_window.cpp:437
 msgid "Exponential"
-msgstr ""
+msgstr "Exponentiel"
 
 #: src/config_window.cpp:493
 msgid "Retrovol - Configuration"
@@ -328,11 +305,13 @@ msgstr ""
 "Potentiomètres à glissière:\n"
 "             Disposition"
 
-#: src/config_window.cpp:519 src/config_window.cpp:546
+#: src/config_window.cpp:519
+#: src/config_window.cpp:546
 msgid "Vertical"
 msgstr "Verticale"
 
-#: src/config_window.cpp:519 src/config_window.cpp:546
+#: src/config_window.cpp:519
+#: src/config_window.cpp:546
 msgid "Horizontal"
 msgstr "Horizontale"
 
@@ -421,3 +400,4 @@ msgstr "Matériel"
 #: src/config_window.cpp:563
 msgid "Sound Card"
 msgstr "Carte-son"
+

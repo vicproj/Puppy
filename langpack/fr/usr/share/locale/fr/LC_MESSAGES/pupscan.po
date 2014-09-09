@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:56+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier <jj@moulinier.net>\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -32,11 +32,8 @@ msgstr ""
 #, fuzzy
 msgid ""
 "<b>USB devices</b>\n"
-"USB interfaces are part of the PCI interfaces, but to find information about "
-"any plugged-in USB devices, click this button."
-msgstr ""
-"Les interfaces USB font partie des interfaces PCI. Pour avoir des infos sur "
-"les supports USB branchés, cliquez ici :"
+"USB interfaces are part of the PCI interfaces, but to find information about any plugged-in USB devices, click this button."
+msgstr "Les interfaces USB font partie des interfaces PCI. Pour avoir des infos sur les supports USB branchés, cliquez ici :"
 
 #: pupscan.sh:202
 msgid "Puppy hardware-interfaces information"
@@ -44,19 +41,14 @@ msgstr "Informations des interfaces du matériel"
 
 #: pupscan.sh:206
 msgid "Find information about your hardware"
-msgstr ""
+msgstr "Chercher les informations à propos de votre matériel"
 
 #: pupscan.sh:209
 #, fuzzy
 msgid ""
 "<b>Kernel modules</b>\n"
-"At bootup, Puppy examines the hardware interfaces to determine what kernel "
-"drivers (modules) to load, and does so. Click this button for information on "
-"loaded modules."
-msgstr ""
-"Au démarrage, un examen de votre configuration détermine les pilotes du "
-"noyau (modules) à charger. Cliquez sur ce bouton pour des informations sur "
-"les modules chargés:"
+"At bootup, Puppy examines the hardware interfaces to determine what kernel drivers (modules) to load, and does so. Click this button for information on loaded modules."
+msgstr "Au démarrage, un examen de votre configuration détermine les pilotes du noyau (modules) à charger. Cliquez sur ce bouton pour des informations sur les modules chargés:"
 
 #: pupscan.sh:221
 #, fuzzy
@@ -67,15 +59,12 @@ msgstr "Détails de chaque module chargé :"
 #, fuzzy
 msgid ""
 "<b>PCI interfaces</b>\n"
-"Most of the hardware interfaces inside a PC are PCI devices. Click this "
-"button for a scan of all the PCI interfaces."
-msgstr ""
-"La plupart des interfaces matériels sont 'PCI'. Cliquez sur ce bouton pour "
-"une recherche de toutes les interfaces PCI :"
+"Most of the hardware interfaces inside a PC are PCI devices. Click this button for a scan of all the PCI interfaces."
+msgstr "La plupart des interfaces matériels sont 'PCI'. Cliquez sur ce bouton pour une recherche de toutes les interfaces PCI :"
 
 #: pupscan.sh:261
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #~ msgid "EXIT"
 #~ msgstr "QUITTER"
