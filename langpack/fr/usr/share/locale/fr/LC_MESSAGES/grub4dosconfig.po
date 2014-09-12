@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: grub4dosconfig VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-15 07:10+0900\n"
-"PO-Revision-Date: 2014-09-08 18:50+0100\n"
+"PO-Revision-Date: 2014-09-12 18:33+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
@@ -313,11 +313,11 @@ msgstr "Afficher toutes les partitions si vous souhaitez installer le chargeur d
 
 #: grub4dosconfig:148
 msgid "Single page menu"
-msgstr ""
+msgstr "Page de menu simple"
 
 #: grub4dosconfig:149
 msgid "Single page menu with advanced entries. Or, the advanced menu at next page"
-msgstr ""
+msgstr "Page de menu simple avec des entrées avancées. Ou, le menu avancé à la prochaine page"
 
 #: grub4dosconfig:150
 msgid "Device"

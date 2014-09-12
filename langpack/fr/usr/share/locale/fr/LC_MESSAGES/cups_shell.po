@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: cups_shell VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:52+0200\n"
-"PO-Revision-Date: 2012-02-15 21:50+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-12 18:13+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -12,35 +12,31 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: cups_shell.sh:43 cups_shell.sh:45 cups_shell.sh:47
+#: cups_shell.sh:43
+#: cups_shell.sh:45
+#: cups_shell.sh:47
 msgid "Puppy Printing"
-msgstr ""
+msgstr "Impression Puppy/Toutou"
 
 #: cups_shell.sh:45
-msgid ""
-"There are 2 main help sources for printing. One locally and one on the Puppy "
-"forum. If chosen, these will be shown together with the print-manager in "
-"your browser."
-msgstr ""
+msgid "There are 2 main help sources for printing. One locally and one on the Puppy forum. If chosen, these will be shown together with the print-manager in your browser."
+msgstr "Il y a deux sources principales d'aide pour l'impression. Une locale et une sur le forum Puppy. Si elle est choisie, elle sera affichée en même temps que le gestionnaire d'impression dans votre navigateur."
 
 #: cups_shell.sh:51
-#, fuzzy
 msgid "Show basic help to add a printer"
-msgstr "Voulez-vous ajouter une nouvelle imprimante?"
+msgstr "Afficher l'aide basique pour ajouter une imprimante"
 
 #: cups_shell.sh:59
 msgid "Show extended online help for installing printers"
-msgstr ""
+msgstr "Afficher l'aide en ligne étendue pour l'installation des imprimantes"
 
 #: cups_shell.sh:68
 msgid "Manage printers and printing tasks"
-msgstr ""
+msgstr "Gérer les imprimantes et les tâches d'impression"
 
 #: cups_shell.sh:117
 msgid "Please wait, composing Gutenprint '.ppd' driver files..."
-msgstr ""
-"Veuillez patienter pendant la composition des fichiers du pilote Gutenprint "
-"'.ppd'..."
+msgstr "Veuillez patienter pendant la composition des fichiers du pilote Gutenprint '.ppd'..."
 
 #~ msgid "No"
 #~ msgstr "Non"

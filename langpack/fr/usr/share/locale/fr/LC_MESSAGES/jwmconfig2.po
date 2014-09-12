@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: changeKey VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:45+0200\n"
-"PO-Revision-Date: 2014-09-08 18:51+0100\n"
+"PO-Revision-Date: 2014-09-12 18:43+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -55,19 +55,19 @@ msgstr "FOCUS SLOPPY"
 
 #: focusModel.sh:43
 msgid "The window that is under the mouse pointer is the"
-msgstr ""
+msgstr "La fenêtre qui est sous le curseur de la souris est la"
 
 #: focusModel.sh:44
 msgid "window that has the focus. The focus is changed"
-msgstr ""
+msgstr "fenêtre qui a le focus. Le focus est modifié en"
 
 #: focusModel.sh:45
 msgid "by pointing at another window, there is no need"
-msgstr ""
+msgstr "pointant une autre fenêtre, il n'y a pas besoin de"
 
 #: focusModel.sh:46
 msgid "to click in it as well."
-msgstr ""
+msgstr "de cliquer de nouveau dessus."
 
 #: focusModel.sh:47
 msgid "CLICK TO FOCUS"
@@ -133,7 +133,7 @@ msgstr "Boutons des applications"
 
 #: jwmConfigMgr.sh:73
 msgid "Title bar and Clock"
-msgstr ""
+msgstr "Barre de titre et Horloge"
 
 #: jwmConfigMgr.sh:84
 msgid "GTK Theme"
@@ -210,11 +210,11 @@ msgstr "Information rapide"
 
 #: panel-buttons.sh:59
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: panel-buttons.sh:59
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: panel-buttons.sh:60
 #, sh-format
@@ -222,10 +222,12 @@ msgid ""
 "Are you sure you want to delete \\n"
 "${PROG} launcher?"
 msgstr ""
+"Etes-vous sûr de vouloir supprimer \\n"
+"le lanceur ${PROG}?"
 
 #: panel-buttons.sh:63
 msgid "you cancelled or selected no"
-msgstr ""
+msgstr "vous avez annulé ou selectionné non"
 
 #: panel-buttons.sh:93
 #, fuzzy
@@ -234,7 +236,7 @@ msgstr "Ajouter une barre de boutons"
 
 #: panel-buttons.sh:95
 msgid "Current"
-msgstr ""
+msgstr "Actuel"
 
 #: panel-buttons.sh:96
 #, fuzzy
@@ -247,7 +249,7 @@ msgstr ""
 
 #: panel-buttons.sh:98
 msgid "Be sure you want to delete the item when selecting"
-msgstr ""
+msgstr "Soyez sûr de vouloir bien supprimer l'item quand il est sélectionné"
 
 #: panel-buttons.sh:100
 msgid "Popup|Icon|Exec"
@@ -255,7 +257,7 @@ msgstr ""
 
 #: panel-buttons.sh:107
 msgid "New"
-msgstr ""
+msgstr "Nouveau"
 
 #: panel-buttons.sh:108
 #, fuzzy
@@ -285,37 +287,35 @@ msgstr ""
 
 #: panel-buttons.sh:130
 msgid "Type the program executable here"
-msgstr ""
+msgstr "Saisir le nom de l'exécutable ici"
 
 #: panel-buttons.sh:137
 msgid "Check for borders"
-msgstr ""
+msgstr "Vérification de la présence de bordures"
 
 #: panel-buttons.sh:142
 msgid "Restore"
-msgstr ""
+msgstr "Restaurer"
 
 #: panel-buttons.sh:143
-#, fuzzy
 msgid "Restore Backup"
-msgstr "Arrière-plan du bureau"
+msgstr "Restaurer sauvegarde"
 
 #: panel-buttons.sh:145
 msgid "Restore Previous Backup"
-msgstr ""
+msgstr "Restaurer la Sauvegarde Précedente"
 
 #: panel-buttons.sh:146
 msgid "Restores your previous tray buttons"
-msgstr ""
+msgstr "Restaurer vos précédents boutons dans la barre de notification"
 
 #: panel-buttons.sh:154
 msgid "Restore Master Backup"
-msgstr ""
+msgstr "Restaurer la Sauvegarde Principale"
 
 #: panel-buttons.sh:155
-#, fuzzy
 msgid "Restores the original tray buttons"
-msgstr "Restaurer la configuration originale"
+msgstr "Restaurer la configuration originale des boutons"
 
 #: taskbar.sh:15
 msgid "Tray Configuration Options"
@@ -431,16 +431,14 @@ msgid "The default height"
 msgstr "Hauteur par défaut."
 
 #: taskbarHeight.sh:79
-#, fuzzy
 msgid "About 125% of Normal."
-msgstr "Environ 130% de la normale."
+msgstr "Environ 125% de la normale."
 
 #: taskbarHeight.sh:80
 msgid "About 160% of normal"
 msgstr "Environ 160% de la normale."
 
 #: taskbarHeight.sh:129
-#, fuzzy
 msgid "The tray height is set at"
 msgstr "La hauteur est fixée à"
 

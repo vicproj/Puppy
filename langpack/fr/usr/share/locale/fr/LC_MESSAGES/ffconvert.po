@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: ffconvert VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-25 16:29+0900\n"
-"PO-Revision-Date: 2014-09-08 19:09+0100\n"
+"PO-Revision-Date: 2014-09-12 18:16+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
@@ -70,11 +70,11 @@ msgstr "stéréo"
 
 #: /root/my-applications/bin/ffconvert:369
 msgid "Show all"
-msgstr ""
+msgstr "Afficher tout"
 
 #: /root/my-applications/bin/ffconvert:371
 msgid "User defined"
-msgstr ""
+msgstr "Défini par l'utilisateur"
 
 #: /root/my-applications/bin/ffconvert:442
 msgid "Type or drag here the source media file."
@@ -99,7 +99,7 @@ msgstr "Lecteur optique non trouvé."
 
 #: /root/my-applications/bin/ffconvert:458
 msgid "Recoding screen not supported."
-msgstr ""
+msgstr "L'enregistrement d'écran n'est pas supporté."
 
 #: /root/my-applications/bin/ffconvert:461
 #, fuzzy
@@ -108,15 +108,15 @@ msgstr "Cochez ici pour extraire un DVD vidéo"
 
 #: /root/my-applications/bin/ffconvert:463
 msgid "Record screen"
-msgstr ""
+msgstr "Enregistrer l'écran"
 
 #: /root/my-applications/bin/ffconvert:470
 msgid "In"
-msgstr ""
+msgstr "Entrée"
 
 #: /root/my-applications/bin/ffconvert:470
 msgid "Out"
-msgstr ""
+msgstr "Sortie"
 
 #: /root/my-applications/bin/ffconvert:470
 #: /root/my-applications/bin/ffconvert:672
@@ -219,7 +219,7 @@ msgstr "Ouvrir un terminal pour voir le journal."
 
 #: /root/my-applications/bin/ffconvert:612
 msgid "Capture whole the screen."
-msgstr ""
+msgstr "Capturer tout l'écran."
 
 #: /root/my-applications/bin/ffconvert:612
 msgid "Full screen"

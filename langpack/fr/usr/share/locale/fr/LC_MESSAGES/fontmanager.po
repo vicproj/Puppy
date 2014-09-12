@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fontmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-08 18:50+0100\n"
+"PO-Revision-Date: 2014-09-12 18:27+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -19,27 +19,27 @@ msgstr ""
 
 #: fontmanager.sh:36
 msgid "No TTF-file to install"
-msgstr ""
+msgstr "Pas de fichier TTF à installer"
 
 #: fontmanager.sh:43
 msgid "Font Manager"
-msgstr ""
+msgstr "Gestionnaire de polices"
 
 #: fontmanager.sh:45
 msgid "Size"
-msgstr ""
+msgstr "Taille"
 
 #: fontmanager.sh:45
 msgid "Appearance"
-msgstr ""
+msgstr "Apparence"
 
 #: fontmanager.sh:45
 msgid "Install fonts"
-msgstr ""
+msgstr "Installer polices"
 
 #: fontmanager.sh:48
 msgid "Global font size"
-msgstr ""
+msgstr "Taille globale de la police"
 
 #: fontmanager.sh:49
 msgid "Please choose dpi (dots per inch) for the screen. The larger the value, the bigger that antialiased fonts will render on the screen. Adjust up or down if fonts are rendering too small or too big on screen."
@@ -48,39 +48,39 @@ msgstr ""
 #: fontmanager.sh:49
 #: fontmanager.sh:76
 msgid "Note!"
-msgstr ""
+msgstr "Note!"
 
 #: fontmanager.sh:49
 msgid "Some apps do not use antialiased rendering and will not be affected by this setting."
-msgstr ""
+msgstr "Certaines apps n'utilisent pas l'anticrénelage et ne seront pas affectées par ce paramètre."
 
 #: fontmanager.sh:49
 msgid "Restart X for changes to take effect"
-msgstr ""
+msgstr "Redémarrer X pour appliquer les modifications"
 
 #: fontmanager.sh:54
 msgid "Choose global fontsize"
-msgstr ""
+msgstr "Choisir la taille global de la police"
 
 #: fontmanager.sh:75
 msgid "Font appearance"
-msgstr ""
+msgstr "Apparence de la police"
 
 #: fontmanager.sh:76
 msgid "You can change the way fonts appear on your screen: make them either sharper or smoother."
-msgstr ""
+msgstr "Vous pouvez changer la façon dont les polices sont affichées à l'écran : faire qu'elles soient plus nettes ou plus douces."
 
 #: fontmanager.sh:76
 msgid "For LCD it is recommend to turn everything on. For CRT screens, do the opposite."
-msgstr ""
+msgstr "Pour les LCD, il est recommandé de tout activer. Pour les écrans CRT, faire le contraire."
 
 #: fontmanager.sh:76
 msgid "Restart application for changes to take affect."
-msgstr ""
+msgstr "Redémarrer l'application pour appliquer les modifications."
 
 #: fontmanager.sh:79
 msgid "If checked, fonts will be smoothed with antialiasing."
-msgstr ""
+msgstr "Si coché, les polices seront lissées par l'anticrénelage."
 
 #: fontmanager.sh:80
 msgid "Antialiasing"
