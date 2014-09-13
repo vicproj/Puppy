@@ -1,0 +1,258 @@
+#!/bin/sh
+#(c) Barry Kauler Feb 2012 bkhome.org
+#licence GPL3 refer /usr/share/doc/legal
+#the intention of this script is to manage non-english translations of files.
+#this is to include shell scripts, xml, .desktop and menu files.
+#translation will only be for the current language, and UTF-8 must be enabled.
+#120205 first release, handle gettext'ed scripts.
+#120206 added internationalization management of menu.
+#120206 simplify gui with help buttons.
+#120206 add management of menu categories.
+#120207 write translations to a folder in /root with full path, write.log, generate tarball.
+#120208 support SSS domains. (read comments in /usr/share/sss/menu_strings/menu_strings for more info)
+#120208 sync translated sss-file with master sss-file.
+#120209 desk_strings domain translates target files in-place, so need workaround when edit TRANSLATION variables in desk_strings.*
+#120209 ...ditto for script_strings
+#120210 add handling XML files.
+#120212 some tweaks.
+#120213 rodin.s: xgettext does not work properly on alsaconf script, use ready-made alsaconf.pot (in Woof).
+#120213 added management of binary executables.
+#120214 generate a langpack PET package.
+#120215 added management of initrd files (initrd_strings SSS domain).
+#120217 small message fixes.
+#120217 support poeditor.
+#120218 LANG=${ORIGLANG} prefix needed various places. 120219 a few more.
+#120220 need 'head -n1' ex: /usr/local/petget/ui_Classic has export TEXTDOMAIN in two places.
+#120224 add 'doc_strings' sss domain, for translating entire files (typically documentation files). 120225 improvements.
+#120225 checkbox window to select what documentation files to edit. modify edit-complete message.
+#120228 sync doc_strings sss file.
+#120307 ROX-Filer now translated via /usr/share/doc/nls/ROX-Filer/ROX-Filer.pot
+#120308 ROX-Filer .mo files are not in standard location. workaround when intltool-update fails.
+#120309 binary executables, option to retain po file for later editing (instead of uncompile mo).
+#120313 langpack pet help msg improved.
+#120313 langpack pet: offer to find more po, mo, pot and t12s translations.
+#120316 scoop up more translations. 120317 L18L: add man pages.
+#120216 small mod. to a message.
+#120729 L18L: problem gettext'ing zigbert's apps, which have a lot of scripts, but would like to combine into one .pot file.
+#120731 revert 120729.
+#120731 any script can have a pre-existing .pot file in /usr/share/doc/nls, it will automatically be used instead of generating a .pot file.
+#120731 multiple scripts can have the same TEXTDOMAIN. these scripts can be anywhere. a single .pot will be created/edited.
+#120926 want to accumulate many .desktop files (not just for installed pkgs), in /usr/share/applications.in.
+#121124 edit script_strings.*, 'read -r' so backslash chars are not escapes.
+#130502 L18L/BK: stay in a loop if there is an error converting .po to .mo.
+#130503 test if .po file changed.
+#130503 L18L: rename AppInfo.xml to AppInfo.xml.in for langpack
+#130505 L18L: quick version: caching variables in CACHE/... from 2m to 2s
+#130512 acknowledge new translators, deleting /tmp/momanager
+#130519 L18L bug fix: instead of APKGNAME use ASCRIPT, DESKFILE, XMLFILE, ABIN; code for sss and menu categories unchanged
+#130520 L18L bug fix: multiple scripts for 1 TEXTDOMAIN
+#130521 L18L bug fix binaries, update NOCNT,YESCNT
+#130522 L18L bug fix 1 line NOXML_XML and multiple scripts
+#130525 L18L replace intltool-update by msgmerge
+#all following updates by L18L 
+#130602 sort binaries, sort scripts case insensitive by basename
+#130603 preferences, create/modify configuration file /root/.config/momanager
+#130604 search button added, --empty-- fixed
+#130605 check_dates
+#130606 bug fix create_mo, ~/.config/momanager edited
+#130607 changing all 'MoManager-${ORIGLANG12' to 'MoManager-${transLANG' requested by Bert
+#130609 list left and right scripts: Base name:PATH
+#130610 use html, css to highlight pattern in search result; list left and right binary executables: Base name:PATH
+#130610 search output with context
+#130611 configuration simplified
+#130612 fix for desk_strings not showing up in editor reported by AbdelAziz
+#130613 design for small sreens; WINDOW_WIDTH configurable between 726 an 1360 px
+#130620 force console borderless=off because Bert requested search results being closeable
+#130806 sync added
+#131001 transLANG added to output of search (ex: mo files under transLANG=fr not fr_BE)
+#131002 last edited mo file at top of list # Bert's old wish for edit_mo
+#131013 delete harmful pot files
+#131014 WINDOW_WIDTH no more in preferences
+#131015 output directory MOMADIR for MoManager-* files configurable by preferences
+#131026 fit for fatdog64 has gettext in /etc; pupdialog needs declaration as dependency
+#131028 added animation for translation of Comment in /usr/share/applications/*.desktop 
+#131029 support for language=Glade added (-j join existing)
+#131104 insert 'export TEXTDOMAIN=' into *.sh.xml.sh (temporary copy of *.sh.xml)
+#131110 acknowledge Bert's MM-standalone.pet instead of devx
+#131206 make it fatdog compatible, LANGPACK=langpack | langpack_fatdog
+#131212 support t12s method
+#131219 enable quirky6.0: no check on pupmode
+#140101 bugfix thanks zephyr2
+#140103 window_width changed, no test on existance of intltool-update, gettext alternative for devx
+#140104 LANGPACK=langpack | langpack_fatdog | langpack_quirky
+#140223 LANGPACK=langpack | langpack_fatdog only; bug fix for "up-to-date" or "check-needed"
+#140227 running  faster
+#140228 code cleaning, find fuzzy
+#140303 fuzzy bug fix
+#140307 find all-fuzzies at start, new sort of scripts that have a mo file, refresh button
+#140308 update list of fuzzies for YESMO
+#140309 update list of fuzzies for NOMO
+#140326 pre-caution: if create_pet then clear cache
+#140912 mobuilder: create langpacks from repository
+
+#***MOMANAGER IS ENGLISH ONLY (NOT GETTEXT'ED)***
+#it is for use by developers/translators with knowledge of english.
+
+#131206 some texts
+LANGPACK='langpack' #131206
+PUPPY='Puppy'
+TRANSLATE='fully translate Puppy'
+isFATDOG= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Fatdog" ] && isFATDOG=true
+isQUIRKY= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Quirky" ] && isQUIRKY=true #140104
+
+[ "$isQUIRKY" = "true" ] && isQUIRKY=  #140223 no specials for Quirky
+
+if [ "$isFATDOG" ]; then
+ LANGPACK='langpackFatdog'
+ PUPPY='Fatdog'
+ TRANSLATE='add translations for Fatdog'
+fi
+#131206
+if [ "$isQUIRKY" ]; then
+ LANGPACK='langpackQuirky'
+ PUPPY='Quirky'
+ TRANSLATE='add translations for Quirky'
+fi
+#140104
+
+CONFIG=/root/.config/mobuilder
+[ ! -f $CONFIG ] && echo "### edit between = and #   
+REPODIR=../langpack
+OUTDIR=out
+DEBUG=n
+" > $CONFIG
+. $CONFIG
+
+ORIGLANG=$LANG
+export LANG=C
+. /etc/rc.d/PUPSTATE
+
+PROGNAME="`basename $0`"
+
+GTKDIALOGEXE="gtkdialog"
+[ "`which gtkdialog4`" ] && GTKDIALOGEXE="gtkdialog4"
+ADATE="`date +%Y%m%d`" #ex: 20120205
+WINICON="gtk-preferences"; HELPICON="gtk-index" #gtk-info
+
+MISSINGFILE=""
+[ "`which xgettext`" = "" ] && MISSINGFILE="${MISSINGFILE}xgettext "
+[ "`which msginit`" = "" ] && MISSINGFILE="${MISSINGFILE}msginit "
+[ "`which msgfmt`" = "" ] && MISSINGFILE="${MISSINGFILE}msgfmt "
+[ "`which msgunfmt`" = "" ] && MISSINGFILE="${MISSINGFILE}msgunfmt "
+if [ "`which pupdialog`" ];then #131026
+ :
+else
+  Xdialog --title "$PROGNAME: Abort" --infobox "pupdialog has not been found here" 0 0 10000 #131026
+  exit #131026
+fi #131026
+if [ "$MISSINGFILE" ];then
+ pupdialog --title "$PROGNAME: abort" --background pink --colors --msgbox "Sorry, these needed applications are missing: \Zb${MISSINGFILE}\ZB. The \Zbdevx\ZB SFS normally has these, but it must be incomplete. Or use Bert's i18n-tools or install package gettext. Aborting." 0 0 #140103 gettext package will also do it
+ exit 1
+fi
+
+# Function : debug information in console
+# Parameters :
+#  $1 : information to display
+debug() {
+  if [ debug = 'y' ];then
+    echo $1
+  fi
+}
+
+# Function : generate langpacks
+# No additional parameter
+create_langpacks() {
+
+  for GENLANG in "`find $REPODIR/* -maxdepth 0 -type d -not -path '%/\.*' -exec basename {} \;`"
+  do
+    # Display information
+    debug "- Generate $GENLANG langpack in $LANGDIR"
+    yaf-splash -bg orange -text "Please wait, generate $GENLANG langpack..." &
+    yPID=$!
+
+    # Cleanup working directory
+    rm -R "$OUTDIR"
+    
+    # Copy full language repository to working directory
+    debug "- Copy language repository to working directory"
+    LANGDIR="$OUTDIR/${LANGPACK}_${GENLANG}-${ADATE}"
+    mkdir -p "$LANGDIR"
+    cp -f -R "$REPODIR/$GENLANG"/* "$LANGDIR"
+ 
+    # Convert po files to mo files 
+    debug "-- Convert po files to mo files"
+    find $LANGDIR -name '*.po' -type f |
+    while read ALINE
+    do
+      debug "--- $ALINE"
+	  ATEXTDOMAIN="`basename "$ALINE" .po`"
+	  WD="`dirname "$ALINE"`"
+
+	  LANG=${ORIGLANG} msgfmt --check --output-file=$WD/${ATEXTDOMAIN}.mo $WD/${ATEXTDOMAIN}.po &>> log.txt
+	  rm $WD/${ATEXTDOMAIN}.po 
+    done
+
+    # Generate specifications info
+    #TEXT="${GENLANG} language-pack for Puppy Linux, for any Puppy built from Woof later than Feb. 28, 2012" #140104
+    #[ "$isFATDOG" ] && TEXT="${GENLANG} language-pack for Fatdog, additional to basic Puppy language-pack from Woof later than Feb. 28, 2012" #140104
+    #[ "$isQUIRKY" ] && TEXT="${GENLANG} language-pack for Quirky, additional to basic Puppy language-pack from Woof later than Feb. 28, 2012" #140104
+    TEXT="`cat $LANGDIR/pet.specs`"
+    echo "${LANGPACK}_${GENLANG}-${ADATE}|${LANGPACK}_${GENLANG}|${ADATE}||Setup|1104K||${LANGPACK}_${GENLANG}-${ADATE}.pet||$TEXT||||" > $LANGDIR/pet.specs
+  
+	# Generate langpacks in working directory
+    debug "-- langpacks generated in $LANGDIR"
+    sync
+    CURDIR="`pwd`"
+    cd "$OUTDIR"
+    dir2tgz "${LANGPACK}_${GENLANG}-${ADATE}" 1>/dev/null
+    tgz2pet "${LANGPACK}_${GENLANG}-${ADATE}.tar.gz" 1>/dev/null
+    dir2sfs "${LANGPACK}_${GENLANG}-${ADATE}" 1>/dev/null
+    sync
+    echo $CURDIR
+    cd $CURDIR
+    kill $yPID &>/dev/null
+  done
+
+  pupdialog --background '#8080FF' --backtitle "Langpacks created" --msgbox "Langpack generated in '$OUTDIR' directory..." 0 0
+}
+
+# Display main menu
+
+MOBUILDER_DLG="<window title=\"$PROGNAME : ${PUPPY} files\" resizable=\"false\" icon-name=\"${WINICON}\">
+ <vbox>
+  <frame>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>\"Repository directory : $REPODIR\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"0\"><label>\"Output directory : $OUTDIR\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>\"\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>Settings are stored in '$CONFIG' file.</label></text>
+   </hbox>
+  </frame>
+  <hbox>
+   <button><label>Cancel</label><action>EXIT:cancel</action></button>
+   <button><label>Build</label><action>EXIT:build</action></button>
+  </hbox>
+ </vbox>
+</window>
+"
+export MOBUILDER_DLG
+
+MOBUILDER_RET="`$GTKDIALOGEXE --program=MOBUILDER_DLG`"
+eval "$MOBUILDER_RET"
+case $EXIT in
+
+build)
+  create_langpacks
+  ;;
+
+esac
+
+exit 0
+
+###END###
