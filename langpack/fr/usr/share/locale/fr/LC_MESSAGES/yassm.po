@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: samba-automount VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:52+0200\n"
-"PO-Revision-Date: 2013-02-19 12:00+0100\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-16 20:29+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,7 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: samba-automount.sh:18 samba-search.sh:66
+#: samba-automount.sh:18
+#: samba-search.sh:66
 msgid "No network detected!"
 msgstr "Aucun réseau détecté"
 
@@ -20,11 +21,15 @@ msgstr "Aucun réseau détecté"
 msgid "Share mounting completed"
 msgstr "Montages partagés terminés"
 
-#: samba-login.sh:26 samba-login.sh:39 samba-search.sh:121
+#: samba-login.sh:26
+#: samba-login.sh:39
+#: samba-search.sh:121
 msgid "Select"
 msgstr "Sélectionner"
 
-#: samba-login.sh:27 samba-login.sh:110 samba-login.sh:133
+#: samba-login.sh:27
+#: samba-login.sh:110
+#: samba-login.sh:133
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -41,9 +46,8 @@ msgid "Share       "
 msgstr "Partager"
 
 #: samba-login.sh:88
-#, fuzzy
 msgid "Server      "
-msgstr "Partager"
+msgstr "Serveur"
 
 #: samba-login.sh:95
 msgid "Options    "
@@ -53,37 +57,49 @@ msgstr "Options    "
 msgid "Set       "
 msgstr "Définir       "
 
-#: samba-login.sh:106 samba-login.sh:135 samba-search.sh:129
+#: samba-login.sh:106
+#: samba-login.sh:135
+#: samba-search.sh:129
 msgid "Help"
 msgstr "Aide"
 
-#: samba-login.sh:107 samba-login.sh:137 samba-search.sh:114
+#: samba-login.sh:107
+#: samba-login.sh:137
+#: samba-search.sh:114
 #: samba-select.sh:107
 msgid "Shares"
 msgstr "Partages"
 
-#: samba-login.sh:108 samba-login.sh:155 samba-search.sh:140
+#: samba-login.sh:108
+#: samba-login.sh:155
+#: samba-search.sh:140
 #: samba-select.sh:122
 msgid "Unmount"
 msgstr "Démonter"
 
-#: samba-login.sh:109 samba-select.sh:124
+#: samba-login.sh:109
+#: samba-select.sh:124
 msgid "Mount"
 msgstr "Monter"
 
-#: samba-login.sh:160 samba-search.sh:19 samba-select.sh:20
+#: samba-login.sh:160
+#: samba-search.sh:19
+#: samba-select.sh:20
 msgid "All shares unmounted"
 msgstr "Tous les partages sont démontés"
 
-#: samba-login.sh:168 samba-select.sh:40
+#: samba-login.sh:168
+#: samba-select.sh:40
 msgid "No share selected!"
 msgstr "Aucun partage sélectionné"
 
-#: samba-login.sh:173 samba-select.sh:45
+#: samba-login.sh:173
+#: samba-select.sh:45
 msgid "No server selected!"
 msgstr "Aucun serveur sélectionné"
 
-#: samba-login.sh:213 samba-select.sh:84
+#: samba-login.sh:213
+#: samba-select.sh:84
 msgid "No connection to"
 msgstr "Aucune connexion vers"
 
@@ -91,19 +107,23 @@ msgstr "Aucune connexion vers"
 msgid "Scanning for shares ..."
 msgstr "Recherche des partages ..."
 
-#: samba-search.sh:124 samba-select.sh:125
+#: samba-search.sh:124
+#: samba-select.sh:125
 msgid "Quit"
 msgstr "Quitter"
 
-#: samba-search.sh:134 samba-search.sh:160
+#: samba-search.sh:134
+#: samba-search.sh:160
 msgid "Wake"
 msgstr "Réveiller"
 
-#: samba-search.sh:137 samba-search.sh:158
+#: samba-search.sh:137
+#: samba-search.sh:158
 msgid "Rescan"
 msgstr "Nouvelle recherche"
 
-#: samba-search.sh:144 samba-select.sh:123
+#: samba-search.sh:144
+#: samba-select.sh:123
 msgid "Show"
 msgstr "Afficher"
 
@@ -111,10 +131,12 @@ msgstr "Afficher"
 msgid "Waking the network ..."
 msgstr "Réveil du réseau"
 
-#: samba-select.sh:121 samba-select.sh:137
+#: samba-select.sh:121
+#: samba-select.sh:137
 msgid "Edit"
 msgstr "Modifier"
 
 #: server2ip-func.sh:12
 msgid "Searching ..."
 msgstr "Recherche en cours ..."
+

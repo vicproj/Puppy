@@ -3,14 +3,15 @@ msgstr ""
 "Project-Id-Version: glipper_shell VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:44+0200\n"
-"PO-Revision-Date: 2013-02-13 09:32+0100\n"
-"Last-Translator: Esmourguit <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-16 20:28+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: glipper_shell.sh:9
 msgid "Glipper clipboard manager"
@@ -26,7 +27,7 @@ msgstr "Désactiver Glipper"
 
 #: glipper_shell.sh:9
 msgid "Glipper is a great little taskbar applet for managing the clipboard."
-msgstr "Voici un très bel utilitaire pour gérer le presse-papiers."
+msgstr "Glipper est un très bel utilitaire pour gérer le presse-papiers."
 
 #: glipper_shell.sh:11
 msgid ""
@@ -43,3 +44,4 @@ msgid ""
 msgstr ""
 "Si glipper est déjà actif, cliquez sur 'Désactiver', il sera\n"
 "aussitôt arrété et ne sera plus lancé automatiquement."
+

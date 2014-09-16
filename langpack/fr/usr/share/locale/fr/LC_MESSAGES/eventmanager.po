@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: eventmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-08 19:02+0100\n"
+"PO-Revision-Date: 2014-09-16 20:28+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: eventmanager.sh:64
 #: eventmanager.sh:201
@@ -121,7 +121,7 @@ msgstr "minutes"
 
 #: eventmanager.sh:133
 msgid "Ask at shutdown whether to save session or not."
-msgstr ""
+msgstr "Demander à l'arrêt s'il faut sauvegarder la session ou pas."
 
 #: eventmanager.sh:136
 msgid "(if unticked, session will be saved automatically)"
@@ -170,11 +170,11 @@ msgstr "Emplacement:"
 
 #: eventmanager.sh:207
 msgid "Start gap: "
-msgstr ""
+msgstr "Ecart (début):"
 
 #: eventmanager.sh:214
 msgid "Edge gap: "
-msgstr ""
+msgstr "Ecart (bord):"
 
 #: eventmanager.sh:221
 msgid "Spacing: "

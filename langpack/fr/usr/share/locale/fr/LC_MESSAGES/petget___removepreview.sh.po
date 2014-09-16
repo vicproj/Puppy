@@ -4,23 +4,24 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
 "PO-Revision-Date: \n"
-"Last-Translator: JJ Moulinier\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: removepreview.sh:34 removepreview.sh:51 removepreview.sh:379
 msgid "Puppy Package Manager"
-msgstr ""
+msgstr "Gestionnaire de paquet Puppy/Toutou"
 
 #: removepreview.sh:37
 msgid "There are no user-installed packages yet, so nothing to uninstall!"
 msgstr ""
+"Il n'y pas encore de paquets installés par l'utilisateur, donc il n'y a rien "
+"à désinstaller!"
 
 #: removepreview.sh:54
 msgid "Click 'OK' button to confirm that you wish to uninstall package"
@@ -41,11 +42,11 @@ msgstr "Il a été trouvé plus de 5 paquets commençant par"
 
 #: removepreview.sh:128
 msgid "The first 5 are"
-msgstr "Les 5 sont les suivants"
+msgstr "Les 5 premiers sont"
 
 #: removepreview.sh:131
 msgid "WARNING:"
-msgstr "ATTENTION"
+msgstr "AVERTISSEMENT:"
 
 #: removepreview.sh:132
 msgid "No file named"

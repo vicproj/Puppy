@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: grub4dosconfig VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-06-15 07:10+0900\n"
-"PO-Revision-Date: 2014-09-12 18:33+0100\n"
+"PO-Revision-Date: 2014-09-16 20:32+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: \n"
@@ -167,9 +167,8 @@ msgid "Edit 'menu.lst'"
 msgstr "Modifier 'menu.lst"
 
 #: grub4dosconfig:111
-#, fuzzy
 msgid "Edit 'Advanced menu'"
-msgstr "Modifier 'menu.lst"
+msgstr "Modifier 'Menu avancé'"
 
 #: grub4dosconfig:112
 msgid "Grub not found. Grub(other than Grub4Dos) which supports ext4 is required if the 1st partition of the target drive is ext4 file system."
@@ -271,13 +270,12 @@ msgid "Only if you want to keep the existing menu.lst and you can handle it manu
 msgstr "Seulement si vous voulez conserver le menu.lst existant et le gérer à la main."
 
 #: grub4dosconfig:138
-#, fuzzy
 msgid "Legacy compatible 'menu.lst'"
-msgstr "Ne pas écraser 'menu.lst'"
+msgstr "'menu.lst' compatible legacy"
 
 #: grub4dosconfig:139
 msgid "Only if you still use legacy grub. You also need to tick on 'Do not rewrite the existing boot record'. The 'menu.lst' is made with legacy grub compatible commands."
-msgstr ""
+msgstr "Seulement si vous utilisez toujours grub legacy. Vous devez aussi cocher 'Ne pas écraser un enregistrement d'amorçage existant'. 'menu.lst' est créé avec les commandes compatibles avec grub legacy."
 
 #: grub4dosconfig:140
 msgid "A 'menu.lst' found at irregular place"
@@ -324,9 +322,8 @@ msgid "Device"
 msgstr "Appareil"
 
 #: grub4dosconfig:151
-#, fuzzy
 msgid "Information"
-msgstr "Confirmation"
+msgstr "Information"
 
 #: grub4dosconfig:458
 msgid "Proceed anyway"

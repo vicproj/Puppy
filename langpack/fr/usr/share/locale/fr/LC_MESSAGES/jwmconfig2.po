@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: changeKey VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:45+0200\n"
-"PO-Revision-Date: 2014-09-12 18:43+0100\n"
+"PO-Revision-Date: 2014-09-16 20:26+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: changeKey.sh:98
 msgid "Shortcut Details"
@@ -245,7 +246,7 @@ msgstr "Editer la barre de boutons existante"
 
 #: panel-buttons.sh:97
 msgid "<b>Selecting</b> an item in the list <b>deletes</b> that item"
-msgstr ""
+msgstr "<b>Choisir</b> un article dans la liste <b>supprime</b> cet article"
 
 #: panel-buttons.sh:98
 msgid "Be sure you want to delete the item when selecting"
@@ -270,7 +271,7 @@ msgstr ""
 
 #: panel-buttons.sh:111
 msgid "Write your Popup text here"
-msgstr ""
+msgstr "Ecrire votre texte Popup ici"
 
 #: panel-buttons.sh:117
 #, fuzzy
@@ -279,7 +280,7 @@ msgstr "Nom de l'icône"
 
 #: panel-buttons.sh:119
 msgid "Drag or type the path of an icon here or use the file select button"
-msgstr ""
+msgstr "Glisser ou saisir le chemin d'une icône ici ou utiliser le bouton de sélection de fichiers"
 
 #: panel-buttons.sh:129
 msgid "Exec"

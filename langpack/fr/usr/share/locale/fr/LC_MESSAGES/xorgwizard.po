@@ -976,7 +976,7 @@ msgstr "Changer_de_souris"
 
 #: xorgwizard-cli.sh:96
 msgid "Fallback"
-msgstr ""
+msgstr "Solution de repli"
 
 #: xorgwizard-cli.sh:96
 #: xorgwizard-cli.sh:117
@@ -1042,7 +1042,7 @@ msgstr ""
 
 #: xorgwizard-cli.sh:122
 msgid "CTRL-ALT-BACKSPACE:"
-msgstr ""
+msgstr "CTRL-ALT-RETOUR-ARRIERE:"
 
 #: xorgwizard-cli.sh:123
 msgid "This is the standard emergency key combination to terminate Xorg and drop back to the text-mode console. Hold down CTRL and ALT keys then tap the BACKSPACE key. Remember this key combination!"
@@ -1050,7 +1050,7 @@ msgstr ""
 
 #: xorgwizard-cli.sh:125
 msgid "Fallback:"
-msgstr ""
+msgstr "Solution de repli:"
 
 #: xorgwizard-cli.sh:126
 msgid "The Xorg configuration file is /etc/X11/xorg.conf. Choosing this option will offer a choice of all /etc/X11/xorg.conf* files, so if you have previously created one that you know works, you may choose it. Or, you may choose to abort entirely and create a new xorg.conf."
@@ -1258,7 +1258,7 @@ msgstr ""
 
 #: xorgwizard-cli.sh:596
 msgid "Please use UP/DOWN arrow keys to choose a Xorg driver, then press ENTER key..."
-msgstr ""
+msgstr "Veuillez utiliser les flêches HAUT/BAS pour choisir un pilote Xorg, puis appuyer sur la touche ENTREE..."
 
 #: xorgwizard-cli.sh:597
 #, fuzzy
@@ -1272,7 +1272,7 @@ msgstr "Ou, TAB puis ENTREE pour choisir un autre pilote..."
 
 #: xorgwizard-cli.sh:610
 msgid "The Xorg Wizard has probed the computer and determined that any of these drivers may be suitable. Choose that which seems most appropriate. If a driver does not work, at worst even hangs the PC, you will be able to re-run the Wizard and choose another driver."
-msgstr ""
+msgstr "L'assistant Xorg a sondé cet ordinateur et déterminé que tous ces pilotes étaient exploitables. Choisir celui qui semble le plus approprié. Si un pilote ne fonctionne pas, au pire il plantera le PC, vous pourrez de nouveau redémarrer l'assistant et choisir un autre pilote."
 
 #: xorgwizard-cli.sh:614
 msgid "Generic"
@@ -1280,7 +1280,7 @@ msgstr "Générique"
 
 #: xorgwizard-cli.sh:615
 msgid "Fallbacks are the generic unaccelerated drivers 'vesa' and 'modesetting', that should work for all video hardware. They have limitations, such as slowness and no full-screen video. The 'vesa' driver can only use a VESA standard resolution (which may not match your wide-screen monitor), however the 'modesetting' driver can be set to the native resolution of the monitor."
-msgstr ""
+msgstr "Les solutions de replis sont pilotes non accélérés génériques 'vesa' and 'modesetting' qui devraient fonctionner avec tous les matériels. Ils ont des limitations, telles que lenteurs ou pas d'affichage plein écran. Le driver 'vesa' ne peut utiliser seulement qu'une résolution standard VESA (qui peut ne pas correspondre à votre moniteur) cependant le pilote 'modesetting' peut être utiliser avec la résolution native du moniteur."
 
 #: xorgwizard-cli.sh:644
 msgid "Let Xorg guess it"
@@ -1288,11 +1288,11 @@ msgstr "Laisser Xorg le deviner"
 
 #: xorgwizard-cli.sh:645
 msgid "Screen resolutions are listed below, in the format horizontal x vertical pixels. One of these will be best suited to your monitor. If the Wizard offers a 'recommended' resolution, choose that."
-msgstr ""
+msgstr "Les résolutions écrans listées ci-dessous au format horizontal x vertical en pixels. Une de celles-ci conviendra pour votre moniteur. Si l'assistant vous propose une résolution 'recommandée', la choisir."
 
 #: xorgwizard-cli.sh:646
 msgid "This option means leave it up to Xorg to try and guess the most appropriate resolution -- this usually works well."
-msgstr ""
+msgstr "Cette option signifie la sortie de Xorg pour essayer de deviner la résolution la plus appropriée -- cela fonctionne généralement bien."
 
 #: xorgwizard-cli.sh:648
 #: xorgwizard-cli.sh:662
@@ -1335,7 +1335,7 @@ msgstr "Très pauvre, non utilisable"
 
 #: xorgwizard-cli.sh:664
 msgid "Minimum usable by Puppy"
-msgstr ""
+msgstr "Minimum utilisable par Puppy/Toutou"
 
 #: xorgwizard-cli.sh:664
 msgid "Good, works with most monitors"

@@ -46,16 +46,16 @@ msgstr "/_Fichier"
 #: src/main.cpp:520
 #: src/main.cpp:527
 msgid "/File/_Configure"
-msgstr "/_Fichier/Configurer"
+msgstr "/Fichier/_Configurer"
 
 #: src/main.cpp:521
 #: src/main.cpp:529
 msgid "/File/_Quit"
-msgstr "/_Fichier/Quitter"
+msgstr "/Fichier/_Quitter"
 
 #: src/main.cpp:528
 msgid "/File/_Exit completely"
-msgstr "/Fichier/Quitter complètement"
+msgstr "/Fichier/Quitter complèt_ement"
 
 #: src/main.cpp:723
 #, c-format
@@ -140,12 +140,16 @@ msgid ""
 "\n"
 "# Set this to 0-2 to define a linear, logarithmic, or exponential volume scale, respectively\n"
 msgstr ""
+"\n"
+"# Positionner ceci à 0-2 pour définir une échelle de volume linéaire, logarithmique, ou exponentielle\n"
 
 #: src/config_settings.cpp:351
 msgid ""
 "\n"
 "# Set this to 1 to make the volume automatically mute when set to 0%, or 0 to keep it unmuted at 0%\n"
 msgstr ""
+"\n"
+"# Positionner ceci à 1 permettra de désactiver automatiquement le son si positionné à 0%, ou 0 pour le laisser activer à 0%\n"
 
 #: src/config_settings.cpp:355
 msgid ""
@@ -293,11 +297,11 @@ msgstr "Général"
 
 #: src/config_window.cpp:517
 msgid "Volume Scaling"
-msgstr ""
+msgstr "Echelle de volume"
 
 #: src/config_window.cpp:518
 msgid "Auto Mute"
-msgstr ""
+msgstr "Muet automatiquement"
 
 #: src/config_window.cpp:519
 msgid "Slider Orientation"

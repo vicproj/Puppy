@@ -3,30 +3,30 @@ msgstr ""
 "Project-Id-Version: pkg_chooser.sh VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2012-02-18 08:35+0000\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-16 18:44+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: pkg_chooser.sh:226
 msgid "GUI apps only"
-msgstr ""
+msgstr "Apps graphiques uniquement"
 
 #: pkg_chooser.sh:227
 msgid "Any type"
-msgstr ""
+msgstr "Tout type"
 
 #: pkg_chooser.sh:228
 msgid "GUI, not"
-msgstr ""
+msgstr "Graphiques, non"
 
 #: pkg_chooser.sh:229
 msgid "Any non-GUI type"
-msgstr ""
+msgstr "Tout sauf de type graphique"
 
 #: pkg_chooser.sh:243 pkg_chooser.sh:247 pkg_chooser.sh:252 ui_Ziggy.sh:19
 #: ui_Ziggy.sh:54
@@ -39,132 +39,132 @@ msgstr ""
 
 #: ui_Classic.sh:33 ui_Ziggy.sh:66
 msgid "Puppy Package Manager"
-msgstr ""
+msgstr "Gestionnaire de paquets Puppy/Toutou"
 
 #: ui_Classic.sh:37
 msgid "Repo:"
-msgstr ""
+msgstr "Dépôt:"
 
 #: ui_Classic.sh:49 ui_Ziggy.sh:40 ui_Ziggy.sh:170
 msgid "Desktop"
-msgstr ""
+msgstr "Bureau"
 
 #: ui_Classic.sh:50 ui_Ziggy.sh:41 ui_Ziggy.sh:171
 msgid "System"
-msgstr ""
+msgstr "Système"
 
 #: ui_Classic.sh:51 ui_Ziggy.sh:42 ui_Ziggy.sh:172
 msgid "Setup"
-msgstr ""
+msgstr "Configuration"
 
 #: ui_Classic.sh:52 ui_Ziggy.sh:43 ui_Ziggy.sh:173
 msgid "Utility"
-msgstr ""
+msgstr "Utilitaire"
 
 #: ui_Classic.sh:53 ui_Ziggy.sh:44 ui_Ziggy.sh:174
 msgid "Filesystem"
-msgstr ""
+msgstr "Système de fichiers"
 
 #: ui_Classic.sh:54 ui_Ziggy.sh:45 ui_Ziggy.sh:175
 msgid "Graphic"
-msgstr ""
+msgstr "Graphique"
 
 #: ui_Classic.sh:55 ui_Ziggy.sh:46 ui_Ziggy.sh:176
 msgid "Document"
-msgstr ""
+msgstr "Document"
 
 #: ui_Classic.sh:56 ui_Ziggy.sh:47 ui_Ziggy.sh:177
 msgid "Business"
-msgstr ""
+msgstr "Travail"
 
 #: ui_Classic.sh:57 ui_Ziggy.sh:48 ui_Ziggy.sh:178
 msgid "Personal"
-msgstr ""
+msgstr "Personnel"
 
 #: ui_Classic.sh:58 ui_Ziggy.sh:49 ui_Ziggy.sh:179
 msgid "Network"
-msgstr ""
+msgstr "Réseau"
 
 #: ui_Classic.sh:59 ui_Ziggy.sh:50 ui_Ziggy.sh:180
 msgid "Internet"
-msgstr ""
+msgstr "Internet"
 
 #: ui_Classic.sh:60 ui_Ziggy.sh:51 ui_Ziggy.sh:181
 msgid "Multimedia"
-msgstr ""
+msgstr "Multimédia"
 
 #: ui_Classic.sh:61 ui_Ziggy.sh:52 ui_Ziggy.sh:182
 msgid "Fun"
-msgstr ""
+msgstr "Amusement"
 
 #: ui_Classic.sh:68 ui_Classic.sh:142 ui_Ziggy.sh:191
 msgid "Package|Description"
-msgstr ""
+msgstr "Paquet|Description"
 
 #: ui_Classic.sh:85
 msgid "Show:"
-msgstr ""
+msgstr "Afficher:"
 
 #: ui_Classic.sh:111
 msgid "Help:"
-msgstr ""
+msgstr "Aide:"
 
 #: ui_Classic.sh:116 ui_Ziggy.sh:153
 msgid "Find:"
-msgstr ""
+msgstr "Trouver:"
 
 #: ui_Classic.sh:121 ui_Ziggy.sh:158
 msgid "Go"
-msgstr ""
+msgstr "Aller"
 
 #: ui_Classic.sh:129 ui_Ziggy.sh:75
 msgid "Configure package manager"
-msgstr ""
+msgstr "Configurer le gestionnaire de paquets"
 
 #: ui_Classic.sh:136
 msgid "Exit package manager"
-msgstr ""
+msgstr "Quitter le gestionnaire de paquets"
 
 #: ui_Classic.sh:140
 msgid "Installed packages"
-msgstr ""
+msgstr "Paquets installés"
 
 #: ui_Ziggy.sh:70
 msgid "Uninstall packages"
-msgstr ""
+msgstr "Désinstaller des paquets"
 
 #: ui_Ziggy.sh:71
 msgid "Uninstall"
-msgstr ""
+msgstr "Désinstaller"
 
 #: ui_Ziggy.sh:81
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: ui_Ziggy.sh:85
 msgid "Quit package manager"
-msgstr ""
+msgstr "Quitter le gestionnaire de paquets"
 
 #: ui_Ziggy.sh:91
 msgid "Repositories"
-msgstr ""
+msgstr "Dépôts"
 
 #: ui_Ziggy.sh:99
 msgid "Package types"
-msgstr ""
+msgstr "Types de paquet"
 
 #: ui_Ziggy.sh:168
 msgid "Category"
-msgstr ""
+msgstr "Catégorie"
 
 #: ui_Ziggy.sh:205
 msgid "Uninstall Puppy Package"
-msgstr ""
+msgstr "Désinstaller un paquet Puppy/Toutou"
 
 #: ui_Ziggy.sh:207
 msgid "Click on an item in the list to uninstall package"
-msgstr ""
+msgstr "Cliquer sur un élément dans la liste pour désinstaller le paquet"
 
 #: ui_Ziggy.sh:209
 msgid "Installed Package|Description"
-msgstr ""
+msgstr "Paquet installé|Description"

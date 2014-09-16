@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: xorgwizard-cli VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:58+0200\n"
-"PO-Revision-Date: 2014-09-07 22:58+0200\n"
-"Last-Translator: root <root@localhost>\n"
+"PO-Revision-Date: 2014-09-16 20:30+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -19,394 +19,401 @@ msgstr ""
 
 #: xorgwizard-cli.sh:64
 msgid "Puppy Xorg Video Wizard"
-msgstr ""
+msgstr "Assistant vidéo Xorg Puppy/Toutou"
 
 #: xorgwizard-cli.sh:92
 msgid "Puppy thinks that you have a serial mouse. However, if your PC has a modern usb or ps/2 mouse, you must choose the <Change mouse> button now."
-msgstr ""
+msgstr "Puppy/Toutou pense que vous avez une souris sur port série. Cependant, si votre PC à une souris récente en USB ou ps/2, vous devez choisir maintenant le bouton <Modifier la souris>."
 
 #: xorgwizard-cli.sh:93
 msgid "Puppy thinks that you have a usb or ps/2 mouse. However, for an old PC that has a serial mouse, you must choose the <Change mouse> button now."
-msgstr ""
+msgstr "Puppy/Toutou pense que vous avez une souris USB ou ps/2. Cependant, pour un PC ancien avec une souris sur port série, vous devez choisir maintenant le bouton <Modifier la souris>."
 
 #: xorgwizard-cli.sh:96
 msgid "TEST X NOW"
-msgstr ""
+msgstr "TESTER X MAINTENANT"
 
 #: xorgwizard-cli.sh:96
 msgid "Change mouse"
-msgstr ""
+msgstr "Modifier la souris"
 
 #: xorgwizard-cli.sh:96
 msgid "Fallback"
-msgstr ""
+msgstr "Solution de repli"
 
-#: xorgwizard-cli.sh:96 xorgwizard-cli.sh:117 xorgwizard-cli.sh:600
+#: xorgwizard-cli.sh:96
+#: xorgwizard-cli.sh:117
+#: xorgwizard-cli.sh:600
 #: xorgwizard-cli.sh:610
 msgid "Help"
-msgstr ""
+msgstr "Aide"
 
 #: xorgwizard-cli.sh:96
 msgid "THE NEXT STEP WILL TEST XORG!"
-msgstr ""
+msgstr "LA PROCHAINE ETAPE TESTERA XORG!"
 
 #: xorgwizard-cli.sh:100
 msgid "After choosing <TEST X NOW> button, if the next screen shows a nice dialog box, then X started okay. If the screen is blank or garbage, then failure (In such a case, just press the ENTER key to terminate the test, preferably within the 60 second test timeout)."
-msgstr ""
+msgstr "After avoir choisi le bouton <TESTER X MAINTENANT>, si le prochain écran montre une jolie boîte de dialogue, alors X est bien démarré. Si l'écran est blanc ou pollué, alors cela a échoué. (Dans ce cas, appuyer juste sur ENTREE pour terminer le test, si possible pendant l'attente de 60s)."
 
 #: xorgwizard-cli.sh:102
 msgid "IMPORTANT: If the ENTER key does not terminate the test, press the combination CTRL-ALT-BACKSPACE"
-msgstr ""
+msgstr "IMPORTANT: Si la touche ENTREE ne termine pas le test, appuyer sur la combinaison CTRL-ALT-RETOUR-ARRIERE"
 
 #: xorgwizard-cli.sh:104
 msgid "EMERGENCY SHUTDOWN: If the test hangs your PC, reboot by pressing the reset button, or hold down the power button for 4 seconds to shutdown."
-msgstr ""
+msgstr "ARRET D'URGENCE: Si le test plante votre PC, redémarrer en pressant le bouton mise à zéro, ou appuyer sur le bouton d'alimentation pendant 4 secondes pour arrêter."
 
 #: xorgwizard-cli.sh:106
 msgid "Press ENTER key now to test X graphics mode (may take a few secs)..."
-msgstr ""
+msgstr "Appuyer sur ENTREE maintenant pour tester le mode graphique X (peut prendre du temps)..."
 
 #: xorgwizard-cli.sh:107
 msgid "TAB then ENTER to use an old working xorg.conf, or create new xorg.conf..."
-msgstr ""
+msgstr "TAB puis ENTER pour utiliser une version fonctionnelle de xorg.conf, ou créer un nouveau xorg.conf..."
 
 #: xorgwizard-cli.sh:108
 msgid "TAB, TAB then ENTER to change the mouse (afterward will return here)..."
-msgstr ""
+msgstr "TAB, TAB puis ENTREE pour modifier la souris (puis retour ici)..."
 
 #: xorgwizard-cli.sh:109
 msgid "Press ESC key to exit Wizard without testing xorg.conf..."
-msgstr ""
+msgstr "Appuyer ESC pour quitter l'assistant sans tester xorg.conf..."
 
 #: xorgwizard-cli.sh:117
 msgid "Xorg is the system required for the PC to go into graphical desktop mode."
-msgstr ""
+msgstr "Xorg est le système requis pour le PC pour accéder à l'interface graphique."
 
 #: xorgwizard-cli.sh:119
 msgid "Mouse:"
-msgstr ""
+msgstr "Souris:"
 
 #: xorgwizard-cli.sh:120
 msgid "Modern PCs have a usb or ps/2 mouse (or touchpad). However, some old PCs have a serial mouse (recognizable by the large rectangular plug), in which case you must choose the <Change mouse> button before continuing with the Wizard."
-msgstr ""
+msgstr "Les PCs récents ont des souris USB ou ps/2 (ou un pavé tactile). Cependant, certains PCs anciens ont une souris sur port série (reconnaissable par la forme large et rectangulaire du connecteur), dans ce cas choisir le bouton <Modifier la souris> avant de continuer avec l'assistant."
 
 #: xorgwizard-cli.sh:122
 msgid "CTRL-ALT-BACKSPACE:"
-msgstr ""
+msgstr "CTRL-ALT-RETOUR-ARRIERE:"
 
 #: xorgwizard-cli.sh:123
 msgid "This is the standard emergency key combination to terminate Xorg and drop back to the text-mode console. Hold down CTRL and ALT keys then tap the BACKSPACE key. Remember this key combination!"
-msgstr ""
+msgstr "Ceci est la combinaison standard d'urgence pour arrêter Xorg et revenir au mode console/texte. Laisser appuyer les touches CTRL et ALT puis appuyer sur la touche RETOUR ARRIERE. Rappelez-vous de cette combinaison de touches!"
 
 #: xorgwizard-cli.sh:125
 msgid "Fallback:"
-msgstr ""
+msgstr "Solution de repli:"
 
 #: xorgwizard-cli.sh:126
 msgid "The Xorg configuration file is /etc/X11/xorg.conf. Choosing this option will offer a choice of all /etc/X11/xorg.conf* files, so if you have previously created one that you know works, you may choose it. Or, you may choose to abort entirely and create a new xorg.conf."
-msgstr ""
+msgstr "Le fichier de configuration Xorg est /etc/X11/xorg.conf. Choisir cette option proposera le choix de tous fichiers /etc/X11/xorg.conf*, donc si vous en avez créé précédemment un que vous connaissez, vous pouvez le choisir. Oui, choisir d'abandonner complètement et de créer un nouveau xorg.conf."
 
 #: xorgwizard-cli.sh:128
 msgid "Press ENTER key to go back to previous window..."
-msgstr ""
+msgstr "Appuyer sur la touche ENTREE pour revenir à l'écran précédent..."
 
-#: xorgwizard-cli.sh:146 xorgwizard-cli.sh:651 xorgwizard-cli.sh:664
+#: xorgwizard-cli.sh:146
+#: xorgwizard-cli.sh:651
+#: xorgwizard-cli.sh:664
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: xorgwizard-cli.sh:146
 msgid "View"
-msgstr ""
+msgstr "Voir"
 
 #: xorgwizard-cli.sh:146
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: xorgwizard-cli.sh:146
 msgid "Press UP/DOWN arrow keys to choose an old xorg.conf, or NONE to probe and create a new xorg.conf."
-msgstr ""
+msgstr "Appuyer sur les touches HAUT/BAS pour choisir un ancien xorg.conf, ou NONE pour sonder et créer un nouveau xorg.conf."
 
 #: xorgwizard-cli.sh:148
 msgid "Note that after highlighting a file, you can select the <View> button to see the content in a text editor, and afterward come back to this window."
-msgstr ""
+msgstr "Noter qu'après avoir surligné un fichier, vous pouvez choisir le bouton <Afficher> pour voir son contenu dans un éditeur de texte, et ensuite revenir à cette fenêtre."
 
 #: xorgwizard-cli.sh:150
 msgid "After choosing file, press ENTER key to choose <OK> button, or"
-msgstr ""
+msgstr "Après sélection du fichier, appuyer sur ENTREE pour choisir le bouton <OK>, ou"
 
 #: xorgwizard-cli.sh:151
 msgid "press TAB then ENTER to view content of selected file, or"
-msgstr ""
+msgstr "appuyer sur TAB puis ENTREE pour voir le contenu du fichier sélectionné, ou"
 
 #: xorgwizard-cli.sh:152
 msgid "TAB, TAB then ENTER keys to abort and go back to previous window..."
-msgstr ""
+msgstr "TAB,TAB puis ENTREE pour anuler et revenir à la configuration précédente..."
 
 #: xorgwizard-cli.sh:190
 msgid "File:"
-msgstr ""
+msgstr "Fichier:"
 
 #: xorgwizard-cli.sh:191
 msgid "Has been copied to:"
-msgstr ""
+msgstr "A été copié dans:"
 
 #: xorgwizard-cli.sh:192
 msgid "Also backed up as:"
-msgstr ""
+msgstr "Aussi archivé comme:"
 
 #: xorgwizard-cli.sh:193
 msgid "Type \"xwin\" (then ENTER key) to start X..."
-msgstr ""
+msgstr "Entrer \"xwin\" (puis la touche ENTREE) pour démarrer X..."
 
 #: xorgwizard-cli.sh:205
 msgid "You have exited from the Xorg Wizard without testing the configuration file /etc/X11/xorg.conf."
-msgstr ""
+msgstr "Vous avez quitté l'assistant Xorg sans tester le fichier de configuration /etc/X11/xorg.conf."
 
 #: xorgwizard-cli.sh:206
 msgid "Type \"xwin\" (then ENTER key) to start X (the graphical desktop) now, or \"xorgwizard\" to re-run the Xorg Wizard."
-msgstr ""
+msgstr "Saisir \"xwin\" (puis la touche ENTREE) pour démarrer X (l'interface graphique du bureau) maintenant, ou \"xorgwizard\" pour relancer cet assistant Xorg."
 
-#: xorgwizard-cli.sh:208 xorgwizard-cli.sh:244
+#: xorgwizard-cli.sh:208
+#: xorgwizard-cli.sh:244
 msgid "Note, type \"xwin jwm\" or \"xwin openbox\" if you have both of these window managers installed and you want to change from the current one. Ditto for any other installed window manager."
-msgstr ""
+msgstr "Noter, saisir  \"xwin jwm\" ou \"xwin openbox\" si vous avez les deux gestionnaires de fenêtre installés et que vous souhaitez basculer de l'un à l'autre. De même pour tous les autres gestionnaires de fenêtre installés."
 
 #: xorgwizard-cli.sh:222
 msgid "FINISHED"
-msgstr ""
+msgstr "TERMINE"
 
 #: xorgwizard-cli.sh:222
 msgid "Tweak"
-msgstr ""
+msgstr "Réglage"
 
 #: xorgwizard-cli.sh:222
 msgid "Report on X test:"
-msgstr ""
+msgstr "Rapport de test X:"
 
 #: xorgwizard-cli.sh:223
 #, sh-format
 msgid "Resolution:           ${XTEST}x${YTEST} pixels"
-msgstr ""
+msgstr "Résolution:           ${XTEST}x${YTEST} pixels"
 
 #: xorgwizard-cli.sh:224
 #, sh-format
 msgid "Horizontal frequency: ${HSTEST} KHz"
-msgstr ""
+msgstr "Fréquence horizontale: ${HSTEST} KHz"
 
 #: xorgwizard-cli.sh:225
 #, sh-format
 msgid "Refresh frequency:    ${VRTEST} Hz"
-msgstr ""
+msgstr "Fréquence de rafraîchissement: ${VRTEST} Hz"
 
 #: xorgwizard-cli.sh:226
 #, sh-format
 msgid "Video driver:         ${CHOSENDRV}"
-msgstr ""
+msgstr "Pilote vidéo:         ${CHOSENDRV}"
 
 #: xorgwizard-cli.sh:228
 msgid "If you are reporting success, great, but if the display was not quite right, say displaced or distorted, you now have the option of tweaking various parameters, even choose a different video driver. Ditto if testing X was an abysmal failure."
-msgstr ""
+msgstr "Si le rapport est concluant, bien, sinon si l'affichage n'est pas correct, indiquant qu'il est déplacé ou tordu, vous avez maintenant les options pour régler divers paramètres, équivalents à choisir un autre pilote vidéo. Pareil si le test de X était un échec."
 
 #: xorgwizard-cli.sh:230
 msgid "Press ENTER key if test was okay..."
-msgstr ""
+msgstr "Appuyer sur la touche ENTREE si le test était correct..."
 
 #: xorgwizard-cli.sh:231
 msgid "TAB then ENTER to abort and go back to main window..."
-msgstr ""
+msgstr "TAB puis ENTREE pour abandonner et revenir à l'écran principal..."
 
 #: xorgwizard-cli.sh:232
 msgid "TAB, TAB then ENTER to tweak parameters & retest X..."
-msgstr ""
+msgstr "TAB, TAB puis ENTREE pour régler les paramètres et retester X..."
 
 #: xorgwizard-cli.sh:240
 msgid "The Puppy Xorg Wizard has been run, presumably successfully."
-msgstr ""
+msgstr "L'assistant Xorg Puppy/Toutou a été démarré, probablement avec succès."
 
 #: xorgwizard-cli.sh:241
 msgid "If so, type \"xwin\" (then ENTER key) to start Xorg and the graphical desktop."
-msgstr ""
+msgstr "Si oui, saisir \"xwin\"  (puis la touche ENTREE) pour démarrer Xorg et l'interface graphique du bureau."
 
 #: xorgwizard-cli.sh:242
 msgid "Otherwise, you may type \"xorgwizard\" to re-run the Wizard..."
-msgstr ""
+msgstr "Sinon, vous devrez saisir  \"xorgwizard\"  pour redémarrer l'assistant..."
 
 #: xorgwizard-cli.sh:251
 msgid "The next step will be to open /etc/X11/xorg.conf in a text editor. Various parameters can be modified, then the file saved, then exit the editor. Please note that this is a text-mode editor that does not work with a mouse."
-msgstr ""
+msgstr "La prochaine étape sera d'ouvrir /etc/X11/xorg.conf dans un éditeur de texte. Divers paramètres peuvent être modifiés, puis le fichier sauvegardé, puis quitter l'éditeur.Veuillez noter que c'est un éditeur de texte qui ne fonctionne pas avec une souris."
 
 #: xorgwizard-cli.sh:253
 msgid "Displaced:"
-msgstr ""
+msgstr "Déplacé:"
 
 #: xorgwizard-cli.sh:254
 msgid "The most common problem is the image displaced/squeezed/distorted. Often this is due to a wrong vertical refresh frequency (number of times per second that the screen gets re-drawn). You may experiment with the 'VertRefresh' range. Note, 60Hz is usually OK for LCD screens. Older CRT screens may flicker at 60Hz, usually need at least 70Hz."
-msgstr ""
+msgstr "Le plus commun des problèmes et une image déplacée/pressée/tordue. Souvent cela est dû à une fréquence de rafraîchissement verticale incorrecte (nombre de fois par secondes que l'écran doit être redessiné). Vous devez tester la gamme de valeurs (VertRefresh). Noter que 60Hz est habituellement BON pour les écrans LCD. Les écrans plus anciens CRT peuvent vaciller à 60Hz, nécessitant habituellement une fréquence proche de 70Hz."
 
 #: xorgwizard-cli.sh:322
 msgid "Probing video hardware, please wait..."
-msgstr ""
+msgstr " "
 
 #: xorgwizard-cli.sh:507
 msgid "driver, needs KMS"
-msgstr ""
+msgstr "pilote, utilise KMS"
 
 #: xorgwizard-cli.sh:508
 msgid "driver, no KMS"
-msgstr ""
+msgstr "pilote, pas de KMS"
 
 #: xorgwizard-cli.sh:509
 msgid "(requires reboot)"
-msgstr ""
+msgstr "(nécessite un redémarrage)"
 
 #: xorgwizard-cli.sh:510
 msgid "Unaccelerated driver"
-msgstr ""
+msgstr "Pilote non accéléré"
 
 #: xorgwizard-cli.sh:522
 msgid "Simple NVIDA driver"
-msgstr ""
+msgstr "Pilote NVIDIA simple"
 
 #: xorgwizard-cli.sh:526
 msgid "NVIDIA proprietary driver"
-msgstr ""
+msgstr "pilote NVIDIA propriétaire"
 
 #: xorgwizard-cli.sh:543
 msgid "Old ATI Radeon driver"
-msgstr ""
+msgstr "Pilote ATI Radeon ancien"
 
 #: xorgwizard-cli.sh:551
 msgid "ATI proprietary driver"
-msgstr ""
+msgstr "Pilote propriétaire ATI"
 
 #: xorgwizard-cli.sh:563
 msgid "Accelerated drivers are designed for specific video hardware. Basically, they are much faster than the unaccelerated drivers. They may also offer additional configuration features."
-msgstr ""
+msgstr "Les pilotes accélérés sont conçus pour un matériel vidéo spécifique. Basiquement, ils sont plus rapides que ceux non accélérés. Cela peut offrir des fonctionnalités de configuration additionnelles."
 
 #: xorgwizard-cli.sh:570
 msgid "This is the simplest accelerated driver. Works without KMS"
-msgstr ""
+msgstr "Ceci est le plus des pilotes accélérés. Fonctionne avec KMS"
 
 #: xorgwizard-cli.sh:571
 msgid "Most sophisticated accelerated driver. Requires KMS"
-msgstr ""
+msgstr "Pilote accéléré le plus sophistiqué. Nécessite KMS"
 
 #: xorgwizard-cli.sh:572
 msgid "If installed, this is the commercial driver. Works without KMS"
-msgstr ""
+msgstr "Si installé, c'est le pilote commercial. Fonctionne sans KMS"
 
 #: xorgwizard-cli.sh:580
 msgid "Intel accelerated driver. Requires KMS"
-msgstr ""
+msgstr "Pilote accéléré Intel. Nécessite KMS"
 
 #: xorgwizard-cli.sh:581
 msgid "If installed, for some older hardware. Works without KMS"
-msgstr ""
+msgstr "Si installé, pour quelques matériels anciens. Fonctionne sans KMS"
 
 #: xorgwizard-cli.sh:589
 msgid "These are accelerated drivers for certain ATI hardware."
-msgstr ""
+msgstr "Ce sont les pilotes accélérés pour certains matériels ATI."
 
 #: xorgwizard-cli.sh:590
 msgid "Accelerated driver for ATI Radeon hardware. Requires KMS"
-msgstr ""
+msgstr "Les pilotes accélérés pour le matériel Radeon. Nécessite KMS"
 
 #: xorgwizard-cli.sh:591
 msgid "If installed, older accelerated driver. Without KMS"
-msgstr ""
+msgstr "Si installé, ancien piloté accéléré. Sans KMS"
 
 #: xorgwizard-cli.sh:592
 msgid "If installed, accelerated commercial driver. Without KMS"
-msgstr ""
+msgstr "Si installé, le pilote accéléré commercial. Sans KMS"
 
 #: xorgwizard-cli.sh:596
 msgid "Please use UP/DOWN arrow keys to choose a Xorg driver, then press ENTER key..."
-msgstr ""
+msgstr "Veuillez utiliser les flêches HAUT/BAS pour choisir le pilote Xorg, puis appuyer sur la touche ENTREE..."
 
 #: xorgwizard-cli.sh:597
 msgid "Or, press TAB (or RIGHT arrow) then ENTER to exit from the Wizard..."
-msgstr ""
+msgstr "Ou, appuyer sur TAB (ou la flêche DROITE) puis ENTREE pour quitter cet assistant..."
 
 #: xorgwizard-cli.sh:598
 msgid "If uncertain, press TAB, TAB then ENTER to choose <Help>..."
-msgstr ""
+msgstr "Si incertain, appuyer sur TAB, TAB puis ENTREE pour choisir <Aide>..."
 
 #: xorgwizard-cli.sh:610
 msgid "The Xorg Wizard has probed the computer and determined that any of these drivers may be suitable. Choose that which seems most appropriate. If a driver does not work, at worst even hangs the PC, you will be able to re-run the Wizard and choose another driver."
-msgstr ""
+msgstr "L'assistant Xorg a sondé l'ordinateur et déterminé que tous ces pilotes étaient utilisables. Choisir celui qui est la plus approprié. Si un pilote ne fonctionne pas, au pire plante le PC, il vous sera demandé de redémarrer l'assistant et de choisir un autre pilote."
 
 #: xorgwizard-cli.sh:614
 msgid "Generic"
-msgstr ""
+msgstr "Générique"
 
 #: xorgwizard-cli.sh:615
 msgid "Fallbacks are the generic unaccelerated drivers 'vesa' and 'modesetting', that should work for all video hardware. They have limitations, such as slowness and no full-screen video. The 'vesa' driver can only use a VESA standard resolution (which may not match your wide-screen monitor), however the 'modesetting' driver can be set to the native resolution of the monitor."
-msgstr ""
+msgstr "Les solutions de replis sont pilotes non accélérés génériques 'vesa' and 'modesetting' qui devraient fonctionner avec tous les matériels. Ils ont des limitations, telles que lenteurs ou pas d'affichage plein écran. Le driver 'vesa' ne peut utiliser seulement qu'une résolution standard VESA (qui peut ne pas correspondre à votre moniteur) cependant le pilote 'modesetting' peut être utiliser avec la résolution native du moniteur."
 
 #: xorgwizard-cli.sh:644
 msgid "Let Xorg guess it"
-msgstr ""
+msgstr "Laisser Xorg le deviner"
 
 #: xorgwizard-cli.sh:645
 msgid "Screen resolutions are listed below, in the format horizontal x vertical pixels. One of these will be best suited to your monitor. If the Wizard offers a 'recommended' resolution, choose that."
-msgstr ""
+msgstr "Les résolutions écrans listées ci-dessous au format horizontal x vertical en pixels. Une de celles-ci conviendra pour votre moniteur. Si l'assistant vous propose une résolution 'recommandée', la choisir."
 
 #: xorgwizard-cli.sh:646
 msgid "This option means leave it up to Xorg to try and guess the most appropriate resolution -- this usually works well."
-msgstr ""
+msgstr "Cette option signifie la sortie de Xorg pour essayer de deviner la résolution la plus appropriée -- cela fonctionne généralement bien."
 
-#: xorgwizard-cli.sh:648 xorgwizard-cli.sh:662
+#: xorgwizard-cli.sh:648
+#: xorgwizard-cli.sh:662
 msgid "Use the UP/DOWN arrow keys to choose a resolution, then press ENTER key..."
-msgstr ""
+msgstr "Utiliser les flêches HAUT/BAS pour choisir la résolution, puis la touche ENTREE..."
 
 #: xorgwizard-cli.sh:649
 msgid "Or, press TAB then ENTER for more resolutions to choose from..."
-msgstr ""
+msgstr "ou, appuyer sur TAB puis ENTREE pour choisir plus de résolutions à partir de..."
 
 #: xorgwizard-cli.sh:651
 msgid "More"
-msgstr ""
+msgstr "Plus"
 
 #: xorgwizard-cli.sh:659
 msgid "Hi-res monitor"
-msgstr ""
+msgstr "Moniteur Haute Rés."
 
 #: xorgwizard-cli.sh:660
 msgid "Very hi-res monitor"
-msgstr ""
+msgstr "Moniteur très haute rés."
 
 #: xorgwizard-cli.sh:661
 msgid "Non-VESA, widescreen"
-msgstr ""
+msgstr "Non-VESA, écran large"
 
 #: xorgwizard-cli.sh:663
 msgid "Or, press TAB then ENTER to go back to previous window..."
-msgstr ""
+msgstr "Ou, appuyer sur TAB puis ENTREE pour revenir à l'écran précédent..."
 
 #: xorgwizard-cli.sh:664
 msgid "Go back"
-msgstr ""
+msgstr "Revenir en arrière"
 
 #: xorgwizard-cli.sh:664
 msgid "Very poor, not usable"
-msgstr ""
+msgstr "Très pauvre, instable"
 
 #: xorgwizard-cli.sh:664
 msgid "Minimum usable by Puppy"
-msgstr ""
+msgstr "Minimum utilisable avec Puppy/Toutou"
 
 #: xorgwizard-cli.sh:664
 msgid "Good, works with most monitors"
-msgstr ""
+msgstr "Bon, fonctionne avec la plupart des moniteurs"
 
 #: xorgwizard-cli.sh:798
 msgid "IMPORTANT: At shutdown you will be asked to create a session save-file, please do so."
-msgstr ""
+msgstr "IMPORTANT: Lors de l'arrêt, on va vous demander de créer un fichier de sauvegarde de session, veuillez le faire."
 
 #: xorgwizard-cli.sh:799
 #, sh-format
 msgid "A reboot is required before the '${CHOSENDRV}' driver can be tested."
-msgstr ""
+msgstr "Un redémarrage est nécessaire avant que le pilote '${CHOSENDRV}' puisse être testé."
 
 #: xorgwizard-cli.sh:801
 msgid "Click <OK> button to reboot..."
-msgstr ""
+msgstr "Cliquer sur le bouton <OK> pour redémarrer..."
+

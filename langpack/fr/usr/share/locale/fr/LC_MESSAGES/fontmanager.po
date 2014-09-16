@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fontmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-12 18:27+0100\n"
+"PO-Revision-Date: 2014-09-16 20:32+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -43,7 +43,7 @@ msgstr "Taille globale de la police"
 
 #: fontmanager.sh:49
 msgid "Please choose dpi (dots per inch) for the screen. The larger the value, the bigger that antialiased fonts will render on the screen. Adjust up or down if fonts are rendering too small or too big on screen."
-msgstr ""
+msgstr "Veuillez choisir le PPP (points par pouce) pour l'écran. Plus la valeur est grande, plus le rendu de l'anticrénelage des polices sera élevé à l'écran. Augmenter le ou diminuer le si les polices sont trop petites ou trop grandes à l'écran."
 
 #: fontmanager.sh:49
 #: fontmanager.sh:76

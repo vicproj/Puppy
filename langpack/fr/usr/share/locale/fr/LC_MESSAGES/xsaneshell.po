@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: xsaneshell VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:42+0200\n"
-"PO-Revision-Date: 2013-02-14 11:31+0100\n"
-"Last-Translator: root <jj@moulinier.net>\n"
+"PO-Revision-Date: 2014-09-16 20:29+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -17,34 +17,24 @@ msgid "Frontend for Xsane"
 msgstr "Interface graphique pour Xsane"
 
 #: xsaneshell.sh:16
-msgid ""
-"<b>When Xsane starts, your scanner (if it is connected and turned on) should "
-"be autodetected.</b>"
-msgstr ""
+msgid "<b>When Xsane starts, your scanner (if it is connected and turned on) should be autodetected.</b>"
+msgstr "<b>Quand Xsane démarre, votre scanner (s'il est connecté et allumé) doit être détecté automatiquement.</b>"
 
 #: xsaneshell.sh:16
-msgid ""
-"However, some entries in the drivers list (/etc/sane.d/dll.conf) are "
-"commented-out. These are:"
+msgid "However, some entries in the drivers list (/etc/sane.d/dll.conf) are commented-out. These are:"
 msgstr ""
 
 #: xsaneshell.sh:16
 #, fuzzy
-msgid ""
-"If your scanner is one of these, then Xsane will not auto-detect it. - in "
-"that case, click 'Quit' button and open 'dll.conf' in a text editor and "
-"uncomment the appropriate entry."
+msgid "If your scanner is one of these, then Xsane will not auto-detect it. - in that case, click 'Quit' button and open 'dll.conf' in a text editor and uncomment the appropriate entry."
 msgstr ""
-"Si votre scanner est parmi ceux-là, Xsane ne le détectera pas "
-"automatiquement.\n"
-"Dans ce cas, cliquez sur le bouton 'QUITTER' et ouvrez 'dll.conf' dans un "
-"éditeur de texte\n"
+"Si votre scanner est parmi ceux-là, Xsane ne le détectera pas automatiquement.\n"
+"Dans ce cas, cliquez sur le bouton 'QUITTER' et ouvrez 'dll.conf' dans un éditeur de texte\n"
 "et décommentez l'entrée appropriée."
 
 #: xsaneshell.sh:20
 msgid ""
-"Xsane may be a bit 'insane' when detecting a SCSI scanner. There are various "
-"things that you may have to do:\n"
+"Xsane may be a bit 'insane' when detecting a SCSI scanner. There are various things that you may have to do:\n"
 "1. Run 'sane-find-scanner' in a terminal window.\n"
 "2. Make sure 'sg' module is loaded.\n"
 "3. Specify the device on the commandline,\n"
@@ -55,21 +45,20 @@ msgstr ""
 
 #: xsaneshell.sh:29
 msgid "About SCSI drives"
-msgstr ""
+msgstr "A propos des disques SCSI"
 
 #: xsaneshell.sh:31
 #, fuzzy
 msgid "To continue and run Xsane, please choose the scanner type."
-msgstr ""
-"Pour continuer et démarrer Xsane, il vous faut répondre à cette question :"
+msgstr "Pour continuer et démarrer Xsane, il vous faut répondre à cette question :"
 
 #: xsaneshell.sh:41
 msgid "Parallel"
-msgstr ""
+msgstr "Parallèle"
 
 #: xsaneshell.sh:54
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #~ msgid "1. Run 'sane-find-scanner' in a terminal window."
 #~ msgstr "1. Lancer 'sane-find-scanner' dans un terminal."

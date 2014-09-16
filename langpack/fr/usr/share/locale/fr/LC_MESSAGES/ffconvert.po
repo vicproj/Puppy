@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: ffconvert VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-10-25 16:29+0900\n"
-"PO-Revision-Date: 2014-09-12 18:16+0100\n"
+"PO-Revision-Date: 2014-09-16 20:28+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: /root/my-applications/bin/ffconvert:28
 msgid "Multimedia converter"
@@ -38,7 +38,7 @@ msgstr "Une erreur s'est produite"
 
 #: /root/my-applications/bin/ffconvert:276
 msgid "Somewhat fault with the ffmpeg. Ensure the ffmpeg is properly installed."
-msgstr ""
+msgstr "Quelque soit l'erreur avec ffmpeg. Assurez-vous que ffmpeg est installé correctement."
 
 #: /root/my-applications/bin/ffconvert:298
 msgid "Custom"
@@ -202,11 +202,11 @@ msgstr "Taille de l'écran"
 
 #: /root/my-applications/bin/ffconvert:610
 msgid "Which scope do you want to capture?"
-msgstr ""
+msgstr "Quel périmètre voulez-vous capturer ?"
 
 #: /root/my-applications/bin/ffconvert:610
 msgid "Capture scope"
-msgstr ""
+msgstr "Périmètre de capture"
 
 #: /root/my-applications/bin/ffconvert:611
 msgid "Capture one window you will choose after."
@@ -227,11 +227,11 @@ msgstr "Plein-écran"
 
 #: /root/my-applications/bin/ffconvert:614
 msgid "Trim"
-msgstr ""
+msgstr "Réduire"
 
 #: /root/my-applications/bin/ffconvert:615
 msgid "Trimming size both top and bottom, in pixel."
-msgstr ""
+msgstr "Réduire la taille à la fois en haut et en bas, en pixel."
 
 #: /root/my-applications/bin/ffconvert:621
 msgid "Duration(min)"
@@ -310,7 +310,7 @@ msgstr "Nom du préréglage"
 
 #: /root/my-applications/bin/ffconvert:710
 msgid "Select at the preset tab and click 'Apply'."
-msgstr ""
+msgstr "Sélectionner l'onglet Prérèglage et cliquer sur 'Appuyer'"
 
 #: /root/my-applications/bin/ffconvert:712
 msgid "Save preset options."
@@ -343,7 +343,7 @@ msgstr "Utilisé uniquement avec libx264"
 
 #: /root/my-applications/bin/ffconvert:741
 msgid "X264 ffpreset"
-msgstr ""
+msgstr "X264 ffpreset"
 
 #: /root/my-applications/bin/ffconvert:745
 msgid "Quality"
@@ -529,7 +529,7 @@ msgstr "Votre FFmpeg ne semble pas supporter le codec :"
 
 #: /root/my-applications/bin/ffconvert:1677
 msgid "But anyway, you can proceed."
-msgstr ""
+msgstr "Mais de toute façon, vous pouvez passer."
 
 #: /root/my-applications/bin/ffconvert:1718
 msgid "Your FFmpeg seems not supporting the format:"
