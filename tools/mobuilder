@@ -204,9 +204,11 @@ create_langpacks() {
     sync
     CURDIR="`pwd`"
     cd "$OUTDIR"
-    dir2tgz "${LANGPACK}_${GENLANG}-${ADATE}" 1>/dev/null
-    tgz2pet "${LANGPACK}_${GENLANG}-${ADATE}.tar.gz" 1>/dev/null
-    dir2sfs "${LANGPACK}_${GENLANG}-${ADATE}" 1>/dev/null
+    OUTFILE="${LANGPACK}_${GENLANG}-${ADATE}"
+    dir2tgz "${OUTFILE}" 1>/dev/null
+    tgz2pet "${OUTFILE}.tar.gz" 1>/dev/null
+    md5sum "${OUTFILE}.pet" > "${OUTFILE}.pet-md5.txt"
+    dir2sfs "${OUTFILE}" 1>/dev/null
     sync
     echo $CURDIR
     cd $CURDIR
