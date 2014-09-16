@@ -1,0 +1,385 @@
+# French translations for home package.
+# Copyright (C) 2008 THE home'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the home package.
+# mico <mico@mico1>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: home 2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-01 10:54+0100\n"
+"PO-Revision-Date: 2008-11-20 09:26+0100\n"
+"Last-Translator: mico <mico@mico1>\n"
+"Language-Team: French\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: picpuz-2.6.cc:128 picpuz-2.6.cc:207 zfuncs.cc:7101
+msgid "open"
+msgstr "Ouvrir"
+
+#: picpuz-2.6.cc:128
+msgid "open new image file"
+msgstr "Ouvrir un nouveau fichier image"
+
+#: picpuz-2.6.cc:129
+msgid "set tile size"
+msgstr "Régler la taille des pièces"
+
+#: picpuz-2.6.cc:129 picpuz-2.6.cc:208
+msgid "tile"
+msgstr "Pièces"
+
+#: picpuz-2.6.cc:130 picpuz-2.6.cc:209
+msgid "mix"
+msgstr "Mél."
+
+#: picpuz-2.6.cc:130
+msgid "randomize tiles"
+msgstr "Mélanger les pièces"
+
+#: picpuz-2.6.cc:131 picpuz-2.6.cc:210
+msgid "show"
+msgstr "Afficher"
+
+#: picpuz-2.6.cc:131
+msgid "show image file"
+msgstr "Voir le modèle"
+
+#: picpuz-2.6.cc:132 picpuz-2.6.cc:389
+msgid "save puzzle to a file"
+msgstr "Sauver le puzzle dans un fichier"
+
+#: picpuz-2.6.cc:132 picpuz-2.6.cc:211
+msgid "toolbar::save"
+msgstr "Sauver"
+
+#: picpuz-2.6.cc:133 picpuz-2.6.cc:212
+msgid "resume"
+msgstr "Repr."
+
+#: picpuz-2.6.cc:133
+msgid "resume saved puzzle"
+msgstr "Reprendre le puzzle sauvé"
+
+#: picpuz-2.6.cc:134 picpuz-2.6.cc:213
+msgid "do 1"
+msgstr "-1"
+
+#: picpuz-2.6.cc:134
+msgid "move one tile home"
+msgstr "Poser une pièce à sa place"
+
+#: picpuz-2.6.cc:135 picpuz-2.6.cc:214
+msgid "do 8"
+msgstr "-8"
+
+#: picpuz-2.6.cc:135
+msgid "move eight tiles home"
+msgstr ""
+
+#: picpuz-2.6.cc:136
+msgid "change tile border line"
+msgstr "Changer la bordure des pièces"
+
+#: picpuz-2.6.cc:136 picpuz-2.6.cc:215
+msgid "line"
+msgstr "ligne"
+
+#: picpuz-2.6.cc:137 picpuz-2.6.cc:216
+msgid "quit"
+msgstr "Quitter"
+
+#: picpuz-2.6.cc:137
+msgid "quit picpuz"
+msgstr "Quitter Picpuz"
+
+#: picpuz-2.6.cc:138 picpuz-2.6.cc:217
+msgid "help"
+msgstr "Aide"
+
+#: picpuz-2.6.cc:138
+msgid "view help document"
+msgstr "Voir le document d'aide"
+
+#: picpuz-2.6.cc:234
+msgid "select image file"
+msgstr "Choisir un fichier image"
+
+#: picpuz-2.6.cc:270 zfuncs.cc:6894 zfuncs.cc:6933 zfuncs.cc:7139
+#: zfuncs.cc:7457 zfuncs.cc:8801 zfuncs.cc:8807 zfuncs.cc:8813 zfuncs.cc:8819
+msgid "cancel"
+msgstr "Annuler"
+
+#: picpuz-2.6.cc:270
+msgid "change tile size"
+msgstr "Changer la taille des pièces"
+
+#: picpuz-2.6.cc:272
+msgid "new tile size (pixels)"
+msgstr "Nouvelle taille des pièces (pixels)"
+
+#: picpuz-2.6.cc:394 picpuz-2.6.cc:435
+#, c-format
+msgid "cannot open: %s"
+msgstr "impossible d'ouvrir: %s"
+
+#: picpuz-2.6.cc:430
+msgid "load puzzle from file"
+msgstr "Charger un puzzle depuis un fichier"
+
+#: picpuz-2.6.cc:477
+msgid "saved puzzle file is not valid"
+msgstr "Mauvais format de fichier"
+
+#: picpuz-2.6.cc:563
+msgid "DISCARD unfinished puzzle?"
+msgstr "Ne PAS garder le puzzle inachevé?"
+
+#: picpuz-2.6.cc:596
+#, c-format
+msgid ""
+"image type not recognized:\n"
+" %s"
+msgstr ""
+"Type d'image non reconnu:\n"
+" %s"
+
+#: picpuz-2.6.cc:605
+msgid "image too small, please select another"
+msgstr "Image trop petite, choisissez en une autre"
+
+#: picpuz-2.6.cc:1046
+#, c-format
+msgid "tiles home: %d/%d"
+msgstr "Pièces en place: %d/%d"
+
+#: picpuz-2.6.cc:1047
+msgid "1st tile selected"
+msgstr "Première pièce sélectionnée"
+
+#: zfuncs.cc:3369
+#, c-format
+msgid "help file not found: %s"
+msgstr "impossible de trouver le fichier d'aide : %s"
+
+#: zfuncs.cc:3482
+#, c-format
+msgid "error: %s"
+msgstr "Erreur : %s"
+
+#: zfuncs.cc:3805 zfuncs.cc:8688
+#, c-format
+msgid "cannot open file %s"
+msgstr "Impossible d'ouvrir le fichier %s"
+
+#: zfuncs.cc:3838
+msgid "save screen to file"
+msgstr "Enregistrer l'écran dans un fichier"
+
+#: zfuncs.cc:6815
+msgid "No"
+msgstr ""
+
+#: zfuncs.cc:6815
+msgid "Yes"
+msgstr ""
+
+#: zfuncs.cc:7106
+msgid "choose"
+msgstr ""
+
+#: zfuncs.cc:7111
+msgid "save"
+msgstr "Enregistrer"
+
+#: zfuncs.cc:7117
+msgid "open folder"
+msgstr "Ouvrir"
+
+#: zfuncs.cc:7122
+msgid "create folder"
+msgstr "Créer un dossier"
+
+#: zfuncs.cc:7128
+msgid "hidden"
+msgstr "Caché"
+
+#: zfuncs.cc:7132
+msgid "quality"
+msgstr "Qualité"
+
+#: zfuncs.cc:7189
+msgid "JPG quality 0-100"
+msgstr "Qualité JPG 0-100"
+
+#: zfuncs.cc:7448
+#, c-format
+msgid "printed image width: %.1f  height: %.1f  cm"
+msgstr ""
+
+#: zfuncs.cc:7457
+msgid "done"
+msgstr "Terminé"
+
+#: zfuncs.cc:7457 zfuncs.cc:7469
+msgid "margins"
+msgstr ""
+
+#: zfuncs.cc:7465
+msgid "top"
+msgstr ""
+
+#: zfuncs.cc:7466
+msgid "bottom"
+msgstr ""
+
+#: zfuncs.cc:7467
+msgid "left"
+msgstr ""
+
+#: zfuncs.cc:7468
+msgid "right"
+msgstr ""
+
+#: zfuncs.cc:7475
+msgid "image scale"
+msgstr ""
+
+#: zfuncs.cc:7477
+msgid "percent"
+msgstr ""
+
+#: zfuncs.cc:8575
+msgid ""
+"Initial parameters file created. \n"
+"Inspect and revise if necessary."
+msgstr ""
+"Le fichier des paramètres initiaux a été crée. \n"
+"Vérifier et corriger si nécessaire."
+
+#: zfuncs.cc:8591
+msgid "load parameters from a file"
+msgstr "Charger les paramètres à partir d'un fichier"
+
+#: zfuncs.cc:8660
+msgid "save parameters to a file"
+msgstr "Enregistrer les paramètres dans un fichier"
+
+#: zfuncs.cc:8799 zfuncs.cc:8805 zfuncs.cc:8811 zfuncs.cc:8817
+msgid "edit parameters"
+msgstr "Éditer les paramètres"
+
+#: zfuncs.cc:8800 zfuncs.cc:8806
+msgid ""
+"list\n"
+"all"
+msgstr ""
+"Lister\n"
+"Tous"
+
+#: zfuncs.cc:8800 zfuncs.cc:8806 zfuncs.cc:8812 zfuncs.cc:8818
+msgid ""
+"load\n"
+"file"
+msgstr ""
+"Charger\n"
+"Fichier"
+
+#: zfuncs.cc:8800 zfuncs.cc:8806 zfuncs.cc:8812 zfuncs.cc:8818
+msgid ""
+"save\n"
+"file"
+msgstr ""
+"Enreg.\n"
+"Fichier"
+
+#: zfuncs.cc:8801 zfuncs.cc:8813
+msgid ""
+"add\n"
+"new"
+msgstr ""
+"Ajouter\n"
+"Nouveau"
+
+#: zfuncs.cc:8801 zfuncs.cc:8807 zfuncs.cc:8813 zfuncs.cc:8819
+msgid "apply"
+msgstr "Appliquer"
+
+#: zfuncs.cc:8854
+msgid "apply?"
+msgstr "Appliquer ?"
+
+#: zfuncs.cc:8911
+msgid "(new parm name)"
+msgstr "(Nouveaux paramètres)"
+
+#: zfuncs.cc:8911
+msgid "add parameter"
+msgstr "Ajouter le paramètre"
+
+#~ msgid "select new file"
+#~ msgstr "Sélectionner un nouveau fichier"
+
+#~ msgid "close image gallery"
+#~ msgstr "Fermer la fenêtre des miniatures"
+
+#~ msgid "close"
+#~ msgstr "Fermer"
+
+#~ msgid "last page"
+#~ msgstr "Dernière page"
+
+#~ msgid "jump to last file"
+#~ msgstr "Aller au dernier fichier"
+
+#~ msgid "next page"
+#~ msgstr "Page suiv."
+
+#~ msgid "next row"
+#~ msgstr "Ligne suiv."
+
+#~ msgid "previous row"
+#~ msgstr "Ligne précédente"
+
+#~ msgid "prev row"
+#~ msgstr "Ligne précé."
+
+#~ msgid "previous page"
+#~ msgstr "Page précédente"
+
+#~ msgid "prev page"
+#~ msgstr "Page précé."
+
+#~ msgid "jump to first file"
+#~ msgstr "Aller au premier fichier"
+
+#~ msgid "first page"
+#~ msgstr "Première page"
+
+#~ msgid "smaller"
+#~ msgstr "Plus petit"
+
+#~ msgid "reduce thumbnail size"
+#~ msgstr "Réduire la taille des miniatures"
+
+#~ msgid "increase thumbnail size"
+#~ msgstr "Augmenter la taille des miniatures"
+
+#~ msgid "bigger"
+#~ msgstr "Plus gros"
+
+#~ msgid "next image file"
+#~ msgstr "Fichier image suivant"
+
+#~ msgid "next"
+#~ msgstr "Suiv"
+
+#~ msgid "previous image file"
+#~ msgstr "Fichier image précédent"
+
+#~ msgid "prev"
+#~ msgstr "Préc"
