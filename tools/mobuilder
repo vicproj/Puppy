@@ -99,6 +99,7 @@ PUPPY='Puppy'
 TRANSLATE='fully translate Puppy'
 isFATDOG= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Fatdog" ] && isFATDOG=true
 isQUIRKY= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Quirky" ] && isQUIRKY=true #140104
+PROGNAME="`basename $0`"
 
 [ "$isQUIRKY" = "true" ] && isQUIRKY=  #140223 no specials for Quirky
 
@@ -115,10 +116,11 @@ if [ "$isQUIRKY" ]; then
 fi
 #140104
 
-CONFIG=/root/.config/mobuilder
+CONFIG="/root/.config/${PROGNAME}"
 [ ! -f $CONFIG ] && echo "### edit between = and #   
 REPODIR=../langpack
-OUTDIR=out
+OUTDIR=../package
+WORKDIR=../work
 DEBUG=n
 " > $CONFIG
 . $CONFIG
@@ -126,8 +128,6 @@ DEBUG=n
 ORIGLANG=$LANG
 export LANG=C
 . /etc/rc.d/PUPSTATE
-
-PROGNAME="`basename $0`"
 
 GTKDIALOGEXE="gtkdialog"
 [ "`which gtkdialog4`" ] && GTKDIALOGEXE="gtkdialog4"
@@ -171,11 +171,12 @@ create_langpacks() {
     yPID=$!
 
     # Cleanup working directory
-    rm -R "$OUTDIR"
+    rm -R "$WORKDIR" &>/dev/null
+    mkdir -p "$WORKDIR"
     
     # Copy full language repository to working directory
     debug "- Copy language repository to working directory"
-    LANGDIR="$OUTDIR/${LANGPACK}_${GENLANG}-${ADATE}"
+    LANGDIR="$WORKDIR/${LANGPACK}_${GENLANG}-${ADATE}"
     mkdir -p "$LANGDIR"
     cp -f -R "$REPODIR/$GENLANG"/* "$LANGDIR"
  
@@ -188,7 +189,7 @@ create_langpacks() {
 	  ATEXTDOMAIN="`basename "$ALINE" .po`"
 	  WD="`dirname "$ALINE"`"
 
-	  LANG=${ORIGLANG} msgfmt --check --output-file=$WD/${ATEXTDOMAIN}.mo $WD/${ATEXTDOMAIN}.po &>> log.txt
+	  LANG=${ORIGLANG} msgfmt --check --output-file=$WD/${ATEXTDOMAIN}.mo $WD/${ATEXTDOMAIN}.po &>> "${OUTDIR}/log.txt"
 	  rm $WD/${ATEXTDOMAIN}.po 
     done
 
@@ -203,7 +204,7 @@ create_langpacks() {
     debug "-- langpacks generated in $LANGDIR"
     sync
     CURDIR="`pwd`"
-    cd "$OUTDIR"
+    cd "$WORKDIR"
     OUTFILE="${LANGPACK}_${GENLANG}-${ADATE}"
     dir2tgz "${OUTFILE}" 1>/dev/null
     tgz2pet "${OUTFILE}.tar.gz" 1>/dev/null
@@ -212,6 +213,8 @@ create_langpacks() {
     sync
     echo $CURDIR
     cd $CURDIR
+    
+    mv "$WORKDIR/$OUTFILE"*.* "$OUTDIR"
     kill $yPID &>/dev/null
   done
 
@@ -225,6 +228,9 @@ MOBUILDER_DLG="<window title=\"$PROGNAME : ${PUPPY} files\" resizable=\"false\" 
   <frame>
    <hbox>
     <text xalign=\"1\" use-markup=\"true\" ><label>\"Repository directory : $REPODIR\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"0\"><label>\"Working directory : $WORKDIR\"</label></text>
    </hbox>
    <hbox>
     <text xalign=\"0\"><label>\"Output directory : $OUTDIR\"</label></text>
