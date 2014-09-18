@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <AppInfo>
   <Summary>OCI (one click installer)</Summary>
+  <Summary xml:lang="fr">OCI (Installeur en un clic)</Summary>
   <About>
 	<Application>OCI</Application>
 	<Author>ASRI</Author>

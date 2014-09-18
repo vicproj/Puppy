@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: ROX-Filer 2.2.0 and newer\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-03-07 14:02+0100\n"
-"PO-Revision-Date: 2012-07-23 18:27+0100\n"
-"Last-Translator: argolance <argolance@free.fr>\n"
+"PO-Revision-Date: 2014-09-18 16:43+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: pinboard.c:2247
 msgid "Add Panel"
@@ -1037,7 +1037,7 @@ msgstr "Aucun des noms n'a été modifié. Il n'y a rien à faire!"
 # fuzzy, please study source-code
 #: choices.c:428
 msgid "Choices migration"
-msgstr ""
+msgstr "Choix de migration"
 
 #: choices.c:436
 #, fuzzy, c-format
@@ -2136,11 +2136,11 @@ msgstr "Support des fichiers longs"
 
 #: main.c:679
 msgid "GNOME-VFS library"
-msgstr ""
+msgstr "Librairie GNOME-VFS"
 
 #: main.c:683
 msgid "No (need 2.8.0 or later)"
-msgstr ""
+msgstr "No (nécessite 2.8.0 ou plus)"
 
 #: main.c:686
 msgid "Dnotify support"
@@ -2261,7 +2261,7 @@ msgstr "Lier..."
 
 #: menu.c:213
 msgid "Open AVFS"
-msgstr ""
+msgstr "Ouvrir AVFS"
 
 #: menu.c:214
 msgid "Send To..."
@@ -2835,13 +2835,13 @@ msgid "Panel Options"
 msgstr "Options du panneau"
 
 #: panel.c:2517
-#, fuzzy, c-format
+#, c-format
 msgid "Panel: %s"
-msgstr "Options du panneau"
+msgstr "Panneau: %s"
 
 #: panel.c:2525
 msgid "Select the panel's position:"
-msgstr ""
+msgstr "Sélectionner la position du panneau:"
 
 #: panel.c:2531
 #, fuzzy
@@ -3047,12 +3047,13 @@ msgstr "Tentative d'invoquer la méthode SOAP inconnue '%s'"
 #: rox_gettext.c:95
 #, c-format
 msgid "Invalid .gmo translation file (too short): %s"
-msgstr ""
+msgstr "Fichier de traduction .gmo invalide (trop court): %s"
 
 #: rox_gettext.c:108
 #, c-format
 msgid "Invalid .gmo translation file (GNU magic number not found): %s"
 msgstr ""
+"Fichier .gmo de traduction invalide (Nombre magique GNU non trouvé): %s"
 
 #: run.c:96 run.c:141
 #, c-format
@@ -3194,9 +3195,8 @@ msgid "Hidden"
 msgstr "Cachés"
 
 #: toolbar.c:151
-#, fuzzy
 msgid "Show/hide hidden files"
-msgstr "Afficher les fichiers cachés"
+msgstr "Afficher/cacher les fichiers cachés"
 
 msgid ""
 "Left: Show/hide hidden files\n"
@@ -3436,6 +3436,8 @@ msgstr "La sauvegarde des choix est désactivée par la variable CHOICESPATH"
 msgid ""
 "Icon theme '%s' does not contain MIME icons. Using ROX default theme instead."
 msgstr ""
+"Le thème d'icônes '%s' ne contient pas d'icône MIME. Utiliser le thème par "
+"défaut ROX à la place."
 
 #: type.c:1263
 #, c-format
@@ -3446,6 +3448,11 @@ msgid ""
 "(this may mean that the ROX theme already exists there, but the 'mime-"
 "application:postscript' icon couldn't be loaded for some reason)"
 msgstr ""
+"Impossible de créer le lien symbolique'%s':\n"
+"%s\n"
+"\n"
+"(cela peut vouloir dir que le thème ROX existe déjà ici, mais l'icône 'mime-"
+"application:postscript' ne peut pas être chargé pour diverses raisons)"
 
 #: usericons.c:181
 msgid "The pathname you gave does not exist. The icon has not been changed."
@@ -3576,99 +3583,99 @@ msgstr "Dernière _Modification"
 
 #: tips:1
 msgid "Translation"
-msgstr ""
+msgstr "Traduction"
 
 #: tips:2
 msgid "Language"
-msgstr ""
+msgstr "Langue"
 
 #: tips:3
 msgid "Use the LANG environment variable"
-msgstr ""
+msgstr "Utiliser la variable d'environnement LANG"
 
 #: tips:4
 msgid "Basque"
-msgstr ""
+msgstr "Basque"
 
 #: tips:5
 msgid "Chinese (traditional)"
-msgstr ""
+msgstr "Chinois (traditionnel)"
 
 #: tips:6
 msgid "Chinese (simplified)"
-msgstr ""
+msgstr "Chinois (simplifié)"
 
 #: tips:7
 msgid "Czech"
-msgstr ""
+msgstr "Tchèque"
 
 #: tips:8
 msgid "Danish"
-msgstr ""
+msgstr "Danois"
 
 #: tips:9
 msgid "Dutch"
-msgstr ""
+msgstr "Néerlandais"
 
 #: tips:10
 msgid "English (no translation)"
-msgstr ""
+msgstr "Anglais (pas de traduction)"
 
 #: tips:11
 msgid "Estonian"
-msgstr ""
+msgstr "Estonien"
 
 #: tips:12
 msgid "Finnish"
-msgstr ""
+msgstr "Finlandais"
 
 #: tips:13
 msgid "French"
-msgstr ""
+msgstr "Français"
 
 #: tips:14
 msgid "German"
-msgstr ""
+msgstr "Allemand"
 
 #: tips:15
 msgid "Hungarian"
-msgstr ""
+msgstr "Hongrois"
 
 #: tips:16
 msgid "Japanese"
-msgstr ""
+msgstr "Japonais"
 
 #: tips:17
 msgid "Norwegian"
-msgstr ""
+msgstr "Norvégien"
 
 #: tips:18
 msgid "Italian"
-msgstr ""
+msgstr "Italien"
 
 #: tips:19
 msgid "Polish"
-msgstr ""
+msgstr "Polonais"
 
 #: tips:20
 msgid "Portuguese (Brasil)"
-msgstr ""
+msgstr "Portugais (Brésil)"
 
 #: tips:21
 msgid "Romanian"
-msgstr ""
+msgstr "Roumain"
 
 #: tips:22
 msgid "Russian"
-msgstr ""
+msgstr "Russe"
 
 #: tips:23
 msgid "Spanish"
-msgstr ""
+msgstr "Espagnol"
 
 #: tips:24
 msgid "Swedish"
-msgstr ""
+msgstr "Suédois"
 
 #: tips:25
 msgid "Filer windows"
@@ -4379,6 +4386,8 @@ msgid ""
 "Panels are bars of icons that run along the side of the screen. See the "
 "manual for information about using panels."
 msgstr ""
+"Les panneaux sont des barres d'icônes positionnées tout autour de l'écran. "
+"Voir le manuel pour des informations sur l'utilisation des panneaux."
 
 #: tips:170
 msgid "Image and Text"

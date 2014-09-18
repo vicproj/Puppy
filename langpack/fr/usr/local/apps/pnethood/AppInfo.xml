@@ -1,6 +1,7 @@
 <?xml version="1.0"?>
 <AppInfo>
   <Summary>Pnethood</Summary>
+  <Summary xml:lang="fr">Pnethood</Summary>
   <About>
     <Purpose>Pnethood windows shares</Purpose>
     <License>GPL: http://www.gnu.org/licenses/gpl.txt</License>
@@ -9,6 +10,8 @@
   </About>
   <AppMenu>
     <Item label="Start Pnethood" option=""/>
+    <Label xml:lang="fr">Démarrer Pnethood</Label>
     <Item label="Help" option="--help"/>
+    <Label xml:lang="fr">Aide</Label>    
   </AppMenu>
 </AppInfo>
