@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pkg_chooser.sh VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2014-09-16 18:44+0100\n"
+"PO-Revision-Date: 2014-09-18 20:59+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -28,16 +28,22 @@ msgstr "Graphiques, non"
 msgid "Any non-GUI type"
 msgstr "Tout sauf de type graphique"
 
-#: pkg_chooser.sh:243 pkg_chooser.sh:247 pkg_chooser.sh:252 ui_Ziggy.sh:19
+#: pkg_chooser.sh:243
+#: pkg_chooser.sh:247
+#: pkg_chooser.sh:252
+#: ui_Ziggy.sh:19
 #: ui_Ziggy.sh:54
 msgid "ALL"
 msgstr "TOUT"
 
-#: ui_Classic.sh:20 ui_Ziggy.sh:27 ui_Ziggy.sh:53
+#: ui_Classic.sh:20
+#: ui_Ziggy.sh:27
+#: ui_Ziggy.sh:53
 msgid "BuildingBlock"
 msgstr ""
 
-#: ui_Classic.sh:33 ui_Ziggy.sh:66
+#: ui_Classic.sh:33
+#: ui_Ziggy.sh:66
 msgid "Puppy Package Manager"
 msgstr "Gestionnaire de paquets Puppy/Toutou"
 
@@ -45,59 +51,87 @@ msgstr "Gestionnaire de paquets Puppy/Toutou"
 msgid "Repo:"
 msgstr "Dépôt:"
 
-#: ui_Classic.sh:49 ui_Ziggy.sh:40 ui_Ziggy.sh:170
+#: ui_Classic.sh:49
+#: ui_Ziggy.sh:40
+#: ui_Ziggy.sh:170
 msgid "Desktop"
 msgstr "Bureau"
 
-#: ui_Classic.sh:50 ui_Ziggy.sh:41 ui_Ziggy.sh:171
+#: ui_Classic.sh:50
+#: ui_Ziggy.sh:41
+#: ui_Ziggy.sh:171
 msgid "System"
 msgstr "Système"
 
-#: ui_Classic.sh:51 ui_Ziggy.sh:42 ui_Ziggy.sh:172
+#: ui_Classic.sh:51
+#: ui_Ziggy.sh:42
+#: ui_Ziggy.sh:172
 msgid "Setup"
 msgstr "Configuration"
 
-#: ui_Classic.sh:52 ui_Ziggy.sh:43 ui_Ziggy.sh:173
+#: ui_Classic.sh:52
+#: ui_Ziggy.sh:43
+#: ui_Ziggy.sh:173
 msgid "Utility"
 msgstr "Utilitaire"
 
-#: ui_Classic.sh:53 ui_Ziggy.sh:44 ui_Ziggy.sh:174
+#: ui_Classic.sh:53
+#: ui_Ziggy.sh:44
+#: ui_Ziggy.sh:174
 msgid "Filesystem"
 msgstr "Système de fichiers"
 
-#: ui_Classic.sh:54 ui_Ziggy.sh:45 ui_Ziggy.sh:175
+#: ui_Classic.sh:54
+#: ui_Ziggy.sh:45
+#: ui_Ziggy.sh:175
 msgid "Graphic"
-msgstr "Graphique"
+msgstr "Graphisme"
 
-#: ui_Classic.sh:55 ui_Ziggy.sh:46 ui_Ziggy.sh:176
+#: ui_Classic.sh:55
+#: ui_Ziggy.sh:46
+#: ui_Ziggy.sh:176
 msgid "Document"
 msgstr "Document"
 
-#: ui_Classic.sh:56 ui_Ziggy.sh:47 ui_Ziggy.sh:177
+#: ui_Classic.sh:56
+#: ui_Ziggy.sh:47
+#: ui_Ziggy.sh:177
 msgid "Business"
-msgstr "Travail"
+msgstr "Affaire"
 
-#: ui_Classic.sh:57 ui_Ziggy.sh:48 ui_Ziggy.sh:178
+#: ui_Classic.sh:57
+#: ui_Ziggy.sh:48
+#: ui_Ziggy.sh:178
 msgid "Personal"
 msgstr "Personnel"
 
-#: ui_Classic.sh:58 ui_Ziggy.sh:49 ui_Ziggy.sh:179
+#: ui_Classic.sh:58
+#: ui_Ziggy.sh:49
+#: ui_Ziggy.sh:179
 msgid "Network"
 msgstr "Réseau"
 
-#: ui_Classic.sh:59 ui_Ziggy.sh:50 ui_Ziggy.sh:180
+#: ui_Classic.sh:59
+#: ui_Ziggy.sh:50
+#: ui_Ziggy.sh:180
 msgid "Internet"
 msgstr "Internet"
 
-#: ui_Classic.sh:60 ui_Ziggy.sh:51 ui_Ziggy.sh:181
+#: ui_Classic.sh:60
+#: ui_Ziggy.sh:51
+#: ui_Ziggy.sh:181
 msgid "Multimedia"
 msgstr "Multimédia"
 
-#: ui_Classic.sh:61 ui_Ziggy.sh:52 ui_Ziggy.sh:182
+#: ui_Classic.sh:61
+#: ui_Ziggy.sh:52
+#: ui_Ziggy.sh:182
 msgid "Fun"
-msgstr "Amusement"
+msgstr "Loisir"
 
-#: ui_Classic.sh:68 ui_Classic.sh:142 ui_Ziggy.sh:191
+#: ui_Classic.sh:68
+#: ui_Classic.sh:142
+#: ui_Ziggy.sh:191
 msgid "Package|Description"
 msgstr "Paquet|Description"
 
@@ -109,15 +143,18 @@ msgstr "Afficher:"
 msgid "Help:"
 msgstr "Aide:"
 
-#: ui_Classic.sh:116 ui_Ziggy.sh:153
+#: ui_Classic.sh:116
+#: ui_Ziggy.sh:153
 msgid "Find:"
 msgstr "Trouver:"
 
-#: ui_Classic.sh:121 ui_Ziggy.sh:158
+#: ui_Classic.sh:121
+#: ui_Ziggy.sh:158
 msgid "Go"
 msgstr "Aller"
 
-#: ui_Classic.sh:129 ui_Ziggy.sh:75
+#: ui_Classic.sh:129
+#: ui_Ziggy.sh:75
 msgid "Configure package manager"
 msgstr "Configurer le gestionnaire de paquets"
 
@@ -168,3 +205,4 @@ msgstr "Cliquer sur un élément dans la liste pour désinstaller le paquet"
 #: ui_Ziggy.sh:209
 msgid "Installed Package|Description"
 msgstr "Paquet installé|Description"
+

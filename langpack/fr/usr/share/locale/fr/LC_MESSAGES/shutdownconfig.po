@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: shutdownconfig VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:57+0200\n"
-"PO-Revision-Date: 2014-09-16 20:30+0100\n"
+"PO-Revision-Date: 2014-09-18 20:58+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: shutdownconfig.sh:48
 msgid "First shutdown: save session"
@@ -63,16 +63,16 @@ msgstr ""
 #: shutdownconfig.sh:107
 #, sh-format
 msgid "Puppy is structured in such a way that we consider running as ${T_admin} to be completely safe, and is the choice of most users, however fido is theoretically more secure."
-msgstr ""
+msgstr "Puppy/Toutou est structuré de tel façon que nous considérons le démarrage en tant que ${T_admin} est complètement sécurisé, et est le choix de la plupart des utilisateurs, cependant fido est théoriquement plus sécurisé."
 
 #: shutdownconfig.sh:108
 msgid "Note that Puppy only has one non-admin user, fido, as it is not a multi-user system in the normal sense -- instead, each person using Puppy on the same computer can have their own save-file (each one set to root or fido as the users wish)."
-msgstr ""
+msgstr "Noter que Puppy/Toutou a un seul profil non adminisateur, fido, comme ce n'est pas un système multi-utilisateurs -- à la place, chaque personne utilisant Puppy/Toutou sur le même ordinateur peuvent avoir son propre fichiers de sauvegarde (chacun est root ou fido suivant le choix de l'utilisateur)"
 
 #: shutdownconfig.sh:110
 #, sh-format
 msgid "Note also, the LoginManager (System menu) enables you to switch back to ${T_admin} if you decide later that you don't want to run as fido."
-msgstr ""
+msgstr "Noter aussi que le Gestionnaire De Connexion (Menu système) vous autorise à basculer vers ${T_admin} si vous décidez, plus tard, que vous ne voulez pas vous connecter en tant que fido."
 
 #: shutdownconfig.sh:161
 msgid "First shutdown: get ready"

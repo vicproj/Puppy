@@ -10,9 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: puppyinstaller.sh:66
 msgid "Yes"
@@ -277,7 +276,7 @@ msgid "DIRECTORY"
 msgstr "REPERTOIRE"
 
 #: puppyinstaller.sh:281
-#, fuzzy, sh-format
+#, sh-format
 msgid ""
 "Puppy consists of 2 to 6 files:\\n"
 "vmlinuz      The Linux kernel\\n"
@@ -294,11 +293,12 @@ msgid ""
 "\\n"
 "Where are the Puppy files?..."
 msgstr ""
-"Toutou contient de 2 à 4 fichiers:\\n"
+"Puppy/Toutou contient de 2 à 4 fichiers:\\n"
 "vmlinuz      Le noyau Linux\\n"
 "initrd.gz   Le ramdisk initial.\\n"
-"${DISTRO_PUPPYSFS}, il contient tous les fichiers de Toutou (quelquefois\\n"
+"${DISTRO_PUPPYSFS}, il contient tous les fichiers de Puppy/Toutou (quelquefois\\n"
 "              dans initrd.gz). (dans ce cas, seul initrd.gz est alors nécessaire)\\n"
+"${DISTRO_ADRVSFS} et ${DISTRO_YDRVSFS} si un fichier modulaire SFS est utilisé(optionnel).\\n"
 "${DISTRO_ZDRVSFS}, complément en pilotes et firmware du noyau (optionnel).\\n"
 "             (certaines versions ont des pilotes utiles dans ${DISTRO_PUPPYSFS})\\n"
 "Si vous avez booté d'un live-CD, ces fichiers y sont. Autrement, ils sont dans\\n"
@@ -306,7 +306,7 @@ msgstr ""
 ".iso et il se montera (ouvrira) dans un répertoire (n'oubliez pas de cliquez à\\n"
 "nouveau sur ce fichier ultérieurement pour le démonter!)\\n"
 "\\n"
-"Où sont les fichiers de Toutou?..."
+"Où sont les fichiers Puppy/Toutou?..."
 
 #: puppyinstaller.sh:287
 #, sh-format
@@ -850,9 +850,8 @@ msgstr "et"
 
 #: puppyinstaller.sh:823
 #: puppyinstaller.sh:980
-#, fuzzy
 msgid "if they exist."
-msgstr "si present."
+msgstr "si présent."
 
 #: puppyinstaller.sh:823
 msgid "may be inside"
@@ -1468,7 +1467,7 @@ msgstr "Voulez-vous mettre à jour, ou complètement effacer la partition?"
 #: puppyinstaller.sh:1355
 #, sh-format
 msgid "FINAL SANITY CHECK: ARE YOU SURE ${DESTPART} IS THE RIGHT PARTITION?"
-msgstr ""
+msgstr "TEST FINAL DE COHERENCE : ETES VOUS SUR QUE ${DESTPART} EST LA BONNE PARTITION?"
 
 #: puppyinstaller.sh:1355
 #, sh-format

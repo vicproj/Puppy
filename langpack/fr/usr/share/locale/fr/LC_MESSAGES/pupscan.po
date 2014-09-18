@@ -10,9 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: pupscan.sh:30
 msgid "Please wait, probing hardware..."
@@ -29,11 +28,12 @@ msgstr ""
 " Quelques infos simplifiées sont affichées ici :"
 
 #: pupscan.sh:188
-#, fuzzy
 msgid ""
 "<b>USB devices</b>\n"
 "USB interfaces are part of the PCI interfaces, but to find information about any plugged-in USB devices, click this button."
-msgstr "Les interfaces USB font partie des interfaces PCI. Pour avoir des infos sur les supports USB branchés, cliquez ici :"
+msgstr ""
+"<b>Appareils USB</b>\n"
+"Les interfaces USB font partie des interfaces PCI. Pour avoir des infos sur les supports USB branchés, cliquez ici :"
 
 #: pupscan.sh:202
 msgid "Puppy hardware-interfaces information"

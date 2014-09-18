@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pMusic VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:50+0200\n"
-"PO-Revision-Date: 2014-09-09 19:31+0100\n"
+"PO-Revision-Date: 2014-09-18 20:59+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: box_chooser.sh:18
 #: box_input.sh:23
@@ -706,7 +707,7 @@ msgstr "Infos du morceau"
 
 #: func_config.sh:184
 msgid "Grab online Artist/Title info if exist"
-msgstr ""
+msgstr "Récupérer les infos de l'Artiste et du Titre en ligne si elles existent"
 
 #: func_config.sh:189
 msgid "If your CD is not registrated in the worldwide cddb database, it would probably use info for another random album. If so, please deactivate this option."
@@ -1122,7 +1123,7 @@ msgstr "Enregistrer la pochette en fichier image"
 
 #: func_id3tagger.sh:63
 msgid "Add recursively (also add files from sub-directories)"
-msgstr ""
+msgstr "Ajouter récursivement (ajouter aussi les fichiers des sous-répertoires)"
 
 #: func_id3tagger.sh:81
 #: func_id3tagger.sh:84
@@ -1190,7 +1191,7 @@ msgstr "Effacer la liste"
 
 #: func_id3tagger.sh:248
 msgid "files added to list"
-msgstr ""
+msgstr "fichiers ajoutés à la liste"
 
 #: func_id3tagger.sh:266
 msgid ""
@@ -1692,7 +1693,7 @@ msgstr "Débit binaire"
 
 #: func_trackinfo.sh:415
 msgid "Gain"
-msgstr ""
+msgstr "Gain"
 
 #: func_trackinfo.sh:418
 msgid "Times played"
@@ -1768,15 +1769,15 @@ msgstr "Intégrer la pochette dans le fichier audio"
 
 #: func_trackinfo.sh:1029
 msgid "Delete albumart file from local storage"
-msgstr ""
+msgstr "Supprimer les pochettes des albums du stockage local"
 
 #: func_trackinfo.sh:1035
 msgid "Do not show/search albumart for this track"
-msgstr ""
+msgstr "Ne pas afficher/chercher la pochette de l'album pour cette piste"
 
 #: func_trackinfo.sh:1087
 msgid "Can not save tags for this track format"
-msgstr ""
+msgstr "Impossible de sauvegarder les étiquettes pour ce format de piste"
 
 #: func_trackinfo.sh:1097
 msgid "Only local files can be overwritten"
@@ -1819,7 +1820,7 @@ msgstr "Index absent"
 
 #: func_webmusic.sh:129
 msgid "See Setup in"
-msgstr ""
+msgstr "Voir la configuration dans"
 
 #: func_webmusic.sh:129
 #, fuzzy
@@ -1937,11 +1938,11 @@ msgstr "Aléatoire"
 
 #: gui_add.sh:157
 msgid "How many tracks should be added to playqueue"
-msgstr ""
+msgstr "Combien de pistes doivent être ajoutées à la file d'attente"
 
 #: gui_add.sh:165
 msgid "Min rating"
-msgstr ""
+msgstr "Note min"
 
 #: gui_add.sh:171
 #, fuzzy
@@ -2009,7 +2010,7 @@ msgstr "Exporter les morceaux dans la file "
 
 #: gui_menu.sh:152
 msgid "Burn Audio-CD of queue"
-msgstr ""
+msgstr "Graver un CD-Audio à partir de la file d'attente"
 
 #: gui_menu.sh:158
 msgid "Go back in queue history"
@@ -2243,7 +2244,7 @@ msgstr "Type"
 
 #: pmusic_sf_basic.sh:39
 msgid "Basic sound filters"
-msgstr ""
+msgstr "Filtres de sons basiques"
 
 #: pmusic_sf_basic.sh:75
 #, fuzzy
@@ -2252,7 +2253,7 @@ msgstr "Carte audio"
 
 #: pmusic_sf_basic.sh:82
 msgid "Not realtime"
-msgstr ""
+msgstr "Pas temps réel"
 
 #: pmusic_sf_basic.sh:82
 msgid "Restart track to take effect"

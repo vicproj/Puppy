@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: ptiming VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:51+0200\n"
-"PO-Revision-Date: 2014-09-09 19:31+0100\n"
+"PO-Revision-Date: 2014-09-18 20:59+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -16,6 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: box_ok.sh:7
 msgid "Error"
@@ -41,13 +42,13 @@ msgstr "Oui"
 #: competitors.sh:34
 #: competitors.sh:285
 msgid "Save startlist"
-msgstr ""
+msgstr "Sauvegarder la liste de démarrage"
 
 #: competitors.sh:61
 #: competitors.sh:71
 #: competitors.sh:281
 msgid "Open startlist"
-msgstr ""
+msgstr "Ouvrir la liste de démarrage"
 
 #: competitors.sh:97
 #: competitors.sh:176
@@ -56,7 +57,7 @@ msgstr ""
 #: ptiming.sh:518
 #: ptiming.sh:537
 msgid "Competitors"
-msgstr ""
+msgstr "Concurrents"
 
 #: competitors.sh:111
 #: competitors.sh:245
@@ -67,7 +68,7 @@ msgstr "Appliquer les modifications en pressant ENTREE"
 
 #: competitors.sh:119
 msgid "Delete competitor"
-msgstr ""
+msgstr "Supprimer le concurrent"
 
 #: competitors.sh:164
 #: competitors.sh:229
@@ -76,11 +77,11 @@ msgstr ""
 
 #: competitors.sh:168
 msgid "First Start NR"
-msgstr ""
+msgstr "Premier Démarrage NR"
 
 #: competitors.sh:172
 msgid "Delay between Competitors in class (seconds)"
-msgstr ""
+msgstr "Délai entre les conccurents dans la classe (secondes)"
 
 #: competitors.sh:176
 #: competitors.sh:291
@@ -91,7 +92,7 @@ msgstr "Classe"
 
 #: competitors.sh:176
 msgid "First starttime"
-msgstr ""
+msgstr "Premier temps de départ"
 
 #: competitors.sh:187
 msgid "Execute"
@@ -99,11 +100,11 @@ msgstr "Executer"
 
 #: competitors.sh:277
 msgid "New startlist"
-msgstr ""
+msgstr "Nouvelle liste de démarrage"
 
 #: competitors.sh:290
 msgid "Export startlist"
-msgstr ""
+msgstr "Exporter la liste de démarrage"
 
 #: competitors.sh:291
 #: competitors.sh:323
@@ -145,19 +146,19 @@ msgstr "Enregistrement"
 
 #: competitors.sh:302
 msgid "Delay between Competitors (seconds)"
-msgstr ""
+msgstr "oncurrents"
 
 #: competitors.sh:332
 msgid "Shuffle Competitors"
-msgstr ""
+msgstr "Mélanger Les Compétiteurs"
 
 #: ptiming.sh:221
 msgid "Delete timestamp"
-msgstr ""
+msgstr "Supprimer temps"
 
 #: ptiming.sh:296
 msgid "Nr"
-msgstr ""
+msgstr "Nr"
 
 #: ptiming.sh:296
 #: ptiming.sh:559
@@ -166,20 +167,20 @@ msgstr "Heure"
 
 #: ptiming.sh:296
 msgid "Laps"
-msgstr ""
+msgstr "Tours"
 
 #: ptiming.sh:336
 #: ptiming.sh:511
 msgid "Preferences"
-msgstr ""
+msgstr "Préférences"
 
 #: ptiming.sh:340
 msgid "Default delay between added competitors"
-msgstr ""
+msgstr "oncurrents"
 
 #: ptiming.sh:344
 msgid "Default empty startTimes for late registrations"
-msgstr ""
+msgstr "Supprimer des heures de démarrage pour les enregistrements tardifS."
 
 #: ptiming.sh:348
 msgid "Environment"
@@ -191,15 +192,15 @@ msgstr "Taille de la police (ceci affecte aussi le mode plein écran)"
 
 #: ptiming.sh:354
 msgid "Sound at startTime"
-msgstr ""
+msgstr "Son à l'heure de départ"
 
 #: ptiming.sh:358
 msgid "Sound before startTime"
-msgstr ""
+msgstr "Son avant l'heure de départ"
 
 #: ptiming.sh:362
 msgid "Color of entry background"
-msgstr ""
+msgstr "Couleur du fond d'écran."
 
 #: ptiming.sh:366
 msgid "Color of timer font"
@@ -207,57 +208,57 @@ msgstr "Color de la police heure"
 
 #: ptiming.sh:370
 msgid "Color of entry font"
-msgstr ""
+msgstr "Couleur de la fonte"
 
 #: ptiming.sh:375
 msgid "Restart pTiming to activate changes"
-msgstr ""
+msgstr "Redémarrer pTiming pour activer les modifications"
 
 #: ptiming.sh:397
 #: ptiming.sh:517
 #: ptiming.sh:536
 msgid "Set timer"
-msgstr ""
+msgstr "Initialiser le chronomètre"
 
 #: ptiming.sh:400
 msgid "Beep at defined Start-time"
-msgstr ""
+msgstr "Beep à l'heure de démarrage définie"
 
 #: ptiming.sh:402
 msgid "Silence"
-msgstr ""
+msgstr "Silence"
 
 #: ptiming.sh:403
 msgid "1 Beep"
-msgstr ""
+msgstr "1 Beep"
 
 #: ptiming.sh:404
 msgid "5 Beep"
-msgstr ""
+msgstr "5 Beeps"
 
 #: ptiming.sh:407
 msgid "Options"
-msgstr ""
+msgstr "Options"
 
 #: ptiming.sh:408
 msgid "Calculate hundredths"
-msgstr ""
+msgstr "Calculer les 100 premiers"
 
 #: ptiming.sh:409
 msgid "You can switch between ordinary clock and builtin timer"
-msgstr ""
+msgstr "Vous pouvez basculer entre horloge standard et chronomètre intégré"
 
 #: ptiming.sh:410
 msgid "Use day-time"
-msgstr ""
+msgstr "Utiliser la date du jour"
 
 #: ptiming.sh:435
 msgid "Reset Timer"
-msgstr ""
+msgstr "Raz du chronomètre"
 
 #: ptiming.sh:437
 msgid "Countdown seconds"
-msgstr ""
+msgstr "Compte à rebours "
 
 #: ptiming.sh:441
 msgid "1 min"
@@ -273,7 +274,7 @@ msgstr "1 jour"
 
 #: ptiming.sh:446
 msgid "Reset timer NOW"
-msgstr ""
+msgstr "Remettre à zéro le chronomètre MAINTENANT"
 
 #: ptiming.sh:507
 msgid "Export results"
@@ -285,11 +286,11 @@ msgstr "Quitter"
 
 #: ptiming.sh:519
 msgid "Fullscreen timer"
-msgstr ""
+msgstr "Chronomètre plein écran"
 
 #: ptiming.sh:520
 msgid "Timing"
-msgstr ""
+msgstr "Délais"
 
 #: ptiming.sh:523
 msgid "About"
@@ -309,12 +310,14 @@ msgid ""
 "Combine next timestamp to a competitor number.\n"
 "You can later edit items in result list by click on it."
 msgstr ""
+"Associer le prochain temps à un numéro de concurrent.\n"
+"Vous pouvez l'éditer dans la liste des résultats en cliquant dessus."
 
 #: ptiming.sh:559
 msgid "Lap"
-msgstr ""
+msgstr "Tour"
 
 #: ptiming.sh:559
 msgid "Laptime"
-msgstr ""
+msgstr "Chrono"
 

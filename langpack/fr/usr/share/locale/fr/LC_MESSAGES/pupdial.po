@@ -10,9 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: pupdial.sh:51
 msgid ""
@@ -34,7 +33,7 @@ msgstr "C O N F I G U R E R   W V D I A L"
 
 #: pupdial.sh:63
 msgid "PupDial - Internet connection with analog dialup or digital wireless modem (3g)"
-msgstr ""
+msgstr "PupDial - Connexion internet avec une ligne anlaogique ou un modem numérique sans fil (3g)"
 
 #: pupdial.sh:70
 msgid "Yes"
@@ -255,7 +254,7 @@ msgstr "Modem Internet à numérotation - PupDial"
 
 #: pupdial.sh:453
 msgid "Connect to internet with a analog dialup or digital wireless (3g) modem"
-msgstr ""
+msgstr "Connexion internet avec une ligne analogique ou un modem numérique sans fil (3g)"
 
 #: pupdial.sh:454
 msgid "Modem setup"

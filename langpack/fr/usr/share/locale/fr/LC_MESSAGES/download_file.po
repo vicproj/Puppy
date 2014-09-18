@@ -3,14 +3,14 @@ msgstr ""
 "Project-Id-Version: download_file VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-08 18:50+0100\n"
+"PO-Revision-Date: 2014-09-18 20:53+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: download_file.sh:50
 msgid "NOTE:"
@@ -18,11 +18,11 @@ msgstr "NOTE:"
 
 #: download_file.sh:51
 msgid "It may be that the local package database needs to be updated. In some cases, the packages in the online package repository change, so you may be trying to download a package that no longer exists. One way to check this is to go to the URL with your web browser:"
-msgstr "Cela peut signifier que la base de données de paquets locale a besoin d'être mise à jour. Dans certains cas, les paquets dans le référentiel de paquets en ligne évoluent, ainsi vous pouvez essayer de télécharger un paquet qui n'existe plus. Une façon de vérifier ceci est d'ouvrir l'URL avec votre navigateur web:"
+msgstr "Cela peut signifier que la base de données de paquets locale a besoin d'être mise à jour. Dans certains cas, les paquets dans le dépôt de paquets en ligne évoluent, ainsi vous pouvez essayer de télécharger un paquet qui n'existe plus. Une façon de vérifier ceci est d'ouvrir l'URL avec votre navigateur web:"
 
 #: download_file.sh:53
 msgid "If the URL is working and the repository has a later package, cancel the current operation. In the Puppy Package Manager main window, click the 'Configure' button, then the 'Update now' button -- this will update the local database. Be warned though, for some large repositories this process may take awhile."
-msgstr "Si l'URL fonctionne et que le référentiel a un paquet plus récent, annuler l'opération courante. Dans le gestionnaire de paquets Toutou/Puppy, cliquer sur le bouton 'Configurer', puis sur le bouton 'Mettre à jour maintenant' -- ceci mettra à jour la base de données locale. Faites attention cepandant, pour les grand référentiels, le processus risque de prendre beaucoup de temps. "
+msgstr "Si l'URL fonctionne et que le dépôt a un paquet plus récent, annuler l'opération courante. Dans le gestionnaire de paquets Toutou/Puppy, cliquer sur le bouton 'Configurer', puis sur le bouton 'Mettre à jour maintenant' -- ceci mettra à jour la base de données locale. Faites attention cepandant, pour les grands dépôts, le processus risque de prendre beaucoup de temps. "
 
 #: download_file.sh:59
 msgid "Testing file exists:"

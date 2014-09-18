@@ -10,9 +10,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: French\n"
-"X-Poedit-Country: France\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: downloadpkgs.sh:105
 msgid "Puppy Package Manager: download"
@@ -53,7 +52,7 @@ msgstr "Malheureusement, ces paquets ne sont pas disponibles:"
 
 #: downloadpkgs.sh:200
 msgid "It may be that the local package database needs to be updated. In some cases, the packages in the online package repository change, so you may be trying to download a package that no longer exists."
-msgstr "Cela peut signifier que la base données locale de paquets doit être mise à jour. Dans certains cas, les paquets dans le référentiel en ligne ont pu changer, ainsi vous essayer peut être de télécharger un paquet qui n'existe plus."
+msgstr "Cela peut signifier que la base données locale de paquets doit être mise à jour. Dans certains cas, les paquets dans le dépôt en ligne ont pu changer, ainsi vous essayer peut être de télécharger un paquet qui n'existe plus."
 
 #: downloadpkgs.sh:201
 msgid "SOLUTION: From the main PPM window, click the 'Configure' BUTTON and click the 'Update' button to update the local package database."
@@ -105,7 +104,7 @@ msgstr "Sytème"
 
 #: downloadpkgs.sh:323
 msgid "Setup"
-msgstr "Paramètres"
+msgstr "Configuration"
 
 #: downloadpkgs.sh:324
 msgid "Utility"
@@ -113,11 +112,11 @@ msgstr "Utilitaire"
 
 #: downloadpkgs.sh:325
 msgid "Filesystem"
-msgstr "Système de fichier"
+msgstr "Système de fichiers"
 
 #: downloadpkgs.sh:326
 msgid "Graphic"
-msgstr "Graphique"
+msgstr "Graphisme"
 
 #: downloadpkgs.sh:327
 #, fuzzy
@@ -126,7 +125,7 @@ msgstr "Documentation"
 
 #: downloadpkgs.sh:328
 msgid "Business"
-msgstr "Travail"
+msgstr "Affaire"
 
 #: downloadpkgs.sh:329
 msgid "Personal"
@@ -146,7 +145,7 @@ msgstr "Multimédia"
 
 #: downloadpkgs.sh:333
 msgid "Fun"
-msgstr "Plaisir"
+msgstr "Loisir"
 
 #: downloadpkgs.sh:334
 msgid "Help"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: xsaneshell VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:42+0200\n"
-"PO-Revision-Date: 2014-09-16 20:29+0100\n"
+"PO-Revision-Date: 2014-09-18 20:58+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: xsaneshell.sh:12
 msgid "Frontend for Xsane"
@@ -22,7 +23,7 @@ msgstr "<b>Quand Xsane démarre, votre scanner (s'il est connecté et allumé) d
 
 #: xsaneshell.sh:16
 msgid "However, some entries in the drivers list (/etc/sane.d/dll.conf) are commented-out. These are:"
-msgstr ""
+msgstr "Cependant, certaines entrées dans la liste de pilotes (/etc/sane.d/dll.conf) sont en commentaires. Ce sont:"
 
 #: xsaneshell.sh:16
 #, fuzzy
@@ -42,6 +43,13 @@ msgid ""
 "4. or maybe a symbolic link,\n"
 "   ex: <b># ln -s /dev/sg3 /dev/scanner</b>"
 msgstr ""
+"Xsane peut être un peu 'fou' lors de la détection d'un scanner SCSI scanner. Il y a différentes choses que vous devrez faire:\n"
+"1. Lancer 'sane-find-scanner' dans une fenêtre de terminal.\n"
+"2. Vérifier que le module 'sg' est chargé.\n"
+"3. Specifier l'appareil dans la ligne de commande,\n"
+"   ex: <b># xsane microtek2:/dev/sg3</b>\n"
+"4. ou peut être le lien symbolique,\n"
+"   ex: <b># ln -s /dev/sg3 /dev/scanner</b>"
 
 #: xsaneshell.sh:29
 msgid "About SCSI drives"

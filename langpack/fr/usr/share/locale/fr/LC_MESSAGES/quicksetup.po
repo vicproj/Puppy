@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: quicksetup 1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:56+0200\n"
-"PO-Revision-Date: 2014-09-09 19:36+0100\n"
+"PO-Revision-Date: 2014-09-18 20:59+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <jj@moulinier.net>\n"
 "Language: fr\n"
@@ -11,6 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #: quicksetup.sh:88
 msgid "Quick Setup"
@@ -27,7 +28,7 @@ msgstr "Graphiques"
 
 #: quicksetup.sh:91
 msgid "<b>Quick setup</b>. All these settings (and many more) are available from the Setup and Desktop menu. Please set these to suit yourself, then click <b>Ok</b>"
-msgstr "<b>Paramétrage rapide</b>. Tous ce paramètres (et beaucoup d'autres) sont disponibles à partir du menu Paramètres et Bureau. Faites ceci si cela vous convient, puis cliquer sur <b>Ok</b>"
+msgstr "<b>Paramétrage rapide</b>. Tous ces paramètres (et beaucoup d'autres) sont disponibles à partir du menu Paramètres et Bureau. Faites ceci si cela vous convient, puis cliquer sur <b>Ok</b>"
 
 #: quicksetup.sh:96
 msgid "Choose Locale"
@@ -60,7 +61,7 @@ msgstr "Choisissez le plan du clavier"
 
 #: quicksetup.sh:111
 msgid "Choose keyboard layout for your country, or whatever keyboard you are using"
-msgstr ""
+msgstr "Choisir la disposition du clavier pour votre pays, ou tout autre clavier utilisé"
 
 #: quicksetup.sh:113
 #: quicksetup.sh:157
@@ -77,7 +78,7 @@ msgstr "Installation rapide du pays"
 
 #: quicksetup.sh:118
 msgid "Country settings is required for correct keyboard layout, time zone, language, currency, decimal separator, calendar... Please set these to suit your country and language"
-msgstr ""
+msgstr "Les paramètres Pays sont nécessaires pour avoir la disposition du clavier, le fuseau horaire, la langue, la monnaie, le séparateur décimal, le calendrier... Veuillez les indiquer afin qu'ils soient conformes avec votre pays et langue"
 
 #: quicksetup.sh:120
 msgid "Country Settings"
@@ -540,12 +541,11 @@ msgstr "Traitement en cours, veuillez attendre..."
 #: quicksetup.sh:1533
 #, sh-format
 msgid "Note, you will need to install langpack_${LANG12} or langpack_${LANG1} PET package to more fully translate Puppy to your language. Run the Puppy Package Manager after connection to the Internet, to download and install this package."
-msgstr ""
+msgstr "Noter que vous devrez installer le paquet PET langpack_${LANG12} ou langpack_${LANG1} pour traduire complétement Puppy/Toutou dans votre langue. Démarrer le Gestionnaire de Paquet Puppy/Toutou après la connexion à internet, pour télécharger et installer ce paquet."
 
 #: quicksetup.sh:1607
-#, fuzzy
 msgid "Change resolution to:"
-msgstr "Changer la résolution en"
+msgstr "Changer la résolution en:"
 
 #: quicksetup.sh:1608
 msgid "Click the OK button to change the resolution."
@@ -605,16 +605,16 @@ msgstr "Pare-feu activé"
 
 #: quicksetup.sh:1729
 msgid "NTP set-time disabled"
-msgstr ""
+msgstr "Réglage heure NTP activé"
 
 #: quicksetup.sh:1734
 #: quicksetup.sh:1738
 msgid "NTP set-time enabled"
-msgstr ""
+msgstr "Réglage heure NTP désactivé"
 
 #: quicksetup.sh:1741
 msgid "NTP set-time (this session only)"
-msgstr ""
+msgstr "Réglage heure NTP (cette session seulement)"
 
 #: quicksetup.sh:1770
 msgid "Automatic audio output"
