@@ -20,7 +20,7 @@ msgstr "Changer les icônes du bureau et du menu"
 
 #: icon_switcher.sh:141
 msgid "The Puppy icon switcher sets icons for both the <b>desktop</b> and the <b>menu</b>"
-msgstr "L'icône bascule Toutou/Puppy sélectionne les icônes à la fois pour le <b>bureau</b> et le <b>menu</b>"
+msgstr "Changer les icônes Toutou/Puppy modifie les icônes à la fois pour le <b>bureau</b> et le <b>menu</b>"
 
 #: icon_switcher.sh:154
 msgid "Cancel"

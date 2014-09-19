@@ -1,17 +1,18 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: pwallpaper\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-03-15 08:50+0800\n"
-"PO-Revision-Date: 2013-03-26 19:00+0100\n"
-"Last-Translator: Médor <michel.chabot@online.fr>\n"
+"PO-Revision-Date: 2014-09-19 19:02+0100\n"
+"Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: pwallpaper.c:78 pwallpaper.c:379
+#: pwallpaper.c:78
+#: pwallpaper.c:379
 msgid "Centre"
 msgstr "Centré"
 
@@ -20,15 +21,12 @@ msgid "Loading\n"
 msgstr "Chargement\n"
 
 #: pwallpaper.c:94
-msgid ""
-"No config file found, using internal defaults (Hope you have fbsetbg :D ).\n"
-msgstr ""
-"Configuration absente, utilisation du défaut interne (En espèrant que "
-"fbsetbg soit présent :D).\n"
+msgid "No config file found, using internal defaults (Hope you have fbsetbg :D ).\n"
+msgstr "Configuration absente, utilisation du défaut interne (En espérant que fbsetbg soit présent :D).\n"
 
 #: pwallpaper.c:460
 msgid "Puppy Wallpaper Setter v1.2"
-msgstr "Configuration du fond d'écran - Puppy Wallpaper Setter v1.2"
+msgstr "Configurer le fond d'écran - Puppy Wallpaper Setter v1.2"
 
 #: pwallpaper.c:378
 msgid "Scale To Fit"
@@ -43,7 +41,8 @@ msgstr "Fond d'écran configuré en mode : %s\n"
 msgid "Stretch"
 msgstr "Étiré"
 
-#: pwallpaper.c:79 pwallpaper.c:380
+#: pwallpaper.c:79
+#: pwallpaper.c:380
 msgid "Tile"
 msgstr "Juxtaposé"
 
@@ -54,7 +53,7 @@ msgstr "En utilisant le programme %s.\n"
 
 #: pwallpaper.c:279
 msgid "Wallpaper"
-msgstr "Images de fond"
+msgstr "Images de fond d'écran "
 
 #: pwallpaper.c:376
 msgid "Wallpaper Settings"

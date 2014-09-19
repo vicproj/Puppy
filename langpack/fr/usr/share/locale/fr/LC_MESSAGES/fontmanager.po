@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: fontmanager VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:53+0200\n"
-"PO-Revision-Date: 2014-09-16 20:32+0100\n"
+"PO-Revision-Date: 2014-09-19 19:08+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "Language: fr\n"
@@ -60,7 +60,7 @@ msgstr "Redémarrer X pour appliquer les modifications"
 
 #: fontmanager.sh:54
 msgid "Choose global fontsize"
-msgstr "Choisir la taille global de la police"
+msgstr "Choisir la taille globale de la police"
 
 #: fontmanager.sh:75
 msgid "Font appearance"
@@ -108,7 +108,7 @@ msgstr "Installer une police"
 
 #: fontmanager.sh:109
 msgid "Define a *.TTF file by browsing, or just drag it to the field below. Then click install. Windows TTF-files are fine."
-msgstr "Choisir un fichier *.TTF en naviguant, ou faites le glisser dans le champ ci-dessous. Puis cliquer sur installer. Les polices TTF windows sont bonnes."
+msgstr "Choisir un fichier *.TTF en naviguant, ou faites le glisser dans le champ ci-dessous. Puis cliquer sur installer. Les polices TTF windows sont valides."
 
 #: fontmanager.sh:109
 msgid "To install several fonts at once, copy new *.TTF files to the font directory"
