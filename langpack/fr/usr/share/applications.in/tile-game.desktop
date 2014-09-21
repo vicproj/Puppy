@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Jeu de tuile
+Name=Tile slider game
+Icon=mini-modules.xpm
+Comment=Tile slider game
+Exec=tile
+Terminal=false
+Type=Application
+Categories=Game
+GenericName=Tile

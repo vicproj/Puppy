@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Set global font size
+Name[fr]=Taille générale des polices
+Icon=mini-x.xpm
+Comment=Set global font size
+Exec=set-xftdpi
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+GenericName=Set global font size

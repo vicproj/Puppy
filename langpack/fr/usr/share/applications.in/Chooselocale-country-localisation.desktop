@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Chooselocale country localisation
+Name[fr]=Localisation
+Icon=mini-font.xpm
+Comment=Chooselocale country localisation
+Comment[fr]=Chooselocale localisation de votre pays
+Exec=chooselocale
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Chooselocale country localisation

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Blog personnel PPLOG
+Name=PPLOG personal blog
+Icon=mini-book2.xpm
+Comment=PPLOG personal blog
+Exec=pplog_gui
+Terminal=false
+Type=Application
+Categories=X-Personal
+GenericName=PPLOG

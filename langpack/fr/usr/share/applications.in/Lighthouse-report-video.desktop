@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Outil de rapport vidéo Lighthouse
+Name=Lighthouse report-video
+Comment=Video Reporting Tool
+Exec=report-video
+Terminal=false
+Type=Application
+Categories=System;
+GenericName=Graphics interface information
+Icon=/usr/share/icons/report-video.png

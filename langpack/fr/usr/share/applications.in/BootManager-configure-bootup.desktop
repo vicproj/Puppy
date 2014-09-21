@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BootManager configure bootup
+Name[fr]=Configurer le démarrage
+Icon=so.xpm
+Comment=BootManager configure bootup
+Comment[fr]=BootManager Configurer le démarrage
+Exec=bootmanager
+Terminal=false
+Type=Application
+Categories=X-System
+GenericName=BootManager

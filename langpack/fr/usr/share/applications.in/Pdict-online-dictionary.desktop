@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pdict online dictionary
+Name[fr]=Dictionnaire en ligne
+Icon=mini-book1.xpm
+Comment=Pdict online dictionary
+Exec=pdict
+Terminal=false
+Type=Application
+Categories=X-Document-utility
+GenericName=Pdict

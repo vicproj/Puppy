@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Editeur de balises de fichiers audio Pmetatagger
+Name=Pmetatagger audio file tag editor
+Icon=mini-speaker.xpm
+Comment=meta tagger
+Exec=/usr/sbin/pmetatagger
+Terminal=false
+Type=Application
+Categories=Audio
+GenericName=meta tagger

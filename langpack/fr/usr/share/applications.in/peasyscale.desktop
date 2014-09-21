@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Redimensionner des images PeasyScale
+Name=PeasyScale JPEG resizer
+Icon=mini-camera.xpm
+Comment=JPEG image resizer
+Exec=peasyscale
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+GenericName=PeasyScale

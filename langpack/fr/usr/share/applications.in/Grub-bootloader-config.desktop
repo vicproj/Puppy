@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Grub bootloader config
+Name[fr]=Chargeur d'amorçage (Grub)
+Name[ru]=Настройка загрузчика Grub
+Icon=grubconfig.xpm
+Comment=Grub bootloader config
+Comment[fr]=Configurer le chargeur d'amorçage (Grub)
+Exec=grubconfig
+Terminal=false
+Type=Application
+Categories=X-System-storage
+GenericName=Grub bootloader config

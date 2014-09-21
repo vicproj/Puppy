@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pdisk partition manager
+Name[fr]=Gestion des partitions (Pdisk)
+Icon=Pdisk.xpm
+Comment=Pdisk partition manager
+Exec=Pdisk
+Terminal=false
+Type=Application
+Categories=X-System-storage
+GenericName=Pdisk partition manager

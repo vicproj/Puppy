@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Intégrité des fichiers gHasher
+Name=gHasher calculate file hashes
+Comment=Calculate the md5 sum of a file
+Exec=ghasher 
+Terminal=false
+Type=Application
+Icon=hash.xpm
+Categories=Utility

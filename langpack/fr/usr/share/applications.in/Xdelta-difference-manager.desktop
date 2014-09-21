@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Xdelta file difference manager
+Name[fr]=Différences des fichiers Xdelta
+Exec=xdelta_gui
+Icon=gz.xpm
+Categories=X-Utility
+GenericName=Xdelta

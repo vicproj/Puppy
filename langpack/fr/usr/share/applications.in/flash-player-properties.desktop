@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Préférences d'Adobe Flash Player 
+Name=Adobe Flash Player preferences
+Comment=Preferences for Adobe Flash Player
+Exec=flash-player-properties
+Icon=flash-player-properties.png
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility

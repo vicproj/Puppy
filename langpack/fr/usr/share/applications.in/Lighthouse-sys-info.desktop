@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Informations du système Lighthouse
+Name=Lighthouse sys-info
+Comment=Puppy-based System Information
+Exec=sys-info
+Terminal=false
+Type=Application
+Categories=System;
+GenericName=System information
+Icon=/usr/share/icons/sys-info.png

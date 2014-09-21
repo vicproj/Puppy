@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=Archiving
+Comment=
+Comment[en_US]=
+Exec=snap2
+GenericName=Snap2
+GenericName[en_US]=Snap2
+Icon=snap2.xpm
+MimeType=
+Name[fr]=Sauvegarde instantanée Snap2
+Name=Snap2 snapshot backup
+Name[en_US]=Snap2 snapshot backup
+Path=
+StartupNotify=false
+Terminal=false
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Flux multimédia pupRadio/pupTelly
+Name=pupRadio/pupTelly streaming media
+Icon=Animation.xpm
+Comment=pupRadio/pupTelly streaming media
+Exec=pupradio
+Terminal=false
+Type=Application
+Categories=AudioVideo
+GenericName=pupRadio

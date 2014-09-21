@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WakePup create boot floppy
+Name[fr]=Disquette de démarrage
+Icon=mini-ray.xpm
+Comment=WakePup create boot floppy
+Exec=wakepup2
+Terminal=false
+Type=Application
+Categories=X-Setup-installation
+GenericName=WakePup create boot floppy

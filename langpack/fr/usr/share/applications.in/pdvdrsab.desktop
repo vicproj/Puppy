@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Extraire/réduire/créer/graver un DVD Pdvdrsab
+Name=Pdvdrsab DVD rip/shrink/author/burn
+Icon=mini-cd.xpm
+Comment=Pdvdrsab rip/shrink/author/burn
+Exec=pdvdrsab
+Terminal=false
+Type=Application
+Categories=AudioVideo
+GenericName=Pdvdrsab

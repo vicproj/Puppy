@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Parefeu Linux-Firewall
+Name=Linux-Firewall firewall
+Icon=mini-firewall.xpm
+Comment=Linux-Firewall firewall
+Exec=rxvt -e firewallinstallshell
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=Linux-Firewall

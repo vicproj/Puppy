@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Xlock lock screen
+Name[fr]= Verrou d'écran Xlock
+Icon=mini-lock.xpm
+Comment=Xlock lock screen
+Exec=/usr/local/apps/Xlock/AppRun -locknow
+Terminal=false
+Type=Application
+Categories=Security
+GenericName=Xlock lock screen

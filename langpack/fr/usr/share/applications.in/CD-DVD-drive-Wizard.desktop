@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CD/DVD drive Wizard
+Name[fr]=Assistant CD/DVD
+Icon=wizard16.xpm
+Comment=CD/DVD drive Wizard
+Comment[fr]=Assistant du lecteur/graveur de CD/DVD
+Exec=cdburner-wizard
+Terminal=false
+Type=Application
+Categories=X-Setup-wizard
+GenericName=CD/DVD drive Wizard

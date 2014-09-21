@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=LoginManager configure login
+Name[fr]=Configurer votre identifiant
+Icon=so.xpm
+Comment=LoginManager configure login
+Exec=loginmanager
+Terminal=false
+Type=Application
+Categories=X-System
+GenericName=loginmanager

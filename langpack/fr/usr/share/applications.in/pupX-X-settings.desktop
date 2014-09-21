@@ -1,0 +1,23 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=pupX set properties of X
+Name[cs]=Pupx X nastaveni
+Name[da]=Pupx X indstillinger
+Name[de]=Pupx X-Einstellungen
+Name[el]=Pupx X ρυθμίσεις
+Name[es]=Pupx la configuracion de X
+Name[fi]=Pupx X inställningar
+Name[fr]=Pupx paramètres X
+Name[it]=Pupx impostazioni di X
+Name[nb]=Pupx X innstillinger
+Name[nl]=Pupx X-instellingen
+Name[pt]=Pupx X ρυθμίσεις
+Name[ru]=Pupx X настройки
+Name[sv]=Pupx X inställningar
+Icon=mini.window3d.xpm
+Comment=Pupx X settings
+Exec=pupx
+Terminal=false
+Type=Application
+Categories=X-Desktop
+GenericName=Control X settings

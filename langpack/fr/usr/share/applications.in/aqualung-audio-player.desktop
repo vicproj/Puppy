@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Lecteur et extracteur audio Aqualung 
+Name=Aqualung audio player and ripper
+Icon=aqualung.png
+Comment=Aqualung audio player
+Exec=aqualung
+Terminal=false
+Type=Application
+Categories=Audio
+GenericName=Aqualung

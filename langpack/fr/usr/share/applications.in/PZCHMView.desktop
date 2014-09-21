@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Visualiseur de CHM PZCHMView
+Name=PZCHMView CHM Viewer
+Icon=mini-book1.xpm
+Comment=PZCHMView CHM Viewer
+Exec=pzchmview
+Terminal=false
+Type=Application
+Categories=X-DocumentUtility
+GenericName=PZCHMView

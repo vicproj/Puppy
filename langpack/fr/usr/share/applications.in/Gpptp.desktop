@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Client PPTP VPN Gpptp
+Name=Gpptp PPTP VPN client
+Icon=pc-2x.xpm
+Comment=Gpptp PPTP VPN client
+Exec=gpptp
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=Gpptp

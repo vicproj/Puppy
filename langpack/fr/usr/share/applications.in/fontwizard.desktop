@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Configurer les polices LCD Fontwizard
+Name=Fontwizard configure fonts for LCD
+Icon=mini-font.xpm
+Comment=Configurer les polices pour écran LCD
+Exec=fontwizard
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+GenericName=Fontwizard

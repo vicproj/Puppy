@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name[fr]=Jeu de briques XEmeraldia
+Name=XEmeraldia drop blocks
+Type=Application
+Exec=xemeraldia
+Icon=xemeraldia.xpm
+Terminal=false
+Categories=Game

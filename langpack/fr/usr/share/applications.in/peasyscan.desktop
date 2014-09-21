@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Scanner d'images simplifié Peasyscan
+Name=Peasyscan simple image scanner
+Icon=peasyscan.xpm
+Comment=Peasyscan simple image scanner
+Exec=peasyscan
+Terminal=false
+Type=Application
+Categories=X-GraphicUtility
+GenericName=Peasyscan

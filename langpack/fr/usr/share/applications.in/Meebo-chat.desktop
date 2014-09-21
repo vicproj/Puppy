@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Tchat (MSN/Yahoo/IRC) Meebo
+Name=Meebo MSN/Yahoo/IRC chat
+Name[ru]=Meebo MSN/Yahoo/IRC чат
+Icon=chat16.xpm
+Comment=Meebo MSN/Yahoo/IRC chat
+Exec=meeboview
+Terminal=false
+Type=Application
+Categories=X-Internet
+GenericName=Meebo

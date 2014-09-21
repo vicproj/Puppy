@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Synchroniser l'heure Psync
+Name=Psync time server synchroniser
+Icon=mini-clock.xpm
+Comment=Psync time server synchroniser
+Exec=/usr/local/psync/psync
+Terminal=false
+Type=Application
+Categories=X-DesktopCountry
+GenericName=Psync

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Monter un SFS à la volée SFS-Load
+Name=SFS-Load on-the-fly
+Icon=squashfs-image.png
+Comment=On-the-fly SFS loader
+Exec=sfs_load
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=SFS Load

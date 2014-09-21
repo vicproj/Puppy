@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Recherche de réseau Superscan
+Name=Superscan network scanner
+Icon=pc-2x.xpm
+Comment=Superscan network scanner
+Exec=superscan
+Terminal=false
+Type=Application
+Categories=Network
+GenericName=Superscan network scanner

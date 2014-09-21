@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Pcur cursor selector
+Name[fr]=Sélecteur de curseur
+Icon=default_left_ptr.png
+Comment=Mouse cursor selector
+Exec=pcur
+Terminal=false
+Type=Application
+Categories=X-Desktop-appearance
+GenericName=Pcur

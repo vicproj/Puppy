@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Formater une disquette
+Name=Format floppy disk
+Icon=mini-diskette.xpm
+Comment=Format Floppys
+Exec=Floppy_Formatter
+Terminal=false
+Type=Application
+Categories=X-SystemMemory
+GenericName=Floppy Formatter

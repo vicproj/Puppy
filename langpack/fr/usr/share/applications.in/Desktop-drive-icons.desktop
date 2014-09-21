@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Desktop drive icons manager
+Name[fr]=Icônes des disques du bureau
+Icon=mini-hdisk.xpm
+Comment=Desktop drive icons manager
+Comment[fr]=Gestion des icônes des disques du bureau
+Exec=eventmanager desktop
+Terminal=false
+Type=Application
+Categories=X-Desktop
+GenericName=eventmanager

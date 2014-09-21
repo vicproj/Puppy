@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Configuration de JWM
+Name=JWM configuration
+Icon=mini.window3d.xpm
+Comment=JWM configuration
+Exec=jwmconfig
+Terminal=false
+Type=Application
+Categories=X-Desktop
+GenericName=JWM configuration

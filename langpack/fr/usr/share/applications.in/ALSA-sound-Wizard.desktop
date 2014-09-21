@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Assistant audio ALSA
+Name=ALSA sound Wizard
+Name[ru]=ALSA настройка звука
+Name[de]=ALSA Soundkarte einstellen
+Name[es]=ALSA-Gestor de Sonido
+Name[hu_HU]=ALSA Hangkártya varázsló
+Name[ja]=ALSA サウンドウィザード
+Name[zh_CN]=ALSA 音效向导
+Name[zh_TW]=ALSA 音效精靈
+Icon=wizard16.xpm
+Comment=ALSA sound Wizard
+Exec=alsawizard
+Terminal=false
+Type=Application
+Categories=X-SetupWizard
+GenericName=ALSA sound Wizard

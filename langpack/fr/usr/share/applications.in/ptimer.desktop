@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Réveil/Chronomètre Ptimer
+Name=Ptimer StopWatch AlarmClock
+Icon=mini-clock.xpm
+Comment=Ptimer StopWatch AlarmClock
+Exec=ptimer
+Terminal=false
+Type=Application
+Categories=X-PersonalUtility
+GenericName=Ptimer StopWatch AlarmClock

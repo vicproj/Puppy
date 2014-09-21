@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Navigateur Internet SeaMonkey
+Name=SeaMonkey web browser
+Icon=seamonkey16.xpm
+Comment=SeaMonkey web browser
+Exec=mozilla
+Terminal=false
+Type=Application
+Categories=X-Internet
+GenericName=SeaMonkey web browser

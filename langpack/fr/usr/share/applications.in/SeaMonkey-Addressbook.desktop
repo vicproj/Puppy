@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Carnet d'adresses SeaMonkey
+Name=SeaMonkey Addressbook
+Icon=seamonkey16.xpm
+Comment=SeaMonkey Addressbook
+Exec=mozaddressbook
+Terminal=false
+Type=Application
+Categories=X-Personal
+GenericName=SeaMonkey Addressbook

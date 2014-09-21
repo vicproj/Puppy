@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Puppy Package Manager
+Name[ru]=Менеджер пакетов Puppy
+Name[de]=Puppy Packetmanager
+Name[fr]=Gestionnaire des paquets
+Name[hu_HU]=Telepített csomagok függőségei
+Name[hu_HU]=Puppy csomagkezelő
+Name[ja]=Puppyパッケージマネージャ
+Name[zh_CN]=Puppy 软件包管理
+Name[zh_TW]=Puppy 套件管理
+Icon=pet16.xpm
+Comment=Puppy Package Manager
+Exec=/usr/local/petget/pkg_chooser.sh
+Terminal=false
+Type=Application
+Categories=X-SetupEntry
+GenericName=Puppy Package Manager

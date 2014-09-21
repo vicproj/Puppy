@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BootFlash install Puppy to USB
+Name[fr]=Installation USB
+Name[ru]=BootFlash установка Puppy на USB
+Name[de]=BootFlash installiert Puppy auf USB
+Name[es]=BootFlash-Instalar Puppy a USB
+Name[hu_HU]=BootFlash Puppy telepítése USB -re
+Name[ja]=BootFlash パピーをUSBメモリにインストール
+Icon=mini-ray.xpm
+Comment=BootFlash install Puppy to USB
+Comment[fr]=Installation sur un support USB avec BootFlash
+Exec=/usr/sbin/bootflash
+Terminal=false
+Type=Application
+Categories=X-SetupUtility
+GenericName=BootFlash

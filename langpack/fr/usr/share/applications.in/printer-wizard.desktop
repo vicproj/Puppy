@@ -1,0 +1,18 @@
+[Desktop Entry]
+Encoding=UTF-8
+Exec=cups_shell
+GenericName=
+Icon=wizard16.xpm
+MimeType=
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DCOP-ServiceType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Name=CUPS Printer Wizard
+Name[fr]=Assistant d'impression
+Comment=CUPS Printer Wizard
+Categories=X-Setup-wizard

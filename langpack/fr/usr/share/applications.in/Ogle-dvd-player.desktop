@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name[fr]=Lecteur de films DVD Ogle
+Name=Ogle DVD movie player
+Icon=ogle_gui.xpm
+Comment=Ogle DVD movie player
+Exec=ogle
+Terminal=false
+Type=Application
+Categories=AudioVideo
+GenericName=Ogle
