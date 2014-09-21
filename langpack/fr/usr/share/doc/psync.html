@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Psync 2.3 - Synchroniser l'heure sur un serveur</title>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=ISO-8859-1">
+  </head>
+  <body>
+    <p><font face="Arial, Helvetica, sans-serif"><br>
+        <font size="5"><strong>Psync - Pour synchroniser l'heure sur un
+            serveur.</strong></font></font></p>
+    <p><font face="Arial, Helvetica, sans-serif">Psync peut &ecirc;tre
+        lanc&eacute; &agrave; partir du menu Bureau.</font></p>
+    <p>&nbsp;</p>
+    <p><font face="Arial, Helvetica, sans-serif"><strong>PREMIEREMENT:</strong><br>
+        Si vous ne l'avez pas encore fait, &agrave; partir du
+        menu/Bureau/Fuseau horaire d&eacute;finissez d'abord votre
+        fuseau horaire g&eacute;ographique </font><font face="Arial,
+        Helvetica, sans-serif"> correspondant</font><font face="Arial,
+        Helvetica, sans-serif">. <br>
+        i.e Europe/London - Europe/Paris etc. D&eacute;roulez la
+        fen&ecirc;tre des&nbsp; fuseaux horaires et choisissez le bon.<br>
+      </font><span id="result_box" class="short_text" lang="fr"><span
+          class="hps">NE CHOISISSEZ PAS le </span><span class="hps">d&eacute;calage
+
+          GMT</span></span><font face="Arial, Helvetica, sans-serif">
+        :&nbsp; p</font><span id="result_box" class="" lang="fr"><span
+          class="hps">arce que</span> <span class="hps">la construction
+          des</span> <span class="hps">commandes de ce script utilise</span>
+        <span class="hps">des param&egrave;tres r&eacute;gionaux</span></span><font
+        face="Arial, Helvetica, sans-serif">.<br>
+      </font><font face="Arial, Helvetica, sans-serif">Si vous voulez
+        absolument utiliser le d&eacute;calage GMT, n'utilisez pas
+        Psync.<br>
+        <strong>Vous devez red&eacute;marrer pour rendre les nouveaux
+          param&egrave;tres actifs. Et cela avant de lancer Psync.</strong><br>
+        Locale zoneinfo contains information on offset plus DST etc.
+        (Daylight Savings Time) allowing Psync to set time correctly
+        according to your location.<br>
+        Setting the timezone this way also allows the desktop clock to
+        auto change for DST. <br>
+        GMT file is just a numerical offset etc. which means Psync may
+        ignore it and set your clock according to server location. Which
+        may be set to UTC and cause your clock to be set up to 2 hours
+        off.</font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><strong>L'ECRAN:</strong><br>
+        This has buttons for choice of setting time by internet public
+        time servers. To synchronise your computer to a time server
+        press the button nearest to your location. This keeps the
+        'latency' low. i.e. time taken for signal to go back and forth
+        on internet. </font></p>
+    <p><font face="Arial, Helvetica, sans-serif"><font face="Arial,
+          Helvetica, sans-serif"><br>
+          The offset shown in the display refers to the time difference
+          between the 'motherboard' hardware clock, also known as RTC
+          (Real Time Clock) and the 'system' clock.</font></font></p>
+    <font face="Arial, Helvetica, sans-serif">
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          RTC is kept going by a small battery when PC is powered off.
+          Also known as a CMOS battery. <br>
+          Remove the battery and usually the PC will reset to an
+          arbitrary time in the past, say 1st January 1900 00:00:00, so
+          if you do remove the battery, use a local time source <br>
+          first to set the RTC. DON'T use this program.<br>
+          The 'system' clock is set by the Puppy kernel on bootup and is
+          then kept running by software 'ticks'.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          Depending on accuracy of the software 'ticks' the system clock
+          will drift from the RTC clock time. Especially if system is
+          not powered down for some time.<br>
+          Psync reads your RTC and your 'system clock' and shows the
+          difference, usually a fraction of a second, unless you have
+          never synchronised it before.<br>
+          Psync will first read the clocks and then when a button is
+          clicked will synchronise all clocks to a public time server.
+          (A small window will confirm and show actual time difference)</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          Strangely, if the offset is different by an amount larger than
+          say 3 minutes then the time 'set' may blank the display for
+          some time whilst it resets the time. <br>
+          It can be minutes or so before desktop returns. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif"> Depending on the
+          location of server, your ISP connection speed, your PC specs,
+          etc. Then your time will always be out by a few milliseconds
+          or so to 'atomic time'.<br>
+          That is known as 'time' latency. Some users spend thousands to
+          get closer to this time !!!</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"> The Region buttons
+          uses a separate program called '<font color="#00CC00">ntpdate</font>'.<br>
+          This checks the 'active server pools', a set of servers that
+          are actually online, against your time and averages the
+          servers before making the time adjustment. This makes for more
+          accurate setting.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          <strong></strong></font><font face="Arial, Helvetica,
+          sans-serif"><font face="Arial, Helvetica, sans-serif"><strong>Description&nbsp;
+
+              de </strong></font></font><font face="Arial, Helvetica,
+          sans-serif"><strong>'ntpdate'</strong><br>
+          <font color="#00CC00">ntpdate</font> sets the local date and
+          time by polling the Network Time Protocol (NTP) server(s)
+          given, to determine the correct time. <br>
+          A number of samples are obtained from each of the servers and
+          a subset of the NTP clock filter and selection algorithms are
+          applied to select the best of these. <br>
+          Note that the accuracy and reliability of <font
+            color="#00CC00">ntpdate</font> depends on the number of
+          servers, the number of polls each time it is run and the
+          interval between runs.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          Time adjustments are made by '<font color="#00CC00">ntpdate</font>'
+          in one of two ways.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" color="#00CC00">settimeofday()
+
+        </font><font face="Arial, Helvetica, sans-serif"> to step (set)
+          the time. This method is used if the time is off by more than
+          128ms.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" color="#00CC00">adjtime()</font><font
+          face="Arial, Helvetica, sans-serif"> to slew (gradually
+          change) the time. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Slewing the time
+          means to change the virtual frequency of the software clock to
+          make the clock go faster or slower until the requested
+          correction is achieved. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Slewing the clock for
+          a larger amount of time may require some time, too. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">For example standard
+          Linux adjusts the time with a rate of 0.5ms per second.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><br>
+          The latter technique is less disruptive and more accurate when
+          the error is small, and works quite well.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><strong>Possible
+            pr&eacute;cision :</strong></font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Of course the final
+          achievable accuracy depends on the time source being used.
+          Basically, no client can be more accurate than its server. In
+          addition the quality of network connection also influences the
+          final accuracy. Slow and non predictable networks with varying
+          delays are very bad for good time synchronization.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">A time difference of
+          less than 128ms between server and client is required to
+          maintain NTP synchronization. The typical accuracy on the
+          Internet ranges from about 5ms to 100ms, possibly varying with
+          network delays. A recent survey suggests that 90% of the NTP
+          servers have network delays below 100ms, and about 99% are
+          synchronized within one second to the synchronization peer.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">With PPS
+          synchronization an accuracy of 50&micro;s and a stability
+          below 0.1 PPM is achievable on a Pentium PC (running Linux for
+          example). </font></p>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif"><strong>ENFIN :</strong><br>
+          I don't know about you, but I'm not getting hung up on setting
+          any closer than a few milliseconds. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><strong>Rob Lane
+            (tasmod on Puppy Forums)<br>
+            GPL 2009.&nbsp; - Traduction JJ Moulinier, Octobre 2011.</strong><br>
+        </font> </p>
+    </font>
+  </body>
+</html>

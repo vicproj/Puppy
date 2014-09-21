@@ -1,0 +1,461 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+  <title>Pburn</title>
+</head>
+<body>
+<table style="width: 760px; height: 29px;" border="1" cellpadding="2"
+ cellspacing="2">
+  <tbody>
+    <tr>
+      <td
+ style="vertical-align: top; background-color: rgb(192, 192, 192);">
+      <div style="text-align: left;"> <br>
+      <font size="+3"><span style="font-weight: bold;">&nbsp;Pburn</span></font>&nbsp;
+      <span style="color: rgb(0, 153, 0);">...CD/DVD/Blu-ray burner</span>
+      </div>
+      </td>
+      <td
+ style="vertical-align: top; background-color: rgb(192, 192, 192); text-align: right;">
+Version 2.0.x&nbsp; <br>
+      <a href="http://www.murga-linux.com/puppy/viewtopic.php?t=23881"
+ target="new">Pburn</a>&nbsp; <br>
+GPL, Copyright 2007,2008&nbsp; <br>
+Sigmund Berglund&nbsp; <br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<blockquote>
+  <br>
+  <br>
+______________________________________________________________________________________________<br>
+INDEX<br>
+  <br>
+{1} Travailler avec Pburn<br>
+{2} En profondeur<br>
+{3} Paramètres<br>
+{4} Pièges potentiels<br>
+  <br>
+  <br>
+______________________________________________________________________________________________<br>
+{1} TRAVAILLER AVEC PBURN<br>
+  <br>
+Pburn supporte la gravure des&nbsp; CD, DVD et des disques Blu-ray.
+La taille du média est imprimée sur la surface du disque, et c'est une
+info précieuse à connaitre avant la gravure. Normalement,
+les CD contiennent 700 Mo, les DVD 4,7 Go&nbsp; et les disques
+Blu-rayons 25 Go. Mais ces derniers sont différents, alors à utiliser
+avec
+précaution.<br>
+  <br>
+Ajouter des fichiers et répertoires à la liste à graver, que ce soit
+avec le navigateur ou l'outil de recherche. Vous pouvez également
+ouvrir une liste précédemment sauvée ou importer tout fichier
+texte contenant des noms de fichiers. Y compris les playlistes de
+musique ordinaire.<br>
+  <br>
+Les éléments de la liste peuvent être édités. Vous pouvez
+supprimer des éléments, les renommer ou les déplacer dans un nouveau
+répertoire. Ces éléments sont des liens vers des fichiers existants de
+votre
+système, et pointera sur leur source, quoi que vous éditiez.<br>
+  <br>
+Pburn manipule le contenu de la liste à graver dedifférentes façons. <br>
+- Gravure d'un disque de données, à partir du contenu d'une liste à
+graver. Ce disque sera
+compatible avec les PC, lecteurs mp3, lecteurs de Divx... <br>
+- Gravure d'un CD audio à partir des fichiers audio de la liste à
+graver. Ces CD peuvent être lus dans des lecteurs CD ordinaires. <br>
+- Gravure d' un DVD/CD de fichiers d'une liste à graver, qui peuvent
+être lus dans des lecteurs de DVD ordinaires<br>
+- Gravure d'une image&nbsp; iso de l'un des fichiers *. iso de la liste
+à graver. Une
+image iso est un système de fichiers binaires pour les disques optiques.<br>
+  <br>
+En plus de l'action sur les éléments de la liste à graver, Pburn
+possède des outils pour copier et effacer des disques. Pour la copie,
+il est utile de
+rappeler que vous n'avez pas besoin de 2 graveurs pour copier un
+disque.
+Si vous n'avez&nbsp; seulement qu'un graveur, Pburn va d'abord faire
+une
+image iso du disque source de votre système. Puis graver cette image.<br>
+  <br>
+Si vous n'avez pas de disque pour graver quoi que ce soit pour le
+moment. Il y a 2
+façons de sauver le contenu sans entamer le dernier processus de
+gravure. <br>
+1. Vous pouvez enregistrer la liste à graver dans un fichier *.
+pbn. Il s'agit d'un petit fichier comprenant uniquement des infos sur
+les
+données. Ce fichier ne peut être utilisé dans aucun autre
+programme que Pburn. <br>
+2. Vous pouvez sauvegarder le système de fichiers
+iso9660 complètement. Il contient toutes les données et sera le plus
+souvent
+énorme en taille. Ce fichier *. iso est compatible avec la plupart des
+logiciels
+de gravure. <br>
+  <br>
+  <br>
+______________________________________________________________________________________________<br>
+{2} EN PROFONDEUR<br>
+  <br>
+&lt; MIME &gt;<br>
+Pour voir le contenu du fichier, double-cliquer sur celui-ci, et il
+s'ouvrira, si l'extension est définie dans Rox MIME-types. <br>
+Cela est
+aussi possible par l'intermédiaire du menu outils. Mais alors il n'
+agira que sur la sélection dans la liste à graver, pas dans
+naviguer/rechercher<br>
+  <br>
+&lt; Audio &gt;<br>
+Pburn utilise 'ffmpeg' pour encoder et supporter les formats *.mp3,
+*.ogg, *.wma and *.wav. Les autres formats
+ont besoins d'autres encodeurs. <br>
+*. Ape nécessite "mac". <br>
+*. Flac nécessite "flac". <br>
+*. Mp4 et *. m4a nécessite "faad2". <br>
+Lors de l'utilisation de ces encodeurs supplémentaires, le calcul du
+temps (minutes de musique) ne fonctionnera pas correctement.<br>
+  <br>
+  <br>
+&lt; Vidéo &gt;<br>
+Pburn enregistre chaque fichier comme un
+chapitre. Cela signifie que vous pouvez 'sauter' au film suivant ou
+précédent&nbsp; avec
+votre télécommande. Pburn ne fait pas de menus sur le DVD. Pour cela,
+vous avez besoin d'un programme d'authoring DVD approprié.<br>
+Gardez à l'esprit que les fichiers audio et vidéo sont
+avides d'espace temporaire sur votre disque dur. Quelques minutes de
+film compressé (avi, mov ...) représentent des dizaines de méga-octets
+sur
+votre disque gravé. Et toutes ces données doivent d'abord être stockés
+sur
+votre système.<br>
+  <br>
+  <br>
+&lt;Diaporama &gt;<br>
+Il s'agit d'un DVD/CD Vidéo avec seulement
+des images et un fichier audio pour la musique d'arrière plan.This is a
+Video-DVD/CD with only images and an audio file for background music.
+Sachez que vous pouvez exporter le produit fini diaporama sans
+effectuer de gravure. Ainsi, vous pouvez créer plusieurs
+pistes audiocks avec les photos et les graver toutes selon la norme
+Video-DVD/CD.<br>
+  <br>
+&lt; Importer (play)list &gt;<br>
+Cela importe un fichier texte avec une liste de noms de fichiers. <br>
+-- Elle exclut toutes les lignes avec '#'. C'est le plus souvent des
+meta-info dans les play-listes. <br>
+-- Si les noms de fichiers dans la liste sont sans chemin, Pburn
+utilise la voie de la liste importée. <br>
+-- En option, Pburn octroie un numéro aux morceaux, ceci pour maintenir
+l'ordre original.<br>
+  <br>
+  <br>
+&lt; Vérifier &gt;<br>
+Pburn peut vérifier de deux façons:<br>
+1.
+'Vérifier la qualité du disque' (dans le menu 'Outils'). Il scanne le
+disque pour rechercher les erreurs C2. Le lecteur tente d'interpoler
+ces lacunes dans les données, mais si il
+ya trop d'erreurs, il pourra afficher un échec de lecture. Les erreurs
+C2
+peuvent se produire quand le disque est physiquement en équilibre
+(comme une roue qui est sortie de son axe ou davantage sur un côté), ce
+qui peut être évité en réduisant la vitesse de gravure. <br>
+2. "Vérifier le système de fichiers". Si la gravure, en stockage
+temporaire (off-the-fly), des données est comparée avec les données
+dans le stockage temporaire.<br>
+  <br>
+  <br>
+&lt; Avancé &gt;<br>
+L'objectif de Pburn est d'être fonctionnel et convivial pour un
+débutant. Il
+n'affiche pas les options avancées comme l'overburning, eltorito ...
+Mais
+elles sont tout de même disponibles. Après avoir ajouté les fichiers à
+la
+liste à graver et cliqué sur le bouton Graver, la boîte de dialogue des
+préférences montre un onglet "Avancé". Ici vous pouvez modifier la
+commande avant de graver. Pburn est une interface graphique pour
+mkisofs, cdrecord, growisofs, cdda2wav et cdrdao. Vous trouverez une
+bonne documentation pour tous ces programmes sur le web.<br>
+  <br>
+  <br>
+&lt; Paramètres &gt;<br>
+Paramètres de Pburn&nbsp; lors de son lancement à partir d'un terminal.
+  <br>
+*.pbn - lance Pburn avec un fichier *.pbn.<br>
+*.iso - Va directement vers 'graver une image iso'.<br>
+-c - ne détecte PAS automatiquement les médias. les paramètres
+Multisession ne seront pas complétés par défaut.<br>
+-d dir - lance Pburn dans un autre répertoire.<br>
+-f - utilise le mode raw-burn. Grave le contenu de /tmp/pburn, et suit
+toujours les lien symboliques.<br>
+-h - affiche un message d'aide.<br>
+-i file - Importe la liste (fichier texte) avec les noms de fichier.
+Voir 'Importer la (play)liste'.<br>
+-v - affiche le version de Pburn.<br>
+  <br>
+  <br>
+______________________________________________________________________________________________<br>
+{3} PARAMETRES<br>
+  <br>
+La
+boîte de dialogue des préférences peut être ouvert à partir du menu
+fichier. Ici vous pouvez définir vos paramètres préférés. Les
+modifications seront sauvegardées pour une utilisation ultérieure en
+cliquant sur le bouton OK. Si des paramètres sont
+difficiles à comprendre, l'aide est là. Chaque onglet de la
+boîte de dialogue des préférences possède son propre bouton "info". <br>
+Pburn
+ouvrira la boîte de dialogue des Préférences dès que vous aurez cliqué
+sur le
+bouton Graver dans la fenêtre principale. Vous pourrez alors passer
+outre les paramètres donnés avant de graver.<br>
+  <br>
+  <br>
+{3.1} GENERAL<br>
+  <br>
+&lt;Recherche / MIME &gt;<br>
+  <br>
+Pburn utilise 'Pfilesearch' comme moteur de reche de fichiers. Tous les
+paramètres de recherhce sont gobaux et affectent donc tous les autres
+programmes qui utilisent Pfilesearch.<br>
+  <br>
+&lt; Support de langue &gt;<br>
+Réglé sur 'auto', Pburn utilise la variable d'environnement LANG pour
+détecter la langue active. S'il n'y a pas de fichier pour votre langue,
+c'est l'anglais qui sera utilisé.<br>
+  <br>
+  <br>
+{3.2} GRAVER<br>
+  <br>
+&lt; Multisession &gt;<br>
+Ceci permet de graver plusieurs fois sur un disque. Peu importe que ce
+soit un CD-R ou CD-RW. Il est préférable de
+conserver les mêmes paramètres pour chaque session. Sinon il est
+possible que le disque ne fonctionne pas correctement après la gravure.
+Vous pouvez fermer le disque, pour ne plus permettre aucune gravure, à
+tout moment.<br>
+  <br>
+  <br>
+&lt; A la volée &gt;<br>
+La gravure à la volée (sans stockage temporaire) est nécessaire lorsque
+l'espace sur le disque système est trop restreint. Parfois elle permet
+de graver plus rapidement. Mais il est plus sûr d'utiliser le stockage
+temporaire, cela permet de graver plus souvent sans erreur. La
+technique du stockage
+temporaire est également plus rapide
+lors de la gravure de plusieurs copies d'un média. Si le système est
+chargé (pas beaucoup de RAM libre), vous pouvez rencontrer des
+difficultés pour graver à la volée. Pour aider un système surchargé,
+essayez de régler la vitesse de gravure la plus faible. <br>
+  <br>
+Si
+vous gravez CD audio à partir de fichiers&nbsp; *. mp3, *. ogg ...etc.
+Ils doivent être
+convertis en fichiers *. wav dans un
+stockage temporaire avant la gravure. Mais vous pouvez graver un Cd
+audio directement à la volèe à partir de fichiers *.wav. <br>
+De la même manière, si vous gravez des DVD vidéo, les fichiers devront
+d'abord être convertis&nbsp; dans le bon format dans un stockage
+temporaire.<br>
+  <br>
+  <br>
+{3.3} SYSTEME DE FICHIERS<br>
+  <br>
+&lt; ISO9660 &gt;<br>
+Les CD/DVDs utilisent le système de fichiers
+iso9660. Il s'agit d'un système basique,&nbsp; qui se présente dans un
+système&nbsp; non-linux/windows, ou lorsque Rockridge/Joliet n'est pas
+choisi.<br>
+  <br>
+&lt; Rockridge/Joliet &gt;<br>
+Rockridge/Joliet donne au système de fichiers iso9660 des infos
+supplémentaires pour
+permettre les noms de fichiers longs (avec les espaces) sous
+Linux/Windows.<br>
+  <br>
+  <br>
+  <br>
+{3.4} DEVICE<br>
+  <br>
+&lt; Devices &gt;<br>
+Par défaut, Pburn utilise /dev/cdrom pour la gravure. Cela peut ne
+pas fonctionner s'il y a plus d'un lecteur sur le système. Choisissez
+le graveur dans la liste.<br>
+  <br>
+&lt; Vitesse &gt;<br>
+Les graveurs possèdent une vitesse de gravure maximale. Ce n'est pas
+toujours
+le meilleur choix pour votre système. En réglant la
+vitesse sur Auto, Pburn tente de fixer une vitesse de travail
+raisonnable pour votre graveur/disque/système.<br>
+  <br>
+  <br>
+  <br>
+{3.5} AUDIO<br>
+  <br>
+&lt; A la volée &gt;<br>
+Normalement Pburn utilise le mode à la
+volée (Track-at-once - TAO). Il grave morceau par morceau , et ainsi il
+utilise peu de mémoire.
+Entre chaque morceau, TAO intercale un espace de 2 secondes. C'est
+souvent très bien, mais si les morceaux s'enchainent en fondus, les
+espaces seront alors percus comme des bugs. Pour éviter ça, utilisez
+plutôt disc-at-once (DAO). Mais sachez que DAO utilise plus de mémoire
+que TAO.<br>
+  <br>
+En raison d'un mauvais firmware, certains
+graveurs n'acceptent pas les modes TAO/DAO. Ils doivent graver en mode
+raw. Mais, cela ne laissera
+pas d'espace entre les morceaux.<br>
+  <br>
+&lt; Normaliser &gt;<br>
+Si les morceaux viennent de différentes sources, ils ont souvent des
+niveau de volume différents. Pburn peut modifier le niveau du volume de
+chaque morceau pour que le niveau moyen soit le même pour chaque
+morceau de la compilation.<br>
+  <br>
+  <br>
+{3.6} CD-TEXT<br>
+  <br>
+&lt; CD-text &gt;<br>
+CD-text est une information additionnelle sur un CD audio. Cette info
+contient normalement le nom de l'artiste/morceau/album et sont affichés
+sur le lecteur de CD s'il le permet. Tous les lecteurs ne le font pas,
+et tous les graveurs ne peuvent pas non plus graver du texte sur les
+disques. <br>
+  <br>
+Evitez les caractères spéciaux dans le texte des CD, ça pourrait donner
+des résultats inattendus.
+Le texte des CD peut également être écrit en mode 'track-at-once
+(tao). Pburn se réglera automatiquement sur 'disc-at-once' si tao est
+choisi.<br>
+  <br>
+&lt; CDDB &gt;<br>
+Lors de la copie d'un CD audio, Pburn peut rechercher sur Internet des
+information pour le texte du CD. Vous pouvez changer librement le texte
+avant la copie.<br>
+  <br>
+  <br>
+{3.7} VIDEO<br>
+  <br>
+&lt; TV standard &gt;<br>
+Les deux standards de télévision les plus
+connus sont PAL et NTSC. Vous devez choisir le bon ou vous ne pourrez
+pas lire les disques. Vérifiez dans la liste le standard de votre pays.
+Si SECAM est le standard de votre pays, vous devez utiliser le PAL.<br>
+  <br>
+&lt; Taux d'aspect &gt;<br>
+Il n'est pas si important que ça. Il lira ce que vous aurez
+choisi, mais si le DVD est destiné à être lu sur un téléviseur grand
+écran, le film montrera mieux s'il correspond.<br>
+  <br>
+  <br>
+{3.8} DIAPORAMA<br>
+  <br>
+&lt; Diaporama &gt;<br>
+La gravure des diaporama ne supporte que
+des fichiers images et audio. Aucun film ne peut être gravé. L'audio
+sera coupé quand le diaporama des images sera terminé. La musique
+d'arrière plan supporte principalement les mêmes formats que les CD
+audio.<br>
+  <br>
+&lt; Seulement construire un Diaporama &gt;<br>
+Cette option est
+grande, si vousfaites des diaporama compliqués. Vous pouvez dès
+maintenant plusieurs diaporamas et graver les fichiers comme un DVD
+Vidéo ordinaire. Ou même mieux, -vous pouvez avoir plusieurs piste
+audio avec des images en arrière plan.<br>
+  <br>
+  <br>
+{3.9} COPIER / AJUSTER DES DVD VIDEO<br>
+  <br>
+&lt; Copier / ajuster &gt;<br>
+Si vous choisissez de copier uniquement un film (pour l'adapter à un
+DVD
+simple couche), sachez que les sous-titres ne seront pas inclus. Les
+principaux fichiers sur le DVD sont désignés par le 'TITRE'. Un titre
+est
+le film. Pburn attend le titre avec la plupart des chapitres afin de
+définir quel titre est le film. Si la V n'est pas bonne&nbsp;
+vous devez changer le paramètre par défaut.<br>
+  <br>
+  <br>
+{3.10} PUBLICATION<br>
+  <br>
+&lt; Publication &gt;<br>
+L'information de publication sera ajoutée à tout projet de
+DONNEES.&nbsp; Elle ne sera pas ajoutée lors de la
+gravure d'images ISO, CD Audio ou de toute forme de copie. La plus
+utilisée est celle du "Nom du projet"',&nbsp; souvent utilisée par les
+gestionnaires de fichiers pour définir les disques.<br>
+  <br>
+  <br>
+{3.11} AVANCE<br>
+  <br>
+&lt; Manipuler la commande de gravure &gt;<br>
+Cochez "Permettre
+l'édition ... " pour manipuler la commande de gravure. Si
+vous avez changé des paramètres dans les autres onglets, utilisez le
+bouton «rafraîchir» pour voir ces changements dans la ligne de
+commande. Lorsque
+vous cliquez sur le bouton "Graver", Pburn exécutera la commande
+indiquée. Quand "Permettre l'édition ... " n'est pas cochée, Pburn
+exécute des paramètres donnés.<br>
+  <br>
+&lt; Priorité au CPU &gt;<br>
+Vous pouvez donner à Pburn plus ou
+moins des ressources de votre système.
+Sachez que cela aura une incidence sur toutes les autres applications
+en fonctionnement. Appuyez sur le bouton de rafraîchissement
+pour voir les changements. Attention! Une faible priorité au CPU
+pourrait
+donner un tampon en condition de sous rendement ou "<span
+ style="background-color: rgb(230, 236, 249);"
+ onmouseover="_tipon(this)" onmouseout="_tipoff()"></span>buffer
+underrun" sur votre système, et le
+disque risque d'être inutilisable.<br>
+  <br>
+  <br>
+______________________________________________________________________________________________<br>
+{4} PIEGES POSSIBLES<br>
+  <br>
+-&nbsp; Sachez que les Go des vendeurs sont de 10003 et non de 10243
+Mo. La
+capacité&nbsp; des "vrais"DVD +-R [W]&nbsp; simple couche n'est que de
+4.4 Go au lieu des 4,7 Go annoncés, et les Blu-ray ne font pas plus de
+23.3 Go!<br>
+- Si des problèmes de gravure avec des noms de fichiers contenant des
+caractères particuliers (æøå), lancez Pburn avec le paramètre-f. Ouvrez
+un terminal et exécuter la commande 'pburn-f'.<br>
+-- Il est recommandé de ne pas exécuter des applications lourdes,
+pendant la gravure. Cela peut
+conduire à des dépassements de tampon en sous rendement si votre PC
+n'est pas en mesure d'allouer suffisamment de temps pour le traitement
+de la gravure. Cela rendra le disque inutilisable. Le
+choix d'une vitesse de gravure trop élevée ou une faible priorité au
+CPU pourrait aussi amener un tampon en sous rendement. <br>
+-- Tous les graveurs ne peuvent pas "voir" au-delà de la première
+session. Peu de lecteurs de DVD-ROM sont capables de relire des DVD-R ,
+encore moins de supporter les DVD + R multisession. En d'autres termes,
+votre graveur de DVD pourrait être le seul, dans votre voisinage,
+capable d'accéder aux données ajoutées à différentes occasions. <br>
+-- Les médias RW peuvent supporter 1000 effacements environ. <br>
+-- Les médias RW ne sont pas lisibles par une grande partie des
+lecteurs. <br>
+-- Les CD Audio n'ont pas de système de fichiers, ils ne doivent donc
+pas être montées, il suffit de les lire. <br>
+-- Si un outil de montage automatique est actif, il peut détecter un
+disque
+formaté et le monter. Vous ne pouvez pas graver un disque monté.
+Désactivez l'outil de montage automatique.
+</blockquote>
+</body>
+</html>

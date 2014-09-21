@@ -1,0 +1,186 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>Content-type: text/html
+
+
+<div>
+<h1>AXEL</h1>
+Section: commandes utilisateur  (1)<br><a href="#0.1_index">Index</a>
+<a href="http://localhost/cgi-bin/man/man2html" target="_blank">Retour au sommaire</a><hr>
+
+<p>
+<a name="0.1_lbAB">&nbsp;</a>
+</p><h2>NOM</h2>
+
+<b>Axel</b> - Un accélérateur de téléchargements, léger pour Linux.
+<p>
+<a name="0.1_lbAC">&nbsp;</a>
+</p><h2>SYNOPSIS</h2>
+
+<b>axel</b>
+
+[<i>OPTIONS</i>] <i>url1</i> [<i>url2</i>] [<i>url...</i>]
+<p>
+<a name="0.1_lbAD">&nbsp;</a>
+</p><h2>DESCRIPTION</h2>
+Axel est un programme qui télécharge un fichier depuis un serveur
+ftp/HTTP grâce à une connexion multiple, chaque connexion téléchargeant
+sa propre partie du fichier. <p>
+À la différence de la plupart des autres programmes, Axel télécharge
+toutes les données directement vers le fichier de destination, en
+utilisant un lien simple. Il fait gagner du temps justement à la fin
+parce que le programme n'a pas à enchaîner toutes les parties
+téléchargées.
+</p><p>
+<a name="0.1_lbAE">&nbsp;</a>
+</p><h2>OPTIONS</h2>
+
+<p>
+
+</p><p>Un argument est exigé, l'URL du fichier que vous voulez
+télécharger. En téléchargeant du FTP, le nom de fichier peut contenir
+des caractères de remplacement et le programme essayera de résoudre le
+nom de fichier complet. Des URL multiples peuvent être aussi bien être
+spécifiées et le programme utilisera toutes ces URL pour le
+téléchargement. Veuillez noter que le programme ne vérifie pas si les
+dossiers sont similaires.
+</p><p>
+
+Autres options:
+</p><p>
+</p><dl compact="compact">
+<dt><b>--max-speed=x</b>, <b>-s&nbsp;x</b></dt><dd>Vous pouvez
+spécifier ici, une vitesse (octets par seconde) et Axel essayera de
+garder la vitesse moyenne autour de cette vitesse. Utile si vous ne
+voulez pas que le programme consomme toute votre bande-passante.
+<p>
+</p></dd><dt><b>--num-connections=x</b>, <b>-n&nbsp;x</b></dt><dd>
+Ici, vous pouvez spécifier le nombre de connexions différentes.
+<p>
+</p></dd><dt><b>--output=x</b>, <b>-o&nbsp;x</b></dt><dd>Les données
+téléchargées seront mises dans un fichier local avec le même nom, à
+moins que vous ne spécifiiez un nom différent en utilisant cette
+option. Vous pouvez indiquer un répertoire aussi, le programme ajoutera
+le nom de fichier.
+<p>
+</p></dd><dt><b>--search[=x]</b>, <b>-S [x]</b></dt><dd>
+Axel peut faire une recherche de miroirs en utilisant le moteur de recherche <a href="http://filesearching.com/" target="_blank">filesearching.com</a>.
+Cette recherche sera faite si vous utilisez cette option. Vous pouvez
+aussi spécifier combien de miroirs différents devraient être utilisés
+pour le téléchargement.
+<p>La recherche de miroirs peut prendre du temps car le programme
+évalue la vitesse de chaque serveur et il vérifie si le fichier est
+toujours disponible.
+</p><p>
+</p></dd><dt><b>--no-proxy</b>, <b>-N</b></dt><dd>Ne pas utiliser de
+serveur proxy pour télécharger le fichier. Impossible bien sûr quand un
+proxy transparent est actif quelque part.
+<p>
+</p></dd><dt><b>--verbose</b></dt><dd>Si vous voulez voir plus de
+messages d'informations, vous pouvez utiliser cette option. Utilisez-la
+plus d'une fois si vous voulez en voir plus.
+<p>
+</p></dd><dt><b>--quiet</b>, <b>-q</b></dt><dd>
+Pas de sortie d'informations à l'écran.
+<p>
+</p></dd><dt><b>--alternate</b>, <b>-a</b></dt><dd>Cela montrera un
+autre indicateur de progression. Une barre affiche l'avancement et le
+statut des différents liens , avec la vitesse courante et une
+évaluation du temps de téléchargement restant.
+<p>
+</p></dd><dt><b>--help</b>, <b>-h</b></dt><dd>
+Un bref résumé de toutes les options.
+<p>
+</p></dd><dt><b>--version</b>, <b>-V</b></dt><dd>
+Obtenir l'information sur la version.
+<p>
+</p></dd><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></dl>
+<a name="0.1_lbAF">&nbsp;</a>
+<h2>NOTE</h2>Les options longues (doubles tirets) sont gérées seulement
+si votre plate-forme supporte la fonction 'getopt_long'. Sinon (comme
+*BSD), seules les options courtes peuvent être utilisées.
+<p>
+<a name="0.1_lbAG">&nbsp;</a>
+</p><h2>VALEUR DE RETOUR</h2>
+
+Le programme renvoie :
+0 quand le téléchargement est réussi,
+1 quand un gros problème arrive,
+2 quand le téléchargement est interrompu,
+Si quelque chose d'autre est retournée, ça doit être un bug ..
+
+<p>
+<a name="0.1_lbAH">&nbsp;</a>
+</p><h2>EXEMPLES</h2>
+
+<pre>axel <a href="ftp://ftp.%7bbe,nl,uk,de%7d.kernel.org/pub/linux/kernel/" target="_blank">ftp://ftp.{be,nl,uk,de}.kernel<wbr>.org/pub/linux/kernel/</a> v2.4/linux-2.4.17.tar.bz2
+</pre>
+
+<p>
+Ceci utilisera les mirois : belges, hollandais, anglais et allemands de '<a href="http://kernel.org/" target="_blank">kernel.org</a>' pour télécharger une image du noyau Linux <a href="http://2.4.17./" target="_blank">2.4.17.</a>
+</p><p>
+</p><pre>axel -S 4 <a href="ftp://ftp.kernel.org/pub/linux/kernel/v2.4/" target="_blank">ftp://ftp.kernel.org/pub/linux<wbr>/kernel/v2.4/</a> linux-2.4.17.tar.bz2
+</pre>
+
+<p>
+Ceci effectuera une recherche du fichier 'linux-2.4.17.tar.bz2' sur '<a href="http://filesearching.com/" target="_blank">filesearching.com</a>' et utilisera les quatre (si possible) miroirs les plus rapides pour le téléchargement. (probablement comprenant <a href="ftp://ftp.kernel.org/" target="_blank">ftp.kernel.org</a>)
+</p><p>
+(naturellement, les commandes sont à saisir sur une seule ligne, ce que ne permet pas la mise en forme de cette page)
+</p><p>
+<a name="0.1_lbAI">&nbsp;</a>
+</p><h2>FILES</h2>
+
+<p>
+
+<i>/etc/axelrc</i> Fichier de configuration générale
+</p><p>
+
+<i>~/.axelrc</i> Fichier de configuration personnelle
+</p><p>Ces fichiers ne sont pas documentés dans la page du manuel, mais
+le fichier d'exemple qui est fournit avec le programme contient,
+j'espère, assez d'informations. L'emplacement du fichier de
+configuration générale, pourrait être différent.
+</p><p>
+<a name="0.1_lbAJ">&nbsp;</a>
+</p><h2>COPYRIGHT</h2>
+
+Axel is Copyright 2001-2002 Wilmer van der Gaast.
+<p>
+<a name="0.1_lbAK">&nbsp;</a>
+</p><h2>BUGS</h2>
+
+<p>
+
+Je suis sûr qu'il y a encore quelques bugs, dites-le-moi s'il vous plaît et j'essayerai de les fixer.
+</p><p>Un bug connu consiste en ce que le programme fait des choses
+mystérieuses en téléchargeant par l'intermédiaire de centaines de
+connexions. Et bien tout simplement, ne le paramétrez pas ainsi.
+</p><p>
+<a name="0.1_lbAL">&nbsp;</a>
+</p><h2>AUTHORS</h2>
+
+Wilmer van der Gaast. (<a href="mailto:lintux@lintux.cx" target="_blank">lintux@lintux.cx</a>)
+<p>
+
+</p><hr>
+<a name="0.1_index">&nbsp;</a><h2>Index</h2>
+<dl>
+<dt><a href="#0.1_lbAB">NOM</a></dt><dd>
+</dd><dt><a href="#0.1_lbAC">SYNOPSIS</a></dt><dd>
+</dd><dt><a href="#0.1_lbAD">DESCRIPTION</a></dt><dd>
+</dd><dt><a href="#0.1_lbAE">OPTIONS</a></dt><dd>
+</dd><dt><a href="#0.1_lbAF">NOTE</a></dt><dd>
+</dd><dt><a href="#0.1_lbAG">VALEUR DE RETOUR</a></dt><dd>
+</dd><dt><a href="#0.1_lbAH">EXEMPLES</a></dt><dd>
+</dd><dt><a href="#0.1_lbAI">FICHIERS</a></dt><dd>
+</dd><dt><a href="#0.1_lbAJ">COPYRIGHT</a></dt><dd>
+</dd><dt><a href="#0.1_lbAK">BUGS</a></dt><dd>
+</dd><dt><a href="#0.1_lbAL">AUTHORS</a></dt><dd>
+</dd></dl>
+<hr>
+Ce document a été créé d'après
+<a href="http://localhost/cgi-bin/man/man2html" target="_blank">man2html</a>,
+en utilisant les page du manuel.<br>
+Time: 07:36:11 GMT, July 17, 2004
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div>
+
+</body></html>

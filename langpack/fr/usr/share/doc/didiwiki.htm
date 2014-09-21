@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>
+<div>
+<h1>DidiWiki</h1>
+Voir ci-dessous : <a href="#0.1_Rules">Règles pour éditer une page de wiki</a><br>
+<pre>DidiWiki 0.5<br>==============<br><br>DidiWiki est une petite et simple implémentation WikiWikiWeb écrite en <br>C. Elle est destinée à une utilisation personnelle pour des notes, 'listes à faire' etc. Elle inclut son <br>propre webserver et avec bon espoir d'être aussi simple que d'avoir seulement à : compiler, lancer<br>et indiquer l'adresse à votre navigateur. <br><br>Installation<br>============<br><br>Pour la compilation saisissez l'habituel ./configure et make. Vous pouvez alors tapez make install ou<br>lancez DidiWiki directement depuis l'emplacement des sources. Au démarrage il vous fournira l'adresse <br>vers laquelle diriger votre navigateur. Dès lors vous prêt à commencer. <br><br>Si c'est une mise à jour d'une version, c'est une bonne idée de supprimer <br>~/.didiwiki/DidiHelp avant le lancement du programme, ainsi vous aurez la dernière version <br>du fichier d'aide.<br><br><br>API déportée<br>==========<br><br>Ainsi 0.5 DidiWiki a un 'REST' très simple comme http api. On espère que <br>cela permettra d'écrire d'autres interfaces pour didiwiki. <br> <br>L'api apparaît telle quelle, passée en variable avec GET ou POST ;<br><br><a href="http://didiwiki/api/page/get?page=XXX" target="_blank">http://didiwiki/api/page/get<wbr>?page=XXX</a><br><br> Prenez le texte de wiki brut pour la page indiquée. Code de rendu http 500, si <br> la page n'existe pas.<br><br><a href="http://didiwiki/api/page/set?page=XXX&amp;text=XXX" target="_blank">http://didiwiki/api/page/set<wbr>?page=XXX&amp;text=XXX</a><br><br> Mettez le wikitext d'une page. La page est créée si elle n'existe pas. <br><br><a href="http://didiwiki/api/page/exists?page=XXX" target="_blank">http://didiwiki/api/page<wbr>/exists?page=XXX</a><br><br> Retour 'gagnant' si la page existe, sinon erreur 500. <br><br><a href="http://didiwiki/api/page/delete?page=XXX" target="_blank">http://didiwiki/api/page<wbr>/delete?page=XXX</a><br><br> Supprime une page. <br> <br>http: // didiwiki/api/pages <br> <br> Retourne une liste séparée (une entrée par ligne contenant la page <br> le titre, l'ÉTIQUETTE, la date modifiée) de pages de wiki avec la plus récemment modifiée <br> en premier. <br> <br>http: // didiwiki/api/search ? Expr=XXX <br> <br> Comme ci-dessus, mais avec des listes dont les pages contiennent 'expr'<br><br><br>Notes &amp; Excuses<br>===============<br><br>- si vous voulez contribuer, s'il vous plaît vérifier le TODO ! <br><br>- les pages sont stockées dans ~/.didiwiki (vous pouvez l'ignorer en mettant  <br>  'DIDIWIKIHOME' vers une adresse valable.). Vous pouvez ajouter une feuille de styles .css <br>  à cette adresse pour ignorer la feuille de style par défaut.<br><br>- La partie webserver est entièrement basée sur le serveur interne du cvstrac, <br>  suivant la même sorte de processus;<br><br> - C'est un serveur fourché, léger et assez simple. Un processus-enfant est<br>  dérivé pour traiter chaque demande http.<br><br> - Ces processus dérivés, ne le sont, que pendant <br> moins d'une seconde, ainsi aucune tentative réelle n'est faite pour une plus grande utilisation de <br> la mémoire.<br><br> - Ce n'est probablement pas très sûr du tout. !! S'IL VOUS PLAÎT NE L'EXÉCUTEZ PAS EN MODE 'ROOT' !!<br><br>- Le code utilise 'asprintf' en deux ou trois endroits. Je ne connaît pas sa  portabilité <br> sur des systèmes non-Linux. Si celà vous pose problème, libre à vous d'envoyer des <br> patches.<br><br>- Vous pouvez debugguer segv en en lançant ' didiwiki debug ' qui ne fera pas <br> demarré le serveur http, celui-ci existant dans un processus simple, mais s'attendant à la demande de HTTP sur le stdin. <br><br>- Le style de formatage est très semblable à celui de kwiki - j'aime bien <br> kwiki :-)<br><br>- Je l'ai écrit en C, principalement parce que j'ai oublié le Python, Perl etc <br> (et j'ai voulu que celà tourne facilement sur un PDA).<br><br></pre>
+<br>
+<hr style="width: 100%; height: 2px;">
+<h2><a name="0.1_Rules"></a>Règles pour éditer une page de wiki</h2>
+<div>
+<p>Extrait du site Web kwiki.<br>
+Cela décrit le langage de balises wiki utilisé par ce kwiki. 
+
+</p>
+<hr>
+<h2>Notes</h2>
+<ul><li>Certaines de ces règles ne sont pas <em> précisément </em> spécifiées dans la révision actuelle de Kwiki, donc vous pouvez vouloir vérifier le <a href="http://www.kwiki.org/?SandBox" target="_blank">SandBox</a> Pour une image (légèrement) plus précise de <a href="http://www.kwiki.org/?KwikiText" target="_blank">KwikiText</a> comme il apparaît maintenant.</li><li>Après
+la modification de votre page de caractère utilisez le bouton de
+SAUVEGARDE sans retaper le nom de votre page en haut, sinon vous
+obtiendrez une erreur.</li></ul>
+<hr>
+<h1>Niveau d'en-tête 1 (H1)</h1>
+<pre>= Niveau d'en-tête 1 (H1)<br></pre>
+<p>
+.
+</p>
+<hr>
+<h2>Niveau d'en-tête 2 (H2)</h2>
+<pre>== Niveau d'en-tête 2 (H2)<br></pre>
+<p>
+.
+</p>
+<hr>
+<h3>Niveau d'en-tête 3 (H3)</h3>
+<pre>=== Niveau d'en-tête 3 (H3)<br></pre>
+<p>
+.
+</p>
+<hr>
+<h4>Niveau d'en-tête 4 (H4)</h4>
+<pre>==== Niveau d'en-tête 4 (H4)<br></pre>
+<p>
+.
+</p>
+<hr>
+<h5>Niveau d'en-tête 5 (H5)</h5>
+<pre>===== Niveau d'en-tête 5 (H5)<br></pre>
+<p>
+.
+</p>
+<hr>
+<h6>Niveau d'en-tête 6 (H6)</h6>
+<pre>====== Niveau d'en-tête 6 (H6)<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Les lignes horizontales dans cette page sont faites avec 4 tirets, ou plus :
+</p>
+<pre>----<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Les paragraphes sont séparés par une ligne vierge.
+
+</p>
+<p>
+Comme ceci. Un autre paragraphe.
+</p>
+<pre>Les paragraphes sont séparés par une ligne vierge.<br><br>Comme ceci. Un autre paragraphe.<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+<strong>Bold text</strong>, <em>texte en italique</em>, et <u>texte souligné</u>.
+</p>
+<pre>*Bold text*, /italic text/, et_underscore text_.<br></pre>
+<p>
+<em><strong>Combinaison de bold et d'italique</strong></em>
+</p>
+<pre>/*Combinaison de bold et italics*/<br></pre>
+<p>
+.
+Insertion de code, tels <tt>/etc/passwd</tt> ou <tt>CGI::Kwiki</tt>
+</p>
+<pre>Insertion de code, tels [=/etc/passwd] ou [=CGI::Kwiki]<br></pre>
+<p>
+.
+<del>Strikethrough</del>
+</p>
+<pre>-Strikethrough-<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+<a href="http://www.kwiki.org/?WikiLinks" target="_blank">liens-wiki</a>, ils sont formés par deux mots ou plus en <em>camel-case</em>.
+</p>
+<pre>liens-wiki, ils sont formés par deux mots ou plus en /camel-case/.<br></pre>
+<p>
+Liens externes commençant par http://, comme <a href="http://www.freepan.org/" target="_blank">http://www.freepan.org</a>
+</p>
+<pre>Liens externes commençant par http://, comme <a href="http://www.freepan.org/" target="_blank">http://www.freepan.org</a><br></pre>
+<p>
+Dans certains cas des liens peuvent apparaître comme <span style="font-weight: bold; background-color: red;">&lt;spam://.&gt;</span> Cela signifie que vous avez entré une adresse qui n'est pas en liste-blanche. Attendez un administrateur pour l'autoriser.
+
+</p>
+<p>
+<a href="http://www.kwiki.org/?links" target="_blank">Liens</a> wiki forcés, c'est une série alphanumérique entourée par des crochets.
+</p>
+<pre>[Liens]wiki forcés, c'est une série alphanumérique entourée par des crochets.<br></pre>
+<p>
+Nommer des liens ayant du texte avec un http:// <em></em> en lien interne, tel : <a href="http://www.freepan.org/" target="_blank">FreePAN Site</a>
+</p>
+<pre>Nommer des liens ayant du texte avec un http:// en lien interne, tel [FreePAN <a href="http://www.freepan.org/" target="_blank">http://www.freepan.org</a> Site]<br></pre>
+<p>
+Parfois desmotsdevraientêtreunlien<wbr>-wiki, mettez '!' devant.
+</p>
+<pre>Parfois !desmotsdevraientêtreunlien<wbr>-wiki, mettez '!' devant.<br></pre>
+<p>
+De même avec <a href="http://foobar.com/" target="_blank">http://foobar.com</a>
+</p>
+<pre>De même avec !<a href="http://foobar.com/" target="_blank">http://foobar.com</a><br></pre>
+<p>
+Envoyer un courriel par des liens n'étant que des adresses électroniques, comme <a href="mailto:foo@bar.com" target="_blank">foo@bar.com</a>.
+</p>
+<pre>Envoyer un courriel par des liens n'étant que des adresses électroniques, comme <a href="mailto:foo@bar.com" target="_blank">foo@bar.com</a>.<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Liens vers des images affichant l'image :
+
+</p>
+<p>
+<img>
+</p>
+<pre><a href="http://www.google.com/images/logo.gif" target="_blank">http://www.google.com/images<wbr>/logo.gif</a><br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Listes non-ordonnées commençant par un '* '. Le nombre d'astérisques détermine le niveau :
+</p>
+<ul><li>foo</li><li>bar</li><ul><li>boom</li><li>bam</li></ul><li>baz</li></ul>
+<pre>* foo<br>* bar<br>** boom<br>** bam<br>* baz<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Listes ordonnées commençant par un '0 ' (zéro):
+
+</p>
+<ol><li>foo</li><li>bar</li><ol><li>boom</li><li>bam</li></ol><li>baz</li></ol>
+<pre>0 foo<br>0 bar<br>00 boom<br>00 bam<br>0 baz<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Vous pouvez aussi, mélanger les listes :
+</p>
+<ul><li>Today:</li><ol><li>Eat icecream</li><li>Buy a pony</li></ol></ul><ul><li>Tomorrow:</li><ol><li>Eat more icecream</li><li>Buy another pony</li></ol></ul>
+<pre>* Today:<br>00 Eat icecream<br>00 Buy a pony<br>* Tomorrow:<br>00 Eat more icecream<br>00 Buy another pony<br></pre>
+<p>
+.
+
+</p>
+<p>
+Cette possibilité ne fonctionne plus correctement dans Kwiki &gt;0.31.
+Remarquez que cela produit deux listes non ordonnées au niveau
+supérieur, au lieu d'une. –<a href="http://www.kwiki.org/?MattHoward" target="_blank">MattHoward</a>
+</p>
+<hr>
+<p>
+N'importe quel texte qui ne commence pas dans la première colonne est rendu comme texte préformaté.
+</p>
+<pre>foo   bar<br> x     y<br> 1     2<br></pre>
+<p>
+.
+</p>
+<hr>
+<p>
+Vous pouvez commenter du wiki-texte avec '#' au début d'une ligne. Le texte s'affichera comme un commentaire en HTML :
+</p>
+# These lines have been 
+# commented out
+<pre># These lines have been <br># commented out<br></pre>
+<p>
+.
+
+</p>
+<p>
+Cette possibilité ne fonctionne plus correctement dans Kwiki &gt;0.31.  Rien à dire de plus, ça ne marche pas –<a href="http://www.kwiki.org/?MattHoward" target="_blank">MattHoward</a>
+</p>
+<hr>
+<p>
+Tableaux simples :
+</p>
+<table>
+<tbody><tr>
+<td><br>
+</td>
+<td>Dick</td>
+<td>Jane</td>
+</tr>
+<tr>
+<td>height</td>
+<td>72"</td>
+<td>65"</td>
+</tr>
+<tr>
+<td>weight</td>
+<td>130lbs</td>
+<td>150lbs</td>
+</tr>
+</tbody></table>
+<pre>|        | Dick   | Jane |<br>| height | 72"    | 65"  |<br>| weight | 130lbs | 150lbs |<br></pre>
+<hr>
+<p>
+Pas d'insertion en HTML.
+</p>
+<pre>&lt;hr&gt; &lt;bold&gt;No?&lt;/bold&gt; &lt;i&gt;Yes?&lt;/i&gt; &lt;hr/&gt;<br></pre>
+<p>
+Retournent ceci : &lt;hr&gt; &lt;bold&gt;No?&lt;/bold&gt; &lt;i&gt;Yes?&lt;<em>i&gt; &lt;hr</em>&gt;
+
+</p>
+<p>
+Remarquez que le charactère '<tt>/</tt>' dans les étiquettes est retourné en balise <em>italique</em>.
+
+</p>
+<hr>
+<p>
+Pour empêcher IE6 d'afficher un mauvais rendu des pages qui contiennent
+du texte préformaté, ajouter un point après chaque bloc de texte
+préformaté comme je l'ai fait dans cette page. C'est du provisoire - en
+attendant que le bug, annoncé par <a href="http://www.kwiki.org/?MichaelIvey" target="_blank">MichaelIvey</a> at <a href="http://www.kwiki.org/?BugReports" target="_blank">BugReports</a> soit fixé. – <a href="http://www.kwiki.org/?DennieReniers" target="_blank">DennieReniers</a>
+</p>
+</div>
+<br>
+<br>
+</div>
+</body></html>

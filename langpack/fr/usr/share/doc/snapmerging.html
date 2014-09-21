@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Assistant de r&Atilde;&copy;plications instantan&Atilde;&copy;es</title></head><body>
+<div style="text-align: center; font-weight: bold;">Cet assistant ne fonctionne 
+que lorsque PUPPY/TOUTOU tourne depuis un lecteur USB.<br>
+</div>
+
+<br>
+Le type de m&eacute;moire utilis&eacute; par les lecteurs USB ne peut
+supporter qu'environ 1 000 000 lectures/&eacute;critures
+d'op&eacute;rations. Cela cr&eacute;e un probl&egrave;me en
+ex&eacute;cutant n'importe quel programme, et particuli&egrave;rement
+un syst&egrave;me d'exploitation, depuis un lecteur USB. Le
+probl&egrave;me est : comment &eacute;viter &agrave;&nbsp; l'USB de
+fr&eacute;quentes &eacute;critures ? <br>
+
+<br>
+
+PUPPY/TOUTOU r&eacute;soud ce probl&egrave;me en utilisant unionfs (ou aufs, cel&agrave;&nbsp; d&eacute;pend 
+de la version de PUPPY/TOUTOU). C'est expliqu&eacute; <a href="http://www.puppyos.com/development/howpuppyworks.html">ici</a>,
+voir la section &agrave;&nbsp; propos de PUPMODE 13.&nbsp; Unionfs&nbsp; 
+permet de garder tous les changements du syst&egrave;me de fichiers dans la RAM. 
+Par exemple, supposez que vous ayez un fichier sur votre lecteur USB et
+que vous modifiez ce fichier. Quand vous modifiez le fichier, PUPPY/TOUTOU 
+en r&eacute;alit&eacute; copie d'abord le fichier en RAM et garde ensuite le fichier modifi&eacute; 
+dans la RAM. Ainsi, toutes les modifications du syst&egrave;me de fichiers sont 
+en r&eacute;alit&eacute; stock&eacute;es dans la RAM.<br>
+
+<br>
+Cela r&eacute;sout le probl&egrave;me de fr&eacute;quentes
+&eacute;critures en m&eacute;moire USB. Mais tout de m&ecirc;me,
+&agrave;&nbsp; un certain moment nous devons "sauvegarder" tous les
+changements de la RAM vers
+la m&eacute;moire USB. Sinon les changements seront perdus apr&egrave;s
+le reboot. <br>
+<br>
+<big></big>
+<hr style="width: 100%; height: 2px;"><big>
+Il y a plusieurs fa&ccedil;ons d'organiser la sauvegarde de la RAM vers l'USB. La chose 
+la plus naturelle est de sauvegarder r&eacute;guli&egrave;rement, toutes les 30 minutes. C'est 
+l'option par d&eacute;faut. Les deux autres options sont :<br>
+</big>
+<ul>
+  <big>
+  </big><li><big>ne pas sauvegarder r&eacute;guli&egrave;rement, mais seulement quand vous cliquez sur <img style="width: 48px; height: 48px;" alt="saveflush48.png" src="file:///usr/local/lib/X11/pixmaps/saveflash48.png">&nbsp; et pendant le shutdown</big></li><big>
+  </big><li><big>ne pas sauvegardez du tout, m&ecirc;me pas durant l'arr&ecirc;t</big></li><big>
+  </big>
+</ul>
+<big>
+La deuxi&egrave;me option est utile quand vous testez quelques modifications 
+(comme l'installation d'un nouveau programme) et pas s&ucirc;r que vous appr&eacute;cierez 
+le r&eacute;sultat, vous pourriez alors vouloir revenir en arri&egrave;re. D&eacute;sactivez seulement 
+la sauvegarde de la RAM vers USB et tous les changements seront perdus apr&egrave;s le reboot. 
+Et si vous aimez vraiment les changements que vous avez faits, vous pouvez toujours 
+activer la sauvegarde, donc vos changements persisteront apr&egrave;s le reboot.</big><br>
+
+<hr style="width: 100%; height: 2px;"><br>
+
+<span style="font-weight: bold;">Les "options avanc&eacute;es"</span> sont n&eacute;cessaires pour la sauvegarde des pr&eacute;tendus fichiers whiteout.<br>
+<small><big><span style="color: rgb(255, 0, 0);"><span style="font-weight: bold;">Attention :</span> les options avanc&eacute;es seront r&eacute;initialis&eacute;es apr&egrave;s le reboot.</span><br>
+</big></small>Une br&egrave;ve explication des fichiers whiteout:<br>
+<ol>
+  <li><span style="text-decoration: underline;">Les fichiers whiteout simples</span>. Les fichiers whiteout sont n&eacute;cessaires quand vous voulez <span style="font-style: italic;">effacer</span>
+un fichier sur l'USB. En m&ecirc;me temps, dans PUPPY/TOUTOU le fichier
+n'est pas r&eacute;ellement effac&eacute;, mais au lieu de cela le
+"fichier whiteout" sp&eacute;cial est cr&eacute;&eacute; dans le disque
+virtuel, qui indique au syst&egrave;me qu'il devrait ignorer ce fichier
+"effac&eacute;" et le rendre invisible. Qu'est-ce qui arrive
+&agrave;&nbsp; ce "fichier whiteout" pendant
+la sauvegarde ? En r&eacute;alit&eacute; le plus naturel serait
+d'effacer ce fichier de l'USB laquelle serait "blanchie". Apr&egrave;s
+que ce fichier ait &eacute;t&eacute; effac&eacute;, le "fichier
+whiteout"
+lui-m&ecirc;me n'est d&eacute;sormais plus n&eacute;cessaire, aussi
+donc nous l'effa&ccedil;ons simplement .. Cependant, ce n'est pas
+toujours la chose juste &agrave;&nbsp; faire. Le probl&egrave;me
+&eacute;tant que quelques fichiers du fichier-syst&egrave;me de
+PUPPY/TOUTOU viennent des "squashs". Les squashs sont des
+fichiers-syst&egrave;mes compress&eacute;s en lecture-seule. En
+r&eacute;alit&eacute; vous ne pouvez pas effacer le fichier sur le
+squash, car le squash est en lecture- seule. Si vous voulez vraiment
+vous d&eacute;barrasser d'un tel fichier, tout ce que vous pouvez faire
+est de cr&eacute;er un whiteout pour cela. Maintenant, la question est,
+voulons-nous que ce whiteout soit conserv&eacute; quand nous
+sauvegarderons des fichiers de la RAM vers l'USB ? Si nous ne le
+faisons pas, alors le fichier "effac&eacute;" depuis le squash
+r&eacute;appara&agrave;&reg;tra apr&egrave;s le reboot. Par
+d&eacute;faut les fichiers whiteout ne sont pas sauvegard&eacute;s.</li>
+  <li><span style="text-decoration: underline;">Les fichiers whiteout Dir-opaque.</span><big> </big><small><big>Le
+fichier .wh. __ dir_opaque indique au syst&egrave;me d'ignorer tous les
+fichiers dans les dossiers possibles portant le m&ecirc;me nom dans
+l'arborescence basse du fichier-syst&egrave;me. De m&ecirc;me, les
+fichiers dir_opaque ne sont pas sauvegard&eacute;s par d&eacute;faut.</big></small></li>
+</ol><small><big><span style="color: rgb(255, 0, 0);"><span style="font-weight: bold;"></span></span></big></small><br>
+
+<small>
+</small>
+<br>
+
+</body></html>

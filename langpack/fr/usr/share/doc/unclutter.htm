@@ -1,0 +1,156 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Pages du manuel d'UNCLUTTER</TITLE>
+</HEAD><BODY>
+<H1>UNCLUTTER</H1>
+Section: Misc. Pages de références du manuel (1X)<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Retour au sommaire principal</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NOM</H2>
+
+unclutter - enlève l'image du curseur inoccupé, de l'écran
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<B>unclutter</B>
+
+[<B>-display</B>|<B>-d</B>
+
+<I>display</I>]
+
+[<B>-idle</B>
+
+<I>seconds</I>]
+
+[<B>-keystroke</B>]
+
+[<B>-jitter</B>
+
+<I>pixels</I>]
+
+[<B>-grab</B>]
+
+[<B>-noevents</B>]
+
+[<B>-reset</B>]
+
+[<B>-root</B>]
+
+[<B>-onescreen</B>]
+
+[<B>-not</B>]
+
+<I>name ...</I>
+
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<B>unclutter</B>
+
+Enlève l'image du curseur à l'écran afin qu'il n'entrave pas le secteur que vous regardez
+après qu'il ne se soit pas déplacé dans un temps donné.
+Il n'opère pas si le curseur est dans la fenêtre root ou si un bouton est cliqué.
+Il essaye d'ignorer la vibration (de petits mouvements dû aux interférences) si vous avez une souris qui tire d'un coup sec.
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<DL COMPACT>
+<DT>-display<DD>
+est suivi par l'affichage à ouvrir.
+<DT>-idle<DD>
+est suivi par le nombre de secondes entre des tests d'inactivité.
+Par défaut 5.
+<DT>-keystroke<DD>
+indique à
+<B>unclutter</B>
+de ne pas utiliser un temps de veille pour déterminer quand enlever le curseur, mais plutôt d'attendre jusqu'à ce qu'une touche ait été pressée (vraiment éffectuée).
+<DT>-jitter<DD>
+est suivi par le nombre de mouvements du pointeur qui doivent être ignorés et considérés comme une interférence aléatoire.
+Par défaut 0.
+<DT>-grab<DD>
+means use the original method of grabbing the pointer in order to remove the
+cursor. 
+This often doesn't interoperate too well with some window managers.
+signifie d'utiliser la méthode originale du pointeur pour enlever le curseur. Souvent cela n'interagit pas trop bien avec quelques window manager.
+<DT>-noevents<DD>
+stops unclutter sending a pseudo EnterNotify event to the X client whose
+cursor has been stolen.
+Sending the event helps programs like emacs think that they have not
+lost the pointer focus.
+This option is provided for backwards compatibility in case some
+clients get upset.
+arrête l'envoi de notification de nettoyage, par un pseudo-évènement EnterNotify au client X dont le curseur a été enlevé.
+L'envoi de l'événement aide des programmes comme emacs qui pensent qu'ils n'ont pas perdu le pointeur.
+Cette option est fournie pour une rétro-compatibilité dans le cas où quelques clients sont déstabilisés.
+<DT>-reset<DD>
+remet le temps de veille pour l'inoccupation du curseur après que celui-ci ait été rétabli pour une quelconque raison (comme une fenêtre déplacée ou pointée) bien que les coordonnées x y du curseur n'ait pas changé.
+Normalement, le curseur serait immédiatement à nouveau enlevé.
+<DT>-root<DD>
+signifie d'enlever le curseur même s'il est dans un environnement root, où en principe, il ne devrait rien obscurcir d'utile.
+<DT>-onescreen<DD>
+limite le nettoyage au seul écran d'affichage spécifié, ou à celui d'indiqué par défaut.
+Normalement, unclutter agira sur tous les écrans d'affichage.
+<DT>-not<DD>
+is followed by a list of window names where the cursor should not be
+removed.
+The first few characters of the WM_NAME property on the window need
+to match one the listed names.
+This argument must be the last on the command line.
+est suivi par une liste de noms de fenêtre où le curseur ne devrait pas être enlevé.
+Les quelques premiers caractères de la propriété WM_NAME sur la fenêtre doivent correspondre à un des noms inscrits.
+Cet argument doit être le dernier sur la ligne de commande
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>RESTRICTIONS</H2>
+
+l'option -keystroke peut ne pas fonctionner (c'est-à-dire que le curseur 
+ne disparaîtra pas) avec des clients qui requièrent des événements KeyRelease.
+Des jeux et des applications Xt utilisant KeyUp dans leurs tables 
+de correspondances, ont le plus de probilités de souffrir de ce problème.
+La solution la plus faisable est d'étendre unclutter afin d'utiliser l'extension 
+XTEST pour obtenir tous les évenements, clavier et souris, quoique bien sûr 
+ceci exige  que XTEST soit dans le serveur aussi.
+<P>
+
+l'option -keystroke ne distingue pas les touches de modifications, de celles 
+qui produisent en réalité des caractères.
+Si vous le désirez, cela pourrait être mis en oeuvre d'une façon simple 
+en utilisant XLookupString pour voir si tous les caractères sont retournés.
+<A NAME="lbAG">&nbsp;</A>
+<H2>DIAGNOSTIQUES</H2>
+
+Le message
+<P>
+<BR>&nbsp;someone&nbsp;created&nbsp;a&nbsp;sub-window&nbsp;to&nbsp;my&nbsp;sub-window!
+<P>
+signifie que unclutter pense qu'un second nettoyage est exécuté, 
+et essaye de récupérer le curseur en créant une sous-fenêtre dans 
+la sous-fenêtre déjà utiliser pour récupérer le curseur.
+Cette situation dégénère rapidement en un combat que personne 
+ne peut gagner, donc elle est détectée dès que possible 
+et le programme renonce.
+<A NAME="lbAH">&nbsp;</A>
+<H2>AUTHOR</H2>
+
+Mark M Martin. cetia 7feb1994. <A HREF="mailto:mmm@cetia.fr">mmm@cetia.fr</A>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NOM</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">RESTRICTIONS</A><DD>
+<DT><A HREF="#lbAG">DIAGNOSTICS</A><DD>
+<DT><A HREF="#lbAH">AUTEUR</A><DD>
+</DL>
+<HR>
+Ce document a été créé grâce à
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+en utilisant les pages du manuel<BR>
+Time: 20:57:11 GMT, June 10, 2006
+</BODY>
+</HTML>

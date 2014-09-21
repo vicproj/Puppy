@@ -1,0 +1,273 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head><body>Content-type: text/html
+
+
+<div>
+<h1>cdp</h1>
+Section: Audio CD Player (1)<br>Updated: 10 Nov 1995<br><a href="#0.1_index">Index</a>
+<a href="http://localhost/cgi-bin/man/man2html" target="_blank">Retour au sommaire</a><hr>
+
+<a name="0.1_lbAB">&nbsp;</a>
+<h2>NOM</h2>
+
+cdplay -- un programme interactif de mode de texte pour commander et jouer des ROM de CD audio sous Linux.
+<a name="0.1_lbAC">&nbsp;</a>
+<h2>SYNOPSIS</h2>
+
+<b>cdp</b>
+
+[ -h | -l | -n | -s ] [play &lt;track-num&gt;]
+<br>
+
+<b>cdplay</b>
+
+[ -h | -l | -n | -s ] [play &lt;num&gt;] [stop] [table]
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-s&nbsp;:&nbsp;Démarrer&nbsp;en<wbr>&nbsp;mode&nbsp;silence
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-h&nbsp;:&nbsp;aide
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-n&nbsp;:&nbsp;pas&nbsp;d'autoplay
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-l&nbsp;:&nbsp;démarrage&nbsp;lent<wbr>&nbsp;(en attente&nbsp;d'&nbsp;init)
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;play&nbsp;&lt;num&gt;&nbsp;:&nbsp;lecture
+automatique&nbsp;depuis&nbsp;&lt;le n°&gt;&nbsp;de
+piste&nbsp;du&nbsp;CD
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stop&nbsp;:&nbsp;arrêt&nbsp;du&nbsp;CD.
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;table&nbsp;:&nbsp;affiche&nbsp;le
+contenu&nbsp;du&nbsp;menu&nbsp;du&nbsp;CD&nbsp;depuis&nbsp;la base de
+données
+<br>
+
+<p>
+Saisissez
+<b>cdp</b>
+
+pour lancer le programme. 
+Verrouillez le pavé numérique (NUM LOCK). 
+cdp ouvert, presser la touche DEL et un menu d'aide s'affichera. Tout en tournant,
+<b>cdp</b>
+
+montrera le numéro de piste courant et la durée totale écoulée, de la piste jouée ainsi que celle du CD.
+Notez que le temps total écoulé du CD, inclut les durées pour les pistes, données audio et non-audio comprises.
+</p><p>
+Utilisez 
+<b>cdplay</b>
+
+pour employer la version non-interactive de cdp.
+</p><p>
+</p><p>
+<a name="0.1_lbAD">&nbsp;</a>
+</p><h2>DESCRIPTION</h2>
+
+<b>cdp</b>est un programme interactif en ligne de commande pour pour
+écouter des CDs audio sous Linux. Il est basé sur WorkBone, lui-même
+dépendant des modules"hardware.c", "database.c" et "struct.c" du
+programme complexe de CD X11, connu sous le nom de WOrkMan.
+<b>cdp</b>
+
+montre les bases de données de CD, comme celles générées par WorkMan. Il permet également d'éditer cette information.
+<p>
+
+<b>cdp</b>s'attend à trouver le périphérique en : /dev/cdrom. Si vous
+n'avez pas cette configuration, allez à /dev/nomdupériphérique et créez
+un lien symbolique vers /dev/cdrom. Par exemple, si vous appelez
+actuellement votre lecteur cdrom depuis 'mcd0', faites la chose
+suivante :
+<br>
+
+</p><p>
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cd&nbsp;/dev
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ln&nbsp;-sf&nbsp;mcd0<wbr>&nbsp;cdrom
+<br>
+
+</p><p>
+</p><p>
+
+Autrement, éditez juste 'hardware.c' pour qu'il reflète votre configuration et recompilez
+</p><p>
+
+<b>cdp</b>Utilise le clavier numérique comme un panneau de
+configuration pour vous permettre de vous déplacer de piste en piste,
+jouer, mettre en pause, arrêter et résumer les actions sur le CD audio.
+Assurez-vous d'avoir verrouiller votre clavier, pour l'utilisation de
+<b>cdp.</b>
+
+Un modèle graphique est affiché pour vous guider. Les temps de fonctionnement sont sans arrêt mis à jour et également affichés.
+</p><p>
+<br>
+
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+----&nbsp;number<wbr>&nbsp;pad&nbsp;-----+
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;8&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;9&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;5&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;6&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;del&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<wbr>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+------------<wbr>---------+
+<br>
+
+</p><p>
+<br>
+
+la touche '9' ---&gt;  "lire"
+<br>
+ 
+la touche '8' ---&gt;  "pause/reprise"
+<br>
+
+la touche '7' ---&gt;  "arrêt"
+<br>
+
+la touche '6' ---&gt;  "suivant"
+<br>
+
+la touche '5' ---&gt;  "re-lire"
+<br>
+
+la touche '4' ---&gt;  "précédent"
+<br>
+
+la touche '3' ---&gt;  "avance de 15 secondes"
+<br>
+
+la touche '2' ---&gt;  "arrêt forcé" (la musique s'arrête)
+<br>
+ 
+la touche '1' ---&gt;  "en arrière de 15 secondes"
+<br>
+
+la touche '0'  ---&gt;  "quitter le programme" (la musique continue)
+<br>
+
+la touche '.' ---&gt;  "aide"
+<br>
+
+la touche 'enter/entrée' ---&gt; édite la chanson courante.
+<br>
+
+la touche 'a' ---&gt; édite le nom de l'artiste.
+<br>
+
+la touche 'c' ---&gt; édite le nom du CD.
+</p><p>
+
+<a name="0.1_lbAE">&nbsp;</a>
+</p><h2>DUPLICATION</h2>
+
+<b>cdp</b>
+
+est
+<b>copyrighted</b>
+
+free software provided WITHOUT warranty of any kind,
+NOT EVEN the implied warranty of merchantablilty or fitness for 
+any particular purpose. Use at your own risk.
+<b>cdp</b>
+
+may be used in any way you wish so long as you comply with the
+provisions of the Free Software Foundation 
+<b>GNU General Public License </b>
+version 2. Ce logiciel devrait être fourni avec une copie de la GNU
+General Public License. Vous pouvez obtenir une copie de cette licence
+en écrivant à :
+<br>
+
+<p>
+<br>
+
+	Free Software Foundation, Inc.,
+<br>
+
+	675 Mass Ave,
+<br>
+
+	Cambridge, MA 02139, USA.
+<br>
+
+</p><p>
+<a name="0.1_lbAF">&nbsp;</a>
+</p><h2>BUGS</h2>
+
+Il est douteux que je fasses beaucoup de développement pour
+<b>cdp.</b>J'ai retravaillé WorkBone 0.1 pour le support des bases de
+données de CD. Ce programme est une autre prolongation de WorkBoneII
+0.2 pour soutenir l'édition de base de données de CD. Svp envoyez un
+E-mail pour tous fixages de bugs ou amélioriations, que vous pourriez
+avoir fait.
+<b>cdp</b>fonctionne avec mon lecteur de CDRom Mitsumi FX001D, mais à
+l'usage avec d'autres lecteurs ceci peut être différent pour vous.
+Seulement les appels et les fonctions génériques sont utilisés de façon
+appropriée, par WorkMan lui-même. À la différence de WorkBone, <b>cdp</b>
+utilise ncurses pour afficher l'écran. Si quiconque est intéressé pour
+un portage sur d'autres plate-formes veuillez m'envoyer un email.
+<br>
+
+<p>
+Appréciez.
+<br>
+
+</p><p>
+Sariel Har-Peled
+<br>
+
+</p><p>
+<a href="mailto:sariel@math.tau.ac.il" target="_blank">sariel@math.tau.ac.il</a>
+<br>
+
+</p><p>
+</p><p>
+
+</p><hr>
+<a name="0.1_index">&nbsp;</a><h2>Index</h2>
+<dl>
+<dt><a href="#0.1_lbAB">NOM</a></dt><dd>
+</dd><dt><a href="#0.1_lbAC">SYNOPSIS</a></dt><dd>
+</dd><dt><a href="#0.1_lbAD">DESCRIPTION</a></dt><dd>
+</dd><dt><a href="#0.1_lbAE">DUPLICATION</a></dt><dd>
+</dd><dt><a href="#0.1_lbAF">BUGS</a></dt><dd>
+</dd></dl>
+<hr>
+Ce document a été réalisé d'après
+<a href="http://localhost/cgi-bin/man/man2html" target="_blank">man2html</a>,
+en utilisant les pages du manuel<br>
+Time: 01:20:58 GMT, March 01, 2004
+<p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p><p></p></div>
+
+</body></html>

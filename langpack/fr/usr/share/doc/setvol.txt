@@ -1,0 +1,113 @@
+
+SetVol 1.1
+==========
+
+Vous moquez-vous de moi ??  Un fichier lisez-moi n'est pas requis pour ceci:)
+
+C'est juste un utilitaire extrêmement simple que j'ai écrit pour fixer 
+en ligne de commande, les niveaux, de la carte son, comme je les aime. 
+Pour être honnête je n'ai jamais compris comment linux le faisait au bootup, 
+et j'ai juste écrit ceci afin de le mettre dans les fichiers de rc.d pour que 
+je n'obtienne pas quelque chose de risible après un reboot.
+
+Compilation
+===========
+
+Pour compiler cette petite chose, saisissez juste
+
+	gcc -o setvol setvol.c
+
+Si vous avez des problèmes, envoyez-moi juste un courrier électronique. 
+Ce code ne devrait pas causer un seul problème  à quiconque... 
+C'est presque embarrassant à envoyer :) Gcc-o setvol setvol.c
+
+Utilisation
+===========
+
+Tapez juste "setvol" seul afin d'obtenir des données sur l'utilisation 
+de setvol. Mais essentiellement vous lui donnez juste un numéro d'appareil 
+à partir de cette liste,
+
+SOUND_MIXER_VOLUME      0
+SOUND_MIXER_BASS        1
+SOUND_MIXER_TREBLE      2
+SOUND_MIXER_SYNTH       3
+SOUND_MIXER_PCM         4
+SOUND_MIXER_SPEAKER     5
+SOUND_MIXER_LINE        6
+SOUND_MIXER_MIC         7
+SOUND_MIXER_CD          8
+SOUND_MIXER_IMIX        9
+SOUND_MIXER_ALTPCM      10
+SOUND_MIXER_RECLEV      11
+SOUND_MIXER_IGAIN       12
+SOUND_MIXER_OGAIN       13
+
+Si vous donnez seulement un appareil isolément, comme
+
+    setvol 0
+
+Le statut de cet appareil est retourné. Les canaux tant gauches que droits 
+sortiront séparément. Rien d'autre n'est montré. C'est facile pour mettre 
+des variables, comme
+
+    LEFT_VOLUME=`setvol 0 | awk '{print $1}'`
+    RIGHT_VOLUME=`setvol 0 | awk '{print $2}'`
+
+Cela stockera les valeurs gauches et droite pour le volume.   
+
+Si vous voulez mettre la valeur d'un appareil, appelez-le comme ceci
+
+    setvol 0 50
+
+pour fixer la valeur du volume de mixer à la moitié de son maximum. S'il y a 
+un canal gauche et droit alors cela les fixera tous les deux à 50.
+
+Pour fixer séparément les deux canaux d'un appareil, faites comme cela,
+
+    setvol 0 20 50
+
+pour fixer la valeur du canal gauche à 20 et à 50 celle du droit.
+
+
+Bugs
+====
+
+Je n'en connais aucun. Si vous en trouvez un, envoyez-moi un patch, ou au moins 
+une bonne description. SetVol devrait décider si votre appareil est supporté ou pas 
+et devrait aussi reconnaître si cet appareil est stéréo ou non. Il y a eu certaines 
+autres 'erreur préventives' des méthodes prises, mais là nécessairement ce doit être 
+quelques bugs.
+
+
+Licence
+=======
+
+La licence est la GPL ... vous avez tous les droits de faire
+ce que vous voulez avec. Seulement, je ne m'en soucie pas . :)
+
+Pour une information sur la GPL allez sur http://www.gnu.org
+
+
+Remerciements à
+===============
+
+Phil Pennock
+Valerica Vatafu
+
+Ces deux gars ont envoyé quelques trucs frais, au début de 1999. J'ai été juste 
+TRÈS LENT pour les ressortir. Désolé pour cela. Quelques trucs que j'ai gardé, 
+d'autres que j'ai mélangé. 
+
+Quand même, la combinaison des deux a produit de petites choses utiles. 
+Remerciements les gars. Nous l'apprécions tous.
+
+
+Bye
+===
+
+Faites attention,
+
+Derek Wyatt
+derek@scar.utoronto.ca
+

@@ -1,0 +1,246 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Pages du manuel de WAVPLAY</TITLE>
+</HEAD><BODY>
+<H1>WAVPLAY</H1>
+Section : commandes utilisateur  (1)<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Retour au sommaire principal</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NOM</H2>
+
+wavplay, wavrec - lire et enregistrer des fichiers WAV 
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<B>wavplay</B>
+
+[<B>-h,</B>--help<B>]</B>
+
+[<B>-q</B>]
+
+[<B>-s</B>
+
+<I>rate</I>]
+
+[<B>-S</B>]
+
+[<B>-M</B>]
+
+[<B>-b</B>
+
+<I>bits</I>]
+
+[<B>-i</B>]
+
+[<B>-k</B>
+
+<I>ipc-key</I>]
+
+[<B>-R</B>]
+
+[<B>-l</B>]
+
+[<B>-u</B>]
+
+[<B>-L</B>]
+
+[<B>-U</B>]
+
+[<B>-V,</B>--version<B>]</B>
+
+[<I>input-files</I>]
+
+<P>
+
+<B>wavrec</B>
+
+[<B>-h,</B>--help<B>]</B>
+
+[<B>-q</B>]
+
+[<B>-s</B>
+
+<I>rate</I>]
+
+[<B>-S</B>]
+
+[<B>-M</B>]
+
+[<B>-b</B>
+
+<I>bits</I>]
+
+[<B>-t</B>
+
+<I>secs</I>]
+
+[<B>-k</B>
+
+<I>ipc-key</I>]
+
+[<B>-R</B>]
+
+[<B>-l</B>]
+
+[<B>-u</B>]
+
+[<B>-L</B>]
+
+[<B>-U</B>]
+
+[<B>-V,</B>--version<B>]</B>
+
+[<I>output-file</I>]
+
+<P>
+
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<B>wavplay</B>
+
+lit un fichier au format WAV depuis le lecteur audio (par défaut
+<B>/dev/dsp</B>) à partir des paramètres WAV de l'en-tête du fichier.  
+(les options en ligne de commande ignoreront ces paramètres, si vous en avez de meilleurs ou pour des effets spéciaux.)
+<P>
+
+<B>wavrec</B>
+
+échantillonne le lecteur audio et écrit un fichier de WAV. 
+Les options en ligne de commande fournissent le contrôle complet 
+de la résolution et de la durée d'échantillonnage.
+<P>
+
+L'un et l'autre,
+<B>wavplay</B>
+et
+<B>wavrec</B>
+permettent au lecteur audio d'être verrouillé en accès exclusif
+<P>
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<DL COMPACT>
+<DT><B>-h</B>
+
+<DD>
+édite un court résumé des options.
+<DT><B>--help</B>
+
+<DD>
+comme -h.
+<DT><B>-q</B>
+
+<DD>
+mode silencieux, supprime les messages.
+<DT><B>-s</B><I> rate</I>
+
+<DD>
+fixe le taux d'échantillonnage en Hz.  Par défaut 8000 Hz.
+<DT><B>-S</B>
+
+<DD>
+fixe le mode stéréo (annule -M). Par défaut.
+<DT><B>-M</B>
+
+<DD>
+fixe le mode mono (annule -S).
+<DT><B>-b</B><I> bits</I>
+
+<DD>
+fixe le nombre de bits par échantillon (8/12/16).
+Par défaut 16.
+<DT><B>-t</B><I> secs</I>
+
+<DD>
+fixe la limite de temps pour l'enregistrement. Par défaut 10 secondes.
+<DT><B>-i</B>
+
+<DD>
+ne lit pas, mais affiche seulement les information WAV de l'en-tête du fichier.
+<DT><B>-k</B><I> key</I>
+
+<DD>
+spécifie la clef IPC pour les variables de verrouillage de lecteur. Par défaut 0x33333333.
+<DT><B>-R</B>
+
+<DD>
+supprime et recréé des variables de verrouillage de lecteur.
+<DT><B>-l</B>
+
+<DD>
+verrouille le lecteur audio pour la lecture.
+<DT><B>-u</B>
+
+<DD>
+déverrouille le lecteur audio pour la lecture.
+<DT><B>-L</B>
+
+<DD>
+verrouille le lecteur audio pour l'enregistrement.
+<DT><B>-U</B>
+
+<DD>
+déverrouille le lecteur audio pour l'enregistrement.
+<DT><B>-V</B>
+
+<DD>
+affiche les informations de versions et de copyright.
+<DT><B>--version</B>
+
+<DD>
+comme -V.
+<P>
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>BUGS</H2>
+
+<B>wavplay</B>
+
+ne lira pas des fichiers qui contiennent des segments SLNT ou LIST.
+<P>
+
+Actuellement des formats compressés ne sont pas supportés.
+<P>
+<A NAME="lbAG">&nbsp;</A>
+<H2>AUTEUR</H2>
+
+<B>wavplay </B>
+
+avait été presque entièrement réécrit pour la version 1.0 par Warren W. Gay 
+(<A HREF="mailto:wwg@ica.net">wwg@ica.net</A>) remplacement du code précédent par Andre Fuechsel 
+(<A HREF="mailto:af1@irz.inf.tu-dresden.de">af1@irz.inf.tu-dresden.de</A>).  
+Erik de Castro Lopo (<A HREF="mailto:erikd@zip.com.au">erikd@zip.com.au</A>) a écrit les routines I/O d'en-tête WAV.
+Cette page du manuel a été écrite par Stephen Crane (<A HREF="mailto:jsc@cs.city.ac.uk">jsc@cs.city.ac.uk</A>).
+<P>
+<A NAME="lbAH">&nbsp;</A>
+<H2>VOIR AUSSI</H2>
+
+<A HREF="http://localhost/cgi-bin/man/man2html?1+xltwavplay">xltwavplay</A>(1)
+<P>
+<A NAME="lbAI">&nbsp;</A>
+<H2>DATE</H2>
+
+12 June 1997
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NOM</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">BUGS</A><DD>
+<DT><A HREF="#lbAG">AUTEUR</A><DD>
+<DT><A HREF="#lbAH">VOIR AUSSI</A><DD>
+<DT><A HREF="#lbAI">DATE</A><DD>
+</DL>
+<HR>
+Ce document a été créé grâce à 
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+en utilisant les pages du manuel.<BR>
+Time: 07:36:38 GMT, May 29, 2003
+</BODY>
+</HTML>

@@ -1,0 +1,120 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Page du manuel de waitmax</title></head><body>Content-type: text/html
+
+
+
+<h1>waitmax</h1>
+Section : commandes utilisateur (1)<br>Mise &agrave;&nbsp; jour : Mars 2008<br><a href="#index">Index</a>
+<a href="http://localhost/cgi-bin/man/man2html">Retour au sommaire principal</a><hr>
+
+<a name="lbAB">&nbsp;</a>
+<h2>NAME</h2>
+
+waitmax - permet &agrave;&nbsp; un programme de s'ex&eacute;cuter, au maximum, pendant un temps donn&eacute;
+<a name="lbAC">&nbsp;</a>
+<h2>SYNOPSIS</h2>
+
+<b>waitmax</b>
+
+[-s 
+<i>signum</i>]
+
+<i>maxtime</i>
+
+<i>programm</i>
+
+[
+<i>args...</i>]
+
+<p>
+<a name="lbAD">&nbsp;</a>
+</p><h2>DESCRIPTION</h2>
+
+<b>waitmax</b>
+
+ex&eacute;cute 
+<i>program</i>
+
+dans un nouveau processus. Si ce processus ne s'arr&egrave;te pas 
+dans le temps donn&eacute; en secondes par
+<i>maxtime</i>, il est tu&eacute; par le signal TERM.
+<p>
+<a name="lbAE">&nbsp;</a>
+</p><h2>OPTIONS</h2>
+
+<dl compact="compact">
+<dt><b>-s, --signal </b><i>signum</i>
+
+</dt><dd>
+Utilise <i>signum</i> pour tuer le programme au lieu de TERM.
+</dd><dt><b>-h, --help</b>
+
+</dt><dd>
+Affiche une petite aide et sort.
+</dd><dt><b>-V, --version</b>
+
+</dt><dd>
+Montre la version et sort.
+<p>
+</p></dd></dl>
+<a name="lbAF">&nbsp;</a>
+<h2>VALEURS DE SORTIE</h2>
+
+<p>
+</p><p>
+
+</p><dl compact="compact">
+<dt><b>255</b></dt><dd>
+Le programme a &eacute;t&eacute; marqu&eacute; et termin&eacute;, parce que le temps 
+s'est &eacute;coul&eacute;, avant que le programme ne  quitte de lui-m&ecirc;me.
+</dd><dt><b>254</b></dt><dd>
+Le programme a quitt&eacute; mais, ni par un signal, ni normalement. 
+Etrange. Cela ne devrait jamais arriver.
+</dd><dt><b>253</b></dt><dd>
+Le programme ne peut pas &ecirc;tre lanc&eacute;.
+</dd><dt><b>128</b>+<i>signum</i></dt><dd>
+Le programme s'est termin&eacute; avec le signal <i>signum</i> <b>avant</b> 
+que le temps soit &eacute;coul&eacute; (pas gr&acirc;ce &agrave;&nbsp; waitmax, 
+mais de lui-m&ecirc;me ou par quelque autre processus).
+</dd><dt><b>1</b></dt><dd>
+Waitmax a &eacute;t&eacute; appel&eacute; avec des options irr&eacute;guli&egrave;res.
+<p>
+</p></dd></dl>
+<a name="lbAG">&nbsp;</a>
+<h2>REMERCIEMENTS</h2>
+
+Mille mercis &agrave;&nbsp; Jorgen Kuchenbecker, qui a eu l'id&eacute;e d'&eacute;crire 
+un tel programme et m'a aid&eacute; dans le codage et les tests.
+<p>
+<a name="lbAH">&nbsp;</a>
+</p><h2>AUTEUR</h2>
+
+waitmax avait &eacute;t&eacute; &eacute;crit par Mathias Kettner. Le code source le plus r&eacute;cent
+se trouve sur <a href="http://mathias-kettner.de/waitmax.html">http://mathias-kettner.de/waitmax.html</a>.
+<p>
+
+</p><hr>
+<a name="index">&nbsp;</a><h2>Index</h2>
+<dl>
+<dt><a href="#lbAB">NOM</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAC">SYNOPSIS</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAD">DESCRIPTION</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAE">OPTIONS</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAF">VALEURS DE SORTIE</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAG">REMERCIEMENTS</a></dt><dd>
+    <br>
+</dd><dt><a href="#lbAH">AUTEUR</a></dt><dd>
+    <br>
+</dd></dl>
+<hr>
+Ce document a &eacute;t&eacute; cr&eacute;&eacute; par
+<a href="http://localhost/cgi-bin/man/man2html">man2html</a>,
+en utilisant les pages du manuel.<br>
+Time: 03:09:30 GMT, March 16, 2008
+
+</body></html>

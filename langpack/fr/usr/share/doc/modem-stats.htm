@@ -1,0 +1,127 @@
+Content-type: text/html
+
+<HTML><HEAD><TITLE>Pages du manuel de MODEM-STATS</TITLE>
+</HEAD><BODY>
+<H1>MODEM-STATS</H1>
+Section : Commandes  utilisateur (1)<BR>Mise à jour : 20 August 1995<BR><A HREF="#index">Index</A>
+<A HREF="http://localhost/cgi-bin/man/man2html">Retour au sommaire</A><HR>
+
+<A NAME="lbAB">&nbsp;</A>
+<H2>NOM</H2>
+
+<B>modem-stats</B> -
+Envoi d'une commande au modem et copie de la réponse en sortie-standard.
+<A NAME="lbAC">&nbsp;</A>
+<H2>SYNOPSIS</H2>
+
+<B>modem-stats</B>
+[ <B>-c</B> <I>command</I> ]
+[ <B>-e</B> <I>end_string</I> ]
+<I>device</I>
+<A NAME="lbAD">&nbsp;</A>
+<H2>DESCRIPTION</H2>
+
+<B>modem-stats</B> est typiquement utilisé pour documenter le statut d'un modem après une connexion et peut aussi être utilisé pour recueillir la statistique comptable.
+<BR>
+
+<B>modem-stats</B> peut être utilisé pour envoyer une chaîne d'initialisation à un modem.
+<BR>
+
+<B>modem-stats</B> peut aussi être utilisé pour 'reseter' un modem.
+<A NAME="lbAE">&nbsp;</A>
+<H2>OPTIONS</H2>
+
+<DL COMPACT>
+<DT>
+<B>-c</B> <I>command</I>
+<DD>Fixer la commande à envoyer au modem.
+<BR>
+
+Par défaut <B>AT I6</B>
+<BR>
+
+Même si la <I>command</I> est répercutée par le modem, elle ne sera pas copiée en sortie.
+<DT>
+<B>-e</B> <I>end_string</I>
+<DD>Fixer la chaîne de réponse finale du modem.
+<BR>
+
+Par défaut <B>OK</B>
+<BR>
+
+Toutes les réponses du modem à la <I>command</I>,jusqu'à <I>end_string</I> non-inclus, seront copiées en sortie.
+</DL>
+<A NAME="lbAF">&nbsp;</A>
+<H2>NOTES</H2>
+
+<B>modem-stats</B> a besoin d'un accès lecture/écriture à l'<I>appareil</I>.
+<BR>
+
+<B>modem-stats</B> quitte si l'<I>appareil</I> ne réponds pas dans les 5 secondes.
+<A NAME="lbAG">&nbsp;</A>
+<H2>EXEMPLES</H2>
+
+<A NAME="lbAH">&nbsp;</A>
+<H3>Enregistrer le status du modem</H3>
+
+date &gt;&gt; status
+<BR>
+
+modem-stats /dev/cua1 &gt;&gt; status
+<A NAME="lbAI">&nbsp;</A>
+<H3>Initialiser le modem</H3>
+
+modem-stats -c &quot;AT &amp;F1&quot; /dev/cua1 &gt; /dev/null
+<A NAME="lbAJ">&nbsp;</A>
+<H3>Reset du modem</H3>
+
+modem-stats -c ATZ /dev/cua1 &gt; /dev/null
+<A NAME="lbAK">&nbsp;</A>
+<H2>VOIR AUSSI</H2>
+
+Le manuel de votre modem.
+<A NAME="lbAL">&nbsp;</A>
+<H2>BUGS</H2>
+
+<B>modem-stats</B> quitte improprement si <I>end_string</I> n'est pas correcte.
+<BR>
+
+Tous les modems ne fournissent pas de liens statistiques utiles.
+<BR>
+
+<B>modem-stats</B> ne fonctionne pas avec <A HREF="http://localhost/cgi-bin/man/man2html?1+mgetty">mgetty</A>(1).
+<A NAME="lbAM">&nbsp;</A>
+<H2>AUTEUR</H2>
+
+Kenneth J. Hendrickson
+<BR>
+
+<A HREF="mailto:kjh@usc.edu">kjh@usc.edu</A>, <A HREF="mailto:kjh@seas.smu.edu">kjh@seas.smu.edu</A>
+<P>
+<P>
+
+<HR>
+<A NAME="index">&nbsp;</A><H2>Index</H2>
+<DL>
+<DT><A HREF="#lbAB">NOM</A><DD>
+<DT><A HREF="#lbAC">SYNOPSIS</A><DD>
+<DT><A HREF="#lbAD">DESCRIPTION</A><DD>
+<DT><A HREF="#lbAE">OPTIONS</A><DD>
+<DT><A HREF="#lbAF">NOTES</A><DD>
+<DT><A HREF="#lbAG">EXEMPLES</A><DD>
+<DL>
+<DT><A HREF="#lbAH">Enregistrer le status du modem</A><DD>
+<DT><A HREF="#lbAI">Initialiser le modem</A><DD>
+<DT><A HREF="#lbAJ">Reset du modem</A><DD>
+</DL>
+<DT><A HREF="#lbAK">VOI AUSSI</A><DD>
+<DT><A HREF="#lbAL">BUGS</A><DD>
+<DT><A HREF="#lbAM">AUTEUR</A><DD>
+</DL>
+<HR>
+Ce document a été créé à partir de 
+<A HREF="http://localhost/cgi-bin/man/man2html">man2html</A>,
+en utilisant les pages du manuel.<BR>
+Time: 14:09:40 GMT, May 19, 2006
+</BODY>
+</HTML>

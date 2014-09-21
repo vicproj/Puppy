@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Ajuster une image .PNG en utilisant l'implémentation des effets d'échelle</title>
+</head>
+<body>
+<h2><center>Ajuster une image .PNG en utilisant l'implémentation des effets d'échelle</center></h2>
+<h2>1 
+Synopsis
+</h2>
+<font face="Courier">
+scalerx [-k N] [-w] [-r N] input.png output.png<br>
+</font>
+<h2>2 
+Description
+</h2>
+Scale2x, Scale3x et Scale4x sont des effets graphiques 
+en temps réel capable d'augmenter la taille de petits bitmaps 
+en devinant les pixels manquants, sans troubler les images.
+<p>
+Ils ont été, à l'origine, développés pour le projet AdvanceMAME 
+en 2001 afin d'améliorer la qualité d'anciens jeux fonctionnant 
+avec des résolutions vidéo basses.
+<p>
+La spécification de l'algorithme et plus de détails se trouvent sur :
+<p>
+<table width="100%" border="0" cellspacing="0" cellpadding="2"><tr><td width="5%"></td><td width="95%">
+http://scale2x.sourceforge.net
+<br>
+</td></tr></table>
+<p>
+Ces outils en ligne de commande lisent un fichier .PNG 
+et écrivent une autre image avec les effets appliqués.
+<p>
+L'implémentation de référence des effets d'échelle est utilisée.
+<h2>3 
+Options
+</h2>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr valign="top" align="left"><td><strong>
+-k N, --scale N
+</em></td></tr><tr><td>
+Selectionner le facteur d'échelle. Les valeurs disponibles sont  2, 3 et 4.
+</td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr valign="top" align="left"><td><strong>
+-w, --wrap
+</em></td></tr><tr><td>
+Calculer la bordure d'image pour un effet d'entourage.
+</td></tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="2">
+<tr valign="top" align="left"><td><strong>
+-r N
+</em></td></tr><tr><td>
+Choisissez une révision spécifique de l'effet de Scale2x.
+L'algorithme standard est 1. 0 est la graduation normale.
+2 et 3 sont des versions alternatives.
+</td></tr>
+</table>
+<h2>4 
+Copyright
+</h2>
+This file is Copyright (C) 2003 Andrea Mazzoleni
+</body>
+</html>

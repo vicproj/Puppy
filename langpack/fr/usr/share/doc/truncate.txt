@@ -1,0 +1,28 @@
+/*
+C'est un programme simple pour tronquer un fichier. Il peut aussi augmenter la taille d'un fichier.
+Usage: # truncate size-in-bytes filename
+Renvoie 0 si OK.
+Ce programmme est utilisé par PETget package manager dans PUPPY/TOUTOU Linux.
+
+Le code est ci-dessous. Renommez ce fichier en truncate.c et compilez comme cela :
+# gcc -o truncate truncate.c
+*/
+
+/*written by Barry K 2006 for Puppy Linux*/
+#define _FILE_OFFSET_BITS 64
+#include <unistd.h>
+#include <sys/types.h>
+#include <errno.h>
+#include <stdlib.h>
+
+main(int argc,char* argv[]) {
+  off_t mynewsize;
+  
+  mynewsize=atol(argv[1]);
+  
+  /* 1st param is size, 2nd is filename...*/
+  truncate(argv[2],mynewsize);
+  
+  return errno;
+  
+}
