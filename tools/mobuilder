@@ -90,7 +90,7 @@
 #140326 pre-caution: if create_pet then clear cache
 #140912 mobuilder: create langpacks from repository
 
-#***MOMANAGER IS ENGLISH ONLY (NOT GETTEXT'ED)***
+#***MOBUILDER IS ENGLISH ONLY (NOT GETTEXT'ED)***
 #it is for use by developers/translators with knowledge of english.
 
 #131206 some texts
@@ -120,7 +120,7 @@ CONFIG="/root/.config/${PROGNAME}"
 [ ! -f $CONFIG ] && echo "### edit between = and #   
 REPODIR=../langpack
 OUTDIR=../package
-WORKDIR=../work
+WORKDIR=../work/${PROGNAME}
 DEBUG=n
 " > $CONFIG
 . $CONFIG
@@ -151,10 +151,9 @@ if [ "$MISSINGFILE" ];then
 fi
 
 # Function : debug information in console
-# Parameters :
-#  $1 : information to display
 debug() {
-  if [ debug = 'y' ];then
+  # passed param $1 is information to display
+  if [ "$DEBUG" = "y" ];then
     echo $1
   fi
 }
