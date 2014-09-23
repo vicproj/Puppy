@@ -9,52 +9,52 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Polish\n"
-"X-Poedit-Country: Poland\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"Language: fr\n"
+"X-Generator: Poedit 1.5.7\n"
 
 msgid ""
 "The backup has no backup script.\n"
 "You need to add a backup first.\n"
 msgstr ""
-"Kopia zapasowa nie ma skryptu kopii zapasowej.\n"
-"Trzeba dodać kopię zapasową najpierw.\n"
+"La sauvegarde n'a pas de script de sauvegarde.\n"
+"Vous devez ajouter une première sauvegarde.\n"
 
 msgid "Error: Backup script doesnt exist.\n"
-msgstr "Błąd: Skrypt kopii zapasowej nie istnieje.\n"
+msgstr "Erreur: Le script de sauvegarde n'existe pas.\n"
 
 msgid "All fields must be filled in correctly.\n"
-msgstr "Wszystkie pola muszą być wypełnione poprawnie.\n"
+msgstr "Tous les champs doivent être remplis correctement.\n"
 
 msgid ""
 "Could not upload public key to the remote host.\n"
 "Make sure that the remote ssh server is started and that all settings are correct.\n"
 msgstr ""
-"Nie można przesłać publicznego klucza do zdalnego hosta.\n"
-"Bądź pewny że zdalny serwer ssh wystartował i że wszystkie ustawienia są poprawne.\n"
+"Impossible d'envoyer la clef publique vers le serveur distant.\n"
+"Vérifier que le serveur ssh distant est démarré et que tous les paramètres sont corrects.\n"
 
 msgid "All fields must be filled in.\n"
-msgstr "Wszystkie pola muszą być wypełnione.\n"
+msgstr "Tous les champs doivent être remplis.\n"
 
 #, c-format
 msgid "GAdmin-Rsync %s source server selection"
-msgstr "GAdmin-Rsync %s wybór serwera źródła"
+msgstr "Sélection du serveur source GAdmin-Rsync %s"
 
 #, c-format
 msgid "GAdmin-Rsync %s destination server selection"
-msgstr "GAdmin-Rsync %s wybór serwera docelowego"
+msgstr "Sélection du serveur destination GAdmin-Rsync %s"
 
 msgid "Supply source server information:"
-msgstr "Dostarcz informacje serwera źródłowego:"
+msgstr "Fournir les informations du serveur source:"
 
 msgid "Supply destination server information:"
-msgstr "Dostarcz informacje serwera docelowego:"
+msgstr "Fournir les informations du serveur destination:"
 
 msgid " Remote server: "
-msgstr " Zdalny serwer:"
+msgstr " Serveur distant:"
 
 msgid " Remote path: "
-msgstr " Zdalna ścieżka:"
+msgstr " Chemin distant:"
 
 msgid " Remote port: "
 msgstr " Port distant:"
@@ -69,530 +69,532 @@ msgid " Key type: "
 msgstr " Type de clef:"
 
 msgid " Key length: "
-msgstr " Długość klucza:"
+msgstr " Longueur de clef:"
 
 #, c-format
 msgid "GAdmin-Rsync %s backup selection"
-msgstr "GAdmin-Rsync %s wybór kopii zapasowej"
+msgstr "Sélection de la sauvegarde GAdmin-Rsync %s"
 
 msgid "Local backup:"
-msgstr "Lokalna kopia zapasowa:"
+msgstr "Sauvegarde locale:"
 
 msgid "Local to remote backup:"
-msgstr "Lokalna do zdalnej kopii zapasowej:"
+msgstr "Sauvegarde locale vers distante:"
 
 msgid "Remote to local backup:"
-msgstr "Zdalna do lokalnej kopii zapasowej:"
+msgstr "Sauvegarde distante vers locale:"
 
 msgid "Mounted on"
-msgstr "Zamontowane na"
+msgstr "Monté"
 
 msgid "Free space"
-msgstr "Wolne miejsce"
+msgstr "Espace libre"
 
 msgid "Used space"
-msgstr "Użyte miejsce"
+msgstr "Espace utilisé"
 
 msgid "Total space"
-msgstr "Całkowite miejsce"
+msgstr "Espace total"
 
 msgid "Percent used"
-msgstr "Używany procent"
+msgstr "Pourcentage utilisé"
 
 msgid "Device"
-msgstr "Urządzenie"
+msgstr "Appareil"
 
 msgid "Run selected backup"
-msgstr "Uruchom wybraną kopię zapasową"
+msgstr "Démarrer la sauvegarde sélectionné"
 
 msgid "Cancel backup"
-msgstr "Anuluj kopię zapasową"
+msgstr "Annuler la sauvegarde"
 
 msgid "Restore from selection"
-msgstr "Przywróć z wybranej"
+msgstr "Restaurer à partir de la sélection"
 
 msgid "Help"
-msgstr "Pomoc"
+msgstr "Aide"
 
 msgid "About"
-msgstr "O"
+msgstr "A propos de"
 
 msgid "Quit"
-msgstr "Wyjście"
+msgstr "Quitter"
 
 msgid "Backup settings"
-msgstr "Ustawienia kopii zapasowej"
+msgstr "Paramètres de la sauvegarde"
 
 msgid "Backup progress"
-msgstr "Postęp kopii zapasowej"
+msgstr "Progression de la sauvegarde"
 
 msgid "Disc"
-msgstr "Dysk"
+msgstr "Disque"
 
 msgid "Server settings"
-msgstr "Ustawienia serwera"
+msgstr "Paramètres du serveur"
 
 msgid "Information: cant read version"
-msgstr "Informacja: nie można odczytać wersji"
+msgstr "Information: Impossible de lire la version"
 
 msgid "Status: unknown"
-msgstr "Status: nieznany"
+msgstr "Statut: inconnu"
 
 msgid "The backup name is too short.\n"
-msgstr "Nazwa kopii zapasowej jest zbyt krótka.\n"
+msgstr "Le nom de la sauvegarde est trop court.\n"
 
 msgid "The backup name contains special chars that cannot be used.\n"
-msgstr "Nazwa kopii zapasowej zawiera znaki specjalne które nie mogą być użyte.\n"
+msgstr "Le nom de la sauvegarde contient des caractères spéciaux inutilisables.\n"
 
 msgid ""
 "A backup with this name already exists.\n"
 "Choose another backup name and try again.\n"
 msgstr ""
-"Kopia zapasowa z tą nazwą już istnieje.\n"
-"Wybierz inną nazwę kopii zapasowej i spróbuj ponownie.\n"
+"Une sauvegarde avec ce nom existe déjà.\n"
+"Choisir un autre nom de sauvegarde et réessayer.\n"
 
 #, c-format
 msgid ""
 "Error: Can not write backup settings here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można zapisać ustawień kopii zapasowej tutaj:\n"
+"Erreur:Impossible d'écrire les paramètres de sauvegarde ici:\n"
 "%s\n"
 
 msgid "Backup name too short, backup not deleted\n"
-msgstr "Nazwa kopii zapasowej zbyt krótka, kopia zapasowa nie usunięta\n"
+msgstr "Le nom de la sauvegarde trop court, sauvegarde non supprimée\n"
 
 msgid "New Backup settings:"
-msgstr "Ustawienia nowej kopii zapasowej:"
+msgstr "Nouveau paramètres de sauvegarde:"
 
 msgid " The name of the new backup: "
-msgstr " Nazwa nowej kopii zapasowej:"
+msgstr "Le nom de la nouvelle sauvegarde:"
 
 msgid "Add data to this backup."
-msgstr "Dodaj dane do tej kopii zapasowej."
+msgstr "Ajouter des données à cette sauvegarde."
 
 msgid "Add backup data"
-msgstr "Dodaj dane kopii zapasowej"
+msgstr "Ajouter les données de la sauvegarde"
 
 msgid "Remove selection from backup."
-msgstr "Usuń zaznaczone z kopii zapasowej."
+msgstr "Supprimer la sélection de la sauvegarde."
 
 msgid "Remove selected data"
-msgstr "Usuń zaznaczone dane"
+msgstr "Supprimer les données sélectionnées"
 
 msgid "Source server"
-msgstr "Serwer źródłowy"
+msgstr "Serveur source"
 
 msgid "Source directory or file"
-msgstr "Katalog lub plik źródłowy"
+msgstr "Répertoire ou fichier source"
 
 msgid "Destination server"
-msgstr "Serwer docelowy"
+msgstr "Serveur de destination"
 
 msgid "Destination directory or file"
-msgstr "Katalog lub plik docelowy"
+msgstr "Répertoire ou fichier de destination"
 
 msgid "Include pattern"
-msgstr "Uwzględnij wzorzec"
+msgstr "Inclure modèle"
 
 msgid "Exclude pattern"
-msgstr "Wyłącz wzorzec"
+msgstr "Exclure modèle"
 
 msgid "Include in backup"
-msgstr "Uwzględnij w kopii zapasowej"
+msgstr "Inclure dans la sauvegarde"
 
 msgid "Delete destination files that does not exist in source"
-msgstr "Usuń pliki docelowe które nie istnieją w źródle"
+msgstr "Supprimer les fichiers de destination qui n'existe pas dans la source"
 
 msgid "Remote username"
-msgstr "Zdalna nazwa użytkownika"
+msgstr "Utilisateur distant"
 
 msgid "Remote port"
-msgstr "Zdalny port"
+msgstr "Port distant"
 
 msgid "Private key for remote server"
-msgstr "Prywatny klucz do zdalnego serwera"
+msgstr "Clef privée pour le serveur distant"
 
 msgid "Delete the selected backup."
-msgstr "Usuń zaznaczoną kopię zapasową."
+msgstr "Supprimer la sauvegarde sélectionnée."
 
 msgid "Delete selected backup"
-msgstr "Usuń zaznaczoną kopię zapasową"
+msgstr "Supprimer la sauvegarde sélectionnée"
 
 msgid " Selected backup: "
-msgstr " Wybrana kopia zapasowa:"
+msgstr " Sauvegarde sélectionnée:"
 
 msgid "Create a new backup."
-msgstr "Stwórz nową kopię zapasową."
+msgstr "Créer une nouvelle sauvegarde."
 
 msgid "Create new backup"
-msgstr "Stwórz nową kopię zapasową"
+msgstr "Créer une nouvelle sauvegarde"
 
 msgid "Save this backup."
-msgstr "Zapisz tę kopię zapasową."
+msgstr "Enregistrer cette sauvegarde."
 
 msgid "Save backup"
-msgstr "Zapisz kopię zapasową"
+msgstr "Enregistrer la sauvegarde"
 
 msgid "Show log for the selected backup."
-msgstr "Pokaż log dla wybranej kopii zapasowej."
+msgstr "Afficher les traces pour la sauvegarde sélectionnée."
 
 msgid "Show backup log"
-msgstr "Pokaż log kopii zapasowej"
+msgstr "Afficher les traces de la sauvegarde"
 
 msgid "Schedule this backup to run at specific times: "
-msgstr "Zaplanuj tę kopię zapasową żeby uruchamiała się w określonych czasach: "
+msgstr "Planifier cette sauvegarde pour qu'elle démarre à certaines heures: "
 
 msgid "Month day"
-msgstr "Miesiąc dzień"
+msgstr "Jour du mois"
 
 msgid ""
 "The backup will run on the specified day of the month.\n"
 "Uncheck any weekdays to have a monthly backup."
 msgstr ""
-"Kopia zapasowa uruchomi się w określone dni miesiąca.\n"
-"Odznacz dni powszednie żeby mieć kopię zapasową miesięcznie."
+"La sauvegarde démarrera pour le jour du mois spécifié .\n"
+"Décocher tous les jours de la semaine pour une sauvegarde mensuelle."
 
 msgid "Not monthly: "
-msgstr "Nie miesięcznie:"
+msgstr "Non mensuel:"
 
 msgid "If selected, the backup will run on the specified days and times instead of once a month."
-msgstr "Jeśli wybrano, kopia zapasowa uruchomi się w określone dni i czas zamiast raz na miesiąc."
+msgstr "Si sélectionné, la sauvegarde démarrera pour les jours et heures spécifiés à la place d'une fois par mois."
 
 msgid "Monday: "
-msgstr "Poniedziałek:"
+msgstr "Lundi:"
 
 msgid "Tuesday: "
-msgstr "Wtorek:"
+msgstr "Mardi:"
 
 msgid "Wednesday: "
-msgstr "Środa:"
+msgstr "Mercredi:"
 
 msgid "Thursday: "
-msgstr "Czwartek:"
+msgstr "Jeudi:"
 
 msgid "Friday: "
-msgstr "Piątek:"
+msgstr "Vendredi:"
 
 msgid "Saturday: "
-msgstr "Sobota:"
+msgstr "Samedi:"
 
 msgid "Sunday: "
-msgstr "Niedziela:"
+msgstr "Dimanche:"
 
 msgid "Hour"
-msgstr "Godzina"
+msgstr "Heure"
 
 msgid "Every hour: "
-msgstr "Każda godzina:"
+msgstr "Chaque heure:"
 
 msgid "Minute"
-msgstr "Minuta"
+msgstr "Minute"
 
 msgid "Every minute: "
-msgstr "Każda minuta:"
+msgstr "Chaque minute:"
 
 msgid "Backup at shutdown: "
-msgstr "Kopia zapasowa przy zamknięciu:"
+msgstr "Sauvegarde à l'arrêt:"
 
 msgid "Credits"
-msgstr "Napisy"
+msgstr "Crédits"
 
 msgid "Author: "
-msgstr "Autor:"
+msgstr "Auteurr:"
 
 msgid "I want to thank the following for their contributions:"
-msgstr "Chciałbym podziękować następującym osobom za ich wkład:"
+msgstr "Je voudrais remercier les personnes suivantes pour leurs contributions:"
 
 msgid ""
 "The rsync developers.\n"
 "\n"
 msgstr ""
-"Developerzy rsync.\n"
+"Les développeurs rsync.\n"
 "\n"
 
 msgid "for the RPM spec file."
-msgstr "za plik specyfikacji RPM."
+msgstr "pour le fichiers de specs RPM."
 
 msgid "And all translators:"
-msgstr "I wszyscy tłumacze:"
+msgstr "Tous les traducteurs:"
 
 msgid "Afrikaans"
-msgstr "afrykanerski"
+msgstr "Afrikaans"
 
 msgid "Amharic"
-msgstr "amharski"
+msgstr "Amharique"
 
 msgid "Arabic"
-msgstr "arabski"
+msgstr "Arabe"
 
 msgid "Azerbaijani"
-msgstr "azerbejdżański"
+msgstr "Azerbaijan"
 
 msgid "Basque"
-msgstr "baskijski"
+msgstr "Basque"
 
 msgid "Bulgarian"
-msgstr "bułgarski"
+msgstr "Bulgare"
 
 msgid "Breton"
-msgstr "bretoński"
+msgstr "Breton"
 
 msgid "Brittish-English"
-msgstr "angielski-brytyjski"
+msgstr "Britannique-Anglais"
 
 msgid "Bosnian"
-msgstr "bośniacki"
+msgstr "Bosniaque"
 
 msgid "Byelorussian"
-msgstr "białoruski"
+msgstr "Biélorusse"
 
 msgid "Catalan"
-msgstr "kataloński"
+msgstr "Catalan"
 
 msgid "Chinese"
-msgstr "chiński"
+msgstr "Chinois"
 
 msgid "Chinese-Taiwan"
-msgstr "chiński-Tajwan"
+msgstr "Chinois-Taïwanais"
 
 msgid "Croatian"
-msgstr "chorwacki"
+msgstr "Croate"
 
 msgid "Czech"
-msgstr "czeski"
+msgstr "Tchèque"
 
 msgid "Danish"
-msgstr "duński"
+msgstr "Danois"
 
 msgid "Dutch"
-msgstr "holenderski"
+msgstr "Néerlandais"
 
 msgid "Esperanto"
-msgstr "esperanto"
+msgstr "Esperanto"
 
 msgid "Estonian"
-msgstr "estoński"
+msgstr "Estonien"
 
 msgid "Finnish"
-msgstr "fiński"
+msgstr "Finlandais"
 
 msgid "French"
-msgstr "francuski"
+msgstr "Français"
 
 msgid "Galician"
-msgstr "galicyjski"
+msgstr "Galicien"
 
 msgid "German"
-msgstr "niemiecki"
+msgstr "Allemand"
 
 msgid "Greek"
-msgstr "grecki"
+msgstr "Grec"
 
 msgid "Hebrew"
-msgstr "hebrajski"
+msgstr "Hébreu"
 
 msgid "Hini"
-msgstr "hinduski"
+msgstr "Hindi"
 
 msgid "Hungarian"
-msgstr "węgierski"
+msgstr "Hongrois"
 
 msgid "Icelandic"
-msgstr "islandzki"
+msgstr "Islandais"
 
 msgid "Indonesian"
-msgstr "indonezyjski"
+msgstr "Indonésien"
 
 msgid "Irish"
-msgstr "irlandzki"
+msgstr "Irlandais"
 
 msgid "Italian"
-msgstr "włoski"
+msgstr "Italien"
 
 msgid "Japanese"
-msgstr "japoński"
+msgstr "Japonais"
 
 msgid "Korean"
-msgstr "koreański"
+msgstr "Coréen"
 
 msgid "Kurdish"
-msgstr "kurdyjski"
+msgstr "Kurde"
 
 msgid "Latvian-Lettish"
-msgstr "łotewski-Łotwa"
+msgstr "Lettonais"
 
 msgid "Lithuanian"
-msgstr "litewski"
+msgstr "Litunanien"
 
 msgid "Macedonian"
-msgstr "macedoński"
+msgstr "Macédonien"
 
 msgid "Maori"
-msgstr "maoryjski"
+msgstr "Maori"
 
 msgid "Maltese"
-msgstr "maltański"
+msgstr "Maltais"
 
 msgid "Norwegian"
-msgstr "norweski"
+msgstr "Norvégien"
 
 msgid "Polish"
-msgstr "polski"
+msgstr "Polonais"
 
 msgid "Portuguese"
-msgstr "portugalski"
+msgstr "Portugais"
 
 msgid "Portuguese-Brazil"
-msgstr "portugalski-Brazylia"
+msgstr "Portugais-Brésil"
 
 msgid "Romanian"
-msgstr "rumuński"
+msgstr "Roumain"
 
 msgid "Russian"
-msgstr "rosyjski"
+msgstr "Russe"
 
 msgid "Serbian"
-msgstr "serbski"
+msgstr "Serbe"
 
 msgid "Slovak"
-msgstr "słowacki"
+msgstr "Slovaque"
 
 msgid "Slovenian"
-msgstr "słoweński"
+msgstr "Slovénien"
 
 msgid "Spanish"
-msgstr "hiszpański"
+msgstr "Espagnol"
 
 msgid "Swedish"
-msgstr "szwedzki"
+msgstr "Suédois"
 
 msgid "Tamil"
-msgstr "tamilski"
+msgstr "Tamoul"
 
 msgid "Thai"
-msgstr "tajski"
+msgstr "Thai"
 
 msgid "Turkish"
-msgstr "turecki"
+msgstr "Turque"
 
 msgid "Traditional Chinese"
-msgstr "chiński tradycyjny"
+msgstr "Chinois Traditionnel"
 
 msgid "Ukrainian"
-msgstr "ukraiński"
+msgstr "Ukrainien"
 
 msgid "Vietnamese"
-msgstr "wietnamski"
+msgstr "Vietnamien"
 
 msgid "Wallon"
-msgstr "waloński"
+msgstr "Wallon"
 
 msgid "Welch"
-msgstr "walijski"
+msgstr "Gallois"
 
 msgid "Close"
-msgstr "Zamknij"
+msgstr "Fermer"
 
 msgid "Error: Unable to create a symlink to the backup script.\n"
-msgstr "Błąd: Nie można stworzyć linku symbolicznego do skryptu kopii zapasowej.\n"
+msgstr "Erreur: Impossible de créer un lien symbolique sur le script de sauvegarde.\n"
 
 msgid "Error: The time schedule server \"cron(d)\" does not seem to be running.\n"
-msgstr "Błąd: Serwer harmonogramu czasu \"cron(d)\" wydaje się nie być uruchomiony.\n"
+msgstr "Erreur: Le serveur des planifications \"cron(d)\" ne semble pas être démarré..\n"
 
 msgid "Every field must be filled in.\n"
-msgstr "Każde pole musi być wypełnione.\n"
+msgstr "Tous les champs doivent être remplis.\n"
 
 msgid "Error: Can not generate keys for this host.\n"
-msgstr "Błąd: Nie można wygenerować kluczy dla tego hosta.\n"
+msgstr "Erreur: Impossible de générer les clefs à partir de cet hôte.\n"
 
 msgid "Error: The local private key does not exist.\n"
-msgstr "Błąd: Lokalny prywatny klucz nie istnieje.\n"
+msgstr "Erreur: La clef privée locale n'existe pas.\n"
 
 msgid "Error: The local public key does not exist.\n"
-msgstr "Błąd: Lokalny publiczny klucz nie istnieje.\n"
+msgstr "Erreur: La clef publique locale n'existe pas.\n"
 
 msgid "Error: Could not install the public key on the remote host.\n"
-msgstr "Błąd: Nie można zainstalować publicznego klucza na zdalnym hoście.\n"
+msgstr "Erreur: Impossible d'installer la clef publique sur l'hôte distant.\n"
 
 msgid "Public key installation on remote host successful.\n"
-msgstr "Instalacja publicznego klucza na zdalnym hoście udana.\n"
+msgstr "L'installation de la clef publique sur l'hôte distant a réussie.\n"
 
 msgid "No valid backups to restore from could be found.\n"
-msgstr "Niewłaściwe kopie zapasowe do przywrócenia mogły być znalezione.\n"
+msgstr "Aucune sauvegarde valide pour la restauration n'a été trouvée.\n"
 
 #, c-format
 msgid "GAdmin-Rsync %s Restore from selection"
-msgstr "GAdmin-Rsync %s Przywróc z zaznaczenia"
+msgstr "Restauration GAdmin-Rsync %s à partir de la sélection"
 
 msgid "Supply restore information:"
-msgstr "Dostarcz informacje przywracania:"
+msgstr "Fournir les informations de restauration:"
 
 msgid "Source path:"
-msgstr "Ścieżka źródłowa:"
+msgstr "Chemin de la source:"
 
 msgid "Choose a source directory or file"
-msgstr "Wybierz katalog lub plik źródłowy"
+msgstr "Choisir un répertoire ou fichier source"
 
 msgid "Destination path:"
-msgstr "Ścieżka docelowa:"
+msgstr "Chemin de la destination:"
 
 msgid "Choose a destination directory or file"
-msgstr "Wybierz katalog lub plik docelowy"
+msgstr "Choisir un répertoire ou fichier destination"
 
 msgid " Source server: "
-msgstr " Serwer źródłowy:"
+msgstr " Serveur source:"
 
 msgid " Source path: "
-msgstr " Ścieżka źródłowa:"
+msgstr " Chemin de la source:"
 
 msgid "Local destination path:"
-msgstr "Lokalna ścieżka docelowa:"
+msgstr "Chemin local de la destination:"
 
 msgid "Choose a local destination directory or file"
-msgstr "Wybierz lokalny katalog lub plik docelowy"
+msgstr "Choisir un répertoire ou fichier destination local"
 
 msgid "Local source path:"
-msgstr "Lokalna ścieżka źródłowa:"
+msgstr "Chemin de la source locale:"
 
 msgid " Destination server: "
-msgstr " Serwer docelowy:"
+msgstr " Serveur de destination:"
 
 msgid " Destination path: "
-msgstr " Ścieżka docelowa:"
+msgstr " Chemin de la destination:"
 
 msgid "Test only, do not transfer any files: "
-msgstr "Testuj tylko, nie transferuj plików:"
+msgstr "Tester seulement, ne transférer aucun fichier:"
 
 msgid "Error: The restore selection is missing a required source or destination path.\n"
-msgstr "Błąd: Brakuje zaznaczenia przywracania wymaganego źródła lub ścieżki docelowej.\n"
+msgstr ""
+"Erreur: Il manque un répertoire source ou destination pour la restauration de la sélection.\n"
+".\n"
 
 msgid "Error: Server to server restores are not supported by rsync.\n"
-msgstr "Błąd: Przywracanie serwer na serwer nie jest obsługiwane przez rsync.\n"
+msgstr "Erreur: La restauration de serveur à serveur n'est pas supportée par rsync.\n"
 
 #, c-format
 msgid ""
 "Error: Can not restore script here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można przywrócić skryptu tutaj:\n"
+"Erreur: Impossible de restaurer le script ici:\n"
 "%s\n"
 
 msgid "Error: Can not make the restore script executable.\n"
-msgstr "Błąd: Nie można zrobić wykonywalnym skryptu przywracania.\n"
+msgstr "Erreur: Impossible de rendre le script de restauration exécutable.\n"
 
 msgid "Error: This backup is missing a required source or destination path.\n"
-msgstr "Błąd: Tej kopii zapasowej brakuje wymaganego źródła lub ścieżki docelowej.\n"
+msgstr "Erreur: Il manque un répertoire source ou destination pour la sauvegarde.\n"
 
 msgid "Error: Server to server backups are not supported by rsync.\n"
-msgstr "Błąd: Kopie zapasowe serwer na serwer nie są obsługiwane przez rsync.\n"
+msgstr "Erreur: La sauvegarde de serveur à serveur n'est pas supportée par rsync.\n"
 
 #, c-format
 msgid ""
 "Error: Can not write settings here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można zapisać ustawień tutaj:\n"
+"Erreur: Impossible de sauvegarder les paramètres ici:\n"
 "%s\n"
 
 #, c-format
@@ -600,46 +602,46 @@ msgid ""
 "Error: Can not write backup script here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można zapisać skryptu kopii zapasowej tutaj:\n"
+"Erreur: Impossible de le script de sauvegarde ici:\n"
 "%s\n"
 
 msgid "Error: The backup name is too short or missing.\n"
-msgstr "Błąd: Nazwa kopii zapasowej jest zbyt krótka lub brakująca.\n"
+msgstr "Erreur: Le nom de sauvegarde est trop petit ou manquant.\n"
 
 msgid "Error: script path too short.\n"
-msgstr "Błąd: ścieżka skryptu zbyt krótka.\n"
+msgstr "Erreur: Le chemin du script est trop court.\n"
 
 #, c-format
 msgid ""
 "Error: Can not write the backup script here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można zapisać skryptu kopii zapasowej tutaj:\n"
+"Erreur: Impossible de sauvegarder le script de sauvegarde ici:\n"
 "%s\n"
 
 msgid "Error: Can not make the backup script executable.\n"
-msgstr "Błąd: Nie można zrobić wykonywalnym skryptu kopii zapasowej.\n"
+msgstr "Erreur: Impossible de rendre exécutable le script de sauvegarde\n"
 
 #, c-format
 msgid ""
 "Error: Can not write backup schedule here:\n"
 "%s\n"
 msgstr ""
-"Błąd: Nie można zapisać harmonogramu kopii zapasowej tutaj:\n"
+"Erreur: Impossible de sauvegarder la planification de la sauvegarde ici:\n"
 "%s\n"
 
 msgid "Set version failed\n"
-msgstr "Niepowodzenie ustawienia wersji\n"
+msgstr "La modification de version a échoué\n"
 
 #, c-format
 msgid " Information: %s"
-msgstr " Informacje: %s"
+msgstr "Information: %s"
 
 msgid " Information: Rsync is not installed or not in your path."
-msgstr " Informacja: Rsync nie jest zainstalowany lub nie w ścieżce."
+msgstr " Information: Rsync n'est pas installé ou n'est pas dans votre 'PATH'."
 
 msgid "Gadmin-Rsync Help"
-msgstr "Gadmin-Rsync Pomoc"
+msgstr "Aide Gadmin-Rsync"
 
 msgid ""
 "\n"
@@ -650,7 +652,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"\t\tJak zrobić kopię zapasową i przywrócenie używając GAdmin-Rsync.\n"
+"\t\tComment sauvegarder ou restaurer en utilisant GAdmin-Rsync.\n"
 "\n"
 "\n"
 
@@ -658,56 +660,56 @@ msgid ""
 "1. Backing up data:\n"
 "\n"
 msgstr ""
-"1. Tworzenie kopii zapasowej danych:\n"
+"1. Sauvegarde des données:\n"
 "\n"
 
 msgid "Pressing the \"Create new backup\" button creates and adds a new backup.\n"
-msgstr "Naciśnięcie przycisku \"Stwórz nową kopię zapasową\" stworzy i doda nową kopię zapasową.\n"
+msgstr "Appuyer sur le bouton \"Créer nouvelle sauvegarde\" créé et ajoute une nouvelle sauvegarde.\n"
 
 msgid "When this is done the \"Add backup data\" button can be used to\n"
-msgstr "Gdy to jest zrobione przycisk \"Dodaj dane kopii zapasowej\" może być użyty do\n"
+msgstr "Quand ceci est fait le bouton \"Ajouter données de sauvegarde\" peut être utilisé\n"
 
 msgid "specify what type of backups to include in the new backup, such as:\n"
-msgstr "określ jaki typ kopii zapasowych uwzględnić w nowej kopii zapasowej, takie jak:\n"
+msgstr "spécifier quel type de sauvegardes inclure dans la nouvelle sauvegarde, comme:\n"
 
 msgid "remote to local, local to remote or local to local backups.\n"
-msgstr "Kopie zapasowe zdalny na lokalny, lokalny na zdalny lub lokalny na lokalny.\n"
+msgstr "Sauvegardes distante vers locale, locale vers distante ou locale vers locale.\n"
 
 msgid "The backups can be started manually with \"Run selected backup.\"\n"
-msgstr "Kopie zapasowe mogą być rozpoczęte ręcznie poprzez \"Uruchom wybraną kopię zapasową.\"\n"
+msgstr "Les sauvegardes peuvent être démarrées manuellement avec \"Démarrer la sauvegarde sélectionnée\".\n"
 
 msgid ""
 "The progress of the backup can be viewed in the progress tab.\n"
 "\n"
 msgstr ""
-"Postęp kopii zapasowej może być widoczny w zakładce postępu.\n"
+"La progression de la sauvegarde peut être vue dans l'onglet progression.\n"
 "\n"
 
 msgid "When everything is working as expected the backups can be\n"
-msgstr "Gdy wszystko działa zgodnie z oczekiwaniami kopie zapasowe mogą być\n"
+msgstr "Quand tout marche comme prévu les sauvegardes peuvent être\n"
 
 msgid "scheduled to run at specific times using cron.\n"
-msgstr "zaplanowane do uruchomienia w określonych czasach przy użyciu cron.\n"
+msgstr "planitfiées pour démarrer à un horaire spécifique avec cron.\n"
 
 msgid "Backups can also be scheduled to run at system shutdown.\n"
-msgstr "Kopie zapasowe mogą też być zaplanowane do uruchomienia przy zamknięciu systemu.\n"
+msgstr "Les sauvegardes peuvent aussi être planifiées pour démarrer à l'arrêt du système.\n"
 
 msgid ""
 "The backups will not be run if the system is rebooted.\n"
 "\n"
 msgstr ""
-"Kopie zapasowe nie będą uruchomione jeśli system zostanie ponownie uruchomiony.\n"
+"Les sauvegardes ne démarreront pas si le système est redémarré.\n"
 "\n"
 
 msgid "Logs and extended logs are kept for all backups.\n"
-msgstr "Logi i rozszerzone logi są zachowane dla wszystkich kopii zapasowych.\n"
+msgstr "Les traces et traces étendues sont conservées pour toutes les sauvegardes.\n"
 
 msgid ""
 "They can be viewed by clicking on \"Show backup log\" for each backup.\n"
 "\n"
 "\n"
 msgstr ""
-"One mogą być widoczne poprzez kliknięcie na \"Pokaż log kopii zapasowej\" dla każdej kopii zapasowej.\n"
+"Elles peuvent être visualisées en cliquant sur \"Afficer les traces de sauvegarde\" pour chaque sauvegarde.\n"
 "\n"
 "\n"
 
@@ -715,36 +717,36 @@ msgid ""
 "2. Restoring data:\n"
 "\n"
 msgstr ""
-"2. Przywrócenie danych:\n"
+"2. Restauration des données:\n"
 "\n"
 
 msgid "Pressing the \"Restore from selection\" button shows a restore menu that\n"
-msgstr "Naciśnięcie przycisku \"Przywróć z zaznaczenia\" pokaże menu przywracania które\n"
+msgstr "Appuyer sur le bouton \"Restaurer à partir de la sélection\" affiche un menu de restauration qui\n"
 
 msgid "contains relevant source and destination paths depending on the restore type.\n"
-msgstr "zawiera istotne źródło i ścieżki docelowe w zależności od typu przywracania.\n"
+msgstr "contient les chemins pertinents source et destinations dépendants du type de restauration.\n"
 
 msgid "The paths shown are the reverse of the backups.\n"
-msgstr "Pokazane ścieżki są odwrotnością kopii zapasowych.\n"
+msgstr "Les chemins affichés sont l'inverse des sauvegardes.\n"
 
 msgid "Local source and destination paths can be browsed and re-selected.\n"
-msgstr "Lokalne źródło i ścieżki docelowe mogą być przeglądane i wybierane ponownie.\n"
+msgstr "Les chemins locaux des sources et destinations peuvent être choisis ou re-sélectionnés.\n"
 
 msgid "A slash last in source paths means transfer the content of\n"
-msgstr "Ukośnik ostatni w ścieżkach źródłowych oznacza transfer zawartości\n"
+msgstr "Un dernier slash dans les chemins sources indiquent: transférer le contenu\n"
 
 msgid "the directory, IE: \"/path/\" means \"/path/*\".\n"
-msgstr "katalog NP: \"/ścieżka/\" znaczy \"/ścieżka/*\".\n"
+msgstr "du répertoire,  IE: \"/chemin/\" veut dire \"/chemin/*\".\n"
 
 msgid "Press the \"Forward\" button when satisfied with the restore selection.\n"
-msgstr "Naciśnij przycisk \"Naprzód\" gdy jesteś usatysfakcjonowany zaznaczeniem przywracania.\n"
+msgstr "Appuyer sur le bouton \"Suivant\" quand vous êtes satisfait de la sélection.\n"
 
 msgid ""
 "The progress of the restore can be viewed in the progress tab.\n"
 "\n"
 "\n"
 msgstr ""
-"Postęp przywracania może być widoczny w zakładce postępu.\n"
+"La progression de la restauration peut être vue dans l'onglet progression.\n"
 "\n"
 "\n"
 
@@ -752,70 +754,70 @@ msgid ""
 "3. Technical specifications for backing up and restoring data:\n"
 "\n"
 msgstr ""
-"3. Techniczne specyfikacje dla kopii zapasowej i przywracania danych:\n"
+"3. Spécifications techniques pour la sauvegarde ou restauration des données:\n"
 "\n"
 
 msgid "Remote backups and restores are differential and encrypted.\n"
-msgstr "Zdalne kopie zapasowe i przywracania są różnicowe i zaszyfrowane.\n"
+msgstr "Les sauvegardes et restaurations distantes sont différentielles et cryptées.\n"
 
 msgid "This is achieved by using rsync over ssh.\n"
-msgstr "To jest osiągnięte przez użycie rsync w ssh.\n"
+msgstr "Ceci est fait en utilisant rsync sur ssh.\n"
 
 msgid "Keys are automatically created and installed on\n"
-msgstr "Klucze są automatycznie stworzone i zainstalowane na\n"
+msgstr "Les clefs sont automatiquement créées et installées sur\n"
 
 msgid "remote hosts using ssh-keygen, scp and ssh.\n"
-msgstr "zdalne hosty używają ssh-keygen, scp i ssh.\n"
+msgstr "les hôtes distants avec ssh-keygen, scp et ssh.\n"
 
 msgid "For this to work the remote hosts must be running ssh servers.\n"
-msgstr "Żeby to działało zdalne hosty muszą być uruchomione na serwerach ssh.\n"
+msgstr "Pour que cela fonctionne les serveurs ssh doivent être démarrés sur les serveurs distants.\n"
 
 msgid "The data is backed up or restored as the selected username.\n"
-msgstr "Kopia zapasowa danych lub przywrócenie jako wybrana nazwa użytkownika.\n"
+msgstr "Les données sont sauvegardées ou restaurées avec le nom d'utilisateur sélectionné.\n"
 
 msgid ""
 "\n"
 "Visit http://www.gadmintools.org\n"
 msgstr ""
 "\n"
-"Odwiedź http://www.gadmintools.org\n"
+"Visiter http://www.gadmintools.org\n"
 
 #, c-format
 msgid "GAdminRsync %s information"
-msgstr "GAdminRsync %s informacje"
+msgstr "Informations GAdminRsync %s"
 
 #, c-format
 msgid "GAdmin-Rsync %s \t %s"
 msgstr "GAdmin-Rsync %s \t %s"
 
 msgid "Started"
-msgstr "Rozpoczęto"
+msgstr "Débuté"
 
 msgid "Ended"
-msgstr "Zakończono"
+msgstr "Terminé"
 
 msgid "Status"
-msgstr "Status"
+msgstr "Statut"
 
 msgid "Source"
-msgstr "Źródło"
+msgstr "Source"
 
 msgid "Destination"
-msgstr "Miejsce przeznaczenia"
+msgstr "Destination"
 
 msgid "Show extended log"
-msgstr "Pokaż rozszerzony log"
+msgstr "Afficher les traces étendues"
 
 msgid "Extended backup log"
-msgstr "Rozszerzony log kopii zapasowej"
+msgstr "Traces de sauvegarde étendues"
 
 msgid "Status: Backup is not running."
-msgstr "Status: Kopia zapasowa nie jest uruchomiona."
+msgstr "Statut: La sauvegarde n'est pas démarrée."
 
 msgid "Status: Backup is running."
-msgstr "Status: Kopia zapasowa jest uruchomiona."
+msgstr "Statut: La sauvegarde est démarrée."
 
 #, c-format
 msgid "Couldn't find pixmap file: %s"
-msgstr "Nie można znaleźć pliku pixmap: %s"
+msgstr "Impossible de trouver le fichier pixmap: %s"
 
