@@ -47,29 +47,22 @@
 #130807 L18L: need sync.
 #140906 Dekani: update code to create a default resource repository
 
-#***MOMANAGER IS ENGLISH ONLY (NOT GETTEXT'ED)***
+#***MOCREATOR IS ENGLISH ONLY (NOT GETTEXT'ED)***
 #it is for use by developers/translators with knowledge of english.
 
-# Utilities functions
-poptop_func() {
- #passed param $1 is string to display at top of screen, optional $2 is color, $3 is timeout.
- BACKCOL='yellow'
- [ $2 ] && BACKCOL="$2"
- POPTIME='9'
- [ $3 ] && POPTIME="$3"
- echo "#!/bin/sh
- sleep 3
- /usr/lib/gtkdialog/box_splash -bg ${BACKCOL} -placement top -timeout ${POPTIME} -text \"${1}\"
- " > /tmp/momanager/yafmsg9${POPTIME}
- chmod 755 /tmp/momanager/yafmsg9${POPTIME}
- /tmp/momanager/yafmsg9${POPTIME} & #msg has delay so will appear on top of text editor window.
+# Function : debug information in console
+debug() {
+  # passed param $1 is information to display
+  if [ "$DEBUG" = "y" ];then
+    echo $1
+  fi
 }
 
-# Repository functions
+# Functions : Repository functions
 copy_to_repository() {
- #passed param $1 is file to copy to repository 
- cp --parents "$1" "$REPODIR"
- #echo "Store file: $1"
+  # passed param $1 is file to copy to repository 
+  cp --parents "$1" "$REPODIR"
+  debug "Store file: $1"
 }
 
 update_mo() {
@@ -81,9 +74,10 @@ update_mo() {
   APKGNAME="`echo -n "$YESMO_COMBO" | cut -f 2 -d '(' | cut -f 1 -d ')' | cut -f 3 -d ' '`" #ex: bluefish  ex: WOOF
   AMOSPEC="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/${AMO}"
   ATEXTDOMAIN="`basename $AMO .mo`"
-  cp -f "$AMOSPEC" /tmp/momanager/${ATEXTDOMAIN}.moOLD
-  msgunfmt "$AMOSPEC" > /tmp/momanager/${ATEXTDOMAIN}1.po
-  cd /tmp/momanager
+  cp -f "$AMOSPEC" ${WORKDIR}/${ATEXTDOMAIN}.moOLD
+  msgunfmt "$AMOSPEC" > ${WORKDIR}/${ATEXTDOMAIN}1.po
+  CURDIR="`pwd`"
+  cd "${WORKDIR}"
   case $ATEXTDOMAIN in
    alsaconf)
     #rodin.s: xgettext does not work properly on alsaconf script, use ready-made alsaconf.pot (in Woof).
@@ -123,9 +117,12 @@ update_mo() {
    LANG=${ORIGLANG} rxvt -e msginit --no-wrap --locale=${ORIGLANG12} --output-file=${ATEXTDOMAIN}.po --input=${ATEXTDOMAIN}.pot #create po file without any translations.
   fi
   
+  cd "${CURDIR}"
   APODIR="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/"
   mkdir -p "${REPODIR}${APODIR}"
-  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
+  cp -f "${WORKDIR}/${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
+
+  debug "Store file: ${REPODIR}${APODIR}${ATEXTDOMAIN}.po"
 
   export LANG=$ORIGLANG
 }
@@ -145,7 +142,8 @@ create_mo() {
   AMO="${ATEXTDOMAIN}.mo"
   AMOSPEC="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/${AMO}"
   mkdir -p /usr/share/locale/${ATRANSLANG}/LC_MESSAGES
-  cd /tmp/momanager
+  CURDIR="`pwd`"
+  cd "${WORKDIR}"
   case $ATEXTDOMAIN in
    alsaconf)
     #rodin.s: xgettext does not work properly on alsaconf script, use ready-made alsaconf.pot (in Woof).
@@ -182,9 +180,12 @@ create_mo() {
   LANG=${ORIGLANG} rxvt -e msginit --no-wrap --locale=${ORIGLANG12} --output-file=${ATEXTDOMAIN}.po --input=${ATEXTDOMAIN}.pot
   sync
   
+  cd "${CURDIR}"
   APODIR="/usr/share/locale/${ATRANSLANG}/LC_MESSAGES/"
   mkdir -p "${REPODIR}$APODIR"
-  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
+  cp -f "${WORKDIR}/${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
+
+  debug "Store file: ${REPODIR}${APODIR}${ATEXTDOMAIN}.po"
 
   export LANG=$ORIGLANG
 }
@@ -193,7 +194,7 @@ create_sss() {
   #BK's Simple String Substitution method.
   APKGNAME="WOOF"
   SSSFILE="$1" #ex: menu_strings (located at /usr/share/sss/menu_strings/)
-  cp -f /usr/share/sss/$SSSFILE/$SSSFILE /tmp/momanager/$SSSFILE.$ORIGLANG1
+  cp -f /usr/share/sss/$SSSFILE/$SSSFILE "${WORKDIR}/${SSSFILE}.${ORIGLANG1}"
   sync
   
   #120224 special handling req'd for doc_strings...
@@ -233,7 +234,9 @@ create_sss() {
   fi
   
   mkdir -p $REPODIR/usr/share/sss/$SSSFILE/
-  cp -f /tmp/momanager/$SSSFILE.$ORIGLANG1 $REPODIR/usr/share/sss/$SSSFILE/
+  cp -f "${WORKDIR}/{$SSSFILE}.{$ORIGLANG1}" $REPODIR/usr/share/sss/$SSSFILE/
+  
+  debug "File stored : $REPODIR/usr/share/sss/$SSSFILE/"
   
   export LANG=$ORIGLANG
 }
@@ -276,7 +279,8 @@ update_sss() {
 	copy_to_repository $SSS_TRANSLATION_FILE
    done
   mkdir -p $REPODIR/usr/share/sss/$SSSFILE/
-  cp -f /tmp/momanager/$SSSFILE.$ORIGLANG1 $REPODIR/usr/share/sss/$SSSFILE/
+  cp -f "${WORKDIR}/${SSSFILE}.${ORIGLANG1}" $REPODIR/usr/share/sss/$SSSFILE/
+  debug "File stored: $REPODIR/usr/share/sss/$SSSFILE/"
   #break   
   fi
   
@@ -286,7 +290,7 @@ update_sss() {
   #to do this properly have to write code that analyses the sss-files by section, that is, the files
   #have sections, separated by blank lines and headed by an identifier, ex "[_woof_.jwmrc]"
   #note: /usr/sbin/fixmenus has example sed to extract an sss section.
-  echo -n "" > /tmp/momanager/$SSSFILE.$ORIGLANG1
+  echo -n "" > $WORKDIR/$SSSFILE.$ORIGLANG1
   for ASECTIONID in `grep '^\[' /usr/share/sss/${SSSFILE}/${SSSFILE} | tr -d '[' | tr -d ']' | tr '\n' ' '` #ex: general _woof_.jwmrc
   do
    sPTN="/^\[${ASECTIONID}\]/,/^$/p" #this is a multi-line block find expression.
@@ -294,12 +298,12 @@ update_sss() {
    case $ASECTIONID in
     general)
      #this section is just comments, pass it straight thru...
-     echo '[general]' >> /tmp/momanager/$SSSFILE.$ORIGLANG1
-     echo "$ENCODEBLOCK" >> /tmp/momanager/$SSSFILE.$ORIGLANG1
-     echo  >> /tmp/momanager/$SSSFILE.$ORIGLANG1
+     echo '[general]' >> $WORKDIR/$SSSFILE.$ORIGLANG1
+     echo "$ENCODEBLOCK" >> $WORKDIR/$SSSFILE.$ORIGLANG1
+     echo  >> $WORKDIR/$SSSFILE.$ORIGLANG1
     ;;
     *)
-     echo "[${ASECTIONID}]" >> /tmp/momanager/$SSSFILE.$ORIGLANG1
+     echo "[${ASECTIONID}]" >> $WORKDIR/$SSSFILE.$ORIGLANG1
      #find same section in the translated sss-file...
      TRCODEBLOCK="`sed -n "$sPTN" /usr/share/sss/${SSSFILE}/${SSSFILE}.${ORIGLANG1} | sed -e '/^$/d' -e '/^\[/d'`" #extracts just the relevant block of lines.
      echo "$TRCODEBLOCK" | #sed -e 's%\\%\\\\%g' | #121124 pass \ thru read
@@ -309,10 +313,10 @@ update_sss() {
        CODESTRING*)
         eval "$ATRLINE"
         OKLINE="`echo "$ENCODEBLOCK" | grep "$CODESTRING" | grep "$ENGLISH"`"
-        [ "$OKLINE" ] && echo "$ATRLINE" >> /tmp/momanager/$SSSFILE.$ORIGLANG1 #match, so keep it.
+        [ "$OKLINE" ] && echo "$ATRLINE" >> $WORKDIR/$SSSFILE.$ORIGLANG1 #match, so keep it.
        ;;
        *)
-        echo "$ATRLINE" >> /tmp/momanager/$SSSFILE.$ORIGLANG1 #probably a comment line.
+        echo "$ATRLINE" >> $WORKDIR/$SSSFILE.$ORIGLANG1 #probably a comment line.
        ;;
       esac
      done
@@ -324,19 +328,21 @@ update_sss() {
        CODESTRING*)
         eval "$AENLINE"
         OKLINE="`echo "$TRCODEBLOCK" | grep "$CODESTRING" | grep "$ENGLISH"`"
-        [ ! "$OKLINE" ] && echo "$AENLINE" >> /tmp/momanager/$SSSFILE.$ORIGLANG1 #new line not in translated sss-file, so write it (not yet translated).
+        [ ! "$OKLINE" ] && echo "$AENLINE" >> $WORKDIR/$SSSFILE.$ORIGLANG1 #new line not in translated sss-file, so write it (not yet translated).
        ;;
       esac
      done
-     echo  >> /tmp/momanager/$SSSFILE.$ORIGLANG1
+     echo  >> $WORKDIR/$SSSFILE.$ORIGLANG1
     ;;
    esac
   done
-  echo  >> /tmp/momanager/$SSSFILE.$ORIGLANG1
+  echo  >> $WORKDIR/$SSSFILE.$ORIGLANG1
   
   mkdir -p $REPODIR/usr/share/sss/$SSSFILE/
-  cp -f /tmp/momanager/$SSSFILE.$ORIGLANG1 $REPODIR/usr/share/sss/$SSSFILE/
+  cp -f $WORKDIR/$SSSFILE.$ORIGLANG1 $REPODIR/usr/share/sss/$SSSFILE/
 
+  debug "File stored: $REPODIR/usr/share/sss/$SSSFILE/SSSFILE.$ORIGLANG1"
+  
   export LANG=$ORIGLANG
 }
   
@@ -367,16 +373,18 @@ generate_bin() {
   esac
   AMOSPEC="${PREFIXLOCALEDIR}/${ATRANSLANG}/LC_MESSAGES/${AMO}"
   mkdir -p "${PREFIXLOCALEDIR}/${ATRANSLANG}/LC_MESSAGES" #120308
-  cp -f /usr/share/doc/nls/${ATEXTDOMAIN}/${ATEXTDOMAIN}.pot /tmp/momanager/
-  cd /tmp/momanager
+  cp -f /usr/share/doc/nls/${ATEXTDOMAIN}/${ATEXTDOMAIN}.pot $WORKDIR
+
+  CURDIR="`pwd`"
+  cd "${WORKDIR}"
 
   if [ -f /usr/share/doc/nls/${ATEXTDOMAIN}/${ATRANSLANG}.po ];then #120309 use pre-existing po file.
    cp -f /usr/share/doc/nls/${ATEXTDOMAIN}/${ATRANSLANG}.po ./${ATEXTDOMAIN}.po
-   [ -f "$AMOSPEC" ] && cp -f "$AMOSPEC" /tmp/momanager/${ATEXTDOMAIN}.moOLD
+   [ -f "$AMOSPEC" ] && cp -f "$AMOSPEC" ${ATEXTDOMAIN}.moOLD
   else
    if [ "$2" = "edit_bin" ];then
-    cp -f "$AMOSPEC" /tmp/momanager/${ATEXTDOMAIN}.moOLD
-    msgunfmt "$AMOSPEC" > /tmp/momanager/${ATEXTDOMAIN}1.po
+    cp -f "$AMOSPEC" ${ATEXTDOMAIN}.moOLD
+    msgunfmt "$AMOSPEC" > ${ATEXTDOMAIN}1.po
     #this syncs textdomain1.po and textdomain.pot, merges to textdomain.po ...
     rm -f ${ATEXTDOMAIN}.po 2>/dev/null
     #130526 L18L: intltool-update fails with ROX-Filer and xdialog, but msgmerge works...
@@ -391,29 +399,292 @@ generate_bin() {
   fi
   sync
 
+  cd $CURDIR
   APODIR="${PREFIXLOCALEDIR}/${ATRANSLANG}/LC_MESSAGES/"
   mkdir -p "${REPODIR}$APODIR"
-  cp -f "${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
+  cp -f "$WORKDIR/${ATEXTDOMAIN}.po" "${REPODIR}${APODIR}"
 
+  debug "File Stored: ${REPODIR}${APODIR}${ATEXTDOMAIN}.po"
   export LANG=$ORIGLANG
 }
 
-if [ $# -lt 1 ]; then
-  echo "Usage : $0 <repository_pathname>"
-  exit 1
-fi
+#####SCRIPTS#######
+build_scripts() {
+ debug "Generate po files (scripts)..."
+ #find all gettext'ed scripts...
+ GETTEXTSCRIPTS="`find /bin /sbin /usr/bin /usr/sbin /usr/X11R7/bin /usr/local /etc/rc.d /root/my-applications/bin -maxdepth 4 -type f -executable | xargs -I INPUTFILE grep --files-with-matches '^export TEXTDOMAIN=' INPUTFILE | sed -e 's% %SPACECHAR%g' | sort | tr '\n' ' '`"
 
-if [[ "$1" != /* ]]; then
-  echo "Please specify an absolute path for repository pathname"
-  exit 1
-fi
+ #find all matching .mo files...
+ for AGTS in $GETTEXTSCRIPTS
+ do
+  xAGTS="`echo -n $AGTS | sed -e 's%SPACECHAR% %g'`"
+  #120731 what if code is: export TEXTDOMAIN='abc' or export TEXTDOMAIN="abc" remove the quotes... NO, not allowed to have quotes!!!!
+  TEXTDOMAINVALUE="`grep '^export TEXTDOMAIN=' "$xAGTS" | head -n 1 | cut -f 2 -d '=' | tr '\t' ' ' | cut -f 1 -d ' '`" #1202120 need 'head -n1' ex: /usr/local/petget/ui_Classic has export TEXTDOMAIN in two places.
 
-REPODIR="$1"
+  #want to know if from Woof or a builtin pkg or later-installed pkg...
+  BASExAGTS="`basename "$xAGTS"`"
+  xPTN=" ${BASExAGTS}$"
+  PATHxAGTS="`dirname "$xAGTS"`"
+  xxPTN="^${PATHxAGTS}$"
+  zPTN="^${xAGTS}$"
+  aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
+  if [ "$aPKGNAME" ];then #confirm full path.
+   for AAA in $aPKGNAME
+   do
+    CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$xAGTS"`"
+    if [ "$CONFIRM" ];then
+     aPKGNAME="$AAA"
+    break
+    fi
+   done
+   [ ! "$CONFIRM" ] && aPKGNAME=""
+  fi
+  [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+  #...return nothing if in Woof
+  [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${xAGTS}" ] && aPKGNAME="WOOF" #file is in Woof.
+  [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+
+  FNDMO=""
+  if [ -f /usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
+   FNDMO="/usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
+   TRANSLANG=$ORIGLANG12
+  else
+   if [ -f /usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
+    FNDMO="/usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
+    TRANSLANG=$ORIGLANG1
+   fi
+  fi
+  if [ "$FNDMO" ];then
+   update_mo "${xAGTS} (${TRANSLANG} ${TEXTDOMAINVALUE}.mo ${aPKGNAME})"
+  else
+   create_mo "${xAGTS} (${TEXTDOMAINVALUE} ${aPKGNAME})"
+  fi
+ done
+}
+
+#######MENU ENTRIES#######
+#find out which .desktop files have [lang] entries already, create two lists...
+build_menu_entries() {
+ debug "Generate desktop files (menu entries)..."
+ dPTN="\\[${ORIGLANG1}\\]"
+ for ADESKTOP in `find /usr/share/applications -mindepth 1 -maxdepth 1 -type f -name '*.desktop' | grep -v ' ' | sort | tr '\n' ' '`
+ do
+  [ "`grep '^Icon' $ADESKTOP`" = "" ] && continue #some dummy .desktop files used by xfce, ignore them.
+  ADESKNAME="`basename $ADESKTOP`"
+ 
+  #find out what package it is from...
+  xPTN=" ${ADESKNAME}$"
+  zPTN="^${ADESKTOP}$"
+  aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
+  [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+  #...return nothing if in Woof
+  [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${ADESKTOP}" ] && aPKGNAME="WOOF" #file is in Woof.
+  [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+
+  copy_to_repository "/usr/share/applications/${ADESKNAME}"
+ 
+  if [ "`grep "$dPTN" $ADESKTOP`" == "" ];then
+    sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" "$REPODIR/usr/share/applications/$ADESKNAME"
+  fi
+ done
+}
+
+#######MENU TITLES#######
+#this gives us the list of .directory files in /usr/share/desktop-directories for the top-level titles... ex: Puppy-Setup.directory
+build_menu_titles() {
+  debug "Generate directory files (menu titles)..."
+  TOPMENUFILES="`grep -m1 '<Directory>' /etc/xdg/menus/puppy-[^S]*.menu | cut -f 2 -d '>' | cut -f 1 -d '<' | grep 'directory$' | sort | tr '\n' ' '`"
+  dPTN="^Name\\[${ORIGLANG1}\\]"
+  for ATOPMENUFILE in $TOPMENUFILES
+  do
+   copy_to_repository "/usr/share/desktop-directories/${ATOPMENUFILE}"
+
+   if [ "`grep "$dPTN" /usr/share/desktop-directories/$ATOPMENUFILE`" == "" ];then
+     sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" $REPODIR/usr/share/desktop-directories/$ATOPMENUFILE
+   fi
+  done
+}
+
+#######XML#######
+#search $PATHPREFIX to avoid devx files...
+build_xml() {
+  debug "Generate xml files..."
+  XMLFILES="`find /usr/local -type f -name '*.xml' | sed -e 's% %SPACECHAR%g' | tr '\n' ' '`" #ex: /usr/local/apps/Connect/AppInfo.xml
+  aPTN="xml:lang=\"${ORIGLANG1}\""  #ex: xml:lang="de"
+  bPTN="xml:lang=\"${ORIGLANG12}\"" #ex: xml:lang="de_DE"
+  for AXMLFILE in $XMLFILES
+  do
+   AXMLFILE="`echo -n "$AXMLFILE" | sed -e 's%SPACECHAR% %g'`"
+ 
+   #want to know if from Woof or a builtin pkg or later-installed pkg...
+   BASEAXMLFILE="`basename "$AXMLFILE"`"
+   xPTN=" ${BASEAXMLFILE}$"
+   PATHAXMLFILE="`dirname "$AXMLFILE"`"
+   xxPTN="^${PATHAXMLFILE}$"
+   zPTN="^${AXMLFILE}$"
+   aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
+   if [ "$aPKGNAME" ];then #confirm full path.
+    for AAA in $aPKGNAME
+    do
+     CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$AXMLFILE"`"
+     if [ "$CONFIRM" ];then
+      aPKGNAME="$AAA"
+      break
+     fi
+    done
+    [ ! "$CONFIRM" ] && aPKGNAME=""
+   fi
+   [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+   #...return nothing if in Woof
+   [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${AXMLFILE}" ] && aPKGNAME="WOOF" #file is in Woof.
+   [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+ 
+   copy_to_repository "${AXMLFILE}"
+  done
+}
+
+#######SSS#######
+#Simple String Substitution
+#manage translations in many non-executable data files.
+#translations are kept in /usr/share/sss/$SSSDOMAIN/$SSSDOMAIN.$ORIGLANG1 ex: SSSDOMAIN=menu_strings ORIGLANG1=de
+build_sss() {
+  debug "Generate Simple String Substitution files..."
+  for ASSSDOMAIN in `find /usr/share/sss -mindepth 1 -maxdepth 1 -type d | sed -e 's%^/usr/share/sss/%%' | tr '\n' ' '`
+  do
+   #120224 doc_strings is a special case, the translated file is elsewhere...
+   if [ -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} ];then
+    if [ "$ASSSDOMAIN" = "doc_strings" ];then
+     cp -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN} /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} #120228 must always be same as orig.
+     TRANSFLAG='fail'
+     TRANSLATEDFILES="`grep '^SSS_TRANSLATION_RULE' /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} | cut -f 2 -d "'" | sed -e "s%SSSLANG1MARKER%${ORIGLANG1}%" | tr '\n' ' '`" #'geanyfix
+     for ATRANSLATEDFILE in $TRANSLATEDFILES
+     do
+      if [ -f $ATRANSLATEDFILE ];then
+       TRANSFLAG='success'
+      fi
+     done
+     [ "$TRANSFLAG" = "fail" ] && rm -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} #because translated file(s) does not exist.
+    fi
+   fi
+
+   if [ -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} ];then
+    #there is already a translation.
+    update_sss ${ASSSDOMAIN}.${ORIGLANG1}
+   else
+    create_sss ${ASSSDOMAIN}
+   fi
+  done
+}
+
+########Binary executables#######
+#support a limited number of binary executables that have .pot files in /usr/share/doc/nls
+build_binaries() {
+  debug "Generate po files (binaries)..."
+  for ANLSDIR in `ls -1 /usr/share/doc/nls | tr '\n' ' '`
+  do
+   if [ -d  /usr/share/doc/nls/${ANLSDIR} ];then
+ 
+    #120309 po files may now be there... ex: /usr/share/doc/nls/ROX-Filer/de.po
+    FNDPO="`find /usr/share/doc/nls/${ANLSDIR} -mindepth 1 -maxdepth 1 -type f -name '*.po' | tr '\n' ' '`"
+    for APO in $FNDPO
+    do
+     copy_to_repository "$APO"
+    done
+ 
+    BINEXEC=""
+    BINEXEC="`which $ANLSDIR`"
+    [ ! "$BINEXEC" ] && BINEXEC="`find /usr/local -maxdepth 4 -executable -type f -name "$ANLSDIR"`" #ex: /usr/local/simple_network_setup/proxy-setup
+    if [ "$BINEXEC" ];then
+     if [ "`file "$BINEXEC" | grep ' ELF ' | grep 'LSB executable'`" != "" ];then
+      #have found binary executable for the pot file...
+      TEXTDOMAINVALUE="$ANLSDIR" #TEXTDOMAIN must be same as executable name.
+    
+      #want to know if from Woof or a builtin pkg or later-installed pkg...
+      BASEBINEXEC="`basename "$BINEXEC"`"
+      xPTN=" ${BASEBINEXEC}$"
+      PATHBINEXEC="`dirname "$BINEXEC"`"
+      xxPTN="^${PATHBINEXEC}$"
+      zPTN="^${BINEXEC}$"
+      aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
+      if [ "$aPKGNAME" ];then #confirm full path.
+       for AAA in $aPKGNAME
+       do
+        CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$BINEXEC"`"
+        if [ "$CONFIRM" ];then
+         aPKGNAME="$AAA"
+         break
+        fi
+       done
+       [ ! "$CONFIRM" ] && aPKGNAME=""
+      fi
+      [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+      #...return nothing if in Woof
+      [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${BINEXEC}" ] && aPKGNAME="WOOF" #file is in Woof.
+      [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+    
+      FNDMO=""
+      PREFIXLOCALEDIR='/usr/share/locale' #120308
+      if [ -f /usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
+       FNDMO="/usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
+       TRANSLANG=$ORIGLANG12
+      else
+       if [ -f /usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
+        FNDMO="/usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
+        TRANSLANG=$ORIGLANG1
+       fi
+      fi
+      #120308 ROX-Filer is example where .mo is elsewhere. search all roxapps..
+      if [ ! "$FNDMO" ];then
+       FNDMO="`find /usr/local/apps -type f -name "${TEXTDOMAINVALUE}.mo"`"
+       TRANSLANG=$ORIGLANG1
+       PREFIXLOCALEDIR="`echo -n "$FNDMO" | sed -e 's%/LC_MESSAGES.*%%' | rev | cut -f 2-9 -d '/' | rev`" #ex: /usr/local/apps/ROX-Filer/Messages/de/LC_MESSAGES/ROX-Filer.mo, extract /usr/local/apps/ROX-Filer/Messages
+      fi
+      if [ "$FNDMO" ];then
+       generate_bin "${BINEXEC} (${TRANSLANG} ${TEXTDOMAINVALUE}.mo ${aPKGNAME})" "edit_bin"
+      else
+       generate_bin "${BINEXEC} (${TEXTDOMAINVALUE} ${aPKGNAME})" "create_bin"
+      fi
+     fi
+    fi
+   fi
+  done
+}
+
+PROGNAME="`basename $0`"
+
+#131206 some texts
+LANGPACK='langpack' #131206
+PUPPY='Puppy'
+TRANSLATE='fully translate Puppy'
+isFATDOG= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Fatdog" ] && isFATDOG=true
+isQUIRKY= ; read LINE < /etc/issue ; [ "${LINE:0:6}" = "Quirky" ] && isQUIRKY=true #140104
+
+[ "$isQUIRKY" = "true" ] && isQUIRKY=  #140223 no specials for Quirky
+
+if [ "$isFATDOG" ]; then
+ LANGPACK='langpackFatdog'
+ PUPPY='Fatdog'
+ TRANSLATE='add translations for Fatdog'
+fi
+#131206
+if [ "$isQUIRKY" ]; then
+ LANGPACK='langpackQuirky'
+ PUPPY='Quirky'
+ TRANSLATE='add translations for Quirky'
+fi
+#140104
+
+#if [[ "$REPODIR" != /* ]]; then
+#  echo "Please specify an absolute path for repository pathname"
+#  exit 1
+#fi
 
 ORIGLANG=$LANG
 export LANG=C
 . /etc/rc.d/PUPSTATE
-mkdir -p /tmp/momanager
+
+GTKDIALOGEXE="gtkdialog"
+[ "`which gtkdialog4`" ] && GTKDIALOGEXE="gtkdialog4"
 ADATE="`date +%Y%m%d`" #ex: 20120205
 WINICON="gtk-preferences"; HELPICON="gtk-index" #gtk-info
 
@@ -421,28 +692,37 @@ ORIGLANG1="`echo -n $ORIGLANG | cut -f 1 -d '_'`"  #ex: de
 ORIGLANG12="`echo -n $ORIGLANG | cut -f 1 -d '.'`" #ex: de_DE
 
 if [ "$ORIGLANG1" = "en" ];then
- pupdialog --title "MoManager: abort" --background pink --colors --msgbox "This application is intended for creation and editing of non-English translations of scripts, but your locale is currently \Zb${ORIGLANG}\ZB. Click the \Zbsetup\ZB icon on the desktop to change locale (and be sure to enable UTF-8). Aborting." 0 0
+ pupdialog --title "${PROGNAME}: abort" --background pink --colors --msgbox "This application is intended for creation and editing of non-English translations of scripts, but your locale is currently \Zb${ORIGLANG}\ZB. Click the \Zbsetup\ZB icon on the desktop to change locale (and be sure to enable UTF-8). Aborting." 0 0
  exit 1
 fi
 if [ "`echo -n $ORIGLANG | grep -i 'utf'`" = "" ];then
- pupdialog --title "MoManager: abort" --background pink --colors --msgbox "Sorry, your \Zblocale\ZB (language) must have UTF-8 enabled to use this application. Click the \Zbsetup\ZB icon on the desktop to change locale. Aborting." 0 0
+ pupdialog --title "${PROGNAME}: abort" --background pink --colors --msgbox "Sorry, your \Zblocale\ZB (language) must have UTF-8 enabled to use this application. Click the \Zbsetup\ZB icon on the desktop to change locale. Aborting." 0 0
  exit 1
 fi
-if [ "`which gcc`" = "" ];then
- pupdialog --title "MoManager: abort" --background pink --colors --msgbox "Sorry, you must have the \Zbdevx\ZB SFS loaded. Aborting." 0 0
- exit 1
-fi
+
 MISSINGFILE=""
-[ "`which intltool-update`" = "" ] && MISSINGFILE="intltool-update "
 [ "`which xgettext`" = "" ] && MISSINGFILE="${MISSINGFILE}xgettext "
 [ "`which msginit`" = "" ] && MISSINGFILE="${MISSINGFILE}msginit "
 [ "`which msgfmt`" = "" ] && MISSINGFILE="${MISSINGFILE}msgfmt "
 [ "`which msgunfmt`" = "" ] && MISSINGFILE="${MISSINGFILE}msgunfmt "
-[ "`which msgmerge`" = "" ] && MISSINGFILE="${MISSINGFILE}msgmerge" #130526
+[ "`which urxvt`" = "" ] && MISSINGFILE="${MISSINGFILE}urxvt " #130610
+if [ "`which pupdialog`" ];then #131026
+ :
+else
+  Xdialog --title "${PROGNAME}: Abort" --infobox "pupdialog has not been found here" 0 0 10000 #131026
+  exit #131026
+fi #131026
 if [ "$MISSINGFILE" ];then
- echo "Sorry, these needed applications are missing: \Zb${MISSINGFILE}\ZB. The \Zbdevx\ZB SFS normally has these, but it must be incomplete. Aborting."
+ pupdialog --title "${PROGNAME}: abort" --background pink --colors --msgbox "Sorry, these needed applications are missing: \Zb${MISSINGFILE}\ZB. The \Zbdevx\ZB SFS normally has these, but it must be incomplete. Or use Bert's i18n-tools or install package gettext. Aborting." 0 0 #140103 gettext package will also do it
  exit 1
 fi
+
+if [ "$isFATDOG" -o "$isQUIRKY" ]; then #140104
+  if [ "`ls /root/.packages/langpack_${transLANG}-* 2>/dev/null`" = "" ] ; then
+   pupdialog --title "${PROGNAME}: abort" --background pink --colors --msgbox "Sorry, this needed basic langpack from puppy is missing: \Zblangpack_${transLANG}\ZB. The \Zbcommon repository\ZB normally has this PET. Aborting." 0 0
+   exit 1
+  fi #131206
+fi #140101
 
 PATHPREFIX=""
 case $PUPMODE in
@@ -451,250 +731,78 @@ case $PUPMODE in
  *) PATHPREFIX="/initrd/pup_ro2" ;;
 esac
 if [ "$PATHPREFIX" = "" ];then
- echo "Sorry, the PUPMODE must be a value greater than 3, that is, not be a full hd installation. Aborting."
+ pupdialog --title "${PROGNAME} abort" --background pink --colors --msgbox "Sorry, the PUPMODE must be a value greater than 3, that is, not be a full hd installation. Aborting."
  exit 1
 fi
 ppPTN="s%${PATHPREFIX}%%"
 
-REPODIR="$REPODIR/$ORIGLANG1"
-rm -R "$REPODIR"
+CONFIG="/root/.config/${PROGNAME}"
+[ ! -f $CONFIG ] && echo "### edit between = and #   
+REPODIR=../repo/${ORIGLANG1}
+WORKDIR=../work/${PROGNAME}
+DEBUG=n
+" > $CONFIG
+. $CONFIG
+
+REPODIR="$REPODIR"
 mkdir -p "$REPODIR"
 
-echo "Please wait, scanning files..."
+rm -R "$WORKDIR"
+mkdir -p "$WORKDIR"
 
-TRANSLANG=""
+# Display main menu
 
-#####SCRIPTS#######
-echo "Generate po files (scripts)..."
-#find all gettext'ed scripts...
-GETTEXTSCRIPTS="`find /bin /sbin /usr/bin /usr/sbin /usr/X11R7/bin /usr/local /etc/rc.d /root/my-applications/bin -maxdepth 4 -type f -executable | xargs -I INPUTFILE grep --files-with-matches '^export TEXTDOMAIN=' INPUTFILE | sed -e 's% %SPACECHAR%g' | sort | tr '\n' ' '`"
+MOCREATOR_DLG="<window title=\"$PROGNAME : ${PUPPY} files\" resizable=\"false\" icon-name=\"${WINICON}\">
+ <vbox>
+  <frame>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>\"Working directory : $WORKDIR\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>\"Repository directory : $REPODIR\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>\"\"</label></text>
+   </hbox>
+   <hbox>
+    <text xalign=\"1\" use-markup=\"true\" ><label>Settings are stored in '$CONFIG' file.</label></text>
+   </hbox>
+  </frame>
+  <hbox>
+   <button><label>Cancel</label><action>EXIT:cancel</action></button>
+   <button><label>Generate</label><action>EXIT:generate</action></button>
+  </hbox>
+ </vbox>
+</window>
+"
+export MOCREATOR_DLG
 
-#find all matching .mo files...
-for AGTS in $GETTEXTSCRIPTS
-do
- xAGTS="`echo -n $AGTS | sed -e 's%SPACECHAR% %g'`"
- #120731 what if code is: export TEXTDOMAIN='abc' or export TEXTDOMAIN="abc" remove the quotes... NO, not allowed to have quotes!!!!
- TEXTDOMAINVALUE="`grep '^export TEXTDOMAIN=' "$xAGTS" | head -n 1 | cut -f 2 -d '=' | tr '\t' ' ' | cut -f 1 -d ' '`" #1202120 need 'head -n1' ex: /usr/local/petget/ui_Classic has export TEXTDOMAIN in two places.
+MOBUILDER_RET="`$GTKDIALOGEXE --program=MOCREATOR_DLG`"
+eval "$MOBUILDER_RET"
+case $EXIT in
 
- #want to know if from Woof or a builtin pkg or later-installed pkg...
- BASExAGTS="`basename "$xAGTS"`"
- xPTN=" ${BASExAGTS}$"
- PATHxAGTS="`dirname "$xAGTS"`"
- xxPTN="^${PATHxAGTS}$"
- zPTN="^${xAGTS}$"
- aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
- if [ "$aPKGNAME" ];then #confirm full path.
-  for AAA in $aPKGNAME
-  do
-   CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$xAGTS"`"
-   if [ "$CONFIRM" ];then
-    aPKGNAME="$AAA"
-    break
-   fi
-  done
-  [ ! "$CONFIRM" ] && aPKGNAME=""
- fi
- [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
- #...return nothing if in Woof
- [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${xAGTS}" ] && aPKGNAME="WOOF" #file is in Woof.
- [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+generate)
+  WAITMSG="Please wait, generate files..."
+  debug "${WAITMSG}"
+  yaf-splash -bg orange -text "${WAITMSG}" &
+  yPID=$!
 
- FNDMO=""
- if [ -f /usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
-  FNDMO="/usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
-  TRANSLANG=$ORIGLANG12
- else
-  if [ -f /usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
-   FNDMO="/usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
-   TRANSLANG=$ORIGLANG1
-  fi
- fi
- if [ "$FNDMO" ];then
-  update_mo "${xAGTS} (${TRANSLANG} ${TEXTDOMAINVALUE}.mo ${aPKGNAME})"
- else
-  create_mo "${xAGTS} (${TEXTDOMAINVALUE} ${aPKGNAME})"
- fi
-done
+  TRANSLANG=""
 
-#######MENU ENTRIES#######
-#find out which .desktop files have [lang] entries already, create two lists...
-echo "Generate desktop files (menu entries)..."
-dPTN="\\[${ORIGLANG1}\\]"
-for ADESKTOP in `find /usr/share/applications -mindepth 1 -maxdepth 1 -type f -name '*.desktop' | grep -v ' ' | sort | tr '\n' ' '`
-do
- [ "`grep '^Icon' $ADESKTOP`" = "" ] && continue #some dummy .desktop files used by xfce, ignore them.
- ADESKNAME="`basename $ADESKTOP`"
- 
- #find out what package it is from...
- xPTN=" ${ADESKNAME}$"
- zPTN="^${ADESKTOP}$"
- aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
- [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
- #...return nothing if in Woof
- [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${ADESKTOP}" ] && aPKGNAME="WOOF" #file is in Woof.
- [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
+  build_scripts
+  build_menu_entries
+  build_menu_titles
+  build_xml
+  build_sss
+  build_binaries
+  
+  # close waiting dialog 
+  debug "Repository generated..."
+  kill $yPID &>/dev/null
+  ;;
 
- copy_to_repository "/usr/share/applications/${ADESKNAME}"
- 
- if [ "`grep "$dPTN" $ADESKTOP`" == "" ];then
-   sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" "$REPODIR/usr/share/applications/$ADESKNAME"
- fi
-done
+esac
 
-#######MENU TITLES#######
-#this gives us the list of .directory files in /usr/share/desktop-directories for the top-level titles... ex: Puppy-Setup.directory
-echo "Generate directory files (menu titles)..."
-TOPMENUFILES="`grep -m1 '<Directory>' /etc/xdg/menus/puppy-[^S]*.menu | cut -f 2 -d '>' | cut -f 1 -d '<' | grep 'directory$' | sort | tr '\n' ' '`"
-dPTN="^Name\\[${ORIGLANG1}\\]"
-for ATOPMENUFILE in $TOPMENUFILES
-do
- copy_to_repository "/usr/share/desktop-directories/${ATOPMENUFILE}"
+exit 0
 
- if [ "`grep "$dPTN" /usr/share/desktop-directories/$ATOPMENUFILE`" == "" ];then
-   sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" $REPODIR/usr/share/desktop-directories/$ATOPMENUFILE
- fi
-done
-
-#######XML#######
-#search $PATHPREFIX to avoid devx files...
-echo "Generate xml files..."
-XMLFILES="`find /usr/local -type f -name '*.xml' | sed -e 's% %SPACECHAR%g' | tr '\n' ' '`" #ex: /usr/local/apps/Connect/AppInfo.xml
-aPTN="xml:lang=\"${ORIGLANG1}\""  #ex: xml:lang="de"
-bPTN="xml:lang=\"${ORIGLANG12}\"" #ex: xml:lang="de_DE"
-for AXMLFILE in $XMLFILES
-do
- AXMLFILE="`echo -n "$AXMLFILE" | sed -e 's%SPACECHAR% %g'`"
- 
- #want to know if from Woof or a builtin pkg or later-installed pkg...
- BASEAXMLFILE="`basename "$AXMLFILE"`"
- xPTN=" ${BASEAXMLFILE}$"
- PATHAXMLFILE="`dirname "$AXMLFILE"`"
- xxPTN="^${PATHAXMLFILE}$"
- zPTN="^${AXMLFILE}$"
- aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
- if [ "$aPKGNAME" ];then #confirm full path.
-  for AAA in $aPKGNAME
-  do
-   CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$AXMLFILE"`"
-   if [ "$CONFIRM" ];then
-    aPKGNAME="$AAA"
-    break
-   fi
-  done
-  [ ! "$CONFIRM" ] && aPKGNAME=""
- fi
- [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
- #...return nothing if in Woof
- [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${AXMLFILE}" ] && aPKGNAME="WOOF" #file is in Woof.
- [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
- 
- copy_to_repository "${AXMLFILE}"
-done
-
-#######SSS#######
-#Simple String Substitution
-#manage translations in many non-executable data files.
-#translations are kept in /usr/share/sss/$SSSDOMAIN/$SSSDOMAIN.$ORIGLANG1 ex: SSSDOMAIN=menu_strings ORIGLANG1=de
-echo "Generate Simple String Substitution files..."
-for ASSSDOMAIN in `find /usr/share/sss -mindepth 1 -maxdepth 1 -type d | sed -e 's%^/usr/share/sss/%%' | tr '\n' ' '`
-do
- #120224 doc_strings is a special case, the translated file is elsewhere...
- if [ -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} ];then
-  if [ "$ASSSDOMAIN" = "doc_strings" ];then
-   cp -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN} /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} #120228 must always be same as orig.
-   TRANSFLAG='fail'
-   TRANSLATEDFILES="`grep '^SSS_TRANSLATION_RULE' /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} | cut -f 2 -d "'" | sed -e "s%SSSLANG1MARKER%${ORIGLANG1}%" | tr '\n' ' '`" #'geanyfix
-   for ATRANSLATEDFILE in $TRANSLATEDFILES
-   do
-    if [ -f $ATRANSLATEDFILE ];then
-     TRANSFLAG='success'
-    fi
-   done
-   [ "$TRANSFLAG" = "fail" ] && rm -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} #because translated file(s) does not exist.
-  fi
- fi
-
- if [ -f /usr/share/sss/${ASSSDOMAIN}/${ASSSDOMAIN}.${ORIGLANG1} ];then
-  #there is already a translation.
-  update_sss ${ASSSDOMAIN}.${ORIGLANG1}
- else
-  create_sss ${ASSSDOMAIN}
- fi
-done
-
-########Binary executables#######
-#support a limited number of binary executables that have .pot files in /usr/share/doc/nls
-echo "Generate po files (binaries)..."
-for ANLSDIR in `ls -1 /usr/share/doc/nls | tr '\n' ' '`
-do
- if [ -d  /usr/share/doc/nls/${ANLSDIR} ];then
- 
-  #120309 po files may now be there... ex: /usr/share/doc/nls/ROX-Filer/de.po
-  FNDPO="`find /usr/share/doc/nls/${ANLSDIR} -mindepth 1 -maxdepth 1 -type f -name '*.po' | tr '\n' ' '`"
-  for APO in $FNDPO
-  do
-   copy_to_repository "$APO"
-  done
- 
-  BINEXEC=""
-  BINEXEC="`which $ANLSDIR`"
-  [ ! "$BINEXEC" ] && BINEXEC="`find /usr/local -maxdepth 4 -executable -type f -name "$ANLSDIR"`" #ex: /usr/local/simple_network_setup/proxy-setup
-  if [ "$BINEXEC" ];then
-   if [ "`file "$BINEXEC" | grep ' ELF ' | grep 'LSB executable'`" != "" ];then
-    #have found binary executable for the pot file...
-    TEXTDOMAINVALUE="$ANLSDIR" #TEXTDOMAIN must be same as executable name.
-    
-    #want to know if from Woof or a builtin pkg or later-installed pkg...
-    BASEBINEXEC="`basename "$BINEXEC"`"
-    xPTN=" ${BASEBINEXEC}$"
-    PATHBINEXEC="`dirname "$BINEXEC"`"
-    xxPTN="^${PATHBINEXEC}$"
-    zPTN="^${BINEXEC}$"
-    aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
-    if [ "$aPKGNAME" ];then #confirm full path.
-     for AAA in $aPKGNAME
-     do
-      CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$BINEXEC"`"
-      if [ "$CONFIRM" ];then
-       aPKGNAME="$AAA"
-       break
-      fi
-     done
-     [ ! "$CONFIRM" ] && aPKGNAME=""
-    fi
-    [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
-    #...return nothing if in Woof
-    [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${BINEXEC}" ] && aPKGNAME="WOOF" #file is in Woof.
-    [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
-    
-    FNDMO=""
-    PREFIXLOCALEDIR='/usr/share/locale' #120308
-    if [ -f /usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
-     FNDMO="/usr/share/locale/${ORIGLANG12}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
-     TRANSLANG=$ORIGLANG12
-    else
-     if [ -f /usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo ];then
-      FNDMO="/usr/share/locale/${ORIGLANG1}/LC_MESSAGES/${TEXTDOMAINVALUE}.mo"
-      TRANSLANG=$ORIGLANG1
-     fi
-    fi
-    #120308 ROX-Filer is example where .mo is elsewhere. search all roxapps..
-    if [ ! "$FNDMO" ];then
-     FNDMO="`find /usr/local/apps -type f -name "${TEXTDOMAINVALUE}.mo"`"
-     TRANSLANG=$ORIGLANG1
-     PREFIXLOCALEDIR="`echo -n "$FNDMO" | sed -e 's%/LC_MESSAGES.*%%' | rev | cut -f 2-9 -d '/' | rev`" #ex: /usr/local/apps/ROX-Filer/Messages/de/LC_MESSAGES/ROX-Filer.mo, extract /usr/local/apps/ROX-Filer/Messages
-    fi
-    if [ "$FNDMO" ];then
-     generate_bin "${BINEXEC} (${TRANSLANG} ${TEXTDOMAINVALUE}.mo ${aPKGNAME})" "edit_bin"
-    else
-     generate_bin "${BINEXEC} (${TEXTDOMAINVALUE} ${aPKGNAME})" "create_bin"
-    fi
-   fi
-  fi
- fi
-done
-
-# close waiting dialog 
-echo "Repository generated..."
- 
 ###END###
