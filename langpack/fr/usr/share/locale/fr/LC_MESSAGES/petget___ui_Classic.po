@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Petget VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2014-09-16 18:46+0100\n"
+"PO-Revision-Date: 2014-09-24 19:26+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -22,7 +22,7 @@ msgstr "Gestionnaire des paquets PPM"
 
 #: ui_Classic.sh:37
 msgid "Repo:"
-msgstr "Dépot"
+msgstr "Dépôt"
 
 #: ui_Classic.sh:49
 msgid "Desktop"
@@ -34,7 +34,7 @@ msgstr "Système"
 
 #: ui_Classic.sh:51
 msgid "Setup"
-msgstr "Paramètres"
+msgstr "Configuration"
 
 #: ui_Classic.sh:52
 msgid "Utility"
@@ -42,7 +42,7 @@ msgstr "Utilitaires"
 
 #: ui_Classic.sh:53
 msgid "Filesystem"
-msgstr "Syst. Fich."
+msgstr "Fichiers"
 
 #: ui_Classic.sh:54
 msgid "Graphic"
@@ -76,7 +76,8 @@ msgstr "Multimédia"
 msgid "Fun"
 msgstr "Loisirs"
 
-#: ui_Classic.sh:68 ui_Classic.sh:142
+#: ui_Classic.sh:68
+#: ui_Classic.sh:142
 msgid "Package|Description"
 msgstr "Paquet|Description"
 
@@ -107,3 +108,4 @@ msgstr "QUITTER         "
 #: ui_Classic.sh:140
 msgid "Installed packages"
 msgstr "Paquets installés"
+

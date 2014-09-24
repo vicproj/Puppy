@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: pkg_chooser.sh VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2014-09-18 20:59+0100\n"
+"PO-Revision-Date: 2014-09-24 19:27+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -73,13 +73,13 @@ msgstr "Configuration"
 #: ui_Ziggy.sh:43
 #: ui_Ziggy.sh:173
 msgid "Utility"
-msgstr "Utilitaire"
+msgstr "Utilitaires"
 
 #: ui_Classic.sh:53
 #: ui_Ziggy.sh:44
 #: ui_Ziggy.sh:174
 msgid "Filesystem"
-msgstr "Système de fichiers"
+msgstr "Fichiers"
 
 #: ui_Classic.sh:54
 #: ui_Ziggy.sh:45
@@ -91,13 +91,13 @@ msgstr "Graphisme"
 #: ui_Ziggy.sh:46
 #: ui_Ziggy.sh:176
 msgid "Document"
-msgstr "Document"
+msgstr "Documents"
 
 #: ui_Classic.sh:56
 #: ui_Ziggy.sh:47
 #: ui_Ziggy.sh:177
 msgid "Business"
-msgstr "Affaire"
+msgstr "Affaires"
 
 #: ui_Classic.sh:57
 #: ui_Ziggy.sh:48
@@ -127,7 +127,7 @@ msgstr "Multimédia"
 #: ui_Ziggy.sh:52
 #: ui_Ziggy.sh:182
 msgid "Fun"
-msgstr "Loisir"
+msgstr "Loisirs"
 
 #: ui_Classic.sh:68
 #: ui_Classic.sh:142

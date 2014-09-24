@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Petget VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2014-09-16 18:48+0100\n"
+"PO-Revision-Date: 2014-09-24 19:26+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -12,65 +12,80 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#: ui_Ziggy.sh:19 ui_Ziggy.sh:54
+#: ui_Ziggy.sh:19
+#: ui_Ziggy.sh:54
 msgid "ALL"
 msgstr "TOUT"
 
-#: ui_Ziggy.sh:27 ui_Ziggy.sh:53
+#: ui_Ziggy.sh:27
+#: ui_Ziggy.sh:53
 msgid "BuildingBlock"
 msgstr ""
 
-#: ui_Ziggy.sh:40 ui_Ziggy.sh:170
+#: ui_Ziggy.sh:40
+#: ui_Ziggy.sh:170
 msgid "Desktop"
 msgstr "Bureau"
 
-#: ui_Ziggy.sh:41 ui_Ziggy.sh:171
+#: ui_Ziggy.sh:41
+#: ui_Ziggy.sh:171
 msgid "System"
 msgstr "Système"
 
-#: ui_Ziggy.sh:42 ui_Ziggy.sh:172
+#: ui_Ziggy.sh:42
+#: ui_Ziggy.sh:172
 msgid "Setup"
 msgstr "Configuration"
 
-#: ui_Ziggy.sh:43 ui_Ziggy.sh:173
+#: ui_Ziggy.sh:43
+#: ui_Ziggy.sh:173
 msgid "Utility"
-msgstr "Utilitaire"
+msgstr "Utilitaires"
 
-#: ui_Ziggy.sh:44 ui_Ziggy.sh:174
+#: ui_Ziggy.sh:44
+#: ui_Ziggy.sh:174
 msgid "Filesystem"
-msgstr "Système de fichiers"
+msgstr "Fichiers"
 
-#: ui_Ziggy.sh:45 ui_Ziggy.sh:175
+#: ui_Ziggy.sh:45
+#: ui_Ziggy.sh:175
 msgid "Graphic"
-msgstr "Graphique"
+msgstr "Graphisme"
 
-#: ui_Ziggy.sh:46 ui_Ziggy.sh:176
+#: ui_Ziggy.sh:46
+#: ui_Ziggy.sh:176
 msgid "Document"
-msgstr "Document"
+msgstr "Documents"
 
-#: ui_Ziggy.sh:47 ui_Ziggy.sh:177
+#: ui_Ziggy.sh:47
+#: ui_Ziggy.sh:177
 msgid "Business"
-msgstr "Travail"
+msgstr "Affaires"
 
-#: ui_Ziggy.sh:48 ui_Ziggy.sh:178
+#: ui_Ziggy.sh:48
+#: ui_Ziggy.sh:178
 msgid "Personal"
 msgstr "Personnel"
 
-#: ui_Ziggy.sh:49 ui_Ziggy.sh:179
+#: ui_Ziggy.sh:49
+#: ui_Ziggy.sh:179
 msgid "Network"
 msgstr "Réseau"
 
-#: ui_Ziggy.sh:50 ui_Ziggy.sh:180
+#: ui_Ziggy.sh:50
+#: ui_Ziggy.sh:180
 msgid "Internet"
 msgstr "Internet"
 
-#: ui_Ziggy.sh:51 ui_Ziggy.sh:181
+#: ui_Ziggy.sh:51
+#: ui_Ziggy.sh:181
 msgid "Multimedia"
 msgstr "Multimédia"
 
-#: ui_Ziggy.sh:52 ui_Ziggy.sh:182
+#: ui_Ziggy.sh:52
+#: ui_Ziggy.sh:182
 msgid "Fun"
-msgstr "Amusement"
+msgstr "Loisirs"
 
 #: ui_Ziggy.sh:66
 msgid "Puppy Package Manager"
@@ -132,3 +147,4 @@ msgstr "Cliquez sur un élément de la liste pour désinstaller le paquet"
 #: ui_Ziggy.sh:209
 msgid "Installed Package|Description"
 msgstr "Paquet installé|Description"
+

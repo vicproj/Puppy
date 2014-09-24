@@ -103,7 +103,7 @@ msgid "Device"
 msgstr "Appareil"
 
 msgid "Run selected backup"
-msgstr "Démarrer la sauvegarde sélectionné"
+msgstr "Démarrer la sauvegarde sélectionnée"
 
 msgid "Cancel backup"
 msgstr "Annuler la sauvegarde"

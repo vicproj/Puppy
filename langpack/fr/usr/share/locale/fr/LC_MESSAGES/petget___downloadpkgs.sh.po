@@ -108,11 +108,11 @@ msgstr "Configuration"
 
 #: downloadpkgs.sh:324
 msgid "Utility"
-msgstr "Utilitaire"
+msgstr "Utilitaires"
 
 #: downloadpkgs.sh:325
 msgid "Filesystem"
-msgstr "Système de fichiers"
+msgstr "Fichiers"
 
 #: downloadpkgs.sh:326
 msgid "Graphic"
@@ -125,7 +125,7 @@ msgstr "Documentation"
 
 #: downloadpkgs.sh:328
 msgid "Business"
-msgstr "Affaire"
+msgstr "Affaires"
 
 #: downloadpkgs.sh:329
 msgid "Personal"
@@ -145,7 +145,7 @@ msgstr "Multimédia"
 
 #: downloadpkgs.sh:333
 msgid "Fun"
-msgstr "Loisir"
+msgstr "Loisirs"
 
 #: downloadpkgs.sh:334
 msgid "Help"

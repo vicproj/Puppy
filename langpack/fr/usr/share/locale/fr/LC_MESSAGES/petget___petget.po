@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: petget VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-09-07 22:47+0200\n"
-"PO-Revision-Date: 2014-09-18 20:59+0100\n"
+"PO-Revision-Date: 2014-09-24 19:26+0100\n"
 "Last-Translator: dekani <dekani1500@gmail.com>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
@@ -44,15 +44,15 @@ msgstr "Système"
 
 #: petget.sh:251
 msgid "Setup"
-msgstr "Paramètres"
+msgstr "Configuration"
 
 #: petget.sh:252
 msgid "Utility"
-msgstr "Utilitaire"
+msgstr "Utilitaires"
 
 #: petget.sh:253
 msgid "Filesystem"
-msgstr "Système de fichiers"
+msgstr "Fichiers"
 
 #: petget.sh:254
 msgid "Graphic"
@@ -60,11 +60,11 @@ msgstr "Graphisme"
 
 #: petget.sh:255
 msgid "Document"
-msgstr "Document"
+msgstr "Documents"
 
 #: petget.sh:256
 msgid "Business"
-msgstr "Affaire"
+msgstr "Affaires"
 
 #: petget.sh:257
 msgid "Personal"
@@ -84,7 +84,7 @@ msgstr "Multimédia"
 
 #: petget.sh:261
 msgid "Fun"
-msgstr "Loisir"
+msgstr "Loisirs"
 
 #: petget.sh:262
 msgid "Help"
