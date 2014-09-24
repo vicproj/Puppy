@@ -210,7 +210,6 @@ create_langpacks() {
     md5sum "${OUTFILE}.pet" > "${OUTFILE}.pet-md5.txt"
     dir2sfs "${OUTFILE}" 1>/dev/null
     sync
-    echo $CURDIR
     cd $CURDIR
     
     mv "$WORKDIR/$OUTFILE"*.* "$OUTDIR"
