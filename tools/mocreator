@@ -40,11 +40,54 @@
 #120926 want to accumulate many .desktop files (not just for installed pkgs), in /usr/share/applications.in.
 #121124 edit script_strings.*, 'read -r' so backslash chars are not escapes.
 #130502 L18L/BK: stay in a loop if there is an error converting .po to .mo.
-#130503 test if .po file changed. 130506 bug fix.
+#130503 test if .po file changed.
 #130503 L18L: rename AppInfo.xml to AppInfo.xml.in for langpack
-#130512 acknowledge new translators.
-#130526 L18L: intltool-update fails with ROX-Filer and xdialog, but msgmerge works.
-#130807 L18L: need sync.
+#130505 L18L: quick version: caching variables in CACHE/... from 2m to 2s
+#130512 acknowledge new translators, deleting /tmp/momanager
+#130519 L18L bug fix: instead of APKGNAME use ASCRIPT, DESKFILE, XMLFILE, ABIN; code for sss and menu categories unchanged
+#130520 L18L bug fix: multiple scripts for 1 TEXTDOMAIN
+#130521 L18L bug fix binaries, update NOCNT,YESCNT
+#130522 L18L bug fix 1 line NOXML_XML and multiple scripts
+#130525 L18L replace intltool-update by msgmerge
+#all following updates by L18L 
+#130602 sort binaries, sort scripts case insensitive by basename
+#130603 preferences, create/modify configuration file /root/.config/momanager
+#130604 search button added, --empty-- fixed
+#130605 check_dates
+#130606 bug fix create_mo, ~/.config/momanager edited
+#130607 changing all 'MoManager-${ORIGLANG12' to 'MoManager-${transLANG' requested by Bert
+#130609 list left and right scripts: Base name:PATH
+#130610 use html, css to highlight pattern in search result; list left and right binary executables: Base name:PATH
+#130610 search output with context
+#130611 configuration simplified
+#130612 fix for desk_strings not showing up in editor reported by AbdelAziz
+#130613 design for small sreens; WINDOW_WIDTH configurable between 726 an 1360 px
+#130620 force console borderless=off because Bert requested search results being closeable
+#130806 sync added
+#131001 transLANG added to output of search (ex: mo files under transLANG=fr not fr_BE)
+#131002 last edited mo file at top of list # Bert's old wish for edit_mo
+#131013 delete harmful pot files
+#131014 WINDOW_WIDTH no more in preferences
+#131015 output directory MOMADIR for MoManager-* files configurable by preferences
+#131026 fit for fatdog64 has gettext in /etc; pupdialog needs declaration as dependency
+#131028 added animation for translation of Comment in /usr/share/applications/*.desktop 
+#131029 support for language=Glade added (-j join existing)
+#131104 insert 'export TEXTDOMAIN=' into *.sh.xml.sh (temporary copy of *.sh.xml)
+#131110 acknowledge Bert's MM-standalone.pet instead of devx
+#131206 make it fatdog compatible, LANGPACK=langpack | langpack_fatdog
+#131212 support t12s method
+#131219 enable quirky6.0: no check on pupmode
+#140101 bugfix thanks zephyr2
+#140103 window_width changed, no test on existance of intltool-update, gettext alternative for devx
+#140104 LANGPACK=langpack | langpack_fatdog | langpack_quirky
+#140223 LANGPACK=langpack | langpack_fatdog only; bug fix for "up-to-date" or "check-needed"
+#140227 running  faster
+#140228 code cleaning, find fuzzy
+#140303 fuzzy bug fix
+#140307 find all-fuzzies at start, new sort of scripts that have a mo file, refresh button
+#140308 update list of fuzzies for YESMO
+#140309 update list of fuzzies for NOMO
+#140326 pre-caution: if create_pet then clear cache
 #140906 Dekani: update code to create a default resource repository
 
 #***MOCREATOR IS ENGLISH ONLY (NOT GETTEXT'ED)***
@@ -467,24 +510,44 @@ build_scripts() {
 build_menu_entries() {
  debug "Generate desktop files (menu entries)..."
  dPTN="\\[${ORIGLANG1}\\]"
- for ADESKTOP in `find /usr/share/applications -mindepth 1 -maxdepth 1 -type f -name '*.desktop' | grep -v ' ' | sort | tr '\n' ' '`
+ #for ADESKTOP in `find /usr/share/applications -mindepth 1 -maxdepth 1 -type f -name '*.desktop' | grep -v ' ' | sort | tr '\n' ' '`
+ for ADESKTOP in `find /usr/share/applications -mindepth 1 -maxdepth 1 -type f -name '*.desktop' | grep -v ' ' | sort --ignore-case | tr '\n' ' '` #130602 sort case insensitive
  do
   [ "`grep '^Icon' $ADESKTOP`" = "" ] && continue #some dummy .desktop files used by xfce, ignore them.
-  ADESKNAME="`basename $ADESKTOP`"
+  #ADESKNAME="`basename $ADESKTOP`"
+  ADESKNAME="${ADESKTOP##*\/}" #140227 faster
  
   #find out what package it is from...
   xPTN=" ${ADESKNAME}$"
   zPTN="^${ADESKTOP}$"
-  aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
-  [ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+  #aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
+  aPKGNAME="`grep -m 1 "$xPTN" /root/.packages/builtin_files/* `" #| cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build. #140227 faster
+  aPKGNAME="${aPKGNAME%%:*}" # | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build. #140227 faster
+  aPKGNAME="${aPKGNAME##*\/}"  #test if pkg used in Woof build. #140227 faster
+
+  #[ ! "$aPKGNAME" ] && aPKGNAME="`grep "$zPTN" /root/.packages/*.files 2>/dev/null | head -n 1 | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev | sed -e 's%\.files$%%'`" #test if user-installed pkg. 120308
+  if [ ! "$aPKGNAME" ]; then #140227 faster
+   aPKGNAME="`grep -m 1 "$zPTN" /root/.packages/*.files 2>/dev/null `"
+   aPKGNAME="${aPKGNAME%%:*}" # see above
+   aPKGNAME="${aPKGNAME##*\/}"  # see above
+   aPKGNAME="${aPKGNAME/\.files/}" # sed -e 's%\.files$%%'`"
+  fi #140227 faster
   #...return nothing if in Woof
   [ ! "$aPKGNAME" ] && [ -f "${PATHPREFIX}${ADESKTOP}" ] && aPKGNAME="WOOF" #file is in Woof.
   [ ! "$aPKGNAME" ] && aPKGNAME="UNKNOWN"
 
-  copy_to_repository "/usr/share/applications/${ADESKNAME}"
- 
-  if [ "`grep "$dPTN" $ADESKTOP`" == "" ];then
-    sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" "$REPODIR/usr/share/applications/$ADESKNAME"
+  if [ "`grep "$dPTN" $ADESKTOP`" != "" ];then
+
+   #[ "$isFATDOG" -a "`grep .${ADESKTOP} /root/.packages/langpack_de-*`" ] && continue #131206 Fatdog: take just those files that are not in basic langpack
+   #[ "$isFATDOG" -a "`grep ${TEXTDOMAINVALUE}.mo /root/.packages/langpack_${transLANG}-*`" ] && continue #131206 Fatdog: take just those files that are not in basic langpack #140101
+
+   if [ "$isFATDOG" -o "$isQUIRKY" ]; then #take just those files that are not in basic langpack #140104
+    [ "`grep ${TEXTDOMAINVALUE}.mo /root/.packages/langpack_${transLANG}-*`" ] && continue
+   fi
+   copy_to_repository "/usr/share/applications/${ADESKNAME}"
+  else
+   copy_to_repository "/usr/share/applications/${ADESKNAME}"
+   sed -i -e "s%^Name=%Name[${ORIGLANG1}]=PLEASE INSERT YOUR TRANSLATION HERE\\nName=%" "$REPODIR/usr/share/applications/$ADESKNAME"
   fi
  done
 }
@@ -509,24 +572,36 @@ build_menu_titles() {
 #search $PATHPREFIX to avoid devx files...
 build_xml() {
   debug "Generate xml files..."
+  #XMLFILES="`find ${PATHPREFIX}/usr/local -type f -name '*.xml' | sed "s%^${PATHPREFIX}%%" | sed -e 's% %SPACECHAR%g' | tr '\n' ' '`" #ex: /usr/local/apps/Connect/AppInfo.xml
   XMLFILES="`find /usr/local -type f -name '*.xml' | sed -e 's% %SPACECHAR%g' | tr '\n' ' '`" #ex: /usr/local/apps/Connect/AppInfo.xml
   aPTN="xml:lang=\"${ORIGLANG1}\""  #ex: xml:lang="de"
   bPTN="xml:lang=\"${ORIGLANG12}\"" #ex: xml:lang="de_DE"
   for AXMLFILE in $XMLFILES
   do
-   AXMLFILE="`echo -n "$AXMLFILE" | sed -e 's%SPACECHAR% %g'`"
+   #AXMLFILE="`echo -n "$AXMLFILE" | sed -e 's%SPACECHAR% %g'`"
+   AXMLFILE="${AXMLFILE//SPACECHAR/ }" #140227 faster 
+
+   #[ "`echo -n "$AXMLFILE" | grep 'apps/ROX-Filer/'`" != "" ] && continue #120307 ROX-Filer now translated via /usr/share/doc/nls/ROX-Filer/ROX-Filer.pot
+   #120308 ...no, we still need to edit this, see User Manual.
+   #140227 never needed this (experience)
+   [ "`echo -n "$AXMLFILE" | grep 'apps/ROX-Filer/'`" != "" ] && continue #120307 ROX-Filer now translated via /usr/share/doc/nls/ROX-Filer/ROX-Filer.pot
  
    #want to know if from Woof or a builtin pkg or later-installed pkg...
-   BASEAXMLFILE="`basename "$AXMLFILE"`"
+   #BASEAXMLFILE="`basename "$AXMLFILE"`"
+   BASEAXMLFILE="${AXMLFILE##*\/}" #140227 faster
+ 
    xPTN=" ${BASEAXMLFILE}$"
-   PATHAXMLFILE="`dirname "$AXMLFILE"`"
+   #PATHAXMLFILE="`dirname "$AXMLFILE"`"
+   PATHAXMLFILE="${AXMLFILE%\/*}" #140227 faster
+
    xxPTN="^${PATHAXMLFILE}$"
    zPTN="^${AXMLFILE}$"
    aPKGNAME="`grep "$xPTN" /root/.packages/builtin_files/* | cut -f 1 -d ':' | rev | cut -f 1 -d '/' | rev`" #test if pkg used in Woof build.
    if [ "$aPKGNAME" ];then #confirm full path.
     for AAA in $aPKGNAME
     do
-     CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$AXMLFILE"`"
+     #CONFIRM="`cat /root/.packages/builtin_files/${AAA} | sed -e 's%^ %/%' | tr -d '\n' | grep "$AXMLFILE"`"
+     CONFIRM="`sed -e 's%^ %/%' /root/.packages/builtin_files/${AAA} | tr -d '\n' | grep "$AXMLFILE"`"
      if [ "$CONFIRM" ];then
       aPKGNAME="$AAA"
       break
@@ -789,12 +864,12 @@ generate)
 
   TRANSLANG=""
 
-  build_scripts
+  #build_scripts
   build_menu_entries
   build_menu_titles
-  build_xml
-  build_sss
-  build_binaries
+  #build_xml
+  #build_sss
+  #build_binaries
   
   # close waiting dialog 
   debug "Repository generated..."
