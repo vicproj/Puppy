@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=SlimBoat: web browser
 Name[fr]=SlimBoat : navigateur internet
-Icon=/usr/share/icons/hicolor/scalable/apps/slimboat.svg
+Icon=/usr/share/pixmaps/slimboat.png
 Comment=SlimBoat: web browser
 Comment[fr]=SlimBoat : navigateur internet
 Exec=slimboat

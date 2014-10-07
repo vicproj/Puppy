@@ -2,7 +2,7 @@
 Encoding=UTF-8
 Name=Pburn: CD/DVD/Blu-ray writer
 Name[fr]=Pburn : graveur de CD/DVD/Blu-ray
-Icon=/usr/local/pburn/pburn20.png
+Icon=/usr/share/icons/hicolor/scalable/apps/pburn.svg
 Comment=Pburn: CD/DVD/Blu-ray writer
 Comment[fr]=Pburn : graveur de CD/DVD/Blu-ray
 Exec=pburn

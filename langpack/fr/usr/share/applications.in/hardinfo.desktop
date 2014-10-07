@@ -1,11 +1,13 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name[fr]=Informations du matériel HardInfo
-Name=HardInfo hardware information
+Name=HardInfo: hardware information
+Name[fr]=HardInfo : informations matérielles
+Comment=HardInfo: hardware information
+Comment[fr]=HardInfo : informations matérielles
 Exec=hardinfo
 Icon=hardinfo.png
 Terminal=false
 Type=Application
 StartupNotify=true
-Categories=System
-GenericName=HardInfo
+Categories=X-System
+GenericName=HardInfo: hardware information
