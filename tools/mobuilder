@@ -118,10 +118,10 @@ fi
 
 CONFIG="/root/.config/${PROGNAME}"
 [ ! -f $CONFIG ] && echo "### edit between = and #   
-REPODIR=../langpack
-OUTDIR=../package
-WORKDIR=../work/${PROGNAME}
-DEBUG=n
+REPODIR=../langpack			# Local repository directory.
+OUTDIR=../package/langpack	# Output directory. Used to store created langpack file.
+WORKDIR=../work/${PROGNAME}	# Work directory. (Can be removed)
+DEBUG=n						# y to display more information in console, n to disable.
 " > $CONFIG
 . $CONFIG
 
