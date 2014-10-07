@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: stats-control-bin VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-07 18:41+0200\n"
+"PO-Revision-Date: 2014-09-15 05:39+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: stats-control-bin.sh:19
+msgid "Stats control"
+msgstr "Contrôle des statistiques"
+
+#: stats-control-bin.sh:61
+#, sh-format
+msgid ""
+"In order to know where to focus our efforts (deposits preferred, updates to "
+"propose), it is interesting to know the number of users.\n"
+"For this, we created the script /root/Startup/stats. \n"
+"When you start a session, the script downloads a text file (in /tmp), this "
+"allows us to know daily the number of connected computers (offline computers "
+"are not counted).\n"
+"Of course, it is possible to enable/disable this functionality.\n"
+"Of course, we do not collect any personal data."
+msgstr ""
+"Afin de savoir où porter nos efforts (dépôts à privilégier, mises à jour à "
+"proposer), il est intéressant de connaître le nombre d'utilisateurs.\n"
+"Pour cela, nous avons créé le script /root/Startup/stats. \n"
+"Lorsque vous démarrez une session, le script télécharge un fichier texte "
+"(dans /tmp), cela nous permet de connaître quotidiennement le nombre "
+"d'ordinateurs connectés (les ordinateurs non connectés ne sont pas "
+"compatibilisés).\n"
+"Bien évidemment, il est possible d'activer/désactiver cette fonctionnalité.\n"
+"Bien évidemment, nous ne collectons aucune donnée personnelle."
+
+#: stats-control-bin.sh:71
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle01:\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle01 :\n"
+"- Version utilisée : $AppVersion par $AuthorActualVersion.\n"
+"- Versions précédentes : par $AuthorPreviousVersions.\n"
+"- Version originale : par $AuthorOriginalVersion."
+
+#: stats-control-bin.sh:84
+#, sh-format
+msgid "enabled"
+msgstr "activées"
+
+#: stats-control-bin.sh:87
+#, sh-format
+msgid "disabled"
+msgstr "désactivées"
+
+#: stats-control-bin.sh:100
+#, sh-format
+msgid "Now, statistics are $MSG_STATE."
+msgstr "Maintenant, les statistiques sont $MSG_STATE."
+
+#: stats-control-bin.sh:126
+#, sh-format
+msgid "Current use of statistics:"
+msgstr "Utilisation actuelle des statistiques :"
+
+#: stats-control-bin.sh:135
+#, sh-format
+msgid "To use statistics."
+msgstr "Pour utiliser les statistiques."
+
+#: stats-control-bin.sh:136
+#, sh-format
+msgid "Enable"
+msgstr "Activer"
+
+#: stats-control-bin.sh:146
+msgid "To not use statistics."
+msgstr "Pour ne pas utiliser les statistiques."
+
+#: stats-control-bin.sh:147
+msgid "Disable"
+msgstr "Désactiver"
+
+#: stats-control-bin.sh:167
+#, sh-format
+msgid "Help for $AppTitle01."
+msgstr "Aide pour $AppTitle01."
+
+#: stats-control-bin.sh:172
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: stats-control-bin.sh:177
+#, sh-format
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
+
+#: stats-control.sh:21
+msgid "Infos"
+msgstr "Infos"
+
+#: stats-control.sh:21
+#, sh-format
+msgid "$ANL01 is already active."
+msgstr "$ANL01 est déjà activé."

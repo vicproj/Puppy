@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: pschedule VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:50+0200\n"
+"POT-Creation-Date: 2014-10-07 18:31+0200\n"
 "PO-Revision-Date: 2013-02-15 10:18+0100\n"
 "Last-Translator: Esmourguit <jj@moulinier.net>\n"
 "Language-Team: French\n"
@@ -100,7 +100,7 @@ msgstr "décembre"
 
 #: pschedule.sh:145
 msgid "Task on time"
-msgstr "Du temps pour tout"
+msgstr "Gérer son temps"
 
 #: pschedule.sh:150
 msgid "Schedule new task"

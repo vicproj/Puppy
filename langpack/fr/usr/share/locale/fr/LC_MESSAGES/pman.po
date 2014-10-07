@@ -1,0 +1,70 @@
+# French translations for pman package.
+# Copyright (C) 2014 THE pman'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the pman package.
+# root <root@localhost>, 2014.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: pman VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-07 18:23+0200\n"
+"PO-Revision-Date: 2014-10-07 18:23+0200\n"
+"Last-Translator: root <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: pman.sh:87 pman.sh:115
+msgid "Wait a moment ..."
+msgstr ""
+
+#: pman.sh:109 pman.sh:115
+msgid "Processing..."
+msgstr ""
+
+#: pman.sh:164
+msgid "Puppy Help"
+msgstr ""
+
+#: pman.sh:165
+msgid "Look up the Puppy help page."
+msgstr ""
+
+#: pman.sh:166
+msgid "Puppy help"
+msgstr ""
+
+#: pman.sh:182
+msgid "First run info."
+msgstr ""
+
+#: pman.sh:183
+msgid "Look up the welcome information."
+msgstr ""
+
+#: pman.sh:184
+msgid "Welcome info."
+msgstr ""
+
+#: pman.sh:195
+msgid "Search manuals"
+msgstr ""
+
+#: pman.sh:196
+msgid "Input or select a keyword."
+msgstr ""
+
+#: pman.sh:198
+msgid "Type an application or command name here, or choose from the pulldown."
+msgstr ""
+
+#: pman.sh:200
+msgid "Start search"
+msgstr ""
+
+#: pman.sh:207
+msgid "Quit"
+msgstr ""

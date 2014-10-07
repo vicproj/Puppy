@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: welcome1stboot VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:58+0200\n"
+"POT-Creation-Date: 2014-10-07 18:41+0200\n"
 "PO-Revision-Date: 2014-06-27 17:27+0200\n"
 "Last-Translator: ASRI\n"
 "Language-Team: French\n"
@@ -44,13 +44,13 @@ msgstr ""
 
 #: welcome1stboot.sh:83
 #, sh-format
-msgid "Help for $DISTRO_NAME $DISTRO_VERSION."
-msgstr "Aide pour $DISTRO_NAME $DISTRO_VERSION."
+msgid "Version informations about $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Informations de version à propos de $DISTRO_NAME $DISTRO_VERSION."
 
 #: welcome1stboot.sh:88
 #, sh-format
-msgid "Version informations about $DISTRO_NAME $DISTRO_VERSION."
-msgstr "Informations de version à propos de $DISTRO_NAME $DISTRO_VERSION."
+msgid "Help for $DISTRO_NAME $DISTRO_VERSION."
+msgstr "Aide pour $DISTRO_NAME $DISTRO_VERSION."
 
 #: welcome1stboot.sh:93
 #, sh-format

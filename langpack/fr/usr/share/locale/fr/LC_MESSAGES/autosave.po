@@ -1,0 +1,110 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: autosave 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-07 18:33+0200\n"
+"PO-Revision-Date: 2014-07-23 05:40+0200\n"
+"Last-Translator: ASRI\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: autosave-bin.sh:17
+msgid "AutoSave"
+msgstr "AutoSave"
+
+#: autosave-bin.sh:18
+msgid "(manage save of the session)"
+msgstr "(gérer la sauvegarde de la session)"
+
+#: autosave-bin.sh:53
+#, sh-format
+msgid ""
+"Version and authors of $AppTitle.\n"
+"\n"
+"- Version used: $AppVersion by $AuthorActualVersion.\n"
+"- Previous versions: by $AuthorPreviousVersions.\n"
+"- Original version: by $AuthorOriginalVersion."
+msgstr ""
+"Version et auteurs de $AppTitle.\n"
+"\n"
+"- Version utilisée : $AppVersion de $AuthorActualVersion.\n"
+"- Versions précédentes : de $AuthorPreviousVersions.\n"
+"- Version originale : de $AuthorOriginalVersion."
+
+#: autosave-bin.sh:64
+#, sh-format
+msgid ""
+"This session do not use a personal storage file (pupsave) to save "
+"informations. Current pupmode = <span color='#3272C0'><b>$PUPMODE</b></span>."
+msgstr ""
+"Cette session n'utilise pas de fichier personnel de stockage (pupsave) pour "
+"sauvegarder les informations. Pupmode actuellement utilisé = <span "
+"color='#3272C0'><b>$PUPMODE</b></span>."
+
+#: autosave-bin.sh:66
+#, sh-format
+msgid ""
+"This session use a personal storage file (pupsave) to save informations "
+"($PUPSAVE). Current pupmode = <span color='#3272C0'><b>$PUPMODE</b></span>."
+msgstr ""
+"Cette session utilise un fichier personnel de stockage (pupsave) pour "
+"sauvegarder les informations ($PUPSAVE). Pupmode actuellement utilisé = "
+"<span color='#3272C0'><b>$PUPMODE</b></span>."
+
+#: autosave-bin.sh:132
+msgid "Current session"
+msgstr "Session actuelle"
+
+#: autosave-bin.sh:139
+msgid "Available options"
+msgstr "Options disponibles"
+
+#: autosave-bin.sh:143
+#, sh-format
+msgid ""
+"If the current pupmode = 13 (session save on a USB device), by default your "
+"session is save every 30 minutes.\n"
+"Uncheck the box to not save."
+msgstr ""
+"Si le pupmode actuel = 13 (session sauvegardé sur un périphérique USB), par "
+"défaut votre session est sauvegardée toutes les 30 minutes.\n"
+"Décochez la case pour ne pas sauvegarder."
+
+#: autosave-bin.sh:145
+msgid "Automatically save during session"
+msgstr "Sauvegarde automatique durant la session"
+
+#: autosave-bin.sh:158
+#, sh-format
+msgid ""
+"Save information at the end of the session ?\n"
+"Uncheck the box to not save."
+msgstr ""
+"Sauvegarder les informations à la fin de la session ?\n"
+"Décochez la case pour ne pas sauvegarder."
+
+#: autosave-bin.sh:160
+msgid "Save at the end of the session"
+msgstr "Sauvegarder à la fin de la session"
+
+#: autosave-bin.sh:171
+#, sh-format
+msgid "Version and authors of $AppTitle01."
+msgstr "Version et auteurs de $AppTitle01."
+
+#: autosave-bin.sh:175
+msgid "Save values."
+msgstr "Sauvegarder les valeurs."
+
+#: autosave.sh:21
+msgid "Infos"
+msgstr "Infos"
+
+#: autosave.sh:21
+#, sh-format
+msgid "$ANL01 is already active."
+msgstr "$ANL01 est déjà actif."

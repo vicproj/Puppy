@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinstall 0.0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:55+0200\n"
+"POT-Creation-Date: 2014-10-07 18:37+0200\n"
 "PO-Revision-Date: 2014-04-13 22:36+0200\n"
 "Last-Translator: ASRI <root@localhost>\n"
 "Language-Team: French\n"
@@ -110,11 +110,11 @@ msgstr "Version et auteurs de $AppTitle01."
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."
 
-#: osinstall.sh:20
+#: osinstall.sh:41
 msgid "Infos"
 msgstr "Infos"
 
-#: osinstall.sh:20
+#: osinstall.sh:41
 #, sh-format
 msgid "$ANL01 is already active. So your request is not accepted."
 msgstr ""

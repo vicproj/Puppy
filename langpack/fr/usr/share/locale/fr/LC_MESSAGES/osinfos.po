@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: osinfos 0.0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2014-03-29 11:46+0100\n"
-"Last-Translator: ASRI <root@localhost>\n"
+"POT-Creation-Date: 2014-10-07 18:37+0200\n"
+"PO-Revision-Date: 2014-09-25 15:55+0100\n"
+"Last-Translator: ASRI\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -31,11 +31,11 @@ msgstr ""
 "Versions précédentes : par $AuthorPreviousVersions.\n"
 "Version originale : par $AuthorOriginalVersion."
 
-#: osinfos-bin.sh:96
+#: osinfos-bin.sh:120
 msgid "Current distro"
 msgstr "Distribution actuelle"
 
-#: osinfos-bin.sh:98
+#: osinfos-bin.sh:122
 #, sh-format
 msgid ""
 "Name = $DISTRO_NAME\n"
@@ -54,60 +54,22 @@ msgstr ""
 "Distribution d'origine = $DISTRO_ORIGINAL_VERSION\n"
 "Binaires d'origine = $DISTRO_ORIGINAL_BINARY"
 
-#: osinfos-bin.sh:109
-msgid "Official links"
-msgstr "Liens officiels"
-
-#: osinfos-bin.sh:116
+#: osinfos-bin.sh:135
 #, sh-format
-msgid "Consult web site of $DISTRO_NAME project ($UrlMainSite)."
-msgstr "Consulter le site web du projet $DISTRO_NAME ($UrlMainSite)."
+msgid "Consult official web links of $DISTRO_NAME project ($UrlLinks)."
+msgstr "Consulter le site web du projet $DISTRO_NAME ($UrlLinks)."
 
-#: osinfos-bin.sh:117
+#: osinfos-bin.sh:136
 #, sh-format
-msgid "Web site"
-msgstr "Site web"
+msgid "Consult official web links"
+msgstr "Consulter les liens web officiels"
 
-#: osinfos-bin.sh:123
-#, sh-format
-msgid ""
-"Consult main repository of $DISTRO_NAME $DISTRO_VERSION project "
-"($UrlRepository01)."
-msgstr ""
-"Consulter le dépôt principal du projet $DISTRO_NAME $DISTRO_VERSION "
-"($UrlRepository01)."
-
-#: osinfos-bin.sh:124
-#, sh-format
-msgid "Repository"
-msgstr "Dépôt"
-
-#: osinfos-bin.sh:137
-#, sh-format
-msgid "Consult forum of $DISTRO_NAME project ($UrlForum)."
-msgstr "Consulter le forum du projet $DISTRO_NAME ($UrlForum)."
-
-#: osinfos-bin.sh:138
-#, sh-format
-msgid "Forum"
-msgstr "Forum"
-
-#: osinfos-bin.sh:144
-#, sh-format
-msgid "Consult kids space of $DISTRO_NAME project ($UrlKids)."
-msgstr "Consulter l'espace kids du projet $DISTRO_NAME ($UrlKids)."
-
-#: osinfos-bin.sh:145
-#, sh-format
-msgid "Kids space"
-msgstr "Espace kids"
-
-#: osinfos-bin.sh:164
+#: osinfos-bin.sh:153
 #, sh-format
 msgid "Version and authors of $AppTitle01."
 msgstr "Version et auteurs de $AppTitle01."
 
-#: osinfos-bin.sh:169
+#: osinfos-bin.sh:158
 #, sh-format
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."

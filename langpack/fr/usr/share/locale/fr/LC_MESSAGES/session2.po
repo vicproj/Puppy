@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: session 0.0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:57+0200\n"
+"POT-Creation-Date: 2014-10-07 18:39+0200\n"
 "PO-Revision-Date: 2012-11-26 03:15+0100\n"
 "Last-Translator: ASRI <root@localhost>\n"
 "Language-Team: French\n"
@@ -12,19 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: session-bin.sh:21
+#: session-bin.sh:23
 msgid "Session"
 msgstr "Session"
 
-#: session-bin.sh:22
+#: session-bin.sh:24
 msgid "(session manager)"
 msgstr "(gestionnaire de session)"
 
-#: session-bin.sh:24
+#: session-bin.sh:26
 msgid "Manage your session!"
 msgstr "Gérér votre session !"
 
-#: session-bin.sh:83
+#: session-bin.sh:86
 #, sh-format
 msgid ""
 "Version and authors of $AppTitle01.\n"
@@ -39,100 +39,128 @@ msgstr ""
 "- Versions précédentes : par $AuthorPreviousVersions.\n"
 "- Version originale : par $AuthorOriginalVersion."
 
-#: session-bin.sh:93
+#: session-bin.sh:103 session-bin.sh:167
 #, sh-format
-msgid "Actualy, this function is not available."
+msgid "No function is available."
 msgstr "Actuellement, cette fonction n'est pas disponible."
 
-#: session-bin.sh:100
-#, sh-format
-msgid "Suspend options."
-msgstr "Options de mises en veille."
+#: session-bin.sh:109
+msgid "full"
+msgstr "complète"
 
-#: session-bin.sh:128
+#: session-bin.sh:111
+msgid "simplified"
+msgstr "simplifiée"
+
+#: session-bin.sh:151
+msgid "Suspend computer."
+msgstr "Mettre en veille l'ordinateur."
+
+#: session-bin.sh:153
+msgid "Suspend"
+msgstr "Mettre en veille"
+
+#: session-bin.sh:196
 msgid "Options"
 msgstr "Options"
 
-#: session-bin.sh:135
+#: session-bin.sh:207 session-bin.sh:382
 msgid "Turn off computer."
 msgstr "Eteindre l'ordinateur."
 
-#: session-bin.sh:137
+#: session-bin.sh:209
 msgid "Power off"
 msgstr "Eteindre"
 
-#: session-bin.sh:151
+#: session-bin.sh:223
 msgid "Restart computer."
 msgstr "Redémarrer l'ordinateur."
 
-#: session-bin.sh:153
+#: session-bin.sh:225
 msgid "Reboot"
 msgstr "Redémarrer"
 
-#: session-bin.sh:170
+#: session-bin.sh:242
 #, sh-format
 msgid "Refresh main menu and taskbar of $DISTRO_NAME."
 msgstr "Rafraîchir le menu principal et la barre des tâches de $DISTRO_NAME."
 
-#: session-bin.sh:172
+#: session-bin.sh:244
 msgid "Refresh menu"
 msgstr "Rafraîchir le menu"
 
-#: session-bin.sh:188
+#: session-bin.sh:260
 msgid "Restart X server."
 msgstr "Redémarrer le serveur X."
 
-#: session-bin.sh:190
+#: session-bin.sh:262
 msgid "Restart X"
 msgstr "Redémarrer X"
 
-#: session-bin.sh:206
+#: session-bin.sh:278
 msgid "Change user."
 msgstr "Changer d'utilisateur."
 
-#: session-bin.sh:208
+#: session-bin.sh:280
 msgid "Change user"
 msgstr "Changer d'utilisateur"
 
-#: session-bin.sh:222
+#: session-bin.sh:294
 msgid "Change windows manager."
 msgstr "Changer de gestionnaire de fenêtres."
 
-#: session-bin.sh:224
+#: session-bin.sh:296
 msgid "Change WM"
 msgstr "Changer de WM"
 
-#: session-bin.sh:241
+#: session-bin.sh:313
 msgid "Exit X to prompt."
 msgstr "Retour au prompt."
 
-#: session-bin.sh:243
+#: session-bin.sh:315
 msgid "Exit X"
 msgstr "Quitter X"
 
-#: session-bin.sh:257
+#: session-bin.sh:329
 #, sh-format
-msgid "QuickSetup utility for $DISTRO_NAME."
-msgstr "Utilitaire de réglages rapides pour $DISTRO_NAME."
+msgid "Configure automatically save of the session."
+msgstr "Configurer la sauvegarde automatique de la session."
 
-#: session-bin.sh:259
-msgid "Quicksetup"
-msgstr "Réglages rapides"
+#: session-bin.sh:331
+msgid "AutoSave"
+msgstr "AutoSave"
 
-#: session-bin.sh:275
+#: session-bin.sh:345 session-bin.sh:393
+#, sh-format
+msgid ""
+"Change interface of $AppTitle01: simplified or full (current interface = "
+"$MsgInterfaceStatus)."
+msgstr ""
+"Changer l'interface de $AppTitle01 : simplifiée ou complète (interface "
+"actuelle = $MsgInterfaceStatus)."
+
+#: session-bin.sh:352
 #, sh-format
 msgid "Help for $AppTitle01."
 msgstr "Aide pour $AppTitle01."
 
-#: session-bin.sh:280
+#: session-bin.sh:357
 #, sh-format
 msgid "Version and authors of $AppTitle01."
 msgstr "Version et auteurs de $AppTitle01."
 
-#: session-bin.sh:285
+#: session-bin.sh:362 session-bin.sh:400
 #, sh-format
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."
+
+#: session-bin.sh:376
+msgid ""
+"<span color='#3272C0'><b>Reminder:</b></span> save documets in use before "
+"shutting down the computer."
+msgstr ""
+"<span color='#3272C0'><b>Rappel :</b></span> sauvegardez les documents en "
+"cours d'utilisation avant d'éteindre l'ordinateur."
 
 #: session.sh:22
 msgid "Infos"
@@ -140,7 +168,5 @@ msgstr "Infos"
 
 #: session.sh:22
 #, sh-format
-msgid "$ANL01 is already active. So your request is not accepted."
-msgstr ""
-"$ANL01 est déjà en cours d'utilisation. Par conséquent votre demande n'est "
-"pas acceptée."
+msgid "$ANL01 is already active."
+msgstr "$ANL01 est déjà en cours d'utilisation."

@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: doi 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:52+0200\n"
+"POT-Creation-Date: 2014-10-07 18:34+0200\n"
 "PO-Revision-Date: 2014-05-07 10:34+0200\n"
 "Last-Translator: ASRI <root@localhost>\n"
 "Language-Team: French\n"
@@ -40,15 +40,15 @@ msgstr ""
 "la connexion internet et la configuration de $AppTitle01, puis redémarrez "
 "$AppTitle01."
 
-#: doi-bin.sh:247
+#: doi-bin.sh:248
 msgid "Please, select a file in the list."
 msgstr "Veuillez sélectionner un fichier dans la liste."
 
-#: doi-bin.sh:248
+#: doi-bin.sh:249
 msgid "Information"
 msgstr "Information"
 
-#: doi-bin.sh:249
+#: doi-bin.sh:250
 #, sh-format
 msgid ""
 "No information available. For more information, visit the forum or the "
@@ -57,11 +57,11 @@ msgstr ""
 "Aucune information n'est disponible. Pour plus de renseignements, visitez le "
 "forum ou le site web de $DISTRO_NAME $DISTRO_VERSION."
 
-#: doi-bin.sh:250
+#: doi-bin.sh:251
 msgid "Currently, this file is not available."
 msgstr "Actuellement, ce fichier n'est pas disponible."
 
-#: doi-bin.sh:251
+#: doi-bin.sh:252
 #, sh-format
 msgid ""
 "Download process is completed: files have been saved in folder "
@@ -70,7 +70,7 @@ msgstr ""
 "le téléchargement est terminé : les fichiers ont été sauvegardés dans le "
 "dossier $DOWNLOAD_DIRECTORY"
 
-#: doi-bin.sh:258
+#: doi-bin.sh:259
 #, sh-format
 msgid ""
 "Version and authors of $AppTitle.\n"
@@ -85,22 +85,22 @@ msgstr ""
 "- Versions précédentes : par $AuthorPreviousVersions.\n"
 "- Version originale : par $AuthorOriginalVersion."
 
-#: doi-bin.sh:268
+#: doi-bin.sh:269
 msgid "Help"
 msgstr "Aide"
 
-#: doi-bin.sh:268
+#: doi-bin.sh:269
 #, sh-format
 msgid "$AppTitle allows to download $DISTRO_NAME official iso files."
 msgstr ""
 "$AppTitle permet de télécharger les fichiers iso officiels de $DISTRO_NAME."
 
-#: doi-bin.sh:340 doi-bin.sh:385
+#: doi-bin.sh:341 doi-bin.sh:386
 #, sh-format
 msgid "Downloading information file..."
 msgstr "Téléchargement du fichier d'information..."
 
-#: doi-bin.sh:401 doi-bin.sh:457
+#: doi-bin.sh:402 doi-bin.sh:458
 #, sh-format
 msgid ""
 "$DLNAME\n"
@@ -119,12 +119,12 @@ msgstr ""
 "- Kernel : $DLKERNEL\n"
 "- Version basée sur : $DLBASE"
 
-#: doi-bin.sh:438
+#: doi-bin.sh:439
 #, sh-format
 msgid "Downloading $GETFILES..."
 msgstr "Téléchargement de $GETFILES..."
 
-#: doi-bin.sh:469
+#: doi-bin.sh:470
 #, sh-format
 msgid ""
 "Free space in download folder ($DOWNLOAD_DIRECTORY = $FREESPACE MB) is "
@@ -139,133 +139,133 @@ msgstr ""
 "Remarque : taille nécessaire pour télécharger $GETFILES ($PKGSIZE Mo) = "
 "$DLSIZE (taille du fichier demandé) + $SECURITYMARGIN (marge de sécurité)"
 
-#: doi-bin.sh:520
+#: doi-bin.sh:521
 msgid "Available files"
 msgstr "Fichiers disponibles"
 
-#: doi-bin.sh:521
+#: doi-bin.sh:522
 msgid "Actions"
 msgstr "Actions"
 
-#: doi-bin.sh:522
+#: doi-bin.sh:523
 msgid "Select files in the list, then click an button Actions."
 msgstr ""
 "Sélectionnez des fichiers dans la liste, puis cliquez sur l'un des boutons "
 "Actions."
 
-#: doi-bin.sh:523
+#: doi-bin.sh:524
 msgid "Click here to sort items of the list"
 msgstr "Cliquez ici pour classer les éléments de la liste"
 
-#: doi-bin.sh:524
+#: doi-bin.sh:525
 msgid "Use Internet to get function informations for selected files."
 msgstr ""
 "Utiliser internet pour obtenir des informations sur les fichiers "
 "sélectionnés."
 
-#: doi-bin.sh:525
+#: doi-bin.sh:526
 msgid "Function"
 msgstr "Fonction"
 
-#: doi-bin.sh:526
+#: doi-bin.sh:527
 msgid "Show version informations for selected files."
 msgstr "Montrer les informations de version pour les fichiers sélectionnés."
 
-#: doi-bin.sh:527
+#: doi-bin.sh:528
 msgid "Version"
 msgstr "Version"
 
-#: doi-bin.sh:528
+#: doi-bin.sh:529
 #, sh-format
 msgid "Download selected files (in folder $DOWNLOAD_DIRECTORY)."
 msgstr ""
 "Télécharger les fichiers sélectionnés (dans le dossier $DOWNLOAD_DIRECTORY)."
 
-#: doi-bin.sh:529
+#: doi-bin.sh:530
 msgid "Download"
 msgstr "Télécharger"
 
-#: doi-bin.sh:530
+#: doi-bin.sh:531
 #, sh-format
 msgid "Consult download folder ($DOWNLOAD_DIRECTORY)."
 msgstr "Consulter le dossier des téléchargements ($DOWNLOAD_DIRECTORY)."
 
-#: doi-bin.sh:531 doi-bin.sh:544
+#: doi-bin.sh:532 doi-bin.sh:545
 msgid "Downloads"
 msgstr "Téléchargements"
 
-#: doi-bin.sh:540
+#: doi-bin.sh:541
 msgid "Preferences"
 msgstr "Préférences"
 
-#: doi-bin.sh:548
+#: doi-bin.sh:549
 #, sh-format
 msgid "Use terminal to show informations during downloads."
 msgstr ""
 "Utiliser un terminal pour montrer des informations durant les "
 "téléchargements."
 
-#: doi-bin.sh:549
+#: doi-bin.sh:550
 msgid "Use terminal during downloads"
 msgstr "Utiliser un terminal durant les téléchargements"
 
-#: doi-bin.sh:565
+#: doi-bin.sh:566
 msgid "Current download folder:"
 msgstr "Dossier de téléchargement actuel :"
 
-#: doi-bin.sh:570
+#: doi-bin.sh:571
 #, sh-format
 msgid "Folder used to host downloaded files."
 msgstr "Dossier utilisé pour accueillir les fichiers téléchargés."
 
-#: doi-bin.sh:570
+#: doi-bin.sh:571
 msgid "Download folder"
 msgstr "Dossier des téléchargements"
 
-#: doi-bin.sh:577
+#: doi-bin.sh:578
 msgid "Select/Change folder used to host downloaded files."
 msgstr ""
 "Sélectionner/Changer le dossier utilisé pour accueillir les fichiers "
 "téléchargés."
 
-#: doi-bin.sh:596
+#: doi-bin.sh:597
 #, sh-format
 msgid "Show content of host folder after downloads."
 msgstr "Montrer le contenu du dossier d'accueil après les téléchargements."
 
-#: doi-bin.sh:597
+#: doi-bin.sh:598
 msgid "Show content after dowloads"
 msgstr "Montrer le contenu après les téléchargements"
 
-#: doi-bin.sh:608
+#: doi-bin.sh:609
 msgid "Save values."
 msgstr "Sauvegarder les valeurs."
 
-#: doi-bin.sh:722
+#: doi-bin.sh:723
 #, sh-format
 msgid "Preferences of $AppTitle01."
 msgstr "Préférences de $AppTitle01."
 
-#: doi-bin.sh:728
+#: doi-bin.sh:729
 #, sh-format
 msgid "Use web browser to consult repositery."
 msgstr "Utiliser le navigateur internet pour consulter le dépôt."
 
-#: doi-bin.sh:733
+#: doi-bin.sh:734
 msgid "Refresh list of available files."
 msgstr "Rafraîchir la liste des fichiers disponibles."
 
-#: doi-bin.sh:739
+#: doi-bin.sh:740
 #, sh-format
 msgid "Help for $AppTitle01."
 msgstr "Aide pour $AppTitle01."
 
-#: doi-bin.sh:744
+#: doi-bin.sh:745
 #, sh-format
 msgid "Version and authors of $AppTitle01."
 msgstr "Version et auteurs de $AppTitle01."
 
-#: doi-bin.sh:749
+#: doi-bin.sh:750
 #, sh-format
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."

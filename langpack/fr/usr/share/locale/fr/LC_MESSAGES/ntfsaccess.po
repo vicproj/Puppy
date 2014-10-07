@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ntfsaccess 20140302\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:54+0200\n"
+"POT-Creation-Date: 2014-10-07 18:37+0200\n"
 "PO-Revision-Date: 2014-03-02 16:44+0100\n"
 "Last-Translator: ASRI <root@localhost>\n"
 "Language-Team: French\n"
@@ -76,11 +76,11 @@ msgstr "Aide pour $AppTitle01."
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."
 
-#: ntfsaccess.sh:21
+#: ntfsaccess.sh:43
 msgid "Infos"
 msgstr "Infos"
 
-#: ntfsaccess.sh:21
+#: ntfsaccess.sh:43
 #, sh-format
 msgid "$ANL01 is already active. So your request is not accepted."
 msgstr ""

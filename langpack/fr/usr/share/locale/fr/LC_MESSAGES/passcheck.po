@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: passcheck-bin VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-07 18:37+0200\n"
+"PO-Revision-Date: 2014-08-27 07:13+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
+"Language-Team: French\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: passcheck-bin.sh:19
+#, sh-format
+msgid "$ANL01"
+msgstr ""
+
+#: passcheck-bin.sh:43
+msgid "Enter the password, then click OK."
+msgstr "Ecrivez le mot de passe, puis cliquez sur OK."
+
+#: passcheck-bin.sh:57 passcheck.sh:23
+msgid "Infos"
+msgstr "Infos"
+
+#: passcheck-bin.sh:57
+msgid "Invalid password! Try again..."
+msgstr "Mot de passe invalide ! Essayez encore..."
+
+#: passcheck.sh:23
+#, sh-format
+msgid "$ANL01 is already active."
+msgstr "$ANL01 est déjà activé."
+
+#~ msgid "Info"
+#~ msgstr "Info"
+
+#~ msgid "Password need"
+#~ msgstr "Mot de passe"

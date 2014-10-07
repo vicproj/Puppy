@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mmme 0.0.2\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:54+0200\n"
-"PO-Revision-Date: 2014-09-08 18:49+0100\n"
-"Last-Translator: dekani <dekani1500@gmail.com>\n"
+"POT-Creation-Date: 2014-10-07 18:36+0200\n"
+"PO-Revision-Date: 2014-04-29 18:45+0200\n"
+"Last-Translator: ASRI <root@localhost>\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -12,15 +12,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: mmme-bin.sh:20
+#: mmme-bin.sh:21
 msgid "MMME"
 msgstr "MMME"
 
-#: mmme-bin.sh:21
+#: mmme-bin.sh:22
 msgid "(manage main menu entries)"
 msgstr "(gestion des entrées du menu principal)"
 
-#: mmme-bin.sh:61
+#: mmme-bin.sh:62
 #, sh-format
 msgid ""
 "Version and authors of $AppTitle.\n"
@@ -35,62 +35,65 @@ msgstr ""
 "- Versions précédentes : par $AuthorPreviousVersions.\n"
 "- Version originale : par $AuthorOriginalVersion."
 
-#: mmme-bin.sh:74
-#: mmme-bin.sh:84
+#: mmme-bin.sh:75 mmme-bin.sh:85
 msgid "Please, select an entry in the list."
 msgstr "Veuillez sélectionner une entrée dans la liste."
 
-#: mmme-bin.sh:138
-#, sh-format
-msgid "Click on the entry you want to remove from the main menu of $DISTRO_NAME $DISTRO_VERSION."
-msgstr "Cliquez sur l'entrée que vous souhaitez supprimer du menu principal de $DISTRO_NAME $DISTRO_VERSION."
-
 #: mmme-bin.sh:139
 #, sh-format
-msgid "Click on the entry you want to restore in the main menu of $DISTRO_NAME $DISTRO_VERSION."
-msgstr "Cliquez sur l'entrée que vous souhaitez restaurer au menu principal de $DISTRO_NAME $DISTRO_VERSION."
+msgid ""
+"Click on entries you want to remove from the main menu of $DISTRO_NAME "
+"$DISTRO_VERSION."
+msgstr ""
+"Cliquez sur les entrées que vous souhaitez retirer du menu principal de "
+"$DISTRO_NAME $DISTRO_VERSION."
 
 #: mmme-bin.sh:140
-msgid "Click to sort items of the list"
-msgstr "Cliquez pour classer les éléments de la liste"
+#, sh-format
+msgid ""
+"Click on entries you want to restore in the main menu of $DISTRO_NAME "
+"$DISTRO_VERSION."
+msgstr ""
+"Cliquez sur les entrées que vous souhaitez restaurer dans le menu principal "
+"de $DISTRO_NAME $DISTRO_VERSION."
 
-#: mmme-bin.sh:148
+#: mmme-bin.sh:141
+msgid "Click on entries to remove"
+msgstr "Cliquez sur les entrées à retirer"
+
+#: mmme-bin.sh:142
+msgid "Click on entries to restore"
+msgstr "Cliquez sur les entrées à restaurer"
+
+#: mmme-bin.sh:150
 #, sh-format
 msgid "Manage"
 msgstr "Gérer"
 
-#: mmme-bin.sh:148
+#: mmme-bin.sh:150
 #, sh-format
 msgid "main menu entries"
 msgstr "les entrées du menu principal"
 
-#: mmme-bin.sh:154
+#: mmme-bin.sh:159
 msgid "Current entries"
 msgstr "Entrées actuelles"
 
-#: mmme-bin.sh:172
-msgid "Removed entries"
-msgstr "Entrées supprimées"
+#: mmme-bin.sh:190
+msgid "Available entries"
+msgstr "Entrées disponibles"
 
-#: mmme-bin.sh:193
+#: mmme-bin.sh:218
 #, sh-format
 msgid "Version and authors of $AppTitle01."
 msgstr "Version et auteurs de $AppTitle01."
 
-#: mmme-bin.sh:199
+#: mmme-bin.sh:223
 #, sh-format
-msgid "Refresh main menu and taskbar of $DISTRO_NAME $DISTRO_VERSION."
-msgstr "Rafraîchir le menu principal et la barre des tâches de $DISTRO_NAME $DISTRO_VERSION."
+msgid "Quit $AppTitle01."
+msgstr "Quitter $AppTitle01."
 
-#: mmme-bin.sh:204
-#, sh-format
-msgid "Quit $AppTitle01 and apply modifications."
-msgstr "Quitter $AppTitle01 et valider les modifications."
-
-#: mmme.sh:22
+#: mmme.sh:44
 #, sh-format
 msgid "$AppTitle is already running."
 msgstr "$AppTitle est déjà activé."
-
-#~ msgid "Quit $AppTitle01."
-#~ msgstr "Quitter $AppTitle01."

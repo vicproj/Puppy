@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ppi-0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-09-07 22:55+0200\n"
-"PO-Revision-Date: 2014-03-29 12:20+0100\n"
-"Last-Translator: ASRI <root@localhost>\n"
+"POT-Creation-Date: 2014-10-07 18:38+0200\n"
+"PO-Revision-Date: 2014-09-24 07:48+0100\n"
+"Last-Translator: ASRI\n"
 "Language-Team: French\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -40,16 +40,16 @@ msgstr ""
 "connexion internet et la configuration de $AppTitle01, puis redémarrez "
 "$AppTitle01."
 
-#: ppi-bin.sh:284
+#: ppi-bin.sh:285
 msgid "Please, select an application in the list."
 msgstr "Veuillez sélectionner une application dans la liste."
 
-#: ppi-bin.sh:285 ppi-bin.sh:1063
+#: ppi-bin.sh:286 ppi-bin.sh:1071
 #, sh-format
 msgid "Information"
 msgstr "Information"
 
-#: ppi-bin.sh:286
+#: ppi-bin.sh:287
 #, sh-format
 msgid ""
 "No information available. For more information, visit the forum or the "
@@ -58,11 +58,11 @@ msgstr ""
 "Aucune information disponible. Pour obtenir des infos, consultez le forum ou "
 "le site web de $DISTRO_NAME $DISTRO_VERSION."
 
-#: ppi-bin.sh:287
+#: ppi-bin.sh:288
 msgid "Currently, this package is not available."
 msgstr "Actuellement, ce paquet n'est pas disponible."
 
-#: ppi-bin.sh:288
+#: ppi-bin.sh:289
 #, sh-format
 msgid ""
 "Download process is completed: files have been saved in folder "
@@ -71,15 +71,15 @@ msgstr ""
 "Le processus de téléchargement est terminé : les fichiers ont été "
 "sauvegardés dans le dossier $DOWNLOAD_DIRECTORY"
 
-#: ppi-bin.sh:289
+#: ppi-bin.sh:290
 msgid "Install process is completed."
 msgstr "Le processus d'intallation est terminé."
 
-#: ppi-bin.sh:290
+#: ppi-bin.sh:291
 msgid "Reminder: dependencies need for"
 msgstr "Rappel : dépendances nécessaire pour"
 
-#: ppi-bin.sh:296
+#: ppi-bin.sh:297
 #, sh-format
 msgid ""
 "Version and authors of $AppTitle.\n"
@@ -94,23 +94,28 @@ msgstr ""
 "- Versions précédentes : par $AuthorPreviousVersions.\n"
 "- Version originale : par $AuthorOriginalVersion."
 
-#: ppi-bin.sh:565 ppi-bin.sh:610 ppi-bin.sh:647
+#: ppi-bin.sh:566 ppi-bin.sh:611 ppi-bin.sh:648
 #, sh-format
 msgid "Downloading information file..."
 msgstr "Téléchargement du fichier information..."
 
-#: ppi-bin.sh:667
+#: ppi-bin.sh:668
+#, sh-format
+msgid "License = $LICENSE"
+msgstr "Licence = $LICENSE"
+
+#: ppi-bin.sh:673
 #, sh-format
 msgid "Dependencies = $DEPENDENCIES"
 msgstr "Dépendances = $DEPENDENCIES"
 
-#: ppi-bin.sh:674
+#: ppi-bin.sh:680
 #, sh-format
 msgid "Sources = $SMsg"
 msgstr ""
 
-#: ppi-bin.sh:679
-#, fuzzy, sh-format
+#: ppi-bin.sh:685
+#, sh-format
 msgid ""
 "PET version = $PET\n"
 "- Size before install = $PETSIZE MB\n"
@@ -119,6 +124,8 @@ msgid ""
 "SFS version = $SFS\n"
 "- Size before install = $SFSSIZE MB\n"
 "- Size after install = $SFSSIZEAI MB\n"
+"\n"
+"$LicenseMsg\n"
 "\n"
 "$DepMsg\n"
 "\n"
@@ -132,14 +139,18 @@ msgstr ""
 "- Taille avant l'installation = $SFSSIZE Mo\n"
 "- Taille après l'installation = $SFSSIZEAI Mo\n"
 "\n"
-"$DepMsg"
+"$LicenseMsg\n"
+"\n"
+"$DepMsg\n"
+"\n"
+"$SourcesMsg"
 
-#: ppi-bin.sh:720 ppi-bin.sh:790
+#: ppi-bin.sh:728 ppi-bin.sh:798
 #, sh-format
 msgid "Downloading $GETFILES..."
 msgstr "Téléchargement de $GETFILES..."
 
-#: ppi-bin.sh:753
+#: ppi-bin.sh:761
 #, sh-format
 msgid ""
 "Free space in download folder ($DOWNLOAD_DIRECTORY = $FREESPACE MB) is "
@@ -155,7 +166,7 @@ msgstr ""
 "Remarque : la taille nécessaire pour télécharger $GETFILES ($PKGSIZE Mo) = "
 "$PETSIZE (taille du fichier demandé) + $SECURITYMARGIN (marge de sécurité)"
 
-#: ppi-bin.sh:823
+#: ppi-bin.sh:831
 #, sh-format
 msgid ""
 "Free space in download folder ($DOWNLOAD_DIRECTORY = $FREESPACE MB) is "
@@ -171,12 +182,12 @@ msgstr ""
 "Remarque : la taille nécessaire pour télécharger $GETFILES ($PKGSIZE Mo) = "
 "$SFSSIZE (taille du fichier demandé) + $SECURITYMARGIN (marge de sécurité)"
 
-#: ppi-bin.sh:872 ppi-bin.sh:958
+#: ppi-bin.sh:880 ppi-bin.sh:966
 #, sh-format
 msgid "Downloading/Installing $GETFILES..."
 msgstr "Téléchargement/Installation de $GETFILES..."
 
-#: ppi-bin.sh:921
+#: ppi-bin.sh:929
 #, sh-format
 msgid ""
 "Free space in $HOME ($FREESPACE MB) is smaller than size required to install "
@@ -193,7 +204,7 @@ msgstr ""
 "(taille du fichier demandé après l'installation x 2) + $SECURITYMARGIN "
 "(marge de sécurité)"
 
-#: ppi-bin.sh:999
+#: ppi-bin.sh:1007
 #, sh-format
 msgid ""
 "Free space in $HOME ($FREESPACE MB) is smaller than size required to install "
@@ -210,7 +221,7 @@ msgstr ""
 "(taille du fichier demandé après l'installation x 2) + $SECURITYMARGIN "
 "(marge de sécurité)"
 
-#: ppi-bin.sh:1043
+#: ppi-bin.sh:1051
 #, sh-format
 msgid ""
 "\n"
@@ -227,7 +238,7 @@ msgstr ""
 "Remarques : avant d'installer une application, vérifiez que vous bénéficiez "
 "de suffisament d'espace libre."
 
-#: ppi-bin.sh:1048
+#: ppi-bin.sh:1056
 #, sh-format
 msgid ""
 "\n"
@@ -243,7 +254,7 @@ msgstr ""
 "Remarques : pour installer des applications, vous devez privilégier les "
 "fichiers PET."
 
-#: ppi-bin.sh:1053
+#: ppi-bin.sh:1061
 #, sh-format
 msgid ""
 "\n"
@@ -264,80 +275,80 @@ msgstr ""
 "- pour installer des applications volumineuses, vous devez privilégier les "
 "fichiers SFS."
 
-#: ppi-bin.sh:1067
+#: ppi-bin.sh:1075
 #, sh-format
 msgid "$InfoComp01"
 msgstr "$InfoComp01"
 
-#: ppi-bin.sh:1075
+#: ppi-bin.sh:1083
 msgid "Ok, thank for information."
 msgstr "Ok, merci pour l'information."
 
-#: ppi-bin.sh:1076
+#: ppi-bin.sh:1084
 msgid " Ok "
 msgstr " Ok "
 
-#: ppi-bin.sh:1080
+#: ppi-bin.sh:1088
 #, sh-format
 msgid "Do not show this message again."
 msgstr "Ne plus afficher ce message."
 
-#: ppi-bin.sh:1081
+#: ppi-bin.sh:1089
 msgid " Stop message "
 msgstr " Arrêter ce message "
 
-#: ppi-bin.sh:1125
+#: ppi-bin.sh:1133
 msgid "Available applications list"
 msgstr "Liste des applications disponibles"
 
-#: ppi-bin.sh:1126
+#: ppi-bin.sh:1134
 msgid "Actions"
 msgstr "Actions"
 
-#: ppi-bin.sh:1127
+#: ppi-bin.sh:1135
 msgid "Select applications in the list, then click an button Actions."
 msgstr ""
 "Sélectionnez des applications dans la liste, puis cliquez sur un bouton "
 "Actions."
 
-#: ppi-bin.sh:1128
+#: ppi-bin.sh:1136
 msgid "Click here to sort items of the list"
 msgstr "Cliquez ici pour classer les éléments de la liste"
 
-#: ppi-bin.sh:1129
+#: ppi-bin.sh:1137
 msgid "Use Internet to get function informations for selected applications."
 msgstr ""
 "Consulter des informations sur les fonctions des applications sélectionnées."
 
-#: ppi-bin.sh:1130
+#: ppi-bin.sh:1138
 msgid "Function"
 msgstr "Fonction"
 
-#: ppi-bin.sh:1131
+#: ppi-bin.sh:1139
 msgid "Show version informations for selected applications."
 msgstr "Consulter les informations de version des applications sélectionnées."
 
-#: ppi-bin.sh:1132
+#: ppi-bin.sh:1140
 msgid "Version"
 msgstr "Version"
 
-#: ppi-bin.sh:1133
+#: ppi-bin.sh:1141
 msgid "Install selected applications (SFS format)."
 msgstr "Installer les applications sélectionnées (format SFS)."
 
-#: ppi-bin.sh:1134
+#: ppi-bin.sh:1142
 msgid "Install SFS"
 msgstr "Installer SFS"
 
-#: ppi-bin.sh:1135
+#: ppi-bin.sh:1143
 msgid "Install selected applications (PET format)."
 msgstr "Installer les applications sélectionnées (format PET)."
 
-#: ppi-bin.sh:1136
+#: ppi-bin.sh:1144
 msgid "Install PET"
 msgstr "Installer PET"
 
-#: ppi-bin.sh:1137
+#: ppi-bin.sh:1145
 #, sh-format
 msgid ""
 "Download selected applications (SFS format). Downloaded files will be saved "
@@ -346,11 +357,11 @@ msgstr ""
 "Télécharger les applications sélectionnées (format SFS). Les fichiers "
 "téléchargés seront sauvegardés dans le dossier $DOWNLOAD_DIRECTORY"
 
-#: ppi-bin.sh:1138
+#: ppi-bin.sh:1146
 msgid "Download SFS"
 msgstr "Télécharger SFS"
 
-#: ppi-bin.sh:1139
+#: ppi-bin.sh:1147
 #, sh-format
 msgid ""
 "Download selected applications (PET format). Downloaded files will be saved "
@@ -359,33 +370,33 @@ msgstr ""
 "Télécharger les applications sélectionnées (format PET). Les fichiers "
 "téléchargés seront sauvegardés dans le dossier $DOWNLOAD_DIRECTORY"
 
-#: ppi-bin.sh:1140
+#: ppi-bin.sh:1148
 msgid "Download PET"
 msgstr "Télécharger PET"
 
-#: ppi-bin.sh:1148 ppi-bin.sh:1153
+#: ppi-bin.sh:1156 ppi-bin.sh:1161
 msgid "Results"
 msgstr "Résultats"
 
-#: ppi-bin.sh:1148
+#: ppi-bin.sh:1156
 #, sh-format
 msgid "Packages founded in the lists of $AppTitle01:"
 msgstr "Paquets trouvés dans les listes de $AppTitle01."
 
-#: ppi-bin.sh:1153
+#: ppi-bin.sh:1161
 #, sh-format
 msgid "$SEARCHSTRING was not found in the lists of $AppTitle01."
 msgstr "$SEARCHSTRING n'a pas été trouvé dans les listes de $AppTitle01."
 
-#: ppi-bin.sh:1160
+#: ppi-bin.sh:1168
 msgid "Search packages"
 msgstr "Rechercher des paquets"
 
-#: ppi-bin.sh:1164
+#: ppi-bin.sh:1172
 msgid "Package to search"
 msgstr "Paquet à rechercher"
 
-#: ppi-bin.sh:1167
+#: ppi-bin.sh:1175
 #, sh-format
 msgid ""
 "Enter (part of) the package name to search in the lists of $AppTitle01.\n"
@@ -397,165 +408,165 @@ msgstr ""
 "\n"
 "Remarque : utilisez uniquement des caractères minuscules sans accents."
 
-#: ppi-bin.sh:1182
+#: ppi-bin.sh:1190
 #, sh-format
 msgid "Start the search."
 msgstr "Commencer la recherche."
 
-#: ppi-bin.sh:1188
+#: ppi-bin.sh:1196
 #, sh-format
 msgid "Quit the search."
 msgstr "Quitter la recherche."
 
-#: ppi-bin.sh:1212
+#: ppi-bin.sh:1220
 msgid "Preferences"
 msgstr "Préférences"
 
-#: ppi-bin.sh:1216 ppi-bin.sh:2262
+#: ppi-bin.sh:1224 ppi-bin.sh:2270
 msgid "Downloads"
 msgstr "Téléchargements"
 
-#: ppi-bin.sh:1220
+#: ppi-bin.sh:1228
 #, sh-format
 msgid "Use terminal to show informations during downloads."
 msgstr ""
 "Utiliser un terminal pour afficher des informations durant les "
 "téléchargements."
 
-#: ppi-bin.sh:1221
+#: ppi-bin.sh:1229
 msgid "Use terminal during downloads"
 msgstr "Utiliser un terminal durant les téléchargements"
 
-#: ppi-bin.sh:1237
+#: ppi-bin.sh:1245
 msgid "Current download folder:"
 msgstr "Dossier actuel de téléchargement :"
 
-#: ppi-bin.sh:1242
+#: ppi-bin.sh:1250
 #, sh-format
 msgid "Folder used to host downloaded files."
 msgstr "Dossier utilisé pour accueillir les fichiers téléchargés."
 
-#: ppi-bin.sh:1242
+#: ppi-bin.sh:1250
 msgid "Download folder"
 msgstr "Dossier de téléchargement"
 
-#: ppi-bin.sh:1249
+#: ppi-bin.sh:1257
 msgid "Select/Change folder used to host downloaded files."
 msgstr ""
 "Sélectionner/Changer le dossier utilisé pour accueillir les fichiers "
 "téléchargés."
 
-#: ppi-bin.sh:1268
+#: ppi-bin.sh:1276
 #, sh-format
 msgid "Show content of host folder after downloads."
 msgstr "Afficher le contenu du dossier d'accueil après les téléchargements."
 
-#: ppi-bin.sh:1269
+#: ppi-bin.sh:1277
 msgid "Show content after dowloads"
 msgstr "Afficher le contenu après les téléchargements"
 
-#: ppi-bin.sh:1278
+#: ppi-bin.sh:1286
 #, sh-format
 msgid "Show dependencies (if they exist) after download."
 msgstr ""
 "Afficher les dépendances (s'il elles existent) après le téléchargement."
 
-#: ppi-bin.sh:1279
+#: ppi-bin.sh:1287
 msgid "Show dependencies after dowload"
 msgstr "Afficher les dépendances après les téléchargements"
 
-#: ppi-bin.sh:1290
+#: ppi-bin.sh:1298
 msgid "Save values."
 msgstr "Sauvegarder les valeurs."
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Internet"
 msgstr "Internet"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Office"
 msgstr "Bureautique"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Audio-Video"
 msgstr "Audio-Vidéo"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Graphic"
 msgstr "Graphisme"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Education"
 msgstr "Education"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Game"
 msgstr "Jeux"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Utility"
 msgstr "Utilitaires"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Driver"
 msgstr "Pilotes"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Various"
 msgstr "Divers"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 msgid "Dev"
-msgstr "Dév"
+msgstr "Dev"
 
-#: ppi-bin.sh:1334
+#: ppi-bin.sh:1342
 #, sh-format
 msgid "$AppTitle01 options"
 msgstr "Options $AppTitle01"
 
-#: ppi-bin.sh:2266
+#: ppi-bin.sh:2274
 #, sh-format
 msgid "Consult download folder: $DOWNLOAD_DIRECTORY"
 msgstr "Consulter le dossier de téléchargement : $DOWNLOAD_DIRECTORY"
 
-#: ppi-bin.sh:2267 ppi-bin.sh:2309
+#: ppi-bin.sh:2275 ppi-bin.sh:2317
 msgid "Consult"
 msgstr "Consulter"
 
-#: ppi-bin.sh:2279
+#: ppi-bin.sh:2287
 msgid "Free space"
 msgstr "Espace libre"
 
-#: ppi-bin.sh:2283
+#: ppi-bin.sh:2291
 #, sh-format
 msgid "Consult free space for mounted partitions."
 msgstr "Consulter l'espace libre disponible dans les partitions montées."
 
-#: ppi-bin.sh:2284
+#: ppi-bin.sh:2292
 msgid "Partitions"
 msgstr "Partitions"
 
-#: ppi-bin.sh:2291
+#: ppi-bin.sh:2299
 #, sh-format
 msgid "Consult free space for pupsave file (if one is used)."
 msgstr ""
 "Consulter l'espace libre disponible dans le pupsave (si un fichier pupsave "
 "est utilisé)."
 
-#: ppi-bin.sh:2292
+#: ppi-bin.sh:2300
 msgid "Pupsave"
 msgstr "Pupsave"
 
-#: ppi-bin.sh:2304
+#: ppi-bin.sh:2312
 msgid "Repository"
 msgstr "Dépôt"
 
-#: ppi-bin.sh:2308
+#: ppi-bin.sh:2316
 #, sh-format
 msgid "View the content of the repository for $DISTRO_NAME $DISTRO_VERSION."
 msgstr "Consulter le contenu du dépôt de $DISTRO_NAME $DISTRO_VERSION."
 
-#: ppi-bin.sh:2316
+#: ppi-bin.sh:2324
 #, sh-format
 msgid ""
 "Access the forum of $DISTRO_NAME $DISTRO_VERSION and offer/request "
@@ -564,35 +575,35 @@ msgstr ""
 "Accéder au forum de $DISTRO_NAME $DISTRO_VERSION et proposer/demander des "
 "applications."
 
-#: ppi-bin.sh:2317
+#: ppi-bin.sh:2325
 msgid "Propose"
 msgstr "Proposer"
 
-#: ppi-bin.sh:2337
+#: ppi-bin.sh:2345
 #, sh-format
 msgid "Search a package in the lists of $AppTitle01."
 msgstr "Rechercher un paquet dans les listes de $AppTitle01."
 
-#: ppi-bin.sh:2342
+#: ppi-bin.sh:2350
 msgid "Refresh lists of available packages."
 msgstr "Rafraîchir la liste des paquets disponibles."
 
-#: ppi-bin.sh:2348
+#: ppi-bin.sh:2356
 #, sh-format
 msgid "Preferences of $AppTitle01."
 msgstr "Préférences de $AppTitle01."
 
-#: ppi-bin.sh:2354
+#: ppi-bin.sh:2362
 #, sh-format
 msgid "Help for $AppTitle01."
 msgstr "Aide pour $AppTitle01."
 
-#: ppi-bin.sh:2359
+#: ppi-bin.sh:2367
 #, sh-format
 msgid "Version and authors of $AppTitle01."
 msgstr "Version et auteurs de $AppTitle01."
 
-#: ppi-bin.sh:2364
+#: ppi-bin.sh:2372
 #, sh-format
 msgid ""
 "Launch PPM (puppy package manager) to uninstall PET packages installed, or "
@@ -601,12 +612,12 @@ msgstr ""
 "Activer PPM (puppy package manager) pour désinstaller les paquets PET, ou "
 "pour accéder à d'autres paquets."
 
-#: ppi-bin.sh:2369
+#: ppi-bin.sh:2377
 #, sh-format
 msgid "Launch SFS loader to mount/unmount SFS packages."
 msgstr "Activer SFS loader afin de monter/démonter les paquets SFS."
 
-#: ppi-bin.sh:2374
+#: ppi-bin.sh:2382
 #, sh-format
 msgid "Quit $AppTitle01."
 msgstr "Quitter $AppTitle01."

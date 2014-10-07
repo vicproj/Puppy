@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-05-19 18:06+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Médor <EMAIL@ADDRESS>\n"
+"Language-Team: French <LL@li.org>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: freememapplet_tray.c:114
+#, fuzzy
+msgid " personal storage, free space "
+msgstr " stockage personnel, libre = "
+
+#~ msgid " hard disk, free space = "
+#~ msgstr " disque dur, libre = "
+
+#~ msgid " tmpfs ramdisk, free space = "
+#~ msgstr " disque ram, libre = "
+
+#~ msgid " | Right Click for More Options"
+#~ msgstr " | Options : clic droit"
+
+#~ msgid "Task Manager (lxtask)"
+#~ msgstr "Gestionnaire des tâches : LxTask"
+
+#~ msgid "View Partition Sizes (partview)"
+#~ msgstr "Espace libre des partitions : PartView"
